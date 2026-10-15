@@ -1,0 +1,408 @@
+{
+ "batch": "op10_04",
+ "operation": 10,
+ "previous_batch": "op10_03",
+ "next_batch": null,
+ "rows_in_slice": 11,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "バイストン・ウェル",
+   "en": "Byston Well",
+   "kind": "place",
+   "series": "Aura Battler Dunbine",
+   "role": "The otherworld between sea and land where Dunbine takes place."
+  },
+  {
+   "ja": "シーラ・ラパーナ",
+   "en": "Ciela Lapana",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "female",
+   "role": "Queen of the Kingdom of Na; commands the aura battleship Gran-Garan; gives Sho the Billbine",
+   "personality": "Serene, dignified young queen with strong Aura Power and a sense of duty to all of Byston Well. Calm but resolute.",
+   "en_short": "Ciela"
+  },
+  {
+   "ja": "ジャコバ・アオン",
+   "en": "Jacoba Aon",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "female",
+   "role": "Queen of the Ferario, who lives in the Land of Water. Late in the series she sends every Aura Machine and its crew up to the surface world, at the cost of her own life.",
+   "personality": "Aloof and self-centred; puts her own race and Byston Well first and does not care what harm comes to humans or the surface world. Her aura is overwhelming, almost godlike."
+  },
+  {
+   "ja": "オーラバトラー",
+   "en": "Aura Battler",
+   "kind": "term",
+   "series": "Aura Battler Dunbine",
+   "role": "Class of insect-like Byston Well mecha fielded by the Drake Army and Show's side."
+  },
+  {
+   "ja": "グラン・ガラン",
+   "en": "Gran-Garan",
+   "kind": "ship",
+   "series": "Aura Battler Dunbine",
+   "role": "Aura battleship of Queen Ciela Lapana (Kingdom of Na)"
+  },
+  {
+   "ja": "プリベンター",
+   "en": "Preventer",
+   "kind": "faction"
+  },
+  {
+   "ja": "ゴラオン",
+   "en": "Goraon",
+   "kind": "ship",
+   "series": "Aura Battler Dunbine",
+   "role": "Aura battleship of Elle Humm (Kingdom of Lao), armed with the Aura Nova Cannon"
+  },
+  {
+   "ja": "ドレイク",
+   "en": "Drake",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Main antagonist; Lord of House Luft in the Kingdom of Ah (アの国), who summons Holy Warriors and wages war to unite Byston Well; commands the Will Wipps",
+   "personality": "Ambitious, scheming warlord who believes his conquest is justified. Loves his daughter Riml but is blind to the plots around him.",
+   "full_name": "Drake Luft"
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "ネルガル",
+   "en": "Nergal",
+   "kind": "faction",
+   "series": "Martian Successor Nadesico",
+   "role": "Short form of Nergal Heavy Industries (ネルガル側, ネルガルの戦艦ナデシコ)."
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "シーラ",
+   "en": "Ciela",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "female",
+   "role": "Queen of the Kingdom of Na; commands the aura battleship Gran-Garan; gives Sho the Billbine",
+   "personality": "Serene, dignified young queen with strong Aura Power and a sense of duty to all of Byston Well. Calm but resolute.",
+   "full_name": "Ciela Lapana"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  }
+ ],
+ "known_portraits": {},
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "brief63177#12",
+   "layer": "debriefing",
+   "jp": "<op(54,1)><sp(2)><im(10)>#c[BE5050]ドレイク#cは、それをいいことに\nこちらの世界も自らの手中に\n収めるつもりのようです。",
+   "en": ""
+  },
+  {
+   "ref": "brief63177#13",
+   "layer": "debriefing",
+   "jp": "<op(54,1)><sp(2)>皆さんには信じがたい話であるのは、\nこちらも十分承知しているつもりです。\n",
+   "en": ""
+  },
+  {
+   "ref": "brief63177#14",
+   "layer": "debriefing",
+   "jp": "<op(54,1)><sp(2)><im(12)>しかし、このまま彼の野望を見逃しては、\n地上にも大いなる災いを招きましょう。\nどうか、お力をお貸しください。",
+   "en": ""
+  },
+  {
+   "ref": "brief63177#15",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)>ということだ。\n何ともウソのような話ではあるが……",
+   "en": ""
+  },
+  {
+   "ref": "brief63177#16",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)><im(5)>現に彼女たちは目の前にいる。\n#c[BE5050]ドレイク軍#cを名乗る勢力が世界各地に\n現れたとの報告も入っている。",
+   "en": ""
+  },
+  {
+   "ref": "brief63177#17",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)>君たちが遭遇したのと同じようにな。\nとなれば、シーラ女王を信じる以外、\nどうしようもなかろう。",
+   "en": ""
+  },
+  {
+   "ref": "brief63177#18",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)><im(13)>先ほど、#c[5E8FD8]ＵＣＥ#c統合参謀本部は\nシーラ女王を交えて協議を行い、\n彼女たちと共同歩調を取ることを決定した。",
+   "en": ""
+  },
+  {
+   "ref": "brief63177#19",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)>現在、君たちの艦に保護している、\nショウ・ザマとマーベル・フローズンの\n２名の扱いだが…",
+   "en": ""
+  },
+  {
+   "ref": "brief63177#20",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)>シーラ女王と合流できるまでの間、\nそのまま#c[5E8FD8]アルビオン#cで預かって欲しい。\n手はずは整えておく。",
+   "en": ""
+  },
+  {
+   "ref": "brief63232#0",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>「機動戦艦ナデシコ」\n\n　　　　　　　　　　　　　　　　　　　プリベンター　レディ・アン",
+   "en": ""
+  },
+  {
+   "ref": "brief63232#1",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>ネルガル重工の新鋭艦#c[5E8FD8]ナデシコ#cが、<im(3)>\n#c[5E8FD8]ＵＣＥ#cの制止を振り切り大気圏外に離脱、\n火星<im(2)>へと出発した。",
+   "en": ""
+  },
+  {
+   "ref": "brief63232#2",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>これを受けて、軍とネルガル関係者の\n間で会談<im(1)>が持たれ、#c[5E8FD8]ナデシコ#cの今後の\n措置が協議されたが、",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "brief63232#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>地球帰還後、軍属となった#c[5E8FD8]ナデシコ#cが\n#c[5E8FD8]ＵＣＥ#c指揮下に置かれることをネルガル側\nが承諾し、両者の和解が成立した。",
+   "en": "<sp(0)>Nergal agreed that, once on Earth,\nthe #c[5E8FD8]Nadesico#c enters #c[5E8FD8]UCE#c command,\nsettling the dispute between both sides.",
+   "notes": "Lady Une detailing the political compromise between Nergal and UCE regarding Nadesico. fix: line length exceeded 430px -> compacted into three lines"
+  },
+  {
+   "ref": "brief63232#4",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>なお、本件に関する公式発表は\n当分の間控えられるため、\n情報の取り扱いには十分注意すること。",
+   "en": "<sp(0)>Official notices are withheld for now.\nExercise great caution when handling\nthis information.",
+   "notes": "Directive ordering intelligence confidentiality. fix: line length exceeded 430px -> compacted into three lines"
+  },
+  {
+   "ref": "brief63233#0",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「ドレイクとシーラ・ラパーナ」\n\n　　　　　　　　　　　　　　　　　　　プリベンター　レディ・アン",
+   "en": "<sp(0)>\"Drake and Ciela Lapana\"\n\n　　　　　　　　　　　　　　　　　　Preventer Lady Une",
+   "notes": "Preventer intelligence report title and byline on Drake and Queen Ciela. fix: double space and leading spaces -> replaced with fullwidth Japanese spaces"
+  },
+  {
+   "ref": "brief63233#1",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(1)>",
+    "<im(2)>",
+    "<im(3)>",
+    "#c[E2E258]",
+    "#c",
+    "<im(5)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>本件は、世界各地に出現した<im(1)><im(2)><im(3)>\n#c[E2E258]オーラバトラー#cと呼ばれる機体を<im(5)>\n持つ勢力に関する報告である。",
+   "en": "<sp(0)>This report concerns forces worldwide<im(1)><im(2)><im(3)>\npossessing units known as #c[E2E258]Aura Battlers#c<im(5)>\nthat have recently appeared on the surface.",
+   "notes": "Lady Une intelligence report introduction to Aura Battlers."
+  },
+  {
+   "ref": "brief63233#2",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(6)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>現在#c[5E8FD8]プリベンター#cでは、地上に現れた\n勢力の一つ#c[5E8FD8]グラン・ガラン#cの<im(6)>代表者\nシーラ・ラパーナから事情を聞いている。",
+   "en": "<sp(0)>Currently, #c[5E8FD8]Preventer#c is debriefing Queen\nCiela Lapana, leader of the #c[5E8FD8]Gran-Garan#c,<im(6)>\none of the factions that appeared on Earth.",
+   "notes": "Report detailing Preventer debriefing Queen Ciela."
+  },
+  {
+   "ref": "brief63233#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>彼らは、バイストン･ウェルと呼ばれる\n異世界の住人であり、長きに渡る\n交戦状態にあったが、",
+   "en": "<sp(0)>They are inhabitants of an alternate world\nknown as Byston Well, and had been locked\nin a prolonged state of war, but",
+   "notes": "Background on Byston Well factions."
+  },
+  {
+   "ref": "brief63233#4",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>ジャコバ・アオンという者の手によって、\n地上へと追放されてきたと言う。\n",
+   "en": "<sp(0)>they state that they were banished to the\nsurface world at the hands of a being\nknown as Jacoba Aon.",
+   "notes": "Record of Jacoba Aon's banishment."
+  },
+  {
+   "ref": "brief63233#5",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>一方、彼らに敵対する#c[BE5050]ドレイク軍#cは\nバイストン・ウェルにおいて\n他国への侵略を繰り返してきた。",
+   "en": "<sp(0)>Meanwhile, the hostile #c[BE5050]Drake Army#c had\nrepeatedly invaded and conquered other\nnations across Byston Well.",
+   "notes": "Report detailing the aggression of Drake's forces."
+  },
+  {
+   "ref": "brief63233#6",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>そして、#c[5E8FD8]グラン・ガラン#cが追放された今、\n#c[BE5050]ドレイク軍#cは、その目標を地上の制圧に\n切り替え、作戦を開始したとのこと。",
+   "en": "<sp(0)>Now with the #c[5E8FD8]Gran-Garan#c banished, the\n#c[BE5050]Drake Army#c has shifted its objective\nto conquering the surface world.",
+   "notes": "Lady Une reporting on Drake's shift of invasion targets to Earth."
+  },
+  {
+   "ref": "brief63233#7",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(5)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>事実、シーラ・ラパーナの証言どおり\n#c[BE5050]ドレイク軍#cは、世界各地<im(5)>で侵略行動\nを活発化させている。",
+   "en": "<sp(0)>Indeed, as Ciela Lapana has testified,\nthe #c[BE5050]Drake Army#c is escalating acts of<im(5)>\ninvasion across multiple regions worldwide.",
+   "notes": "Intelligence confirming corroborating reports of Drake's invasions."
+  },
+  {
+   "ref": "brief63233#8",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[5E8FD8]ＵＣＥ#cは、シーラ女王の艦#c[5E8FD8]グラン・ガラン#c、\n及び、同友軍艦#c[5E8FD8]ゴラオン#cと共同戦線を張り、\n#c[BE5050]ドレイク軍#cへの対抗策の検討に入った。",
+   "en": "<sp(0)>The #c[5E8FD8]UCE#c has joined forces with\nthe #c[5E8FD8]Gran-Garan#c and allied #c[5E8FD8]Goraon#c to plan\ncountermeasures against the #c[BE5050]Drake Army#c.",
+   "notes": "Conclusion of Preventer report on the alliance formed between UCE, Gran-Garan, and Goraon to counter Drake."
+  }
+ ],
+ "context_after": [],
+ "report": {
+  "translator_summary": "Translated batch op10_04 (11 rows), completing Operation 10. These rows conclude Lady Une's Preventer intelligence reports covering the formal post-incident settlement regarding Nergal and the Nadesico, as well as the background report on Byston Well, Queen Ciela Lapana (Gran-Garan), Elle Humm's ship Goraon, Drake Luft's worldwide aggression, and Jacoba Aon's exile.",
+  "rows_examined": "op10_03, op10_04, context_before (brief63177#12-20, brief63232#0-2), slice rows (brief63232#3-4, brief63233#0-8).",
+  "rows_examined_count": 11,
+  "uncertainties": [
+   {
+    "ref": "brief63233#8",
+    "issue": "Line includes 4 colored tags (#c[5E8FD8]UCE, Gran-Garan, Goraon; #c[BE5050]Drake Army). Preserved exact order of tokens and formatted cleanly within 3 lines."
+   }
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

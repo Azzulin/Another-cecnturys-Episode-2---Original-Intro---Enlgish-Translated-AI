@@ -1,0 +1,1662 @@
+{
+ "batch": "xa_01",
+ "operation": null,
+ "group": "xa",
+ "group_label": "Extra missions (Nadesico B, Ra Cailum, White Fang...)",
+ "previous_batch": null,
+ "next_batch": "xa_02",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Amuro Ray",
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "ジョナサングランチャー",
+   "en": "Jonathan Grand Cher",
+   "kind": "unit",
+   "series": "Brain Powerd",
+   "role": "Same unit as ジョナサン・グランチャー; this game string just has no middle dot"
+  },
+  {
+   "ja": "シーラ・ラパーナ",
+   "en": "Ciela Lapana",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "female",
+   "role": "Queen of the Kingdom of Na; commands the aura battleship Gran-Garan; gives Sho the Billbine",
+   "personality": "Serene, dignified young queen with strong Aura Power and a sense of duty to all of Byston Well. Calm but resolute.",
+   "en_short": "Ciela"
+  },
+  {
+   "ja": "グラン・ガラン",
+   "en": "Gran-Garan",
+   "kind": "ship",
+   "series": "Aura Battler Dunbine",
+   "role": "Aura battleship of Queen Ciela Lapana (Kingdom of Na)"
+  },
+  {
+   "ja": "グランチャー",
+   "en": "Grand Cher",
+   "kind": "unit",
+   "series": "Brain Powerd",
+   "role": "Orphan-loyal Antibody piloted by Reclaimers (generic grunt unit)"
+  },
+  {
+   "ja": "リクレイマー",
+   "en": "Reclaimer",
+   "kind": "faction",
+   "series": "Brain Powerd",
+   "role": "The people who serve Orphan and pilot Grand Chers to gather its plates; plural 'Reclaimers'"
+  },
+  {
+   "ja": "オルファン",
+   "en": "Orphan",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Gigantic sentient alien ship buried under the Pacific; its awakening threatens Earth; base of the Reclaimers"
+  },
+  {
+   "ja": "ジョナサン",
+   "en": "Jonathan",
+   "kind": "character",
+   "series": "Brain Powerd",
+   "gender": "male",
+   "role": "Reclaimer ace of Orphan; pilots Jonathan Grand Cher, later Jonathan Baronz; Yuu's rival and the son of Novis Noah's captain Anoa McCormick",
+   "personality": "Arrogant, aggressive and taunting, full of resentment toward Yuu and his own mother. Loyal to Baron Maximilian.",
+   "full_name": "Jonathan Glenn"
+  },
+  {
+   "ja": "ドレイク",
+   "en": "Drake",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Main antagonist; Lord of House Luft in the Kingdom of Ah (アの国), who summons Holy Warriors and wages war to unite Byston Well; commands the Will Wipps",
+   "personality": "Ambitious, scheming warlord who believes his conquest is justified. Loves his daughter Riml but is blind to the plots around him.",
+   "full_name": "Drake Luft"
+  },
+  {
+   "ja": "リリーナ",
+   "en": "Relena",
+   "kind": "character",
+   "series": "Mobile Suit Gundam Wing",
+   "gender": "female",
+   "role": "Female lead; heir of the Sanc Kingdom (real name Relena Peacecraft), Zechs's younger sister, and a pacifist leader.",
+   "personality": "Idealistic, determined pacifist; dignified and unafraid to confront soldiers.",
+   "full_name": "Relena Darlian"
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "OZ",
+   "en": "OZ",
+   "kind": "faction",
+   "series": "Mobile Suit Gundam Wing",
+   "role": "Organization of the Zodiac: elite secret society/military organization inside the Alliance, led by Treize Khushrenada"
+  }
+ ],
+ "known_portraits": {},
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6005#0",
+   "layer": "mission dialogue",
+   "jp": "敵勢力の撃破",
+   "en": "Destroy the enemy forces"
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6005#1",
+   "layer": "mission dialogue",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "防空部隊の全滅",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#2",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>沿岸の対空砲が敵の爆撃機を足止めしている\n対空砲を護衛し、爆撃機の侵入を防ぐ<ab(500)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#3",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>グラン・ガランは外洋にて防衛します<ab(500)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#4",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>了解です\n我々は突破された敵を対処します<ab(500)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#5",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>１機たりとも近づけるな！<ab(500)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#6",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>沿岸の対空部隊を守るんだ<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#7",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>彼らがやられれば、爆撃機が来るぞ！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#8",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵はＯＺのモビルドール部隊です<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#9",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>最新の機種か、厄介だな…<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#10",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>防衛部隊が攻撃を受けています！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#11",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>防衛部隊、残りあと３機！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#12",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何やってんの！　敵を抑えるんだ！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#13",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>防衛部隊、残り１機！　もう持たないぞ！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#14",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>海中より熱源反応！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#15",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>公共周波数にＵＣＥより通信が！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#16",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<cs(1)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)><cs(1)>貴国は難民救済を名目に亡命者を受け入れ、<ab(0)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#17",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<cs(1)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)><cs(1)>犯罪者の温床となっている<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#18",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<cs(1)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)><cs(1)>貴国は再三の警告にも応じなかった<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#19",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<cs(1)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)><cs(1)>残された道は、かつてと同じく滅亡の命運だ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#20",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どうあっても潰す気か…！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#21",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>長く続く戦いに飽いた民衆は<ab(0)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#22",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>サンクキングダムを支持している<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#23",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ＵＣＥが脅威を感じるほどにな<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#24",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今すぐ戦闘をやめるのです！<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#25",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>武力では何の解決も望めません<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#26",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<cs(1)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)><cs(1)>手強いのがいる！　増援頼む！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#27",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵増援部隊を確認<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#28",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵は撤退を開始したようです<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#29",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>防空部隊、沈黙！\n敵爆撃機がサンクキングダムへ侵入します！<ab(500)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#30",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>サンクキングダムが…！\nリリーナ様…！<ab(500)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#31",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>バリアを展開している間は動きが止まるようね<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#32",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>バリアの展開中は動きが止まるようだ<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#33",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>バリア展開中は敵の動きが止まります<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#34",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>バリアを展開している間は動きが止まるわ<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#35",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>バリアを展開してる間は動きが止まるわ<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#36",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>バリアの展開中は動きが止まるみたいよ<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#37",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>バリア展開中ノターゲット停止ヲ確認<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#38",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>バリアの展開中は敵の動きが止まるわ<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#39",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>片っ端から攻撃すればなんとかなるわ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#40",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>できるだけ多くの敵機に攻撃するんだ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#41",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>攻撃を続ければ、押し止められそうですね<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#42",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>次々と攻撃をして、敵を押し留めて<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#43",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>どんどん攻撃すれば、なんとかなりそうよ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#44",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>次々と攻撃をすれば、敵を防げそうね<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#45",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ターゲットノ動キヲ止メヨ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#46",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>片っ端から攻撃をすれば、いけますよ！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#47",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>攻撃を続けて、敵の侵攻を防ぐのよ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#48",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>攻撃により敵の動きを止めてください<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#49",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やったわ、すごいじゃない！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#50",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>見事な腕前だ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#51",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>鮮やかですね、さすがです<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#52",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>すごい、私の予想以上だわ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#53",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やーん、ちょっと、すごいじゃない<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#54",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>すごいわ、あなたの本領発揮ね<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#55",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>危機回避<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#56",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>すごい腕前ですね！　感激です！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#57",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>すごいじゃないの、その調子よ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6005#58",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さすが、エースパイロットですね<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#0",
+   "layer": "mission dialogue",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "機密物資の発見",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#1",
+   "layer": "mission dialogue",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "機密物資の破壊",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#3",
+   "layer": "mission dialogue",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ジョナサングランチャーの撃破",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#4",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ドレイクを追うためＵＣＥに協力している<ab(0)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#5",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>グラン・ガランのシーラ・ラパーナと申します<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#6",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>私達がリクレイマーをひきつけている間に<ab(0)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#7",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>目標の回収を頼みます<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#8",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>目標の位置はソナー音でわかる<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#9",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>距離が近くなるとソナー音が速くなる<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#10",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>発見したら接近して発信機を取りつけてくれ<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#11",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>後は、こちらで回収艇を回す<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#12",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>詳細は知らされていないが軍の重要物資だ<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#13",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>取扱いには十分注意してくれ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#14",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まだ見つからないのですか<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#15",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵にソナーを妨害されている。倒してくれ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#16",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<cs(2)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)><cs(2)>ジョナサン、俺達が戦ったって、<ab(0)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#17",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<cs(2)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)><cs(2)>何にもならないんだぞ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#18",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<cs(1)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 398,
+   "max_line_chars_approx": 40,
+   "jp": "<op()><sp(20)><cs(1)>オルファンがやろうとしていることを邪魔する奴は<ab(0)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#19",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<cs(1)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)><cs(1)>全て排除する<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#20",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<cs(1)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)><cs(1)>貴様の任務も同じだったはずだ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#21",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<cs(2)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)><cs(2)>今は違う。グランチャーの任務も<ab(0)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6006#22",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<cs(2)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)><cs(2)>オルファンの目的だっておかしいんだ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6006#23",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)><cs(1)>貴様は覚悟が足りないから、<ab(0)>",
+   "en": ""
+  },
+  {
+   "ref": "m6006#24",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)><cs(1)>オルファンから逃げ出そうとかするんだよ！<ab(1000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6006#25",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)><cs(1)>いくじなしめ！　男じゃないんだよ！！<ab(1000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6006#26",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)><cs(2)>言ったな…ジョナサン・グレーン！<ab(1000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6006#27",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>発信機の取りつけを確認<ab(1000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6006#28",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>回収艇をまわします<ab(1000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6006#29",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>よくやってくれました<ab(500)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6006#30",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)><cs(2)>ポセイダルなんて奴らと手まで組んで、<ab(0)>",
+   "en": ""
+  },
+  {
+   "ref": "m6006#31",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)><cs(2)>そんなことを手伝う仕事なんか、もう嫌だ<ab(1000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6006#32",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)><cs(1)>オルファンの永遠は人類の永遠である<ab(1000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6006#33",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)><cs(1)>それがわからないのかよ<ab(1000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6006#34",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)><cs(1)>そのためには、あれが必要であることもな！<ab(1000)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "",
+  "rows_examined": "",
+  "rows_examined_count": 0,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

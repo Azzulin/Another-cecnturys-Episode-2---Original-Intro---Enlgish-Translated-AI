@@ -1,0 +1,1539 @@
+{
+ "batch": "xb_01",
+ "operation": null,
+ "group": "xb",
+ "group_label": "In-game tutorial / manual",
+ "previous_batch": null,
+ "next_batch": "xb_02",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Amuro Ray",
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "ローラーダッシュ",
+   "en": "Roller Dash",
+   "kind": "generic",
+   "series": "Another Century's Episode series (game system)",
+   "role": "Ground skating ability (Aestivalis etc.)."
+  },
+  {
+   "ja": "マルチロック",
+   "en": "Multi-Lock",
+   "kind": "generic",
+   "series": "Another Century's Episode series (game system)",
+   "role": "Lock several targets at once."
+  },
+  {
+   "ja": "ダッシュ",
+   "en": "Dash",
+   "kind": "generic",
+   "series": "Another Century's Episode series (game system)",
+   "role": "Boost dash."
+  },
+  {
+   "ja": "チャージ",
+   "en": "charge",
+   "kind": "generic",
+   "series": "Another Century's Episode series (game system)",
+   "role": "Charging a shot; in weapon names (チャージ) suffix."
+  },
+  {
+   "ja": "バーニア",
+   "en": "vernier",
+   "kind": "generic",
+   "series": "Another Century's Episode series (game system)",
+   "role": "Boost thrust resource (バーニア消費)."
+  },
+  {
+   "ja": "パージ",
+   "en": "Purge",
+   "kind": "generic",
+   "series": "Another Century's Episode series (game system)",
+   "role": "Detach extra armor/equipment command."
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  }
+ ],
+ "known_portraits": {},
+ "unknown_portraits": [],
+ "context_before": [],
+ "rows": [
+  {
+   "ref": "m6302#0",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>演習プログラム起動。<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#1",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>搭乗ユニットに搭載されている\n特殊機能の説明を行います。<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#2",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>以上で説明を終了します。<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#3",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>演習プログラム起動。<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#4",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>現在の搭乗ユニットには、\nスラスター機能が搭載されています。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#5",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>スラスターは、ロック対象を機体の正面に\n捉えたままダッシュが行える機能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#6",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>操作はダッシュと同様、ダッシュボタンで\nＯＮ／ＯＦＦを切り替えて使用します。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#7",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>スラスター中は対象を正面に捕捉しながら\n高速移動することが可能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#8",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>その特性を有効に利用すれば、\n戦闘を有利に進めることができるでしょう。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#9",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>現在の搭乗ユニットには、\nグライダー機能が搭載されています。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#10",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>グライダーは、一定の速度でユニットが\n自動前進する機能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#11",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>特徴としては、ダッシュ中に高速の\n上昇・下降が可能なことが挙げられます。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#12",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>着地しない限りは停止できないので、\n注意してください。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#13",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>現在の搭乗ユニットには、\nローラーダッシュ機能が搭載されています。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#14",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ローラーダッシュは、バーニアを消費せずに\n地上を高速移動できる機能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#15",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>地面のある地形では、有効に活用して\n戦闘を有利に進めましょう。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#16",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>現在の搭乗ユニットには、\n変形機能が搭載されています。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#17",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>変形操作を行うことで、戦闘機形態に\n変形することが可能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#18",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>戦闘機形態は、ダッシュよりも高速に\n移動できるのが特徴です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#19",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>長距離を移動する時、遠距離にいる敵を\n強襲する時、敵との距離をとりたい時など、<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#20",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>状況に応じて有効に活用してください。\n<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#21",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>戦闘機形態の時にもう一度変形操作を行うと\n通常形態に戻ることができます。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#22",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>また、地面や障害物に接触すると、強制的に\n通常形態に戻るので注意してください。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#23",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>戦闘機形態の時は、ユニットの操作方法も\n変化します。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#24",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>オプションで２パターンの操作タイプを\n選択することが可能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#25",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>プレイスタイルに適した\n操作タイプを選択しましょう。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#26",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>現在の搭乗ユニットは、追加装甲を装備して\n出撃することが可能なユニットです。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#27",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>追加装甲は、パージ操作によって\nパージ（切り離し）することが可能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#28",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>また、アーマーが一定量まで低下した場合も\n追加装甲は強制的にパージされます。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#29",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>パージ後は、武装や装甲などの機体性能が\n変化するので、注意しましょう。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#30",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>なお、一度パージを行うと、再出撃するまで\n追加装甲の装備はできません。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#31",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>現在の搭乗ユニットは、追加装甲による\n戦闘機形態で出撃することが可能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#32",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>また、アーマーが一定量まで低下した場合や\n地面や障害物に接触した場合でも、<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#33",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>強制的に追加装甲がパージされます。\n<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#34",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>パージ後は、操作方法が戦闘機形態から\n通常形態に変化するとともに、<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#35",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>武装や装甲などの機体性能が変化します。\n注意してください。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#36",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>また、アーマーが一定まで低下した場合や\n地面や障害物に接触した場合でも、<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#37",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>現在の搭乗ユニットは、追加装甲を\n二重に装備しているため、<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#38",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>一度パージを行った後も追加装甲を\n装備している状態です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#39",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>二つ目の追加装甲は、パージ操作と\nアーマーの低下によってパージされます。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#40",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>このウェポンには、チャージ攻撃機能が\n搭載されています。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#41",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>チャージ攻撃は、発射前に出力を\n上げることができる機能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#42",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>攻撃ボタンを押した際、そのままボタンを\n押し続けることで出力が増加していき、<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#43",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>攻撃ボタンを離すと、チャージ量に応じた\n出力の攻撃が発動します。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#44",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>チャージするほど強力な攻撃となる反面、\nチャージ中には隙が生じるので、<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#45",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>使用する適切なタイミングを判断して、\n有効に活用してください。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#46",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>このウェポンには、マルチロック機能が\n搭載されています。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#47",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>マルチロックは、複数の対象を同時に\n攻撃することができる機能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#48",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>攻撃ボタンを押し続けることで\nロック対象が増加していき、<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#49",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>攻撃ボタンを離すと、全てのロック対象に\n対して攻撃が発動します。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#50",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>また、ウェポンによっては、一つの対象に\n対するマルチロックも可能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#51",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>複数の敵との戦闘には特に有効なので、\n積極的に使用しましょう。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#52",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>このウェポンからは、連続攻撃を\n派生させることが可能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#53",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>攻撃がヒットした時に、同じボタンを\nタイミングよく再入力してください。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#54",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>入力がうまくいけば、高威力の\n連続攻撃が発動します。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#55",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ボタンを連打した場合は無効となるので、\nタイミングを見極めて使用してください。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#56",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>このウェポンには、マルチショット機能が\n搭載されています。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#57",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>マルチショットは、１回の攻撃で\n複数の対象に攻撃ができる機能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#58",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>攻撃した際、ロック対象付近の対象にも\n自動的に攻撃が分散します。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#59",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>複数の敵が密集している状況などで\n利用してください。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#60",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>このウェポンには、ミサイルを迎撃する\n機能が搭載されています。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#61",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ミサイルが機体正面に接近してきた時に\n使用すると、<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#62",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ミサイルを撃ち落とすことができます。\n<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#63",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ミサイルを多用する敵に対して\n積極的に使用しましょう。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#64",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>このウェポンは、敵の近接攻撃を\n跳ね返すことが可能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#65",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>使用すると、ユニットが近接攻撃を\n斬り返すための体勢を取り、<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#66",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>その間に敵の近接攻撃を受けると、\n斬り返しが成功します。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#67",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>成功すると敵に対して高いダメージを\n与えることが可能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#68",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>敵の近接攻撃に合わせて\nタイミングよく使用しましょう。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#69",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ワイヤー攻撃は、対象をワイヤーで捕獲して\n様々な追加攻撃を繰り出せる機能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#70",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>射出したワイヤーが対象にヒットすると、\n対象を捕えることができます。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#71",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>その時、タイミングよくメインウェポンボタンか\n近接攻撃を入力することで、<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#72",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>様々な攻撃に派生させることが可能です。\n<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#73",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>また、対象のサイズによって\n攻撃の内容が変化します。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#74",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>対象が著しく巨大な場合は、\nワイヤー攻撃が跳ね返されることもあります。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#75",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ホールド攻撃は、対象をホールドすることで\n様々な追加攻撃を繰り出せる機能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#76",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>射出した攻撃が対象にヒットすると、\n対象をホールドすることができます。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#77",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>対象が著しく巨大な場合、ホールド攻撃が\n跳ね返されることもあります。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#78",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>このウェポンは、近接攻撃用の武器を\n投げて攻撃することが可能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#79",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>投げた武器は特定の軌道を描いて\n対象に向かい、<ab(1000)>",
+   "en": "",
+   "notes": ""
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6302#80",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>武器の軌道上にいる敵にもダメージを\n与えることが可能です。<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#81",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>投げた武器は対象にヒットすると\n手元に戻ってきますが、<ab(1000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#82",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>それまでは、その武器を使うウェポンは\n使用できません。注意してください。<ab(4000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#83",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>ブレンパワードは出撃時の機嫌によって\n性能が大幅に変化します。<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#84",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>出撃時のアーマーが多い場合は、\n機嫌が良くなる確率が上がりますが、<ab(1000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#85",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>アーマーが低い場合は、機嫌が悪くなる\n確率が上がります。<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#86",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>機嫌の良い状態でいてもらうため、\n可能な限り休ませることを心がけてください。<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#87",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>機嫌は出撃前のメニュー画面で\n確認することができます。<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#88",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>機嫌はミッションの度に変化するので、\n確認は怠らないようにしましょう。<ab(4000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#89",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>Ｖ－ＭＡＸは、ユニットの各性能を\n大幅に上昇させる機能です。<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#90",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>アーマーが一定以下になると\n発動が可能になります。<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#91",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>発動中は、体当たりによる強襲攻撃が\n使用できます。<ab(4000)>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "",
+  "rows_examined": "",
+  "rows_examined_count": 0,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

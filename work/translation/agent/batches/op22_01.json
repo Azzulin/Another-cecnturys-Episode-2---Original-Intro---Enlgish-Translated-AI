@@ -1,0 +1,1799 @@
+{
+ "batch": "op22_01",
+ "operation": 22,
+ "previous_batch": null,
+ "next_batch": "op22_02",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "アルバトロ・ナル・エイジ・アスカ",
+   "en": "Albatro Null Eiji Asuka",
+   "kind": "character",
+   "series": "Blue Comet SPT Layzner",
+   "gender": "male",
+   "role": "Full Gradosian name of Eiji Asuka (Albatro Null is his Grados name, Eiji his human name).",
+   "personality": "See Eiji Asuka.",
+   "en_short": "Eiji"
+  },
+  {
+   "ja": "オペレーション・ライトニング",
+   "en": "Operation Lightning",
+   "kind": "term",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Name of the operation that covers Operations 22 and 23 (22: Defeat Death Demon Corps; 23: Escort Friendly Detachment)."
+  },
+  {
+   "ja": "ターミネーターポリス",
+   "en": "Terminator Police",
+   "kind": "unit",
+   "series": "Blue Comet SPT Layzner",
+   "role": "TS-TP-50D, unmanned Grados Terror Striker developed from the Skull Gunner and used to hunt Earth's resistance; capable of acrobatic maneuvers. Enemy unit."
+  },
+  {
+   "ja": "ドモン・カッシュ",
+   "en": "Domon Kasshu",
+   "kind": "character",
+   "series": "Mobile Fighter G Gundam",
+   "gender": "male",
+   "role": "Neo Japan Gundam Fighter (Shining Gundam, then God Gundam); King of Hearts and leader of the Shuffle Alliance",
+   "personality": "Hot-blooded, brash, impulsive and impatient; socially awkward, but has a strong sense of justice. Prone to loud battle cries.",
+   "en_short": "Domon"
+  },
+  {
+   "ja": "モビルファイター",
+   "en": "Mobile Fighter",
+   "kind": "term",
+   "series": "Mobile Fighter G Gundam",
+   "role": "G Gundam term for Gundam Fight mecha (Devil Gundam, Master Gundam...)."
+  },
+  {
+   "ja": "オペレーション",
+   "en": "Operation",
+   "kind": "term"
+  },
+  {
+   "ja": "ゴッドガンダム",
+   "en": "God Gundam",
+   "kind": "unit",
+   "series": "Mobile Fighter G Gundam",
+   "role": "Domon's second Mobile Fighter (GF13-017NJII), Neo Japan; God Finger and Hyper Mode (Meikyo Shisui)"
+  },
+  {
+   "ja": "ゼントラーディ",
+   "en": "Zentradi",
+   "kind": "faction",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Race/faction of giant humanoid warriors; main antagonists."
+  },
+  {
+   "ja": "デビルガンダム",
+   "en": "Devil Gundam",
+   "kind": "unit",
+   "series": "Mobile Fighter G Gundam",
+   "role": "Self-evolving, self-repairing, self-replicating rogue Gundam (JDG-00X); main antagonist machine of G Gundam"
+  },
+  {
+   "ja": "ガッシュラン",
+   "en": "Gashlan",
+   "kind": "unit",
+   "series": "Blue Comet SPT Layzner",
+   "role": "Shikitai custom MF of the Grados army (m6221 '行け、ガッシュラン!')."
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "エルダール",
+   "en": "El Darr",
+   "kind": "unit",
+   "series": "Blue Comet SPT Layzner",
+   "role": "Shikitai (死鬼隊) custom MF of the Grados army, enemy in m6221 ('行け、エルダール!')."
+  },
+  {
+   "ja": "ル・カイン",
+   "en": "Le Cain",
+   "kind": "character",
+   "series": "Blue Comet SPT Layzner",
+   "gender": "male",
+   "role": "Son of Admiral Gresco; supreme commander of the Grados Earth occupation forces in the second arc; Eiji's rival and the main villain. Pilots the SPT Zakaal.",
+   "personality": "Arrogant and ruthless, convinced of Gradosian racial and cultural superiority, yet proud and aristocratic. Despises dirty tactics and refuses to fight unfairly.",
+   "en_short": "Le Cain"
+  },
+  {
+   "ja": "レイズナー",
+   "en": "Layzner",
+   "kind": "unit",
+   "series": "Blue Comet SPT Layzner",
+   "role": "SPT-LZ-00X, Eiji's experimental Grados SPT with the AI 'Rei' and the V-MAX system."
+  },
+  {
+   "ja": "キョウジ",
+   "en": "Kyoji",
+   "kind": "character",
+   "series": "Mobile Fighter G Gundam",
+   "gender": "male",
+   "role": "Domon's older brother and a Neo Japan scientist; co-developer of the Ultimate Gundam, later the Devil Gundam's core unit.",
+   "personality": "Kind and gentle; loves his younger brother and taught him to have faith in others.",
+   "full_name": "Kyoji Kasshu"
+  },
+  {
+   "ja": "グラドス",
+   "en": "Grados",
+   "kind": "faction",
+   "series": "Blue Comet SPT Layzner",
+   "role": "The alien Grados Empire, from the Udoria system, that invades and occupies Earth in Layzner. Adjective form: Gradosian."
+  },
+  {
+   "ja": "ゴステロ",
+   "en": "Gosterro",
+   "kind": "character",
+   "series": "Blue Comet SPT Layzner",
+   "gender": "male",
+   "role": "Grados lieutenant sent after Eiji (pilots the Bullgrenn). Rebuilt as a cyborg after his apparent death, he joins Le Cain's 'Shikitai' (Death Demon Squad) and pilots the MF Daljuan.",
+   "personality": "Sly, cruel sadist who enjoys killing; kills his own subordinates and frames others; vengeful and obsessive.",
+   "en_short": "Gosterro"
+  },
+  {
+   "ja": "ダンコフ",
+   "en": "Dankova",
+   "kind": "unit",
+   "series": "Blue Comet SPT Layzner",
+   "role": "Shikitai custom MF of the Grados army (m6221 '行け、ダンコフ!')."
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "エイジ",
+   "en": "Eiji",
+   "kind": "character",
+   "series": "Blue Comet SPT Layzner",
+   "gender": "male",
+   "role": "Protagonist Eiji Asuka's Grados name without the surname; half-Grados son of Ken Asuka who pilots the Layzner.",
+   "full_name": "Albatro Null Eiji"
+  },
+  {
+   "ja": "レイ",
+   "en": "Rei"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  }
+ ],
+ "known_portraits": {
+  "33": {
+   "speaker": "Kouichiro Misumaru",
+   "gender": "male",
+   "role": "UCE Space Force admiral (Yurika's father)",
+   "confidence": "high",
+   "evidence": "brief: '私はＵＣＥ宇宙軍提督のミスマルだ。'"
+  },
+  "34": {
+   "speaker": "Ruri Hoshino",
+   "gender": "female",
+   "role": "Nadesico operator",
+   "confidence": "high",
+   "evidence": "brief: 'こちらはナデシコのホシノ・ルリです。'"
+  },
+  "38": {
+   "speaker": "South Burning",
+   "gender": "male",
+   "role": "Captain, mobile weapons unit commander at Torrington",
+   "confidence": "high",
+   "evidence": "brief63000: 'I'm Captain South Burning.'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [],
+ "rows": [
+  {
+   "ref": "brief63021#0",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "オペレーション　２２",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63021#1",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "オペレーション・ライトニング",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63021#2",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ターミネーターポリスを",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63021#4",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "死鬼隊排除",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63021#5",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "レジスタンス支援",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63021#6",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "グラドスタワー制圧",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63021#7",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<ac(21)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(1)>",
+    "#c[5E8FD8]",
+    "<im(2)>",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><ac(21)>#c[5E8FD8]ナデシコ#c、<im(1)>#c[5E8FD8]アルビオン<im(2)>#cという\n主力を欠いた状態で、\n#c[5E8FD8]ＵＣＥ#cは苦しい戦いを強いられてきた。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63021#8",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>だが、諸君らが帰ってきた今、\nようやく我々は反攻作戦を行うことが\n可能となった。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63021#9",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(3)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>明日、０５００時を期して、\n<im(3)>#c[5E8FD8]ＵＣＥ#c全軍が地上各地で一気に攻勢に出る。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63021#10",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>作戦名は#c[F07141]オペレーション・ライトニング#c！",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63021#11",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[F07141]",
+    "#c",
+    "<im(9)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>作戦は、各地の#c[F07141]敵勢力拠点に対する攻撃#cと、\n<im(9)>#c[BE5050]グラドス#cに占領された北米大陸への#c[F07141]\n強襲上陸作戦#cの二本柱で展開される。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63021#12",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>#c[5E8FD8]アルビオン#cと#c[5E8FD8]ナデシコ#cには、\n主戦場となるであろう#c[F07141]北米大陸で\n戦力の中核#cとして働いてもらうことになる。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63021#13",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>現在北米は#c[BE5050]グラドス#c軍の占領下にあり、\n地球人は#c[BE5050]文化矯正隊#cによって\n厳しい弾圧を受けている。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63021#14",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(5)>",
+    "<im(6)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>だが、ここには#c[5E8FD8]レジスタンス#cを組織し、\n抵抗を続けてきた人々がいる。\n<im(5)><im(6)>彼らの協力で作戦は行われる予定だ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63021#15",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>エイジという少年を覚えているかね？\n彼も#c[5E8FD8]レジスタンス#cに参加している。\n大いに働いてくれるはずだ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63021#16",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(11)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>#c[BE5050]グラドス#c軍を指揮しているのは\n<im(11)>ル・カインという男。こやつを倒せば、\n#c[BE5050]グラドス#cの勢いは一気に弱まるはずだ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63021#17",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>#c[BE5050]ゼントラーディ#cの存在が明確になった今、\n地上での争いに終止符を打って、\nそれに備えないとならない。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63021#18",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>諸君の健闘を期待しているぞ！",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63021#19",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 34,
+   "tokens": [
+    "<op(34,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c",
+    "<im(10)>",
+    "<of(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(34,1)><sp(2)>#c[5E8FD8]レジスタンス#cの人たちは#c[BE5050]グラドス#cの#c[BE5050]無人機#cに\n手を焼いているらしいです。<im(10)>発見したら、\n<of(1)>できるだけ片付けておいてください。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63133#0",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ターミネーターポリスの撃墜",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63133#2",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "<im(1)>",
+    "#c",
+    "<im(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>#c[5E8FD8]レジスタンス<im(1)>#cからの<im(2)>情報提供により、\n北米の#c[BE5050]グラドス#cの動向を掴んだぞ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63133#3",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>現在、#c[BE5050]グラドス#cの指導者であるル・カインと\n彼直属の#c[BE5050]死鬼隊#cと呼ばれる特殊部隊が、\nニューヨークに集結している。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63133#4",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>地球人の代表と、#c[BE5050]グラドス#cの代表とで、\n試合を行いたいということだが…",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63133#5",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>彼の狙いは#c[5E8FD8]レジスタンス#cの精神的支えである\nクスコの聖女の前で地球人を叩きのめし、\n抵抗の意思をそぐことにあるようだ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63133#6",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<im(6)>",
+    "<im(7)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>となれば、<im(6)>まと<im(7)>もな試合になるはずがない。\n…もちろん、俺たちもまともに試合を\nする気などないんだがな。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63133#7",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>今回の作戦には#c[5E8FD8]レジスタンス#cの\nアルバトロ・ナル・エイジ・アスカが\n#c[5E8FD8]レイズナー#cで協力することになっている。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63133#8",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<im(3)>",
+    "#c[F07141]",
+    "<im(5)>",
+    "#c",
+    "<tr(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>彼が囮となってル・カインの注意を\nひきつけたところで、<im(3)>我々が#c[F07141]奇襲を<im(5)>かける#c。<tr(1)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63133#9",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>ル・カインを守る#c[BE5050]死鬼隊#cは手強い相手だ。\n逃げられると後々厄介なので、ここで\nできるだけ叩いておいたほうがいいだろう。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63133#10",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>また、#c[BE5050]強力な無人機#cも周辺に展開している。\nこいつらにも注意するようにな。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63133#11",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(8)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>#c[5E8FD8]レイズナー#cはすでに向かって<im(8)>いるはずだ。\n我々も急ぐぞ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#0",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "死鬼隊の全撃破",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#2",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(50)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あれは！<ab(50)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#3",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ドモン・カッシュ！？<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#4",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今だ！　行くぞ、レイ！<ab(0)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#5",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>レディ。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#6",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くっそぉ！　なんでもいい！\nたたんじまえ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#7",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ふん！　はじめから、まともな試合など\nするつもりはないということか！<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#8",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ならばまとめて、かかって来い！<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#9",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>全機発進！\n彼らを援護するんだ。<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#10",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>スタジアムの外は、私たちが引き受けます。\nそちらはよろしく。<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#11",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(800)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>死鬼隊の連中は、劣勢になると\nル・カインのところへ逃げ帰るはずだ。<ab(800)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#12",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>その前に勝負をつけるぞ！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#13",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あのゴッドガンダムという機体……<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#14",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>モビルファイターというだけあって\n格闘戦に特化した機体みたいだな。<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#15",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さすが、コロニー格闘技の王者ってところか。<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#16",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>エイジィィィ！　\nよくも俺をこんな体にしてくれたなああ！<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#17",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>お前をおんなじ目にあわせてやるぜぇ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#18",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(50)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>骨のきしむ音を聞きながら\n死んでいけええええ！！！<ab(50)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#19",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(50)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ひゃーははは！<ab(50)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#20",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くそっ、いてぇじゃねぇか。\nこの礼は倍にして返してやるぜぇ！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#21",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ちっ！　これ以上はあぶねえな！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#22",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>次こそは殺してやるぜぇぇ！\nひゃーはっはっは！<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#23",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>の、脳が痛いぃぃぃ！\nぐわあああああっ！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#24",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ゴステロめ……\n私に恥をかかせおって！<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#25",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>の、脳が痛いぃぃぃ！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#26",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ぐわあああああっ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#27",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>行け、エルダール！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#28",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そいつはドリルに注意しろ！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#29",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>優勢だ。　このまま押し切るぞ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#30",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵が撤退していきます。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#31",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>逃げられたか……しかたない。<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#32",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>愚か者め！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#33",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>行け、ダンコフ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#34",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そいつは接近戦に優れた機体だ。\n気をつけてくれ！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#35",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>その調子だ！\n逃げられる前に倒すぞ！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#37",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>逃げられたか……しかたない。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#38",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何をやっている……！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#39",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>行け、ガッシュラン！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#40",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>左腕のコーンに気をつけろ！<ab(600)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#41",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こちらが押している。\n攻撃を集中するんだ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#42",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くっ……逃げたか！<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#43",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>馬鹿な……！<ab(600)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#44",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ル・カイン！　勝負だ！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#45",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あれを出せ！<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#46",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>地中より熱源反応！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#47",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>待て！　ル・カイン！<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#48",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そいつは後だ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#49",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>聞いているか、キョウジ！<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#50",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>貴様がデビルガンダムを持ち出したおかげで！<ab(100)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6221#51",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>母は死に、父は冷凍刑！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6221#52",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>俺は貴様を追ってきてこのザマだぁっ！<ab(500)>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#53",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>今ここで叩き潰してやるぅ！！<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#54",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>あれはデビルガンダムの戦闘用ユニットね。\nあの先は本体につながっているはず……<ab(600)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#55",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>周辺に敵影なし。<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#56",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……お前たちは軍の人間だな。\n助けを頼んだ覚えはないぞ。<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#57",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>俺たちも助けに来た覚えはないさ。<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#58",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>我々と一緒に来る気はないか？<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#59",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>仲間は必要ない。\n俺は自分の手でデビルガンダムを倒す。<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#60",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>目的は同じだ。\n単独行動より一緒のほうが情報も早い。<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#61",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>デビルガンダムの所在が特定された今、\n間違いなく一戦交えることになる。<ab(600)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#62",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……よかろう。<ab(200)>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#63",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>だが、デビルガンダムが出てきた時は\n他に敵がいようが俺は好きにさせてもらう。<ab(1000)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "",
+  "rows_examined": "",
+  "rows_examined_count": 0,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

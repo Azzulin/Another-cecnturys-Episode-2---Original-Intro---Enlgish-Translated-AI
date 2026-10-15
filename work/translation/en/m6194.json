@@ -1,0 +1,643 @@
+{
+ "table": "m6194",
+ "kind": "mission",
+ "copies": [
+  "42194:m",
+  "6194:m"
+ ],
+ "rows": [
+  {
+   "ids": [
+    1
+   ],
+   "jp": "敵勢力の撃破",
+   "en": "Destroy the enemy forces"
+  },
+  {
+   "ids": [
+    3
+   ],
+   "jp": "護衛対象機の援護",
+   "en": "Support the Escort Target Unit"
+  },
+  {
+   "ids": [
+    4
+   ],
+   "jp": "護衛対象機の撃墜",
+   "en": "Escort Target Destroyed"
+  },
+  {
+   "ids": [
+    10
+   ],
+   "jp": "所属不明機",
+   "en": "Unidentified Unit"
+  },
+  {
+   "ids": [
+    11
+   ],
+   "jp": "アーマー %d ％",
+   "en": "Armor %d％"
+  },
+  {
+   "ids": [
+    50
+   ],
+   "jp": "<op()><sp(20)>各機、分散して迎撃に当たれ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>All units, disperse and intercept!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    51
+   ],
+   "jp": "<op()><sp(20)>敵を全滅させろ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Annihilate the enemy!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    52
+   ],
+   "jp": "<op()><sp(20)>待って！　僕の話を聞いてください！<ab(200)>",
+   "en": "<op()><sp(20)>Wait! Please listen to me!<ab(200)>"
+  },
+  {
+   "ids": [
+    53
+   ],
+   "jp": "<sp(20)>僕の名は\nアルバトロ・ナル・エイジ・アスカ。<ab(500)>",
+   "en": "<sp(20)>My name is\nAlbatro Null Eiji Asuka.<ab(500)>"
+  },
+  {
+   "ids": [
+    54
+   ],
+   "jp": "<sp(20)>地球は、狙われている！！<ab(700)><ed()>",
+   "en": "<sp(20)>Earth is being targeted!!<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    55
+   ],
+   "jp": "<op()><sp(20)>…何を言っている？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>...What are you talking about?<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    56
+   ],
+   "jp": "<op()><sp(20)>…にわかに信じられぬ話だな。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>...Hardly something I can believe at\nonce.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    57
+   ],
+   "jp": "<op()><sp(20)>後で説明します！<ab(100)>",
+   "en": "<op()><sp(20)>I'll explain later!<ab(100)>"
+  },
+  {
+   "ids": [
+    58
+   ],
+   "jp": "<sp(20)>今は早くここから逃げてください！<ab(200)><ed()>",
+   "en": "<sp(20)>Please, get away from here right now!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    59
+   ],
+   "jp": "<op()><sp(20)>高速接近する熱源多数！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Multiple thermal contacts\nclosing at high speed!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    60
+   ],
+   "jp": "<op()><sp(20)>ここは僕が！　早く撤退を！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>I will hold them! Fall back, quickly!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    61
+   ],
+   "jp": "<op()><sp(20)>……あのエイジというパイロット、\n少なくとも敵ではなさそうだな。<ab(500)>",
+   "en": "<op()><sp(20)>...That pilot, Eiji, doesn't seem\nto be an enemy, at least.<ab(500)>"
+  },
+  {
+   "ids": [
+    62
+   ],
+   "jp": "<sp(20)>彼を援護する！　いいな？<ab(200)><ed()>",
+   "en": "<sp(20)>We will back him up! Understood?<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    63
+   ],
+   "jp": "<op()><sp(20)>了解だ！　各機、敵を迎撃しろ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Roger! All units, intercept the enemy!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    64
+   ],
+   "jp": "<op()><sp(20)>また見たことのないタイプか……<ab(300)>",
+   "en": "<op()><sp(20)>Another type we've never seen before...<ab(300)>"
+  },
+  {
+   "ids": [
+    65
+   ],
+   "jp": "<sp(20)>敏しょう性に特徴があるようだが…<ab(50)>",
+   "en": "<sp(20)>High mobility seems to be its trait,\nbut...<ab(50)>"
+  },
+  {
+   "ids": [
+    66
+   ],
+   "jp": "<sp(20)>それだけなのか？<ab(300)><ed()>",
+   "en": "<sp(20)>Is that all it has?<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    67
+   ],
+   "jp": "<op()><sp(20)>周辺に敵影なし。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>No enemy contacts in the area.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    68,
+    73
+   ],
+   "jp": "<op()><sp(20)>ひとまずは安心だな。<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Safe for now, then.<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    69
+   ],
+   "jp": "<op()><sp(20)>ま、待ってください！<ab(300)>",
+   "en": "<op()><sp(20)>W-Wait!<ab(300)>"
+  },
+  {
+   "ids": [
+    70,
+    75
+   ],
+   "jp": "<sp(20)>敵の増援を確認！<ab(200)><ed()>",
+   "en": "<sp(20)>Enemy reinforcements confirmed!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    71,
+    118
+   ],
+   "jp": "<op()><sp(20)>敵の反応、全て消失。<ab(100)><ed()>",
+   "en": "<op()><sp(20)>All enemy contacts lost.<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    72
+   ],
+   "jp": "<op()><sp(20)>よくやった！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Well done!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    74
+   ],
+   "jp": "<op()><sp(20)>ま、待ってください！　<ab(200)>",
+   "en": "<op()><sp(20)>W-Wait!<ab(200)>"
+  },
+  {
+   "ids": [
+    76
+   ],
+   "jp": "<op()><sp(20)>新手か！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>More hostiles!?<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    77
+   ],
+   "jp": "<op()><sp(20)>僕たちを追っているのは、\nグラドス帝国のＳＰＴ部隊。<ab(300)>",
+   "en": "<op()><sp(20)>The ones pursuing us are an SPT\nsquad of the Grados Empire.<ab(300)>"
+  },
+  {
+   "ids": [
+    78
+   ],
+   "jp": "<sp(20)>グラドスは、太陽系から遠く離れた宇宙で<ab(0)>",
+   "en": "<sp(20)>Grados is an interstellar military state<ab(0)>"
+  },
+  {
+   "ids": [
+    79
+   ],
+   "jp": "<sp(20)>いくつもの星系を占領し、支配している\n星間軍事国家です。<ab(500)><ed()>",
+   "en": "<sp(20)>that occupies and rules many star\nsystems far from the Solar System.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    80
+   ],
+   "jp": "<op()><sp(20)>ああ！　聞いたことがあるぜ！<ab(200)>",
+   "en": "<op()><sp(20)>Yeah! I've heard of them!<ab(200)>"
+  },
+  {
+   "ids": [
+    81
+   ],
+   "jp": "<sp(20)>確か、ポセイダルとも取引があるとか。<ab(500)><ed()>",
+   "en": "<sp(20)>They say they deal with Poseidal too.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    82
+   ],
+   "jp": "<op()><sp(20)>はい、僕もそう聞いています。<ab(300)>",
+   "en": "<op()><sp(20)>Yes, so I have heard as well.<ab(300)>"
+  },
+  {
+   "ids": [
+    83
+   ],
+   "jp": "<op()><sp(20)>そのグラドスが、どうやら地球にある何かに\n目をつけたようなんです。<ab(500)>",
+   "en": "<op()><sp(20)>And Grados seems to have set its\nsights on something here on Earth.<ab(500)>"
+  },
+  {
+   "ids": [
+    84
+   ],
+   "jp": "<sp(20)>何を狙っているのかはわかりませんが、<ab(50)>",
+   "en": "<sp(20)>I do not know what they are after,\nbut...<ab(50)>"
+  },
+  {
+   "ids": [
+    85
+   ],
+   "jp": "<sp(20)>彼らはそれを手に入れるために、\n地球侵略を始めたんです。<ab(400)><ed()>",
+   "en": "<sp(20)>...they have begun invading Earth\nto seize it.<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    86
+   ],
+   "jp": "<op()><sp(20)>僕はそれを知らせるためにやってきました。<ab(600)><ed()>",
+   "en": "<op()><sp(20)>I came here to warn you of this.<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    87
+   ],
+   "jp": "<op()><sp(20)>なんだって、お前さんがそんなことを？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>And why would you do that?<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    88
+   ],
+   "jp": "<op()><sp(20)>僕の父は……地球人なんです。<ab(500)>",
+   "en": "<op()><sp(20)>My father... is an Earthling.<ab(500)>"
+  },
+  {
+   "ids": [
+    89
+   ],
+   "jp": "<sp(20)>父の名はケン・アスカ。<ab(100)>",
+   "en": "<sp(20)>His name is Ken Asuka.<ab(100)>"
+  },
+  {
+   "ids": [
+    90
+   ],
+   "jp": "<sp(20)>調べてもらえばわかります！<ab(300)><ed()>",
+   "en": "<sp(20)>You can confirm it if you check!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    91
+   ],
+   "jp": "<op()><sp(20)>では…グラドス軍の司令官の名前は？<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Then... who commands the Grados\nmilitary?<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    92
+   ],
+   "jp": "<op()><sp(20)>ル・カイン。<ab(100)>",
+   "en": "<op()><sp(20)>Le Cain.<ab(100)>"
+  },
+  {
+   "ids": [
+    93
+   ],
+   "jp": "<sp(20)>グレスコ提督の息子、ル・カインです。<ab(500)><ed()>",
+   "en": "<sp(20)>Admiral Gresco's son, Le Cain.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    94
+   ],
+   "jp": "<op()><sp(20)>……どうやら、グラドスから来たってのは<ab(0)>",
+   "en": "<op()><sp(20)>...It seems the part about you coming\nfrom Grados<ab(0)>"
+  },
+  {
+   "ids": [
+    95
+   ],
+   "jp": "<sp(20)>ウソじゃないようね。<ab(400)>",
+   "en": "<sp(20)>is no lie.<ab(400)>"
+  },
+  {
+   "ids": [
+    96
+   ],
+   "jp": "<sp(20)>ただ、ル・カインが\n地球を狙ってるってのは……<ab(100)>",
+   "en": "<sp(20)>However, Le Cain targeting Earth...<ab(100)>"
+  },
+  {
+   "ids": [
+    97
+   ],
+   "jp": "<sp(20)>あんまりいいニュースじゃないわね。<ab(300)><ed()>",
+   "en": "<sp(20)>is hardly good news.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    98
+   ],
+   "jp": "<op()><sp(20)>ル・カインとはどんな相手なんだ？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>What kind of opponent is Le Cain?<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    99
+   ],
+   "jp": "<op()><sp(20)>有能で冷酷、おまけにパイロットとしての\n腕も立つという話です。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>They say he is skilled, ruthless, and\na top-notch pilot to boot.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    100
+   ],
+   "jp": "<op()><sp(20)>ル・カインの話なら聞いたことがある。<ab(300)>",
+   "en": "<op()><sp(20)>I have heard of Le Cain before.<ab(300)>"
+  },
+  {
+   "ids": [
+    101
+   ],
+   "jp": "<op()><sp(20)>……厄介な奴が来たな。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>...A troublesome foe has arrived.<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    102
+   ],
+   "jp": "<op()><sp(20)>…ようやく木連との戦いが終わったと思えば、\nまた新たな敵か。<ab(700)><ed()>",
+   "en": "<op()><sp(20)>...Just when the war with the Jovians\nended, another enemy appears.<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    103
+   ],
+   "jp": "<op()><sp(20)>くっ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Ngh!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    104
+   ],
+   "jp": "<op()><sp(20)>落とされないよう、援護するんだ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Cover him! Don't let him get shot\ndown!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    105
+   ],
+   "jp": "<op()><sp(20)>くっ、こんなところでやられるわけには！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Ngh, I can't let myself be taken down\nhere!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    106
+   ],
+   "jp": "<op()><sp(20)>これ以上やらせるな！<ab(300)>",
+   "en": "<op()><sp(20)>Don't let them hit him any further!<ab(300)>"
+  },
+  {
+   "ids": [
+    107
+   ],
+   "jp": "<sp(20)>彼を守るんだ！<ab(300)><ed()>",
+   "en": "<sp(20)>Protect him!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    108
+   ],
+   "jp": "<op()><sp(20)>やめてくれ、僕は味方だ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Stop! I'm on your side!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    109
+   ],
+   "jp": "<op()><sp(20)>うわあああああっ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Uwaaaaaagh!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    110
+   ],
+   "jp": "<op()><sp(20)>所属不明機、撃墜されました！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>The unidentified unit was shot down!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    111
+   ],
+   "jp": "<op()><sp(20)>助けることができなかった…<ab(900)><ed()>",
+   "en": "<op()><sp(20)>We couldn't save him...<ab(900)><ed()>"
+  },
+  {
+   "ids": [
+    112
+   ],
+   "jp": "<op()><sp(20)>あれが地球のサル共の艦か。<ab(200)>",
+   "en": "<op()><sp(20)>So that's the ship of those Earth\nmonkeys.<ab(200)>"
+  },
+  {
+   "ids": [
+    113
+   ],
+   "jp": "<sp(20)>殺せぇ！　皆殺しにしろっ！！<ab(500)><ed()>",
+   "en": "<sp(20)>Kill them! Slaughter them all!!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    114
+   ],
+   "jp": "<op()><sp(20)>所属不明機、攻撃してきます！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Unidentified units attacking!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    115
+   ],
+   "jp": "<op()><sp(20)>無抵抗の人間を殺すほど\nグラドスの人間は冷酷だったか！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Are the people of Grados so cruel\nas to kill defenseless humans!?<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    116
+   ],
+   "jp": "<op()><sp(20)>害虫を殺しても\nグラドスの誇りは傷つかん！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Killing vermin leaves Gradosian pride\nunblemished!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    117
+   ],
+   "jp": "<op()><sp(20)>う、う、う、うぐあぁあああ――っ！！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>U-U-U-Ugh, aaaaagh!!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    119
+   ],
+   "jp": "<op()><sp(20)>あなた、エイジと言ったわね？　大丈夫！？<ab(400)><ed()>",
+   "en": "<op()><sp(20)>You're Eiji, right? Are you alright!?<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    120
+   ],
+   "jp": "<op()><sp(20)>だ、大丈夫です…<ab(400)><ed()>",
+   "en": "<op()><sp(20)>I-I am fine...<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    121
+   ],
+   "jp": "<op()><sp(20)>エイジ・アスカと言ったな。<ab(100)>",
+   "en": "<op()><sp(20)>Eiji Asuka, was it?<ab(100)>"
+  },
+  {
+   "ids": [
+    122
+   ],
+   "jp": "<op()><sp(20)>ビーコンにしたがって着艦してくれ。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Follow the beacon and land aboard.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    130
+   ],
+   "jp": "<op()><sp(20)>了解だ！　各機、作戦目標を確認しろ。<ab(300)>",
+   "en": "<op()><sp(20)>Roger that! All units, check objectives.<ab(300)>"
+  },
+  {
+   "ids": [
+    131
+   ],
+   "jp": "<sp(20)>護衛目標を守るんだ。<ab(300)><ed()>",
+   "en": "<sp(20)>Protect the escort target.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    132
+   ],
+   "jp": "<op()><sp(20)>周辺の制圧を完了。<ab(300)>",
+   "en": "<op()><sp(20)>Area suppression complete.<ab(300)>"
+  },
+  {
+   "ids": [
+    133
+   ],
+   "jp": "<sp(20)>残りの敵、撤退していきます。<ab(500)><ed()>",
+   "en": "<sp(20)>Remaining enemies are withdrawing.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    134
+   ],
+   "jp": "<op()><sp(20)>全ターゲットの破壊を確認。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Destruction of all targets confirmed.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    135
+   ],
+   "jp": "<op()><sp(20)>友軍として登録されていない機体だから\nロックオン可能か。　注意が必要だな。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>That unit isn't listed as friendly, so\nwe can lock on. We must be careful.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    136
+   ],
+   "jp": "<op()><sp(20)>すぐに向かえ。<ab(200)>",
+   "en": "<op()><sp(20)>Head there immediately.<ab(200)>"
+  },
+  {
+   "ids": [
+    137
+   ],
+   "jp": "<sp(20)>味方の護衛目標を守るんだ。<ab(500)><ed()>",
+   "en": "<sp(20)>Protect our friendly escort target.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    201
+   ],
+   "jp": "<on()><sp(20)>地球の戦艦だ！　行くぞ、レイ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>An Earth battleship! Let's go, Rei!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    202
+   ],
+   "jp": "<on()><sp(20)>レディ。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Ready.<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    203
+   ],
+   "jp": "<on()><sp(20)>アラームメッセージ。　後方ニ追撃。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Alarm message. Pursuit from rear.<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    204
+   ],
+   "jp": "<on()><sp(20)>くそっ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Damn it!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    205
+   ],
+   "jp": "<on()><sp(20)>カーフミサイル発射用意！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Calf missile, ready to fire!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    206
+   ],
+   "jp": "<on()><sp(20)>左上腕伝達システム損傷、\n二次回路作動。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Left upper arm transmission damaged.\nSecondary circuit engaged.<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    207
+   ],
+   "jp": "<on()><sp(20)>まだやれる！　あきらめるな！<ab(0)><off()>",
+   "en": "<on()><sp(20)>I can still fight! Don't give up!<ab(0)><off()>"
+  }
+ ]
+}

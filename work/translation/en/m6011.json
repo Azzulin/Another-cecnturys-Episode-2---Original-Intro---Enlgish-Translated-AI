@@ -1,0 +1,732 @@
+{
+ "table": "m6011",
+ "kind": "mission",
+ "copies": [
+  "42011:m",
+  "6011:m"
+ ],
+ "rows": [
+  {
+   "ids": [
+    1
+   ],
+   "jp": "訓練機の撃破",
+   "en": "Destroy the training units"
+  },
+  {
+   "ids": [
+    3
+   ],
+   "jp": "ガンアークの撃破",
+   "en": "Destroy the Gun Ark"
+  },
+  {
+   "ids": [
+    11
+   ],
+   "jp": "<op()><sp(20)>ロックオンは△ボタンです。<ab(5000)><ed()>",
+   "en": "<op()><sp(20)>Lock on with the △ button.<ab(5000)><ed()>"
+  },
+  {
+   "ids": [
+    12
+   ],
+   "jp": "<op()><sp(20)>メインウェポンは□ボタンです。<ab(5000)><ed()>",
+   "en": "<op()><sp(20)>Fire your main weapon with the □\nbutton.<ab(5000)><ed()>"
+  },
+  {
+   "ids": [
+    13
+   ],
+   "jp": "<op()><sp(20)>近接攻撃は○ボタンです。<ab(5000)><ed()>",
+   "en": "<op()><sp(20)>Melee attack with the ○ button.<ab(5000)><ed()>"
+  },
+  {
+   "ids": [
+    14,
+    16
+   ],
+   "jp": "<op()><sp(20)>サブウェポンはＬ１ボタンです。<ab(5000)>",
+   "en": "<op()><sp(20)>Sub-weapons use the L1 button.<ab(5000)>"
+  },
+  {
+   "ids": [
+    15
+   ],
+   "jp": "<sp(20)>方向キー上下で使いたいウェポンを選択し、\n□ボタンで決定します。<ab(5000)><ed()>",
+   "en": "<sp(20)>Pick a weapon with D-pad Up/Down,\nthen confirm with the □ button.<ab(5000)><ed()>"
+  },
+  {
+   "ids": [
+    17
+   ],
+   "jp": "<sp(20)>Ｌ１ボタンを押しながら、ウェポンパネルに\n対応した各ボタンを押します。<ab(5000)><ed()>",
+   "en": "<sp(20)>Hold L1 and press the button shown\non the matching weapon panel.<ab(5000)><ed()>"
+  },
+  {
+   "ids": [
+    18
+   ],
+   "jp": "<op()><sp(20)>上昇はＲ１ボタン、\n下降はＲ２ボタンです。<ab(5000)><ed()>",
+   "en": "<op()><sp(20)>Rise with the R1 button,\ndescend with the R2 button.<ab(5000)><ed()>"
+  },
+  {
+   "ids": [
+    19
+   ],
+   "jp": "<op()><sp(20)>×ボタンでダッシュの\nＯＮ・ＯＦＦを切り替えます。<ab(5000)><ed()>",
+   "en": "<op()><sp(20)>The × button toggles\ndash ON and OFF.<ab(5000)><ed()>"
+  },
+  {
+   "ids": [
+    20
+   ],
+   "jp": "<op()><sp(20)>回避は左スティックを弾きます。<ab(5000)><ed()>",
+   "en": "<op()><sp(20)>Flick the left stick to evade.<ab(5000)><ed()>"
+  },
+  {
+   "ids": [
+    21
+   ],
+   "jp": "<op()><sp(20)>Ｒ１ボタンまたはＲ２ボタンを\n連続入力すると上下方向に回避できます。<ab(5000)><ed()>",
+   "en": "<op()><sp(20)>Double-tap the R1 or R2 button\nto evade upward or downward.<ab(5000)><ed()>"
+  },
+  {
+   "ids": [
+    50
+   ],
+   "jp": "<op()><sp(20)>標的機を出します。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Launching the target drones.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    51
+   ],
+   "jp": "<op()><sp(20)>じゃあ始めるぞ。<ab(300)>",
+   "en": "<op()><sp(20)>All right, let's begin.<ab(300)>"
+  },
+  {
+   "ids": [
+    52
+   ],
+   "jp": "<sp(20)>お前らは戦闘訓練を積んで来たみたいだが、\nここで改めて基本を説明しておく。<ab(400)>",
+   "en": "<sp(20)>I know you've had combat training,\nbut we'll go over the basics anyway.<ab(400)>"
+  },
+  {
+   "ids": [
+    53
+   ],
+   "jp": "<sp(20)>それが俺のやり方だからな。<ab(500)><ed()>",
+   "en": "<sp(20)>That's how I do things.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    54
+   ],
+   "jp": "<op()><sp(20)>まずは標的をロックオンしてみろ。<ab(400)>",
+   "en": "<op()><sp(20)>First, try locking on to a target.<ab(400)>"
+  },
+  {
+   "ids": [
+    55
+   ],
+   "jp": "<sp(20)>操作はロックオンボタンを押すだけだ。<ab(700)>",
+   "en": "<sp(20)>Just press the lock-on button.<ab(700)>"
+  },
+  {
+   "ids": [
+    56
+   ],
+   "jp": "<sp(20)>これができないと、戦闘にならんからな。<ab(700)><ed()>",
+   "en": "<sp(20)>If you can't do that, you can't fight.<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    57
+   ],
+   "jp": "<op()><sp(20)>次は、ロックオンした標的を攻撃する。<ab(500)>",
+   "en": "<op()><sp(20)>Next, attack the target you locked\non to.<ab(500)>"
+  },
+  {
+   "ids": [
+    58
+   ],
+   "jp": "<sp(20)>メインウェポンを使ってみろ。<ab(500)><ed()>",
+   "en": "<sp(20)>Use your main weapon.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    59
+   ],
+   "jp": "<op()><sp(20)>よし、ここまでなら誰でもできる。<ab(200)>",
+   "en": "<op()><sp(20)>Good. Anyone can manage that much.<ab(200)>"
+  },
+  {
+   "ids": [
+    60
+   ],
+   "jp": "<sp(20)>基本だから、絶対忘れるなよ。<ab(700)><ed()>",
+   "en": "<sp(20)>It's the basics, so don't ever forget\nit.<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    61
+   ],
+   "jp": "<op()><sp(20)>次は近接攻撃を試してみろ。<ab(400)>",
+   "en": "<op()><sp(20)>Now try a melee attack.<ab(400)>"
+  },
+  {
+   "ids": [
+    62
+   ],
+   "jp": "<sp(20)>標的に接近すると、マーカーが変わる。<ab(800)>",
+   "en": "<sp(20)>Get close to a target and the marker\nchanges.<ab(800)>"
+  },
+  {
+   "ids": [
+    63
+   ],
+   "jp": "<sp(20)>それが攻撃範囲に入った合図だ。<ab(200)>",
+   "en": "<sp(20)>That means it's within striking range.<ab(200)>"
+  },
+  {
+   "ids": [
+    64
+   ],
+   "jp": "<sp(20)>連続で叩き込んでみろ。<ab(500)><ed()>",
+   "en": "<sp(20)>Now hit it again and again.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    65
+   ],
+   "jp": "<op()><sp(20)>よし、次はサブウェポンの使い方だ。<ab(700)>",
+   "en": "<op()><sp(20)>Good. Next, how to use sub-weapons.<ab(700)>"
+  },
+  {
+   "ids": [
+    66
+   ],
+   "jp": "<sp(20)>サブウェポンボタンを押すと\nモニター右下に選択メニューが表示される。<ab(900)>",
+   "en": "<sp(20)>The sub-weapon button brings up a\nmenu at the monitor's lower right.<ab(900)>"
+  },
+  {
+   "ids": [
+    67
+   ],
+   "jp": "<sp(20)>さらにボタンを入れると兵装の選択ができる。<ab(500)>",
+   "en": "<sp(20)>Then use the buttons to select a\nweapon.<ab(500)>"
+  },
+  {
+   "ids": [
+    68
+   ],
+   "jp": "<sp(20)>使う武器が決まったら、\nメインウェポンのボタンを押せ。<ab(700)>",
+   "en": "<sp(20)>Once you've chosen,\npress the main weapon button.<ab(700)>"
+  },
+  {
+   "ids": [
+    69
+   ],
+   "jp": "<sp(20)>あとの使い方はメインウェポンと同じだ。<ab(800)><ed()>",
+   "en": "<sp(20)>After that, it works just like the\nmain weapon.<ab(800)><ed()>"
+  },
+  {
+   "ids": [
+    70
+   ],
+   "jp": "<op()><sp(20)>よし、次はサブウェポンの使い方だ。<ab(500)>",
+   "en": "<op()><sp(20)>Good. Next, how to use sub-weapons.<ab(500)>"
+  },
+  {
+   "ids": [
+    71
+   ],
+   "jp": "<sp(20)>サブウェポンボタンを押すと\n攻撃がサブウェポンモードになる。<ab(700)>",
+   "en": "<sp(20)>The sub-weapon button switches your\nattacks to sub-weapon mode.<ab(700)>"
+  },
+  {
+   "ids": [
+    72
+   ],
+   "jp": "<sp(20)>その時、モニター右下に表示されている\n武器パネルに対応したボタンを押せば<ab(100)>",
+   "en": "<sp(20)>Then press the button for a weapon\npanel at the monitor's lower right<ab(100)>"
+  },
+  {
+   "ids": [
+    73
+   ],
+   "jp": "<sp(20)>サブウェポンが使える。<ab(500)>",
+   "en": "<sp(20)>to use that sub-weapon.<ab(500)>"
+  },
+  {
+   "ids": [
+    74
+   ],
+   "jp": "<sp(20)>サブウェポンボタンを放すと\n使えなくなるからな。<ab(700)><ed()>",
+   "en": "<sp(20)>Release the sub-weapon button\nand you can't use them anymore.<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    75
+   ],
+   "jp": "<op()><sp(20)>武器の扱い方は問題ないようだな。<ab(300)>",
+   "en": "<op()><sp(20)>Looks like you can handle your\nweapons.<ab(300)>"
+  },
+  {
+   "ids": [
+    76
+   ],
+   "jp": "<sp(20)>次は移動操作を一通りやってもらおう。<ab(700)><ed()>",
+   "en": "<sp(20)>Next, let's run through movement.<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    77
+   ],
+   "jp": "<op()><sp(20)>上下移動を使って標的を破壊してみろ。<ab(500)>",
+   "en": "<op()><sp(20)>Use vertical movement to destroy the\ntargets.<ab(500)>"
+  },
+  {
+   "ids": [
+    78
+   ],
+   "jp": "<sp(20)>標的を分散させたから、上下移動を使って\n標的に高度を合わせるんだ。<ab(400)>",
+   "en": "<sp(20)>I've spread the targets out, so move\nup and down to match their altitude.<ab(400)>"
+  },
+  {
+   "ids": [
+    79
+   ],
+   "jp": "<sp(20)>これも戦闘の基本だからな。<ab(200)><ed()>",
+   "en": "<sp(20)>That's another combat basic.<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    80
+   ],
+   "jp": "<op()><sp(20)>次はダッシュ操作だ。<ab(400)>",
+   "en": "<op()><sp(20)>Next up: dashing.<ab(400)>"
+  },
+  {
+   "ids": [
+    81
+   ],
+   "jp": "<sp(20)>ダッシュボタンを押せば高速移動ができる。<ab(700)>",
+   "en": "<sp(20)>Press the dash button to move at\nhigh speed.<ab(700)>"
+  },
+  {
+   "ids": [
+    82
+   ],
+   "jp": "<sp(20)>それで標的に接近して破壊するんだ。<ab(500)>",
+   "en": "<sp(20)>Use it to close in and destroy the\ntargets.<ab(500)>"
+  },
+  {
+   "ids": [
+    83
+   ],
+   "jp": "<sp(20)>ダッシュを解除するには、\n再度ダッシュボタンを押せばいい。<ab(500)>",
+   "en": "<sp(20)>To stop dashing,\npress the dash button again.<ab(500)>"
+  },
+  {
+   "ids": [
+    84
+   ],
+   "jp": "<sp(20)>ちなみに、２回連続でボタンを押すと\n急ターンもできる。　覚えておけ。<ab(700)><ed()>",
+   "en": "<sp(20)>By the way, press it twice in a row\nfor a quick turn. Remember that.<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    85
+   ],
+   "jp": "<op()><sp(20)>次は回避操作だ。<ab(300)>",
+   "en": "<op()><sp(20)>Next: evasion.<ab(300)>"
+  },
+  {
+   "ids": [
+    86
+   ],
+   "jp": "<sp(20)>攻撃をかわして、標的を破壊してみろ。<ab(500)><ed()>",
+   "en": "<sp(20)>Dodge the attacks and destroy the\ntargets.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    87
+   ],
+   "jp": "<op()><sp(20)>次は上下にも回避してみろ。<ab(500)>",
+   "en": "<op()><sp(20)>Now try evading up and down too.<ab(500)>"
+  },
+  {
+   "ids": [
+    88
+   ],
+   "jp": "<sp(20)>ちゃんと使えば、ほとんど回避できるが\n<ab(100)>",
+   "en": "<sp(20)>Use it well and you can dodge\nalmost anything, but\n<ab(100)>"
+  },
+  {
+   "ids": [
+    89
+   ],
+   "jp": "<op()><sp(20)>ここまでできれば十分だろう。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>If you can do all that, you're good\nenough.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    90
+   ],
+   "jp": "<op()><sp(20)>ここまでやれるとは…\nよし！　これではどうだ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>I didn't think you'd get this far...\nAll right! How about this!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    91
+   ],
+   "jp": "<op()><sp(20)>ここまでやるとは…頼もしい限りだな。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Making it this far... That's\nreassuring.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    92
+   ],
+   "jp": "<op()><sp(20)>このジム！　なんて動きが鈍いんだ！<ab(500)>",
+   "en": "<op()><sp(20)>This GM! It's so sluggish!<ab(500)>"
+  },
+  {
+   "ids": [
+    93
+   ],
+   "jp": "<sp(20)>あ、あれっ！？　うああああ～っ！！<ab(0)><ed()>",
+   "en": "<sp(20)>Wh-what?! Waaaaaah!!<ab(0)><ed()>"
+  },
+  {
+   "ids": [
+    94
+   ],
+   "jp": "<op()><sp(20)>ウラキ！　お前は戦死だ！<ab(50)>",
+   "en": "<op()><sp(20)>Uraki! You've been killed in action!<ab(50)>"
+  },
+  {
+   "ids": [
+    95
+   ],
+   "jp": "<sp(20)>そこでしばらく反省してろ！<ab(100)><ed()>",
+   "en": "<sp(20)>Stay put and think about what you\ndid!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    96
+   ],
+   "jp": "<op()><sp(20)>はい……<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Yes, sir...<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    97
+   ],
+   "jp": "<op()><sp(20)>よし、肩ならしはここまでだ。<ab(300)>",
+   "en": "<op()><sp(20)>All right, that's enough warming up.<ab(300)>"
+  },
+  {
+   "ids": [
+    98
+   ],
+   "jp": "<sp(20)>次は訓練者同士の模擬戦闘を行う。<ab(500)>",
+   "en": "<sp(20)>Next, a mock battle between\ntrainees.<ab(500)>"
+  },
+  {
+   "ids": [
+    99
+   ],
+   "jp": "<sp(20)>用意はいいな？<ab(400)><ed()>",
+   "en": "<sp(20)>Ready?<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    100
+   ],
+   "jp": "<op()><sp(20)>タック、本気で行くわよ。<ab(700)>",
+   "en": "<op()><sp(20)>Tak, I'm not holding back.<ab(700)>"
+  },
+  {
+   "ids": [
+    101
+   ],
+   "jp": "<sp(20)>覚悟はいいわね？<ab(200)><ed()>",
+   "en": "<sp(20)>Are you ready for this?<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    102
+   ],
+   "jp": "<op()><sp(20)>もちろんだ！　来い！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Of course! Bring it on!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    103
+   ],
+   "jp": "<op()><sp(20)>あなたの癖は、とっくにお見通しよ！\n次は右側に避ける気でしょ？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>I've known your habits for ages!\nYou'll dodge to the right next, right?<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    104
+   ],
+   "jp": "<op()><sp(20)>そこまで思い通りに行くかよ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Like it'll go the way you want!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    105
+   ],
+   "jp": "<op()><sp(20)>タック……やっとここまで来たね。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Tak... We finally made it this far.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    106
+   ],
+   "jp": "<op()><sp(20)>どうしたんだ、改まって？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>What's this, all of a sudden?<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    107
+   ],
+   "jp": "<op()><sp(20)>残ったのは、私たち二人だけ。<ab(500)>",
+   "en": "<op()><sp(20)>We're the only two left.<ab(500)>"
+  },
+  {
+   "ids": [
+    108
+   ],
+   "jp": "<sp(20)>これ以上、仲間は失いたくないから……<ab(100)>",
+   "en": "<sp(20)>I don't want to lose any more\ncomrades...<ab(100)>"
+  },
+  {
+   "ids": [
+    109
+   ],
+   "jp": "<sp(20)>だから……<ab(1000)>",
+   "en": "<sp(20)>So...<ab(1000)>"
+  },
+  {
+   "ids": [
+    110
+   ],
+   "jp": "<sp(20)>何が何でも生き延びましょう。<ab(500)><ed()>",
+   "en": "<sp(20)>Let's survive, no matter what.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    111
+   ],
+   "jp": "<op()><sp(20)>……当たり前だろ、そんなこと。<ab(200)>",
+   "en": "<op()><sp(20)>...Well, obviously.<ab(200)>"
+  },
+  {
+   "ids": [
+    112
+   ],
+   "jp": "<sp(20)>何が言いたい？<ab(500)><ed()>",
+   "en": "<sp(20)>What are you getting at?<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    113
+   ],
+   "jp": "<op()><sp(20)>これからもよろしくってこと。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>That I'm counting on you from here\non.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    114
+   ],
+   "jp": "<op()><sp(20)>なかなか手強いな……<ab(200)><ed()>",
+   "en": "<op()><sp(20)>You're pretty tough...<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    115
+   ],
+   "jp": "<op()><sp(20)>まあね……\nお互い手のうちは知り尽くしてるわけだし。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Well... We both know each other's\nmoves inside out.<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    116
+   ],
+   "jp": "<op()><sp(20)>だがこの勝負、俺がもらうぞ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>But this match is mine!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    117
+   ],
+   "jp": "<op()><sp(20)>そうはいかない！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Not a chance!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    118
+   ],
+   "jp": "<op()><sp(20)>……ダメージが限界値突破。\n私の負けね。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>...Damage past the limit.\nI lose.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    119
+   ],
+   "jp": "<op()><sp(20)>残念だったな。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Too bad.<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    120
+   ],
+   "jp": "<op()><sp(20)>いい勝負を見せてもらった！\nうちのヒヨッコどもとは大違いだな。<ab(500)>",
+   "en": "<op()><sp(20)>That was a fine match!\nA far cry from my fledglings.<ab(500)>"
+  },
+  {
+   "ids": [
+    121
+   ],
+   "jp": "<sp(20)>お二人さん、引き上げてくれ。<ab(700)><ed()>",
+   "en": "<sp(20)>All right, you two, bring it in.<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    122
+   ],
+   "jp": "<op()><sp(20)>…まだエネルギーコアが安定しませんね。<ab(700)>",
+   "en": "<op()><sp(20)>...The energy core still isn't stable.<ab(700)>"
+  },
+  {
+   "ids": [
+    123
+   ],
+   "jp": "<sp(20)>念のため、調整がすむまでは\n出力に制限をかけておきましょう。<ab(400)><ed()>",
+   "en": "<sp(20)>To be safe, let's limit the output\nuntil the adjustments are done.<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    124
+   ],
+   "jp": "<op()><sp(20)>ん？　どうやらご到着のようだな。<ab(50)><ed()>",
+   "en": "<op()><sp(20)>Hm? Looks like they've arrived.<ab(50)><ed()>"
+  },
+  {
+   "ids": [
+    125
+   ],
+   "jp": "<sp(20)>バーニアの消費も激しくなるからな。\n気をつけろ。<ab(700)><ed()>",
+   "en": "<sp(20)>It'll burn through your verniers faster\ntoo. Be careful.<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    201
+   ],
+   "jp": "<on()><sp(20)>いよいよだな…！<ab(0)><off()>",
+   "en": "<on()><sp(20)>This is it...!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    202
+   ],
+   "jp": "<on()><sp(20)>また緊張してるの、タック？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Nervous again, Tak?<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    203
+   ],
+   "jp": "<on()><sp(20)>いや、このくらい問題ないさ。\n正式に配属されるんだからな。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Nah, this is nothing. We're getting\nour official assignment, after all.<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    204
+   ],
+   "jp": "<on()><sp(20)>それは頼もしいけど…\n私の足を引っ張らないでよ？<ab(0)><off()>",
+   "en": "<on()><sp(20)>That's reassuring, but...\ndon't hold me back, okay?<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    205
+   ],
+   "jp": "<on()><sp(20)>それは俺のセリフだぜ、「少尉」？<ab(0)><off()>",
+   "en": "<on()><sp(20)>That's my line, \"Ensign.\"<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    206
+   ],
+   "jp": "<on()><sp(20)>言ってなさいよ「中尉」！\n私より撃墜数は少ないくせに。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Keep talking, \"Lieutenant\"!\nYou have fewer kills than me.<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    207
+   ],
+   "jp": "<on()><sp(20)>ご両人、ケンカは後にしてもらおうか。\n演習を始めるぞ。<ab(0)><off()>",
+   "en": "<on()><sp(20)>You two, save the bickering for\nlater. The exercise is starting.<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    208
+   ],
+   "jp": "<on()><sp(20)>またあとで！<ab(0)><off()>",
+   "en": "<on()><sp(20)>See you later!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    209
+   ],
+   "jp": "<on()><sp(20)>ああ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Yeah!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    210
+   ],
+   "jp": "<on()><sp(20)>あ、あれは……ホワイトベース級！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Th-that's... a White Base-class?!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    211
+   ],
+   "jp": "<on()><sp(20)>そうだ。\nお前たちが乗ることになるアルビオンだ。<ab(0)><off()>",
+   "en": "<on()><sp(20)>That's right. It's the Albion, the ship\nyou'll be serving on.<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    212
+   ],
+   "jp": "<on()><sp(20)>いよいよか…<ab(0)><off()>",
+   "en": "<on()><sp(20)>So this is it...<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    213
+   ],
+   "jp": "<on()><sp(20)>そうね…<ab(0)><off()>",
+   "en": "<on()><sp(20)>Yeah...<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    214
+   ],
+   "jp": "<on()><sp(20)>正直…少し不安だ。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Honestly... I'm a little nervous.<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    215
+   ],
+   "jp": "<on()><sp(20)>…大丈夫、助けてあげるから。<ab(0)><off()>",
+   "en": "<on()><sp(20)>...It'll be fine. I'll help you out.<ab(0)><off()>"
+  }
+ ]
+}

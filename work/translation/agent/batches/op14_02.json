@@ -1,0 +1,1723 @@
+{
+ "batch": "op14_02",
+ "operation": 14,
+ "previous_batch": "op14_01",
+ "next_batch": "op14_03",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "アルバート・ライネン",
+   "en": "Albert Rainen",
+   "kind": "character",
+   "series": "Another Century's Episode 2 (original)",
+   "gender": "male",
+   "role": "Former UCE scientist who warned of alien invasion and led the satellite-cannon defense project (Rainen Project) before being forced out; his name heads the antagonist 'Rainen forces'. Barkholz's father.",
+   "personality": "Visionary 'ignored expert' embittered by the UCE's dismissal of his warnings.",
+   "en_short": "Rainen"
+  },
+  {
+   "ja": "バスターアーク",
+   "en": "Buster Ark",
+   "kind": "unit",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Modified Gun Ark with an evolving Guardian System and fallen-angel styling; Marina's unit while with the Rainen side."
+  },
+  {
+   "ja": "テンカワ",
+   "en": "Tenkawa",
+   "kind": "character",
+   "series": "Martian Successor Nadesico",
+   "gender": "male",
+   "role": "Surname of Akito Tenkawa; used alone (テンカワ君, テンカワ機 = Tenkawa's unit)."
+  },
+  {
+   "ja": "ライネン",
+   "en": "Rainen",
+   "kind": "character",
+   "series": "Another Century's Episode 2 (original)",
+   "gender": "male",
+   "role": "Former UCE scientist who warned of alien invasion and led the satellite-cannon defense project (Rainen Project) before being forced out; his name heads the antagonist 'Rainen forces'. Barkholz's father.",
+   "personality": "Visionary 'ignored expert' embittered by the UCE's dismissal of his warnings.",
+   "full_name": "Albert Rainen"
+  },
+  {
+   "ja": "地球連邦",
+   "en": "Earth Federation",
+   "kind": "faction"
+  },
+  {
+   "ja": "研究主任",
+   "en": "Chief Researcher",
+   "kind": "title"
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "アキト",
+   "en": "Akito",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "male",
+   "role": "TV: cook and Aestivalis pilot of the Nadesico, a Class-A Boson Jumper. PoD: the \"Prince of Darkness\", Black Sarena pilot hunting the Martian Successors",
+   "personality": "TV: kind, reluctant and insecure Gekiganger fan who wants to be a cook. PoD: cold, grim and vengeful after experiments destroyed his senses",
+   "full_name": "Akito Tenkawa"
+  },
+  {
+   "ja": "マリナ",
+   "en": "Marina",
+   "kind": "character",
+   "series": "Another Century's Episode 2 (original)",
+   "gender": "female",
+   "role": "ACE2 heroine; Ensign in Tak's squad, pilot of the red Gun Ark; goes missing at Torrington Base, reappears with the Rainen Project in the Buster Ark, later rejoins Tak.",
+   "personality": "Cool and reserved ('defrosting ice queen' in flashbacks); deeply bonded with Tak.",
+   "full_name": "Marina Carson"
+  },
+  {
+   "ja": "新兵",
+   "en": "Recruit",
+   "kind": "generic",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Generic new soldier."
+  }
+ ],
+ "known_portraits": {
+  "33": {
+   "speaker": "Kouichiro Misumaru",
+   "gender": "male",
+   "role": "UCE Space Force admiral (Yurika's father)",
+   "confidence": "high",
+   "evidence": "brief: '私はＵＣＥ宇宙軍提督のミスマルだ。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6143#11",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>…私は、アルバート・ライネン。<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6143#12",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>かつて私が警告したとおり、<ab(0)>",
+   "en": ""
+  },
+  {
+   "ref": "m6143#13",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>地球圏外からの破壊者が\n地球に迫りつつあります。<ab(500)>",
+   "en": ""
+  },
+  {
+   "ref": "m6143#14",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>だが、ＵＣＥの愚劣な為政者たちは\nその脅威に対する備えを行ってこなかった。<ab(500)>",
+   "en": ""
+  },
+  {
+   "ref": "m6143#15",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>過去に私の警告を無視し、<ab(0)>",
+   "en": ""
+  },
+  {
+   "ref": "m6143#16",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>私の主張を葬り去った者が\nその代償を支払う時がやってきたのです。<ab(600)>",
+   "en": ""
+  },
+  {
+   "ref": "m6143#17",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>このような者どもに、\n人類の未来を託すことはできません。<ab(700)>",
+   "en": ""
+  },
+  {
+   "ref": "m6143#18",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>人類の未来は、優れた知性を持ち、\n心より人類の将来のみを考える、<ab(0)>",
+   "en": ""
+  },
+  {
+   "ref": "m6143#19",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>優秀な人物の手に託されるべきです。<ab(500)>",
+   "en": ""
+  },
+  {
+   "ref": "m6143#20",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>この理想を実現するため、<ab(0)>",
+   "en": ""
+  },
+  {
+   "ref": "m6143#21",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>私は長年準備してきたかねてよりの計画を\n実行に移します。<ab(600)>",
+   "en": ""
+  },
+  {
+   "ref": "m6143#22",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>…地球圏を守りぬくために。<ab(500)><ed()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6143#23",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……これは犯行声明か？<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#24",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アルバート……ライネン。<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#25",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これまた、面白い人が出てきたわね。<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#26",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>知っているんですか！？<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#27",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……話は後だ！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#28",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いいか、厄介なシールドから\n先に始末するんだ！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#29",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>主砲に熱量増大！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#30",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>撃って来ます！<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#31",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦右舷の破壊を確認！<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#32",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦左舷の破壊を確認！<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#33",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>カタパルトの破壊を確認！<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#34",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦のシールド反応が弱まっています。<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#35",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦のシールドが消滅！<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#36",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>機動兵器が多数接近！\n護衛部隊のようです。<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#37",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やったの！？<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#38",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さすがはうちのエースだな。<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#39",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>全機、敵艦から離れろ！　\n爆発に巻きこまれるぞ！<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#41",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なぜ気づかなかった！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#42",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>気づいた時はもう…\nこの反応は…バスターアークです！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#43",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…なぜここに！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#44",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>偶然にしてはタイミングがよすぎるな…<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#45",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……連中と関係がある、\nと見るより他になさそうですね。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#46",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>高速接近する熱源多数！<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#47",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>各機、分散して迎撃に当たれ！　<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#48",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>テンカワ！？　どこに行く？<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#49",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>助けに行くんですよ！\nあの中、まだ生きてる人がいるかも知れない！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#50",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>だめ！　アキト！　危ないよ！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#51",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>だからって黙って見てられるか！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#52",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>その心配はないです。\nあの艦、無人みたいですから。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#53",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>え！？<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#54",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>無人だって？<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#55",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>はい、どうも自動制御されてたようです。<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#56",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そうは見えなかったがな……<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#57",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さっきの声明は？<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#58",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>おそらく、録音です。<ab(600)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#59",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>はははは……俺……バカですね。<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#60",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>一人で突っ走って……\n意味のないことばっかりやって。<ab(400)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#61",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>俺って……<ab(0)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#62",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>テンカワ、そのことはもういい。<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#63",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>だが、二度と勝手なことをするな。\n君も、今では軍の一員なのだからな！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#64",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>レーダーに感！　敵機、来ます！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#65",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>マリナ！　回線を開け！\n俺の話を聞くんだ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#66",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>マリナ！　投降してくれ！\nもうやめるんだ！<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#67",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……やめない。<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#68",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>マリナ？<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#69",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やめない！\n全てを手に入れるまでは！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#70",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>マリナ！？　どういうことなんだ！　<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#71",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>マリナ！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#72",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くそっ！　また……！<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#73",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ライネン……聞いたことがあるな。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#74",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>諜報部に、問い合わせてみましょう。<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#75",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>こちらからの呼びかけに反応は？<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#76",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>応答はありません。<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#77",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>！！　撃ってくる！<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#78",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>敵艦、轟沈します！<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#80",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>待て！　待ってくれ！<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#81",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>追えそうか？<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6143#82",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>無理だ。　速度差がありすぎる。<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63181#0",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>ご苦労だった。\n<im(1)>あの場合、奪還は不可能であり、\n撃沈は妥当な措置だ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63181#1",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(2)>ただ、気になるのは敵が残した\nメッセージの内容だな。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63181#2",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(4)>",
+    "#c[E2E258]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(4)>#c[E2E258]アルバート・ライネン#cと言えば、\nかつて#c[5E8FD8]ＵＣＥ設計局#c長を務めた、\nライネン研究主任のことに間違いない。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63181#3",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(5)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(5)>彼は、とあるプロジェクトが頓挫したことが\nきっかけで当時の#c[5E8FD8]ＵＣＥ#c当局と対立し…\n#c[5E8FD8]設計局#cを辞職し、失踪している。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63181#4",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(6)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(6)>今回の犯行声明は、そのことに対する\n報復宣言、とも取れるな。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63181#5",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(8)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(8)>かつての#c[5E8FD8]ＵＣＥ#cを支えた天才的な開発者…\nそれに#c[BE5050]バスターアーク#cが関係していると\nなると、事態は一層深刻になるな…",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63181#6",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>詳しくは、#c[5E8FD8]諜報部#cの調査を待とう。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63248#0",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「ライネンの挙兵」\n\n　　　　　　　　　　　　　　　　　　　プリベンター　レディ・アン",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63248#1",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>先日の#c[5E8FD8]ＵＣＥ#c艦奪還作戦において、\n#c[BE5050]バスターアーク#cと行動をともにしていた\n#c[BE5050]武装勢力#cの首謀者が明らかとなった。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63248#2",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(1)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>首謀者の名は、#c[BE5050]アルバート・ライネン#c。\nさらに戦闘<im(1)>の際、同人が#c[5E8FD8]ＵＣＥ#cに対して\n宣戦布告を行ったことも確認されている。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63248#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(3)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[BE5050]アルバート・ライネン#cは、\n旧#c[5E8FD8]ＵＣＥ#cにおいて新型兵器開発部門を\n指揮していた人物<im(3)>である。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63248#4",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>しかし、新兵器開発プロジェクトの途上に\n発生した事故<im(2)>により計画が凍結されて以後、\n彼は行方不明となっていた。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63248#5",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>なお同プロジェクトを凍結し、#c[BE5050]ライネン#cを\n更迭したのは、この事故を契機に#c[5E8FD8]ＵＣＥ#c内\nでの権力を握った#c[5E8FD8]地球連邦#cである。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63248#6",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>確認された声明の内容から、#c[BE5050]ライネン#cの\n今回の行動は、過去に凍結させられた\nプロジェクトの再興が狙いであるとともに、",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63248#7",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>自らのプロジェクトの結実をもって\n#c[5E8FD8]ＵＣＥ#cに対する復讐を果たすことが、\nその目的であると推測される。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63248#8",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>地球圏の平和維持という事由はともかく、\nあのような手段を取る以上、もはや彼らは\n#c[5E8FD8]ＵＣＥ#cの明確なる敵性組織である。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63248#9",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>そして今後は、#c[BE5050]ライネン#cの目的も踏まえた\n対策の検討が必要となるだろう。\n",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63248#10",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(4)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>最後に、#c[BE5050]ライネン#cの宣戦布告の声明文<im(4)>を\nここに抜粋する。\n各員、目を通しておいてもらいたい。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63248#11",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「私は、#c[BE5050]アルバート・ライネン#c。\n\n",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63248#12",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>かつて私が警告したとおり、\n地球圏外からの破壊者が\n地球に迫りつつあります。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63248#13",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>だが、#c[5E8FD8]ＵＣＥ#cの愚劣な為政者たちは\nその脅威に対する備えを行ってこなかった。\n",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63248#14",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>過去に私の警告を無視し、\n私の主張を葬り去った者が、\nその代償を支払う時がやってきたのです。",
+   "en": "",
+   "notes": ""
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "brief63248#15",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>このような者どもに、\n人類の未来を託すことはできません。\n",
+   "en": ""
+  },
+  {
+   "ref": "brief63248#16",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>人類の未来は、優れた知性を持ち、\n心より地球を愛する者、\n私欲を廃し、人類の将来のみを考える、",
+   "en": ""
+  },
+  {
+   "ref": "brief63248#17",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>優秀な人物の手に託されるべきです。\n\n",
+   "en": ""
+  },
+  {
+   "ref": "brief63248#18",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>この理想を実現するため、\n私は長年準備してきたかねてよりの計画を\n実行に移します。",
+   "en": ""
+  },
+  {
+   "ref": "brief63248#19",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>…地球圏を守りぬくために。」\n\n",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "",
+  "rows_examined": "",
+  "rows_examined_count": 0,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

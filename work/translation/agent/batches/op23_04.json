@@ -1,0 +1,1584 @@
+{
+ "batch": "op23_04",
+ "operation": 23,
+ "previous_batch": "op23_03",
+ "next_batch": null,
+ "rows_in_slice": 67,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "オペレーション・ライトニング",
+   "en": "Operation Lightning",
+   "kind": "term",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Name of the operation that covers Operations 22 and 23 (22: Defeat Death Demon Corps; 23: Escort Friendly Detachment)."
+  },
+  {
+   "ja": "タック・ケプフォード",
+   "en": "Tak Kepford",
+   "kind": "character",
+   "series": "Another Century's Episode 2 (original)",
+   "gender": "male",
+   "role": "ACE2 protagonist; UCE squad leader (First Lieutenant) and Gun Ark test pilot, joins the Albion unit.",
+   "personality": "Skilled ace and natural leader, but clumsy with machines (mechanically inept); grows suspicious of the Rainen Project and fights to bring Marina back.",
+   "en_short": "Tak"
+  },
+  {
+   "ja": "バイオリレーション",
+   "en": "Bio-Relation",
+   "kind": "term",
+   "series": "Heavy Metal L-Gaim",
+   "role": "Poseidal's life-energy system: heals armor (Aug's Weapon 4, akurasu); Poseidal also uses it to brainwash the commander of his Imperial Guard (menu3019#38)."
+  },
+  {
+   "ja": "バルクホルツ博士",
+   "en": "Dr. Barkholz",
+   "kind": "character",
+   "series": "Another Century's Episode 2 (original)",
+   "gender": "male",
+   "role": "Same person as Fidel Barkholz (title form).",
+   "en_short": "Barkholz"
+  },
+  {
+   "ja": "ゼントラーディ",
+   "en": "Zentradi",
+   "kind": "faction",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Race/faction of giant humanoid warriors; main antagonists."
+  },
+  {
+   "ja": "デビルガンダム",
+   "en": "Devil Gundam",
+   "kind": "unit",
+   "series": "Mobile Fighter G Gundam",
+   "role": "Self-evolving, self-repairing, self-replicating rogue Gundam (JDG-00X); main antagonist machine of G Gundam"
+  },
+  {
+   "ja": "バスターアーク",
+   "en": "Buster Ark",
+   "kind": "unit",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Modified Gun Ark with an evolving Guardian System and fallen-angel styling; Marina's unit while with the Rainen side."
+  },
+  {
+   "ja": "ヤマダ・ジロウ",
+   "en": "Jiro Yamada",
+   "kind": "character",
+   "series": "Martian Successor Nadesico",
+   "gender": "male",
+   "role": "Real name of Gai Daigoji (ダイゴウジ・ガイ), the hot-blooded Aestivalis pilot.",
+   "personality": "Loud, hot-blooded Gekigangar otaku who insists 'Gai' is his soul's name and hates being called Yamada."
+  },
+  {
+   "ja": "リン・ミンメイ",
+   "en": "Lynn Minmay",
+   "kind": "character",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "gender": "female",
+   "role": "Idol singer aboard the Macross; her songs (culture) are the key to defeating the Zentradi.",
+   "personality": "Bright, cheerful and ambitious pop idol, somewhat self-absorbed; infatuated with Hikaru.",
+   "en_short": "Minmay"
+  },
+  {
+   "ja": "ガーディアン",
+   "en": "Guardian",
+   "kind": "term",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Network of (hundreds of) orbital military satellite cannons of the Rainen Project; Gun Ark/Buster Ark can call it via the Guardian System."
+  },
+  {
+   "ja": "バルクホルツ",
+   "en": "Barkholz",
+   "kind": "character",
+   "series": "Another Century's Episode 2 (original)",
+   "gender": "male",
+   "role": "UCE Design Bureau engineer in charge of Ark-series/Gun Ark development; supports Tak and Marina. Spoiler: secretly the son of Albert Rainen and the treacherous mastermind who gave Marina the Buster Ark; fights in the Feather Ark Custom at the end.",
+   "personality": "Outwardly a kindly professor-type adviser (sends Tak e-mails); actually vengeful against the UCE for what happened to his father.",
+   "full_name": "Fidel Barkholz"
+  },
+  {
+   "ja": "プリベンター",
+   "en": "Preventer",
+   "kind": "faction"
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "ガンアーク",
+   "en": "Gun Ark",
+   "kind": "unit",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Latest Ark-series transforming machine from the UCE Design Bureau; Tak's (and initially Marina's red) unit; can call Guardian satellite strikes."
+  },
+  {
+   "ja": "ギワザ艦隊",
+   "en": "Giwaza Fleet",
+   "kind": "faction",
+   "series": "Heavy Metal L-Gaim",
+   "role": "Giwaza Lowau's rebel fleet (mostly Sarge Opus planet cruisers of the Thirteen) that turns against Poseidal."
+  },
+  {
+   "ja": "グローバル",
+   "en": "Global",
+   "kind": "character",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "gender": "male",
+   "role": "Captain of the SDF-1 Macross (U.N. Spacy).",
+   "personality": "Calm, old-fashioned veteran commander with a broad strategic view; pipe smoker who dislikes the spotlight.",
+   "full_name": "Bruno J. Global"
+  },
+  {
+   "ja": "バルキリー",
+   "en": "Valkyrie",
+   "kind": "unit",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "U.N. Spacy VF-1 variable fighter series."
+  },
+  {
+   "ja": "ポセイダル",
+   "en": "Poseidal",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "female",
+   "role": "Emperor ruling the Pentagona World from Sveto on Gastogal; supreme commander of the Poseidal Army. The Poseidal on the throne is actually Mian Qu Ha Ussher, a puppet of the true Poseidal (Amandara Kamandara). In ACE2 'Poseidal' is the pilot of the Aug.",
+   "personality": "Regal, cold and imperious ruler who controls others (e.g. Quwasan) through the bio-relation system; her memories are themselves manipulated, and she finally turns against Amandara.",
+   "full_name": "Oldna Poseidal"
+  },
+  {
+   "ja": "キョウジ",
+   "en": "Kyoji",
+   "kind": "character",
+   "series": "Mobile Fighter G Gundam",
+   "gender": "male",
+   "role": "Domon's older brother and a Neo Japan scientist; co-developer of the Ultimate Gundam, later the Devil Gundam's core unit.",
+   "personality": "Kind and gentle; loves his younger brother and taught him to have faith in others.",
+   "full_name": "Kyoji Kasshu"
+  },
+  {
+   "ja": "グラドス",
+   "en": "Grados",
+   "kind": "faction",
+   "series": "Blue Comet SPT Layzner",
+   "role": "The alien Grados Empire, from the Udoria system, that invades and occupies Earth in Layzner. Adjective form: Gradosian."
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "マクロス",
+   "en": "Macross",
+   "kind": "ship",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "SDF-1 Macross, the U.N. Spacy super-dimensional fortress (human flagship)."
+  },
+  {
+   "ja": "ライネン",
+   "en": "Rainen",
+   "kind": "character",
+   "series": "Another Century's Episode 2 (original)",
+   "gender": "male",
+   "role": "Former UCE scientist who warned of alien invasion and led the satellite-cannon defense project (Rainen Project) before being forced out; his name heads the antagonist 'Rainen forces'. Barkholz's father.",
+   "personality": "Visionary 'ignored expert' embittered by the UCE's dismissal of his warnings.",
+   "full_name": "Albert Rainen"
+  },
+  {
+   "ja": "研究主任",
+   "en": "Chief Researcher",
+   "kind": "title"
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "ブレン",
+   "en": "Brain",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Short for Brain Powerd units (ブレンたち, ブレンパワード隊)."
+  },
+  {
+   "ja": "ダバ",
+   "en": "Daba",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "male",
+   "role": "Protagonist. Heir of the Yaman clan's Kamon dynasty (true name Kamon Myroad), raised on Koam; leads the rebellion against Poseidal. Pilots the L-Gaim, later the L-Gaim Mk-II.",
+   "personality": "Calm, earnest and somewhat reserved, hard to read; indecisive at times but prone to sudden outbursts of anger, and reckless whenever his adopted sister Quwasan is involved. Grows into a capable leader.",
+   "full_name": "Daba Myroad"
+  },
+  {
+   "ja": "レイ",
+   "en": "Rei"
+  },
+  {
+   "ja": "中尉",
+   "en": "Lieutenant",
+   "en_short": "Lt.",
+   "kind": "rank"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {
+  "33": {
+   "speaker": "Kouichiro Misumaru",
+   "gender": "male",
+   "role": "UCE Space Force admiral (Yurika's father)",
+   "confidence": "high",
+   "evidence": "brief: '私はＵＣＥ宇宙軍提督のミスマルだ。'"
+  },
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  },
+  "45": {
+   "speaker": "Daba Myroad",
+   "gender": "male",
+   "role": "rebel leader, L-Gaim pilot",
+   "confidence": "high",
+   "evidence": "brief: '俺は、ダバ・マイロード。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6233#30",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>こんな物……何のために作ったんだ！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6233#31",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>これは……ガンダムなんかじゃない！！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6233#32",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>…死角がない。　手強いな。<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6233#33",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ど、どういう作りになってんだよ！<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6233#34",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>これは……手強いな。<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6233#35",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……これがデビルガンダム。<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6233#36",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>これだから、欲望に任せて\n兵器なんか作っちゃいけないんだよ！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6233#37",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>なんという悪意…！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6233#38",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>これが……機械？　本当なのか？<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6233#39",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>こ、こんなのって……<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6233#40",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>こんなやつ、\nどこから攻めたらいいんだ！？<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6233#41",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>こ、こんなデカブツ、\nどうしろってんだよ！<ab(300)><ed()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6233#42",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>か、勘弁してくれよぉ！<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#43",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ば、バケモンだね、こりゃ……<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#44",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……このような愚かな物を\n開発していたとは！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#45",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ふん！　図体がでかけりゃ\nいいってもんじゃないんだよ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#46",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ブレン！<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#47",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ブレン……怖いの？<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#48",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>に、逃げないぞ！<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#49",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こ、この野郎！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#50",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ま、マジ？　これと戦うの！？<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#51",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さすがの私も、笑えないわこりゃ…<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#52",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こ、こいつ……メカなのか？<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#53",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>こいつのボディはよ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#54",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>だが、やるしかないだろうな。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#55",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>僕のサンドロックで、\n太刀打ちできるのか？<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#56",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>軍がひた隠しにせねばならん理由も\nわかるというものだな。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#57",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>どう戦えばいいってのよ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#58",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これを人間が作ったと言うのか！<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#59",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>レイ、わかるか？<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#60",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>こんなのと戦うのかよ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#61",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>こいつは生かしておけない奴だ！<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#62",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>……私も怖いよ。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#63",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>俺は、ナデシコを守るんだ。<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#64",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>お前なんか、怖くねえぞ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#65",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>生物なのか！？<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#66",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>この星の人間は一体……<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#67",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>データ不足につき、回答不能。<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#68",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>お前にもわかるよな！？<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#69",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>大事な人を、守るんだぁ！！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#70",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>キョウジ……いや、兄さん！<ab(600)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6233#71",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(900)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>もう終わらせるよ……！<ab(900)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63190#0",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "<im(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>諸君らの<im(1)>働きで、<im(2)>#c[BE5050]ポセイダル#c軍は壊滅した。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63190#1",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(3)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(3)>これで#c[BE5050]グラドス#c、#c[BE5050]ポセイダル#cと、\n２つの地球圏外勢力を\n地球から一掃したことになる。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63190#2",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>#c[F07141]オペレーション・ライトニング#cは\n諸君らの働きのおかげで\n完全な成功を収めたわけだ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63190#3",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(5)>",
+    "<im(6)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(5)><im(6)>しかも、ずっと手を焼いていた\n#c[BE5050]デビルガンダム#cまで撃退してくれるとは……",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63190#4",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(7)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(7)>よくやってくれた！\n改めて礼を言わせてもらうぞ！",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63190#5",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>さて、私からの伝達事項だ。\nダバ君たちだが、しばらくは地球圏に\nとどまり、手を貸してくれるということだ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63190#6",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(8)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(8)>ダバ君、オリビーさんの容態は\nどうかな？",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63190#7",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 45,
+   "tokens": [
+    "<op(45,1)>",
+    "<sp(2)>",
+    "<im(10)>",
+    "<im(11)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(45,1)><sp(2)><im(10)><im(11)>残念ながら、バイオリレーションの影響で\n元どおりに回復するかどうかもわからない\n状況です……",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63190#8",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(12)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(12)>その件については、我々もできるだけ\n協力していこう。\n君たちは、今回の作戦の功労者だからな。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63190#9",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>それからもうひとつ、\n先刻#c[5E8FD8]マクロス#cが地球に無事帰ってきた。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63190#10",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(13)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(13)>艦にかなりのダメージを受けてはいるが、\n無事帰艦を果たしてくれた。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63190#11",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>君たちと別れた後に何が起こったかは、\n報告をまとめてもらっている。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63190#12",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(15)>",
+    "<im(16)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(15)><im(16)>#c[5E8FD8]マクロス#cの修復作業が完了するまでの間、\n#c[5E8FD8]バルキリー隊#cは#c[5E8FD8]アルビオン#cとともに\n行動してもらうことになる。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63190#13",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>以上だ！",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63190#14",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(17)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(17)>…と言いたいところだが、\nタック・ケプフォード中尉。\n君には聞かなくてはならんことがある。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63190#15",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>理由はわかっていると思うが…\n君の機体を少し調べさせてもらう。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63284#0",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「バルクホルツ博士失踪」\n\n　　　　　　　　　　　　　　　　　　　プリベンター　レディ・アン",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63284#1",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(1)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)><im(1)>#c[BE5050]ライネン#cの#c[BE5050]私兵集団#cに関する\n緊急の報告を行う。\n",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63284#2",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[BE5050]",
+    "#c",
+    "<im(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[5E8FD8]プリベンター#cの調査により、\n#c[BE5050]ライネン#cは<im(2)>すでに死亡していることが\n明らかとなった。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63284#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[BE5050]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[BE5050]",
+    "#c",
+    "<im(3)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>また先日の#c[5E8FD8]アルビオン#cと#c[BE5050]ギワザ艦隊#cとの\n戦闘において、#c[5E8FD8]ＵＣＥ設計局#cの開発機\n#c[5E8FD8]ガンアーク#cに、#c[BE5050]バスターアーク#cと<im(3)>同様の",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63284#4",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>機能が搭載されていることも確認された。\n軍事衛星#c[BE5050]ガーディアン#cを使用した\n衛星砲撃である。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63284#5",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>以上の事実から、#c[5E8FD8]ＵＣＥ#cは#c[5E8FD8]同設計局#cの責任者\n#c[BE5050]バルクホルツ#c研究主任を一連の事件の\n被疑者と断定し、身柄の拘束を試みたが、",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63284#6",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[BE5050]バルクホルツ#c研究主任は、\nすでに消息を絶っていることが判明した。\n",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63284#7",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[BE5050]",
+    "#c",
+    "<im(4)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>さらに#c[5E8FD8]設計局#c内部の捜索の結果、\n無人機の操作プログラムや#c[BE5050]ガーディアン#cに\n関する資料<im(4)>も複数発見された。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63284#8",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>これで、#c[BE5050]バルクホルツ#c研究主任が\n事件の重要関連人物であることは、\n確実となった。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63284#9",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[5E8FD8]ＵＣＥ#cは現在、全力で彼の行方を\n捜索中である。\n",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63285#0",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「マクロス帰還」\n\n　　　　　　　　　　　　　　　　　　　プリベンター　レディ・アン",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63285#1",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(1)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)><im(1)>先日、#c[5E8FD8]マクロス#cが地球に帰還し、\n搭乗していたほとんどの人員の\n無事も確認された。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63285#2",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>しかし、拉致された歌手のリン・ミンメイと\nマネージャーのカイフン氏、パイロットの\nヤマダ・ジロウは、いまだ消息不明である。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63285#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[5E8FD8]マクロス#cは<im(2)>、#c[BE5050]ゼントラーディ#cの先遣艦隊に\n追撃されていたが、敵艦隊が一時後退した\nことで、帰還のチャンスが得られたと言う。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63285#4",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>グローバル艦長の報告によれば、敵は\n何らかの理由で本隊へ合流するために\n後退した可能性が高いとのことである。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63285#5",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(4)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>また先遣艦隊の撤退時には、地球圏付近<im(4)>\nにまで侵攻を進めていた敵本隊も\n同じく目撃されている。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63285#6",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>その目撃情報から#c[BE5050]ゼントラーディ#c本隊の\n戦力を分析した結果、驚くべき事実が\n明らかになった。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63285#7",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(3)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[BE5050]ゼントラーディ#cは、<im(3)>数百万を超える数の\n艦隊で構成されているのだ。\n",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63285#8",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>説明の必要はないだろう。\n地球圏の現有戦力では、対抗不可能な\n戦力である。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63285#9",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>仮に、敵本隊が地球に侵攻してきた場合、\nいかなるシミュレーションをもってしても、\nその迎撃は絶望的と言える。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63285#10",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>現在、#c[5E8FD8]ＵＣＥ#c本部では総力をかけて\n#c[BE5050]ゼントラーディ#cへの対抗策を検討中である。\n各隊には冷静な対応を求めたい。",
+   "en": "",
+   "notes": ""
+  }
+ ],
+ "context_after": [],
+ "report": {
+  "translator_summary": "",
+  "rows_examined": "",
+  "rows_examined_count": 0,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

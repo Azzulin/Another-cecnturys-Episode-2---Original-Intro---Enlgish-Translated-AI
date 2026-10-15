@@ -1,0 +1,1816 @@
+﻿{
+    "batch":  "op25_01",
+    "operation":  25,
+    "previous_batch":  null,
+    "next_batch":  "op25_02",
+    "rows_in_slice":  80,
+    "do_not_touch_names":  [
+                               "Barkholz",
+                               "Capt. Burning",
+                               "Captain Burning",
+                               "Captain South Burning",
+                               "Cowen",
+                               "Giganos",
+                               "Lieutenant",
+                               "Lt.",
+                               "Major Anavel Gato",
+                               "Sinapus",
+                               "Tak"
+                           ],
+    "glossary":  [
+                     {
+                         "ja":  "オーガニック・エナジー",
+                         "en":  "Organic Energy",
+                         "kind":  "term",
+                         "series":  "Brain Powerd",
+                         "role":  "The life-energy produced by Orphan and the Antibodies (Brain Powerds and Grand Chers); researched by the Isami family"
+                     },
+                     {
+                         "ja":  "バロン・マクシミリアン",
+                         "en":  "Baron Maximilian",
+                         "kind":  "character",
+                         "series":  "Brain Powerd",
+                         "gender":  "female",
+                         "role":  "Masked figure who seizes control of Orphan in Jonathan\u0027s name and gives him the Baronz; secretly Anoa McCormick, the missing captain of Novis Noah",
+                         "personality":  "Mysterious, theatrical and manipulative. Acts as a mentor to Jonathan, driven by a twisted longing for her estranged son.",
+                         "en_short":  "Baron"
+                     },
+                     {
+                         "ja":  "ハイパーライネック",
+                         "en":  "Hyper Wryneck",
+                         "kind":  "unit",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Giant \u0027Hyper\u0027 form of the Wryneck (boss unit; Todd\u0027s hyper-ized Wryneck)"
+                     },
+                     {
+                         "ja":  "バイストン・ウェル",
+                         "en":  "Byston Well",
+                         "kind":  "place",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "The otherworld between sea and land where Dunbine takes place."
+                     },
+                     {
+                         "ja":  "オペレーション",
+                         "en":  "Operation",
+                         "kind":  "term"
+                     },
+                     {
+                         "ja":  "オーラバトラー",
+                         "en":  "Aura Battler",
+                         "kind":  "term",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Class of insect-like Byston Well mecha fielded by the Drake Army and Show\u0027s side."
+                     },
+                     {
+                         "ja":  "グラン・ガラン",
+                         "en":  "Gran-Garan",
+                         "kind":  "ship",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Aura battleship of Queen Ciela Lapana (Kingdom of Na)"
+                     },
+                     {
+                         "ja":  "ゲア・ガリング",
+                         "en":  "Gea Garing",
+                         "kind":  "ship",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Aura battleship of Bishot Hatta, King of Ku; an enemy ship in Operation 25."
+                     },
+                     {
+                         "ja":  "ゼントラーディ",
+                         "en":  "Zentradi",
+                         "kind":  "faction",
+                         "series":  "Super Dimension Fortress Macross: Do You Remember Love?",
+                         "role":  "Race/faction of giant humanoid warriors; main antagonists."
+                     },
+                     {
+                         "ja":  "ノヴィス・ノア",
+                         "en":  "Novis Noah",
+                         "kind":  "ship",
+                         "series":  "Brain Powerd",
+                         "role":  "Anti-Orphan battleship (carrier with a pyramid superstructure); base of the Brain Powerd pilots"
+                     },
+                     {
+                         "ja":  "バスターアーク",
+                         "en":  "Buster Ark",
+                         "kind":  "unit",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "role":  "Modified Gun Ark with an evolving Guardian System and fallen-angel styling; Marina\u0027s unit while with the Rainen side."
+                     },
+                     {
+                         "ja":  "アンチボディ",
+                         "en":  "Antibody",
+                         "kind":  "term",
+                         "series":  "Brain Powerd",
+                         "role":  "Organic mecha born from Orphan plates (Grand Chers and Brains)."
+                     },
+                     {
+                         "ja":  "オーラマシン",
+                         "en":  "Aura Machine",
+                         "kind":  "term",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Collective term for all aura-powered machines (Aura Battlers, aura ships) of the Drake Army."
+                     },
+                     {
+                         "ja":  "バロン・ズゥ",
+                         "en":  "Baronz",
+                         "kind":  "unit",
+                         "series":  "Brain Powerd",
+                         "role":  "Evolved Antibody created by reviving a Grand Cher (e.g. Jonathan Baronz, Quincy Baronz)."
+                     },
+                     {
+                         "ja":  "ブル・ベガー",
+                         "en":  "Bull Beggar",
+                         "kind":  "ship",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Class of Drake-side aura ship; a weaker cousin of the aura battleships."
+                     },
+                     {
+                         "ja":  "リクレイマー",
+                         "en":  "Reclaimer",
+                         "kind":  "faction",
+                         "series":  "Brain Powerd",
+                         "role":  "The people who serve Orphan and pilot Grand Chers to gather its plates; plural \u0027Reclaimers\u0027"
+                     },
+                     {
+                         "ja":  "アルビオン",
+                         "en":  "Albion",
+                         "kind":  "ship",
+                         "series":  "Mobile Suit Gundam 0083: Stardust Memory",
+                         "role":  "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+                     },
+                     {
+                         "ja":  "オルファン",
+                         "en":  "Orphan",
+                         "kind":  "term",
+                         "series":  "Brain Powerd",
+                         "role":  "Gigantic sentient alien ship buried under the Pacific; its awakening threatens Earth; base of the Reclaimers"
+                     },
+                     {
+                         "ja":  "オーラ力",
+                         "en":  "Aura Power",
+                         "kind":  "term",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "The aura energy of a pilot; also the name of a Dunbine-family ability that multiplies attack power for a while (Weapon 6)."
+                     },
+                     {
+                         "ja":  "シナプス",
+                         "en":  "Sinapus",
+                         "kind":  "character",
+                         "series":  "Mobile Suit Gundam 0083: Stardust Memory",
+                         "gender":  "male",
+                         "role":  "Earth Federation captain (Captain, 大佐) of the assault carrier Albion; leads the pursuit of the stolen GP02.",
+                         "personality":  "Grizzled veteran with a commanding presence and keen tactical mind; relies on his own judgement and sense of right and wrong.",
+                         "full_name":  "Eyphar Sinapus"
+                     },
+                     {
+                         "ja":  "ドレイク",
+                         "en":  "Drake",
+                         "kind":  "character",
+                         "series":  "Aura Battler Dunbine",
+                         "gender":  "male",
+                         "role":  "Main antagonist; Lord of House Luft in the Kingdom of Ah (アの国), who summons Holy Warriors and wages war to unite Byston Well; commands the Will Wipps",
+                         "personality":  "Ambitious, scheming warlord who believes his conquest is justified. Loves his daughter Riml but is blind to the plots around him.",
+                         "full_name":  "Drake Luft"
+                     },
+                     {
+                         "ja":  "UCE",
+                         "en":  "UCE",
+                         "kind":  "faction"
+                     },
+                     {
+                         "ja":  "オーラ",
+                         "en":  "aura",
+                         "kind":  "term",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Life energy of Byston Well that powers aura machines; used alone in lines like オーラの力 / 悪しきオーラ / オーラ光."
+                     },
+                     {
+                         "ja":  "バロン",
+                         "en":  "Baron",
+                         "kind":  "character",
+                         "series":  "Brain Powerd",
+                         "gender":  "female",
+                         "role":  "Masked figure who seizes control of Orphan in Jonathan\u0027s name and gives him the Baronz; secretly Anoa McCormick, the missing captain of Novis Noah",
+                         "personality":  "Mysterious, theatrical and manipulative. Acts as a mentor to Jonathan, driven by a twisted longing for her estranged son.",
+                         "full_name":  "Baron Maximilian"
+                     },
+                     {
+                         "ja":  "ブレン",
+                         "en":  "Brain",
+                         "kind":  "term",
+                         "series":  "Brain Powerd",
+                         "role":  "Short for Brain Powerd units (ブレンたち, ブレンパワード隊)."
+                     },
+                     {
+                         "ja":  "マリナ",
+                         "en":  "Marina",
+                         "kind":  "character",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "gender":  "female",
+                         "role":  "ACE2 heroine; Ensign in Tak\u0027s squad, pilot of the red Gun Ark; goes missing at Torrington Base, reappears with the Rainen Project in the Buster Ark, later rejoins Tak.",
+                         "personality":  "Cool and reserved (\u0027defrosting ice queen\u0027 in flashbacks); deeply bonded with Tak.",
+                         "full_name":  "Marina Carson"
+                     },
+                     {
+                         "ja":  "比瑪",
+                         "en":  "Hime",
+                         "kind":  "character",
+                         "series":  "Brain Powerd",
+                         "gender":  "female",
+                         "role":  "Female lead; 17-year-old Brain Powerd pilot (Hime Brain) aboard the Novis Noah",
+                         "personality":  "Cheerful, warm and motherly toward the children and her Brain. Optimistic and brave, and believes in talking to people and Antibodies alike.",
+                         "full_name":  "Hime Utsumiya"
+                     },
+                     {
+                         "ja":  "艦長",
+                         "en":  "Captain",
+                         "kind":  "title"
+                     }
+                 ],
+    "known_portraits":  {
+                            "31":  {
+                                       "speaker":  "Irene Carrier",
+                                       "gender":  "female",
+                                       "role":  "acting captain of the Novis Noa",
+                                       "confidence":  "high",
+                                       "evidence":  "brief: \u0027ノヴィス・ノアの艦長代理、アイリーン・キャリアーです。\u0027"
+                                   },
+                            "37":  {
+                                       "speaker":  "Eyphar Sinapus",
+                                       "gender":  "male",
+                                       "role":  "captain of the Albion",
+                                       "confidence":  "high",
+                                       "evidence":  "brief: \u0027私が本艦の艦長、エイパー・シナプスだ。\u0027"
+                                   },
+                            "54":  {
+                                       "speaker":  "Ciela Lapana",
+                                       "gender":  "female",
+                                       "role":  "Queen of Na",
+                                       "confidence":  "high",
+                                       "evidence":  "brief: \u0027私は、ナの国の女王、シーラ・ラパーナです。\u0027"
+                                   }
+                        },
+    "unknown_portraits":  [
+
+                          ],
+    "context_before":  [
+
+                       ],
+    "rows":  [
+                 {
+                     "ref":  "brief63024#0",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "オペレーション　２５",
+                     "en":  "Operation 25",
+                     "notes":  "Strategic briefing title."
+                 },
+                 {
+                     "ref":  "brief63024#1",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "オルファン浮上",
+                     "en":  "Orphan Rises",
+                     "notes":  "Strategic briefing operation title."
+                 },
+                 {
+                     "ref":  "brief63024#3",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "ブル・ベガー特攻阻止",
+                     "en":  "Stop Bull Beggar Suicide Attacks",
+                     "notes":  "Objective text."
+                 },
+                 {
+                     "ref":  "brief63024#4",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "ゲア・ガリング攻撃",
+                     "en":  "Attack the Gea Garing",
+                     "notes":  "Objective text."
+                 },
+                 {
+                     "ref":  "brief63024#5",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "ノヴィス・ノア進軍援護",
+                     "en":  "Support Novis Noah\u0027s Advance",
+                     "notes":  "Objective text."
+                 },
+                 {
+                     "ref":  "brief63024#6",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "バロン・ズゥ撃破",
+                     "en":  "Defeat Baron Zu",
+                     "notes":  "Objective text."
+                 },
+                 {
+                     "ref":  "brief63024#7",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "ドレイク軍せん滅",
+                     "en":  "Annihilate the Drake Forces",
+                     "notes":  "Objective text."
+                 },
+                 {
+                     "ref":  "brief63024#8",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  31,
+                     "tokens":  [
+                                    "\u003cop(31,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cac(24)\u003e",
+                                    "\u003cim(1)\u003e",
+                                    "\u003cim(2)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(31,1)\u003e\u003csp(2)\u003e\u003cac(24)\u003e太平洋方面で\u003cim(1)\u003e緊急事態\u003cim(2)\u003eです。\n海底から浮上していたオルファンが、\n突然高度を上げ、再浮上を始めました。",
+                     "en":  "\u003cop(31,1)\u003e\u003csp(2)\u003e\u003cac(24)\u003eAn emergency has arisen \u003cim(1)\u003ein the Pacific.\u003cim(2)\u003e\nOrphan, having risen from the seabed,\nsuddenly gained altitude and resumed ascending.",
+                     "notes":  "Irene Carrier briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#9",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  31,
+                     "tokens":  [
+                                    "\u003cop(31,1)\u003e",
+                                    "\u003csp(2)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(31,1)\u003e\u003csp(2)\u003eとうとう恐れていたことが起こりました…\nこのままではオルファンは宇宙へと\n飛び立ってしまいます。",
+                     "en":  "\u003cop(31,1)\u003e\u003csp(2)\u003eWhat we feared has finally come to pass...\nAt this rate, Orphan will take off\ninto space.",
+                     "notes":  "Irene Carrier briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#10",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  31,
+                     "tokens":  [
+                                    "\u003cop(31,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[BE5050]",
+                                    "#c",
+                                    "\u003cim(18)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(31,1)\u003e\u003csp(2)\u003e#c[BE5050]リクレイマー#c内では最近、ガバナーと名乗る\n指導者が、\u003cim(18)\u003eバロン・マクシミリアンという人物の\nクーデターにより失脚しています。",
+                     "en":  "\u003cop(31,1)\u003e\u003csp(2)\u003eWithin the #c[BE5050]Reclaimers#c, the leader called Governor\nwas recently ousted in a coup \u003cim(18)\u003estaged\nby a figure named Baron Maximilian.",
+                     "notes":  "Irene Carrier briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#11",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  31,
+                     "tokens":  [
+                                    "\u003cop(31,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(13)\u003e",
+                                    "#c[BE5050]",
+                                    "#c",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(31,1)\u003e\u003csp(2)\u003e\u003cim(13)\u003e#c[BE5050]リクレイマー#cが思い切った行動に出たのは、\nこの動きの一部として理解できるのですが…\n#c[BE5050]ドレイク#cがこれを静観するとは思えません。",
+                     "en":  "\u003cop(31,1)\u003e\u003csp(2)\u003e\u003cim(13)\u003eThat the #c[BE5050]Reclaimers#c took drastic action can be\nunderstood as part of this development, but...\nI cannot believe #c[BE5050]Drake#c will just watch idly.",
+                     "notes":  "Irene Carrier briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#12",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  31,
+                     "tokens":  [
+                                    "\u003cop(31,1)\u003e",
+                                    "\u003csp(2)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(31,1)\u003e\u003csp(2)\u003eオルファン奪取に動くのか、\nそれとも何か別の手を打ってくるのか、\n現状では何とも･･･",
+                     "en":  "\u003cop(31,1)\u003e\u003csp(2)\u003eWhether he moves to seize Orphan or plays some\nother hand, we cannot say for certain right now...",
+                     "notes":  "Irene Carrier briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#13",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  31,
+                     "tokens":  [
+                                    "\u003cop(31,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(3)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(31,1)\u003e\u003csp(2)\u003e\u003cim(3)\u003eしかし、このままオルファンの浮上を許すと、\n取り返しのつかない事態になります。",
+                     "en":  "\u003cop(31,1)\u003e\u003csp(2)\u003e\u003cim(3)\u003eHowever, if we permit Orphan to continue ascending,\nirreversible disaster will strike.",
+                     "notes":  "Irene Carrier briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#14",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  31,
+                     "tokens":  [
+                                    "\u003cop(31,1)\u003e",
+                                    "\u003csp(2)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(31,1)\u003e\u003csp(2)\u003e地球上のオーガニック・エナジーが\n全て吸収され、地球の全生命が\n死滅してしまうかもしれません。",
+                     "en":  "\u003cop(31,1)\u003e\u003csp(2)\u003eAll Organic Energy on Earth could be absorbed,\nand all life on the planet might perish.",
+                     "notes":  "Irene Carrier briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#15",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  31,
+                     "tokens":  [
+                                    "\u003cop(31,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[5E8FD8]",
+                                    "#c"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(31,1)\u003e\u003csp(2)\u003e一方で、#c[5E8FD8]ノヴィス･ノア#cのほうでも\n奇妙な事件がありました。",
+                     "en":  "\u003cop(31,1)\u003e\u003csp(2)\u003eMeanwhile, a strange incident occurred\naboard the #c[5E8FD8]Novis Noah#c as well.",
+                     "notes":  "Irene Carrier briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#16",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  31,
+                     "tokens":  [
+                                    "\u003cop(31,1)\u003e",
+                                    "\u003csp(2)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(31,1)\u003e\u003csp(2)\u003eブレンたちが勝手に動き出し、\nオルファンへの道を開いたのです。",
+                     "en":  "\u003cop(31,1)\u003e\u003csp(2)\u003eThe Brains moved on their own initiative\nand opened a path toward Orphan.",
+                     "notes":  "Irene Carrier briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#17",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  31,
+                     "tokens":  [
+                                    "\u003cop(31,1)\u003e",
+                                    "\u003csp(2)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(31,1)\u003e\u003csp(2)\u003e比瑪ちゃんはこれを見て、\nブレンたちとオルファンは\n心を通じ合わせているのではないか…",
+                     "en":  "\u003cop(31,1)\u003e\u003csp(2)\u003eSeeing this, Hime wondered whether the Brains\nand Orphan might be communicating with\none another on a heart-to-heart level...",
+                     "notes":  "Irene Carrier briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#18",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  31,
+                     "tokens":  [
+                                    "\u003cop(31,1)\u003e",
+                                    "\u003csp(2)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(31,1)\u003e\u003csp(2)\u003eそして、それと同じように人間にも\nオルファンを説得できるのではないかと\n考えたようです。",
+                     "en":  "\u003cop(31,1)\u003e\u003csp(2)\u003eAnd by that same token, she believes that humans\ntoo might be capable of persuading Orphan.",
+                     "notes":  "Irene Carrier briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#19",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  31,
+                     "tokens":  [
+                                    "\u003cop(31,1)\u003e",
+                                    "\u003csp(2)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(31,1)\u003e\u003csp(2)\u003e彼女と勇で、オルファンの説得を試みて\nもらおうと思います。\nオルファンは、必ず理解してくれます。",
+                     "en":  "\u003cop(31,1)\u003e\u003csp(2)\u003eI intend to have her and Yuu attempt to persuade\nOrphan. I am certain Orphan will understand.",
+                     "notes":  "Irene Carrier briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#20",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  37,
+                     "tokens":  [
+                                    "\u003cop(37,1)\u003e",
+                                    "\u003csp(2)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(37,1)\u003e\u003csp(2)\u003e正直、信じがたい話ではあるが、\nオルファンやアンチボディについては\n彼らのほうが専門だ。",
+                     "en":  "\u003cop(37,1)\u003e\u003csp(2)\u003eFrankly, it is difficult to believe, but when\nit comes to Orphan and Antibodies,\nthey are the specialists.",
+                     "notes":  "Captain Sinapus briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#21",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  37,
+                     "tokens":  [
+                                    "\u003cop(37,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(6)\u003e",
+                                    "\u003cim(9)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(37,1)\u003e\u003csp(2)\u003e\u003cim(6)\u003e\u003cim(9)\u003eオルファンへの対応については\n彼らの判断を全面的に支持する。",
+                     "en":  "\u003cop(37,1)\u003e\u003csp(2)\u003e\u003cim(6)\u003e\u003cim(9)\u003eRegarding our handling of Orphan,\nI fully support their judgment.",
+                     "notes":  "Captain Sinapus briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#22",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  37,
+                     "tokens":  [
+                                    "\u003cop(37,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(10)\u003e",
+                                    "\u003cim(11)\u003e",
+                                    "#c[F07141]",
+                                    "#c",
+                                    "#c[5E8FD8]",
+                                    "#c",
+                                    "#c[5E8FD8]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(37,1)\u003e\u003csp(2)\u003e\u003cim(10)\u003e\u003cim(11)\u003e#c[F07141]敵の迎撃#cについては、我々#c[5E8FD8]アルビオン#cが\n引き受ける。#c[5E8FD8]ノヴィス・ノア#cによる説得を\n成功させるために、全力を尽くそう。",
+                     "en":  "\u003cop(37,1)\u003e\u003csp(2)\u003e\u003cim(10)\u003e\u003cim(11)\u003eRegarding #c[F07141]intercepting the enemy#c, our #c[5E8FD8]Albion#c\nshall take it on. Let us do everything so the\n#c[5E8FD8]Novis Noah#c\u0027s persuasion will succeed.",
+                     "notes":  "Captain Sinapus briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#23",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  54,
+                     "tokens":  [
+                                    "\u003cop(54,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(54,1)\u003e\u003csp(2)\u003e問題は#c[BE5050]ドレイク軍#cです。\nオルファンが動き出したことには、\nおそらく彼らも関係しています。",
+                     "en":  "\u003cop(54,1)\u003e\u003csp(2)\u003eThe issue is the #c[BE5050]Drake Forces#c.\nThey are likely involved in Orphan\u0027s sudden\nmovement as well.",
+                     "notes":  "Queen Ciela: regal, no contractions. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#24",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  54,
+                     "tokens":  [
+                                    "\u003cop(54,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(19)\u003e",
+                                    "#c[BE5050]",
+                                    "#c",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(54,1)\u003e\u003csp(2)\u003e\u003cim(19)\u003e#c[BE5050]ドレイク#cが放つ悪しきオーラ。\nそして、#c[BE5050]ゼントラーディ#cの接近…\nそれらが何かしら影響を与えたのでしょう。",
+                     "en":  "\u003cop(54,1)\u003e\u003csp(2)\u003e\u003cim(19)\u003eThe evil aura cast by #c[BE5050]Drake#c, and the approach\nof the #c[BE5050]Zentradi#c... These factors have surely\nexerted some manner of influence.",
+                     "notes":  "Queen Ciela: regal, no contractions. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#25",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  54,
+                     "tokens":  [
+                                    "\u003cop(54,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(54,1)\u003e\u003csp(2)\u003e#c[BE5050]ドレイク#cは地上制圧のため、\nオルファンを我が物にしようとするに\n違いありません。",
+                     "en":  "\u003cop(54,1)\u003e\u003csp(2)\u003eIn order to conquer the surface world,\n#c[BE5050]Drake#c will without doubt seek to claim\nOrphan for himself.",
+                     "notes":  "Queen Ciela: regal, no contractions. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#26",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  54,
+                     "tokens":  [
+                                    "\u003cop(54,1)\u003e",
+                                    "\u003csp(2)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(54,1)\u003e\u003csp(2)\u003eオルファンやアンチボディが、オーラ力に\n似たオーガニック・エナジーで動くことに\n目をつけたのだと思います。",
+                     "en":  "\u003cop(54,1)\u003e\u003csp(2)\u003eI believe his eyes were drawn to how Orphan\nand Antibodies operate on Organic Energy,\nwhich closely resembles Aura Power.",
+                     "notes":  "Queen Ciela: regal, no contractions. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#27",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  54,
+                     "tokens":  [
+                                    "\u003cop(54,1)\u003e",
+                                    "\u003csp(2)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(54,1)\u003e\u003csp(2)\u003eアンチボディとオーラバトラーが\nともに戦うことで、互いに力を増幅させる\nという現象も起きているようです。",
+                     "en":  "\u003cop(54,1)\u003e\u003csp(2)\u003eIt appears that when Antibodies and Aura Battlers\nfight side by side, a phenomenon occurs wherein\nthey mutually amplify each other\u0027s power.",
+                     "notes":  "Queen Ciela: regal, no contractions. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#28",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  54,
+                     "tokens":  [
+                                    "\u003cop(54,1)\u003e",
+                                    "\u003csp(2)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(54,1)\u003e\u003csp(2)\u003eもしかするとオーラバトラーと\nアンチボディは、きわめて近しい\n存在なのかもしれません。",
+                     "en":  "\u003cop(54,1)\u003e\u003csp(2)\u003ePerhaps Aura Battlers and Antibodies\nare remarkably similar entities.",
+                     "notes":  "Queen Ciela: regal, no contractions. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#29",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  54,
+                     "tokens":  [
+                                    "\u003cop(54,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[BE5050]",
+                                    "#c",
+                                    "\u003cim(14)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(54,1)\u003e\u003csp(2)\u003e#c[BE5050]ドレイク#cは現在、\u003cim(14)\u003eオルファン周辺に\n軍勢を集結させています。",
+                     "en":  "\u003cop(54,1)\u003e\u003csp(2)\u003e#c[BE5050]Drake#c is currently \u003cim(14)\u003emassing his military forces\naround Orphan.",
+                     "notes":  "Queen Ciela: regal, no contractions. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#30",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  54,
+                     "tokens":  [
+                                    "\u003cop(54,1)\u003e",
+                                    "\u003csp(2)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(54,1)\u003e\u003csp(2)\u003eあの海域には数々の怨念や野望、憎悪を\n感じます。\nこのまま放置しては、何が起こるか…",
+                     "en":  "\u003cop(54,1)\u003e\u003csp(2)\u003eI sense countless grudges, ambitions, and hatreds\nin that sector of the sea. If left unattended,\nthere is no telling what may occur...",
+                     "notes":  "Queen Ciela: regal, no contractions. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#31",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  54,
+                     "tokens":  [
+                                    "\u003cop(54,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(54,1)\u003e\u003csp(2)\u003e同じバイストン・ウェルから来た者として、\nこの地上で、これ以上#c[BE5050]ドレイク#cの\n好きにさせておくわけにはまいりません。",
+                     "en":  "\u003cop(54,1)\u003e\u003csp(2)\u003eAs one who also hails from Byston Well, I cannot\npermit #c[BE5050]Drake#c to have his way upon this\nsurface world any longer.",
+                     "notes":  "Queen Ciela: regal, no contractions. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#32",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  54,
+                     "tokens":  [
+                                    "\u003cop(54,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[F07141]",
+                                    "#c"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(54,1)\u003e\u003csp(2)\u003e何としても#c[F07141]ドレイクの野望を打ち砕かねば#c。\nシナプス艦長、どうか力をお貸しください。",
+                     "en":  "\u003cop(54,1)\u003e\u003csp(2)\u003eWe must #c[F07141]crush Drake\u0027s ambitions#c at all costs.\nCaptain Sinapus, pray lend us your strength.",
+                     "notes":  "Queen Ciela: regal, no contractions. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#33",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  37,
+                     "tokens":  [
+                                    "\u003cop(37,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[5E8FD8]",
+                                    "#c"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(37,1)\u003e\u003csp(2)\u003e今回は#c[5E8FD8]ＵＣＥ#cの主力艦がほぼ揃った、\n総力戦となるだろう。",
+                     "en":  "\u003cop(37,1)\u003e\u003csp(2)\u003eNearly all of the #c[5E8FD8]UCE#c\u0027s capital ships are gathered.\nThis will be an all-out fleet engagement.",
+                     "notes":  "Captain Sinapus briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63024#34",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  37,
+                     "tokens":  [
+                                    "\u003cop(37,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[5E8FD8]",
+                                    "#c",
+                                    "\u003cim(16)\u003e",
+                                    "\u003cim(17)\u003e",
+                                    "\u003cof(1)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(37,1)\u003e\u003csp(2)\u003e各自、#c[5E8FD8]友軍艦#cへの被害を最小\u003cim(16)\u003e限に\n抑え\u003cim(17)\u003eるよう、\u003cof(1)\u003e作戦行動を展開して欲しい。",
+                     "en":  "\u003cop(37,1)\u003e\u003csp(2)\u003eI ask everyone to keep damage to #c[5E8FD8]allied ships#c\nto a mini\u003cim(16)\u003emum\u003cim(17)\u003e as you conduct operations.\u003cof(1)\u003e",
+                     "notes":  "Captain Sinapus briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63148#2",
+                     "layer":  "tactical briefing",
+                     "phase":  1,
+                     "portrait":  54,
+                     "tokens":  [
+                                    "\u003cop(54,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[BE5050]",
+                                    "#c",
+                                    "\u003cim(1)\u003e",
+                                    "#c[BE5050]",
+                                    "\u003cim(3)\u003e",
+                                    "#c",
+                                    "\u003cim(6)\u003e",
+                                    "#c[5E8FD8]",
+                                    "\u003cim(8)\u003e",
+                                    "\u003cim(10)\u003e",
+                                    "\u003cim(12)\u003e",
+                                    "#c",
+                                    "#c[F07141]",
+                                    "#c",
+                                    "\u003cim(4)\u003e",
+                                    "\u003cim(5)\u003e",
+                                    "\u003ctr(1)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(54,1)\u003e\u003csp(2)\u003e#c[BE5050]ドレイク軍#cの\u003cim(1)\u003e#c[BE5050]オーラバ\u003cim(3)\u003eトラー隊#cが、\n\u003cim(6)\u003e#c[5E8FD8]グラ\u003cim(8)\u003eン・\u003cim(10)\u003eガラ\u003cim(12)\u003eン#cに向かって来ています。\n#c[F07141]彼らの阻止#cに出\u003cim(4)\u003eてく\u003cim(5)\u003eださい。\u003ctr(1)\u003e",
+                     "en":  "\u003cop(54,1)\u003e\u003csp(2)\u003eThe #c[BE5050]Drake Army#c\u0027s \u003cim(1)\u003e#c[BE5050]Aura Bat\u003cim(3)\u003etler Squad#c is heading\u003cim(6)\u003e\ntoward the #c[5E8FD8]Gra\u003cim(8)\u003en-\u003cim(10)\u003eGara\u003cim(12)\u003en#c.\nPlease deploy to #c[F07141]intercept them#c.\u003cim(4)\u003e\u003cim(5)\u003e\u003ctr(1)\u003e",
+                     "notes":  "Queen Ciela briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63148#3",
+                     "layer":  "tactical briefing",
+                     "phase":  1,
+                     "portrait":  54,
+                     "tokens":  [
+                                    "\u003cop(54,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[BE5050]",
+                                    "#c",
+                                    "#c[BE5050]",
+                                    "#c",
+                                    "\u003cim(14)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(54,1)\u003e\u003csp(2)\u003e敵の先鋒は#c[BE5050]オーラマシン#cと、\n#c[BE5050]ブル・ベガーの大群#cで構成されて\u003cim(14)\u003eいます。\nいったい何を企んでいるのか……",
+                     "en":  "\u003cop(54,1)\u003e\u003csp(2)\u003eThe enemy vanguard consists of #c[BE5050]Aura Machines#c\nand a massive swarm of #c[BE5050]Bull Beggars#c.\u003cim(14)\u003e\nWhatever could he be plotting...?",
+                     "notes":  "Queen Ciela briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#2",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "グラン･ガランの撃沈",
+                     "en":  "Gran-Garan Sunk",
+                     "notes":  "Objective failure display."
+                 },
+                 {
+                     "ref":  "m6251#5",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "ハイパーライネックの撃破",
+                     "en":  "Defeat Hyper Rynck",
+                     "notes":  "Objective display."
+                 },
+                 {
+                     "ref":  "m6251#8",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "グラン・ガラン",
+                     "en":  "Gran-Garan",
+                     "notes":  "Unit label."
+                 },
+                 {
+                     "ref":  "m6251#9",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(400)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eブルベガー、多数接近！\u003cab(400)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eMultiple Bull Beggars approaching!\u003cab(400)\u003e\u003ced()\u003e",
+                     "notes":  "Operator warning. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#10",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eこちらに特攻をかけるつもりです。\u003cab(500)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThey intend to launch suicide attacks on us.\u003cab(500)\u003e",
+                     "notes":  "Bridge report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#11",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(400)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eドレイクは兵を殺人兵器に仕立てている！\u003cab(400)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eDrake has turned his soldiers into suicide weapons!\u003cab(400)\u003e\u003ced()\u003e",
+                     "notes":  "Pilot indignation. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#12",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(600)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eアルビオンとグラン・ガランに近づけるな！\u003cab(600)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eKeep them away from Albion and Gran-Garan!\u003cab(600)\u003e",
+                     "notes":  "Commander order. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#13",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e叩き落せ！\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eShoot them down!\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  "Combat command. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#14",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e人が乗ったまま体当たりするの！？\u003cab(300)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThey are ramming with pilots still inside?!\u003cab(300)\u003e",
+                     "notes":  "Pilot shock. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#15",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eウソでしょ！？　だめだよ、そんなこと！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eAre you kidding?! They cannot do that!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Pilot disbelief. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#16",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eオーラマシンよりも\nブルベガーを優先して落とすんだ！\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003ePrioritize the Bull Beggars over Aura Machines!\nShoot them down first!\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Tactical instruction. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#17",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eなんで、こんなひどい作戦を……\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWhy carry out such a terrible tactic...?\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  "Pilot horror. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#18",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e人を人と思わない。\u003cab(100)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eHe does not care about human life.\u003cab(100)\u003e",
+                     "notes":  "Pilot grim line. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#19",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eそれがドレイクのやり方なのよ。\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eThat is Drake\u0027s way.\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Marvel or pilot line. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#20",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e敵艦、さらに複数！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAdditional enemy warships detected!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Operator alert. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#21",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e熱源反応、さらに増大！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThermal signatures increasing further!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Operator sensor alert. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#23",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eグラン・ガラン、被弾！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eGran-Garan has taken a hit!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Damage report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#24",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eグラン・ガラン、被弾！\u003cab(100)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eGran-Garan has taken a hit!\u003cab(100)\u003e",
+                     "notes":  "Bridge alert. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#25",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eブリッジ付近が損傷！\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eDamage sustained near the bridge!\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  "Bridge report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#26",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eこの程度で、グラン・ガランは沈みません。\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eGran-Garan will not sink from something like this.\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Queen Ciela: regal, no contractions. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#27",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eグラン･ガラン、損傷拡大！\u003cab(100)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eGran-Garan damage spreading!\u003cab(100)\u003e",
+                     "notes":  "Damage report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#28",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e推進力が低下しています！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003ePropulsion is decreasing!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Engine status. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#29",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e力押しでは被害を増やすだけです。\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eRelying on brute force will only add casualties.\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Bridge tactical advice. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#30",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eグラン・ガラン、撃沈！\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eGran-Garan has been sunk!\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Mission failure notice. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#31",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(900)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eなんということだ……\u003cab(900)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eHow could this happen...\u003cab(900)\u003e\u003ced()\u003e",
+                     "notes":  "Despair over sinking. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#32",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e左舷、被弾！\u003cab(100)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003ePort side hit!\u003cab(100)\u003e",
+                     "notes":  "Albion bridge alert. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#33",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e損傷は軽微です！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eDamage is minor!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Albion bridge status. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#34",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e直撃！　左舷、ＭＳカタパルト！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eDirect hit! Port MS catapult!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Albion combat alert. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#35",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e本艦の損傷が拡大しています！\u003cab(300)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eDamage to this ship is spreading!\u003cab(300)\u003e",
+                     "notes":  "Damage report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#36",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこれでは艦がもたない……！\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eAt this rate, the ship will not hold...!\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Bridge danger alert. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#37",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e機関部に直撃！　総員……\u003cab(0)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eDirect hit to engine room! All hands...\u003cab(0)\u003e\u003ced()\u003e",
+                     "notes":  "Critical hit alert. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#38",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eアルビオンが……！\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe Albion has...!\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Mission failure alert. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#39",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e周辺に、敵影なし。\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eNo enemy signatures in the vicinity.\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Combat clear report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#40",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eよくやってくれました。\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eYou have all performed admirably.\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Queen Ciela: regal, no contractions. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#41",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eレーダーに感！\u003cab(200)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eRadar contact!\u003cab(200)\u003e",
+                     "notes":  "Operator contact alert. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#42",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eバスターアークです！\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eIt is the Buster Ark!\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  "Target identification. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#44",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(800)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eまだやるのか？　なぜだ…？\u003cab(800)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eStill fighting? Why...?\u003cab(800)\u003e\u003ced()\u003e",
+                     "notes":  "Tak questioning Marina. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#45",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eマリナ！　あいつは死んだ。\u003cab(200)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eMarina! He is dead.\u003cab(200)\u003e",
+                     "notes":  "Tak to Marina. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#46",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(700)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eどんな理由があったか知らないが、\nもう戦う必要はないだろう！\u003cab(700)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eWhatever your reasons were,\nyou do not need to fight anymore!\u003cab(700)\u003e\u003ced()\u003e",
+                     "notes":  "Tak pleading with Marina. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#47",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eやめろ、ケプフォード！\u003cab(100)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eStop it, Kepford!\u003cab(100)\u003e",
+                     "notes":  "Burning commanding Tak. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#48",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e今は目の前のことに専念しろ！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eFocus on what is right in front of you!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Burning order. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#49",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eいつまでこんなことを続けるんだ！\u003cab(300)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eHow long are you going to keep this up?!\u003cab(300)\u003e",
+                     "notes":  "Tak emotional confrontation. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#50",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e強要されていたんだろ？\u003cab(300)\u003e",
+                     "en":  "\u003csp(20)\u003eYou were forced into this, were you not?\u003cab(300)\u003e",
+                     "notes":  "Tak question. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#51",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e答えろ！　マリナ！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eAnswer me! Marina!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Tak shout. Exact tokens preserved."
+                 }
+             ],
+    "context_after":  [
+                          {
+                              "ref":  "m6251#52",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003e違う…あんな人はどうでもいい。\u003cab(300)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6251#53",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e…あなたを止めなくては。\u003cab(500)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6251#54",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003e……なんだと？\u003cab(500)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6251#55",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003e…次が最後よ。\u003cab(700)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6251#56",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eバスターアーク、離脱します！\u003cab(100)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6251#57",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eマリナ！！\u003cab(100)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6251#58",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003e今は待て！\u003cab(100)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6251#59",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e近いうちに、彼女は必ずまた現れる！\u003cab(200)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6251#60",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eし、しかし！！\u003cab(0)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6251#61",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eこの混乱状態で、追いかけても無駄だ！\u003cab(200)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6251#62",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eアムロ大尉の言うとおりだ。\u003cab(500)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6251#63",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e彼女があくまでも目的を果たすつもりなら…\u003cab(0)\u003e",
+                              "en":  ""
+                          }
+                      ],
+    "report":  {
+                   "translator_summary":  "Translated all 80 rows of op25_01. Covers strategic briefing by Irene Carrier, Eyphar Sinapus, and Queen Ciela Lapana regarding Orphan\u0027s ascent, Baron Maximilian\u0027s coup in the Reclaimers, and Drake\u0027s gathering fleet; tactical briefing on Drake\u0027s Aura Battlers and Bull Beggars; and Phase 1 combat defending Gran-Garan against suicide ramming attacks and Tak\u0027s confrontation with Marina in Buster Ark.",
+                   "rows_examined":  "brief63024#0..m6251#51",
+                   "rows_examined_count":  80,
+                   "uncertainties":  [
+
+                                     ],
+                   "glossary_proposals":  [
+
+                                          ],
+                   "portrait_speakers":  {
+                                             "31":  "Irene Carrier",
+                                             "37":  "Eyphar Sinapus",
+                                             "54":  "Ciela Lapana"
+                                         }
+               }
+}

@@ -1,0 +1,1441 @@
+﻿{
+    "batch":  "xm_menu3013_02",
+    "operation":  null,
+    "group":  "xm_menu3013",
+    "group_label":  "Menu screen menu3013",
+    "previous_batch":  "xm_menu3013_01",
+    "next_batch":  "xm_menu3013_03",
+    "rows_in_slice":  80,
+    "do_not_touch_names":  [
+                               "Amuro Ray",
+                               "Barkholz",
+                               "Capt. Burning",
+                               "Captain Burning",
+                               "Captain South Burning",
+                               "Cowen",
+                               "Giganos",
+                               "Lieutenant",
+                               "Lt.",
+                               "Major Anavel Gato",
+                               "Sinapus",
+                               "Tak"
+                           ],
+    "glossary":  [
+                     {
+                         "ja":  "インターミッション",
+                         "en":  "Intermission",
+                         "kind":  "generic",
+                         "series":  "Another Century\u0027s Episode series (game system)",
+                         "role":  "Between-mission menu."
+                     },
+                     {
+                         "ja":  "フリーミッション",
+                         "en":  "Free Mission",
+                         "kind":  "generic",
+                         "series":  "Another Century\u0027s Episode series (game system)",
+                         "role":  "Mission replay mode."
+                     },
+                     {
+                         "ja":  "エースポイント",
+                         "en":  "Ace Points",
+                         "kind":  "generic",
+                         "series":  "Another Century\u0027s Episode series (game system)",
+                         "role":  "Currency for upgrades/repairs."
+                     },
+                     {
+                         "ja":  "モジュール",
+                         "en":  "Module",
+                         "kind":  "generic",
+                         "series":  "Another Century\u0027s Episode series (game system)",
+                         "role":  "Collectible item dropped in missions."
+                     },
+                     {
+                         "ja":  "コンボ",
+                         "en":  "Combo",
+                         "kind":  "generic",
+                         "series":  "Another Century\u0027s Episode series (game system)",
+                         "role":  "Melee combo chain (コンボ1, コンボ2...)."
+                     },
+                     {
+                         "ja":  "機体",
+                         "en":  "unit / machine",
+                         "kind":  "term",
+                         "note":  "Op 01 uses \u0027unit\u0027 for mecha in general, \u0027machine\u0027 when the speaker is the developer"
+                     }
+                 ],
+    "known_portraits":  {
+
+                        },
+    "unknown_portraits":  [
+
+                          ],
+    "context_before":  [
+                           {
+                               "ref":  "menu3013#77",
+                               "layer":  "menu",
+                               "jp":  "回避速度",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "menu3013#78",
+                               "layer":  "menu",
+                               "jp":  "回避移動距離",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "menu3013#79",
+                               "layer":  "menu",
+                               "jp":  "リミッター解除",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "menu3013#80",
+                               "layer":  "menu",
+                               "jp":  "プレイヤーユニットのアーマーが\n０になった場合、自動的に１０００ポイント\n回復させます。",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "menu3013#81",
+                               "layer":  "menu",
+                               "jp":  "プレイヤーユニットのアーマーが\n０になった場合、自動的に３０００ポイント\n回復させます。",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "menu3013#82",
+                               "layer":  "menu",
+                               "jp":  "プレイヤーユニットのアーマーが\n０になった場合、自動的に５０００ポイント\n回復させます。",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "menu3013#83",
+                               "layer":  "menu",
+                               "jp":  "バーニアゲージの減少率を抑え、\n長時間バーニアを使用できます。",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "menu3013#84",
+                               "layer":  "menu",
+                               "jp":  "近接攻撃時の追いかける距離が\n長くなります。",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "menu3013#85",
+                               "layer":  "menu",
+                               "jp":  "射撃系兵器の有効射程が長くなります。",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "menu3013#86",
+                               "layer":  "menu",
+                               "jp":  "取得するチェインタイムが多くなります。",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "menu3013#87",
+                               "layer":  "menu",
+                               "jp":  "連携ゲージの溜まる速度が早くなります。",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "menu3013#88",
+                               "layer":  "menu",
+                               "jp":  "僚機ユニットのアーマーが０になった場合、\n自動的に１０００ポイント回復させます。",
+                               "en":  ""
+                           }
+                       ],
+    "rows":  [
+                 {
+                     "ref":  "menu3013#89",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "僚機ユニットのアーマーが０になった場合、\n自動的に３０００ポイント回復させます。",
+                     "en":  "If wingman unit Armor drops to 0,\nautomatically restores 3000 points.",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#90",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "僚機ユニットのアーマーが０になった場合、\n自動的に５０００ポイント回復させます。",
+                     "en":  "If wingman unit Armor drops to 0,\nautomatically restores 5000 points.",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#91",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "ビーム攻撃のダメージが\n２５％軽減されます。",
+                     "en":  "Reduces beam attack damage\nby 25％.",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#92",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "実弾、物理攻撃のダメージが\n２５％軽減されます。",
+                     "en":  "Reduces bullet and physical attack\ndamage by 25％.",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#93",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "出撃選択を中止して\nフリーミッションへ戻ります。\nよろしいですか？",
+                     "en":  "Cancel sortie select and return\nto Free Mission?\nAre you sure?",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#95",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "出撃します。よろしいですか？",
+                     "en":  "Sortie now. Are you sure?",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#96",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "出撃選択を中止して\nインターミッションへ戻ります。\nよろしいですか？",
+                     "en":  "Cancel sortie select and return\nto Intermission?\nAre you sure?",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#97",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+                                    "㌔"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "㌔出撃選択",
+                     "en":  "㌔Sortie Select",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#98",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  4,
+                     "max_lines":  4,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "ここではミッションに出撃する\nプレイヤーユニットと僚機ユニットを\n選択します。また、ユニットの強化や\nモジュールの装備なども行えます。",
+                     "en":  "Here you select the player and wingman\nunits for the mission. You can also\nupgrade units and equip modules.",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#99",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+                                    "㌔"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "㌔出撃選択（プレイヤー）",
+                     "en":  "㌔Sortie Select (Player)",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#100",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  6,
+                     "max_lines":  6,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "ここではプレイヤーユニットを選択します。\nユニットデータを参考に選んでください。\nダメージを受けたユニットのアーマーは、\n１回出撃を控えることで一定量回復します。\nパイロットが同じユニットを一度に\n複数出撃させることはできません。",
+                     "en":  "Select the player unit here based on unit data.\nDamaged units recover a portion of their Armor\nby sitting out a mission.\nYou cannot sortie multiple units with the same\npilot simultaneously.",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#101",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+                                    "㌔"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "㌔出撃選択（僚機）",
+                     "en":  "㌔Sortie Select (Wingman)",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#102",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  6,
+                     "max_lines":  6,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "ここでは僚機ユニットを選択します。\nユニットデータを参考に選んでください。\nダメージを受けたユニットのアーマーは、\n１回出撃を控えることで一定量回復します。\nパイロットが同じユニットを一度に\n複数出撃させることはできません。",
+                     "en":  "Select wingman units here based on unit data.\nDamaged units recover a portion of their Armor\nby sitting out a mission.\nYou cannot sortie multiple units with the same\npilot simultaneously.",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#103",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+                                    "㌔"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "㌔ユニット強化",
+                     "en":  "㌔Unit Upgrade",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#104",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  4,
+                     "max_lines":  4,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "ここではエースポイントを使用して\nユニット性能を強化することができます。\n特殊強化には、ユニット経験値が上がることで\nコンボ追加などの新しい項目が出現します。",
+                     "en":  "Use Ace Points here to upgrade unit performance.\nIncreasing unit EXP unlocks new special upgrade\noptions such as added combos.",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#105",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+                                    "㌔"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "㌔モジュール",
+                     "en":  "㌔Module",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#106",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  8,
+                     "max_lines":  8,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "ここではプレイヤーユニットにモジュールを\n装備させることができます。\n１回の出撃につき、１つまで装備可能です。\nモジュールを装備すると特殊効果が発動し、\nミッションを優位に進めることができます。\n出撃するだけで消費するタイプと、\nミッション中に自動的に発動することで\n消費するタイプがあります。",
+                     "en":  "Equip a module on the player unit here.\nUp to 1 module can be equipped per sortie.\nModules provide special effects for an advantage.\nSome are consumed merely by sortying, while others\nare consumed when activated automatically in mission.",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#107",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+                                    "㍉"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "㍉応急修理確認",
+                     "en":  "㍉Emergency Repair Confirmation",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#108",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+                                    "%d",
+                                    "%d",
+                                    "%d"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "ユニットを応急修理しますが、よろしいですか？\n\n%d － %d ＝ %d",
+                     "en":  "Perform emergency repair on unit?\n\n%d - %d ＝ %d",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#109",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+                                    "㍉"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "㍉応急修理",
+                     "en":  "㍉Emergency Repair",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#110",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  5,
+                     "max_lines":  5,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "エースポイントを使用して、ダメージを受けた\nユニットのアーマーを回復させます。\n１回出撃を控えれば、エースポイントを\n使用せずに自動的に回復しますが、\n応急修理ではエースポイントが必要です。",
+                     "en":  "Use Ace Points to recover Armor for damaged\nunits. Units recover automatically without Ace\nPoints if they sit out one sortie, but emergency\nrepairs require Ace Points.",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#111",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+                                    "㌢"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "㌢応急修理警告",
+                     "en":  "㌢Emergency Repair Warning",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#112",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+                                    "%d"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "%d のエースポイントが\n不足しているため、ユニットの\n応急修理ができません。",
+                     "en":  "Cannot perform emergency repair on unit\nbecause you lack %d Ace Points.",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#113",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+                                    "㌢"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "㌢機体強化警告",
+                     "en":  "㌢Unit Upgrade Warning",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#114",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+                                    "%d"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "%d のエースポイントが\n不足しているため、ユニットの強化が\nできません。",
+                     "en":  "Cannot upgrade unit because you lack\n%d Ace Points.",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#115",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "出撃させる僚機ユニットが\n全て登録されていませんが、\nこのままの編成で出撃しますか？",
+                     "en":  "Not all wingman units have been registered.\nSortie with this current formation?",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#116",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+                                    "㌢"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "㌢警告",
+                     "en":  "㌢Warning",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#117",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "プレイヤーユニットが選択されていないため\n出撃できません。",
+                     "en":  "Cannot sortie because no player unit\nhas been selected.",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#118",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+                                    "㍉"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "㍉ユニット編入確認",
+                     "en":  "㍉Unit Admission Confirmation",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#119",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+                                    "%s",
+                                    "%d",
+                                    "%d",
+                                    "%d"
+                                ],
+                     "jp_lines":  4,
+                     "max_lines":  4,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "%s を編入させます。\nよろしいですか？\n\n%d － %d ＝ %d",
+                     "en":  "Admit %s?\nAre you sure?\n\n%d - %d ＝ %d",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#120",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+                                    "㌢"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "㌢ユニット編入警告",
+                     "en":  "㌢Unit Admission Warning",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#121",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+                                    "%d"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "%d のエースポイントが\n不足しているため編入させられません。",
+                     "en":  "Cannot admit unit because you lack\n%d Ace Points.",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#122",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "Ｓ",
+                     "en":  "S",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#123",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "Ｍ",
+                     "en":  "M",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#124",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "Ｌ",
+                     "en":  "L",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#125",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "ＬＬ",
+                     "en":  "LL",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#126",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "レベル１",
+                     "en":  "Level 1",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#127",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "レベル２",
+                     "en":  "Level 2",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#128",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "レベル３",
+                     "en":  "Level 3",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#129",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "レベル４",
+                     "en":  "Level 4",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#130",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "レベル５",
+                     "en":  "Level 5",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#131",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "レベル６",
+                     "en":  "Level 6",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#132",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "レベル７",
+                     "en":  "Level 7",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#133",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "レベル８",
+                     "en":  "Level 8",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#134",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "レベル９",
+                     "en":  "Level 9",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#135",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "強化終了",
+                     "en":  "Upgrade Complete",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#136",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "レベル　１",
+                     "en":  "Level 1",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#137",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "レベル　２",
+                     "en":  "Level 2",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#138",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "レベル　３",
+                     "en":  "Level 3",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#139",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "レベル　４",
+                     "en":  "Level 4",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#140",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "レベル　５",
+                     "en":  "Level 5",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#141",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "レベル　６",
+                     "en":  "Level 6",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#142",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "レベル　７",
+                     "en":  "Level 7",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#143",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "レベル　８",
+                     "en":  "Level 8",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#144",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "レベル　９",
+                     "en":  "Level 9",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#145",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "レベル１０",
+                     "en":  "Level 10",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#146",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "Ｅ",
+                     "en":  "E",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#147",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "Ｄ",
+                     "en":  "D",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#148",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "Ｃ",
+                     "en":  "C",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#149",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "Ｂ",
+                     "en":  "B",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#150",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "Ａ",
+                     "en":  "A",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#151",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "コンボ追加",
+                     "en":  "Combo Added",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#152",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "換装追加",
+                     "en":  "Equipment Added",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#160",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "出撃不可エリア",
+                     "en":  "Unavailable Area",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#161",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "出撃準備中",
+                     "en":  "Preparing for Sortie",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#162",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "不機嫌",
+                     "en":  "Bad",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#163",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "普通",
+                     "en":  "Normal",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#164",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "上機嫌",
+                     "en":  "Great",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#165",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "高い",
+                     "en":  "High",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#166",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "低い",
+                     "en":  "Low",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#167",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "単機戦闘",
+                     "en":  "Solo Combat",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#168",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "広範囲戦闘",
+                     "en":  "Wide-Area Combat",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#169",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "支援",
+                     "en":  "Support",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#170",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "遠距離支援",
+                     "en":  "Long-Range Support",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#171",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "僚機出撃不可",
+                     "en":  "Wingman Sortie Unavailable",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#172",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+                                    "㍉"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "㍉僚機出撃制限確認",
+                     "en":  "㍉Wingman Sortie Limit Confirmation",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#173",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "次のミッションでは出撃できる僚機数に\n制限があります。",
+                     "en":  "There is a limit on the number of wingmen\nthat can sortie in the next mission.",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#174",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+                                    "㍉"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "㍉タイプ変更（地上）確認",
+                     "en":  "㍉Change Type (Ground) Confirmation",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#175",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "次のミッションに対応するため全ユニットの\nタイプを宇宙対応型から地上（大気圏内、屋内施設）\n対応型に変更します。",
+                     "en":  "To adapt to the next mission, all unit types\nwill be changed from Space to Ground\n(Atmosphere/Indoor Facilities) specs.",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "menu3013#176",
+                     "layer":  "menu",
+                     "phase":  null,
+                     "tokens":  [
+                                    "㍉"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  568,
+                     "max_line_chars_approx":  56,
+                     "jp":  "㍉タイプ変更（宇宙）確認",
+                     "en":  "㍉Change Type (Space) Confirmation",
+                     "notes":  ""
+                 }
+             ],
+    "context_after":  [
+                          {
+                              "ref":  "menu3013#177",
+                              "layer":  "menu",
+                              "jp":  "次のミッションに対応するため全ユニットの\nタイプを地上（大気圏内、屋内施設）対応型から\n宇宙対応型に変更します。",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "menu3013#178",
+                              "layer":  "menu",
+                              "jp":  "攻撃に対する耐性を強化します",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "menu3013#179",
+                              "layer":  "menu",
+                              "jp":  "ダッシュ時の機動性を強化します",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "menu3013#180",
+                              "layer":  "menu",
+                              "jp":  "回避時の機動性を強化します",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "menu3013#181",
+                              "layer":  "menu",
+                              "jp":  "バーニアゲージの消費を抑えます",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "menu3013#182",
+                              "layer":  "menu",
+                              "jp":  "通常移動、ダッシュ時の旋回性を強化します",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "menu3013#183",
+                              "layer":  "menu",
+                              "jp":  "各ウェポンの攻撃力を強化します",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "menu3013#184",
+                              "layer":  "menu",
+                              "jp":  "コンボの追加、換装追加、進化などを行います",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "menu3013#185",
+                              "layer":  "menu",
+                              "jp":  "ユニットを後継機へ進化させます",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "menu3013#186",
+                              "layer":  "menu",
+                              "jp":  "㍉アーマー確認",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "menu3013#187",
+                              "layer":  "menu",
+                              "jp":  "選択したユニットのアーマーが %d です。 \nダメージを受けたまま、出撃しますか？",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "menu3013#188",
+                              "layer":  "menu",
+                              "jp":  "%d のユニット経験値が不足しています。\n特殊性能の機体強化を行えません。",
+                              "en":  ""
+                          }
+                      ],
+    "report":  {
+                   "translator_summary":  "Menu batch xm_menu3013_02 translated.",
+                   "rows_examined":  "All 80 rows translated and checked.",
+                   "rows_examined_count":  80,
+                   "uncertainties":  [
+
+                                     ],
+                   "glossary_proposals":  [
+
+                                          ],
+                   "portrait_speakers":  {
+
+                                         }
+               }
+}

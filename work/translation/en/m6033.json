@@ -1,0 +1,767 @@
+{
+ "table": "m6033",
+ "kind": "mission",
+ "copies": [
+  "42033:m",
+  "6033:m"
+ ],
+ "rows": [
+  {
+   "ids": [
+    1,
+    4
+   ],
+   "jp": "敵勢力の撃破",
+   "en": "Destroy the enemy forces"
+  },
+  {
+   "ids": [
+    3
+   ],
+   "jp": "ジョナサン・グランチャーの撃破",
+   "en": "Destroy the Jonathan Grand Cher"
+  },
+  {
+   "ids": [
+    5
+   ],
+   "jp": "バストールの撃破",
+   "en": "Destroy the Bastole"
+  },
+  {
+   "ids": [
+    20
+   ],
+   "jp": "ノヴィス・ノア",
+   "en": "Novis Noah"
+  },
+  {
+   "ids": [
+    21
+   ],
+   "jp": "アーマー%d％",
+   "en": "Armor %d％"
+  },
+  {
+   "ids": [
+    50
+   ],
+   "jp": "<op()><sp(20)>敵影確認！\nリクレイマーのアンチボディです！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Hostile signatures confirmed!\nReclaimer Antibodies incoming!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    51
+   ],
+   "jp": "<op()><sp(20)>ノヴィス・ノアの援護を頼む。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Cover the Novis Noah.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    52
+   ],
+   "jp": "<op()><sp(20)>行くよ、ヒメブレン！\nまだ行けるよね？<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Let's go, Hime Brain!\nYou can still fight, right?<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    53
+   ],
+   "jp": "<op()><sp(20)>オーガニックシールドを展開して！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Deploy the Organic Shield!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    54
+   ],
+   "jp": "<op()><sp(20)>ノヴィス・ノアの付近にいれば、\nダメージを抑えられるわよ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Stay close to the Novis Noah\nto minimize damage!<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    55
+   ],
+   "jp": "<op()><sp(20)>５時の方向に熱源を確認！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Heat signature at five o'clock!<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    56
+   ],
+   "jp": "<op()><sp(20)>連携攻撃を使うんだ。<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Use coordinated attacks.<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    57
+   ],
+   "jp": "<op()><sp(20)>聞こえた？　タイミングはよろしく。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Hear that? I'm counting on your\ntiming.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    58
+   ],
+   "jp": "<op()><sp(20)>気をつけて！\nグランチャーが、もう１機上がってくるわ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Look out!\nAnother Grand Cher is coming up!<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    59
+   ],
+   "jp": "<op()><sp(20)>そいつが敵の指揮官だな。\n気をつけろよ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>That must be the enemy commander.\nStay on your guard!<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    60
+   ],
+   "jp": "<op()><sp(20)>くそ、ここは一旦退く！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Damn it, I'll pull back for now!<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    61
+   ],
+   "jp": "<op()><sp(20)>こちらＵＣＥ第八海上部隊。<ab(300)>",
+   "en": "<op()><sp(20)>This is UCE 8th Naval Unit.<ab(300)>"
+  },
+  {
+   "ids": [
+    62
+   ],
+   "jp": "<sp(20)>こちらで追跡中の所属不明機２機が\nそちらに向かった。　援護を要請したい。<ab(300)><ed()>",
+   "en": "<sp(20)>Two unknown units we were tracking\nheaded your way. Requesting backup.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    63
+   ],
+   "jp": "<op()><sp(20)>リクレイマーじゃないのか？<ab(100)><ed()>",
+   "en": "<op()><sp(20)>They're not Reclaimers?<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    64
+   ],
+   "jp": "<op()><sp(20)>こちらでも機影は捉えていますが、\nデータにありません！<ab(200)>",
+   "en": "<op()><sp(20)>We have them on radar too,\nbut there's no data on them!<ab(200)>"
+  },
+  {
+   "ids": [
+    65
+   ],
+   "jp": "<sp(20)>こっちに来ます！<ab(50)><ed()>",
+   "en": "<sp(20)>They're coming right at us!<ab(50)><ed()>"
+  },
+  {
+   "ids": [
+    66
+   ],
+   "jp": "<op()><sp(20)>なんだ、あの機体は…！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>What are those units...?!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    67
+   ],
+   "jp": "<op()><sp(20)>こいつらも味方でないことは確かだな。\n向かってくる奴には応戦しろ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>They're certainly no allies either.\nReturn fire on any who attack!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    68
+   ],
+   "jp": "<op()><sp(20)>あの機体…教則書にも載ってなかったぞ。\nかなりの機動性だ。<ab(400)>",
+   "en": "<op()><sp(20)>Those units aren't in any manual.\nTheir mobility is incredible.<ab(400)>"
+  },
+  {
+   "ids": [
+    69
+   ],
+   "jp": "<sp(20)>まるで生き物のようだな…一体何者だ？<ab(400)><ed()>",
+   "en": "<sp(20)>They move just like creatures...\nWho on earth are they?<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    70
+   ],
+   "jp": "<op()><sp(20)>ショウ！　地上人に己を売ったのか！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Show! Have you sold yourself\nto the Upper Earthlings?!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    71
+   ],
+   "jp": "<op()><sp(20)>ガラリア！　違う！　こいつらは！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Garalia! You're wrong! They're...!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    72
+   ],
+   "jp": "<op()><sp(20)>そうよ！　誤解よ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>That's right! It's a mistake!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    73
+   ],
+   "jp": "<op()><sp(20)>ええい黙れ！！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Enough! Silence!!<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    74
+   ],
+   "jp": "<op()><sp(20)>そこの２機！　所属と目的を明らかにしろ！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>You two units!\nState your affiliation and intent!<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    75
+   ],
+   "jp": "<op()><sp(20)>俺はショウ・ザマ！<ab(200)>",
+   "en": "<op()><sp(20)>I am Show Zama!<ab(200)>"
+  },
+  {
+   "ids": [
+    76
+   ],
+   "jp": "<sp(20)>来たところに帰りたいだけだ！\n離れていてくれ！　頼む！<ab(500)><ed()>",
+   "en": "<sp(20)>I only want to return where I came\nfrom! Stay back! Please!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    77
+   ],
+   "jp": "<op()><sp(20)>見えすいた茶番はよせっ！！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Spare me this obvious charade!!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    78
+   ],
+   "jp": "<op()><sp(20)>あいつ……敵意はないのか？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>That guy... has no hostile intent?<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    79
+   ],
+   "jp": "<op()><sp(20)>やめろって言ってるのに！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>I told you to stop it!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    80
+   ],
+   "jp": "<op()><sp(20)>お前らも敵か！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Are you enemies too?!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    81
+   ],
+   "jp": "<op()><sp(20)>なんとかあいつをおとなしくさせるんだ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>We have to calm her down somehow!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    82
+   ],
+   "jp": "<op()><sp(20)>……ブレンは、あの人たちを怖がってない。\nよーし！<ab(800)>",
+   "en": "<op()><sp(20)>...Brain isn't afraid of them.\nAll right!<ab(800)>"
+  },
+  {
+   "ids": [
+    83
+   ],
+   "jp": "<sp(20)>ねえ、もうやめよう？　あなたたち、\n本当は戦いたくなんかないんでしょう？<ab(300)><ed()>",
+   "en": "<sp(20)>Hey, won't you stop? You two\ndon't really want to fight, do you?<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    84
+   ],
+   "jp": "<op()><sp(20)>なんだお前は？　邪魔だ！　どけ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Who are you?! Out of my way! Move!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    85
+   ],
+   "jp": "<op()><sp(20)>そんな風に脅かしたって怖くないよ？\nだって、あなた悪い人じゃないから。<ab(400)>",
+   "en": "<op()><sp(20)>You won't scare me like that!\nBecause you're not a bad person.<ab(400)>"
+  },
+  {
+   "ids": [
+    86
+   ],
+   "jp": "<sp(20)>ブレンが怖がってないもの。<ab(300)><ed()>",
+   "en": "<sp(20)>Brain isn't scared of you at all.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    87
+   ],
+   "jp": "<op()><sp(20)>な、何が言いたい？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Wh-What are you trying to say?!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    88
+   ],
+   "jp": "<op()><sp(20)>俺たちは戦うべきじゃないってことだ！<ab(300)>",
+   "en": "<op()><sp(20)>It means we shouldn't be fighting!<ab(300)>"
+  },
+  {
+   "ids": [
+    89
+   ],
+   "jp": "<sp(20)>ガラリア！　\n一緒にバイストン・ウェルに帰ろう！<ab(300)><ed()>",
+   "en": "<sp(20)>Garalia!\nLet's go back to Byston Well together!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    90
+   ],
+   "jp": "<op()><sp(20)>なんだと！？<ab(100)><ed()>",
+   "en": "<op()><sp(20)>What did you say?!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    91
+   ],
+   "jp": "<op()><sp(20)>試してみよう。<ab(100)>",
+   "en": "<op()><sp(20)>Let's give it a try.<ab(100)>"
+  },
+  {
+   "ids": [
+    92
+   ],
+   "jp": "<sp(20)>上昇して２機のオーラバトラーで\nバイストン・ウェルに飛んでみよう！<ab(700)><ed()>",
+   "en": "<sp(20)>We'll climb and use both Aura Battlers\nto fly back to Byston Well!<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    97
+   ],
+   "jp": "<op()><sp(20)>やめるんだ、ガラリア！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Stop it, Garalia!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    98
+   ],
+   "jp": "<op()><sp(20)>私だってまだ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>I'm not done yet...!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    99
+   ],
+   "jp": "<op()><sp(20)>わかった、地上で死ぬのは犬死だからな…<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Fine. Dying on the Upper Earth\nwould be a meaningless death...<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    100
+   ],
+   "jp": "<op()><sp(20)>そこの艦！\n俺を信じて、ここは退いてくれ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Ship over there!\nTrust me and fall back from here!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    102
+   ],
+   "jp": "<op()><sp(20)>艦長、彼は信用してもいいと思います。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Captain, I think we can trust him.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    103
+   ],
+   "jp": "<op()><sp(20)>ニュータイプのカン…というやつかね？<ab(100)><ed()>",
+   "en": "<op()><sp(20)>A Newtype's intuition... is that it?<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    104
+   ],
+   "jp": "<op()><sp(20)>パイロットのカンですよ。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>It's a pilot's intuition, sir.<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    105
+   ],
+   "jp": "<op()><sp(20)>……わかった。　全機、攻撃中止だ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>...Understood. All units, cease fire!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    107
+   ],
+   "jp": "<op()><sp(20)>状況は？<ab(100)><ed()>",
+   "en": "<op()><sp(20)>What's the situation?<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    109
+   ],
+   "jp": "<op()><sp(20)>状況を報告したまえ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Report the situation!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    110
+   ],
+   "jp": "<op()><sp(20)>す、すみません！\nさ、先ほどの機体……反応消失しました。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>S-Sorry! Those units from before...\ntheir signatures have vanished!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    111
+   ],
+   "jp": "<op()><sp(20)>な、何だったんだ？　あれ？\n２機とも消えちゃったみたいだけど……<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Wh-What was that? Both units seem\nto have completely vanished...<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    112
+   ],
+   "jp": "<op()><sp(20)>見当もつかないな……<ab(200)><ed()>",
+   "en": "<op()><sp(20)>I haven't the slightest clue...<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    113
+   ],
+   "jp": "<op()><sp(20)>…各機！　急いで帰艦しろ！\nすぐにジオンの輸送船追撃を再開する。<ab(200)>",
+   "en": "<op()><sp(20)>...All units! Return to ship at once!\nResume pursuing Zeon's transport ship!<ab(200)>"
+  },
+  {
+   "ids": [
+    114
+   ],
+   "jp": "<sp(20)>随分遅れをとってしまったからな。<ab(500)><ed()>",
+   "en": "<sp(20)>We have fallen considerably behind.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    115
+   ],
+   "jp": "<op()><sp(20)>……色々ありましたが、今回の件は\n感謝します。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>...A lot happened, but I thank you\nfor your help this time.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    116
+   ],
+   "jp": "<op()><sp(20)>バイストン・ウェル……オーラ力か……\nまったく理解できんことばかりだ……<ab(500)>",
+   "en": "<op()><sp(20)>Byston Well... Aura Power...\nNone of it makes any sense at all...<ab(500)>"
+  },
+  {
+   "ids": [
+    117
+   ],
+   "jp": "<sp(20)>彼らは一体…<ab(500)><ed()>",
+   "en": "<sp(20)>Just who on earth were they...?<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    130
+   ],
+   "jp": "<op()><sp(20)>Ｌ２ボタンを押すと、\n僚機とのコンビネーションが発動します。<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>Press the L2 button to trigger\na combination with your wingman.<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    140
+   ],
+   "jp": "<op()><sp(20)>レーダーに反応多数！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Multiple contacts on radar!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    141
+   ],
+   "jp": "<op()><sp(20)>熱源反応、さらに増大！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Heat signatures increasing further!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    142
+   ],
+   "jp": "<op()><sp(20)>連携攻撃を使うんだ。<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Use your coordinated attacks!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    143
+   ],
+   "jp": "<op()><sp(20)>敵艦を撃墜！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemy ship shot down!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    144
+   ],
+   "jp": "<op()><sp(20)>敵、撤退していきます。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>The enemy is retreating!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    150
+   ],
+   "jp": "<op()><sp(20)>あなたがアルビオン隊のパイロット？\n来てくれて助かったわ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Are you the Albion unit's pilot?\nThank goodness you came to help us!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    151
+   ],
+   "jp": "<op()><sp(20)>勇！　ちったぁやるようになったじゃないか！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Yuu! You've gotten a bit better, huh?!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    152
+   ],
+   "jp": "<op()><sp(20)>ぐぅうううっ！\nなんだ！　このゲッソリするような感覚は！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Ghhhk! What is this awful,\ncompletely drained sensation?!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    153
+   ],
+   "jp": "<op()><sp(20)>アンチボディの動かし方は、\n俺が教えてやったんだよなぁ！？<ab(100)><ed()>",
+   "en": "<op()><sp(20)>I'm the one who taught you how to\npilot an Antibody, isn't that right?!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    154
+   ],
+   "jp": "<op()><sp(20)>オルファンにいた時に！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Back when you were on Orphan!<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    155
+   ],
+   "jp": "<op()><sp(20)>そんな昔のこと！　とっくに忘れたよ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>That was so long ago!\nI've forgotten all about that!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    156
+   ],
+   "jp": "<op()><sp(20)>ジョナサン！　<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Jonathan!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    157
+   ],
+   "jp": "<op()><sp(20)>お前はおふくろさんに復讐するために\nリクレイマーになったんだろ？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>You became a Reclaimer just\nto get revenge on your mother, right?<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    158
+   ],
+   "jp": "<op()><sp(20)>おふくろさんは、\nアノーア艦長は海に消えたんだ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Your mother, Captain Anoa,\nvanished into the sea!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    159
+   ],
+   "jp": "<op()><sp(20)>もう他人を巻き込むな！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Stop dragging other people into this!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    160
+   ],
+   "jp": "<op()><sp(20)>あんな女のことに\nこだわっちゃいない！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>I couldn't care less\nabout a woman like that!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    161
+   ],
+   "jp": "<op()><sp(20)>うそをつけ！　\n親子の情をそんなに簡単に切れるものか！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Don't lie! You can't sever the bond\nbetween parent and child so easily!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    162
+   ],
+   "jp": "<op()><sp(20)>ははは！　貴様は覚悟が足りないから\nそういう事を言うんだ！<ab(50)><ed()>",
+   "en": "<op()><sp(20)>Hahaha! You only say that because\nyou lack resolve!<ab(50)><ed()>"
+  },
+  {
+   "ids": [
+    163
+   ],
+   "jp": "<op()><sp(20)>男じゃないんだよ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>You're not a real man!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    201
+   ],
+   "jp": "<on()><sp(20)>くっ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Ghh!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    202
+   ],
+   "jp": "<on()><sp(20)>このくらい！<ab(0)><off()>",
+   "en": "<on()><sp(20)>This is nothing!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    203
+   ],
+   "jp": "<on()><sp(20)>比瑪ちゃん！　援軍よ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Hime! Reinforcements have arrived!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    204
+   ],
+   "jp": "<on()><sp(20)>勇！　来てくれたんだね？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Yuu! You came for us?!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    205
+   ],
+   "jp": "<on()><sp(20)>ああ、助けに来たぞ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Yeah, I came to help!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    206
+   ],
+   "jp": "<on()><sp(20)>オーガニックエンジンが損傷。\n当艦は戦闘区域より後退します。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Organic engine damaged. This ship is\nfalling back from combat.<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    207
+   ],
+   "jp": "<on()><sp(20)>ザコはいい！　ブレンはどこだ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Forget small fry! Where is the Brain?!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    208
+   ],
+   "jp": "<on()><sp(20)>地上人どもめ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Curse those Upper Earthlings!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    209
+   ],
+   "jp": "<on()><sp(20)>ガラリア！　やめろ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Garalia! Stop it!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    210
+   ],
+   "jp": "<on()><sp(20)>くそっ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Damn it!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    211
+   ],
+   "jp": "<on()><sp(20)>ショウ！　気をつけて！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Show! Watch out!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    212
+   ],
+   "jp": "<on()><sp(20)>わかってる！<ab(0)><off()>",
+   "en": "<on()><sp(20)>I know!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    213
+   ],
+   "jp": "<on()><sp(20)>こいつ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Damn you!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    214
+   ],
+   "jp": "<on()><sp(20)>俺のダンバインとお前のバストール、\n２機のオーラ力を最大限に発揮するんだ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>My Dunbine and your Bastole...\nPush both units' Aura Power to max!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    215
+   ],
+   "jp": "<on()><sp(20)>ガラリア、バイストン・ウェルを念じてくれ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Garalia, focus on Byston Well!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    216
+   ],
+   "jp": "<on()><sp(20)>みんなのオーラ力を集めて！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Gather everyone's Aura Power!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    217
+   ],
+   "jp": "<on()><sp(20)>バイストン・ウェルへ…帰る。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Return... to Byston Well.<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    218
+   ],
+   "jp": "<on()><sp(20)>おい！　連中、何をする気だ！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Hey! What are they trying to do?!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    219
+   ],
+   "jp": "<on()><sp(20)>降下！　ガラリア！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Descend! Garalia!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    220
+   ],
+   "jp": "<on()><sp(20)>２機の周囲に、\n空間のゆがみが生じています！<ab(0)><off()>",
+   "en": "<on()><sp(20)>A spatial distortion is forming\naround both machines!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    221
+   ],
+   "jp": "<on()><sp(20)>南無三！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Heaven help us!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    222
+   ],
+   "jp": "<on()><sp(20)>バイストン・ウェルが…見えた…<ab(0)><off()>",
+   "en": "<on()><sp(20)>I saw... Byston Well...<ab(0)><off()>"
+  }
+ ]
+}

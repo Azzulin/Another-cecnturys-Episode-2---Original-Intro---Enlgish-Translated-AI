@@ -1,0 +1,563 @@
+{
+ "table": "m6121",
+ "kind": "mission",
+ "copies": [
+  "42121:m",
+  "6121:m"
+ ],
+ "rows": [
+  {
+   "ids": [
+    1
+   ],
+   "jp": "４隻以上の友軍艦が領域を離脱",
+   "en": "4 or more allied ships escape the area"
+  },
+  {
+   "ids": [
+    2
+   ],
+   "jp": "３隻以上の友軍艦が撃沈",
+   "en": "3 or more allied ships destroyed"
+  },
+  {
+   "ids": [
+    3
+   ],
+   "jp": "Ｄ－１の撃破",
+   "en": "Destroy the D-1"
+  },
+  {
+   "ids": [
+    4
+   ],
+   "jp": "敵勢力の撃破",
+   "en": "Destroy the enemy forces"
+  },
+  {
+   "ids": [
+    5
+   ],
+   "jp": "Ｄ－１カスタムの撃破",
+   "en": "Destroy the D-1 Custom"
+  },
+  {
+   "ids": [
+    10
+   ],
+   "jp": "友軍ダメージ",
+   "en": "Allied Damage"
+  },
+  {
+   "ids": [
+    20
+   ],
+   "jp": "友軍艦残存数",
+   "en": "Remaining Allied Ships"
+  },
+  {
+   "ids": [
+    21
+   ],
+   "jp": "%d隻",
+   "en": "%d Ships"
+  },
+  {
+   "ids": [
+    50
+   ],
+   "jp": "<op()><sp(20)>各機は周辺の防衛戦力を排除せよ。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>All units, eliminate the nearby\ndefense forces.<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    51
+   ],
+   "jp": "<op()><sp(20)>ターゲットの位置を転送します。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Transmitting target coordinates.<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    52
+   ],
+   "jp": "<op()><sp(20)>友軍艦を援護するんだ。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Support the allied ships.<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    53
+   ],
+   "jp": "<op()><sp(20)>ターゲットの破壊を確認。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Target destruction confirmed.<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    54
+   ],
+   "jp": "<op()><sp(20)>そうだ、どんどんやれ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>That's it! Keep at it!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    55
+   ],
+   "jp": "<op()><sp(20)>友軍が敵射程内に入ります！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Allies entering enemy firing range!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    56
+   ],
+   "jp": "<op()><sp(20)>友軍が砲撃を受けています！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Allies are taking enemy fire!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    57
+   ],
+   "jp": "<op()><sp(20)>もたもたするな！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Don't dawdle! Move it!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    58
+   ],
+   "jp": "<op()><sp(20)>友軍艦、撃沈されました！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>An allied ship has been sunk!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    59
+   ],
+   "jp": "<op()><sp(20)>友軍艦が撃沈されました！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Allied ship has been sunk!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    60
+   ],
+   "jp": "<op()><sp(20)>これ以上やられたらまずい…！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>If we lose any more,\nwe're in trouble...!<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    61
+   ],
+   "jp": "<op()><sp(20)>友軍艦、撃沈！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Allied ship sunk!<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    62
+   ],
+   "jp": "<op()><sp(20)>これ以上の作戦遂行は不可能だ。\n作戦は中止、撤退しろ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Further operations are impossible.\nAbort mission! Fall back!<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    63
+   ],
+   "jp": "<op()><sp(20)>作戦は…失敗か。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>The operation... failed, huh.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    64
+   ],
+   "jp": "<op()><sp(20)>友軍が攻撃されています！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Allies are under attack!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    65
+   ],
+   "jp": "<op()><sp(20)>異なるタイプの敵反応！\n識別はモビルスーツ！！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Different enemy type detected!\nIdentified as mobile suits!!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    66
+   ],
+   "jp": "<op()><sp(20)>まさか…もう一度確認しろ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>No way... Confirm it again!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    67
+   ],
+   "jp": "<op()><sp(20)>間違いありません、ジオンの機体です。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>No mistake, they're Zeon units.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    68
+   ],
+   "jp": "<op()><sp(20)>デラーズ・フリートがまだ？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>The Delaz Fleet is still around?<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    69
+   ],
+   "jp": "<op()><sp(20)>新たな敵の反応！\n識別はモビルスーツ！！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>New enemy reading detected!\nIdentified as mobile suits!!<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    70
+   ],
+   "jp": "<op()><sp(20)>友軍艦を敵の攻撃から守るんだ。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Protect the allied ships\nfrom enemy attacks.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    71
+   ],
+   "jp": "<op()><sp(20)>作戦は順調だ。\nアルビオン、引き続き援護を頼む。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Operation is proceeding smoothly.\nAlbion, keep supporting us.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    72
+   ],
+   "jp": "<op()><sp(20)>本艦隊は目標地点に到達。\nアルビオン、援護感謝する。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Our fleet has reached the objective.\nAlbion, thanks for the cover.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    73
+   ],
+   "jp": "<op()><sp(20)>よし、残存部隊を排除せよ。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>All right, eliminate remaining\nforces.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    74
+   ],
+   "jp": "<op()><sp(20)>新たな機影を確認！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>New contact confirmed!<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    75
+   ],
+   "jp": "<op()><sp(20)>Ｄ－１は作戦通りだ、いいな！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Handle the D-1 as planned, got it?!<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    76
+   ],
+   "jp": "<op()><sp(20)>ケーン！　来るな！　来るなぁ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Kaine! Stay back! Stay away!<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    77
+   ],
+   "jp": "<op()><sp(20)>……どけよ。　邪魔するなら\nテメぇらだって容赦はしねえぞ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>...Move it. Get in my way, and I won't\ngo easy on you guys either!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    78
+   ],
+   "jp": "<op()><sp(20)>今ならまだ何とかなる！\n帰って来いよ！　ケーン！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>It's not too late!\nCome back to us, Kaine!<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    79
+   ],
+   "jp": "<op()><sp(20)>そうは……そうは行かねえんだよぉ！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>I can't... I can't do that!<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    80
+   ],
+   "jp": "<op()><sp(20)>ケーン・ワカバ、<ab(0)>",
+   "en": "<op()><sp(20)>Kaine Wakaba,<ab(0)>"
+  },
+  {
+   "ids": [
+    81
+   ],
+   "jp": "<sp(20)>ギガノスの誠の兵士となったことを\n自ら証明するのだ！<ab(600)><ed()>",
+   "en": "<sp(20)>Prove that you have become\na true soldier of Giganos!<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    82
+   ],
+   "jp": "<op()><sp(20)>やめろ、ケーン！<ab(100)>",
+   "en": "<op()><sp(20)>Stop it, Kaine!<ab(100)>"
+  },
+  {
+   "ids": [
+    83
+   ],
+   "jp": "<op()><sp(20)>なぜ抵抗するんだ！<ab(100)>",
+   "en": "<op()><sp(20)>Why are you resisting?!<ab(100)>"
+  },
+  {
+   "ids": [
+    84
+   ],
+   "jp": "<op()><sp(20)>もうやめろよ！\nお前とは……やりあいたくない！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Just stop it!\nI don't... I don't want to fight you!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    85
+   ],
+   "jp": "<op()><sp(20)>こんなことしたって、お前の母さん\n喜んじゃくれないぞ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Even if you do this,\nyour mother won't be happy!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    86
+   ],
+   "jp": "<op()><sp(20)>ケーン、投降しろ！\n戦闘を中止するんだ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Kaine, surrender!\nCease fighting at once!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    87
+   ],
+   "jp": "<sp(20)>ケーン！　どうしちまったんだよ！\n俺たちは仲間じゃないか！！<ab(500)><ed()>",
+   "en": "<sp(20)>Kaine! What happened to you?!\nAren't we comrades?!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    88
+   ],
+   "jp": "<sp(20)>お前だって、\nアルビオンのパイロットだろうに！<ab(500)><ed()>",
+   "en": "<sp(20)>You're a pilot of the Albion too!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    89
+   ],
+   "jp": "<op()><sp(20)>俺だって、好きでやっちゃいねえよ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>It's not like I want to do this!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    90
+   ],
+   "jp": "<op()><sp(20)>お前に何がわかるんだよ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>What do you know about it?!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    91
+   ],
+   "jp": "<op()><sp(20)>それができれば、苦労しねえんだよ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>If I could do that,\nI wouldn't be having a hard time!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    92
+   ],
+   "jp": "<op()><sp(20)>わかってるよ！　わかってるけどさぁ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>I know! I know that, but still...!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    93
+   ],
+   "jp": "<op()><sp(20)>よいか、ケーン・ワカバ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Listen closely, Kaine Wakaba!<ab(0)><ed()>"
+  },
+  {
+   "ids": [
+    94
+   ],
+   "jp": "<op()><sp(20)>貴様の行動は逐一、\n我々に監視されていることを忘れるな。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Do not forget that your every move\nis being monitored by us.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    99
+   ],
+   "jp": "<op()><sp(20)>くそ……っ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Damn it...!!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    100
+   ],
+   "jp": "<op()><sp(20)>こちら救出部隊、今から潜入します。<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Rescue team here,\ninfiltrating now.<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    101
+   ],
+   "jp": "<op()><sp(20)>よし…頼んだぞ。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>All right... I'm counting on you.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    102
+   ],
+   "jp": "<op()><sp(20)>こちら救出部隊、成功です！<ab(900)><ed()>",
+   "en": "<op()><sp(20)>Rescue team here, we succeeded!<ab(900)><ed()>"
+  },
+  {
+   "ids": [
+    103
+   ],
+   "jp": "<op()><sp(20)>撃つな！　ケーン！\nお前のおふくろさんは、今救出した！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Don't shoot, Kaine!\nWe just rescued your mother!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    104
+   ],
+   "jp": "<op()><sp(20)>もう奴らにヘーコラすることはねえんだ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>No need to bow to them anymore!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    105
+   ],
+   "jp": "<op()><sp(20)>なんだって？　本当か？<ab(600)><ed()>",
+   "en": "<op()><sp(20)>What did you say?! Is that true?!<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    106
+   ],
+   "jp": "<op()><sp(20)>本当よ。　今、お母さんを連れて\n艦に戻ったところよ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>It's true! We just got back to the\nship with your mother!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    107
+   ],
+   "jp": "<op()><sp(20)>……うおおおおおおおおっ！\n今までの恨み、１００倍にして返してやる！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>...Uooooooogh! I'll pay you back a\nhundred times over!<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    108
+   ],
+   "jp": "<op()><sp(20)>周辺の敵を掃討しろ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Mop up all enemies in the area!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    114
+   ],
+   "jp": "<op()><sp(20)>高熱源体が多数接近！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Multiple high-heat contacts inbound!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    115
+   ],
+   "jp": "<op()><sp(20)>出やがったな、番犬ども！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Here come the guard dogs!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    116
+   ],
+   "jp": "<op()><sp(20)>周辺に敵影なし。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>No enemy contacts in the area.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    117
+   ],
+   "jp": "<op()><sp(20)>よし、全機、一旦帰投しろ。<ab(900)>",
+   "en": "<op()><sp(20)>All right, all units, RTB for now.<ab(900)>"
+  },
+  {
+   "ids": [
+    118
+   ],
+   "jp": "<sp(20)>どうした？　ケーン。<ab(300)><ed()>",
+   "en": "<sp(20)>What's wrong, Kaine?<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    119
+   ],
+   "jp": "<op()><sp(20)>大尉……俺……<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Captain... I...<ab(0)><ed()>"
+  },
+  {
+   "ids": [
+    120
+   ],
+   "jp": "<op()><sp(20)>早く帰って来い。<ab(100)>",
+   "en": "<op()><sp(20)>Hurry on back.<ab(100)>"
+  },
+  {
+   "ids": [
+    121
+   ],
+   "jp": "<sp(20)>お前はおふくろさんを助けるため、\n要塞に潜入していたんだろ？<ab(200)><ed()>",
+   "en": "<sp(20)>You infiltrated the fortress to save\nyour mother, didn't you?<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    122
+   ],
+   "jp": "<op()><sp(20)>い、いや……俺は……<ab(0)><ed()>",
+   "en": "<op()><sp(20)>N-No... I was...<ab(0)><ed()>"
+  },
+  {
+   "ids": [
+    123
+   ],
+   "jp": "<op()><sp(20)>報告書にはそう書いちまった。\n艦長のサインもある。<ab(100)>",
+   "en": "<op()><sp(20)>That's what I wrote in the report.\nThe Captain signed off on it too.<ab(100)>"
+  },
+  {
+   "ids": [
+    124
+   ],
+   "jp": "<sp(20)>いまさら修正は効かんぞ！　早く戻れ！<ab(500)><ed()>",
+   "en": "<sp(20)>No changing it now! Hurry back!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    125
+   ],
+   "jp": "<op()><sp(20)>…はい！　ありがとうございます！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>...Yes, sir! Thank you so much!<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    126
+   ],
+   "jp": "<op()><sp(20)>敵の増援を確認！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Enemy reinforcements confirmed!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    201
+   ],
+   "jp": "<on()><sp(20)>！！　あいつら…<ab(0)><off()>",
+   "en": "<on()><sp(20)>!! Those guys...<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    202
+   ],
+   "jp": "<on()><sp(20)>来たぞ…先導機は、Ｄ－１！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Here they come... Lead unit is D-1!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    203
+   ],
+   "jp": "<on()><sp(20)>やっぱりＤ－１には、ケーンが乗ってんのか。<ab(0)><off()>",
+   "en": "<on()><sp(20)>So Kaine really is piloting the D-1.<ab(0)><off()>"
+  }
+ ]
+}

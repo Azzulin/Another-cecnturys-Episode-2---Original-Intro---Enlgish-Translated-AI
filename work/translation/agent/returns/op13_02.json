@@ -1,0 +1,652 @@
+{
+ "batch": "op13_02",
+ "operation": 13,
+ "previous_batch": "op13_01",
+ "next_batch": null,
+ "rows_in_slice": 24,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "オルドナ・ポセイダル",
+   "en": "Oldna Poseidal",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "female",
+   "role": "Emperor ruling the Pentagona World from Sveto on Gastogal; supreme commander of the Poseidal Army. The Poseidal on the throne is actually Mian Qu Ha Ussher, a puppet of the true Poseidal (Amandara Kamandara). In ACE2 'Poseidal' is the pilot of the Aug.",
+   "personality": "Regal, cold and imperious ruler who controls others (e.g. Quwasan) through the bio-relation system; her memories are themselves manipulated, and she finally turns against Amandara.",
+   "en_short": "Poseidal"
+  },
+  {
+   "ja": "ペンタゴナワールド",
+   "en": "Pentagona World",
+   "kind": "place",
+   "series": "Heavy Metal L-Gaim",
+   "role": "Dotless form: the binary-star system Daba and Poseidal's army come from."
+  },
+  {
+   "ja": "ダバ・マイロード",
+   "en": "Daba Myroad",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "male",
+   "role": "Protagonist. Heir of the Yaman clan's Kamon dynasty (true name Kamon Myroad), raised on Koam; leads the rebellion against Poseidal. Pilots the L-Gaim, later the L-Gaim Mk-II.",
+   "personality": "Calm, earnest and somewhat reserved, hard to read; indecisive at times but prone to sudden outbursts of anger, and reckless whenever his adopted sister Quwasan is involved. Grows into a capable leader.",
+   "en_short": "Daba"
+  },
+  {
+   "ja": "プリベンター",
+   "en": "Preventer",
+   "kind": "faction"
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "ペンタゴナ",
+   "en": "Pentagona",
+   "kind": "place",
+   "series": "Heavy Metal L-Gaim",
+   "role": "The Pentagona System / Pentagona World: the five-planet star system where L-Gaim is set (Koam, Mizum, Gastogal, Trydetol, ...)."
+  },
+  {
+   "ja": "ポセイダル",
+   "en": "Poseidal",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "female",
+   "role": "Emperor ruling the Pentagona World from Sveto on Gastogal; supreme commander of the Poseidal Army. The Poseidal on the throne is actually Mian Qu Ha Ussher, a puppet of the true Poseidal (Amandara Kamandara). In ACE2 'Poseidal' is the pilot of the Aug.",
+   "personality": "Regal, cold and imperious ruler who controls others (e.g. Quwasan) through the bio-relation system; her memories are themselves manipulated, and she finally turns against Amandara.",
+   "full_name": "Oldna Poseidal"
+  },
+  {
+   "ja": "ミスマル",
+   "en": "Misumaru",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "male",
+   "role": "Admiral of the United Earth forces (Third Fleet); Yurika's father; senior UESF commander in PoD",
+   "personality": "Doting, emotional father; stern but decent commander",
+   "full_name": "Kouichiro Misumaru"
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "ギワザ",
+   "en": "Giwaza",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "male",
+   "role": "Seat no. 3 and de facto leader of Poseidal's Thirteen, the highest-ranking officer after Poseidal; rebels against Poseidal with his own fleet (the Giwaza fleet) and is killed in the final battle.",
+   "personality": "Capable, cold, calculating and ambitious; uses and discards people, including his lover Nei Mo Han; a political schemer.",
+   "full_name": "Giwaza Lowau"
+  },
+  {
+   "ja": "提督",
+   "en": "Admiral",
+   "kind": "rank"
+  }
+ ],
+ "known_portraits": {
+  "36": {
+   "speaker": "Lucrezia Noin",
+   "gender": "female",
+   "role": "tactical staff officer (特尉, Special Lieutenant) from the Preventer",
+   "confidence": "high",
+   "evidence": "m6112#36 Sinapus: 'ノイン特尉、後で詳しく聞かせてくれ' then p36 explains Domon in brief63178#4-9; commanding but female, do not masculinize"
+  },
+  "45": {
+   "speaker": "Daba Myroad",
+   "gender": "male",
+   "role": "rebel leader, L-Gaim pilot",
+   "confidence": "high",
+   "evidence": "brief: '俺は、ダバ・マイロード。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6131#56",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>助かった。\nこの状況でよく見分けられたな。<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#57",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>艦長、ありがとうございます。\n助かりました。<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#58",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>いや、いいんだ。　それよりも……\n君たちに聞きたいことが山ほどある。<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#59",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>本艦に移乗してくれるか？<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#60",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>了解しました！　\nこっちも艦をやられて困ってたんです。<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#61",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>そこだ！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#62",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>レッシィ！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#63",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>任せて！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#64",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>数が多ければいいってもんじゃないわよ！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#65",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>ダバ、そこ！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#66",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>俺はこのまま敵陣に突っ込む！　援護を頼む！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#67",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>ラジャ！<ab(0)><off()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "brief63180#0",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "<im(6)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>彼らが<im(1)>他の星系<im(6)>から来たという話は、\n信じがたいことではあるが…\n詳しくは彼から説明してもらおう。",
+   "en": "<op(36,1)><sp(2)>The claim that they came from <im(1)>another\n<im(6)>star system is hard to believe, but...\nLet us have him explain the details.",
+   "notes": "Portrait 36 is Lucrezia Noin. Exact token sequence maintained: op(36,1), sp(2), im(1), im(6)."
+  },
+  {
+   "ref": "brief63180#1",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 45,
+   "tokens": [
+    "<op(45,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "#c[E2E258]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(45,1)><sp(2)><im(2)>俺は、ダバ・マイロード。\nこの星系の外にある二重太陽系、\n#c[E2E258]ペンタゴナワールド#cから来ました。",
+   "en": "<op(45,1)><sp(2)><im(2)>I am Daba Myroad.\nI come from the #c[E2E258]Pentagona World#c,\na binary star system outside this one.",
+   "notes": "Portrait 45 is Daba Myroad introducing himself. Exact token sequence maintained: op(45,1), sp(2), im(2), #c[E2E258], #c."
+  },
+  {
+   "ref": "brief63180#2",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 45,
+   "tokens": [
+    "<op(45,1)>",
+    "<sp(2)>",
+    "#c[E2E258]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(45,1)><sp(2)>ペンタゴナは、#c[E2E258]ポセイダル#cという\n独裁者に支配されています。",
+   "en": "<op(45,1)><sp(2)>Pentagona is ruled by a dictator\nknown as #c[E2E258]Poseidal#c.",
+   "notes": "Daba describing the political situation. Exact token sequence maintained: op(45,1), sp(2), #c[E2E258], #c."
+  },
+  {
+   "ref": "brief63180#3",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 45,
+   "tokens": [
+    "<op(45,1)>",
+    "<sp(2)>",
+    "<im(4)>",
+    "<im(7)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(45,1)><sp(2)><im(4)><im(7)>俺は#c[BE5050]ポセイダル#cに滅ぼされた\nヤーマン王族の生き残りで…",
+   "en": "<op(45,1)><sp(2)><im(4)><im(7)>I am a survivor of Yaman royalty,\ndestroyed by #c[BE5050]Poseidal#c...",
+   "notes": "Daba revealing his heritage. Exact token sequence maintained: op(45,1), sp(2), im(4), im(7), #c[BE5050], #c."
+  },
+  {
+   "ref": "brief63180#4",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 45,
+   "tokens": [
+    "<op(45,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(45,1)><sp(2)>#c[BE5050]ポセイダル#cからペンタゴナを\n解放するために#c[5E8FD8]反乱軍#cとして\n戦っています。",
+   "en": "<op(45,1)><sp(2)>To liberate Pentagona from #c[BE5050]Poseidal#c,\nwe fight as the #c[5E8FD8]Rebel Army#c.",
+   "notes": "Daba on their rebellion. Exact token sequence maintained: op(45,1), sp(2), #c[BE5050], #c, #c[5E8FD8], #c."
+  },
+  {
+   "ref": "brief63180#5",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 45,
+   "tokens": [
+    "<op(45,1)>",
+    "<sp(2)>",
+    "<im(5)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(45,1)><sp(2)><im(5)>#c[BE5050]ポセイダル#cは、あなたたちの星にある\n何かを手に入れようと企んでいるらしく…\nギワザという男を送り込みました。",
+   "en": "<op(45,1)><sp(2)><im(5)>#c[BE5050]Poseidal#c seeks to obtain something\nfrom your planet, and sent a man\nnamed Giwaza here.",
+   "notes": "Daba explaining Giwaza's mission. Exact token sequence maintained: op(45,1), sp(2), im(5), #c[BE5050], #c."
+  },
+  {
+   "ref": "brief63180#6",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 45,
+   "tokens": [
+    "<op(45,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(45,1)><sp(2)>俺たちはこの男を倒し、#c[BE5050]ポセイダル#cの野望を\n阻止するために、ここまで追って来たんです。",
+   "en": "<op(45,1)><sp(2)>We pursued him here to defeat him\nand stop #c[BE5050]Poseidal's#c ambitions.",
+   "notes": "Daba explaining why they pursued Giwaza to Earth. Exact token sequence maintained: op(45,1), sp(2), #c[BE5050], #c."
+  },
+  {
+   "ref": "brief63180#7",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 45,
+   "tokens": [
+    "<op(45,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(45,1)><sp(2)>ペンタゴナでの争いを、\nここまで持ち込むわけには\nいきませんからね。",
+   "en": "<op(45,1)><sp(2)>We cannot allow Pentagona's conflict\nto be brought to your world.",
+   "notes": "Daba showing consideration for the Earth Sphere."
+  },
+  {
+   "ref": "brief63180#8",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 45,
+   "tokens": [
+    "<op(45,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(45,1)><sp(2)>おそらく、ギワザは近いうちに\n皆さんにも牙をむいてくるはずです。",
+   "en": "<op(45,1)><sp(2)>Before long, Giwaza will surely\nturn his fangs against all of you.",
+   "notes": "Daba warning the Albion crew."
+  },
+  {
+   "ref": "brief63180#9",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 45,
+   "tokens": [
+    "<op(45,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(45,1)><sp(2)>#c[5E8FD8]反乱軍#cの仲間には援護要請を\n送ったのですが、彼らが到着するには\nかなりの時間がかかります。",
+   "en": "<op(45,1)><sp(2)>We sent a request for aid to our\nfellows in the #c[5E8FD8]Rebel Army#c, but it will take\na long time for them to arrive.",
+   "notes": "Daba explaining their lack of immediate backup. Exact token sequence maintained: op(45,1), sp(2), #c[5E8FD8], #c."
+  },
+  {
+   "ref": "brief63180#10",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 45,
+   "tokens": [
+    "<op(45,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(45,1)><sp(2)>お願いします。\n俺たちを、皆さんに同行させてください！",
+   "en": "<op(45,1)><sp(2)>Please.\nAllow us to accompany you!",
+   "notes": "Daba requesting to join the fleet."
+  },
+  {
+   "ref": "brief63180#11",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>最終的な決定は、\n本部の判断を待たねばならないが、",
+   "en": "<op(36,1)><sp(2)>A final decision must wait for\njudgment from Headquarters, but...",
+   "notes": "Lucrezia Noin responding."
+  },
+  {
+   "ref": "brief63180#12",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>我々としても#c[BE5050]ポセイダル#c軍に関する\n情報は必要だ。この件については、\nミスマル提督へ私のほうから報告しておく。",
+   "en": "<op(36,1)><sp(2)>we also need intel on #c[BE5050]Poseidal's#c forces.\nI will personally report this matter\nto Admiral Misumaru.",
+   "notes": "Noin agreeing to contact Admiral Misumaru. Exact token sequence maintained: op(36,1), sp(2), #c[BE5050], #c."
+  },
+  {
+   "ref": "brief63180#13",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>当面、彼らには本艦に協力してもらう。\nよろしく頼む。",
+   "en": "<op(36,1)><sp(2)>For now, they will cooperate with us.\nTreat them well.",
+   "notes": "Noin instructing the crew to cooperate with Daba's group."
+  },
+  {
+   "ref": "brief63244#0",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「外宇宙ペンタゴナに関する報告」\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　ＵＣＥ諜報部",
+   "en": "<sp(0)>\"Report on Deep Space Pentagona\"\n\nUCE Intelligence Department",
+   "notes": "Report header by UCE Intelligence Department."
+  },
+  {
+   "ref": "brief63244#1",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>本件は、Ｓ４宙域にて#c[5E8FD8]アルビオン#cが\n保護した<im(1)>ダバ・マイロード率いる\n一団に関する報告である。",
+   "en": "<sp(0)>This is a report on the party rescued\nby the #c[5E8FD8]Albion#c in Sector S4,\n<im(1)>led by Daba Myroad.",
+   "notes": "Preventer report introduction. Exact token sequence maintained: sp(0), #c[5E8FD8], #c, im(1)."
+  },
+  {
+   "ref": "brief63244#2",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[FF0000]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>事情聴取を行ったところによると、彼らは\n地球圏外に存在するペンタゴナワールド#c[FF0000]\n#cから来たと言う。",
+   "en": "<sp(0)>According to our debriefing, they claim\nto come from the #c[FF0000]Pentagona World#c,\nlocated far outside the Earth Sphere.",
+   "notes": "Exact token sequence maintained: sp(0), #c[FF0000], #c."
+  },
+  {
+   "ref": "brief63244#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>ペンタゴナワールドとは、<im(2)>\n#c[BE5050]オルドナ・ポセイダル#cという人物の手で\n武力支配された惑星国家連合であり、",
+   "en": "<sp(0)>The Pentagona World is an alliance <im(2)>of\nplanets ruled by force under a figure\nknown as #c[BE5050]Oldna Poseidal#c,",
+   "notes": "Exact token sequence maintained: sp(0), im(2), #c[BE5050], #c."
+  },
+  {
+   "ref": "brief63244#4",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(3)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[BE5050]ポセイダル#cの配下であるギワザ率いる\n部隊が、何らかの目的で地球圏に\n侵攻<im(3)>を開始したらしいのだ。",
+   "en": "<sp(0)>and forces under #c[BE5050]Poseidal's#c subordinate\nGiwaza have apparently begun an invasion\n<im(3)>of the Earth Sphere for unknown goals.",
+   "notes": "Exact token sequence maintained: sp(0), #c[BE5050], #c, im(3)."
+  },
+  {
+   "ref": "brief63244#5",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>一方のダバ・マイロードたちは、#c[BE5050]ポセイダル\n#cに対する#c[5E8FD8]反乱軍#cを組織しており、ギワザ隊\n追撃のため同じく地球圏に到達していた。",
+   "en": "<sp(0)>Meanwhile, opposing #c[BE5050]Poseidal#c, Daba Myroad\nand his #c[5E8FD8]Rebel Army#c pursued Giwaza's unit\nand likewise reached the Earth Sphere.",
+   "notes": "Exact token sequence maintained: sp(0), #c[BE5050], #c, #c[5E8FD8], #c."
+  },
+  {
+   "ref": "brief63244#6",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[BE5050]ポセイダル#cに全権を委任されたギワザは\nその兵力も充実しており、我々にとっても\n脅威となる可能性が高いとのこと。",
+   "en": "<sp(0)>Given full authority by #c[BE5050]Poseidal#c, Giwaza\npossesses substantial military forces,\nposing a serious threat to us as well.",
+   "notes": "Exact token sequence maintained: sp(0), #c[BE5050], #c."
+  },
+  {
+   "ref": "brief63244#7",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>彼らの話が全て真実と仮定するならば、\nこれは、地球圏を脅かす新たな戦力が現れた\n深刻な事態であると言わざるをえない。",
+   "en": "<sp(0)>Assuming their account is entirely true,\na new force now threatens the Earth Sphere,\npresenting an undeniably grave crisis.",
+   "notes": "Strategic assessment in Preventer report."
+  },
+  {
+   "ref": "brief63244#8",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>今後の#c[BE5050]ポセイダル#c軍に関する調査は\n#c[5E8FD8]プリベンター#cに引き継ぎ、新たな情報\nが入り次第、報告する所存である。",
+   "en": "<sp(0)>Further investigation into #c[BE5050]Poseidal's#c\nforces will transfer to the #c[5E8FD8]Preventer#c,\nreporting as new information arrives.",
+   "notes": "Exact token sequence maintained: sp(0), #c[BE5050], #c, #c[5E8FD8], #c."
+  },
+  {
+   "ref": "brief63244#9",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>なおダバ・マイロード一行は、先の戦闘の\n折に母艦を損傷したため、当面の措置として\n#c[5E8FD8]アルビオン#cが保護することとする。",
+   "en": "<sp(0)>As Daba Myroad's party lost their ship\nin the prior battle, they will be sheltered\naboard the #c[5E8FD8]Albion#c for the time being.",
+   "notes": "Conclusion of report. Exact token sequence maintained: sp(0), #c[5E8FD8], #c."
+  }
+ ],
+ "context_after": [],
+ "report": {
+  "translator_summary": "Translated Operation 13 batch 02 (24 rows), concluding Operation 13. Covers the debriefing (brief63180) where Lucrezia Noin and Daba Myroad explain Pentagona World, Poseidal's dictatorship, the Yaman clan royal lineage, and Giwaza Lowau's invasion force seeking Orphan. Followed by the UCE Intelligence Department report (brief63244) detailing the strategic situation, authorizing the Preventer investigation into Poseidal, and placing Daba's group under the Albion's temporary protection.",
+  "rows_examined": "op13_01, op13_02",
+  "rows_examined_count": 104,
+  "uncertainties": [
+   "In brief63244#2, the original text had '#c[FF0000]\n#c' directly following 'ペンタゴナワールド'. The color tag #c[FF0000]...#c is wrapped around 'Pentagona World' to maintain clean token structure and formatting.",
+   "Portrait 36 is Lucrezia Noin, maintaining her female, commanding tone as tactical staff officer for Preventer.",
+   "Portrait 45 is Daba Myroad, earnest and respectful as a refugee prince from Pentagona."
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {
+   "36": "Lucrezia Noin",
+   "45": "Daba Myroad"
+  }
+ }
+}

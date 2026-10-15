@@ -1,0 +1,1723 @@
+{
+ "batch": "op19_03",
+ "operation": 19,
+ "previous_batch": "op19_02",
+ "next_batch": "op19_04",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "ボソンジャンプ",
+   "en": "Boson Jump",
+   "kind": "term",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "Teleportation/time-displacement technology of the setting"
+  },
+  {
+   "ja": "エステバリス",
+   "en": "Aestivalis",
+   "kind": "unit",
+   "series": "Martian Successor Nadesico",
+   "role": "Nergal mass-produced mecha; used alone and in エステバリス隊 (Aestivalis squad/team)."
+  },
+  {
+   "ja": "テンカワ",
+   "en": "Tenkawa",
+   "kind": "character",
+   "series": "Martian Successor Nadesico",
+   "gender": "male",
+   "role": "Surname of Akito Tenkawa; used alone (テンカワ君, テンカワ機 = Tenkawa's unit)."
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "アキト",
+   "en": "Akito",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "male",
+   "role": "TV: cook and Aestivalis pilot of the Nadesico, a Class-A Boson Jumper. PoD: the \"Prince of Darkness\", Black Sarena pilot hunting the Martian Successors",
+   "personality": "TV: kind, reluctant and insecure Gekiganger fan who wants to be a cook. PoD: cold, grim and vengeful after experiments destroyed his senses",
+   "full_name": "Akito Tenkawa"
+  },
+  {
+   "ja": "イネス",
+   "en": "Inez",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "female",
+   "role": "Nergal scientist aboard the Nadesico (Mars survivor); explains the technology",
+   "personality": "Brilliant, self-absorbed lecturer who loves giving \"explanations\"; secretly the grown-up Ai",
+   "full_name": "Inez Fressange"
+  },
+  {
+   "ja": "ユリカ",
+   "en": "Yurika",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "female",
+   "role": "Captain of the ND-001 Nadesico; Akito's childhood friend and later wife; prisoner of the Martian Successors in PoD",
+   "personality": "Cheerful, airheaded and clingy toward Akito, but a genuinely brilliant tactician",
+   "full_name": "Yurika Misumaru"
+  },
+  {
+   "ja": "ルリ",
+   "en": "Ruri",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "female",
+   "role": "TV: operator/science officer of the Nadesico. PoD: Lieutenant Commander, captain of the Nadesico B (\"Electronic Fairy\")",
+   "personality": "Deadpan, cool, blunt child prodigy (catchphrase \"bunch of fools\"); slowly warms to the crew",
+   "full_name": "Ruri Hoshino"
+  },
+  {
+   "ja": "木連",
+   "en": "Jovian Federation",
+   "kind": "faction",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "Jupiter-based anti-Earth state, main enemy faction of the TV series (romaji Mokuren)",
+   "en_short": "Jovians"
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {},
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "brief63120#7",
+   "layer": "tactical briefing",
+   "jp": "<op(32,1)><sp(2)>そうそう、ネルガルの人たちにも、\n協力してもらっちゃいます！",
+   "en": ""
+  },
+  {
+   "ref": "brief63120#8",
+   "layer": "tactical briefing",
+   "jp": "<op(32,1)><sp(2)>あの人たちにはあの人たちの\n思惑みたいなものがあるみたいですが、\nこの際、気にしないことにします！",
+   "en": ""
+  },
+  {
+   "ref": "brief63120#9",
+   "layer": "tactical briefing",
+   "jp": "<op(32,1)><sp(2)>遺跡をどうにかしようなんて、\n#c[5E8FD8]アルビオン#cの皆さんには、\nバカな行動だと思えるかもしれませんが、",
+   "en": ""
+  },
+  {
+   "ref": "brief63120#10",
+   "layer": "tactical briefing",
+   "jp": "<op(32,1)><sp(2)>私たち、自分たちらしいやり方で、\n<im(7)>この<im(9)>戦争<im(11)>に決着をつけたいんです。\n最後まで私たちらしいやり方で行きます。",
+   "en": ""
+  },
+  {
+   "ref": "brief63120#11",
+   "layer": "tactical briefing",
+   "jp": "<op(32,1)><sp(2)>それでも来ていただけるなら、\n#c[5E8FD8]ナデシコ#cクルー一同、感謝感激です！",
+   "en": ""
+  },
+  {
+   "ref": "brief63120#12",
+   "layer": "tactical briefing",
+   "jp": "<op(37,1)><sp(2)>というわけだ。諸君。\nこれより本艦は<im(2)>#c[5E8FD8]ナデシコ#cを全力で援護す<im(5)>る。<tr(1)>",
+   "en": ""
+  },
+  {
+   "ref": "brief63120#13",
+   "layer": "tactical briefing",
+   "jp": "<op(37,1)><sp(2)>#c[F07141]木連艦隊を迎撃#cして\n#c[F07141]ナデシコの遺跡までの進行を援<im(13)>護#cする、\n<of(1)>全員戦闘配置につけ！",
+   "en": ""
+  },
+  {
+   "ref": "m6193#0",
+   "layer": "mission dialogue",
+   "jp": "ナデシコが遺跡上空に到達",
+   "en": ""
+  },
+  {
+   "ref": "m6193#1",
+   "layer": "mission dialogue",
+   "jp": "ナデシコの撃沈",
+   "en": ""
+  },
+  {
+   "ref": "m6193#2",
+   "layer": "mission dialogue",
+   "jp": "回収作業終了までナデシコを護衛",
+   "en": ""
+  },
+  {
+   "ref": "m6193#3",
+   "layer": "mission dialogue",
+   "jp": "ナデシコ",
+   "en": ""
+  },
+  {
+   "ref": "m6193#4",
+   "layer": "mission dialogue",
+   "jp": "アーマー%d％",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6193#5",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>遺跡まで、ナデシコを護衛してください。<ab(100)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#6",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>皆さんを信じてます！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#7",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵も総力戦ね。<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#8",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>この遺跡はボソンジャンプの中央演算装置、\n手にした者は歴史を変える……<ab(100)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#9",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>となれば、当然かしら。<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#10",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>遠くからナデシコを\n狙っている艦がいるようね。<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#11",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>強力なビーム兵器を搭載しているから、<ab(0)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#12",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>直撃すればフィールドを張っていても\n無事には済まないはずよ。<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#13",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それでは作戦を説明します。<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#14",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>遺跡にナデシコを突っ込ませて、\nどかーんと自爆します！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#15",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何だと！？<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#16",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…正気か？<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#17",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコの４つのエンジンを暴走させて、\n遺跡をどかーん！<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#18",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>うん！　これでバッチリ！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#19",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>クルーも道連れにする気か？<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#20",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まさか！　もちろん残るのは\n艦長の私だけ！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#21",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ちょっと待てユリカ！　お前死ぬ気か？<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#22",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>大丈夫、死なないよぉ！<ab(0)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#23",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>死ぬ！<ab(0)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#24",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>死なない死なない死なない！<ab(0)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#25",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>死ぬとは限らないわ。<ab(100)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#26",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>この遺跡は一種のタイムマシンなのよ。<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#27",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>つまり、この遺跡を壊した瞬間、<ab(0)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#28",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>現在過去未来のボソンジャンプは\n全てなかったことになるわ。<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#29",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>歴史が変わるのよ。<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#30",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>つまり、時空連続体の一部を断裂させ……<ab(0)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#31",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>私は反対です。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#32",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ルリちゃん！？<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#33",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>遺跡を壊せば歴史が変わる。<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#34",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>戦争は起きない。　全てチャラ。<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#35",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>でも……大切なものも\n壊してしまうじゃないですか。<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#36",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>私の大切なもの。<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#37",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>このナデシコでの生活。<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#38",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>その思い出が私の全てです。<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#39",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>与えられた記憶でなく、\n自分で勝ち取った記憶。<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#40",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>それが全てです。<ab(100)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#41",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(600)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>チャラになんかできません。<ab(600)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#42",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>艦長、あなたにとって大事なものって、\n一体……何ですか？<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#43",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>壊さないで、捨てましょう。<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#44",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>宇宙の果てに。<ab(100)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#45",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>誰も拾えないところに。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#46",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>私も、それに賛成だな。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#47",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……俺たちもだ。　どうする、ユリカ？<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#48",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(50)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……わかった。<ab(50)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#49",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>……アキトがそう言うなら。<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#50",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>世界平和より思い出か……\n冷静に考えりゃ、自分勝手な話だな。<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#51",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いいじゃない。<ab(100)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#52",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>そういう自分勝手、素敵だと思う。<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#53",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>「素敵な自分勝手」か……\n……そうだな。　悪くない。<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#54",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>木連部隊、前方に展開中！\nすごい大群です！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#55",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さてと……俺たちの自分勝手を\n押し通しに行ってくるか！<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#56",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコ、被弾。<ab(100)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#57",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>進行に影響ありません。<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#59",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>援護お願いします。<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#60",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコが…撃沈！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#61",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ゲキガンタイプ、接近してます。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#62",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>来たな、悪の地球人！\n遺跡は渡さん！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#63",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ここが遺跡上空です。<ab(400)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#64",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これから、コアブロックを積み込みます。<ab(400)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#65",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>で、例によって例のごとく……<ab(0)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#66",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>護衛だろ？　任せとけって！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#67",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>わかった！　こっちは引き受ける！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#68",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アキトなんか、\nイネスさんとキスすりゃいいのよ～！<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#69",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>飛ぶのよ、アキト君！　イメージして！\nエステバリスのコクピット！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#70",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(50)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>はい！！<ab(50)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#71",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>エステバリス内部でボース粒子反応。<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#72",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>アキトさんがコクピットにジャンプしました。<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#73",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いやぁ～！　あっち行って！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#74",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あっちってどっちだ！？<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#75",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アキトのバカぁ～！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#76",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんだ、アレは！？<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#77",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>通信から、痴話ゲンカらしきものが\n聞こえましたが……<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#78",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>はぁ！？<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#79",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ルリちゃん……これは？<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#80",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>はぁ。　イネスさんが、\n遺跡のコアをジャンプさせるには<ab(0)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#81",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>艦長とアキトさんの粘膜同士の接触、\nつまりキスが必要だと言い出しまして。<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#82",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それで…こんなんなったのか？<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#83",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>はい。<ab(100)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#84",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ちなみに、木星の艦隊にも\nテンカワ機の通信送っちゃってます。<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6193#85",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まさに宇宙分け目の大ゲンカってとこね。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6193#86",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>はい。<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#87",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>！？　人がせっかく\n壮大な話をしようとしてたのに！<ab(500)>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#88",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>……そうだよ。　悪いかよ。<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#89",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ううん。<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#90",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>お、お前は、どうなんだよ！？<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#91",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>あたし？　あたしは…<ab(0)>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#92",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>あたしはアキトが大好き！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#93",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>初めて聞いた……<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#94",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>うそぉ？<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#95",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ホントだよ。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#96",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>うそぉ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#97",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ホント！<ab(0)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "",
+  "rows_examined": "",
+  "rows_examined_count": 0,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

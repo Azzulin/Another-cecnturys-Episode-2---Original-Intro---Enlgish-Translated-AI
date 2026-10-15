@@ -1,0 +1,1718 @@
+{
+ "batch": "op17_01",
+ "operation": 17,
+ "previous_batch": null,
+ "next_batch": "op17_02",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "シーラ・ラパーナ",
+   "en": "Ciela Lapana",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "female",
+   "role": "Queen of the Kingdom of Na; commands the aura battleship Gran-Garan; gives Sho the Billbine",
+   "personality": "Serene, dignified young queen with strong Aura Power and a sense of duty to all of Byston Well. Calm but resolute.",
+   "en_short": "Ciela"
+  },
+  {
+   "ja": "オペレーション",
+   "en": "Operation",
+   "kind": "term"
+  },
+  {
+   "ja": "オーラバトラー",
+   "en": "Aura Battler",
+   "kind": "term",
+   "series": "Aura Battler Dunbine",
+   "role": "Class of insect-like Byston Well mecha fielded by the Drake Army and Show's side."
+  },
+  {
+   "ja": "グラン・ガラン",
+   "en": "Gran-Garan",
+   "kind": "ship",
+   "series": "Aura Battler Dunbine",
+   "role": "Aura battleship of Queen Ciela Lapana (Kingdom of Na)"
+  },
+  {
+   "ja": "ボソンジャンプ",
+   "en": "Boson Jump",
+   "kind": "term",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "Teleportation/time-displacement technology of the setting"
+  },
+  {
+   "ja": "ショウ・ザマ",
+   "en": "Show Zama",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Protagonist; Holy Warrior (Seisenshi) from Tokyo summoned to Byston Well; defects from Drake Luft to the resistance; pilots Dunbine, later Billbine",
+   "personality": "Hot-blooded, stubborn young motocross racer who grows into a serious, driven warrior. Has huge Aura Power but struggles to control it. Has unspoken feelings for Marvel.",
+   "en_short": "Sho"
+  },
+  {
+   "ja": "チューリップ",
+   "en": "Chulip",
+   "kind": "term",
+   "series": "Martian Successor Nadesico",
+   "role": "Jovian gate-ships that spawn enemy units; targets of missions like チューリップ掃討 / チューリップ排除."
+  },
+  {
+   "ja": "ホシノ・ルリ",
+   "en": "Ruri Hoshino",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "female",
+   "role": "TV: operator/science officer of the Nadesico. PoD: Lieutenant Commander, captain of the Nadesico B (\"Electronic Fairy\")",
+   "personality": "Deadpan, cool, blunt child prodigy (catchphrase \"bunch of fools\"); slowly warms to the crew",
+   "en_short": "Ruri"
+  },
+  {
+   "ja": "リクレイマー",
+   "en": "Reclaimer",
+   "kind": "faction",
+   "series": "Brain Powerd",
+   "role": "The people who serve Orphan and pilot Grand Chers to gather its plates; plural 'Reclaimers'"
+  },
+  {
+   "ja": "ズワァース",
+   "en": "Zwarth",
+   "kind": "unit",
+   "series": "Aura Battler Dunbine",
+   "role": "Most powerful late-war Drake Aura Battler; the Black Knight's unit"
+  },
+  {
+   "ja": "ドレイク",
+   "en": "Drake",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Main antagonist; Lord of House Luft in the Kingdom of Ah (アの国), who summons Holy Warriors and wages war to unite Byston Well; commands the Will Wipps",
+   "personality": "Ambitious, scheming warlord who believes his conquest is justified. Loves his daughter Riml but is blind to the plots around him.",
+   "full_name": "Drake Luft"
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "マックス",
+   "en": "Max",
+   "kind": "character",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "gender": "male",
+   "role": "U.N. Spacy ace VF-1 pilot, Hikaru's wingman in Skull Squadron.",
+   "personality": "Calm, cheerful, unflappable prodigy pilot; later falls for and marries the Meltran ace Milia.",
+   "full_name": "Maximilian Jenius"
+  },
+  {
+   "ja": "木星蜥蜴",
+   "en": "Jovian Lizards",
+   "kind": "faction",
+   "series": "Martian Successor Nadesico",
+   "role": "Earth's name for the unknown Jovian enemy (actually the Jovian Federation, 木連)."
+  },
+  {
+   "ja": "サセボ",
+   "en": "Sasebo",
+   "kind": "place",
+   "series": "Martian Successor Nadesico",
+   "role": "Japanese port city where the Nadesico is docked/launched (サセボドック, mission サセボ攻防戦)."
+  },
+  {
+   "ja": "ショウ",
+   "en": "Show",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Protagonist; Holy Warrior (Seisenshi) from Tokyo summoned to Byston Well; defects from Drake Luft to the resistance; pilots Dunbine, later Billbine",
+   "personality": "Hot-blooded, stubborn young motocross racer who grows into a serious, driven warrior. Has huge Aura Power but struggles to control it. Has unspoken feelings for Marvel.",
+   "full_name": "Sho Zama"
+  },
+  {
+   "ja": "黒騎士",
+   "en": "Black Knight",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Masked identity of Burn Bunnings, Drake's former commander, after Sho defeats him; Sho's rival; pilots Zwarth and Galava in ACE2",
+   "personality": "Once proud and respected, now bitter and obsessed with revenge on Sho. Cold, theatrical, and hides his face behind a mask.",
+   "en_short": "Black Knight"
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {
+  "33": {
+   "speaker": "Kouichiro Misumaru",
+   "gender": "male",
+   "role": "UCE Space Force admiral (Yurika's father)",
+   "confidence": "high",
+   "evidence": "brief: '私はＵＣＥ宇宙軍提督のミスマルだ。'"
+  },
+  "34": {
+   "speaker": "Ruri Hoshino",
+   "gender": "female",
+   "role": "Nadesico operator",
+   "confidence": "high",
+   "evidence": "brief: 'こちらはナデシコのホシノ・ルリです。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [],
+ "rows": [
+  {
+   "ref": "brief63016#0",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "オペレーション　１７",
+   "en": "Operation 17",
+   "notes": ""
+  },
+  {
+   "ref": "brief63016#1",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "サセボ 攻防戦",
+   "en": "Battle of Sasebo",
+   "notes": ""
+  },
+  {
+   "ref": "brief63016#2",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ナデシコの損傷を抑える",
+   "en": "Minimize Damage to Nadesico",
+   "notes": ""
+  },
+  {
+   "ref": "brief63016#3",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "大型ミサイル迎撃",
+   "en": "Intercept Large Missiles",
+   "notes": ""
+  },
+  {
+   "ref": "brief63016#4",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "チューリップ排除",
+   "en": "Eliminate Chulip",
+   "notes": ""
+  },
+  {
+   "ref": "brief63016#5",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ナデシコ護衛",
+   "en": "Protect the Nadesico",
+   "notes": ""
+  },
+  {
+   "ref": "brief63016#6",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<ac(16)>",
+    "<im(1)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(10)>",
+    "#c[BE5050]",
+    "<im(4)>",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><ac(16)>サセボドックで<im(1)>修理中の#c[5E8FD8]ナデシコ#cが、\n<im(10)>#c[BE5050]木星蜥蜴<im(4)>#cの襲撃を受けている。",
+   "en": "<op(33,1)><sp(2)><ac(16)>At Sasebo Dock, under <im(1)>repairs, the #c[5E8FD8]Nadesico#c\n<im(10)>is under assault by #c[BE5050]Jovian <im(4)>Lizards#c.",
+   "notes": "p33 is Admiral Misumaru. fix: tokens order of <im(1)> and #c[5E8FD8] -> reordered to match JP"
+  },
+  {
+   "ref": "brief63016#7",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>修理にはまだ時間がかかるらしく、\n#c[5E8FD8]ナデシコ#cは身動きが取れない状態だ。",
+   "en": "<op(33,1)><sp(2)>Her repairs will still take some time,\nleaving the #c[5E8FD8]Nadesico#c totally immobilized.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63016#8",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(2)>至急、サセボドックへ向かい、\n#c[F07141]ナデシコの護衛#cをして欲しい。\n",
+   "en": "<op(33,1)><sp(2)><im(2)>Proceed to Sasebo Dock immediately\nand #c[F07141]defend the Nadesico#c.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63016#9",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(11)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>なお、市街地には<im(11)>#c[BE5050]ドレイク軍#cの\n#c[BE5050]オーラバトラー#cも確認されている。",
+   "en": "<op(33,1)><sp(2)>Furthermore, <im(11)>#c[BE5050]Drake Army#c #c[BE5050]Aura Battlers#c\nhave also been confirmed in the urban area.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63016#10",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(5)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(5)>目的はわからんが、戦闘が始まれば\n何らかの行動を起こすかもしれん。\n注意してくれたまえ。",
+   "en": "<op(33,1)><sp(2)><im(5)>Their objective is unknown, but they may\nact once battle begins. Exercise caution.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63016#11",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(13)>",
+    "#c[F07141]",
+    "<im(14)>",
+    "#c",
+    "<im(15)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<of(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(13)>#c[F07141]敵の襲撃<im(14)>を阻止#cし、<im(15)>#c[5E8FD8]ナデシコ#cを決して\n<of(1)>傷つけぬようにな。\n頼んだぞ！",
+   "en": "<op(33,1)><sp(2)><im(13)>#c[F07141]Thwart the enemy assault<im(14)>#c, never let the\n<im(15)>#c[5E8FD8]Nadesico#c come to <of(1)>harm!\nI am counting on you!",
+   "notes": "Token sequence matched exactly"
+  },
+  {
+   "ref": "brief63108#0",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ナデシコの損傷",
+   "en": "Nadesico Damage",
+   "notes": ""
+  },
+  {
+   "ref": "brief63108#2",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 34,
+   "tokens": [
+    "<op(34,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(34,1)><sp(2)>こちらは#c[5E8FD8]ナデシコ#cのホシノ・ルリです。\n<im(1)>引きこもっている艦長に代わって、\n作戦の概要を伝えます。",
+   "en": "<op(34,1)><sp(2)>This is Ruri Hoshino of the #c[5E8FD8]Nadesico#c.\n<im(1)>In place of our moping captain, I will\nbrief you on the operation.",
+   "notes": "p34 is Ruri Hoshino, dryly noting Yurika is sulking in her room"
+  },
+  {
+   "ref": "brief63108#3",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 34,
+   "tokens": [
+    "<op(34,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(34,1)><sp(2)>現在、<im(2)>#c[5E8FD8]ナデシコ#cは#c[BE5050]木星蜥蜴#cから\n#c[BE5050]ミサイル攻撃#cを受けています。",
+   "en": "<op(34,1)><sp(2)>Currently, the <im(2)>#c[5E8FD8]Nadesico#c is under #c[BE5050]missile\nattack#c from the #c[BE5050]Jovian Lizards#c.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63108#4",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 34,
+   "tokens": [
+    "<op(34,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(5)>",
+    "#c[F07141]",
+    "<im(4)>",
+    "#c",
+    "<im(6)>",
+    "<tr(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(34,1)><sp(2)>ですが、今#c[5E8FD8]ナデシコ#cは動けません。\nすみませんが、<im(5)>まずは敵の#c[F07141]ミサイルを\n<im(4)>迎撃#cしてく<im(6)>ださい。<tr(1)>",
+   "en": "<op(34,1)><sp(2)>However, the #c[5E8FD8]Nadesico#c cannot move now.\nWe are sorry, <im(5)>but please #c[F07141]intercept <im(4)>the\nenemy missiles#c <im(6)>first.<tr(1)>",
+   "notes": ""
+  },
+  {
+   "ref": "brief63108#5",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 34,
+   "tokens": [
+    "<op(34,1)>",
+    "<sp(2)>",
+    "<im(8)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(34,1)><sp(2)>あ、それから、<im(8)>市街地の#c[BE5050]ドレイク軍#cが\n動き始めました。\n#c[BE5050]オーラバトラー#cも発進しているようです。",
+   "en": "<op(34,1)><sp(2)>Oh, and <im(8)>the #c[BE5050]Drake Army#c in town has begun\nto move. It appears their #c[BE5050]Aura Battlers#c\nhave launched as well.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63108#6",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 34,
+   "tokens": [
+    "<op(34,1)>",
+    "<sp(2)>",
+    "<im(12)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(10)>",
+    "<im(11)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(34,1)><sp(2)><im(12)>#c[5E8FD8]グラン・ガラン#cも来てくれまし<im(10)>たので、\n<im(11)>協力してがんばりましょう。",
+   "en": "<op(34,1)><sp(2)><im(12)>The #c[5E8FD8]Gran-Garan#c has arrived <im(10)>as well,\n<im(11)>so let us work together and do our best.",
+   "notes": ""
+  },
+  {
+   "ref": "m6171#0",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ミサイルの破壊",
+   "en": "Destroy Missiles",
+   "notes": "Objective"
+  },
+  {
+   "ref": "m6171#1",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "５基以上のミサイルが領域を離脱",
+   "en": "5 or More Missiles Leave Area",
+   "notes": "Loss condition"
+  },
+  {
+   "ref": "m6171#2",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ズワァースの撃破",
+   "en": "Destroy the Zwarth",
+   "notes": "Objective"
+  },
+  {
+   "ref": "m6171#3",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ミサイル通過数",
+   "en": "Missiles Breached",
+   "notes": "Counter"
+  },
+  {
+   "ref": "m6171#5",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こちらはグラン・ガランのシーラ・ラパーナ。<ab(300)>",
+   "en": "<op()><sp(20)>This is Ciela Lapana, Gran-Garan.<ab(300)>",
+   "notes": "Queen Ciela Lapana"
+  },
+  {
+   "ref": "m6171#6",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>作戦に協力いたします。<ab(300)><ed()>",
+   "en": "<sp(20)>We shall assist in this operation.<ab(300)><ed()>",
+   "notes": "Ciela continues"
+  },
+  {
+   "ref": "m6171#7",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よろしくお願いします。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>We appreciate your assistance.<ab(300)><ed()>",
+   "notes": "Ruri"
+  },
+  {
+   "ref": "m6171#8",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ミサイル、来ます。<ab(100)>",
+   "en": "<op()><sp(20)>Missiles incoming.<ab(100)>",
+   "notes": "Ruri"
+  },
+  {
+   "ref": "m6171#9",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>迎撃お願いします。<ab(500)><ed()>",
+   "en": "<sp(20)>Please intercept them.<ab(500)><ed()>",
+   "notes": "Ruri continues"
+  },
+  {
+   "ref": "m6171#10",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>マックス、俺たちも出るぞ。<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Max, we're launching too.<ab(100)><ed()>",
+   "notes": "Hikaru Ichijo to Max"
+  },
+  {
+   "ref": "m6171#11",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>はい、隊長。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Yes, Captain.<ab(500)><ed()>",
+   "notes": "Max responding"
+  },
+  {
+   "ref": "m6171#12",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>突然現れやがったな…<ab(500)><ed()>",
+   "en": "<op()><sp(20)>They showed up out of nowhere...<ab(500)><ed()>",
+   "notes": "Pilot"
+  },
+  {
+   "ref": "m6171#13",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>！？　あの兵器はどこから！？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>!? Where did those weapons come from?!<ab(200)><ed()>",
+   "notes": "Pilot"
+  },
+  {
+   "ref": "m6171#14",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>たぶん、ボソンジャンプして来てるんだと\n思います。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>I believe they are arriving\nvia Boson Jump.<ab(400)><ed()>",
+   "notes": "Ruri"
+  },
+  {
+   "ref": "m6171#15",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ボソンジャンプ…<ab(300)>",
+   "en": "<op()><sp(20)>Boson Jump...<ab(300)>",
+   "notes": "Pilot"
+  },
+  {
+   "ref": "m6171#16",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>あれが話に聞く、不思議な力…<ab(300)><ed()>",
+   "en": "<sp(20)>So that's the mysterious power...<ab(300)><ed()>",
+   "notes": "Pilot continues"
+  },
+  {
+   "ref": "m6171#17",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…あなたに言われちゃおしまいですがな。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>...Rich coming from you, buddy.<ab(300)><ed()>",
+   "notes": "Comedic retort"
+  },
+  {
+   "ref": "m6171#18",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ドレイクの奴……<ab(0)>",
+   "en": "<op()><sp(20)>That bastard Drake...<ab(0)>",
+   "notes": "Show Zama"
+  },
+  {
+   "ref": "m6171#19",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>あそこで何をしてるんだ？<ab(300)><ed()>",
+   "en": "<sp(20)>What is he doing over there?<ab(300)><ed()>",
+   "notes": "Show continues"
+  },
+  {
+   "ref": "m6171#20",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>地上人を盾にしているのです。<ab(300)>",
+   "en": "<op()><sp(20)>He is using Upper Earthers as shields.<ab(300)>",
+   "notes": "Ciela Lapana or Marvel"
+  },
+  {
+   "ref": "m6171#21",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>一般市民の住む街の中に\n腰をすえていれば、<ab(0)>",
+   "en": "<sp(20)>If he establishes himself right\nin the middle of a civilian town,<ab(0)>",
+   "notes": "Speaker continues"
+  },
+  {
+   "ref": "m6171#22",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>うかつに手を出せないという\n思惑があるのでしょう。<ab(400)><ed()>",
+   "en": "<sp(20)>he calculates that we cannot strike\nwithout caution.<ab(400)><ed()>",
+   "notes": "Speaker continues"
+  },
+  {
+   "ref": "m6171#23",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……ドレイクめ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>...Curse you, Drake!<ab(300)><ed()>",
+   "notes": "Show"
+  },
+  {
+   "ref": "m6171#24",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>でも、この騒ぎで\nほとんどの市民は避難を終えています。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>However, thanks to the commotion,\nmost civilians have evacuated.<ab(200)><ed()>",
+   "notes": "Operator"
+  },
+  {
+   "ref": "m6171#25",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ドレイクも当てが外れたというわけですね。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>So Drake's plan miscalculated, then.<ab(500)><ed()>",
+   "notes": "Pilot"
+  },
+  {
+   "ref": "m6171#26",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>海から、新たな機影を確認。<ab(200)>",
+   "en": "<op()><sp(20)>New contacts confirmed from sea.<ab(200)>",
+   "notes": "Ruri"
+  },
+  {
+   "ref": "m6171#27",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>識別コードはリクレイマーです。<ab(200)><ed()>",
+   "en": "<sp(20)>Identification code: Reclaimer.<ab(200)><ed()>",
+   "notes": "Ruri continues"
+  },
+  {
+   "ref": "m6171#28",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ドレイク軍と手を組んだのは\n本当のようだな……<ab(500)><ed()>",
+   "en": "<op()><sp(20)>So it is true that they allied\nwith Drake's army...<ab(500)><ed()>",
+   "notes": "Yuu or Show"
+  },
+  {
+   "ref": "m6171#29",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ドックの隔壁が破壊されました！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>The dock bulkheads are breached!<ab(200)><ed()>",
+   "notes": "Operator"
+  },
+  {
+   "ref": "m6171#30",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコが危険だ！　迎撃しろ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Nadesico is in danger! Intercept them!<ab(400)><ed()>",
+   "notes": "Burning"
+  },
+  {
+   "ref": "m6171#31",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>機関部に被弾。<ab(0)>",
+   "en": "<op()><sp(20)>Engine section hit.<ab(0)>",
+   "notes": "Ruri"
+  },
+  {
+   "ref": "m6171#32",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>被害は１８ブロックに及んでいます。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Damage covers 18 blocks.<ab(300)><ed()>",
+   "notes": "Ruri"
+  },
+  {
+   "ref": "m6171#33",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコ、被弾しました！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>The Nadesico took a hit!<ab(100)><ed()>",
+   "notes": "Operator"
+  },
+  {
+   "ref": "m6171#34",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くっそー！！　冗談じゃねーぞ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Dammit!! You've gotta be kidding me!<ab(500)><ed()>",
+   "notes": "Kaine or Ryoko"
+  },
+  {
+   "ref": "m6171#35",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコのダメージ拡大。<ab(100)>",
+   "en": "<op()><sp(20)>Nadesico damage increasing.<ab(100)>",
+   "notes": "Ruri"
+  },
+  {
+   "ref": "m6171#36",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これ以上のダメージは危険です。<ab(300)><ed()>",
+   "en": "<sp(20)>Further damage will be critical.<ab(300)><ed()>",
+   "notes": "Ruri continues"
+  },
+  {
+   "ref": "m6171#37",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコ、沈黙！　応答ありません！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Nadesico silent! No response!<ab(700)><ed()>",
+   "notes": "Operator"
+  },
+  {
+   "ref": "m6171#38",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(900)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くっ…我々の力ではここまでか…<ab(900)><ed()>",
+   "en": "<op()><sp(20)>Damn it... Is this our limit...<ab(900)><ed()>",
+   "notes": "Officer"
+  },
+  {
+   "ref": "m6171#39",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>もう少し持ちこたえてくれ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Hold on just a little longer!<ab(200)><ed()>",
+   "notes": "Burning"
+  },
+  {
+   "ref": "m6171#40",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>目標はもう見当たりません。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>No further targets detected.<ab(200)><ed()>",
+   "notes": "Ruri"
+  },
+  {
+   "ref": "m6171#41",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>全部落としたようですね。　感謝します。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Looks like all were shot down. Thanks.<ab(300)><ed()>",
+   "notes": "Ruri"
+  },
+  {
+   "ref": "m6171#42",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>少し逃してしまったが…まあいいだろう。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>A few got away, but... good enough.<ab(400)><ed()>",
+   "notes": "Burning"
+  },
+  {
+   "ref": "m6171#43",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>高速で接近する機影があります！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>High-speed contact incoming!<ab(200)><ed()>",
+   "notes": "Operator"
+  },
+  {
+   "ref": "m6171#44",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ドレイクの者か！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>One of Drake's men?!<ab(500)><ed()>",
+   "notes": "Show"
+  },
+  {
+   "ref": "m6171#45",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>黒いオーラバトラー、離脱。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Black Aura Battler disengaging.<ab(400)><ed()>",
+   "notes": "Ruri noting the Zwarth"
+  },
+  {
+   "ref": "m6171#46",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>周辺の制圧を完了。　敵影は見えない。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Area secured. No enemy contacts seen.<ab(300)><ed()>",
+   "notes": "Pilot"
+  },
+  {
+   "ref": "m6171#47",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ドレイクの艦は？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>What about Drake's ship?<ab(200)><ed()>",
+   "notes": "Show"
+  },
+  {
+   "ref": "m6171#48",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今の騒ぎにまぎれて、撤退したようです。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Seems they retreated during the chaos.<ab(400)><ed()>",
+   "notes": "Ruri"
+  },
+  {
+   "ref": "m6171#49",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こちらにとっては好都合ね。<ab(100)>",
+   "en": "<op()><sp(20)>That works to our advantage.<ab(100)>",
+   "notes": "Marvel Frozen"
+  },
+  {
+   "ref": "m6171#50",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>他の連中をやっつけましょう！<ab(500)><ed()>",
+   "en": "<sp(20)>Let's take out the others!<ab(500)><ed()>",
+   "notes": "Marvel continues"
+  },
+  {
+   "ref": "m6171#51",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>６時方向よりミサイル多数！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Multiple missiles at six o'clock!<ab(0)><off()>",
+   "notes": "Operator"
+  },
+  {
+   "ref": "m6171#52",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>結果さえ良ければ、一時の屈辱など！<ab(0)><off()>",
+   "en": "<on()><sp(20)>As long as the outcome is won,\nmomentary humiliation is nothing!<ab(0)><off()>",
+   "notes": "Black Knight (Burn Bunnings)"
+  },
+  {
+   "ref": "m6171#53",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>黒騎士！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Black Knight!<ab(200)><ed()>",
+   "notes": "Show recognizes the Black Knight"
+  },
+  {
+   "ref": "m6171#54",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>私は復讐のためだけに生きてきた！<ab(200)>",
+   "en": "<op()><sp(20)>I have lived for revenge alone!<ab(200)>",
+   "notes": "Black Knight"
+  },
+  {
+   "ref": "m6171#55",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ショウ・ザマ！<ab(100)>",
+   "en": "<op()><sp(20)>Show Zama!<ab(100)>",
+   "notes": "Black Knight calling Show"
+  },
+  {
+   "ref": "m6171#56",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>私の恨みの刃を受けるがいい！<ab(500)><ed()>",
+   "en": "<sp(20)>Taste the blade of my hatred!<ab(500)><ed()>",
+   "notes": "Black Knight continues"
+  },
+  {
+   "ref": "m6171#57",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>私はお前に復讐するために！<ab(100)>",
+   "en": "<sp(20)>To exact my revenge upon you!<ab(100)>",
+   "notes": "Black Knight"
+  },
+  {
+   "ref": "m6171#58",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>そのためだけに生きてきた！<ab(200)>",
+   "en": "<sp(20)>For that alone have I lived!<ab(200)>",
+   "notes": "Black Knight continues"
+  },
+  {
+   "ref": "m6171#59",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>私の恨みの刃を受けるがいい！<ab(300)><ed()>",
+   "en": "<sp(20)>Taste the blade of my hatred!<ab(300)><ed()>",
+   "notes": "Black Knight continues"
+  },
+  {
+   "ref": "m6171#60",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(10)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このぉ！<ab(10)><ed()>",
+   "en": "<op()><sp(20)>Damn you!<ab(10)><ed()>",
+   "notes": "Show Zama"
+  },
+  {
+   "ref": "m6171#61",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ショウ！　お前はここで落ちろ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Show! You will fall here!<ab(100)><ed()>",
+   "notes": "Black Knight"
+  },
+  {
+   "ref": "m6171#62",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それはお前のほうだ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>You're the one going down!<ab(100)><ed()>",
+   "notes": "Show Zama"
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6171#63",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>くっ！<ab(100)>",
+   "en": ""
+  },
+  {
+   "ref": "m6171#64",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>くっ！　ここは預けるぞ！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6171#65",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>ここは預けるぞ、ショウ・ザマ！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "brief63109#0",
+   "layer": "tactical briefing",
+   "jp": "ナデシコの損傷",
+   "en": ""
+  },
+  {
+   "ref": "brief63109#1",
+   "layer": "tactical briefing",
+   "jp": "損傷率 %d ％",
+   "en": ""
+  },
+  {
+   "ref": "brief63109#2",
+   "layer": "tactical briefing",
+   "jp": "<op(34,1)><sp(2)>サセボ<im(1)>周辺に展<im(4)>開中の<im(2)>#c[BE5050]チューリップ#cから、\n敵機が多数出現して<im(6)>います。<tr(1)>",
+   "en": ""
+  },
+  {
+   "ref": "brief63109#3",
+   "layer": "tactical briefing",
+   "jp": "<op(34,1)><sp(2)><of(1)>#c[F07141]チューリップを破壊#cして、\n敵の出現を阻止してください。",
+   "en": ""
+  },
+  {
+   "ref": "m6172#0",
+   "layer": "mission dialogue",
+   "jp": "チューリップの全破壊",
+   "en": ""
+  },
+  {
+   "ref": "m6172#1",
+   "layer": "mission dialogue",
+   "jp": "制限時間超過",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Translated strategic and tactical briefings by Admiral Misumaru and Ruri Hoshino, followed by phase 1 mission dialogue covering Jovian missile interception and Show Zama's duel with the Black Knight (Burn Bunnings) in his Zwarth.",
+  "rows_examined": "brief63016#0-11, brief63108#0-6, m6171#0-62; context m6171#63-65, brief63109#0-3, m6172 and op17_02",
+  "rows_examined_count": 80,
+  "uncertainties": [
+   "brief63016#6-11: Admiral Misumaru's paternal concern for protecting the Nadesico.",
+   "brief63108#2: Ruri Hoshino dryly explaining she is delivering the tactical briefing because Captain Yurika is sulking in her room.",
+   "m6171#5-6: Queen Ciela Lapana's formal, contraction-free phrasing.",
+   "m6171#20-22: Explanation of Drake using the town and civilian population as human shields.",
+   "m6171#53-62: The Black Knight (Burn Bunnings) challenging Show Zama; used 'Black Knight' wherever Japanese uses 黒騎士."
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {
+   "33": "Kouichiro Misumaru",
+   "34": "Ruri Hoshino"
+  }
+ }
+}

@@ -1,0 +1,927 @@
+﻿{
+    "batch":  "xc_02",
+    "operation":  null,
+    "group":  "xc",
+    "group_label":  "Flashbacks Tak x Marina (054-057)",
+    "previous_batch":  "xc_01",
+    "next_batch":  null,
+    "rows_in_slice":  41,
+    "do_not_touch_names":  [
+                               "Amuro Ray",
+                               "Barkholz",
+                               "Capt. Burning",
+                               "Captain Burning",
+                               "Captain South Burning",
+                               "Cowen",
+                               "Giganos",
+                               "Lieutenant",
+                               "Lt.",
+                               "Major Anavel Gato",
+                               "Sinapus",
+                               "Tak"
+                           ],
+    "glossary":  [
+                     {
+                         "ja":  "タック",
+                         "en":  "Tak",
+                         "kind":  "character",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "gender":  "male",
+                         "role":  "ACE2 protagonist; UCE squad leader (First Lieutenant) and Gun Ark test pilot, joins the Albion unit.",
+                         "personality":  "Skilled ace and natural leader, but clumsy with machines (mechanically inept); grows suspicious of the Rainen Project and fights to bring Marina back.",
+                         "full_name":  "Tak Kepford"
+                     },
+                     {
+                         "ja":  "マリナ",
+                         "en":  "Marina",
+                         "kind":  "character",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "gender":  "female",
+                         "role":  "ACE2 heroine; Ensign in Tak\u0027s squad, pilot of the red Gun Ark; goes missing at Torrington Base, reappears with the Rainen Project in the Buster Ark, later rejoins Tak.",
+                         "personality":  "Cool and reserved (\u0027defrosting ice queen\u0027 in flashbacks); deeply bonded with Tak.",
+                         "full_name":  "Marina Carson"
+                     },
+                     {
+                         "ja":  "機体",
+                         "en":  "unit / machine",
+                         "kind":  "term",
+                         "note":  "Op 01 uses \u0027unit\u0027 for mecha in general, \u0027machine\u0027 when the speaker is the developer"
+                     }
+                 ],
+    "known_portraits":  {
+
+                        },
+    "unknown_portraits":  [
+
+                          ],
+    "context_before":  [
+                           {
+                               "ref":  "m6323#3",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003e1年も病院暮らしだったんだ。\nそれに比べればこのくらい。\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6323#4",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eくそっ…こんなところで！\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6323#5",
+                               "layer":  "mission dialogue",
+                               "jp":  "…タック。\u003con()\u003e\u003csp(20)\u003e\n私が敵を引きつける。\u003cab(0)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6323#6",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003eあなたは９時方向から、\n回りこんで母艦に向かって。\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6323#7",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eマリナ！？\n何言ってるんだ！　それじゃ、お前は…！\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6323#8",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003e…冷静な判断の結果よ。\nこの機体では邪魔になる…\u003cab(0)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6323#9",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003e２人とも撃墜されるより、\n１人でも生きて戻ったほうがいい。\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6323#10",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003e…タック！\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6323#11",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003e馬鹿言うな！　二人で帰るんだ！\n冷静な判断など知ったことか！\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6323#12",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eわかった…あなたを、信じる。\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6324#0",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003e０５６年　１１月\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6324#1",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003e…カーソン機、異常ありません。\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           }
+                       ],
+    "rows":  [
+                 {
+                     "ref":  "m6324#2",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eこちらも順調です！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eEverything\u0027s smooth on this end too!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6324#3",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eよし、そのまま飛行試験に移るからね。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eAll right, moving to the flight test.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6324#4",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e…まさか、俺たちが残るとはな。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...To think we\u0027re the ones left.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6324#5",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e機械に弱いパイロットと、\n乗り物酔いのパイロットが。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eA pilot who\u0027s clumsy with machines,\nand a pilot with motion sickness.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6324#6",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e…私たちが訓練を受けてきたのは、\nこの機体に乗るため。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...We went through all that training\njust to pilot this machine.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6324#7",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eああ、そうだ。\nそのために苦しい訓練に耐えてきた。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eYeah, that\u0027s right. We endured that\ngrueling training just for this.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6324#8",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e不安か？\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eAre you worried?\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6324#9",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e…多くの仲間が犠牲になったわ。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...So many comrades were sacrificed.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6324#10",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e大丈夫さ。　俺たちなら、大丈夫。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eIt\u0027ll be fine.\nIf it\u0027s the two of us, we\u0027ll make it.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6324#11",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e…\nいつも、楽天的ね…\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...\nYou\u0027re always so optimistic...\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6324#12",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eでも、あなたがそう言うなら、\n大丈夫な気がする。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eStill, when you say it like that,\nI feel like it really will be okay.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6324#13",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e…２人とも？\nおーい、聞こえているかい？\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...You two?\nHey, are you listening to me?\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6324#14",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e一旦ターンして、戻ってきてくれ！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eTurn around and head back for now!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6324#15",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e了解しました！　…すみません！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eUnderstood! ...Sorry about that!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6324#16",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e…はは。　思い出すな…\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...Haha. That takes me back...\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6324#17",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e…何？\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...What does?\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6324#18",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e昔、訓練中に撃たれかけたことがあったよな？\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eRemember during training,\nwhen I almost got shot?\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6324#19",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eそう？　あれは…\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eReally? That was...\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6324#20",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e明らかに俺を狙ってただろ…？\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eThey were clearly aiming right\nat me back then, weren\u0027t they...?\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6324#21",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e助けただけよ。　…今もそうするわ。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eI only saved you.\n...And I\u0027d do the same now.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6325#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e０５７年　４月\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eApril 057\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6325#1",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e飛行モードでの各駆動クリア。\n完璧だな。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eAll actuators clear in flight mode.\nIt\u0027s perfect.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6325#2",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eやあ、２人ともお疲れさま！\n今日はここまでだよ。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eGreat work, both of you!\nThat\u0027s all for today.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6325#3",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e明日からはよろしく頼んだよ。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eI\u0027ll be counting on you tomorrow.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6325#4",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eどうする？　マリナ君。　この星には\n地球外知的生命体の勢力が迫っている。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eWhat will you do, Marina?\nAlien forces are closing in on Earth.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6325#5",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e対抗するには、君かタック君が\n最終レベルを起動させるしかない…\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eTo fight back, either you or Tak\nmust activate the final level...\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6325#6",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e…その代わり…私達のどちらかが、\n死ぬことになるんでしょう…。",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...And in return... one of us\nwill have to die, won\u0027t we...",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6325#7",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e名誉の犠牲さ。\n君たちは英雄になれるんだよ。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eIt\u0027s an honorable sacrifice.\nYou can become heroes.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6325#8",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e僕としてはどちらでもいいんだがね。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003ePersonally, either one is fine by me.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6325#9",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e…あなたのやろうとすることに、興味はない…\nでも…\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...I don\u0027t care about your plans...\nBut...\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6325#10",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eふむ？\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eHm?\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6325#11",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e…タックには、言わないと約束して。\n犠牲になるのは…私だけでいい。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...Promise you won\u0027t tell Tak.\nI\u0027ll be the only sacrifice.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6325#12",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e…いい子だ。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...Good girl.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6325#13",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e…マリナ？\n…どうした？　また酔ったか？\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...Marina?\nWhat is it? Motion-sick again?\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6325#14",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e…そうかもしれない…\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...Maybe so...\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6325#15",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eそうか。\n…それじゃ、戻るとするか。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eI see.\n...Well then, let\u0027s head back.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6325#16",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e…タック？\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...Tak?\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6325#17",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e何だ？\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eWhat is it?\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6325#18",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eあなたは…私が守るわね…\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eI will... protect you...\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6325#19",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eどうしたんだよ、急に。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eWhat\u0027s with you, all of a sudden?\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6325#20",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e…ううん、なんでもないわ。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...No, it\u0027s nothing.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 }
+             ],
+    "context_after":  [
+
+                      ],
+    "report":  {
+                   "translator_summary":  "Flashback sequences from November 056 to April 057 (m6324 to m6325). Concludes the flight testing of the Ark Series where Tak and Marina reflect on surviving the grueling program. Crucial revelation scene with Barkholz in m6325, who explains the fatal requirement of the Guardian System\u0027s final level. Marina secretly accepts the sacrifice to protect Tak, leading directly into the events of Operation 01.",
+                   "rows_examined":  "m6324#2 to m6325#20, with context_before from xc_01",
+                   "rows_examined_count":  41,
+                   "uncertainties":  [
+
+                                     ],
+                   "glossary_proposals":  [
+
+                                          ],
+                   "portrait_speakers":  {
+
+                                         }
+               }
+}

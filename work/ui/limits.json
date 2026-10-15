@@ -1,0 +1,15 @@
+{
+ "note": "Measured line width limits in pixels (completed fonts, merge_fill.widths). A kind without a value falls back to the widest Japanese line of the same table.",
+ "brief": {
+  "width": 430,
+  "evidence": "0.0.1 screenshot (Op01 briefing): 'Today is finally the live combat test.' = 367 px, box ends about 440 px from the text start"
+ },
+ "mission": {
+  "width": 380,
+  "evidence": "game-wide Japanese dialogue max 398 px (m6006), p99 359 px; 0.0.1 screenshot showed a 333 px line well inside the box. Provisional until a long line is checked in game."
+ },
+ "menu_label": {
+  "width": 141,
+  "evidence": "0.0.9 PCSX2 screenshots 2026-10-09 (Intermission, Options Game/Controller): labels up to 141 px drawn (Flight Reverse 141, Invert Y-Axis 131, Encyclopedia 129); 154 px and up not drawn at all (Return to Menu 154, Controller Type 155, Camera Priority 155, Reset to Defaults 167). Per widget (list buttons, option cells), not per table: help lines are wider. Not used by merge_fill yet (kinds only)."
+ }
+}

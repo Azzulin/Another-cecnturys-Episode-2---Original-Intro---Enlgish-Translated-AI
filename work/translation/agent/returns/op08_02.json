@@ -1,0 +1,1786 @@
+{
+ "batch": "op08_02",
+ "operation": 8,
+ "previous_batch": "op08_01",
+ "next_batch": "op08_03",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "ソーラ・システム",
+   "en": "Solar System",
+   "kind": "term",
+   "series": "Mobile Suit Gundam / Gundam 0083: Stardust Memory",
+   "role": "Earth Federation mirror-array superweapon that focuses sunlight. ACE2 Op 08 sub-mission 'Defending Solar System' (in 0083 it is the Solar System II)."
+  },
+  {
+   "ja": "モビルアーマー",
+   "en": "mobile armor",
+   "kind": "term",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "Large mobile weapon; in ACE2 it is Gato's Neue Ziel (大型モビルアーマー, missions モビルアーマー排除)."
+  },
+  {
+   "ja": "アムロ・レイ",
+   "en": "Amuro Ray",
+   "kind": "character",
+   "series": "Mobile Suit Gundam: Char's Counterattack (also Mobile Suit Gundam, Zeta Gundam)",
+   "gender": "male",
+   "role": "Earth Federation ace Newtype pilot; in CCA a Londo Bell mobile suit team leader (Captain) aboard the Ra Cailum and pilot of the Nu Gundam; Char's lifelong rival.",
+   "personality": "Withdrawn, machine-obsessed teen in the original series; by CCA a mature, dependable veteran still bound up in his rivalry with Char.",
+   "en_short": "Amuro"
+  },
+  {
+   "ja": "ソーラレイ",
+   "en": "Solar Ray",
+   "kind": "term",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "Appears only in developer comment rows (※ソーラレイ防衛戦 喧騒感演出用) of the Solar System defense mission."
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "ガトー",
+   "en": "Gato",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Main antagonist of 0083; Zeon ace \"Nightmare of Solomon\", Delaz Fleet pilot who steals Gundam GP02 and later pilots the Neue Ziel. Rank: Major (U.C. 0083).",
+   "personality": "Honorable, idealistic career soldier; charismatic leader who fights on the front line; hates the Federation but respects worthy opponents.",
+   "full_name": "Anavel Gato"
+  },
+  {
+   "ja": "シーマ",
+   "en": "Cima",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "female",
+   "role": "Commander of the Cima Fleet (ex-Zeon marines); allied with the Delaz Fleet, then betrays it to the Federation; pilots the Gelgoog Marine Commander Type and Gerbera Tetra. Rank: Lieutenant Colonel (中佐).",
+   "personality": "Scheming, harsh and venomous, intolerant of failure, yet decisive and fiercely loyal to her own men; embittered by how Zeon used her and her homeland Mahal.",
+   "full_name": "Cima Garahau"
+  },
+  {
+   "ja": "コウ",
+   "en": "Kou",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Protagonist of 0083; 19-year-old Earth Federation test pilot from Torrington Base assigned to the Albion; pilots Gundam GP01 (later GP03 Dendrobium). Rank: Ensign.",
+   "personality": "Hot-tempered and rash, often questions orders; mobile suit otaku; fiercely protective of those close to him; driven to surpass his rival Gato.",
+   "full_name": "Kou Uraki"
+  },
+  {
+   "ja": "レイ",
+   "en": "Rei"
+  },
+  {
+   "ja": "少佐",
+   "en": "Major",
+   "kind": "rank"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  }
+ ],
+ "known_portraits": {
+  "38": {
+   "speaker": "South Burning",
+   "gender": "male",
+   "role": "Captain, mobile weapons unit commander at Torrington",
+   "confidence": "high",
+   "evidence": "brief63000: 'I'm Captain South Burning.'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "brief63064#2",
+   "layer": "tactical briefing",
+   "jp": "<op(37,1)><sp(2)>#c[BE5050]コロニー#cは<im(1)>阻止限界点を超えたが、\n<im(2)>まだ防ぐ手段は残っている。",
+   "en": ""
+  },
+  {
+   "ref": "brief63064#3",
+   "layer": "tactical briefing",
+   "jp": "<op(37,1)><sp(2)>現在、<im(4)>味方の艦隊が衛星軌道上で\n#c[5E8FD8]ソーラ・システム#cを展開中だ。",
+   "en": ""
+  },
+  {
+   "ref": "brief63064#4",
+   "layer": "tactical briefing",
+   "jp": "<op(37,1)><sp(2)>#c[BE5050]デラーズ・フリート#cに内通者でもいない限り、\nこれだけの物を事前に準備できるとは\n思えんが……",
+   "en": ""
+  },
+  {
+   "ref": "brief63064#5",
+   "layer": "tactical briefing",
+   "jp": "<op(37,1)><sp(2)>いや、今は敵の内部事情まで\n考えている余裕はないだろうな。",
+   "en": ""
+  },
+  {
+   "ref": "brief63064#6",
+   "layer": "tactical briefing",
+   "jp": "<op(37,1)><sp(2)><im(6)>#c[5E8FD8]ソー<im(7)>ラ・シス<tr(1)>テム#cの照射に成功すれば、\n落下前に#c[BE5050]コロニー#cを焼き尽くすことが\nできるかもしれん。",
+   "en": ""
+  },
+  {
+   "ref": "brief63064#7",
+   "layer": "tactical briefing",
+   "jp": "<op(37,1)><sp(2)>照射の準<im(5)>備ができ<im(8)>るまで、\n<of(1)>#c[F07141]ミラーの防衛#cを頼む。",
+   "en": ""
+  },
+  {
+   "ref": "m6082#0",
+   "layer": "mission dialogue",
+   "jp": "敵勢力の撃破",
+   "en": "Destroy the enemy forces"
+  },
+  {
+   "ref": "m6082#1",
+   "layer": "mission dialogue",
+   "jp": "ノイエ・ジールの撃破",
+   "en": ""
+  },
+  {
+   "ref": "m6082#2",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>各機、分散して迎撃に当たれ！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6082#3",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>艦長！<ab(100)>",
+   "en": ""
+  },
+  {
+   "ref": "m6082#4",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>第１艦隊より、デラーズ・フリートが\n戦闘を停止したとの通信が……<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6082#5",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>どういう意味だ…<ab(400)><ed()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6082#6",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>戦闘中止？　馬鹿な！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Ceasefire? Ridiculous!<ab(700)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#7",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>貴公、何が狙いだ？<ab(200)>",
+   "en": "<op()><sp(20)>What is your aim?<ab(200)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#8",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>私と艦隊をエサに\nＵＣＥに尻尾を振るのではないのか？<ab(200)>",
+   "en": "<sp(20)>Are you using me and my fleet as bait\nto wag your tail at the UCE?<ab(200)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#9",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>コロニーを落とすのか落とさんのか？<ab(500)><ed()>",
+   "en": "<sp(20)>Will you drop the colony or not?!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#10",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(50)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ソーラ・システム……<ab(50)><ed()>",
+   "en": "<op()><sp(20)>The Solar System...<ab(50)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#11",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>と言うわけだ。　コロニー落としを防ぐ、\n奥の手があったわけだなあ。<ab(200)>",
+   "en": "<op()><sp(20)>So that's it. They had a trump card\nto stop the colony drop after all.<ab(200)>",
+   "notes": "fix: linha com 401 px > 380 px e não cabe em 2 linhas -> shortened line 1 and 2 under 380 px"
+  },
+  {
+   "ref": "m6082#12",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ちょっと温めるだけで……ボン！<ab(500)><ed()>",
+   "en": "<sp(20)>Just heat it up a little and... boom!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#13",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>貴様、それでもジオンの将か？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Are you still a general of Zeon?!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#14",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>私は、故あれば寝返るのさ！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>I switch sides when it suits me!<ab(700)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#15",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>哀れ……志を持たぬ者を導こうとした\n我が身の不覚であった！<ab(800)><ed()>",
+   "en": "<op()><sp(20)>Pitiable... Trying to guide someone\nlacking conviction was my blunder!<ab(800)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#16",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>シーマ！　獅子身中の虫め！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Cima! You traitor in our midst!<ab(400)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#17",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>フフフ…動くなよ、ガトー。\n敗軍の将は潔くな。<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Heheh... Do not move, Gato.\nA defeated general should yield cleanly.<ab(700)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#18",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……行け、ガトーよ！　意地を通せ！<ab(200)>",
+   "en": "<op()><sp(20)>...Go, Gato! Stand your ground!<ab(200)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#19",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>現に、コロニーはあるのだ！<ab(500)><ed()>",
+   "en": "<sp(20)>The colony is right before us!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#20",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>狂ったか？　何を？<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Have you lost your mind? What?!<ab(100)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#21",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>行け、わしの屍を踏み越えて！<ab(500)>",
+   "en": "<op()><sp(20)>Go, step over my corpse!<ab(500)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#22",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>わしを宇宙のさらしものにするのか！？<ab(500)><ed()>",
+   "en": "<sp(20)>Would you make me a spectacle in space?!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#23",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ソーラ・システムが狙ってるんだ！\n冗談じゃないよ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>The Solar System is targeting us!\nThis is no joke!<ab(400)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#24",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ジーク、ジオン！<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>Sieg Zeon!<ab(2000)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#25",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こうなれば……せめて閣下のご遺志を！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>If it comes to this...\nat least let Delaz's will be done!<ab(600)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#26",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵、モビルアーマー接近！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemy mobile armor approaching!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#27",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>貴様らなどに！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>I will not lose to the likes of you!<ab(200)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#28",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>私と対等に渡り合うとは！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>To fight me on equal terms...?!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#29",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>展開率、８１％！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Deployment rate at 81%!<ab(100)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#30",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>Ｆ４、Ｆ５、Ｆ６、フォーカシング、スタンバイ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>F4, F5, F6, focusing on standby!<ab(100)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#31",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>Ｌ１５、アレイチェック急げ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>L15, hurry with the array check!<ab(100)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#32",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ええい！　コントロール艦さえ叩けば！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Damn it! If only I hit the control ship!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#33",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>私が押されているだと！\nだが、コントロール艦さえ叩けば！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>I am being pushed back?! But if only\nI can destroy the control ship!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#34",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>もはや語るまい！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Words are pointless now!<ab(200)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#35",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ガトーか！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Gato?!<ab(400)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#36",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アムロ・レイか！<ab(300)>",
+   "en": "<op()><sp(20)>Amuro Rei?!<ab(300)>",
+   "notes": "fix: glossário: レイ deve aparecer como Rei -> changed Amuro Ray to Amuro Rei"
+  },
+  {
+   "ref": "m6082#37",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これ以上は無駄な抵抗だ。<ab(200)>",
+   "en": "<sp(20)>Further resistance is futile.<ab(200)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#38",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>あきらめて地球に帰ってはどうだ！<ab(400)><ed()>",
+   "en": "<sp(20)>Why not give up and return to Earth?!<ab(400)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#39",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ふざけるな！<ab(100)>",
+   "en": "<op()><sp(20)>Do not mock me!<ab(100)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#40",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>俺たちは最後まであきらめない！<ab(500)><ed()>",
+   "en": "<sp(20)>We will never give up until the end!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#41",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これ以上は行かせない！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>I will not let you pass any further!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#42",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>無駄なあがきだな！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>A futile struggle!<ab(400)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#43",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>うおおおおおおおっ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Uooooooh!<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#44",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>付き合ってられないね！<ab(0)><off()>",
+   "en": "<on()><sp(20)>I do not have time for this!<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#45",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>あれか？　南無三！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Is that it? Heaven help us!<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#46",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>コントロール艦が！<ab(0)><off()>",
+   "en": "<on()><sp(20)>The control ship is hit!<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#47",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>コ、コロニーはまだ動いています！<ab(0)><off()>",
+   "en": "<on()><sp(20)>T-The colony is still moving!<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#48",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>フフ…もはや、誰も止められんのだ。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Heh... No one can stop it anymore.<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#50",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ソーラレイ防衛戦　喧騒感演出用　その１<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Solar Ray defense battle chatter 1)<ab(3000)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#51",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ソーラレイ防衛戦　喧騒感演出用　その２<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Solar Ray defense battle chatter 2)<ab(3000)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#52",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ソーラレイ防衛戦　喧騒感演出用　その３<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Solar Ray defense battle chatter 3)<ab(3000)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#53",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ソーラレイ防衛戦　喧騒感演出用　その４<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Solar Ray defense battle chatter 4)<ab(3000)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#54",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ストーリー説明　その１<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Story explanation 1)<ab(3000)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#57",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ソーラレイ防衛戦　喧騒感演出用　その５<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Solar Ray defense battle chatter 5)<ab(3000)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#58",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ソーラレイ防衛戦　喧騒感演出用　その６<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Solar Ray defense battle chatter 6)<ab(3000)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#59",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ガトーが怒る<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Gato gets angry)<ab(3000)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#61",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ガトー撤退<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Gato retreats)<ab(3000)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6082#62",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ガトー撤退（シークレット）<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Gato retreats - Secret)<ab(3000)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "brief63065#2",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>#c[BE5050]コロニー#cを止める術はもうないが、\n<im(1)>戦闘はまだ終っていない。",
+   "en": "<op(38,1)><sp(2)>We have no way to stop the #c[BE5050]colony#c now,\n<im(1)>but the battle is not over yet.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63065#3",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(6)>",
+    "<im(7)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)><im(2)>敵の#c[BE5050]大型モビルアーマー#cが、\n<im(6)>味方<im(7)>の残存艦隊に飛び込んで\n大暴れしている。",
+   "en": "<op(38,1)><sp(2)><im(2)>The enemy's #c[BE5050]giant mobile armor#c\n<im(6)>has plunged into our <im(7)>fleet's remnants\nand is running rampant.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63065#4",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(9)>",
+    "<im(10)>",
+    "<im(5)>",
+    "<tr(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>この#c[BE5050]モビルアーマー#cには、\n<im(9)>ガト<im(10)>ーが乗っ<im(5)>ている。\n<tr(1)>こいつを阻止するんだ。",
+   "en": "<op(38,1)><sp(2)>Gato is piloting this #c[BE5050]mobile armor#c.\n<im(9)><im(10)><im(5)><tr(1)>We must stop him.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63065#5",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<im(8)>",
+    "<of(1)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)><im(8)>いいか、<of(1)>必ず#c[F07141]ガトーをしとめろ#c！",
+   "en": "<op(38,1)><sp(2)><im(8)>Listen well: <of(1)>you must #c[F07141]bring Gato down#c!",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#1",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>事を成し遂げてこそ……\n我々の後に続く者が生まれる。<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Only by accomplishing our goal...\nwill others arise to follow our path.<ab(700)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#2",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>来たぞ！　例のモビルアーマーだ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Here it comes! That mobile armor!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#3",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>少佐！　敵に挟み撃ちにされます！<ab(200)>",
+   "en": "<op()><sp(20)>Major! The enemy will pincer us!<ab(200)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#4",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ご一緒に脱出を！　時間がありません！<ab(700)>",
+   "en": "<sp(20)>Escape with us! There is no time!<ab(700)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#5",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>少佐！　お返事を、少佐！<ab(2000)><ed()>",
+   "en": "<sp(20)>Major! Answer us, Major!<ab(2000)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#6",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まだだ！<ab(300)>",
+   "en": "<op()><sp(20)>Not yet!<ab(300)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#7",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>事を成し遂げるまで、私は退かん！<ab(500)><ed()>",
+   "en": "<sp(20)>Until our goal is accomplished,\nI will not retreat!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#8",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ガトーめ……やってくれるよ。<ab(100)>",
+   "en": "<op()><sp(20)>That Gato... he really did it.<ab(100)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#9",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これではＵＣＥだってどう転ぶか\nわかったものか！<ab(200)>",
+   "en": "<sp(20)>Now who knows how things will turn out,\neven for the UCE!<ab(200)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#10",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>私たちは撤退する！<ab(300)><ed()>",
+   "en": "<sp(20)>We are withdrawing!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#11",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦隊の一部が、後退します。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>A portion of the enemy fleet is falling back.<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#12",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>貴様ー！！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>You bastard!!<ab(400)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#13",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>貴様の名は忘れんぞ…！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>I will never forget your name...!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#14",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この私が…！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>To think that I... could be beaten!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#15",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>！？　ソ、ソーラ・システムが！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>What?! T-The Solar System is firing!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#16",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どうした？<ab(400)><ed()>",
+   "en": "<op()><sp(20)>What happened?!<ab(400)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#17",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ソーラ・システム、照射されます！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>The Solar System is firing!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#18",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>味方も巻き込む気か！？\n両舷全速！　戦域より離脱する！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>They'd engulf their own allies?!\nFull speed ahead! Disengage now!<ab(500)><ed()>",
+   "notes": "fix: linha com 407 px > 380 px e não cabe em 2 linhas -> shortened both lines under 380 px"
+  },
+  {
+   "ref": "m6083#19",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>３号機が巻き込まれました！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Unit 3 was caught in the blast!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#20",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……大丈夫。　僕は無事だよ。<ab(700)>",
+   "en": "<op()><sp(20)>...I am all right. I am unharmed.<ab(700)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#21",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>でも……３号機はもうだめだな。<ab(700)>",
+   "en": "<sp(20)>But... Unit 3 is done for.<ab(700)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#22",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ごめんよ、大事な機体を……<ab(700)><ed()>",
+   "en": "<sp(20)>I am sorry... losing such a vital unit...<ab(700)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6083#23",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>コウ……いいのよ……コウ。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Kou... it is all right... Kou.<ab(500)><ed()>",
+   "notes": ""
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6083#24",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>コロニーは最終失速コースに入っています。\n落着まで、まもなくです！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6083#25",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>この一撃こそ…歴史を変える…<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6083#26",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ジオンの魂は、永遠に！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6083#27",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>…１１時方向より、高エネルギー反応！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6083#28",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>腐ったＵＣＥに属さねば、\n貴様も苦しむことはなかったろうに。<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6083#29",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>待っていたのか…俺のために…<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6083#30",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……こうなったら仕方がない。<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6083#31",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>ガトー！　決着をつけるぞ！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6083#32",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>望むところ！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6083#33",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>新型機といえども、<ab(0)>",
+   "en": ""
+  },
+  {
+   "ref": "m6083#34",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>コロニーを止めるほどの\nパワーはあるまい！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6083#35",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……ガトー！！<ab(500)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Completed translation of op08_02 (80 rows), continuing Operation 08 (Assault on the Interception Limit). Covers Cima Garahau's dramatic betrayal of Aiguille Delaz aboard the Gwaden, Delaz's martyrdom shouting Sieg Zeon as he urges Gato to push forward over his corpse, the Solar System II mirror array deployment and defense, Gato's duel and dialogue exchanges with Amuro Ray and Kou Uraki, developer placeholder chatter, Phase 3 tactical briefing, Gato's final stand, Cima's retreat, and the devastating friendly fire as the Solar System discharges, engulfing Kou's Unit 3 (GP03 Dendrobium).",
+  "rows_examined": "m6082#6 to m6083#23 (slice, 80 rows), m6083#24 to m6083#35 (context_after, 12 rows)",
+  "rows_examined_count": 92,
+  "uncertainties": [
+   {
+    "ref": "m6082#15",
+    "note": "'志を持たぬ者' translated as 'someone lacking conviction', capturing Delaz's bitter realization of Cima's betrayal."
+   },
+   {
+    "ref": "m6082#25",
+    "note": "'閣下のご遺志' translated as 'Delaz's will' / 'His Excellency's will', referring to Delaz's martyrdom."
+   },
+   {
+    "ref": "m6083#14",
+    "note": "'この私が…！' is spoken by Cima upon defeat/withdrawal."
+   }
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {
+   "38": "South Burning"
+  }
+ }
+}

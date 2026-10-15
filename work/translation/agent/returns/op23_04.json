@@ -1,0 +1,1596 @@
+﻿{
+    "batch":  "op23_04",
+    "operation":  23,
+    "previous_batch":  "op23_03",
+    "next_batch":  null,
+    "rows_in_slice":  67,
+    "do_not_touch_names":  [
+                               "Barkholz",
+                               "Capt. Burning",
+                               "Captain Burning",
+                               "Captain South Burning",
+                               "Cowen",
+                               "Giganos",
+                               "Lieutenant",
+                               "Lt.",
+                               "Major Anavel Gato",
+                               "Sinapus",
+                               "Tak"
+                           ],
+    "glossary":  [
+                     {
+                         "ja":  "オペレーション・ライトニング",
+                         "en":  "Operation Lightning",
+                         "kind":  "term",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "role":  "Name of the operation that covers Operations 22 and 23 (22: Defeat Death Demon Corps; 23: Escort Friendly Detachment)."
+                     },
+                     {
+                         "ja":  "タック・ケプフォード",
+                         "en":  "Tak Kepford",
+                         "kind":  "character",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "gender":  "male",
+                         "role":  "ACE2 protagonist; UCE squad leader (First Lieutenant) and Gun Ark test pilot, joins the Albion unit.",
+                         "personality":  "Skilled ace and natural leader, but clumsy with machines (mechanically inept); grows suspicious of the Rainen Project and fights to bring Marina back.",
+                         "en_short":  "Tak"
+                     },
+                     {
+                         "ja":  "バイオリレーション",
+                         "en":  "Bio-Relation",
+                         "kind":  "term",
+                         "series":  "Heavy Metal L-Gaim",
+                         "role":  "Poseidal\u0027s life-energy system: heals armor (Aug\u0027s Weapon 4, akurasu); Poseidal also uses it to brainwash the commander of his Imperial Guard (menu3019#38)."
+                     },
+                     {
+                         "ja":  "バルクホルツ博士",
+                         "en":  "Dr. Barkholz",
+                         "kind":  "character",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "gender":  "male",
+                         "role":  "Same person as Fidel Barkholz (title form).",
+                         "en_short":  "Barkholz"
+                     },
+                     {
+                         "ja":  "ゼントラーディ",
+                         "en":  "Zentradi",
+                         "kind":  "faction",
+                         "series":  "Super Dimension Fortress Macross: Do You Remember Love?",
+                         "role":  "Race/faction of giant humanoid warriors; main antagonists."
+                     },
+                     {
+                         "ja":  "デビルガンダム",
+                         "en":  "Devil Gundam",
+                         "kind":  "unit",
+                         "series":  "Mobile Fighter G Gundam",
+                         "role":  "Self-evolving, self-repairing, self-replicating rogue Gundam (JDG-00X); main antagonist machine of G Gundam"
+                     },
+                     {
+                         "ja":  "バスターアーク",
+                         "en":  "Buster Ark",
+                         "kind":  "unit",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "role":  "Modified Gun Ark with an evolving Guardian System and fallen-angel styling; Marina\u0027s unit while with the Rainen side."
+                     },
+                     {
+                         "ja":  "ヤマダ・ジロウ",
+                         "en":  "Jiro Yamada",
+                         "kind":  "character",
+                         "series":  "Martian Successor Nadesico",
+                         "gender":  "male",
+                         "role":  "Real name of Gai Daigoji (ダイゴウジ・ガイ), the hot-blooded Aestivalis pilot.",
+                         "personality":  "Loud, hot-blooded Gekigangar otaku who insists \u0027Gai\u0027 is his soul\u0027s name and hates being called Yamada."
+                     },
+                     {
+                         "ja":  "リン・ミンメイ",
+                         "en":  "Lynn Minmay",
+                         "kind":  "character",
+                         "series":  "Super Dimension Fortress Macross: Do You Remember Love?",
+                         "gender":  "female",
+                         "role":  "Idol singer aboard the Macross; her songs (culture) are the key to defeating the Zentradi.",
+                         "personality":  "Bright, cheerful and ambitious pop idol, somewhat self-absorbed; infatuated with Hikaru.",
+                         "en_short":  "Minmay"
+                     },
+                     {
+                         "ja":  "ガーディアン",
+                         "en":  "Guardian",
+                         "kind":  "term",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "role":  "Network of (hundreds of) orbital military satellite cannons of the Rainen Project; Gun Ark/Buster Ark can call it via the Guardian System."
+                     },
+                     {
+                         "ja":  "バルクホルツ",
+                         "en":  "Barkholz",
+                         "kind":  "character",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "gender":  "male",
+                         "role":  "UCE Design Bureau engineer in charge of Ark-series/Gun Ark development; supports Tak and Marina. Spoiler: secretly the son of Albert Rainen and the treacherous mastermind who gave Marina the Buster Ark; fights in the Feather Ark Custom at the end.",
+                         "personality":  "Outwardly a kindly professor-type adviser (sends Tak e-mails); actually vengeful against the UCE for what happened to his father.",
+                         "full_name":  "Fidel Barkholz"
+                     },
+                     {
+                         "ja":  "プリベンター",
+                         "en":  "Preventer",
+                         "kind":  "faction"
+                     },
+                     {
+                         "ja":  "アルビオン",
+                         "en":  "Albion",
+                         "kind":  "ship",
+                         "series":  "Mobile Suit Gundam 0083: Stardust Memory",
+                         "role":  "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+                     },
+                     {
+                         "ja":  "ガンアーク",
+                         "en":  "Gun Ark",
+                         "kind":  "unit",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "role":  "Latest Ark-series transforming machine from the UCE Design Bureau; Tak\u0027s (and initially Marina\u0027s red) unit; can call Guardian satellite strikes."
+                     },
+                     {
+                         "ja":  "ギワザ艦隊",
+                         "en":  "Giwaza Fleet",
+                         "kind":  "faction",
+                         "series":  "Heavy Metal L-Gaim",
+                         "role":  "Giwaza Lowau\u0027s rebel fleet (mostly Sarge Opus planet cruisers of the Thirteen) that turns against Poseidal."
+                     },
+                     {
+                         "ja":  "グローバル",
+                         "en":  "Global",
+                         "kind":  "character",
+                         "series":  "Super Dimension Fortress Macross: Do You Remember Love?",
+                         "gender":  "male",
+                         "role":  "Captain of the SDF-1 Macross (U.N. Spacy).",
+                         "personality":  "Calm, old-fashioned veteran commander with a broad strategic view; pipe smoker who dislikes the spotlight.",
+                         "full_name":  "Bruno J. Global"
+                     },
+                     {
+                         "ja":  "バルキリー",
+                         "en":  "Valkyrie",
+                         "kind":  "unit",
+                         "series":  "Super Dimension Fortress Macross: Do You Remember Love?",
+                         "role":  "U.N. Spacy VF-1 variable fighter series."
+                     },
+                     {
+                         "ja":  "ポセイダル",
+                         "en":  "Poseidal",
+                         "kind":  "character",
+                         "series":  "Heavy Metal L-Gaim",
+                         "gender":  "female",
+                         "role":  "Emperor ruling the Pentagona World from Sveto on Gastogal; supreme commander of the Poseidal Army. The Poseidal on the throne is actually Mian Qu Ha Ussher, a puppet of the true Poseidal (Amandara Kamandara). In ACE2 \u0027Poseidal\u0027 is the pilot of the Aug.",
+                         "personality":  "Regal, cold and imperious ruler who controls others (e.g. Quwasan) through the bio-relation system; her memories are themselves manipulated, and she finally turns against Amandara.",
+                         "full_name":  "Oldna Poseidal"
+                     },
+                     {
+                         "ja":  "キョウジ",
+                         "en":  "Kyoji",
+                         "kind":  "character",
+                         "series":  "Mobile Fighter G Gundam",
+                         "gender":  "male",
+                         "role":  "Domon\u0027s older brother and a Neo Japan scientist; co-developer of the Ultimate Gundam, later the Devil Gundam\u0027s core unit.",
+                         "personality":  "Kind and gentle; loves his younger brother and taught him to have faith in others.",
+                         "full_name":  "Kyoji Kasshu"
+                     },
+                     {
+                         "ja":  "グラドス",
+                         "en":  "Grados",
+                         "kind":  "faction",
+                         "series":  "Blue Comet SPT Layzner",
+                         "role":  "The alien Grados Empire, from the Udoria system, that invades and occupies Earth in Layzner. Adjective form: Gradosian."
+                     },
+                     {
+                         "ja":  "ナデシコ",
+                         "en":  "Nadesico",
+                         "kind":  "ship",
+                         "series":  "Martian Successor Nadesico (TV) / Prince of Darkness",
+                         "role":  "ND-001 Nadesico, Nergal\u0027s battleship"
+                     },
+                     {
+                         "ja":  "マクロス",
+                         "en":  "Macross",
+                         "kind":  "ship",
+                         "series":  "Super Dimension Fortress Macross: Do You Remember Love?",
+                         "role":  "SDF-1 Macross, the U.N. Spacy super-dimensional fortress (human flagship)."
+                     },
+                     {
+                         "ja":  "ライネン",
+                         "en":  "Rainen",
+                         "kind":  "character",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "gender":  "male",
+                         "role":  "Former UCE scientist who warned of alien invasion and led the satellite-cannon defense project (Rainen Project) before being forced out; his name heads the antagonist \u0027Rainen forces\u0027. Barkholz\u0027s father.",
+                         "personality":  "Visionary \u0027ignored expert\u0027 embittered by the UCE\u0027s dismissal of his warnings.",
+                         "full_name":  "Albert Rainen"
+                     },
+                     {
+                         "ja":  "研究主任",
+                         "en":  "Chief Researcher",
+                         "kind":  "title"
+                     },
+                     {
+                         "ja":  "UCE",
+                         "en":  "UCE",
+                         "kind":  "faction"
+                     },
+                     {
+                         "ja":  "ブレン",
+                         "en":  "Brain",
+                         "kind":  "term",
+                         "series":  "Brain Powerd",
+                         "role":  "Short for Brain Powerd units (ブレンたち, ブレンパワード隊)."
+                     },
+                     {
+                         "ja":  "ダバ",
+                         "en":  "Daba",
+                         "kind":  "character",
+                         "series":  "Heavy Metal L-Gaim",
+                         "gender":  "male",
+                         "role":  "Protagonist. Heir of the Yaman clan\u0027s Kamon dynasty (true name Kamon Myroad), raised on Koam; leads the rebellion against Poseidal. Pilots the L-Gaim, later the L-Gaim Mk-II.",
+                         "personality":  "Calm, earnest and somewhat reserved, hard to read; indecisive at times but prone to sudden outbursts of anger, and reckless whenever his adopted sister Quwasan is involved. Grows into a capable leader.",
+                         "full_name":  "Daba Myroad"
+                     },
+                     {
+                         "ja":  "レイ",
+                         "en":  "Rei"
+                     },
+                     {
+                         "ja":  "中尉",
+                         "en":  "Lieutenant",
+                         "en_short":  "Lt.",
+                         "kind":  "rank"
+                     },
+                     {
+                         "ja":  "機体",
+                         "en":  "unit / machine",
+                         "kind":  "term",
+                         "note":  "Op 01 uses \u0027unit\u0027 for mecha in general, \u0027machine\u0027 when the speaker is the developer"
+                     },
+                     {
+                         "ja":  "艦長",
+                         "en":  "Captain",
+                         "kind":  "title"
+                     }
+                 ],
+    "known_portraits":  {
+                            "33":  {
+                                       "speaker":  "Kouichiro Misumaru",
+                                       "gender":  "male",
+                                       "role":  "UCE Space Force admiral (Yurika\u0027s father)",
+                                       "confidence":  "high",
+                                       "evidence":  "brief: \u0027私はＵＣＥ宇宙軍提督のミスマルだ。\u0027"
+                                   },
+                            "37":  {
+                                       "speaker":  "Eyphar Sinapus",
+                                       "gender":  "male",
+                                       "role":  "captain of the Albion",
+                                       "confidence":  "high",
+                                       "evidence":  "brief: \u0027私が本艦の艦長、エイパー・シナプスだ。\u0027"
+                                   },
+                            "45":  {
+                                       "speaker":  "Daba Myroad",
+                                       "gender":  "male",
+                                       "role":  "rebel leader, L-Gaim pilot",
+                                       "confidence":  "high",
+                                       "evidence":  "brief: \u0027俺は、ダバ・マイロード。\u0027"
+                                   }
+                        },
+    "unknown_portraits":  [
+
+                          ],
+    "context_before":  [
+                           {
+                               "ref":  "m6233#30",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eこんな物……何のために作ったんだ！\u003cab(300)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6233#31",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eこれは……ガンダムなんかじゃない！！\u003cab(300)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6233#32",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003e…死角がない。　手強いな。\u003cab(300)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6233#33",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eど、どういう作りになってんだよ！\u003cab(300)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6233#34",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eこれは……手強いな。\u003cab(300)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6233#35",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003e……これがデビルガンダム。\u003cab(300)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6233#36",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eこれだから、欲望に任せて\n兵器なんか作っちゃいけないんだよ！\u003cab(300)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6233#37",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eなんという悪意…！\u003cab(300)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6233#38",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eこれが……機械？　本当なのか？\u003cab(300)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6233#39",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eこ、こんなのって……\u003cab(300)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6233#40",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eこんなやつ、\nどこから攻めたらいいんだ！？\u003cab(300)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6233#41",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eこ、こんなデカブツ、\nどうしろってんだよ！\u003cab(300)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           }
+                       ],
+    "rows":  [
+                 {
+                     "ref":  "m6233#42",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eか、勘弁してくれよぉ！\u003cab(300)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eG-Gimme a break already!\u003cab(300)\u003e",
+                     "notes":  "Kaine or pilot panic. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#43",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eば、バケモンだね、こりゃ……\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eT-This thing is a monster...\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Pilot reaction. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#44",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e……このような愚かな物を\n開発していたとは！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003e...To think they developed\nsuch a foolish monstrosity!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Meio or Eiji reaction. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#45",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eふん！　図体がでかけりゃ\nいいってもんじゃないんだよ！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eHmph! Just having a huge frame\ndoes not mean you win!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Duo Maxwell reaction. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#46",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eブレン！\u003cab(300)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eBrain!\u003cab(300)\u003e",
+                     "notes":  "Hime or Yuu call to Brain. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#47",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eブレン……怖いの？\u003cab(300)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eBrain... are you scared?\u003cab(300)\u003e",
+                     "notes":  "Hime to Brain. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#48",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eに、逃げないぞ！\u003cab(300)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI-I won\u0027t run away!\u003cab(300)\u003e",
+                     "notes":  "Kou or pilot resolve. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#49",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eこ、この野郎！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eY-You bastard!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Akito or pilot angry reaction. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#50",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eま、マジ？　これと戦うの！？\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eA-Are you serious? We fight that?!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Leccee or Tap shock. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#51",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eさすがの私も、笑えないわこりゃ…\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eEven I cannot laugh at this...\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Marvel or Linda reaction. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#52",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eこ、こいつ……メカなのか？\u003cab(300)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI-Is this thing... a mech?\u003cab(300)\u003e",
+                     "notes":  "Show Zama question. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#53",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこいつのボディはよ！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eLook at its body!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Show Zama continuation. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#54",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eだが、やるしかないだろうな。\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eStill, we have no choice but to fight.\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Trowa or Heero line. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#55",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e僕のサンドロックで、\n太刀打ちできるのか？\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eCan my Sandrock really\nstand against this?\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Quatre Raberba Winner. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#56",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e軍がひた隠しにせねばならん理由も\nわかるというものだな。\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eI can see why the military had to keep\nthis completely hidden.\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Zechs Marquise observation. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#57",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eどう戦えばいいってのよ！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eHow are we supposed to fight this?!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Leccee or Marvel reaction. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#58",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこれを人間が作ったと言うのか！\u003cab(300)\u003e",
+                     "en":  "\u003csp(20)\u003eYou are telling me humans made this?!\u003cab(300)\u003e",
+                     "notes":  "Eiji Asuka line. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#59",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eレイ、わかるか？\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eRei, can you analyze it?\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Eiji to Layzner AI Rei. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#60",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこんなのと戦うのかよ！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eWe have to fight something like this?!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Tap or pilot reaction. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#61",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこいつは生かしておけない奴だ！\u003cab(300)\u003e",
+                     "en":  "\u003csp(20)\u003eThis thing cannot be allowed to live!\u003cab(300)\u003e",
+                     "notes":  "Wufei or Heero determination. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#62",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e……私も怖いよ。\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003e...I am scared too.\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Yuu or pilot empathy. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#63",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e俺は、ナデシコを守るんだ。\u003cab(300)\u003e",
+                     "en":  "\u003csp(20)\u003eI am going to protect the Nadesico.\u003cab(300)\u003e",
+                     "notes":  "Akito Tenkawa resolve. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#64",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eお前なんか、怖くねえぞ！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eI am not afraid of you!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Akito Tenkawa continuation. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#65",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e生物なのか！？\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eIs it an organism?!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Show Zama question. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#66",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこの星の人間は一体……\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eWhat on earth are the people of this planet...\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Eiji Asuka observation. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#67",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(3000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eデータ不足につき、回答不能。\u003cab(3000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eUnable to answer due to insufficient data.\u003cab(3000)\u003e\u003ced()\u003e",
+                     "notes":  "Rei (Layzner AI computer) response. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#68",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eお前にもわかるよな！？\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eYou understand too, don\u0027t you?!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Domon Kasshu to Gundam/Kyoji. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#69",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e大事な人を、守るんだぁ！！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eI will protect the one precious to me!!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Domon Kasshu scream. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#70",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(600)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eキョウジ……いや、兄さん！\u003cab(600)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eKyoji... No, brother!\u003cab(600)\u003e",
+                     "notes":  "Domon Kasshu confrontation. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6233#71",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(900)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eもう終わらせるよ……！\u003cab(900)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eI will put an end to this now...!\u003cab(900)\u003e\u003ced()\u003e",
+                     "notes":  "Domon Kasshu conclusion. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63190#0",
+                     "layer":  "debriefing",
+                     "phase":  null,
+                     "portrait":  33,
+                     "tokens":  [
+                                    "\u003cop(33,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(1)\u003e",
+                                    "\u003cim(2)\u003e",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(33,1)\u003e\u003csp(2)\u003e諸君らの\u003cim(1)\u003e働きで、\u003cim(2)\u003e#c[BE5050]ポセイダル#c軍は壊滅した。",
+                     "en":  "\u003cop(33,1)\u003e\u003csp(2)\u003eThanks to your efforts,\u003cim(1)\u003e\u003cim(2)\u003e\nthe #c[BE5050]Poseidal#c military has been wiped out.",
+                     "notes":  "Admiral Misumaru debrief. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63190#1",
+                     "layer":  "debriefing",
+                     "phase":  null,
+                     "portrait":  33,
+                     "tokens":  [
+                                    "\u003cop(33,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(3)\u003e",
+                                    "#c[BE5050]",
+                                    "#c",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cim(3)\u003eこれで#c[BE5050]グラドス#c、#c[BE5050]ポセイダル#cと、\n２つの地球圏外勢力を\n地球から一掃したことになる。",
+                     "en":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cim(3)\u003eWith this, we have purged two extraterrestrial\nforces, #c[BE5050]Grados#c and #c[BE5050]Poseidal#c,\nfrom Earth.",
+                     "notes":  "Admiral Misumaru debrief. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63190#2",
+                     "layer":  "debriefing",
+                     "phase":  null,
+                     "portrait":  33,
+                     "tokens":  [
+                                    "\u003cop(33,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[F07141]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(33,1)\u003e\u003csp(2)\u003e#c[F07141]オペレーション・ライトニング#cは\n諸君らの働きのおかげで\n完全な成功を収めたわけだ。",
+                     "en":  "\u003cop(33,1)\u003e\u003csp(2)\u003eThanks to your exceptional performance,\n#c[F07141]Operation Lightning#c has achieved\na complete success.",
+                     "notes":  "Admiral Misumaru debrief. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63190#3",
+                     "layer":  "debriefing",
+                     "phase":  null,
+                     "portrait":  33,
+                     "tokens":  [
+                                    "\u003cop(33,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(5)\u003e",
+                                    "\u003cim(6)\u003e",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cim(5)\u003e\u003cim(6)\u003eしかも、ずっと手を焼いていた\n#c[BE5050]デビルガンダム#cまで撃退してくれるとは……",
+                     "en":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cim(5)\u003e\u003cim(6)\u003eWhat is more, you even repelled the\n#c[BE5050]Devil Gundam#c that had vexed us for so long...",
+                     "notes":  "Admiral Misumaru debrief. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63190#4",
+                     "layer":  "debriefing",
+                     "phase":  null,
+                     "portrait":  33,
+                     "tokens":  [
+                                    "\u003cop(33,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(7)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cim(7)\u003eよくやってくれた！\n改めて礼を言わせてもらうぞ！",
+                     "en":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cim(7)\u003eYou did splendidly!\nAllow me to express my gratitude once again!",
+                     "notes":  "Admiral Misumaru debrief. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63190#5",
+                     "layer":  "debriefing",
+                     "phase":  null,
+                     "portrait":  37,
+                     "tokens":  [
+                                    "\u003cop(37,1)\u003e",
+                                    "\u003csp(2)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(37,1)\u003e\u003csp(2)\u003eさて、私からの伝達事項だ。\nダバ君たちだが、しばらくは地球圏に\nとどまり、手を貸してくれるということだ。",
+                     "en":  "\u003cop(37,1)\u003e\u003csp(2)\u003eNow, a notice from me.\nDaba and his group will remain in the Earth Sphere\nfor a while to lend us their assistance.",
+                     "notes":  "Captain Sinapus debrief. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63190#6",
+                     "layer":  "debriefing",
+                     "phase":  null,
+                     "portrait":  37,
+                     "tokens":  [
+                                    "\u003cop(37,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(8)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(37,1)\u003e\u003csp(2)\u003e\u003cim(8)\u003eダバ君、オリビーさんの容態は\nどうかな？",
+                     "en":  "\u003cop(37,1)\u003e\u003csp(2)\u003e\u003cim(8)\u003eDaba, how is Ms. Olibee\u0027s condition?",
+                     "notes":  "Captain Sinapus debrief. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63190#7",
+                     "layer":  "debriefing",
+                     "phase":  null,
+                     "portrait":  45,
+                     "tokens":  [
+                                    "\u003cop(45,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(10)\u003e",
+                                    "\u003cim(11)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(45,1)\u003e\u003csp(2)\u003e\u003cim(10)\u003e\u003cim(11)\u003e残念ながら、バイオリレーションの影響で\n元どおりに回復するかどうかもわからない\n状況です……",
+                     "en":  "\u003cop(45,1)\u003e\u003csp(2)\u003e\u003cim(10)\u003e\u003cim(11)\u003eUnfortunately, under the bi-relation\u0027s influence,\nwe cannot even tell if she will ever return\nto how she was before...",
+                     "notes":  "Daba Myroad debrief. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63190#8",
+                     "layer":  "debriefing",
+                     "phase":  null,
+                     "portrait":  33,
+                     "tokens":  [
+                                    "\u003cop(33,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(12)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cim(12)\u003eその件については、我々もできるだけ\n協力していこう。\n君たちは、今回の作戦の功労者だからな。",
+                     "en":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cim(12)\u003eWe shall assist as much as we can on that matter.\nAfter all, you were key contributors\nto this operation.",
+                     "notes":  "Admiral Misumaru debrief. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63190#9",
+                     "layer":  "debriefing",
+                     "phase":  null,
+                     "portrait":  33,
+                     "tokens":  [
+                                    "\u003cop(33,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[5E8FD8]",
+                                    "#c"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(33,1)\u003e\u003csp(2)\u003eそれからもうひとつ、\n先刻#c[5E8FD8]マクロス#cが地球に無事帰ってきた。",
+                     "en":  "\u003cop(33,1)\u003e\u003csp(2)\u003eAnd one more thing.\nA short while ago, the #c[5E8FD8]Macross#c safely\nreturned to Earth.",
+                     "notes":  "Admiral Misumaru debrief. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63190#10",
+                     "layer":  "debriefing",
+                     "phase":  null,
+                     "portrait":  33,
+                     "tokens":  [
+                                    "\u003cop(33,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(13)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cim(13)\u003e艦にかなりのダメージを受けてはいるが、\n無事帰艦を果たしてくれた。",
+                     "en":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cim(13)\u003eThough the ship sustained considerable damage,\nshe safely completed her return.",
+                     "notes":  "Admiral Misumaru debrief. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63190#11",
+                     "layer":  "debriefing",
+                     "phase":  null,
+                     "portrait":  33,
+                     "tokens":  [
+                                    "\u003cop(33,1)\u003e",
+                                    "\u003csp(2)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(33,1)\u003e\u003csp(2)\u003e君たちと別れた後に何が起こったかは、\n報告をまとめてもらっている。",
+                     "en":  "\u003cop(33,1)\u003e\u003csp(2)\u003eAs for what happened after parting with you,\nwe are having them compile a report.",
+                     "notes":  "Admiral Misumaru debrief. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63190#12",
+                     "layer":  "debriefing",
+                     "phase":  null,
+                     "portrait":  33,
+                     "tokens":  [
+                                    "\u003cop(33,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(15)\u003e",
+                                    "\u003cim(16)\u003e",
+                                    "#c[5E8FD8]",
+                                    "#c",
+                                    "#c[5E8FD8]",
+                                    "#c",
+                                    "#c[5E8FD8]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cim(15)\u003e\u003cim(16)\u003e#c[5E8FD8]マクロス#cの修復作業が完了するまでの間、\n#c[5E8FD8]バルキリー隊#cは#c[5E8FD8]アルビオン#cとともに\n行動してもらうことになる。",
+                     "en":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cim(15)\u003e\u003cim(16)\u003eUntil repair work on the #c[5E8FD8]Macross#c is done,\nthe #c[5E8FD8]Valkyrie Squadron#c will operate alongside\nthe #c[5E8FD8]Albion#c.",
+                     "notes":  "Admiral Misumaru debrief. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63190#13",
+                     "layer":  "debriefing",
+                     "phase":  null,
+                     "portrait":  33,
+                     "tokens":  [
+                                    "\u003cop(33,1)\u003e",
+                                    "\u003csp(2)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(33,1)\u003e\u003csp(2)\u003e以上だ！",
+                     "en":  "\u003cop(33,1)\u003e\u003csp(2)\u003eThat is all!",
+                     "notes":  "Admiral Misumaru debrief. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63190#14",
+                     "layer":  "debriefing",
+                     "phase":  null,
+                     "portrait":  33,
+                     "tokens":  [
+                                    "\u003cop(33,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(17)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cim(17)\u003e…と言いたいところだが、\nタック・ケプフォード中尉。\n君には聞かなくてはならんことがある。",
+                     "en":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cim(17)\u003e...Or so I would say, but 1st Lt. Tak Kepford,\nthere is something I must ask you.",
+                     "notes":  "Admiral Misumaru debrief. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63190#15",
+                     "layer":  "debriefing",
+                     "phase":  null,
+                     "portrait":  33,
+                     "tokens":  [
+                                    "\u003cop(33,1)\u003e",
+                                    "\u003csp(2)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(33,1)\u003e\u003csp(2)\u003e理由はわかっていると思うが…\n君の機体を少し調べさせてもらう。",
+                     "en":  "\u003cop(33,1)\u003e\u003csp(2)\u003eI believe you know the reason...\nWe will need to inspect your unit a bit.",
+                     "notes":  "Admiral Misumaru debrief. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63284#0",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003e「バルクホルツ博士失踪」\n\n　　　　　　　　　　　　　　　　　　　プリベンター　レディ・アン",
+                     "en":  "\u003csp(0)\u003e\"Disappearance of Dr. Barkholz\"\n\n　　　　　　　　　　　　　　　　　　Preventer Lady Une",
+                     "notes":  "Lady Une report title. Wide spaces preserved."
+                 },
+                 {
+                     "ref":  "brief63284#1",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e",
+                                    "\u003cim(1)\u003e",
+                                    "#c[BE5050]",
+                                    "#c",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003e\u003cim(1)\u003e#c[BE5050]ライネン#cの#c[BE5050]私兵集団#cに関する\n緊急の報告を行う。\n",
+                     "en":  "\u003csp(0)\u003e\u003cim(1)\u003eSubmitting an urgent report on\n#c[BE5050]Rainen#c\u0027s #c[BE5050]private armed force#c.\n",
+                     "notes":  "Lady Une report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63284#2",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e",
+                                    "#c[5E8FD8]",
+                                    "#c",
+                                    "#c[BE5050]",
+                                    "#c",
+                                    "\u003cim(2)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003e#c[5E8FD8]プリベンター#cの調査により、\n#c[BE5050]ライネン#cは\u003cim(2)\u003eすでに死亡していることが\n明らかとなった。",
+                     "en":  "\u003csp(0)\u003e#c[5E8FD8]Preventer#c investigation revealed that\n#c[BE5050]Rainen#c is \u003cim(2)\u003ealready deceased.",
+                     "notes":  "Lady Une report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63284#3",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e",
+                                    "#c[5E8FD8]",
+                                    "#c",
+                                    "#c[BE5050]",
+                                    "#c",
+                                    "#c[5E8FD8]",
+                                    "#c",
+                                    "#c[5E8FD8]",
+                                    "#c",
+                                    "#c[BE5050]",
+                                    "#c",
+                                    "\u003cim(3)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003eまた先日の#c[5E8FD8]アルビオン#cと#c[BE5050]ギワザ艦隊#cとの\n戦闘において、#c[5E8FD8]ＵＣＥ設計局#cの開発機\n#c[5E8FD8]ガンアーク#cに、#c[BE5050]バスターアーク#cと\u003cim(3)\u003e同様の",
+                     "en":  "\u003csp(0)\u003eIn the battle between the #c[5E8FD8]Albion#c and the\n#c[BE5050]Giwaza Fleet#c, the #c[5E8FD8]UCE Design Bureau#c prototype\n#c[5E8FD8]Gun Ark#c had features like the #c[BE5050]Buster Ark#c:\u003cim(3)\u003e",
+                     "notes":  "Lady Une report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63284#4",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003e機能が搭載されていることも確認された。\n軍事衛星#c[BE5050]ガーディアン#cを使用した\n衛星砲撃である。",
+                     "en":  "\u003csp(0)\u003especifically, satellite bombardment conducted\nusing the military satellite\n#c[BE5050]Guardian#c.",
+                     "notes":  "Lady Une report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63284#5",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e",
+                                    "#c[5E8FD8]",
+                                    "#c",
+                                    "#c[5E8FD8]",
+                                    "#c",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003e以上の事実から、#c[5E8FD8]ＵＣＥ#cは#c[5E8FD8]同設計局#cの責任者\n#c[BE5050]バルクホルツ#c研究主任を一連の事件の\n被疑者と断定し、身柄の拘束を試みたが、",
+                     "en":  "\u003csp(0)\u003eFrom these facts, the #c[5E8FD8]UCE#c identified #c[5E8FD8]Design Bureau#c\nhead Dr. #c[BE5050]Barkholz#c as the prime suspect in these\nincidents and attempted to detain him,",
+                     "notes":  "Lady Une report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63284#6",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003e#c[BE5050]バルクホルツ#c研究主任は、\nすでに消息を絶っていることが判明した。\n",
+                     "en":  "\u003csp(0)\u003eonly to discover that Chief Researcher #c[BE5050]Barkholz#c\nhad already vanished without a trace.\n",
+                     "notes":  "Lady Une report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63284#7",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e",
+                                    "#c[5E8FD8]",
+                                    "#c",
+                                    "#c[BE5050]",
+                                    "#c",
+                                    "\u003cim(4)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003eさらに#c[5E8FD8]設計局#c内部の捜索の結果、\n無人機の操作プログラムや#c[BE5050]ガーディアン#cに\n関する資料\u003cim(4)\u003eも複数発見された。",
+                     "en":  "\u003csp(0)\u003eA search inside the #c[5E8FD8]Design Bureau#c turned up drone control\nprograms and multiple materials concerning\nthe #c[BE5050]Guardian#c.\u003cim(4)\u003e",
+                     "notes":  "Lady Une report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63284#8",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003eこれで、#c[BE5050]バルクホルツ#c研究主任が\n事件の重要関連人物であることは、\n確実となった。",
+                     "en":  "\u003csp(0)\u003eThis made it certain that Chief Researcher #c[BE5050]Barkholz#c\nis a person of primary interest in this case.",
+                     "notes":  "Lady Une report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63284#9",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e",
+                                    "#c[5E8FD8]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003e#c[5E8FD8]ＵＣＥ#cは現在、全力で彼の行方を\n捜索中である。\n",
+                     "en":  "\u003csp(0)\u003eThe #c[5E8FD8]UCE#c is currently committing all resources\nto searching for his whereabouts.\n",
+                     "notes":  "Lady Une report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63285#0",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003e「マクロス帰還」\n\n　　　　　　　　　　　　　　　　　　　プリベンター　レディ・アン",
+                     "en":  "\u003csp(0)\u003e\"Return of the Macross\"\n\n　　　　　　　　　　　　　　　　　　Preventer Lady Une",
+                     "notes":  "Lady Une report title. Wide spaces preserved."
+                 },
+                 {
+                     "ref":  "brief63285#1",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e",
+                                    "\u003cim(1)\u003e",
+                                    "#c[5E8FD8]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003e\u003cim(1)\u003e先日、#c[5E8FD8]マクロス#cが地球に帰還し、\n搭乗していたほとんどの人員の\n無事も確認された。",
+                     "en":  "\u003csp(0)\u003e\u003cim(1)\u003eThe #c[5E8FD8]Macross#c recently returned to Earth,\nand the safety of most personnel on board\nhas been confirmed.",
+                     "notes":  "Lady Une report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63285#2",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003eしかし、拉致された歌手のリン・ミンメイと\nマネージャーのカイフン氏、パイロットの\nヤマダ・ジロウは、いまだ消息不明である。",
+                     "en":  "\u003csp(0)\u003eHowever, the abducted singer Lynn Minmay,\nher manager Mr. Kaifun, and pilot Jiro Yamada\nremain missing.",
+                     "notes":  "Lady Une report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63285#3",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e",
+                                    "#c[5E8FD8]",
+                                    "#c",
+                                    "\u003cim(2)\u003e",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003e#c[5E8FD8]マクロス#cは\u003cim(2)\u003e、#c[BE5050]ゼントラーディ#cの先遣艦隊に\n追撃されていたが、敵艦隊が一時後退した\nことで、帰還のチャンスが得られたと言う。",
+                     "en":  "\u003csp(0)\u003eThe #c[5E8FD8]Macross#c was \u003cim(2)\u003epursued by the #c[BE5050]Zentradi#c vanguard fleet,\nbut the enemy temporarily withdrew, granting an\nopportunity to return.",
+                     "notes":  "Lady Une report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63285#4",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003eグローバル艦長の報告によれば、敵は\n何らかの理由で本隊へ合流するために\n後退した可能性が高いとのことである。",
+                     "en":  "\u003csp(0)\u003eAccording to Captain Global\u0027s report, it is highly\nlikely the enemy withdrew for some reason\nto rejoin their main fleet.",
+                     "notes":  "Lady Une report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63285#5",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e",
+                                    "\u003cim(4)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003eまた先遣艦隊の撤退時には、地球圏付近\u003cim(4)\u003e\nにまで侵攻を進めていた敵本隊も\n同じく目撃されている。",
+                     "en":  "\u003csp(0)\u003eDuring the vanguard\u0027s retreat, the enemy main fleet\u003cim(4)\u003e\nwas also sighted, having already advanced\ninto the vicinity of the Earth Sphere.",
+                     "notes":  "Lady Une report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63285#6",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003eその目撃情報から#c[BE5050]ゼントラーディ#c本隊の\n戦力を分析した結果、驚くべき事実が\n明らかになった。",
+                     "en":  "\u003csp(0)\u003eAn analysis of the #c[BE5050]Zentradi#c main fleet\u0027s military\nstrength based on those sightings revealed\na startling truth.",
+                     "notes":  "Lady Une report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63285#7",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e",
+                                    "#c[BE5050]",
+                                    "#c",
+                                    "\u003cim(3)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003e#c[BE5050]ゼントラーディ#cは、\u003cim(3)\u003e数百万を超える数の\n艦隊で構成されているのだ。\n",
+                     "en":  "\u003csp(0)\u003eThe #c[BE5050]Zentradi#c forces \u003cim(3)\u003ecomprise a fleet numbering\nover several million ships.\n",
+                     "notes":  "Lady Une report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63285#8",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003e説明の必要はないだろう。\n地球圏の現有戦力では、対抗不可能な\n戦力である。",
+                     "en":  "\u003csp(0)\u003eIt requires no explanation:\nthis is a force that the Earth Sphere\u0027s existing\nstrength cannot possibly counter.",
+                     "notes":  "Lady Une report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63285#9",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003e仮に、敵本隊が地球に侵攻してきた場合、\nいかなるシミュレーションをもってしても、\nその迎撃は絶望的と言える。",
+                     "en":  "\u003csp(0)\u003eShould the enemy main body invade Earth,\nevery simulation indicates that intercepting them\nwould be hopeless.",
+                     "notes":  "Lady Une report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63285#10",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e",
+                                    "#c[5E8FD8]",
+                                    "#c",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003e現在、#c[5E8FD8]ＵＣＥ#c本部では総力をかけて\n#c[BE5050]ゼントラーディ#cへの対抗策を検討中である。\n各隊には冷静な対応を求めたい。",
+                     "en":  "\u003csp(0)\u003e#c[5E8FD8]UCE#c Headquarters is currently exploring all measures\nto counter the #c[BE5050]Zentradi#c.\nAll units are asked to respond calmly.",
+                     "notes":  "Lady Une report. Exact tokens preserved."
+                 }
+             ],
+    "context_after":  [
+
+                      ],
+    "report":  {
+                   "translator_summary":  "Translated all 67 rows of op23_04, completing Operation 23. Covers the climax of Phase 3 battle against Devil Gundam, Domon\u0027s confrontation with Kyoji, debriefing by Misumaru, Sinapus, and Daba regarding Quwasan\u0027s bi-relation after-effects and the Macross\u0027s return, and two Preventer reports by Lady Une regarding Albert Rainen\u0027s prior death, Barkholz\u0027s disappearance, and the overwhelming Zentradi main fleet.",
+                   "rows_examined":  "m6233#42..brief63285#10",
+                   "rows_examined_count":  67,
+                   "uncertainties":  [
+
+                                     ],
+                   "glossary_proposals":  [
+
+                                          ],
+                   "portrait_speakers":  {
+                                             "33":  "Kouichiro Misumaru",
+                                             "37":  "Eyphar Sinapus",
+                                             "45":  "Daba Myroad"
+                                         }
+               }
+}

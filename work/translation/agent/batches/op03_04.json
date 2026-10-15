@@ -1,0 +1,422 @@
+{
+ "batch": "op03_04",
+ "operation": 3,
+ "previous_batch": "op03_03",
+ "next_batch": null,
+ "rows_in_slice": 15,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "バルクホルツ",
+   "en": "Barkholz",
+   "kind": "character",
+   "series": "Another Century's Episode 2 (original)",
+   "gender": "male",
+   "role": "UCE Design Bureau engineer in charge of Ark-series/Gun Ark development; supports Tak and Marina. Spoiler: secretly the son of Albert Rainen and the treacherous mastermind who gave Marina the Buster Ark; fights in the Feather Ark Custom at the end.",
+   "personality": "Outwardly a kindly professor-type adviser (sends Tak e-mails); actually vengeful against the UCE for what happened to his father.",
+   "full_name": "Fidel Barkholz"
+  },
+  {
+   "ja": "プリベンター",
+   "en": "Preventer",
+   "kind": "faction"
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "ガンアーク",
+   "en": "Gun Ark",
+   "kind": "unit",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Latest Ark-series transforming machine from the UCE Design Bureau; Tak's (and initially Marina's red) unit; can call Guardian satellite strikes."
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  }
+ ],
+ "known_portraits": {
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6033#105",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>２機の周囲に、\n空間のゆがみが生じています！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6033#106",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>南無三！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6033#107",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>バイストン・ウェルが…見えた…<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "brief63170#0",
+   "layer": "debriefing",
+   "jp": "<op(37,1)><sp(2)>アジア方面の輸送部隊はダミーだった。<im(1)>\n他の友軍からも報告が入っているが、\nいずれも同じ結果だ。",
+   "en": ""
+  },
+  {
+   "ref": "brief63170#1",
+   "layer": "debriefing",
+   "jp": "<op(37,1)><sp(2)>本命は潜水艇でアフリカ方面<im(2)>に行ったとの\n連絡が入っている。\n…やられたな。",
+   "en": ""
+  },
+  {
+   "ref": "brief63170#2",
+   "layer": "debriefing",
+   "jp": "<op(37,1)><sp(2)>我々が追跡<im(4)>に血道を上げている間に\n悠々とアフリカに向かっていたわけだ。\nだが、我々にもまだチャンスはある。",
+   "en": ""
+  },
+  {
+   "ref": "brief63170#3",
+   "layer": "debriefing",
+   "jp": "<op(37,1)><sp(2)>本艦はこれよりアフリカに向かい、\n引き続き#c[BE5050]ガンダム２号機#cを追撃する。",
+   "en": ""
+  },
+  {
+   "ref": "brief63170#4",
+   "layer": "debriefing",
+   "jp": "<op(37,1)><sp(2)>現在アフリカ方面<im(7)>でも大規模な地殻変動が\n観測されており、オーガニック・プレートが\n確認されているらしい。",
+   "en": ""
+  },
+  {
+   "ref": "brief63170#5",
+   "layer": "debriefing",
+   "jp": "<op(37,1)><sp(2)>伊佐未勇君、宇都宮比瑪君にも、<im(8)>\nその調査を兼ねて、本艦に同行して\nもらうことになった。",
+   "en": ""
+  },
+  {
+   "ref": "brief63170#6",
+   "layer": "debriefing",
+   "jp": "<op(37,1)><sp(2)>#c[BE5050]ガンアークに似た所属不明機<im(9)>#cの件もある。\n今の本艦にはできる限りの戦力が必要だ。",
+   "en": ""
+  },
+  {
+   "ref": "brief63170#7",
+   "layer": "debriefing",
+   "jp": "<op(37,1)><sp(2)>さらに、その後に現われた\n#c[BE5050]所属不明機２機#c……",
+   "en": ""
+  },
+  {
+   "ref": "brief63170#8",
+   "layer": "debriefing",
+   "jp": "<op(37,1)><sp(2)>これらは諜報機関#c[5E8FD8]プリベンター#cに\n照会してみたが、データにないようだ。<im(5)>\n調査は継続してもらっている。",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "brief63170#9",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(6)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>気になることは多いが……<im(6)>\n当面の我々の目的は#c[BE5050]ガンダム２号機#cだ。\n今はこの任務に全力を尽くしてくれ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63204#0",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「東京湾に出現した所属不明機」\n\n　　　　　　　　　　　　　　　　　　　プリベンター　レディ・アン",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63204#1",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(1)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)><im(1)>東京湾沖で#c[5E8FD8]アルビオン#cと接触した\n#c[BE5050]２機の所属不明機#cの消息は、\n現在もつかめていない。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63204#2",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[5E8FD8]アルビオン#cクルーの証言からは、\n数々の不可解な事象<im(2)>が確認されているが、\nその分析も困難な状況である。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63204#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(3)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>また、今回確認された機体の特徴から、\nこれらは、いずれの勢力が所持する物とも<im(3)>\n異なるタイプであることが予測され、",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63204#4",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[5E8FD8]ＵＣＥ#cではいまだ確認していない\n地球圏外の勢力の存在も想定できる。\n",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63204#5",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[5E8FD8]プリベンター#cでは、一連の事件を\n重大案件と認識し、慎重に調査を\n進めていきたい。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63205#0",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「アンノウンの動向」\n\n　　　　　　　　　　　　　　　　　　　プリベンター　レディ・アン",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63205#1",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(1)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(2)>",
+    "<im(3)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[5E8FD8]ＵＣＥ#c北米基地を<im(1)>襲った#c[BE5050]所属不明機#cには、\n同極東本部<im(2)>、東京湾沖<im(3)>など、世界各地から\n目撃情報が寄せられている。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63205#2",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>各方面からの報告を分析すると、\n交戦中を狙ったかのように出現する点、\n無差別に攻撃を行う点が特徴と言えるが、",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63205#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(4)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>その行動自体に目的性は見られず、<im(4)>\n所属勢力の特定は難航している。\n",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63205#4",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>いずれにせよ、極めて高い性能を\n有した機体であるため、各隊には\n十分な警戒を求めたい。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63205#5",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[E2E258]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(6)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>なおこの機体は、#c[E2E258]ＵＣＥ設計局#cが開発中の\n試験機#c[5E8FD8]ガンアーク#cと、外観が酷似している<im(6)>\nことも指摘されている。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63205#6",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>しかし、現存する#c[5E8FD8]ガンアーク#cは\n#c[5E8FD8]アルビオン#cに配備中の１機のみであり、\n対象が同型機である可能性は極めて低い。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63205#7",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(5)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[5E8FD8]ＵＣＥ#c本部では現在、#c[5E8FD8]ガンアーク#cの開発\n責任者であるバルクホルツ開発主任から<im(5)>\n詳しい事情を確認中である。",
+   "en": "",
+   "notes": ""
+  }
+ ],
+ "context_after": [],
+ "report": {
+  "translator_summary": "",
+  "rows_examined": "",
+  "rows_examined_count": 0,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

@@ -1,0 +1,769 @@
+{
+ "batch": "op17_04",
+ "operation": 17,
+ "previous_batch": "op17_03",
+ "next_batch": null,
+ "rows_in_slice": 32,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "オペレーション",
+   "en": "Operation",
+   "kind": "term"
+  },
+  {
+   "ja": "バスターアーク",
+   "en": "Buster Ark",
+   "kind": "unit",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Modified Gun Ark with an evolving Guardian System and fallen-angel styling; Marina's unit while with the Rainen side."
+  },
+  {
+   "ja": "ガーディアン",
+   "en": "Guardian",
+   "kind": "term",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Network of (hundreds of) orbital military satellite cannons of the Rainen Project; Gun Ark/Buster Ark can call it via the Guardian System."
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "星の屑作戦",
+   "en": "Operation Stardust",
+   "kind": "term",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "Delaz Fleet operation of U.C. 0083 (nuclear strike at Konpei Island followed by a colony drop)."
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "ライネン",
+   "en": "Rainen",
+   "kind": "character",
+   "series": "Another Century's Episode 2 (original)",
+   "gender": "male",
+   "role": "Former UCE scientist who warned of alien invasion and led the satellite-cannon defense project (Rainen Project) before being forced out; his name heads the antagonist 'Rainen forces'. Barkholz's father.",
+   "personality": "Visionary 'ignored expert' embittered by the UCE's dismissal of his warnings.",
+   "full_name": "Albert Rainen"
+  },
+  {
+   "ja": "木星蜥蜴",
+   "en": "Jovian Lizards",
+   "kind": "faction",
+   "series": "Martian Successor Nadesico",
+   "role": "Earth's name for the unknown Jovian enemy (actually the Jovian Federation, 木連)."
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  }
+ ],
+ "known_portraits": {
+  "33": {
+   "speaker": "Kouichiro Misumaru",
+   "gender": "male",
+   "role": "UCE Space Force admiral (Yurika's father)",
+   "confidence": "high",
+   "evidence": "brief: '私はＵＣＥ宇宙軍提督のミスマルだ。'"
+  },
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6173#52",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>くそっ！！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#53",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>きゃっ！！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#54",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>上空より砲撃！！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#55",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>く、またか…！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#56",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>さ、さらに来ます！！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#57",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>完全に照準を合わせられている…！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#58",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……引き上げていく。<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#59",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>一体、我々を狙う目的は何なんだ？<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#60",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>マリナ……あえて見逃したのか。<ab(600)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#61",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……ギワザ様、いかがでしょうか？<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#62",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>使える。　…あの機体は使えるぞ。<ab(600)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#63",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>こっちに来ます！<ab(200)><ed()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6173#64",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(900)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんということだ…<ab(900)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6173#65",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>相転移エンジン、出力全開！<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6173#66",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ナデシコ、発進！<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6173#67",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アルビオンをやるなら、俺をやれ！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6173#68",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どうした！　やってみろ！<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6173#69",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今からそっちに行く！<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6173#70",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>俺を倒してすむなら…好きにしろ。<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63184#0",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "<im(15)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(16)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>ご苦労だったな。\n<im(1)>諸君らの活躍で、<im(15)>#c[5E8FD8]ナデシコ#cは無事に\n<im(16)>月へ向かっている。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63184#1",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(4)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(2)>今後の任務だが、このまま#c[5E8FD8]ナデシコ#cを\n<im(4)>追って月へ向かって欲しい。\nよろしく頼んだぞ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63184#2",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(5)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(5)>そうそう、#c[5E8FD8]スカル小隊#cは#c[5E8FD8]アルビオン#c隊を離れ、\n本来所属すべき部隊へと配属になる。\nそのつもりでいてくれ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63184#3",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(12)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(12)>先の戦闘で回収した#c[BE5050]木星蜥蜴#cの機体は\n#c[5E8FD8]ナデシコ#cに運び込まれた。\n近々分析結果が出るだろう。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63184#4",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>正体不明の#c[BE5050]木星蜥蜴#cの実態を知るための\n手がかりになるのではと、期待している。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63184#5",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(13)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>さて、<im(13)>正体不明と言えば、\n#c[BE5050]バスターアーク#cだが……",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63184#6",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>優勢な状況にありながら、\nなぜ最後まで戦わなかったのか…\n奴の目的がさっぱりわからん。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63184#7",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>今回の戦闘記録は#c[5E8FD8]諜報部#cへ報告しておく。\nあの機体が気になる者もいるだろうが、\n本来の任務のことは忘れんようにな。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63184#8",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(14)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(14)>本艦はこれより月へ針路を向ける。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63260#0",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「ライネンの目的」\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　ＵＣＥ諜報部",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63260#1",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>本件は、軍事衛星#c[BE5050]ガーディアン#cに関する\n調査報告である。\n",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63260#2",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[5E8FD8]ＵＣＥ設計局#cの調査によって、新たに\n判明した情報を、過去の調査結果と\n合わせてここにまとめる。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63260#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c",
+    "<im(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>まず、以前より確認されてきた#c[BE5050]衛星#cの機能\nとして、#c[BE5050]バスターアーク#cの<im(1)>オペレーション\nによる遠距離砲撃が挙げられる。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63260#4",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>これは、星の屑作戦でもすでに\n見られた高出力レベルの砲撃<im(2)>を\n可能とする機能である。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63260#5",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>そして今回、軍事衛星#c[BE5050]ガーディアン#cには\nさらなる出力を引き出すための機構が\n備わることも明らかとなった。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63260#6",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>それは複数の#c[BE5050]ガーディアン#cを同時に\n発動させることで再現可能となる\n攻撃機能である。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63260#7",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[BE5050]ガーディアン#cの制御には、他衛星との\nデータリンクシステムが実装されており、\n複数を同時に使用できる設計となっている。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63260#8",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>すなわちこれは、複数の軍事衛星からの\n同時砲撃が可能であることを示唆する。\n",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63260#9",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>仮に数百基の#c[BE5050]ガーディアン#cを使用した場合、\nコロニーレベルの質量の物体さえも破壊する\n超出力の砲撃が実現できるだろう。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63260#10",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>以下は、これらを踏まえた仮説である。\n\n",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63260#11",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>今までに集められた計測データによれば、\n衛星砲撃を使用した際の砲撃精度や\n出力制御には、まだ不十分な点があった。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63260#12",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(3)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>そこで#c[BE5050]ライネン#cは、その誤差を修正する\nために、各地の襲撃<im(3)>を繰り返している\nのではないか。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63260#13",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>実際に過去のデータからは、#c[BE5050]バスターアーク#c\nが出現する度に、これらの性能及び出力が\n向上していることが確認されている。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63260#14",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>これが事実であると仮定した場合…\n#c[BE5050]ライネン#cは、兵力に依存しない軍事力\nの確立が可能となる。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63260#15",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>これをどのように使うのかは、予測できない\nが、#c[BE5050]ガーディアン#cが強大な危険を帯びた存在\nであることだけは間違いない。",
+   "en": "",
+   "notes": ""
+  }
+ ],
+ "context_after": [],
+ "report": {
+  "translator_summary": "",
+  "rows_examined": "",
+  "rows_examined_count": 0,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

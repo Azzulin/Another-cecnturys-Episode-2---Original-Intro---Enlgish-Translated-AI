@@ -1,0 +1,1616 @@
+{
+ "batch": "op12_04",
+ "operation": 12,
+ "previous_batch": "op12_03",
+ "next_batch": null,
+ "rows_in_slice": 74,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "統一帝国ギガノス",
+   "en": "Unified Empire of Giganos",
+   "kind": "faction",
+   "series": "Metal Armor Dragonar",
+   "role": "Formal name of the lunar state that declared independence from Earth",
+   "en_short": "Giganos"
+  },
+  {
+   "ja": "メタルアーマー",
+   "en": "Metal Armor",
+   "kind": "term"
+  },
+  {
+   "ja": "ギガノス帝国",
+   "en": "Giganos Empire",
+   "kind": "faction",
+   "series": "Metal Armor Dragonar",
+   "role": "Common short name of the Unified Empire of Giganos",
+   "en_short": "Giganos"
+  },
+  {
+   "ja": "ギルガザムネ",
+   "en": "Gilgazamune",
+   "kind": "unit",
+   "series": "Metal Armor Dragonar",
+   "role": "YGMA-14 Gilgazamune, giant thought-controlled Metal Armor (Gon Jem's prototype; Heidelnecken and Dorchenov versions)"
+  },
+  {
+   "ja": "ドルチェノフ",
+   "en": "Dorchenov",
+   "kind": "character",
+   "series": "Metal Armor Dragonar",
+   "gender": "male",
+   "role": "Giganos hardliner; as Lieutenant Colonel he assassinates Marshal Guiltorre and becomes Supreme Leader of Giganos; pilots a black Gilgazamune at the end",
+   "personality": "Arrogant, power-hungry, cruel and treacherous; bullies subordinates; strong MA pilot but a poor commander",
+   "en_short": "Dorchenov"
+  },
+  {
+   "ja": "ギルトール",
+   "en": "Guiltorre",
+   "kind": "character",
+   "series": "Metal Armor Dragonar",
+   "gender": "male",
+   "role": "Marshal Iskander Guiltorre, leader of the Giganos Empire, assassinated in the story."
+  },
+  {
+   "ja": "ギガノス",
+   "en": "Giganos"
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "ミン",
+   "en": "Min",
+   "kind": "character",
+   "series": "Metal Armor Dragonar",
+   "gender": "female",
+   "role": "Giganos Captain, the only woman among Gon Jem's Four Kings; Stark Dyne pilot; later joins Meio",
+   "personality": "Fierce, violent and battle-hungry; later shows a devoted, gentler side toward Meio",
+   "en_short": "Min"
+  },
+  {
+   "ja": "元帥",
+   "en": "Fleet Admiral",
+   "kind": "rank",
+   "series": "Universal Century (general)",
+   "role": "Military rank"
+  },
+  {
+   "ja": "大尉",
+   "en": "Captain",
+   "en_short": "Capt.",
+   "kind": "rank",
+   "note": "army/MS rank; a ship's captain (艦長) is also Captain"
+  }
+ ],
+ "known_portraits": {
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  },
+  "56": {
+   "speaker": "Linda Plato",
+   "gender": "female",
+   "role": "Dragonar transport unit",
+   "confidence": "high",
+   "evidence": "brief: 'ドラグナー輸送部隊のリンダ・プラートです。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6123#65",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>なんのために、ギガノス軍について戦うんだ！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6123#66",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ちょっとしつこいぜ、オバサンよ！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6123#67",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>月に逃げて来てまで、\n戦争することはないだろうに！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6123#68",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>傭兵なんかより、海賊に戻ればいいだろう！<ab(2000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6123#69",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>でもね、私の相手をするには\n１０年早いんだよ！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6123#70",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>なんのため？　食うためさ！　\nわたしゃこれが商売さね！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6123#71",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>しつこいのはお前だよ！　坊主！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6123#72",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>いまさら商売がえなんぞ、できるかい！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6123#73",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>こっちのほうが稼ぎがでかいんでね！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6123#74",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>だったら俺を落としてみろっ！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6123#75",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>味方の護衛目標を守るんだ。<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6123#76",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>あいつらは…！<ab(0)><off()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6123#77",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>なんだい、知り合いかい？<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6123#78",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>せっかく見つけたスポンサーだからねぇ、<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6123#79",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ここらで手柄の一つもあげて、\nせいぜい高く売り込ませてもらうよ！<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6123#80",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>フィードバックシステムに異常電流！<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6123#81",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>電流、測定限界値を突破！\nうわぁああああっ！<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6123#82",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>第３格納庫で爆発！<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6123#83",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>……バカな！　<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6123#84",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>うまく行ったようだな。<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6123#85",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>はい。　あとは制圧するだけです。<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63086#2",
+   "layer": "tactical briefing",
+   "phase": 4,
+   "portrait": 56,
+   "tokens": [
+    "<op(56,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(56,1)><sp(2)>#c[5E8FD8]電磁衛星#cの攻撃により、\n#c[BE5050]機動要塞#cはコントロールを失って\n月の引力につかまりました。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63086#3",
+   "layer": "tactical briefing",
+   "phase": 4,
+   "portrait": 56,
+   "tokens": [
+    "<op(56,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(56,1)><sp(2)><im(1)>このまま放っておくと、#c[BE5050]要塞#cは月面に落下し、\n月面の都市に大きな被害が\n生じてしまいます。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63086#4",
+   "layer": "tactical briefing",
+   "phase": 4,
+   "portrait": 56,
+   "tokens": [
+    "<op(56,1)>",
+    "<sp(2)>",
+    "<im(6)>",
+    "<im(2)>",
+    "#c[F07141]",
+    "<tr(1)>",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(56,1)><sp(2)><im(6)>内部に侵<im(2)>入して#c[F07141]コントロールシステムを\n<tr(1)>破壊#cし、落下軌道を変更してください。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63086#5",
+   "layer": "tactical briefing",
+   "phase": 4,
+   "portrait": 56,
+   "tokens": [
+    "<op(56,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(4)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(5)>",
+    "<of(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(56,1)><sp(2)>#c[BE5050]要塞#cの中には<im(4)>#c[BE5050]ギガノス#cの総統ドルチェノフが\nまだ残って<im(5)>います。\n<of(1)>注意してください！",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#0",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "コントロールシステムの破壊",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#3",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>進入路を確保。\n攻撃隊は突入してください！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#4",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>月面激突の阻止限界まであと５分！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#5",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>コントロールシステムを破壊してくれ。\n要塞の奥の制御区画にある。<ab(800)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#6",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まだ敵が中に…<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#7",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>セキュリティの解除はこちらでやります。\nとにかく敵を倒してください。<ab(600)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#8",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>先に行かせるな！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#9",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ギガノスのために！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#10",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(900)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>隔壁のロックを解除しました。\nターゲットの方向に進んでください。<ab(900)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#11",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ここは…メタルアーマーの格納庫？<ab(600)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#12",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>残り時間１分！　急いで！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#13",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>機動要塞、阻止限界点を突破しました！<ab(800)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#14",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(900)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>月への衝突を防ぎきれなかったか…<ab(900)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#15",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵の通信を傍受！<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#16",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>……要塞周辺の宙域に、\n全周波数帯で放送されてるようです！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#17",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さあ、白状してもらおうかい！\nドルチェノフ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#18",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これは…ミン大尉か？<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#19",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それほど聞きたくば、\n冥土の土産に聞かせてやろう！<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#20",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>プラートは現場に居合わせただけだ。\n元帥を射殺したのは、ずばりこのワシだ！<ab(700)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#21",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>しかし、ワシは後悔はしておらん。\n全ては国家のためにやったこと！<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#22",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ギルトールは統一帝国ギガノスの長として\nふさわしくない男だったのだ！<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#23",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…って言うわけだよ！\n聞いたね！　みんな！<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#25",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よくもまあ、ベラベラとしゃべってくれたね！\n今の話は、全部放送されてんだよ！<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#26",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ぐううおおおおおおお！\nおのれ、ワシをたばかりよってぇ！！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#27",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やるなあ！　「下準備」ってこれかぁ！<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#28",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よくやった！　ミン大尉！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#29",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>制御区画に到達しました。\nコントロールシステムを破壊してください。<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#30",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>機動要塞の軌道変更に成功！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#31",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よくやってくれた！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#32",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(50)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>レーダーに感！　敵機、来ます！<ab(50)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#33",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんとしても私は貴様を討つ！<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#34",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ほざけ！　貴様の墓場にしてやる。\nそしてみにくい屍をさらせ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#35",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>念仏でも唱えるんだなぁ！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#36",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>貴様もギルトールのもとへ行けぇ！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#37",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>帝国の崩壊と共に滅び去れ！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#38",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ば、バカなっ！　<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#39",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ワシャまだ死なん…\n死んでなるものか…！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#40",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お、おい！　どこ行くんだよ！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#41",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ギガノス帝国が滅びようとする今、\nもはや私は無用のもの。<ab(100)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#42",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>この要塞とともに滅びようと思う。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#44",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>役目は終わっちゃいねえよ！<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#45",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ドルチェノフが死んでも、\n危ない連中は他にいくらでもいるんだぜ！<ab(100)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#46",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>そいつらと戦うのに、力を貸してくれよ！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#47",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それに、俺の立場はどうなるんだよ！<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#48",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>あんたを見殺しにしたら、\n未来の義弟として……あ、いやその……<ab(800)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#49",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ふ……仕方ないな。　未来の義弟に、\nしばらく手を貸すとしようか。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#50",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>大尉、あたいもあんたについてくよ。<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#51",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>兄さん…ありがとう…<ab(600)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#52",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やい、ドルチェノフ！\n色々てめえには世話になったな！<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#53",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>一発お返しするためにわざわざ来てやったぜ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#54",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ギルガザムネ！<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#55",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ここは私にやらせてもらおう。<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#56",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>うへへへへ…かん賊め！\nいつまでもエース面させてなるものか！<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#57",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>もはや貴様の時代は終ったのだということを\n今…教えてやるわー！<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#58",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>…ぐ、ぐわああっ！！<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6124#59",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>終ったか…<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63179#0",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "<im(2)>",
+    "<im(4)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(1)>諸君の<im(2)>活躍のおかげで、<im(4)>#c[BE5050]機動要塞#cの\n月面への落下を防ぐことができた。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63179#1",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(5)>",
+    "<im(6)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(8)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(5)>ミン大尉の巧みな計略もあって、\n<im(6)>#c[BE5050]ギガノス軍#cの大半は戦意を喪失し、\n<im(8)>ほとんどの兵士は#c[5E8FD8]ＵＣＥ#c軍に投降した。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63179#2",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(9)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(10)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(9)>これで#c[BE5050]ギガノス#cとの戦いは終わりだ。\n<im(10)>よくやってくれた。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63179#3",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(12)>",
+    "<im(13)>",
+    "<im(14)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(12)>なお、プラート大尉とミン大尉は、<im(13)>今後も\n我々と行動をともにしてくれることになった。\n<im(14)>よろしく頼む。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63179#4",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(16)>",
+    "<im(17)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(16)>さて、宇宙での戦いはこれで一段落だ。\n<im(17)>#c[5E8FD8]ナデシコ#cとともに一旦、地球に戻ろう。",
+   "en": "",
+   "notes": ""
+  }
+ ],
+ "context_after": [],
+ "report": {
+  "translator_summary": "",
+  "rows_examined": "",
+  "rows_examined_count": 0,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

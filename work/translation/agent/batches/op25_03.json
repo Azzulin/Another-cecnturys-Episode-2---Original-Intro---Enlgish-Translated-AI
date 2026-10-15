@@ -1,0 +1,1851 @@
+{
+ "batch": "op25_03",
+ "operation": 25,
+ "previous_batch": "op25_02",
+ "next_batch": "op25_04",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "クインシィ・バロンズゥ",
+   "en": "Quincy Baronz",
+   "kind": "unit",
+   "series": "Brain Powerd",
+   "role": "Baronz that evolved from Quincy's Grand Cher; Quincy's playable unit in ACE2"
+  },
+  {
+   "ja": "クインシィ・イッサー",
+   "en": "Quincy Issa",
+   "kind": "character",
+   "series": "Brain Powerd",
+   "gender": "female",
+   "role": "Reclaimer leader at Orphan; Yuu's older sister (real name Iiko Isami); pilots Quincy Grand Cher, later Quincy Baronz",
+   "personality": "Harsh, domineering and emotionally unstable. She denies her past as Iiko and resents Yuu, but underneath she is a lonely, confused girl.",
+   "en_short": "Quincy"
+  },
+  {
+   "ja": "ウィル・ウィプス",
+   "en": "Will Wipps",
+   "kind": "ship",
+   "series": "Aura Battler Dunbine",
+   "role": "Drake Luft's flagship aura battleship; an enemy ship in Operation 25."
+  },
+  {
+   "ja": "アンチ・ボディ",
+   "en": "Antibody",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "The living organic mecha class; it includes both Brain Powerds and Grand Chers. Plural 'Antibodies'."
+  },
+  {
+   "ja": "オーラバトラー",
+   "en": "Aura Battler",
+   "kind": "term",
+   "series": "Aura Battler Dunbine",
+   "role": "Class of insect-like Byston Well mecha fielded by the Drake Army and Show's side."
+  },
+  {
+   "ja": "ゲア・ガリング",
+   "en": "Gea Garing",
+   "kind": "ship",
+   "series": "Aura Battler Dunbine",
+   "role": "Aura battleship of Bishot Hatta, King of Ku; an enemy ship in Operation 25."
+  },
+  {
+   "ja": "ノヴィス・ノア",
+   "en": "Novis Noah",
+   "kind": "ship",
+   "series": "Brain Powerd",
+   "role": "Anti-Orphan battleship (carrier with a pyramid superstructure); base of the Brain Powerd pilots"
+  },
+  {
+   "ja": "ショウ・ザマ",
+   "en": "Show Zama",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Protagonist; Holy Warrior (Seisenshi) from Tokyo summoned to Byston Well; defects from Drake Luft to the resistance; pilots Dunbine, later Billbine",
+   "personality": "Hot-blooded, stubborn young motocross racer who grows into a serious, driven warrior. Has huge Aura Power but struggles to control it. Has unspoken feelings for Marvel.",
+   "en_short": "Sho"
+  },
+  {
+   "ja": "リクレイマー",
+   "en": "Reclaimer",
+   "kind": "faction",
+   "series": "Brain Powerd",
+   "role": "The people who serve Orphan and pilot Grand Chers to gather its plates; plural 'Reclaimers'"
+  },
+  {
+   "ja": "オルファン",
+   "en": "Orphan",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Gigantic sentient alien ship buried under the Pacific; its awakening threatens Earth; base of the Reclaimers"
+  },
+  {
+   "ja": "クインシィ",
+   "en": "Quincy",
+   "kind": "character",
+   "series": "Brain Powerd",
+   "gender": "female",
+   "role": "Reclaimer leader at Orphan; Yuu's older sister (real name Iiko Isami); pilots Quincy Grand Cher, later Quincy Baronz",
+   "personality": "Harsh, domineering and emotionally unstable. She denies her past as Iiko and resents Yuu, but underneath she is a lonely, confused girl.",
+   "full_name": "Quincy Issa"
+  },
+  {
+   "ja": "ジョナサン",
+   "en": "Jonathan",
+   "kind": "character",
+   "series": "Brain Powerd",
+   "gender": "male",
+   "role": "Reclaimer ace of Orphan; pilots Jonathan Grand Cher, later Jonathan Baronz; Yuu's rival and the son of Novis Noah's captain Anoa McCormick",
+   "personality": "Arrogant, aggressive and taunting, full of resentment toward Yuu and his own mother. Loyal to Baron Maximilian.",
+   "full_name": "Jonathan Glenn"
+  },
+  {
+   "ja": "オーラ力",
+   "en": "Aura Power",
+   "kind": "term",
+   "series": "Aura Battler Dunbine",
+   "role": "The aura energy of a pilot; also the name of a Dunbine-family ability that multiplies attack power for a while (Weapon 6)."
+  },
+  {
+   "ja": "ゴラオン",
+   "en": "Goraon",
+   "kind": "ship",
+   "series": "Aura Battler Dunbine",
+   "role": "Aura battleship of Elle Humm (Kingdom of Lao), armed with the Aura Nova Cannon"
+  },
+  {
+   "ja": "チャージ",
+   "en": "charge",
+   "kind": "generic",
+   "series": "Another Century's Episode series (game system)",
+   "role": "Charging a shot; in weapon names (チャージ) suffix."
+  },
+  {
+   "ja": "ドレイク",
+   "en": "Drake",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Main antagonist; Lord of House Luft in the Kingdom of Ah (アの国), who summons Holy Warriors and wages war to unite Byston Well; commands the Will Wipps",
+   "personality": "Ambitious, scheming warlord who believes his conquest is justified. Loves his daughter Riml but is blind to the plots around him.",
+   "full_name": "Drake Luft"
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "オーラ",
+   "en": "aura",
+   "kind": "term",
+   "series": "Aura Battler Dunbine",
+   "role": "Life energy of Byston Well that powers aura machines; used alone in lines like オーラの力 / 悪しきオーラ / オーラ光."
+  },
+  {
+   "ja": "ショウ",
+   "en": "Show",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Protagonist; Holy Warrior (Seisenshi) from Tokyo summoned to Byston Well; defects from Drake Luft to the resistance; pilots Dunbine, later Billbine",
+   "personality": "Hot-blooded, stubborn young motocross racer who grows into a serious, driven warrior. Has huge Aura Power but struggles to control it. Has unspoken feelings for Marvel.",
+   "full_name": "Sho Zama"
+  },
+  {
+   "ja": "バロン",
+   "en": "Baron",
+   "kind": "character",
+   "series": "Brain Powerd",
+   "gender": "female",
+   "role": "Masked figure who seizes control of Orphan in Jonathan's name and gives him the Baronz; secretly Anoa McCormick, the missing captain of Novis Noah",
+   "personality": "Mysterious, theatrical and manipulative. Acts as a mentor to Jonathan, driven by a twisted longing for her estranged son.",
+   "full_name": "Baron Maximilian"
+  },
+  {
+   "ja": "ルリ",
+   "en": "Ruri",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "female",
+   "role": "TV: operator/science officer of the Nadesico. PoD: Lieutenant Commander, captain of the Nadesico B (\"Electronic Fairy\")",
+   "personality": "Deadpan, cool, blunt child prodigy (catchphrase \"bunch of fools\"); slowly warms to the crew",
+   "full_name": "Ruri Hoshino"
+  }
+ ],
+ "known_portraits": {
+  "31": {
+   "speaker": "Irene Carrier",
+   "gender": "female",
+   "role": "acting captain of the Novis Noa",
+   "confidence": "high",
+   "evidence": "brief: 'ノヴィス・ノアの艦長代理、アイリーン・キャリアーです。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6252#13",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>護衛、よろしくお願いします！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6252#14",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵艦がバリアを展開。<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6252#15",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ゴラオンのオーラノヴァ砲ならば\n打ち破れるかもしれません。<ab(800)>",
+   "en": ""
+  },
+  {
+   "ref": "m6252#16",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>ゴラオン、発射準備を。<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6252#17",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵艦のバリア、消滅。<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6252#18",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>今がチャンスです！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6252#19",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ゴラオン、囲まれてます。<ab(400)>",
+   "en": ""
+  },
+  {
+   "ref": "m6252#20",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>オーラノヴァ砲、撃てません。<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6252#21",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>オーラノヴァ砲、撃て！<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6252#22",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>そこにいると危険です。<ab(400)>",
+   "en": ""
+  },
+  {
+   "ref": "m6252#23",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>オーラノヴァ砲の射線上から\n退避してください。<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6252#24",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ナデシコ、囲まれてます。<ab(300)>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6252#25",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>攻撃により照準が不安定。<ab(400)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#26",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>相転移砲、発射できません。<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#27",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>なんとかしてください。<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#28",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>相転移砲、発射！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#29",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そこにいると相転移砲を撃てません。<ab(400)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#30",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ナデシコの射線上から退避してください。<ab(600)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#31",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ゴラオン、被弾。<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#32",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ゴラオン、ダメージ拡大。<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#33",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ゴラオン、ダメージ拡大。<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#34",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これ以上は危険です。<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#35",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……ゴラオン、撃沈。<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#36",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こんなことになろうとは……！<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#38",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコのダメージ拡大。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#41",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>みんな、逃げて……！<ab(0)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#42",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコ、撃沈されました！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#43",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>おい、俺も地上人だぜ？<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#44",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>協力してくれるんじゃなかったのか？<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#45",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>抜かせ！　足を引っ張るなよ。<ab(600)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#46",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ふはははは……いいぞいいぞ！<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#47",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>そうだ、互いに、もっと消耗しろ…<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#48",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ドレイクとＵＣＥに、\n地上を押さえる力がなくなりゃ、<ab(0)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#49",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>あとは俺とバロンの天下だぜ！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#50",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なぜだ……私は、騎士の出のはずだ！<ab(400)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#51",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>なぜ勝てんのだ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#52",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>生まれなんぞにこだわってて、\n勝てる道理はないよ！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#53",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ジョナサン。\n今はそこまでにしておくのです。<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#54",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くそっ！　一度退く！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#55",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵、残存部隊、逃げていきます。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#56",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ドレイクのウィル・ウィプスは、\nより大きな力を持っています。<ab(400)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#57",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ここで負けるわけには参りません。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#58",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>リクレイマーが退くか…\n今が行動を起こすべき時だな。<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#59",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>奮戦に期待します。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#60",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>一つの悪意を潰すために、幾千の屍を\n重ねなければならぬ時もあるのです。<ab(800)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#61",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>気をつけてください。<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#62",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さすが、ですね。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#63",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どんどんやっちゃってください！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#64",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>戦いに集中なさい。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#65",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>己の力を信じるのです。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#66",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あなたがやられると困ります。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#67",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>負けるとは思ってませんから、よろしく。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#68",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こんなところで負けちゃだめです！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#69",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お願い！　がんばって！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#70",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ルリちゃん、相転移砲チャージ開始！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#71",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>相転移砲、チャージします。<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#72",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>援護お願いします。<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#73",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦のバリア、消滅。<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#74",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>相転移砲、スタンバイ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#75",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>本艦の前方に巨大戦艦を確認。<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#76",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>あれがゲア・ガリングです。<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#77",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>敵オーラバトラー、出ました。<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#78",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ゲア・ガリングを支えていた\nオーラ力が消えていく！<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#79",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ちっ…役にたたない！<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#80",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>地上人などに、我々の邪魔はさせん！<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#81",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>逃しはせんぞ！　ショウ・ザマ！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#82",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何やっても遅いんだよ勇！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#83",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ショウ！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#84",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前だって逃げ回っていた！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#85",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>わかってる。<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#86",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺が何から逃げてるって言うんだよ！ <ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#87",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>乗ってる奴も、誰かわかってる！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#88",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>一人で戦い、一人で生きることをだ！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6252#89",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くは！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63150#2",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(1)>",
+    "<im(14)>",
+    "<im(4)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(2)>#c[5E8FD8]ノヴィス・ノア#cは、<im(1)>何とか<im(14)>オルファンまで\nた<im(4)>どり着くことができました。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63150#3",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(2)>",
+    "<im(9)>",
+    "#c[BE5050]",
+    "<im(15)>",
+    "<im(17)>",
+    "#c",
+    "#c[BE5050]",
+    "<im(7)>",
+    "<im(19)>",
+    "#c",
+    "<im(6)>",
+    "<im(13)>",
+    "<tr(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(2)>しかし、まだ私たちの目の前には、\n<im(9)>#c[BE5050]ドレ<im(15)>イク<im(17)>#cと#c[BE5050]リ<im(7)>クレ<im(19)>イマー#cの主力部隊が\n立ちふさが<im(6)>って<im(13)>います。<tr(1)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63150#4",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(2)>勇のお姉さん、クインシィ・イッサー…\n#c[BE5050]彼女のアンチ・ボディ#cも確認されています。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63150#5",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(2)>",
+    "#c[F07141]",
+    "#c",
+    "<im(11)>",
+    "<im(12)>",
+    "<of(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(2)>#c[F07141]リクレイマーとの戦い#cも、\nここが正念<im(11)>場となるで<im(12)>しょう。\n<of(1)>皆さん、よろしくお願いします。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6253#0",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ノヴィス・ノアが領域を離脱",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6253#1",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ノヴィス・ノアの撃沈",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6253#3",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "クインシィ・バロンズゥの撃破",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6253#6",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まずは周辺の安全を確保しろ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6253#7",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦が防衛網を敷いています。<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6253#8",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>破壊して、艦の進路を開いてください！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6253#9",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くれぐれも艦を落とされるな。<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6253#10",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>行くぞ！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6253#11",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(900)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>シールドを展開して！<ab(900)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6253#12",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>シールドの中にいれば、\n敵のミサイルを防げます。<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6253#13",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>うまく活用してください。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6253#14",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ノヴィス・ノア、被弾！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6253#15",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このくらいは大丈夫です。<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6253#16",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ノヴィス・ノア、機関部に損傷！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6253#17",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……このくらいなら、まだいけます！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6253#18",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ノヴィス・ノア、損傷拡大！<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6253#19",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>オーガニックエンジンの出力低下！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6253#20",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>このままじゃ危険ね……<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6253#21",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ノヴィス・ノアが大破！<ab(400)>",
+   "en": ""
+  },
+  {
+   "ref": "m6253#22",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>ノヴィス・ノア、応答してください！<ab(50)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6253#23",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>嘘だろ……！<ab(1400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6253#24",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵艦の撃破を確認！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6253#25",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ノヴィス･ノア全速前進！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6253#26",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>前方に敵艦が…！<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6253#27",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>みなさん、迎撃をお願いします。<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6253#28",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵の防衛ラインが崩れました！<ab(200)>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "",
+  "rows_examined": "",
+  "rows_examined_count": 0,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

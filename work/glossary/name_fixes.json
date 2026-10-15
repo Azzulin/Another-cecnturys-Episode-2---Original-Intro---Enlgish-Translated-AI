@@ -1,0 +1,71 @@
+{
+ "note": "Literal fixes applied by tools/ace2/fix_names.py. Order matters (longer forms first). Evidence: work/glossary/research/*.json.",
+ "rules": [
+  {
+   "from": "Lt. JG ",
+   "to": "Lt. ",
+   "why": "rank ladder 少尉 Ensign / 中尉 Lieutenant / 大尉 Captain (Kou = Ensign, Burning = Captain on the Gundam Wiki)"
+  },
+  {
+   "from": "Lieutenant JG",
+   "to": "Lieutenant",
+   "why": "same ladder"
+  },
+  {
+   "from": "Lieutenant South Burning",
+   "to": "Captain South Burning",
+   "why": "Gundam Wiki: South Burning, Captain (大尉)"
+  },
+  {
+   "from": "Lieutenant Burning",
+   "to": "Captain Burning",
+   "why": "same"
+  },
+  {
+   "from": "Lt. Burning",
+   "to": "Capt. Burning",
+   "why": "same"
+  },
+  {
+   "from": "Lieutenant?! Are you all right",
+   "to": "Captain?! Are you all right",
+   "only_if_jp": "大尉",
+   "why": "大尉 = Captain"
+  },
+  {
+   "from": "Lt. Commander Anavel Gato",
+   "to": "Major Anavel Gato",
+   "why": "Gundam Wiki: Anavel Gato, Major (少佐)"
+  },
+  {
+   "from": "Kowen",
+   "to": "Cowen",
+   "why": "Gundam Wiki page title John Cowen (Kowen redirects); in-game rank 准将 = Commodore"
+  },
+  {
+   "regex": "\\bTack\\b",
+   "to": "Tak",
+   "why": "SRW wiki / research macross_ace_original.json: Tak Kepford (owner decision pending)"
+  },
+  {
+   "regex": "\\bSynapse\\b",
+   "to": "Sinapus",
+   "why": "Gundam Wiki page title Eyphar Sinapus (owner decision pending; Synapse is the common form)"
+  },
+  {
+   "regex": "\\bBarkholtz\\b",
+   "to": "Barkholz",
+   "why": "research macross_ace_original.json (no wiki page; owner decision pending)"
+  },
+  {
+   "regex": "\\bGigano\\b",
+   "to": "Giganos",
+   "why": "Dragonar wiki page title Giganos"
+  },
+  {
+   "regex": "\\bAmuro Rei\\b",
+   "to": "Amuro Ray",
+   "why": "アムロ・レイ is Amuro Ray (Gundam Wiki); Rei is Layzner's computer. Op08 return had 'Amuro Rei'."
+  }
+ ]
+}

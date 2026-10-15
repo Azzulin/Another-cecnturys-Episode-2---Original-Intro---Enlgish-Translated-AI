@@ -1,0 +1,776 @@
+{
+ "batch": "op17_04",
+ "operation": 17,
+ "previous_batch": "op17_03",
+ "next_batch": null,
+ "rows_in_slice": 32,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "オペレーション",
+   "en": "Operation",
+   "kind": "term"
+  },
+  {
+   "ja": "バスターアーク",
+   "en": "Buster Ark",
+   "kind": "unit",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Modified Gun Ark with an evolving Guardian System and fallen-angel styling; Marina's unit while with the Rainen side."
+  },
+  {
+   "ja": "ガーディアン",
+   "en": "Guardian",
+   "kind": "term",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Network of (hundreds of) orbital military satellite cannons of the Rainen Project; Gun Ark/Buster Ark can call it via the Guardian System."
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "星の屑作戦",
+   "en": "Operation Stardust",
+   "kind": "term",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "Delaz Fleet operation of U.C. 0083 (nuclear strike at Konpei Island followed by a colony drop)."
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "ライネン",
+   "en": "Rainen",
+   "kind": "character",
+   "series": "Another Century's Episode 2 (original)",
+   "gender": "male",
+   "role": "Former UCE scientist who warned of alien invasion and led the satellite-cannon defense project (Rainen Project) before being forced out; his name heads the antagonist 'Rainen forces'. Barkholz's father.",
+   "personality": "Visionary 'ignored expert' embittered by the UCE's dismissal of his warnings.",
+   "full_name": "Albert Rainen"
+  },
+  {
+   "ja": "木星蜥蜴",
+   "en": "Jovian Lizards",
+   "kind": "faction",
+   "series": "Martian Successor Nadesico",
+   "role": "Earth's name for the unknown Jovian enemy (actually the Jovian Federation, 木連)."
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  }
+ ],
+ "known_portraits": {
+  "33": {
+   "speaker": "Kouichiro Misumaru",
+   "gender": "male",
+   "role": "UCE Space Force admiral (Yurika's father)",
+   "confidence": "high",
+   "evidence": "brief: '私はＵＣＥ宇宙軍提督のミスマルだ。'"
+  },
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6173#52",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>くそっ！！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#53",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>きゃっ！！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#54",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>上空より砲撃！！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#55",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>く、またか…！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#56",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>さ、さらに来ます！！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#57",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>完全に照準を合わせられている…！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#58",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……引き上げていく。<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#59",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>一体、我々を狙う目的は何なんだ？<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#60",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>マリナ……あえて見逃したのか。<ab(600)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#61",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……ギワザ様、いかがでしょうか？<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#62",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>使える。　…あの機体は使えるぞ。<ab(600)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#63",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>こっちに来ます！<ab(200)><ed()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6173#64",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(900)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんということだ…<ab(900)><ed()>",
+   "en": "<op()><sp(20)>Unbelievable...<ab(900)><ed()>",
+   "notes": "Pilot in shock after orbital bombardment."
+  },
+  {
+   "ref": "m6173#65",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>相転移エンジン、出力全開！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Phase transition engine,\nfull output!<ab(0)><off()>",
+   "notes": "Nadesico crew preparing engine output for launch."
+  },
+  {
+   "ref": "m6173#66",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ナデシコ、発進！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Nadesico, launch!<ab(0)><off()>",
+   "notes": "Yurika Misumaru ordering Nadesico launch."
+  },
+  {
+   "ref": "m6173#67",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アルビオンをやるなら、俺をやれ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>If you want the Albion,\ntake me down first!<ab(400)><ed()>",
+   "notes": "Pilot (Kou Uraki or Tak) protecting Albion from attack."
+  },
+  {
+   "ref": "m6173#68",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どうした！　やってみろ！<ab(300)>",
+   "en": "<op()><sp(20)>What is wrong?! Give it a try!<ab(300)>",
+   "notes": "Pilot taunting the enemy."
+  },
+  {
+   "ref": "m6173#69",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今からそっちに行く！<ab(300)>",
+   "en": "<op()><sp(20)>I am coming right at you!<ab(300)>",
+   "notes": "Pilot charging forward."
+  },
+  {
+   "ref": "m6173#70",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>俺を倒してすむなら…好きにしろ。<ab(400)><ed()>",
+   "en": "<sp(20)>If taking me down will satisfy you...\ndo as you please.<ab(400)><ed()>",
+   "notes": "Pilot defiant."
+  },
+  {
+   "ref": "brief63184#0",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "<im(15)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(16)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>ご苦労だったな。\n<im(1)>諸君らの活躍で、<im(15)>#c[5E8FD8]ナデシコ#cは無事に\n<im(16)>月へ向かっている。",
+   "en": "<op(33,1)><sp(2)>Good work.<im(1)>\nThanks to your efforts, the <im(15)>#c[5E8FD8]Nadesico#c\nis safely <im(16)>heading for the Moon.",
+   "notes": "Admiral Kouichiro Misumaru opening debriefing."
+  },
+  {
+   "ref": "brief63184#1",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(4)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(2)>今後の任務だが、このまま#c[5E8FD8]ナデシコ#cを\n<im(4)>追って月へ向かって欲しい。\nよろしく頼んだぞ。",
+   "en": "<op(33,1)><sp(2)><im(2)>As for your next mission, I want you to\npursue the #c[5E8FD8]Nadesico#c <im(4)>to the Moon.\nI am counting on you.",
+   "notes": "Admiral Misumaru ordering Albion force to pursue Nadesico to Moon."
+  },
+  {
+   "ref": "brief63184#2",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(5)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(5)>そうそう、#c[5E8FD8]スカル小隊#cは#c[5E8FD8]アルビオン#c隊を離れ、\n本来所属すべき部隊へと配属になる。\nそのつもりでいてくれ。",
+   "en": "<op(33,1)><sp(2)><im(5)>Ah yes, #c[5E8FD8]Skull Squadron#c will leave the\n#c[5E8FD8]Albion#c and return to their original unit.\nPlease bear that in mind.",
+   "notes": "Admiral Misumaru announcing Skull Squadron reassignment."
+  },
+  {
+   "ref": "brief63184#3",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(12)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(12)>先の戦闘で回収した#c[BE5050]木星蜥蜴#cの機体は\n#c[5E8FD8]ナデシコ#cに運び込まれた。\n近々分析結果が出るだろう。",
+   "en": "<op(37,1)><sp(2)><im(12)>The #c[BE5050]Jovian Lizard#c unit recovered in the\nlast battle was brought onto the #c[5E8FD8]Nadesico#c.\nAnalysis results should arrive soon.",
+   "notes": "Captain Eyphar Sinapus reporting on recovered enemy unit."
+  },
+  {
+   "ref": "brief63184#4",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>正体不明の#c[BE5050]木星蜥蜴#cの実態を知るための\n手がかりになるのではと、期待している。",
+   "en": "<op(37,1)><sp(2)>We hope it provides a clue to uncover the\ntrue nature of the unknown #c[BE5050]Jovian Lizards#c.",
+   "notes": "Sinapus hoping for intelligence insight."
+  },
+  {
+   "ref": "brief63184#5",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(13)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>さて、<im(13)>正体不明と言えば、\n#c[BE5050]バスターアーク#cだが……",
+   "en": "<op(37,1)><sp(2)>Now, <im(13)>speaking of unknowns,\nthere is also the #c[BE5050]Buster Ark#c...",
+   "notes": "Sinapus transitioning to Buster Ark."
+  },
+  {
+   "ref": "brief63184#6",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>優勢な状況にありながら、\nなぜ最後まで戦わなかったのか…\n奴の目的がさっぱりわからん。",
+   "en": "<op(37,1)><sp(2)>Despite holding the advantage,\nwhy did it not fight to the end...?\nI have no idea what its goal is.",
+   "notes": "Sinapus perplexed by Buster Ark withdrawing."
+  },
+  {
+   "ref": "brief63184#7",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>今回の戦闘記録は#c[5E8FD8]諜報部#cへ報告しておく。\nあの機体が気になる者もいるだろうが、\n本来の任務のことは忘れんようにな。",
+   "en": "<op(37,1)><sp(2)>I will report combat data to #c[5E8FD8]Intelligence#c.\nSome of you may worry about that unit,\nbut do not forget your original mission.",
+   "notes": "Sinapus reporting to Intelligence while keeping squad focused."
+  },
+  {
+   "ref": "brief63184#8",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(14)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(14)>本艦はこれより月へ針路を向ける。",
+   "en": "<op(37,1)><sp(2)><im(14)>This ship will now set course for the Moon.",
+   "notes": "Sinapus setting course for Moon."
+  },
+  {
+   "ref": "brief63260#0",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「ライネンの目的」\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　ＵＣＥ諜報部",
+   "en": "<sp(0)>\"Rainen's Objective\"\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　UCE Intelligence",
+   "notes": "Report title and author. fix: double space and leading spaces -> replaced with fullwidth Japanese spaces"
+  },
+  {
+   "ref": "brief63260#1",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>本件は、軍事衛星#c[BE5050]ガーディアン#cに関する\n調査報告である。\n",
+   "en": "<sp(0)>This is an investigative report\nconcerning the military satellite\n#c[BE5050]Guardian#c.",
+   "notes": "Report subject line."
+  },
+  {
+   "ref": "brief63260#2",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[5E8FD8]ＵＣＥ設計局#cの調査によって、新たに\n判明した情報を、過去の調査結果と\n合わせてここにまとめる。",
+   "en": "<sp(0)>Here we summarize new findings from the\n#c[5E8FD8]UCE Design Bureau#c, combined with\nprevious investigation results.",
+   "notes": "Introduction referencing UCE Design Bureau."
+  },
+  {
+   "ref": "brief63260#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c",
+    "<im(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>まず、以前より確認されてきた#c[BE5050]衛星#cの機能\nとして、#c[BE5050]バスターアーク#cの<im(1)>オペレーション\nによる遠距離砲撃が挙げられる。",
+   "en": "<sp(0)>First, among previously known #c[BE5050]satellite#c\nfunctions is long-range artillery operated\nby the #c[BE5050]Buster Ark#c.<im(1)>",
+   "notes": "Describing Buster Ark satellite coordination."
+  },
+  {
+   "ref": "brief63260#4",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>これは、星の屑作戦でもすでに\n見られた高出力レベルの砲撃<im(2)>を\n可能とする機能である。",
+   "en": "<sp(0)>This capability allows high-output\nbombardment <im(2)>of the level previously seen\nduring Operation Stardust.",
+   "notes": "Referencing Operation Stardust."
+  },
+  {
+   "ref": "brief63260#5",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>そして今回、軍事衛星#c[BE5050]ガーディアン#cには\nさらなる出力を引き出すための機構が\n備わることも明らかとなった。",
+   "en": "<sp(0)>Furthermore, it has been revealed that the\nmilitary satellite #c[BE5050]Guardian#c is fitted with\na mechanism to yield even greater output.",
+   "notes": "Describing increased satellite output mechanism."
+  },
+  {
+   "ref": "brief63260#6",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>それは複数の#c[BE5050]ガーディアン#cを同時に\n発動させることで再現可能となる\n攻撃機能である。",
+   "en": "<sp(0)>This attack function is realized by\nsimultaneously activating multiple\n#c[BE5050]Guardians#c.",
+   "notes": "Explaining multi-satellite linkage."
+  },
+  {
+   "ref": "brief63260#7",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[BE5050]ガーディアン#cの制御には、他衛星との\nデータリンクシステムが実装されており、\n複数を同時に使用できる設計となっている。",
+   "en": "<sp(0)>#c[BE5050]Guardian#c control incorporates an inter-\nsatellite data-link system, designed to\nenable simultaneous multi-unit operation.",
+   "notes": "Technical details of data-link system."
+  },
+  {
+   "ref": "brief63260#8",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>すなわちこれは、複数の軍事衛星からの\n同時砲撃が可能であることを示唆する。\n",
+   "en": "<sp(0)>In other words, this indicates that\nsimultaneous bombardment from multiple\nmilitary satellites is possible.",
+   "notes": "Stating implication of simultaneous bombardment."
+  },
+  {
+   "ref": "brief63260#9",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>仮に数百基の#c[BE5050]ガーディアン#cを使用した場合、\nコロニーレベルの質量の物体さえも破壊する\n超出力の砲撃が実現できるだろう。",
+   "en": "<sp(0)>Using hundreds of #c[BE5050]Guardians#c could yield\nan ultra-output strike able to destroy\neven a colony-scale mass.",
+   "notes": "Warning of colony-destroying potential with hundreds of Guardians. fix: line length exceeded 430px -> compacted into three lines"
+  },
+  {
+   "ref": "brief63260#10",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>以下は、これらを踏まえた仮説である。\n\n",
+   "en": "<sp(0)>The following is a hypothesis based upon\nthese findings.\n",
+   "notes": "Hypothesis preface."
+  },
+  {
+   "ref": "brief63260#11",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>今までに集められた計測データによれば、\n衛星砲撃を使用した際の砲撃精度や\n出力制御には、まだ不十分な点があった。",
+   "en": "<sp(0)>Telemetry gathered so far indicates that\nfiring accuracy and output control during\nsatellite strikes were still imperfect.",
+   "notes": "Analyzing targeting and calibration inaccuracies."
+  },
+  {
+   "ref": "brief63260#12",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(3)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>そこで#c[BE5050]ライネン#cは、その誤差を修正する\nために、各地の襲撃<im(3)>を繰り返している\nのではないか。",
+   "en": "<sp(0)>Thus, #c[BE5050]Rainen#c may be repeatedly mounting\nraids across various regions <im(3)>in order\nto calibrate these discrepancies.",
+   "notes": "Hypothesizing Rainen's attacks are calibration tests."
+  },
+  {
+   "ref": "brief63260#13",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>実際に過去のデータからは、#c[BE5050]バスターアーク#c\nが出現する度に、これらの性能及び出力が\n向上していることが確認されている。",
+   "en": "<sp(0)>Indeed, data confirms that every time the\n#c[BE5050]Buster Ark#c appears, this performance and\noutput have shown steady improvement.",
+   "notes": "Evidence of Buster Ark's evolving performance."
+  },
+  {
+   "ref": "brief63260#14",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>これが事実であると仮定した場合…\n#c[BE5050]ライネン#cは、兵力に依存しない軍事力\nの確立が可能となる。",
+   "en": "<sp(0)>Assuming this hypothesis holds true...\n#c[BE5050]Rainen#c would establish military strength\nindependent of conventional manpower.",
+   "notes": "Rainen establishing autonomous unmanned military power."
+  },
+  {
+   "ref": "brief63260#15",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>これをどのように使うのかは、予測できない\nが、#c[BE5050]ガーディアン#cが強大な危険を帯びた存在\nであることだけは間違いない。",
+   "en": "<sp(0)>How he will use this cannot be foreseen,\nbut there is no doubt that the #c[BE5050]Guardian#c\nposes an immense and grave danger.",
+   "notes": "Conclusion warning of Guardian threat."
+  }
+ ],
+ "context_after": [],
+ "report": {
+  "translator_summary": "Conclusion of Phase 3 combat with Nadesico successfully launching on phase transition engines towards the Moon; debriefing by Admiral Kouichiro Misumaru and Captain Eyphar Sinapus confirming Nadesico's transit to the Moon and Skull Squadron's transfer back to their home unit; Sinapus reports that the downed Jovian mecha was transferred to Nadesico for analysis, and puzzles over Buster Ark's withdrawal despite having the advantage; UCE Intelligence report detailing the Guardian satellite network, revealing that hundreds of linked satellites could deliver colony-destroying firepower and that Rainen's attacks are calibration tests to refine satellite targeting without needing manpower.",
+  "rows_examined": "op17_03 (m6173#58-63), op17_04 (m6173#64-70, brief63184#0-8, brief63260#0-15)",
+  "rows_examined_count": 32,
+  "uncertainties": [
+   "In m6173#67-70, Kou Uraki / Tak challenges the Buster Ark and satellite bombardment to shield the Albion.",
+   "In brief63184#2, Skull Squadron (Roy Focker, Hikaru Ichijo, Max Jenius) leaves the Albion force to return to Macross forces.",
+   "In brief63260#0-15, the intelligence report explains the Guardian satellite network and Rainen's true goal of unmanned orbital firepower."
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {
+   "33": "Kouichiro Misumaru",
+   "37": "Eyphar Sinapus"
+  }
+ }
+}

@@ -1,0 +1,1806 @@
+{
+ "batch": "op10_02",
+ "operation": 10,
+ "previous_batch": "op10_01",
+ "next_batch": "op10_03",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "ディストーションフィールド",
+   "en": "Distortion Field",
+   "kind": "term",
+   "series": "Martian Successor Nadesico",
+   "role": "Nadesico's gravity-wave barrier; also the Aestivalis/Nadesico-unit defensive weapon in the tutorial."
+  },
+  {
+   "ja": "バスターアーク",
+   "en": "Buster Ark",
+   "kind": "unit",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Modified Gun Ark with an evolving Guardian System and fallen-angel styling; Marina's unit while with the Rainen side."
+  },
+  {
+   "ja": "エステバリス",
+   "en": "Aestivalis",
+   "kind": "unit",
+   "series": "Martian Successor Nadesico",
+   "role": "Nergal mass-produced mecha; used alone and in エステバリス隊 (Aestivalis squad/team)."
+  },
+  {
+   "ja": "オーラ力",
+   "en": "Aura Power",
+   "kind": "term",
+   "series": "Aura Battler Dunbine",
+   "role": "The aura energy of a pilot; also the name of a Dunbine-family ability that multiplies attack power for a while (Weapon 6)."
+  },
+  {
+   "ja": "テンカワ",
+   "en": "Tenkawa",
+   "kind": "character",
+   "series": "Martian Successor Nadesico",
+   "gender": "male",
+   "role": "Surname of Akito Tenkawa; used alone (テンカワ君, テンカワ機 = Tenkawa's unit)."
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "マーベル",
+   "en": "Marvel",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "female",
+   "role": "Holy Warrior from a ranching family near Dallas, Texas; resistance pilot (House Givun); pilots Dunbine in ACE2",
+   "personality": "Confident, kind and level-headed. A skilled pilot who first meets Sho as an enemy and talks him into questioning Drake. She loves Sho and wishes he would admit his feelings.",
+   "full_name": "Marvel Frozen"
+  },
+  {
+   "ja": "ミスマル",
+   "en": "Misumaru",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "male",
+   "role": "Admiral of the United Earth forces (Third Fleet); Yurika's father; senior UESF commander in PoD",
+   "personality": "Doting, emotional father; stern but decent commander",
+   "full_name": "Kouichiro Misumaru"
+  },
+  {
+   "ja": "木星蜥蜴",
+   "en": "Jovian Lizards",
+   "kind": "faction",
+   "series": "Martian Successor Nadesico",
+   "role": "Earth's name for the unknown Jovian enemy (actually the Jovian Federation, 木連)."
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "アキト",
+   "en": "Akito",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "male",
+   "role": "TV: cook and Aestivalis pilot of the Nadesico, a Class-A Boson Jumper. PoD: the \"Prince of Darkness\", Black Sarena pilot hunting the Martian Successors",
+   "personality": "TV: kind, reluctant and insecure Gekiganger fan who wants to be a cook. PoD: cold, grim and vengeful after experiments destroyed his senses",
+   "full_name": "Akito Tenkawa"
+  },
+  {
+   "ja": "ショウ",
+   "en": "Show",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Protagonist; Holy Warrior (Seisenshi) from Tokyo summoned to Byston Well; defects from Drake Luft to the resistance; pilots Dunbine, later Billbine",
+   "personality": "Hot-blooded, stubborn young motocross racer who grows into a serious, driven warrior. Has huge Aura Power but struggles to control it. Has unspoken feelings for Marvel.",
+   "full_name": "Sho Zama"
+  },
+  {
+   "ja": "シーラ",
+   "en": "Ciela",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "female",
+   "role": "Queen of the Kingdom of Na; commands the aura battleship Gran-Garan; gives Sho the Billbine",
+   "personality": "Serene, dignified young queen with strong Aura Power and a sense of duty to all of Byston Well. Calm but resolute.",
+   "full_name": "Ciela Lapana"
+  },
+  {
+   "ja": "トッド",
+   "en": "Todd",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "American Holy Warrior summoned with Sho; fights for Drake and later Bishot Hate; pilots Wryneck in ACE2",
+   "personality": "Brash and proud. At first he treats Byston Well as a game, then becomes obsessed with beating Sho to save his pride. Makes poor choices.",
+   "full_name": "Todd Guinness"
+  },
+  {
+   "ja": "ヤマダ",
+   "en": "Yamada",
+   "kind": "character",
+   "series": "Martian Successor Nadesico",
+   "gender": "male",
+   "role": "Surname of Jiro Yamada (who calls himself Gai Daigoji); used alone (ヤマダさん)."
+  },
+  {
+   "ja": "ユリカ",
+   "en": "Yurika",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "female",
+   "role": "Captain of the ND-001 Nadesico; Akito's childhood friend and later wife; prisoner of the Martian Successors in PoD",
+   "personality": "Cheerful, airheaded and clingy toward Akito, but a genuinely brilliant tactician",
+   "full_name": "Yurika Misumaru"
+  },
+  {
+   "ja": "ルリ",
+   "en": "Ruri",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "female",
+   "role": "TV: operator/science officer of the Nadesico. PoD: Lieutenant Commander, captain of the Nadesico B (\"Electronic Fairy\")",
+   "personality": "Deadpan, cool, blunt child prodigy (catchphrase \"bunch of fools\"); slowly warms to the crew",
+   "full_name": "Ruri Hoshino"
+  },
+  {
+   "ja": "提督",
+   "en": "Admiral",
+   "kind": "rank"
+  }
+ ],
+ "known_portraits": {
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6102#21",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ショウ！？　ショウ・ザマか！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#22",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>あなたたち！　ショウを知ってるの！？<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#23",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ショウさんじゃないの？<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#24",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ショウは今、そっちに向かってます。<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#25",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>アルビオンか！　ありがたい！\n艦長さん、俺はこっちです！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#26",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>お前がショウ・ザマか！\n一体これは何が起こっているんだ！？<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#27",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>わけは後で話す！\n今はとにかく、俺たちに協力してください！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#28",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……艦長、彼らを味方につけておくことは、<ab(0)>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#29",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>情報を得る上で、我々にとっても\n大きなメリットがあるかと。<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#30",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>…そうだな。\nショウ・ザマ、君を信じよう。<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#31",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>高速で接近する機影があります！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#32",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>何！？<ab(100)><ed()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6102#33",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>貴様、トッドか！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#34",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ショウ！　よくぞ生きて地上に！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#35",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>オーラ力のパワーアップが\nお前だけだと思うなよ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#36",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ショウめぇ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#37",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ショウ！　マーベルめ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#38",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコとの距離が離されます。<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#40",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このままだとナデシコに追いつけません！<ab(600)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#41",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>むぅ…<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#42",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコ、大気圏離脱態勢に入りました！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#43",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>間に合わなかったか…<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#44",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この地上人ども、手強いぞ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#45",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>戦況はこう着状態です！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#46",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ふむ…このくらいでないとな。<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#47",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>新たな敵艦を確認！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#48",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦を撃墜！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#49",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…ここは退くのだ。<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#50",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>所属不明機たちが、撤退します。<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#51",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今度こそ聞こう。\n君たちは一体何者なのかね？<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#52",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…話すと長くなる。\n地上に飛ばされて俺たちも混乱しています。<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#53",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>まずはシーラ女王と接触したい。<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#54",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こちらも任務中だ…話は後だな。<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#55",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>乗艦できるか？　軍には我々が話を通す。\nそのままでいると、また敵とみなされるぞ。<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#56",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よし、行こう、マーベル！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#57",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>わかったわ！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#58",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ん？　木星蜥蜴、撤退します。<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#59",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>妙だな…まだ交戦しても…！？<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#60",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ここは…！<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#61",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ショウ、平気！？<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6102#62",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ああ…大丈夫だ。<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63075#2",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>ようやく<im(1)>本命の#c[5E8FD8]ナデシコ#cを捕捉した。\nこれより停止勧告を出す。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63075#3",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "#c[F07141]",
+    "#c",
+    "<im(4)>",
+    "<tr(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>無論、彼らもおとなしく従うつもりは\nないだろう。よって、<im(2)>被害の出ぬ範囲で\n#c[F07141]ナデシコへの威嚇射撃#cを許<im(4)>可する。<tr(1)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63075#4",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(6)>",
+    "<of(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>彼らも何を出してくるかわから<im(6)>んから、\n<of(1)>十分に注意はしてくれたまえ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#0",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "一定時間経過",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#1",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ナデシコの撃破",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#2",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ナデシコが領域を離脱",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#3",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "エステバリスの撃破",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#4",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "バスターアークの撃破",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#5",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ナデシコ",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#7",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>前方に目標を確認。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#8",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>つないでくれ。<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#9",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>戦艦ナデシコに告ぐ。\n今すぐその場で停船せよ。<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#10",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>聞き入れぬ場合、\n貴艦の安全は保障しかねる。<ab(800)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#11",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>後方にＵＣＥ所属の戦艦を確認。\n停船勧告が来ています。<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#12",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>え？　え～と？\nあなたたち、誰ですか？<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#13",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>周辺に敵反応！　木星蜥蜴です！<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#14",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いつの間に…！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#15",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>安全の確保が最優先だな。<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#16",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>周辺の敵を撃破しろ！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#17",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>え？　護衛してくれちゃうんですか？<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#18",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>みなさん！　ご協力、感謝します！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#19",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そうではない！　今すぐ停船したまえ！<ab(0)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#20",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ユリカ！\n何をやってるんだ！　すぐに艦を降りなさい！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#21",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>て、提督！？<ab(0)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#22",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>通信に割り込みをかけているわね…<ab(600)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#23",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それは……できません！<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#24",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>今の私は、ミスマル家の長女でも、\nお父様の娘でもない！<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#25",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ここが私の場所ですから。\nごめんなさい！　お父様！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#26",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(50)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコ、回線を閉じました。<ab(50)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#27",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……ユリカッ！！<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#28",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコ、引力圏脱出準備に入りました。<ab(600)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#29",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どうやら口だけでは聞かないようだな。<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#30",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>威かく射撃を継続しろ。<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#31",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>わっ！　本当に撃ってきた！！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#32",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>勧告に応じなかったので当然です。<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#33",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>でもただの威かくですから。<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#34",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ルリちゃん、ディストーションフィールドは？<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#35",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>最大出力で展開中です。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#36",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>じゃあ平気、平気！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#37",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ディストーションフィールド、出力低下。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#38",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ちょ、ちょっと、大丈夫！？<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#39",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>相転移エンジン、出力低下。\n高度、低下します。<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#40",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>え！！　うっそー！？<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#41",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>チェックメイトだな。<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#42",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あ。<ab(0)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#43",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どうしたの！？<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#44",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ヤマダさん、勝手に発艦します。<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#45",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>テンカワ機、発進しました。<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#46",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アキト！　また私のために…<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#47",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いくぜ、ゲキガンミサイル！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6103#48",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あ、俺……子供の頃見てた。\nゲキガンガー。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6103#49",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>だったら、なぜ悪の側につくんだぁ！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#50",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>なにぃ？　誰が悪だってんだよ！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#51",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>…相手すんな。<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#52",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>…こうなったら、やるしか！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#53",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>エステバリス、出力低下。\nこれ以上の戦闘は危険です。<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#54",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>そ、そんな～！！<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#55",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>そのへんで十分だろう。<ab(50)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#56",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>右舷前方！！　高速で接近する機影！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#57",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>強敵出現！　燃える展開だぜぇ～！<ab(1000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#58",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>アキト！　ヤマダさん！　チャンスです！　\nナデシコに飛び乗って！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#59",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>アキト！　お前は先に行けぇ！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#60",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>何言ってんだ、早くこいよ！<ab(200)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "",
+  "rows_examined": "",
+  "rows_examined_count": 0,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

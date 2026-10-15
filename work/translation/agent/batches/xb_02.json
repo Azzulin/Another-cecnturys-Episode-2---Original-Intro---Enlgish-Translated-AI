@@ -1,0 +1,1731 @@
+{
+ "batch": "xb_02",
+ "operation": null,
+ "group": "xb",
+ "group_label": "In-game tutorial / manual",
+ "previous_batch": "xb_01",
+ "next_batch": "xb_03",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Amuro Ray",
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "ディストーションフィールド",
+   "en": "Distortion Field",
+   "kind": "term",
+   "series": "Martian Successor Nadesico",
+   "role": "Nadesico's gravity-wave barrier; also the Aestivalis/Nadesico-unit defensive weapon in the tutorial."
+  },
+  {
+   "ja": "ウィンゲルバインダー",
+   "en": "Winger Binder",
+   "kind": "term",
+   "series": "Heavy Metal L-Gaim",
+   "role": "Weapon 4 of the A.Taul (Gablae's Heavy Metal): two arm-mounted binders launched by remote control."
+  },
+  {
+   "ja": "ドモン・カッシュ",
+   "en": "Domon Kasshu",
+   "kind": "character",
+   "series": "Mobile Fighter G Gundam",
+   "gender": "male",
+   "role": "Neo Japan Gundam Fighter (Shining Gundam, then God Gundam); King of Hearts and leader of the Shuffle Alliance",
+   "personality": "Hot-blooded, brash, impulsive and impatient; socially awkward, but has a strong sense of justice. Prone to loud battle cries.",
+   "en_short": "Domon"
+  },
+  {
+   "ja": "ゴッドガンダム",
+   "en": "God Gundam",
+   "kind": "unit",
+   "series": "Mobile Fighter G Gundam",
+   "role": "Domon's second Mobile Fighter (GF13-017NJII), Neo Japan; God Finger and Hyper Mode (Meikyo Shisui)"
+  },
+  {
+   "ja": "ハイパーモード",
+   "en": "Hyper Mode",
+   "kind": "term",
+   "series": "Mobile Fighter G Gundam",
+   "role": "God Gundam's power-up state, triggered when Domon's fighting spirit gauge peaks (tutorial m6302#179-183)."
+  },
+  {
+   "ja": "バーニアゲージ",
+   "en": "vernier gauge",
+   "kind": "generic",
+   "series": "Another Century's Episode series (game system)",
+   "role": "HUD gauge for boosting."
+  },
+  {
+   "ja": "ブレンパワード",
+   "en": "Brain Powerd",
+   "kind": "unit",
+   "series": "Brain Powerd",
+   "role": "The type of Antibody that rebels against Orphan; generic Brain Powerd unit (also the series title)"
+  },
+  {
+   "ja": "ボソンジャンプ",
+   "en": "Boson Jump",
+   "kind": "term",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "Teleportation/time-displacement technology of the setting"
+  },
+  {
+   "ja": "オーラバリア",
+   "en": "Aura Barrier",
+   "kind": "term",
+   "series": "Aura Battler Dunbine",
+   "role": "Defensive field of aura machines and aura ships; Weapon 4 of the Dunbine-family units (reduces damage for a time)."
+  },
+  {
+   "ja": "ガーディアン",
+   "en": "Guardian",
+   "kind": "term",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Network of (hundreds of) orbital military satellite cannons of the Rainen Project; Gun Ark/Buster Ark can call it via the Guardian System."
+  },
+  {
+   "ja": "クローアーム",
+   "en": "claw arm",
+   "kind": "term",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "Neue Ziel's wired claw arms, fired from the main arms (有線クローアーム = Wired Claw Arm)."
+  },
+  {
+   "ja": "V-MAX",
+   "en": "V-MAX",
+   "kind": "term",
+   "series": "Blue Comet SPT Layzner",
+   "role": "The Layzner's (and Zakaal's) overdrive system: wraps the unit in a blue magnetic field for a high-speed charge that is impervious to lasers ('Blue Comet')."
+  },
+  {
+   "ja": "アビリティ",
+   "en": "Ability",
+   "kind": "generic",
+   "series": "Another Century's Episode series (game system)",
+   "role": "Unit ability; game also writes アビリティー."
+  },
+  {
+   "ja": "ガウォーク",
+   "en": "GERWALK",
+   "kind": "term",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Intermediate (legged fighter) mode of the VF-1 Valkyrie."
+  },
+  {
+   "ja": "バインダー",
+   "en": "binder",
+   "kind": "term",
+   "series": "Heavy Metal L-Gaim",
+   "role": "Shoulder/arm weapon-pod of Heavy Metals; short for ウィンゲルバインダー / ラウンドバインダー / サーカスバインダー."
+  },
+  {
+   "ja": "バトロイド",
+   "en": "Battroid",
+   "kind": "term",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Humanoid mode of the VF-1 Valkyrie (バトロイド形態 = Battroid mode)."
+  },
+  {
+   "ja": "バルキリー",
+   "en": "Valkyrie",
+   "kind": "unit",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "U.N. Spacy VF-1 variable fighter series."
+  },
+  {
+   "ja": "ファイター",
+   "en": "Fighter",
+   "kind": "term",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Jet-fighter mode of the VF-1 Valkyrie (ファイター形態 = Fighter mode)."
+  },
+  {
+   "ja": "オーラ力",
+   "en": "Aura Power",
+   "kind": "term",
+   "series": "Aura Battler Dunbine",
+   "role": "The aura energy of a pilot; also the name of a Dunbine-family ability that multiplies attack power for a while (Weapon 6)."
+  },
+  {
+   "ja": "ダッシュ",
+   "en": "Dash",
+   "kind": "generic",
+   "series": "Another Century's Episode series (game system)",
+   "role": "Boost dash."
+  },
+  {
+   "ja": "バーニア",
+   "en": "vernier",
+   "kind": "generic",
+   "series": "Another Century's Episode series (game system)",
+   "role": "Boost thrust resource (バーニア消費)."
+  },
+  {
+   "ja": "明鏡止水",
+   "en": "Meikyo Shisui",
+   "kind": "term",
+   "series": "Mobile Fighter G Gundam",
+   "role": "God Gundam's higher state (明鏡止水モード) reached when Domon's heart attains a serene mind."
+  },
+  {
+   "ja": "オーラ",
+   "en": "aura",
+   "kind": "term",
+   "series": "Aura Battler Dunbine",
+   "role": "Life energy of Byston Well that powers aura machines; used alone in lines like オーラの力 / 悪しきオーラ / オーラ光."
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  }
+ ],
+ "known_portraits": {},
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6302#68",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>敵の近接攻撃に合わせて\nタイミングよく使用しましょう。<ab(4000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#69",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>ワイヤー攻撃は、対象をワイヤーで捕獲して\n様々な追加攻撃を繰り出せる機能です。<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#70",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>射出したワイヤーが対象にヒットすると、\n対象を捕えることができます。<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#71",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>その時、タイミングよくメインウェポンボタンか\n近接攻撃を入力することで、<ab(1000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#72",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>様々な攻撃に派生させることが可能です。\n<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#73",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>また、対象のサイズによって\n攻撃の内容が変化します。<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#74",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>対象が著しく巨大な場合は、\nワイヤー攻撃が跳ね返されることもあります。<ab(4000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#75",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>ホールド攻撃は、対象をホールドすることで\n様々な追加攻撃を繰り出せる機能です。<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#76",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>射出した攻撃が対象にヒットすると、\n対象をホールドすることができます。<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#77",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>対象が著しく巨大な場合、ホールド攻撃が\n跳ね返されることもあります。<ab(4000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#78",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>このウェポンは、近接攻撃用の武器を\n投げて攻撃することが可能です。<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#79",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>投げた武器は特定の軌道を描いて\n対象に向かい、<ab(1000)>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6302#80",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>武器の軌道上にいる敵にもダメージを\n与えることが可能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#81",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>投げた武器は対象にヒットすると\n手元に戻ってきますが、<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#82",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>それまでは、その武器を使うウェポンは\n使用できません。注意してください。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#83",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ブレンパワードは出撃時の機嫌によって\n性能が大幅に変化します。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#84",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>出撃時のアーマーが多い場合は、\n機嫌が良くなる確率が上がりますが、<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#85",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>アーマーが低い場合は、機嫌が悪くなる\n確率が上がります。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#86",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>機嫌の良い状態でいてもらうため、\n可能な限り休ませることを心がけてください。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#87",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>機嫌は出撃前のメニュー画面で\n確認することができます。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#88",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>機嫌はミッションの度に変化するので、\n確認は怠らないようにしましょう。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#89",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>Ｖ－ＭＡＸは、ユニットの各性能を\n大幅に上昇させる機能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#90",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>アーマーが一定以下になると\n発動が可能になります。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#91",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>発動中は、体当たりによる強襲攻撃が\n使用できます。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#92",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>バーニアゲージが０になると解除され、\n数秒間行動不能になるのが欠点です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#93",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>高性能である反面、デメリットも大きいので、\nタイミングを考えて利用してください。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#94",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>現在の搭乗ユニットには、\nビームコーティングが搭載されています。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#95",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>この機能は、ビーム系攻撃による\nダメージを軽減させることができます。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#96",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ビーム系攻撃を多用する敵に対しては、\n非常に有効な機能です。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#97",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>バイタルジャンプはダメージを受けずに\n回避ができる機能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#98",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>回避操作を行うと、姿を消した状態で\n回避を行います。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#99",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>連続で行うとバーニア消費が大きくなるので\n注意しましょう。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#100",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ボソンジャンプは、攻撃を受けずに\n一定距離を瞬時に移動できる機能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#101",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>発動時に、ユニットが向いている方向に\nジャンプします。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#102",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>敵の攻撃を回避する時、敵の懐に飛び込んで\n強襲をかける時などに利用しましょう。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#103",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ゴッドシャドーはダメージを受けずに\n回避ができる機能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#104",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>回避操作を行った際、複数の幻影を\n作り出すことで攻撃を回避します。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#105",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ＧＰ０３の操作は、通常のユニット操作とは\n異なる特殊操作になります。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#106",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>通常移動時は、通常ユニット操作ですが、\nダッシュ中は戦闘機操作になります。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#107",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ダッシュ中の戦闘機操作は、オプションの\n戦闘機操作タイプが反映されます。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#108",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ウィンゲルバインダーは、遠隔操作による\n攻撃が可能なウェポンです。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#109",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>射出操作を行うと、両腕に装着された\nウィンゲルバインダーが射出されます。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#110",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>射出されたバインダーは、攻撃ボタンを\n押すことで、対象を攻撃します。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#111",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>一定時間が経過すると、バインダーは\n機体の元へ戻ります。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#112",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>射出中は、バインダーが必要な他の攻撃が\n使用できないので注意してください。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#113",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>クローアームは、遠隔操作による\n攻撃が可能なウェポンです。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#114",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>射出操作を行うと、メインアームから\nクローアームが遠方に射出されます。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#115",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>射出されたクローアームは、攻撃ボタンを\n押すことで、対象を攻撃します。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#116",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>一定時間が経過すると、\nメインアームに戻ります。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#117",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>射出中は、メインアームによる直接攻撃が\n使用できないので注意してください。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#118",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>オーラ力は、搭乗者のオーラの力により、\nユニットの攻撃力を倍増させる機能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#119",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>オーラ力が発揮されるのは一定時間のみ\nですが、その効果は絶大です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#120",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>適切なタイミングで使うことで、戦闘を有利に\n進めることができるでしょう。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#121",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ゴッドガンダムは、戦闘することで\nパワーアップしていく特殊なユニットです。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#122",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>敵を倒した時、チェイン中の時、\nあるいはピンチに陥った時などに、<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#123",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>搭乗者であるドモン・カッシュの闘気が\n徐々に上がっていきます。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#124",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>そして、その闘気が最高潮に達した時、\nハイパーモードが発動します。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#125",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ハイパーモードに移行すると、ユニットの\n各性能が大幅に上昇するとともに、<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#126",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>特定の必殺技が使用可能になります。\n<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#127",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ただし、必殺技を使用した場合、\nハイパーモードは解除されます。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#128",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>また、ハイパーモード中、必殺技を\n使用しないまま戦闘を重ねていくと、<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#129",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ドモン・カッシュの心がさらに\n燃え上がって行きます。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#130",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>そして、その心が明鏡止水の境地に\n到達した時―<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#131",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ゴッドガンダムは黄金に輝き、\n明鏡止水モードへと移行します。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#132",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>明鏡止水モードでは、さらに強力な\n必殺技を使用することができます。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#133",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>必殺技を使用した場合は、\n明鏡止水モードは解除されます。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#134",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>チャフは、ミサイルの誘導機能を、\n一定時間無効化できる機能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#135",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ミサイルを多用する敵に対して、\n有効に活用してください。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#136",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ミサイルの誘導機能を、\n一定時間無効化できる機能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#137",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>オーラバリアは、敵の攻撃によるダメージを、\n一定時間軽減できる機能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#138",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>多数の敵や、強力な武装を持つ敵と\n戦う時などに有効に活用してください。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#139",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>チャクラシールドは、敵の攻撃による\nダメージを、一定時間軽減できる機能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#140",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ディストーションフィールドは、\n重力波を利用したバリアの一種で、<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#141",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>エネルギー系兵器の攻撃を\nそらすことができます。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#142",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>激しい射撃戦の時などに活用してください。\n<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#143",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>バルキリー系のユニットは、\n３段変形のアビリティを持っており、<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#144",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ファイター形態、ガウォーク形態、\nバトロイド形態の３形態に変形できます。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#145",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>各形態への変形は、昇順変形と\n降順変形で操作することができます。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#146",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>昇順はバトロイド、ガウォーク、ファイターの\n順に変形し、降順はその逆に変形します。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#147",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ファイター形態は、戦闘機形態です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#148",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>操作は他の戦闘機形態と同様ですが、\n飛行中のダッシュターンが可能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#149",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ガウォーク形態は、ファイター形態と\nバトロイド形態の中間に当たる形態です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#150",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ファイター形態に似たウェポンを持ち、\nスラスター移動が可能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#151",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>バトロイド形態は、人型の通常形態です。\n<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#152",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>射撃性能は劣りますが、近接攻撃が可能で、\n格闘戦に優れます。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#153",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>各形態の特性を把握した上で、\n戦術に合わせて使い分けましょう。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#154",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>スリットウエハーは、敵をまひさせることが\nできるウェポンです。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#155",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>まひしたユニットは一定時間動けなくなり、\n攻撃･防御共に、大きな隙が生じます。<ab(4000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#156",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ガーディアン砲は、衛星「ガーディアン」\nから呼び出す、高出力の支援砲撃です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#157",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>支援砲撃の出力は、オペレートすることが\n可能です。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#158",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>攻撃ボタンを押し続けることで、\nより高出力の砲撃が発動します。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#159",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ガーディアン砲の有効範囲は、地球から\n数十万キロメートルの宙域に限られています。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6302#160",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>地球から遠く離れた宙域や、\n屋内などでは使用できません。<ab(4000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#161",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>リーンの翼は、ユニットのアーマーが\n一定以下になると自動的に発動します。<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#162",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>発動中は、ユニットの性能が\n大幅に上昇するとともに、<ab(1000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#163",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>リーンの翼を使った各種ウェポンが\n使用可能になります。<ab(4000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#164",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>リーンの翼はユニットの周囲に展開して\nバリアとして使用することが可能です。<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#165",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>発動ボタンを押すことで、任意に\nＯＮ／ＯＦＦを切り替えることが可能です。<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#166",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>展開中には移動することも可能です。\n強襲を仕掛ける際などに利用しましょう。<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#167",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>強力な攻撃を受けた時や、特定の攻撃を\n行った時には、強制的に解除されます。<ab(4000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#168",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>トランスユニットは、遠隔兵器を利用して\n多方向からの攻撃を行うウェポンです。<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#169",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>攻撃ボタンを押すと、トランスユニットが\n対象を包囲するように射出されます。<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#170",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>トランスユニットの展開中は、\nユニットを経由して対象を攻撃します。<ab(4000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#171",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>ファンネルは、対象を自動追尾して\n攻撃するタイプのウェポンです。<ab(4000)>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "",
+  "rows_examined": "",
+  "rows_examined_count": 0,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

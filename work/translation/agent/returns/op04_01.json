@@ -1,0 +1,1698 @@
+{
+ "batch": "op04_01",
+ "operation": 4,
+ "previous_batch": null,
+ "next_batch": "op04_02",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "オペレーション",
+   "en": "Operation",
+   "kind": "term"
+  },
+  {
+   "ja": "ソロモンの悪夢",
+   "en": "Nightmare of Solomon",
+   "kind": "term",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "Anavel Gato's epithet. ソロモン never appears alone in ACE2."
+  },
+  {
+   "ja": "キンバライド",
+   "en": "Kimbareid",
+   "kind": "place",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "Zeon remnant base in an African mine (キンバライド基地, キンバライド鉱山)."
+  },
+  {
+   "ja": "チューリップ",
+   "en": "Chulip",
+   "kind": "term",
+   "series": "Martian Successor Nadesico",
+   "role": "Jovian gate-ships that spawn enemy units; targets of missions like チューリップ掃討 / チューリップ排除."
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "ジオン残党",
+   "en": "Zeon remnants",
+   "kind": "faction"
+  },
+  {
+   "ja": "ファルゲン",
+   "en": "Falguen",
+   "kind": "unit",
+   "series": "Metal Armor Dragonar",
+   "role": "XFMA-09 Falguen, Meio Plato's personal blue-purple Metal Armor"
+  },
+  {
+   "ja": "GP02",
+   "en": "GP02",
+   "kind": "unit",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "Gundam Development Project Unit 2, RX-78GP02A Gundam \"Physalis\", the nuclear-armed Gundam stolen by Gato."
+  },
+  {
+   "ja": "ギガノス",
+   "en": "Giganos"
+  },
+  {
+   "ja": "木星蜥蜴",
+   "en": "Jovian Lizards",
+   "kind": "faction",
+   "series": "Martian Successor Nadesico",
+   "role": "Earth's name for the unknown Jovian enemy (actually the Jovian Federation, 木連)."
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "ガトー",
+   "en": "Gato",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Main antagonist of 0083; Zeon ace \"Nightmare of Solomon\", Delaz Fleet pilot who steals Gundam GP02 and later pilots the Neue Ziel. Rank: Major (U.C. 0083).",
+   "personality": "Honorable, idealistic career soldier; charismatic leader who fights on the front line; hates the Federation but respects worthy opponents.",
+   "full_name": "Anavel Gato"
+  },
+  {
+   "ja": "少佐",
+   "en": "Major",
+   "kind": "rank"
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  },
+  "38": {
+   "speaker": "South Burning",
+   "gender": "male",
+   "role": "Captain, mobile weapons unit commander at Torrington",
+   "confidence": "high",
+   "evidence": "brief63000: 'I'm Captain South Burning.'"
+  },
+  "46": {
+   "speaker": "Amuro Ray",
+   "gender": "male",
+   "role": "Captain, field commander of the Albion's mobile suit team",
+   "confidence": "medium",
+   "evidence": "field-commander briefings from Op04 (brief63044#2); named field commander in brief63169#3"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [],
+ "rows": [
+  {
+   "ref": "brief63003#0",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "オペレーション  ０４",
+   "en": "Operation 04",
+   "notes": ""
+  },
+  {
+   "ref": "brief63003#1",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "キンバライド基地　攻防戦",
+   "en": "Battle of Kimbareid Base",
+   "notes": ""
+  },
+  {
+   "ref": "brief63003#2",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "アルビオンの損傷を抑える",
+   "en": "Minimize damage to the Albion",
+   "notes": ""
+  },
+  {
+   "ref": "brief63003#3",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "チューリップ掃討",
+   "en": "Sweep the Chulip",
+   "notes": ""
+  },
+  {
+   "ref": "brief63003#4",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ガトー追撃",
+   "en": "Pursue Gato",
+   "notes": ""
+  },
+  {
+   "ref": "brief63003#5",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "キンバライド基地侵攻",
+   "en": "Assault Kimbareid Base",
+   "notes": ""
+  },
+  {
+   "ref": "brief63003#6",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<ac(3)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><ac(3)>アフリカ大陸で、#c[BE5050]ジオン軍残党#cの行動が<im(1)>\n活発化しているとの情報が入った。",
+   "en": "<op(37,1)><sp(2)><ac(3)>Word has arrived that #c[BE5050]Zeon remnant#c\nactivity in Africa has intensified.<im(1)>",
+   "notes": "Captain Sinapus."
+  },
+  {
+   "ref": "brief63003#7",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>おそらくこの動きは、アフリカに向かった<im(2)>\n#c[BE5050]ガトー#cらの作戦の一環だと思われる。",
+   "en": "<op(37,1)><sp(2)>This movement is likely part of the plan<im(2)>\nby #c[BE5050]Gato#c and his men in Africa.",
+   "notes": "Captain Sinapus."
+  },
+  {
+   "ref": "brief63003#8",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[BE5050]",
+    "#c",
+    "<im(9)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>近辺の#c[5E8FD8]ＵＣＥ#c基地が、#c[BE5050]ギガノス#cの襲撃を<im(9)>\n何度も受けているとの情報からも、\nそれは間違いないだろう。",
+   "en": "<op(37,1)><sp(2)>Nearby #c[5E8FD8]UCE#c bases have suffered repeated\nattacks by #c[BE5050]Giganos#c, leaving no doubt.<im(9)>",
+   "notes": "Captain Sinapus."
+  },
+  {
+   "ref": "brief63003#9",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(6)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(14)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>#c[BE5050]ジオン残党#cの<im(6)>活動拠点はまだ特定されては\nいないのだが、#c[BE5050]ガトー#cと<im(14)>#c[BE5050]ガンダム２号機#c…\n彼らの目的はそこに違いない。",
+   "en": "<op(37,1)><sp(2)>The #c[BE5050]Zeon remnants#c' active base has yet<im(6)>\nto be found, but #c[BE5050]Gato#c<im(14)> and #c[BE5050]Gundam Unit 2#c...\nthat is surely their destination.",
+   "notes": "Captain Sinapus."
+  },
+  {
+   "ref": "brief63003#10",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>彼らはここで何かを起こすはずだ…\n必ず、#c[F07141]２号機を奪還#cする。",
+   "en": "<op(37,1)><sp(2)>They must be planning something here...\nWe will #c[F07141]recapture Unit 2#c without fail.",
+   "notes": "Captain Sinapus."
+  },
+  {
+   "ref": "brief63003#11",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<of(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>今回はかなり厳しい戦いになるだろうが、<of(1)>\n本艦の損傷はできるだけ抑えないとならん。\n頼んだぞ。",
+   "en": "<op(38,1)><sp(2)>This will be a tough fight,<of(1)> but we must\nkeep damage to this ship to a minimum.\nWe're counting on you.",
+   "notes": "Captain South Burning."
+  },
+  {
+   "ref": "brief63043#0",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "アルビオンの損傷",
+   "en": "Albion Damage",
+   "notes": ""
+  },
+  {
+   "ref": "brief63043#2",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>この忙しい時に、やっかいな連中が現れた。<im(1)>\n#c[BE5050]木星蜥蜴#cどもだ。",
+   "en": "<op(38,1)><sp(2)>Troublesome foes appeared at a bad time.<im(1)>\nIt's those #c[BE5050]Jovian Lizards#c.",
+   "notes": "Captain Burning."
+  },
+  {
+   "ref": "brief63043#3",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<tr(1)>",
+    "<im(7)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>本艦の進路上に、連中が使っている\n#c[BE5050]チューリップ#cとかいう兵器<tr(1)>が\n展開している。<im(7)>",
+   "en": "<op(38,1)><sp(2)>Right in our ship's path, they've deployed\na weapon called a #c[BE5050]Chulip#c.<tr(1)><im(7)>",
+   "notes": "Captain Burning."
+  },
+  {
+   "ref": "brief63043#4",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>知ってのとおり、こいつは放っておくと\n小型機動兵器を次々と吐き出す\n面倒な奴だ。",
+   "en": "<op(38,1)><sp(2)>As you know, if we leave it alone, it'll\nkeep spitting out small mobile weapons.\nIt's a real nuisance.",
+   "notes": "Captain Burning."
+  },
+  {
+   "ref": "brief63043#5",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>本艦は遠回りしている暇はない。\n至急出撃して、#c[F07141]こいつらを片付ける#cんだ。\n",
+   "en": "<op(38,1)><sp(2)>We don't have time to take a detour.\nSortie immediately and #c[F07141]take them out#c.\n",
+   "notes": "Captain Burning. Preserved trailing newline as in source."
+  },
+  {
+   "ref": "brief63043#6",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>時間がないので、待てるのは少しだけだ。\nすぐに前進を再開する。本艦の被害を\n抑えるため、少しでも多く破壊してくれ。",
+   "en": "<op(38,1)><sp(2)>We're short on time and can't wait long.\nWe'll advance soon. Destroy as many as\nyou can to keep damage to our ship down.",
+   "notes": "Captain Burning."
+  },
+  {
+   "ref": "brief63044#2",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 46,
+   "tokens": [
+    "<op(46,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(1)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(46,1)><sp(2)>この先に#c[BE5050]ガンダム２号機#cを確認した。\n攻撃<im(1)>を仕掛けるなら今がチャンスだが、\n#c[BE5050]ギガノス#cも出てきているようだ。",
+   "en": "<op(46,1)><sp(2)>#c[BE5050]Gundam Unit 2#c was spotted up ahead.\nNow is our chance to attack,<im(1)> but\n#c[BE5050]Giganos#c has appeared as well.",
+   "notes": "Amuro Ray."
+  },
+  {
+   "ref": "brief63044#3",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 46,
+   "tokens": [
+    "<op(46,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "<im(8)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "<tr(1)>",
+    "<im(9)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(46,1)><sp(2)><im(2)><im(8)>#c[BE5050]ギガノス#cは#c[5E8FD8]アルビオン#cを狙ってきている。\n時間稼ぎのようにも思えるが…<tr(1)><im(9)>\nまずはこいつらを何とかしないと。",
+   "en": "<op(46,1)><sp(2)><im(2)><im(8)>#c[BE5050]Giganos#c is targeting the #c[5E8FD8]Albion#c.\nIt feels like they're stalling...<tr(1)><im(9)>\nFirst we must deal with them.",
+   "notes": "Amuro Ray."
+  },
+  {
+   "ref": "brief63044#4",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 46,
+   "tokens": [
+    "<op(46,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<of(1)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(46,1)><sp(2)>奴らを#c[5E8FD8]アルビオン#cに<of(1)>近づけさせないよう、\n#c[F07141]周辺に散開して迎撃#cするんだ。",
+   "en": "<op(46,1)><sp(2)>Don't let them near the #c[5E8FD8]Albion#c.<of(1)>\n#c[F07141]Disperse around the ship to intercept#c.",
+   "notes": "Amuro Ray."
+  },
+  {
+   "ref": "m6042#0",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "敵機を２０機以上撃破",
+   "en": "Destroy at least 20 enemy units",
+   "notes": ""
+  },
+  {
+   "ref": "m6042#3",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "撃破数",
+   "en": "Destroyed",
+   "notes": ""
+  },
+  {
+   "ref": "m6042#4",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "tokens": [
+    "%d"
+   ],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "%d機",
+   "en": "%d units",
+   "notes": ""
+  },
+  {
+   "ref": "m6042#5",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ギガノス軍、広範囲に展開して本艦に接近！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Giganos forces approaching over a wide area!<ab(500)><ed()>",
+   "notes": "Bridge operator alert."
+  },
+  {
+   "ref": "m6042#6",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ここはできるだけ早く叩くぞ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Hit them as fast as possible!<ab(400)><ed()>",
+   "notes": "Pilot order."
+  },
+  {
+   "ref": "m6042#7",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵勢力は減少傾向！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Enemy numbers are decreasing!<ab(500)><ed()>",
+   "notes": "Operator status report."
+  },
+  {
+   "ref": "m6042#8",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よし、再度前進する。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>All right, resume the advance.<ab(500)><ed()>",
+   "notes": "Captain order."
+  },
+  {
+   "ref": "m6042#9",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>被害が拡大しています！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Damage is spreading!<ab(100)><ed()>",
+   "notes": "Damage alert."
+  },
+  {
+   "ref": "m6042#10",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>うろたえるな、本艦はまだもつ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Don't panic! This ship can still hold!<ab(500)><ed()>",
+   "notes": "Captain Sinapus."
+  },
+  {
+   "ref": "m6042#11",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いました！　２号機です！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Found it! It's Unit 2!<ab(500)><ed()>",
+   "notes": "Sensor alert."
+  },
+  {
+   "ref": "m6042#12",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>出てきたな！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>There you are!<ab(300)><ed()>",
+   "notes": "Combat callout."
+  },
+  {
+   "ref": "m6042#13",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>艦長、このままでは！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Captain, at this rate...!<ab(500)><ed()>",
+   "notes": "Bridge warning."
+  },
+  {
+   "ref": "m6042#14",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やむをえん…一旦後退する！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>No choice... Fall back for now!<ab(300)><ed()>",
+   "notes": "Sinapus order."
+  },
+  {
+   "ref": "m6042#15",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いいぞ！　そのまま押し込め！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Good! Keep pressing them back!<ab(200)><ed()>",
+   "notes": "Combat shout."
+  },
+  {
+   "ref": "m6042#16",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>少佐殿！　ＨＬＶの打ち上げ時刻が\n迫っています！<ab(200)>",
+   "en": "<op()><sp(20)>Major! The HLV launch time\nis rapidly approaching!<ab(200)>",
+   "notes": "Zeon soldier to Gato. Connects to row 37."
+  },
+  {
+   "ref": "m6042#17",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>急いで基地にお戻りください！<ab(400)><ed()>",
+   "en": "<sp(20)>Please return to the base at once!<ab(400)><ed()>",
+   "notes": "Zeon soldier to Gato."
+  },
+  {
+   "ref": "m6042#18",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>わかった！　砲撃支援を頼む！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Understood! Provide artillery support!<ab(100)><ed()>",
+   "notes": "Gato commands support."
+  },
+  {
+   "ref": "m6042#19",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>はっ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Yes, sir!<ab(200)><ed()>",
+   "notes": "Zeon soldier acknowledgment."
+  },
+  {
+   "ref": "m6042#20",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なぜ２号機を盗んだ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Why did you steal Unit 2?!<ab(300)><ed()>",
+   "notes": "Kou Uraki confronts Gato."
+  },
+  {
+   "ref": "m6042#21",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>もう貴様などに話す舌を持たん！\n戦う意味さえ解せぬ男に！！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>I have no words left for you!\nA man who cannot grasp why he fights!!<ab(400)><ed()>",
+   "notes": "Anavel Gato to Kou Uraki."
+  },
+  {
+   "ref": "m6042#22",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それでも僕は、連邦の士官だ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Even so, I am a Federation officer!<ab(100)><ed()>",
+   "notes": "Kou Uraki."
+  },
+  {
+   "ref": "m6042#23",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それは一人前の男のセリフだ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Those are the words of a real man!<ab(500)><ed()>",
+   "notes": "Gato acknowledges Kou."
+  },
+  {
+   "ref": "m6042#24",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さすがは連邦の白い悪魔。\nだが私とてひけはとらん！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>As expected of the White Devil of the\nFederation. But I will not yield!<ab(500)><ed()>",
+   "notes": "Gato to Amuro Ray."
+  },
+  {
+   "ref": "m6042#25",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やるな…ソロモンの悪夢。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Not bad... Nightmare of Solomon.<ab(500)><ed()>",
+   "notes": "Amuro Ray praises Gato."
+  },
+  {
+   "ref": "m6042#26",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くっ！　ぬかった！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Ghh! A blunder!<ab(300)><ed()>",
+   "notes": "Combat shout."
+  },
+  {
+   "ref": "m6042#27",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>未熟な腕で何度来ようが同じ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>No matter how often you come with\nsuch clumsy skill, it is the same!<ab(300)><ed()>",
+   "notes": "Gato rebuffs attacker."
+  },
+  {
+   "ref": "m6042#28",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くっ！　なんという奴だ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Ghh! What a formidable opponent!<ab(300)><ed()>",
+   "notes": "Combat shout."
+  },
+  {
+   "ref": "m6042#29",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ガトー！　観念しろ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Gato! Give it up!<ab(300)><ed()>",
+   "notes": "Kou Uraki calls out Gato."
+  },
+  {
+   "ref": "m6042#30",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くっ…押されているだと！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Ghh... I'm being pushed back?!<ab(300)><ed()>",
+   "notes": "Gato pressed in combat."
+  },
+  {
+   "ref": "m6042#31",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>またしても奴らか！\n二度ならず三度までも！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Them again?!\nNot just twice, but a third time!<ab(0)><off()>",
+   "notes": "Gato frustrated by persistence."
+  },
+  {
+   "ref": "m6042#32",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>基地の砲撃隊か！<ab(0)><off()>",
+   "en": "<on()><sp(20)>The base's artillery battery?!<ab(0)><off()>",
+   "notes": "Pilot realizes artillery support."
+  },
+  {
+   "ref": "m6042#33",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>覚えておけ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Remember this!<ab(0)><off()>",
+   "notes": "Gato parting warning. Connects to row 54."
+  },
+  {
+   "ref": "m6042#34",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ジオンの中興を阻むものは、\nいつか必ず私に葬り去られるということを！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Any who hinder Zeon's revival will\none day be buried by my own hands!<ab(0)><off()>",
+   "notes": "Gato declaration."
+  },
+  {
+   "ref": "m6042#35",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>追跡を続行するんだ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Continue the pursuit!<ab(0)><off()>",
+   "notes": "Commander order."
+  },
+  {
+   "ref": "m6042#36",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ミッション説明<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Mission explanation)<ab(3000)><ed()>",
+   "notes": "Developer placeholder."
+  },
+  {
+   "ref": "m6042#37",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ほめる<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Praise)<ab(3000)><ed()>",
+   "notes": "Developer placeholder."
+  },
+  {
+   "ref": "m6042#38",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※成功条件を満たしたと誉められる<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Praised for clearing victory conditions)<ab(3000)><ed()>",
+   "notes": "Developer placeholder."
+  },
+  {
+   "ref": "m6042#39",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※がんばれと激励<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Encouragement to do your best)<ab(3000)><ed()>",
+   "notes": "Developer placeholder."
+  },
+  {
+   "ref": "m6042#40",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※急いでくれと急かされる（ヤバい時用）<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Urged to hurry - for crisis moments)<ab(3000)><ed()>",
+   "notes": "Developer placeholder."
+  },
+  {
+   "ref": "m6042#41",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※新たな敵（GP0２）接近のお知らせ<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Notice of new enemy - GP02 - approaching)<ab(3000)><ed()>",
+   "notes": "Developer placeholder."
+  },
+  {
+   "ref": "m6042#42",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※時間切れでミッション失敗だと怒られる<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Scolded for mission failure on timeout)<ab(3000)><ed()>",
+   "notes": "Developer placeholder."
+  },
+  {
+   "ref": "m6042#43",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※誉められる\n※（GP0２）接近のお知らせ<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Praised\nNotice of GP02 approaching)<ab(3000)><ed()>",
+   "notes": "Developer placeholder."
+  },
+  {
+   "ref": "m6042#44",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ミッションアップデートのお知らせ<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Notice of mission update)<ab(3000)><ed()>",
+   "notes": "Developer placeholder."
+  },
+  {
+   "ref": "m6042#45",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ガトーとパイロットの掛け合い<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Gato vs pilot dialogue)<ab(3000)><ed()>",
+   "notes": "Developer placeholder."
+  },
+  {
+   "ref": "m6042#46",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ガトーがプレイヤーを認める<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Gato acknowledges the player)<ab(3000)><ed()>",
+   "notes": "Developer placeholder."
+  },
+  {
+   "ref": "m6042#47",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>頑張ってGP０２を止めてくれ<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>Do your best to stop the GP02<ab(3000)><ed()>",
+   "notes": "Developer placeholder."
+  },
+  {
+   "ref": "m6042#48",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ガトー撤退ボイス（通常）<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Gato retreat voice - normal)<ab(3000)><ed()>",
+   "notes": "Developer placeholder."
+  },
+  {
+   "ref": "m6042#49",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ガトー撤退ボイス（シークレット）<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Gato retreat voice - secret)<ab(3000)><ed()>",
+   "notes": "Developer placeholder."
+  },
+  {
+   "ref": "brief63045#2",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>#c[BE5050]２号機#cの逃走先から、\n敵の基地の場所を割り出した。<im(1)>\nこの先にあるキンバライド鉱山だ。",
+   "en": "<op(37,1)><sp(2)>From #c[BE5050]Unit 2#c's flight path, we determined\nthe location of the enemy base.<im(1)>\nIt is the Kimbareid mine up ahead.",
+   "notes": "Captain Sinapus."
+  },
+  {
+   "ref": "brief63045#3",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<tr(1)>",
+    "<im(9)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>今までの攻撃は明らかに時間稼ぎだ。<tr(1)><im(9)>\n敵はまもなく行動を起こす。",
+   "en": "<op(37,1)><sp(2)>Their attacks so far were clearly stalling.<tr(1)><im(9)>\nThe enemy will make their move shortly.",
+   "notes": "Captain Sinapus."
+  },
+  {
+   "ref": "brief63045#4",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<of(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>これより本艦はキンバライドに向かう。<of(1)>\n敵も激しい抵抗を見せるだろうが、\nここは強行突破を行うぞ。",
+   "en": "<op(37,1)><sp(2)>This ship will now head for Kimbareid.<of(1)>\nThe enemy will put up fierce resistance,\nbut we will force our way through.",
+   "notes": "Captain Sinapus."
+  },
+  {
+   "ref": "brief63045#5",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[F07141]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>各機、#c[F07141]本艦の進行を援護#cしてくれ。\n必ず#c[BE5050]２号機#cを奪還する！",
+   "en": "<op(37,1)><sp(2)>All units, #c[F07141]cover this ship's advance#c.\nWe will recapture #c[BE5050]Unit 2#c without fail!",
+   "notes": "Captain Sinapus."
+  },
+  {
+   "ref": "m6043#1",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "アルビオンの撃沈",
+   "en": "Sinking of the Albion",
+   "notes": "Failure condition header."
+  },
+  {
+   "ref": "m6043#2",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ファルゲンの撃破",
+   "en": "Destroy the Falguen",
+   "notes": "Victory condition header."
+  },
+  {
+   "ref": "m6043#3",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "アルビオン",
+   "en": "Albion",
+   "notes": "Unit name header."
+  },
+  {
+   "ref": "m6043#5",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>さて、どれほどの腕前かな。<ab(700)><off()>",
+   "en": "<on()><sp(20)>Now then, let's see how good you are.<ab(700)><off()>",
+   "notes": "Meio Plato."
+  },
+  {
+   "ref": "m6043#6",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>じょ、上空より高エネルギー反応！<ab(0)><off()>",
+   "en": "<on()><sp(20)>H-High energy reaction from above!<ab(0)><off()>",
+   "notes": "Bridge operator alert."
+  },
+  {
+   "ref": "m6043#7",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>何これ……大気圏外から！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>What is this...?\nFrom outside the atmosphere?!<ab(0)><off()>",
+   "notes": "Pilot astonishment."
+  },
+  {
+   "ref": "m6043#8",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>まさか、こんな精度で！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>No way... with this kind of accuracy?!<ab(0)><off()>",
+   "notes": "Pilot astonishment."
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6043#9",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>……あの機体…！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6043#10",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>敵の攻撃で照準が！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6043#11",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>かまわん、撃て！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6043#12",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>マリナ！　マリナなのか！？<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6043#13",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>どうなんだよ！　答えろよ！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6043#14",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>……奴も逃げる、か。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6043#15",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>あの機体……何者なんだ？<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6043#16",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>ウラキ少尉…！<ab(500)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6043#17",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>本艦に敵機が多数接近！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6043#18",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>かまわん。　前進だ。<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6043#19",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>各機、周辺の敵を迅速に始末しろ！\nこちらもそう長くは持たんぞ！<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6043#20",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>新たな機影を確認！<ab(200)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Strategic and tactical briefings for Operation 04 (Battle of Kimbareid Base), along with Phase 2 and 3 mission dialogues. Captain Sinapus, Captain South Burning, and Captain Amuro Ray direct the pursuit of Anavel Gato and Gundam GP02 (Unit 2) to the Kimbareid mining base in Africa, while facing interference from Jovian Lizards (Chulips) and Giganos forces. In Phase 2, Kou Uraki clashes directly with Gato in intense dialogue before Gato withdraws to prepare the HLV launch. In Phase 3, Meio Plato arrives in the Falguen, followed immediately by an ultra-precise high-energy bombardment striking from outside the atmosphere.",
+  "rows_examined": "brief63003#0 to m6043#8 (slice, 80 rows), m6043#9 to m6043#20 (context_after, 12 rows)",
+  "rows_examined_count": 92,
+  "uncertainties": [
+   {
+    "ref": "m6042#36-49",
+    "note": "Developer placeholder dialogue tags preserved and formatted concisely with parentheses, consistent with Op 02 conventions."
+   },
+   {
+    "ref": "m6042#21",
+    "note": "Anavel Gato's iconic line ('もう貴様などに話す舌を持たん！') translated naturally to preserve his haughty, formal military demeanor."
+   },
+   {
+    "ref": "m6043#1",
+    "note": "Mission failure condition header 'アルビオンの撃沈' translated as 'Sinking of the Albion'."
+   }
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

@@ -1,0 +1,1713 @@
+﻿{
+    "batch":  "xb_03",
+    "operation":  null,
+    "group":  "xb",
+    "group_label":  "In-game tutorial / manual",
+    "previous_batch":  "xb_02",
+    "next_batch":  "xb_04",
+    "rows_in_slice":  80,
+    "do_not_touch_names":  [
+                               "Amuro Ray",
+                               "Barkholz",
+                               "Capt. Burning",
+                               "Captain Burning",
+                               "Captain South Burning",
+                               "Cowen",
+                               "Giganos",
+                               "Lieutenant",
+                               "Lt.",
+                               "Major Anavel Gato",
+                               "Sinapus",
+                               "Tak"
+                           ],
+    "glossary":  [
+                     {
+                         "ja":  "ウィンゲルバインダー",
+                         "en":  "Winger Binder",
+                         "kind":  "term",
+                         "series":  "Heavy Metal L-Gaim",
+                         "role":  "Weapon 4 of the A.Taul (Gablae\u0027s Heavy Metal): two arm-mounted binders launched by remote control."
+                     },
+                     {
+                         "ja":  "バイオリレーション",
+                         "en":  "Bio-Relation",
+                         "kind":  "term",
+                         "series":  "Heavy Metal L-Gaim",
+                         "role":  "Poseidal\u0027s life-energy system: heals armor (Aug\u0027s Weapon 4, akurasu); Poseidal also uses it to brainwash the commander of his Imperial Guard (menu3019#38)."
+                     },
+                     {
+                         "ja":  "バスターランチャー",
+                         "en":  "Buster Launcher",
+                         "kind":  "term",
+                         "series":  "Heavy Metal L-Gaim",
+                         "role":  "L-Gaim Mk-II / Novel D.Sserd main cannon (バスターランチャー(フルパワー) = full power)."
+                     },
+                     {
+                         "ja":  "トランスユニット",
+                         "en":  "Trans Unit",
+                         "kind":  "term",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "role":  "Buster Ark\u0027s remote weapon pods that surround the target (Weapon 2)."
+                     },
+                     {
+                         "ja":  "ハイパージャマー",
+                         "en":  "Hyper Jammer",
+                         "kind":  "term",
+                         "series":  "New Mobile Report Gundam Wing: Endless Waltz",
+                         "role":  "Gundam Deathscythe Hell\u0027s jamming device (Weapon 5): evades enemy lock-on for a time, drains vernier."
+                     },
+                     {
+                         "ja":  "パワーランチャー",
+                         "en":  "Power Launcher",
+                         "kind":  "term",
+                         "series":  "Heavy Metal L-Gaim",
+                         "role":  "Standard Heavy Metal launcher weapon (also ダブルパワーランチャー = Double Power Launcher)."
+                     },
+                     {
+                         "ja":  "バーニアゲージ",
+                         "en":  "vernier gauge",
+                         "kind":  "generic",
+                         "series":  "Another Century\u0027s Episode series (game system)",
+                         "role":  "HUD gauge for boosting."
+                     },
+                     {
+                         "ja":  "オーラバリア",
+                         "en":  "Aura Barrier",
+                         "kind":  "term",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Defensive field of aura machines and aura ships; Weapon 4 of the Dunbine-family units (reduces damage for a time)."
+                     },
+                     {
+                         "ja":  "V-MAX",
+                         "en":  "V-MAX",
+                         "kind":  "term",
+                         "series":  "Blue Comet SPT Layzner",
+                         "role":  "The Layzner\u0027s (and Zakaal\u0027s) overdrive system: wraps the unit in a blue magnetic field for a high-speed charge that is impervious to lasers (\u0027Blue Comet\u0027)."
+                     },
+                     {
+                         "ja":  "アビリティ",
+                         "en":  "Ability",
+                         "kind":  "generic",
+                         "series":  "Another Century\u0027s Episode series (game system)",
+                         "role":  "Unit ability; game also writes アビリティー."
+                     },
+                     {
+                         "ja":  "ファンネル",
+                         "en":  "Funnel",
+                         "kind":  "term",
+                         "series":  "Mobile Suit Gundam: Char\u0027s Counterattack",
+                         "role":  "Sazabi\u0027s remote psycommu weapon (Weapon 6); ν Gundam\u0027s version is フィン・ファンネル (Fin Funnel)."
+                     },
+                     {
+                         "ja":  "リーンの翼",
+                         "en":  "Wings of Rean",
+                         "kind":  "term",
+                         "series":  "The Wings of Rean",
+                         "role":  "Nanajin\u0027s ability (auto-activates at low armor; also usable as a barrier) and the series title (menu3022#12)."
+                     },
+                     {
+                         "ja":  "オーラ力",
+                         "en":  "Aura Power",
+                         "kind":  "term",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "The aura energy of a pilot; also the name of a Dunbine-family ability that multiplies attack power for a while (Weapon 6)."
+                     },
+                     {
+                         "ja":  "バーニア",
+                         "en":  "vernier",
+                         "kind":  "generic",
+                         "series":  "Another Century\u0027s Episode series (game system)",
+                         "role":  "Boost thrust resource (バーニア消費)."
+                     }
+                 ],
+    "known_portraits":  {
+
+                        },
+    "unknown_portraits":  [
+
+                          ],
+    "context_before":  [
+                           {
+                               "ref":  "m6302#148",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003e操作は他の戦闘機形態と同様ですが、\n飛行中のダッシュターンが可能です。\u003cab(4000)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6302#149",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003eガウォーク形態は、ファイター形態と\nバトロイド形態の中間に当たる形態です。\u003cab(4000)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6302#150",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003eファイター形態に似たウェポンを持ち、\nスラスター移動が可能です。\u003cab(4000)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6302#151",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003eバトロイド形態は、人型の通常形態です。\n\u003cab(4000)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6302#152",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003e射撃性能は劣りますが、近接攻撃が可能で、\n格闘戦に優れます。\u003cab(4000)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6302#153",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003e各形態の特性を把握した上で、\n戦術に合わせて使い分けましょう。\u003cab(4000)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6302#154",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003eスリットウエハーは、敵をまひさせることが\nできるウェポンです。\u003cab(4000)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6302#155",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003eまひしたユニットは一定時間動けなくなり、\n攻撃･防御共に、大きな隙が生じます。\u003cab(4000)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6302#156",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003eガーディアン砲は、衛星「ガーディアン」\nから呼び出す、高出力の支援砲撃です。\u003cab(4000)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6302#157",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003e支援砲撃の出力は、オペレートすることが\n可能です。\u003cab(4000)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6302#158",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003e攻撃ボタンを押し続けることで、\nより高出力の砲撃が発動します。\u003cab(4000)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6302#159",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003eガーディアン砲の有効範囲は、地球から\n数十万キロメートルの宙域に限られています。\u003cab(4000)\u003e",
+                               "en":  ""
+                           }
+                       ],
+    "rows":  [
+                 {
+                     "ref":  "m6302#160",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e地球から遠く離れた宙域や、\n屋内などでは使用できません。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eIt cannot be used indoors or in space sectors\nfar away from Earth.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#161",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eリーンの翼は、ユニットのアーマーが\n一定以下になると自動的に発動します。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eWings of Rean activate automatically once the unit\u0027s\nArmor drops below a set threshold.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#162",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e発動中は、ユニットの性能が\n大幅に上昇するとともに、\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003eWhile active, unit specs increase drastically,\nand\u003cab(1000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#163",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eリーンの翼を使った各種ウェポンが\n使用可能になります。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003evarious weapons utilizing the Wings of Rean\nbecome available for use.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#164",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eリーンの翼はユニットの周囲に展開して\nバリアとして使用することが可能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eWings of Rean can be deployed around the unit\nto serve as a barrier.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#165",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e発動ボタンを押すことで、任意に\nＯＮ／ＯＦＦを切り替えることが可能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003ePressing the activation button allows you to freely\ntoggle it on and off.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#166",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e展開中には移動することも可能です。\n強襲を仕掛ける際などに利用しましょう。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eMovement is possible while deployed. Utilize it\nwhen executing assault charges.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#167",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e強力な攻撃を受けた時や、特定の攻撃を\n行った時には、強制的に解除されます。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eIt is forcibly cancelled upon receiving heavy attacks\nor executing specific attacks.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#168",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eトランスユニットは、遠隔兵器を利用して\n多方向からの攻撃を行うウェポンです。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eTrans Units are weapons that utilize remote drones\nto attack from multiple directions.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#169",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e攻撃ボタンを押すと、トランスユニットが\n対象を包囲するように射出されます。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003ePressing the attack button deploys Trans Units\nto encircle the target.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#170",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eトランスユニットの展開中は、\nユニットを経由して対象を攻撃します。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eWhile Trans Units are deployed, attacks strike\nthe target channeled through the units.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#171",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eファンネルは、対象を自動追尾して\n攻撃するタイプのウェポンです。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eFunnels are remote weaponry that automatically track\nand attack the target.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#172",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e射出するだけで、ロック対象に対して\n自動的に攻撃を開始します。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eSimply launching them will cause them to automatically\nattack the locked target.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#173",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e非常に強力な反面、弾数制限があり、\n敵に破壊される場合もあります。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eWhile extremely potent, ammunition is limited\nand they can be shot down by foes.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#174",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e使用するタイミングを見極めて\n有効に活用してください。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eJudge the right moment to deploy them\nand make effective use of them.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#175",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eアクティブクロークはビーム攻撃の\nダメージを軽減することが可能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eActive Cloak allows you to mitigate damage taken\nfrom incoming beam attacks.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#176",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eバイオリレーションは、ばく大な\n生体エネルギーを利用することで、\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003eBio-Relation harnesses vast quantities of biological\nenergy\u003cab(1000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#177",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eユニットのアーマーを回復させることが\nできる機能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eto restore the unit\u0027s Armor.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#178",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eアーマーが低下した時に使用しましょう。\n\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eActivate it when your Armor runs low.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#179",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eＩフィールドは、強力な磁場を発生させ、\nビーム攻撃を無効化させるバリアです。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eAn I-Field is a barrier generating a powerful magnetic\nfield to nullify beam attacks.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#180",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e非常に強力な反面、持続時間が限られている\nため、適切なタイミングで使用しましょう。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eWhile extremely powerful, duration is limited,\nso deploy it at the appropriate moment.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#181",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eＩフィールドは、強力な磁場を発生させ、\n各種兵器を無効化させるバリアです。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eAn I-Field generates a magnetic field barrier\nto nullify incoming attacks.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#182",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e発動させるためには、ファンネルが\n４基必要です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eActivation requires 4 Funnels.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#183",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e持続時間が限られているとともに、\n地形に接触すると自動的に解除されます。\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003eIts duration is limited, and it automatically\ndeactivates upon contact with terrain.\u003cab(1000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#184",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e効果的なタイミングで使用するよう\n心がけましょう。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eTake care to deploy it at effective moments.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#185",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eダミー・バルーンは、ダミーを射出して、\n敵の照準をかく乱するウェポンです。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eDummy Balloons are weapons launched to confuse\nand scramble enemy targeting.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#186",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e射出後から一定時間経つと爆発して、\n周辺にダメージを与えることもできます。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eAfter a set duration post-launch, they explode,\ninflicting splash damage around them.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#187",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e強力な兵装を持つ敵を相手にする\n場合などに活用しましょう。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eUtilize them when facing enemies with heavy firepower.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#188",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eハイパージャマーを起動すると、一定時間\n敵のロック機能を避けることができます。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eActivating the Hyper Jammer prevents enemy lock-on\nfor a set period of time.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#189",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e強力な攻撃を回避したい時などの\n防御手段として活用してください。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eUse it as a defensive measure when you wish\nto evade powerful incoming strikes.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#190",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eハイパージャマーの起動中は\nバーニアを消費します。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eHyper Jammer consumes vernier while active.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#191",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eバーニアゲージが０になると、\n強制解除されるので注意してください。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eNote that it forcibly deactivates once the vernier\ngauge drops to 0.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#192",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン２：キック\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 2: Kick\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#193",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン３：ワイヤークロー\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 3: Wire Claw\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#194",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン４：オーラバリア\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 4: Aura Barrier\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#195",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン２：オーラキャノン\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 2: Aura Cannon\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#196",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン４：オーラバリア\u003cab(4000)\u003e\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 4: Aura Barrier\u003cab(4000)\u003e\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#197",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン７：ウイングキャリバー変形\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 7: Wing Calibur Transform\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#198",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン２：フレイボム\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 2: Flame Bomb\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#199",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン５：オーラキャノン\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 5: Aura Cannon\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#200",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003cab(4000)\u003e",
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cab(4000)\u003e\u003cop()\u003e\u003csp(20)\u003eウェポン６：オーラ力\u003cab(4000)\u003e",
+                     "en":  "\u003cab(4000)\u003e\u003cop()\u003e\u003csp(20)\u003eWeapon 6: Aura Power\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#201",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン６：オーラバルカン\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 6: Aura Vulcan\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#202",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eアビリティ：スラスター\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAbility: Thruster\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#203",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eアビリティ：ビ－ムコーティング\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAbility: Beam Coating\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#204",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン２：シールドアタック\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 2: Shield Attack\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#205",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン１：バスターランチャー\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 1: Buster Launcher\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#206",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン７：プローラー変形\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 7: Prowler Transform\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#207",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン２：ダブルパワーランチャー\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 2: Double Power Launcher\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#208",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン２：パワーランチャー\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 2: Power Launcher\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#209",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン３：ラウンドバインダー\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 3: Round Binder\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#210",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン４：バイオリレーション\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 4: Bio-Relation\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#211",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン４：エネルギーボンバー\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 4: Energy Bomber\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#212",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン５：フルオープンランチャー\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 5: Full Open Launcher\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#213",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン７：ランドブースター変形\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 7: Land Booster Transform\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#214",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン４：ウィンゲルバインダー\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 4: Wingel Binder\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#215",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン３：セイバーフロッガー\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 3: Saber Flogger\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#216",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン２：ミサイルランチャー\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 2: Missile Launcher\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#217",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン３：Ｖ－ＭＡＸ発動\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 3: V-MAX Activate\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#218",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン５：チャフ\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 5: Chaff\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#219",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン３：Ｖ－ＭＵＸＩＭＵＭ発動\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 3: V-MAXIMUM Activate\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#220",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン７：飛行形態変形\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 7: Flight Mode Transform\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#221",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン２：メタルクロー\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 2: Metal Claw\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#222",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン３：レーザードバズソー\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 3: Lasered Buzzsaw\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#223",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eアビリティ：グライダー\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAbility: Glider\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#224",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン２：６連ミサイルポッド\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 2: 6-Tube Missile Pod\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#225",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン５：２連２５ｍｍ機関砲\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 5: Twin 25mm Autocannon\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#226",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン２：１０連ミサイルポッド\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 2: 10-Tube Missile Pod\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#227",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン４：２連ガトリング砲\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 4: Twin Gatling Gun\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#228",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン６：２連２５ｍｍ機関砲\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 6: Twin 25mm Autocannon\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#229",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン２：３連ハンドレールキャノン\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 2: Triple Hand Railcannon\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#230",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン４：ジャマー\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 4: Jammer\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#231",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン２：５連ミサイルポッド\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 2: 5-Tube Missile Pod\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#232",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eアビリティ：キャバリアー\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAbility: Cavalier\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#233",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン３：ダブルレールキャノン\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 3: Double Railcannon\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#234",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン３：ミサイルＥＣＭ\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 3: Missile ECM\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#235",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン２：１００連装ミサイルポッド\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 2: 100-Tube Missile Pod\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#236",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン２：３連マルチディスチャージャー\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 2: Triple Multi-Discharger\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#237",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン３：２連２５ｍｍ機関砲\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWeapon 3: Twin 25mm Autocannon\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#238",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eアビリティ：機嫌\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAbility: Mood\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 },
+                 {
+                     "ref":  "m6302#239",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eアビリティ：バイタルジャンプ\u003cab(4000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAbility: Vital Jump\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation and weapon/ability labels."
+                 }
+             ],
+    "context_after":  [
+                          {
+                              "ref":  "m6302#240",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン２：ブレンブレード\u003cab(4000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#241",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン４：チャクラシールド\u003cab(4000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#242",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン２：ショーター\u003cab(4000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#243",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン５：ミサイルランチャー\u003cab(4000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#244",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン２：フィン（モーフィング）\u003cab(4000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#245",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン３：チャクラ光一斉射撃\u003cab(4000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#246",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン６：スリットウエハー\u003cab(4000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#247",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eアビリティ：ローラーダッシュ\u003cab(4000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#248",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン２：ミサイルポッド\u003cab(4000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#249",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン３：リムーブドアーム\u003cab(4000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#250",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン４：ディストーションフィールド\u003cab(4000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#251",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eウェポン４：ゲキガンバリヤー\u003cab(4000)\u003e",
+                              "en":  ""
+                          }
+                      ],
+    "report":  {
+                   "translator_summary":  "Tutorial batch xb_03 translated. Covers Wings of Rean, Trans Units, Funnels, Active Cloak, Bio-Relation, I-Field, Dummy Balloon, Hyper Jammer, and corresponding weapon/ability system menu entries.",
+                   "rows_examined":  "All 80 rows translated and checked.",
+                   "rows_examined_count":  80,
+                   "uncertainties":  [
+
+                                     ],
+                   "glossary_proposals":  [
+
+                                          ],
+                   "portrait_speakers":  {
+
+                                         }
+               }
+}

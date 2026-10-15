@@ -1,0 +1,1827 @@
+{
+ "batch": "op02_02",
+ "operation": 2,
+ "previous_batch": "op02_01",
+ "next_batch": "op02_03",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "アナベル・ガトー",
+   "en": "Anavel Gato",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Main antagonist of 0083; Zeon ace \"Nightmare of Solomon\", Delaz Fleet pilot who steals Gundam GP02 and later pilots the Neue Ziel. Rank: Major (U.C. 0083).",
+   "personality": "Honorable, idealistic career soldier; charismatic leader who fights on the front line; hates the Federation but respects worthy opponents.",
+   "en_short": "Gato"
+  },
+  {
+   "ja": "ラー・カイラム",
+   "en": "Ra Cailum",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam: Char's Counterattack",
+   "role": "Londo Bell flagship battleship (Bright Noa's ship) in CCA."
+  },
+  {
+   "ja": "アムロ・レイ",
+   "en": "Amuro Ray",
+   "kind": "character",
+   "series": "Mobile Suit Gundam: Char's Counterattack (also Mobile Suit Gundam, Zeta Gundam)",
+   "gender": "male",
+   "role": "Earth Federation ace Newtype pilot; in CCA a Londo Bell mobile suit team leader (Captain) aboard the Ra Cailum and pilot of the Nu Gundam; Char's lifelong rival.",
+   "personality": "Withdrawn, machine-obsessed teen in the original series; by CCA a mature, dependable veteran still bound up in his rivalry with Char.",
+   "en_short": "Amuro"
+  },
+  {
+   "ja": "グン・ジェム",
+   "en": "Gon Jem",
+   "kind": "character",
+   "series": "Metal Armor Dragonar",
+   "gender": "male",
+   "role": "Giganos Colonel commanding the Gon Jem Squad (the \"Filth of Giganos\"); pilots the Geyzam, later the prototype Gilgazamune",
+   "personality": "Brutal, crude, greedy and cunning, with famously bad table manners; superb pilot; fiercely loyal to his Four Kings",
+   "en_short": "Gon Jem"
+  },
+  {
+   "ja": "ロンド・ベル",
+   "en": "Londo Bell",
+   "kind": "faction",
+   "series": "Mobile Suit Gundam: Char's Counterattack",
+   "role": "Earth Federation Forces special task force of the UC 0090s (Amuro, Bright, Ra Cailum)."
+  },
+  {
+   "ja": "ギガノス",
+   "en": "Giganos"
+  },
+  {
+   "ja": "ゲイザム",
+   "en": "Geyzam",
+   "kind": "unit",
+   "series": "Metal Armor Dragonar",
+   "role": "YAMA-13 Geyzam, Gon Jem's one-off prototype Metal Armor"
+  },
+  {
+   "ja": "シナプス",
+   "en": "Sinapus",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Earth Federation captain (Captain, 大佐) of the assault carrier Albion; leads the pursuit of the stolen GP02.",
+   "personality": "Grizzled veteran with a commanding presence and keen tactical mind; relies on his own judgement and sense of right and wrong.",
+   "full_name": "Eyphar Sinapus"
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "アムロ",
+   "en": "Amuro",
+   "kind": "character",
+   "series": "Mobile Suit Gundam: Char's Counterattack (also Mobile Suit Gundam, Zeta Gundam)",
+   "gender": "male",
+   "role": "Earth Federation ace Newtype pilot; in CCA a Londo Bell mobile suit team leader (Captain) aboard the Ra Cailum and pilot of the Nu Gundam; Char's lifelong rival.",
+   "personality": "Withdrawn, machine-obsessed teen in the original series; by CCA a mature, dependable veteran still bound up in his rivalry with Char.",
+   "full_name": "Amuro Ray"
+  },
+  {
+   "ja": "ケーン",
+   "en": "Kaine",
+   "kind": "character",
+   "series": "Metal Armor Dragonar",
+   "gender": "male",
+   "role": "Pilot of Dragonar-1 (D-1); Earth Alliance/Federation trainee promoted to Warrant Officer; protagonist",
+   "personality": "Hot-blooded, impulsive, acts before thinking; chases Linda; resents his absent father",
+   "full_name": "Kaine Wakaba"
+  },
+  {
+   "ja": "リンダ",
+   "en": "Linda",
+   "kind": "character",
+   "series": "Metal Armor Dragonar",
+   "gender": "female",
+   "role": "Meio's younger sister; refugee who becomes an Earth Alliance communications operator; heroine",
+   "personality": "Gentle and reserved, opposes the war; slowly opens up to Kaine",
+   "full_name": "Linda Plato"
+  },
+  {
+   "ja": "大尉",
+   "en": "Captain",
+   "en_short": "Capt.",
+   "kind": "rank",
+   "note": "army/MS rank; a ship's captain (艦長) is also Captain"
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {},
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6021#46",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>遅ぇじゃねえか！\n俺たちが全部やっつけちまうとこだったぜ！　<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6021#47",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>よく言うぜ、さっきまで敵にケツ取られて\n逃げ回ってたくせに。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6021#48",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>あ～あ、やっぱり報奨金もらって\n軍やめるべきだったかなぁ～。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6021#49",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>ああああああああああああああああああああ\nああああああああああああああああああああ<ab(1000)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "brief63034#0",
+   "layer": "tactical briefing",
+   "jp": "敵ユニットの撃墜",
+   "en": ""
+  },
+  {
+   "ref": "brief63034#1",
+   "layer": "tactical briefing",
+   "jp": "撃墜数 %d 機",
+   "en": ""
+  },
+  {
+   "ref": "brief63034#2",
+   "layer": "tactical briefing",
+   "jp": "<op(38,1)><sp(2)>敵の輸送部隊に接触した。<im(1)>\nおそらく、#c[BE5050]輸送船#cのどれかに\n#c[BE5050]ガンダム２号機#cが<tr(1)>積み込まれているはずだ。",
+   "en": ""
+  },
+  {
+   "ref": "brief63034#3",
+   "layer": "tactical briefing",
+   "jp": "<op(38,1)><sp(2)>ここで逃がすわけにはいかないからな。\n#c[F07141]輸送船を<im(5)>全て破壊#cして、\n#c[BE5050]ガンダム２号機#cをいぶりだせ！",
+   "en": ""
+  },
+  {
+   "ref": "brief63034#4",
+   "layer": "tactical briefing",
+   "jp": "<op(38,1)><sp(2)>#c[BE5050]ギガノス#cの<im(6)>連中が仕掛けてくる\n可能性もある。<of(1)>\n注意して作戦に当たれ。",
+   "en": ""
+  },
+  {
+   "ref": "m6022#0",
+   "layer": "mission dialogue",
+   "jp": "コムサイⅡの全撃破",
+   "en": ""
+  },
+  {
+   "ref": "m6022#1",
+   "layer": "mission dialogue",
+   "jp": "コムサイⅡが領域を離脱",
+   "en": ""
+  },
+  {
+   "ref": "m6022#2",
+   "layer": "mission dialogue",
+   "jp": "ＧＰ０２の撃破",
+   "en": "Destroy the GP02"
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6022#3",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ゲイザムの撃破",
+   "en": "Destroy the Geyzam",
+   "notes": ""
+  },
+  {
+   "ref": "m6022#4",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>その中のどれかに２号機がある！\n破壊して見つけ出すんだ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Unit 2 is inside one of them!\nDestroy them and find it!<ab(500)><ed()>",
+   "notes": "Sinapus or Burning."
+  },
+  {
+   "ref": "m6022#5",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ターゲットの位置を転送します。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Transmitting target coordinates.<ab(300)><ed()>",
+   "notes": "Operator."
+  },
+  {
+   "ref": "m6022#6",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>レーダーに反応多数！\nギガノスの援軍です！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Multiple radar contacts!\nIt's Giganos reinforcements!<ab(400)><ed()>",
+   "notes": "Operator."
+  },
+  {
+   "ref": "m6022#7",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>突撃だ！　ＵＣＥ軍を叩け！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Charge! Strike down the UCE forces!<ab(500)><ed()>",
+   "notes": "Giganos commander/pilot."
+  },
+  {
+   "ref": "m6022#8",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>輸送艦はもぬけの殻のようです。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>The transport appears completely empty.<ab(400)><ed()>",
+   "notes": "Operator / Tak."
+  },
+  {
+   "ref": "m6022#9",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ダミー？　手が込んでいるな。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>A dummy? They went to a lot of trouble.<ab(300)><ed()>",
+   "notes": "Tak / Burning."
+  },
+  {
+   "ref": "m6022#10",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ややこしいことしやがって！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Always complicating things!<ab(200)><ed()>",
+   "notes": "Kaine Wakaba."
+  },
+  {
+   "ref": "m6022#11",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>片っ端から破壊しちまえばいいんだ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>We just have to smash every last one of 'em!<ab(400)><ed()>",
+   "notes": "Kaine / Tapp."
+  },
+  {
+   "ref": "m6022#12",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>新たな敵艦を確認！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>New enemy ship confirmed!<ab(100)><ed()>",
+   "notes": "Operator."
+  },
+  {
+   "ref": "m6022#13",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>すぐに向かえ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Head there immediately!<ab(500)><ed()>",
+   "notes": "Burning / Sinapus."
+  },
+  {
+   "ref": "m6022#14",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦がまた現れました！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Another enemy ship has appeared!<ab(500)><ed()>",
+   "notes": "Operator."
+  },
+  {
+   "ref": "m6022#15",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦を撃墜！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemy ship shot down!<ab(300)><ed()>",
+   "notes": "Tak / Pilot."
+  },
+  {
+   "ref": "m6022#16",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>２号機はどこだ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Where is Unit 2?!<ab(500)><ed()>",
+   "notes": "Tak / Kou / Burning."
+  },
+  {
+   "ref": "m6022#17",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦が離脱しようとしています！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>An enemy ship is attempting to escape!<ab(400)><ed()>",
+   "notes": "Operator."
+  },
+  {
+   "ref": "m6022#18",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まずいぞ、逃がすな！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>This is bad! Don't let it get away!<ab(400)><ed()>",
+   "notes": "Burning / Tak."
+  },
+  {
+   "ref": "m6022#19",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦の離脱を許しました！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>The enemy ship has escaped!<ab(400)><ed()>",
+   "notes": "Operator."
+  },
+  {
+   "ref": "m6022#20",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何をやっているんだ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>What are you doing?!<ab(400)><ed()>",
+   "notes": "Burning / Commander."
+  },
+  {
+   "ref": "m6022#21",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>２号機だ、絶対に逃がすなよ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>It's Unit 2! Don't let it escape!<ab(600)><ed()>",
+   "notes": "Burning / Kou / Tak."
+  },
+  {
+   "ref": "m6022#22",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……あの反応速度！\n相手は「連邦の白い悪魔」か！？<ab(700)><ed()>",
+   "en": "<op()><sp(20)>...That reaction speed!\nIs my opponent the \"White Devil of the Federation\"?!<ab(700)><ed()>",
+   "notes": "Anavel Gato reacting to Amuro."
+  },
+  {
+   "ref": "m6022#23",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ちぃ、「ソロモンの悪夢」か……<ab(600)>",
+   "en": "<op()><sp(20)>Tch, the \"Nightmare of Solomon\"...<ab(600)>",
+   "notes": "Amuro Ray."
+  },
+  {
+   "ref": "m6022#24",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>まさか戦争が終わってから、\nこんな形で戦うことになるとは……<ab(700)><ed()>",
+   "en": "<sp(20)>To think that after the war ended,\nI'd end up fighting like this...<ab(700)><ed()>",
+   "notes": "Amuro Ray."
+  },
+  {
+   "ref": "m6022#25",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あれはガンダム？\nいや…性能が劣る…量産機みたいだな。<ab(500)>",
+   "en": "<op()><sp(20)>Is that a Gundam?\nNo... It lacks the performance... A mass-production unit.<ab(500)>",
+   "notes": "Tak Kepford observing Amuro in Re-GZ."
+  },
+  {
+   "ref": "m6022#26",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>量産機であそこまでできるのか。\nさすが一年戦争のエースパイロットだ…<ab(500)><ed()>",
+   "en": "<sp(20)>To do that in a mass-production machine...\nHe truly is an ace from the One Year War...<ab(500)><ed()>",
+   "notes": "Tak Kepford."
+  },
+  {
+   "ref": "m6022#27",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こんな戦術レベルの戦いの最中に何を！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>What are you doing in the middle of a battle?!<ab(200)><ed()>",
+   "notes": "Amuro Ray."
+  },
+  {
+   "ref": "m6022#28",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>君も将校だろう！　ただの兵でないのなら、\n大局的にものを見ろ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>You're an officer, aren't you! If you're no mere grunt,\ntake in the bigger picture!<ab(600)><ed()>",
+   "notes": "Amuro Ray reprimanding Kou/Tak."
+  },
+  {
+   "ref": "m6022#29",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>は、はい！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Y-Yes, sir!<ab(300)><ed()>",
+   "notes": "Kou / Tak."
+  },
+  {
+   "ref": "m6022#30",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>な…！　私は敵だぞ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Wh-What...?! I am your enemy!<ab(600)><ed()>",
+   "notes": "Gato baffled by Amuro scolding others."
+  },
+  {
+   "ref": "m6022#31",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>おのれ、このアナベル・ガトーは\n３年待ったのだ。<ab(400)>",
+   "en": "<op()><sp(20)>Curse you! I, Anavel Gato,\nhave waited three long years!<ab(400)>",
+   "notes": "Anavel Gato (0083 quote)."
+  },
+  {
+   "ref": "m6022#32",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>貴様たちのような分別のない者どもに\n我々の理想を邪魔されてたまるか！<ab(500)><ed()>",
+   "en": "<sp(20)>I will never let mindless fools like you\nstand in the way of our ideals!<ab(500)><ed()>",
+   "notes": "Anavel Gato."
+  },
+  {
+   "ref": "m6022#33",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>我々の理想…？<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Our ideals...?<ab(100)><ed()>",
+   "notes": "Tak Kepford."
+  },
+  {
+   "ref": "m6022#34",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>我々はスペースノイドの真の解放を\n掴み取るのだ。<ab(400)>",
+   "en": "<op()><sp(20)>We shall seize the true liberation\nof Spacenoids!<ab(400)>",
+   "notes": "Anavel Gato."
+  },
+  {
+   "ref": "m6022#35",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>悪しき呪縛を、我が正義の剣によってな！<ab(600)><ed()>",
+   "en": "<sp(20)>Severing the wicked curse with my sword of justice!<ab(600)><ed()>",
+   "notes": "Anavel Gato."
+  },
+  {
+   "ref": "m6022#36",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…解放？　何を？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>...Liberation? From what?<ab(200)><ed()>",
+   "notes": "Tak Kepford."
+  },
+  {
+   "ref": "m6022#37",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アナベル・ガトー、ソロモンの悪夢…<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Anavel Gato, the Nightmare of Solomon...<ab(200)><ed()>",
+   "notes": "Tak Kepford."
+  },
+  {
+   "ref": "m6022#38",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…できる！\n腐ったＵＣＥにもこのような者がいるとは！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>...Impressive!\nTo think the rotten UCE has someone like this!<ab(700)><ed()>",
+   "notes": "Anavel Gato acknowledging player/Amuro."
+  },
+  {
+   "ref": "m6022#39",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ヘッヘッヘッヘッヘ、始めるか！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Heh heh heh heh heh, shall we get started?!<ab(300)><ed()>",
+   "notes": "Gon Jem."
+  },
+  {
+   "ref": "m6022#40",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>けっ！　いけすかねえ野郎だ！<ab(300)>",
+   "en": "<op()><sp(20)>Pah! What an irritating bastard!<ab(300)>",
+   "notes": "Gon Jem."
+  },
+  {
+   "ref": "m6022#41",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>まあいい！　\nＵＣＥのアホども！　かかってきやがれ！<ab(500)><ed()>",
+   "en": "<sp(20)>Whatever!\nCome and get it, you UCE morons!<ab(500)><ed()>",
+   "notes": "Gon Jem."
+  },
+  {
+   "ref": "m6022#42",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それじゃ、片付けてやるとしようか。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Well then, let's take care of them.<ab(400)><ed()>",
+   "notes": "Tak / Amuro."
+  },
+  {
+   "ref": "m6022#43",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>気をつけて！　あいつらは手強いわ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Be careful! Those guys are tough!<ab(200)><ed()>",
+   "notes": "Linda Plato."
+  },
+  {
+   "ref": "m6022#44",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>わかってる！　心配すんなよ、リンダちゃん！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>I know! Don't you worry, Linda!<ab(400)><ed()>",
+   "notes": "Kaine Wakaba."
+  },
+  {
+   "ref": "m6022#45",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>２号機は他の奴に任せろ。\n今は目の前の敵に集中するんだ。<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Leave Unit 2 to the others.\nRight now, focus on the enemies before you.<ab(700)><ed()>",
+   "notes": "Amuro Ray / Burning."
+  },
+  {
+   "ref": "m6022#46",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>へっ！　思ったより手ごたえのねえ奴だ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Heh! That went down easier than I thought!<ab(400)><ed()>",
+   "notes": "Gon Jem / Kaine."
+  },
+  {
+   "ref": "m6022#47",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ケーン！！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Kaine!!<ab(100)><ed()>",
+   "notes": "Linda Plato."
+  },
+  {
+   "ref": "m6022#48",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>気をつけろ！　こいつは手強いぞ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Watch out! This one is tough!<ab(500)><ed()>",
+   "notes": "Tak / Light / Burning."
+  },
+  {
+   "ref": "m6022#49",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ひゃひゃひゃ！　こいつぁ面白ぇや！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Hyahyaha! Now this is fun!<ab(500)><ed()>",
+   "notes": "Gon Jem squad."
+  },
+  {
+   "ref": "m6022#50",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>調子に乗りすぎたね…今日はここまでだよ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Got carried away, huh... That's enough for today!<ab(500)><ed()>",
+   "notes": "Min."
+  },
+  {
+   "ref": "m6022#51",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ちっ、これ以上はあぶねえな。\n野郎ども！　引き上げるぜ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Tch, any more of this is trouble.\nBoys! We're pulling out!<ab(300)><ed()>",
+   "notes": "Gon Jem."
+  },
+  {
+   "ref": "m6022#52",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あたいは野郎じゃないよ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>I'm not one of the boys!<ab(500)><ed()>",
+   "notes": "Min."
+  },
+  {
+   "ref": "m6022#53",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>周辺に敵影なし。　…２号機も見失いました。<ab(700)><ed()>",
+   "en": "<op()><sp(20)>No enemy contacts nearby. ...We've lost Unit 2.<ab(700)><ed()>",
+   "notes": "Operator."
+  },
+  {
+   "ref": "m6022#54",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>シナプス艦長、遅くなりました。<ab(200)>",
+   "en": "<op()><sp(20)>Captain Sinapus, sorry to keep you waiting.<ab(200)>",
+   "notes": "Amuro Ray."
+  },
+  {
+   "ref": "m6022#55",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ラー・カイラムから一時転属になりました、\nアムロ・レイ大尉です。<ab(400)><ed()>",
+   "en": "<sp(20)>I am Captain Amuro Ray, temporarily transferred\nfrom the Ra Cailum.<ab(400)><ed()>",
+   "notes": "Amuro Ray."
+  },
+  {
+   "ref": "m6022#56",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よく来てくれた。\nさすがはニュータイプのパイロットだな。<ab(300)>",
+   "en": "<op()><sp(20)>Glad you made it.\nJust as I'd expect from a Newtype pilot.<ab(300)>",
+   "notes": "Eyphar Sinapus."
+  },
+  {
+   "ref": "m6022#57",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>大尉がいなければ、２号機奪還どころか\nこの艦も危なかったところだ。<ab(300)>",
+   "en": "<sp(20)>Without you, Captain, recovering Unit 2 aside,\neven this ship would have been in danger.<ab(300)>",
+   "notes": "Eyphar Sinapus."
+  },
+  {
+   "ref": "m6022#58",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>着艦したら、ブリーフィングルームへ頼む。<ab(600)><ed()>",
+   "en": "<sp(20)>Once you land, please report to the briefing room.<ab(600)><ed()>",
+   "notes": "Eyphar Sinapus."
+  },
+  {
+   "ref": "m6022#59",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>モジュールが出現しました。<ab(3000)>",
+   "en": "<op()><sp(20)>A module has appeared.<ab(3000)>",
+   "notes": "System/Operator."
+  },
+  {
+   "ref": "m6022#60",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(5000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ロックオンして接近することで、\nモジュールを取得することが可能です。<ab(5000)><ed()>",
+   "en": "<sp(20)>You can acquire the module by locking on\nand approaching it.<ab(5000)><ed()>",
+   "notes": "System/Operator."
+  },
+  {
+   "ref": "m6022#61",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>敵輸送艦を確認！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Enemy transport confirmed!<ab(0)><off()>",
+   "notes": "Operator."
+  },
+  {
+   "ref": "m6022#62",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>おのれ…！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Curse you...!<ab(0)><off()>",
+   "notes": "Anavel Gato."
+  },
+  {
+   "ref": "m6022#63",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>何！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>What?!<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6022#64",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>なんだ！　今のは！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>What was that just now?!<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6022#65",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>シナプス艦長、遅くなりました。\nアムロ・レイ大尉、これより任務につきます。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Captain Sinapus, sorry for the delay.\nCaptain Amuro Ray, reporting for duty.<ab(0)><off()>",
+   "notes": "Amuro Ray."
+  },
+  {
+   "ref": "m6022#66",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>……来てくれたか！<ab(0)><off()>",
+   "en": "<on()><sp(20)>...You made it!<ab(0)><off()>",
+   "notes": "Eyphar Sinapus."
+  },
+  {
+   "ref": "m6022#67",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>アムロ・レイだって！？　\nホワイトベースのアムロ・レイ大尉！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Amuro Ray?!\nCaptain Amuro Ray from White Base?!<ab(0)><off()>",
+   "notes": "Tak / Kou."
+  },
+  {
+   "ref": "m6022#68",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>！！　やらせるか！！<ab(0)><off()>",
+   "en": "<on()><sp(20)>!! Not on my watch!!<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6022#69",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>今はロンド・ベルのアムロ大尉だ。\nそれより、今は目の前の敵に集中するんだ。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Now I am Captain Amuro of Londo Bell.\nMore importantly, focus on the enemies before you.<ab(0)><off()>",
+   "notes": "Amuro Ray."
+  },
+  {
+   "ref": "m6022#70",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>は、はい！！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Y-Yes, sir!!<ab(0)><off()>",
+   "notes": "Tak / Kou."
+  },
+  {
+   "ref": "m6022#71",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>あれは……グン・ジェムの専用機！<ab(0)><off()>",
+   "en": "<on()><sp(20)>That is... Gon Jem's personal unit!<ab(0)><off()>",
+   "notes": "Kaine / Linda."
+  },
+  {
+   "ref": "m6022#72",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>なんだって？　グン・ジェム野郎か！<ab(0)><off()>",
+   "en": "<on()><sp(20)>What did you say? That bastard Gon Jem?!<ab(0)><off()>",
+   "notes": "Kaine Wakaba."
+  },
+  {
+   "ref": "m6022#73",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ぐふふふふ！　ソロモンの！　どきやがれ！\nこいつは俺の獲物だ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Guhahaha! You from Solomon! Get out of the way!\nThis one is my prey!<ab(0)><off()>",
+   "notes": "Gon Jem."
+  },
+  {
+   "ref": "m6022#74",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>代わりにたっぷりと可愛がってやるからね。<ab(0)><off()>",
+   "en": "<on()><sp(20)>We'll give you plenty of attention instead.<ab(0)><off()>",
+   "notes": "Min."
+  },
+  {
+   "ref": "m6022#75",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>どけってのが聞こえねえのか！\nどこへなりと、とっとと失せやがれ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Didn't you hear me say get lost?!\nScram, go wherever the hell you want!<ab(0)><off()>",
+   "notes": "Gon Jem to Gato."
+  },
+  {
+   "ref": "m6022#76",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>…とりあえず、救援には感謝しておこう。\n後は頼む。<ab(0)><off()>",
+   "en": "<on()><sp(20)>...For now, I thank you for the rescue.\nI leave the rest to you.<ab(0)><off()>",
+   "notes": "Anavel Gato to Gon Jem."
+  },
+  {
+   "ref": "m6022#77",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※オペレータがミッション内容を確認<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Operator confirms mission details)<ab(3000)><ed()>",
+   "notes": "Developer placeholder line in script."
+  },
+  {
+   "ref": "m6022#78",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※はじめて輸送艦を破壊したら偽物だった<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(First transport destroyed was a dummy)<ab(3000)><ed()>",
+   "notes": "Developer placeholder line in script."
+  },
+  {
+   "ref": "m6022#79",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※新たに敵の輸送艦が出現した連絡<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Report of new enemy transport appearing)<ab(3000)><ed()>",
+   "notes": "Developer placeholder line in script."
+  },
+  {
+   "ref": "m6022#80",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※新たに敵の輸送艦が出現した連絡　ver2<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Report of new enemy transport appearing ver 2)<ab(3000)><ed()>",
+   "notes": "Developer placeholder line in script."
+  },
+  {
+   "ref": "m6022#81",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)><op()><sp(20)>※順調だと誉められる<ab(3000)><ed()>",
+   "en": "<op()><sp(20)><op()><sp(20)>(Praised for making smooth progress)<ab(3000)><ed()>",
+   "notes": "Developer placeholder line in script; preserved double tag sequence."
+  },
+  {
+   "ref": "m6022#82",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※敵輸送艦がゴールに近づいた<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Enemy transport approaches the goal)<ab(3000)><ed()>",
+   "notes": "Developer placeholder line in script."
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6022#83",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※ミッション失敗の連絡<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#84",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※アムロとガトーの掛け合い<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#85",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※ＧＰ０２を倒すように指令を受ける<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#86",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※リガズィに対するコメント<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#87",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※ガトーvsパイロットの掛け合い\n　・機体別メッセージ<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#88",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※ガトーがほめる　その１<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#89",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※ガトーがほめる　その２<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#90",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※ゲイザムを倒すように指令を受ける<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#91",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※グンジェムvsパイロットの掛け合い<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#92",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※ミンvsパイロットの掛け合い<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#93",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※ミンの捨てセリフ\n※グン･ジェム怒る<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#94",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※グンジェムの捨てゼリフ<ab(3000)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "",
+  "rows_examined": "op02_02 rows 1-80 + context rows either side + op02_03 rows 1-27",
+  "rows_examined_count": 100,
+  "uncertainties": [
+   "Rows 74-79 (m6022#77-#82): Developer script notes / placeholders marked with '※' translated in parentheses as descriptions without forbidden characters.",
+   "Row 78 (m6022#81): Kept duplicate '<op()><sp(20)><op()><sp(20)>' tags exactly as present in original Japanese."
+  ],
+  "glossary_proposals": [
+   {
+    "ja": "スペースノイド",
+    "en": "Spacenoid",
+    "kind": "term",
+    "series": "Universal Century Gundam",
+    "sources": [
+     "https://gundam.fandom.com/wiki/Spacenoid"
+    ],
+    "note": "Term for residents of space colonies; row 31"
+   },
+   {
+    "ja": "ホワイトベース",
+    "en": "White Base",
+    "kind": "ship",
+    "series": "Mobile Suit Gundam",
+    "sources": [
+     "https://gundam.fandom.com/wiki/SCV-70_White_Base"
+    ],
+    "note": "Pegasus-class assault carrier; row 64"
+   },
+   {
+    "ja": "一年戦争",
+    "en": "One Year War",
+    "kind": "term",
+    "series": "Universal Century Gundam",
+    "sources": [
+     "https://gundam.fandom.com/wiki/One_Year_War"
+    ],
+    "note": "Historical war of U.C. 0079; row 23"
+   }
+  ],
+  "portrait_speakers": {},
+  "rows_left_untranslated": []
+ }
+}

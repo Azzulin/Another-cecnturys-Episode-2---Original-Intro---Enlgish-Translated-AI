@@ -1,0 +1,1844 @@
+﻿{
+    "batch":  "op28_02",
+    "operation":  28,
+    "previous_batch":  "op28_01",
+    "next_batch":  "op28_03",
+    "rows_in_slice":  80,
+    "do_not_touch_names":  [
+                               "Barkholz",
+                               "Capt. Burning",
+                               "Captain Burning",
+                               "Captain South Burning",
+                               "Cowen",
+                               "Giganos",
+                               "Lieutenant",
+                               "Lt.",
+                               "Major Anavel Gato",
+                               "Sinapus",
+                               "Tak"
+                           ],
+    "glossary":  [
+                     {
+                         "ja":  "ゴルグ・ボドルザー",
+                         "en":  "Golg Boddole Zer",
+                         "kind":  "character",
+                         "series":  "The Super Dimension Fortress Macross",
+                         "gender":  "male",
+                         "role":  "Supreme commander of the Zentradi main fleet.",
+                         "en_short":  "Boddole Zer"
+                     },
+                     {
+                         "ja":  "プロトカルチャー",
+                         "en":  "Protoculture",
+                         "kind":  "term",
+                         "series":  "Super Dimension Fortress Macross: Do You Remember Love?",
+                         "role":  "Ancient precursor civilisation; the found song/poem plates are judged to be Protoculture artefacts."
+                     },
+                     {
+                         "ja":  "ゼントラーディ",
+                         "en":  "Zentradi",
+                         "kind":  "faction",
+                         "series":  "Super Dimension Fortress Macross: Do You Remember Love?",
+                         "role":  "Race/faction of giant humanoid warriors; main antagonists."
+                     },
+                     {
+                         "ja":  "リン・ミンメイ",
+                         "en":  "Lynn Minmay",
+                         "kind":  "character",
+                         "series":  "Super Dimension Fortress Macross: Do You Remember Love?",
+                         "gender":  "female",
+                         "role":  "Idol singer aboard the Macross; her songs (culture) are the key to defeating the Zentradi.",
+                         "personality":  "Bright, cheerful and ambitious pop idol, somewhat self-absorbed; infatuated with Hikaru.",
+                         "en_short":  "Minmay"
+                     },
+                     {
+                         "ja":  "ガーディアン",
+                         "en":  "Guardian",
+                         "kind":  "term",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "role":  "Network of (hundreds of) orbital military satellite cannons of the Rainen Project; Gun Ark/Buster Ark can call it via the Guardian System."
+                     },
+                     {
+                         "ja":  "デカルチャー",
+                         "en":  "Deculture",
+                         "kind":  "term",
+                         "series":  "Super Dimension Fortress Macross: Do You Remember Love?",
+                         "role":  "Zentradi exclamation of shock/awe at human culture."
+                     },
+                     {
+                         "ja":  "ブリタイ艦",
+                         "en":  "Vrlitwhai\u0027s Ship",
+                         "kind":  "ship",
+                         "series":  "Super Dimension Fortress Macross: Do You Remember Love?",
+                         "role":  "Vrlitwhai\u0027s fleet command battleship."
+                     },
+                     {
+                         "ja":  "ボドルザー",
+                         "en":  "Boddole Zer",
+                         "kind":  "character",
+                         "series":  "The Super Dimension Fortress Macross",
+                         "gender":  "male",
+                         "role":  "Supreme commander of the Zentradi main fleet.",
+                         "full_name":  "Golg Boddole Zer"
+                     },
+                     {
+                         "ja":  "ボドル旗艦",
+                         "en":  "Boddole Flagship",
+                         "kind":  "ship",
+                         "series":  "Super Dimension Fortress Macross: Do You Remember Love?",
+                         "role":  "Boddole Zer\u0027s gigantic mobile-fortress flagship (DYRL final boss)."
+                     },
+                     {
+                         "ja":  "ブリタイ",
+                         "en":  "Vrlitwhai",
+                         "kind":  "character",
+                         "series":  "Super Dimension Fortress Macross: Do You Remember Love?",
+                         "gender":  "male",
+                         "role":  "Zentradi fleet commander under the Boddole Zer Main Fleet; pursues and later allies with the Macross.",
+                         "personality":  "Massive, tenacious, honorable veteran warrior; pragmatic enough to cooperate with the humans.",
+                         "full_name":  "Vrlitwhai 7018"
+                     },
+                     {
+                         "ja":  "ミンメイ",
+                         "en":  "Minmay",
+                         "kind":  "character",
+                         "series":  "Super Dimension Fortress Macross: Do You Remember Love?",
+                         "gender":  "female",
+                         "role":  "Idol singer aboard the Macross; her songs (culture) are the key to defeating the Zentradi.",
+                         "personality":  "Bright, cheerful and ambitious pop idol, somewhat self-absorbed; infatuated with Hikaru.",
+                         "full_name":  "Lynn Minmay"
+                     },
+                     {
+                         "ja":  "UCE",
+                         "en":  "UCE",
+                         "kind":  "faction"
+                     },
+                     {
+                         "ja":  "ボドル",
+                         "en":  "Boddole",
+                         "kind":  "faction",
+                         "series":  "Super Dimension Fortress Macross: Do You Remember Love?",
+                         "role":  "Short for Boddole Zer\u0027s fleet: ボドル基幹艦隊 (main fleet), ボドル艦隊 (fleet), ボドル旗艦 (flagship)."
+                     },
+                     {
+                         "ja":  "マリナ",
+                         "en":  "Marina",
+                         "kind":  "character",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "gender":  "female",
+                         "role":  "ACE2 heroine; Ensign in Tak\u0027s squad, pilot of the red Gun Ark; goes missing at Torrington Base, reappears with the Rainen Project in the Buster Ark, later rejoins Tak.",
+                         "personality":  "Cool and reserved (\u0027defrosting ice queen\u0027 in flashbacks); deeply bonded with Tak.",
+                         "full_name":  "Marina Carson"
+                     },
+                     {
+                         "ja":  "五飛",
+                         "en":  "Wufei",
+                         "kind":  "character",
+                         "series":  "Mobile Suit Gundam Wing / Endless Waltz",
+                         "gender":  "male",
+                         "role":  "Gundam pilot (Shenlong/Altron, called Nataku); sides with the Mariemaia Army in Endless Waltz and in ACE2\u0027s story before rejoining his comrades",
+                         "personality":  "Proud and honor-obsessed; obsessed with justice; despises weakness; prone to angry outbursts. In ACE2 he declares he will \u0027become evil\u0027 to test whether peace built on sacrifice is just.",
+                         "full_name":  "Chang Wufei"
+                     },
+                     {
+                         "ja":  "木連",
+                         "en":  "Jovian Federation",
+                         "kind":  "faction",
+                         "series":  "Martian Successor Nadesico (TV) / Prince of Darkness",
+                         "role":  "Jupiter-based anti-Earth state, main enemy faction of the TV series (romaji Mokuren)",
+                         "en_short":  "Jovians"
+                     }
+                 ],
+    "known_portraits":  {
+                            "38":  {
+                                       "speaker":  "South Burning",
+                                       "gender":  "male",
+                                       "role":  "Captain, mobile weapons unit commander at Torrington",
+                                       "confidence":  "high",
+                                       "evidence":  "brief63000: \u0027I\u0027m Captain South Burning.\u0027"
+                                   },
+                            "46":  {
+                                       "speaker":  "Amuro Ray",
+                                       "gender":  "male",
+                                       "role":  "Captain, field commander of the Albion\u0027s mobile suit team",
+                                       "confidence":  "medium",
+                                       "evidence":  "field-commander briefings from Op04 (brief63044#2); named field commander in brief63169#3"
+                                   }
+                        },
+    "unknown_portraits":  [
+
+                          ],
+    "context_before":  [
+                           {
+                               "ref":  "m6281#36",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003e各機、分散して迎撃に当たれ！\u003cab(500)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6281#37",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eゴルグガング砲、安定サーキットに損傷。\u003cab(700)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6281#38",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003e発射は一回が限度です。\u003cab(300)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6281#39",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eエスケスト！\u003cab(300)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6281#40",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003eただちにガンツホルドガドラ。\u003cab(500)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6281#41",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eしかし、ラプラミズ艦との軸線上には\n友軍艦数万隻がおります。\u003cab(500)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6281#42",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eかまわん。　ガドラス！\u003cab(300)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6281#43",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eメ、メルトランディの旗艦が墜ちた！？\u003cab(400)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6281#44",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eうそ！？\u003cab(100)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6281#45",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003e仲間を巻き込んだって言うのか！？\u003cab(300)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6281#46",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003e敵艦を倒すために、仲間の艦を！？\u003cab(200)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6281#47",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003e仲間じゃない。\u003cab(300)\u003e",
+                               "en":  ""
+                           }
+                       ],
+    "rows":  [
+                 {
+                     "ref":  "m6281#48",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(700)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eボドルザーには、\n友軍艦などただの手ごまに過ぎない。\u003cab(700)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eTo Boddole Zer,\nallied ships are nothing more than expendable pawns.\u003cab(700)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6281#49",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eデルタ１より全軍へ。\u003cab(200)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eDelta 1 to all forces.\u003cab(200)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6281#50",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e歌の準備が完了しました。\u003cab(300)\u003e",
+                     "en":  "\u003csp(20)\u003eThe song preparations are complete.\u003cab(300)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6281#51",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e本作戦はフェイズ１に移行します。\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eThe operation now transitions to Phase 1.\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6281#52",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eフェイズ１ということは、\nいよいよ突入ですね。\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003ePhase 1 means\nwe are finally charging in.\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6281#53",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eよし、みんな聞いたな！\u003cab(200)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAll right, you heard her, everyone!\u003cab(200)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6281#54",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこれよりボドル旗艦への一点突破を決行する！\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eWe will now spearhead a breakthrough to Boddole\u0027s flagship!\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6281#56",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e徹底的にやっちゃいます！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWe are going all out on them!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6281#57",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e回避運動をとれ！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eTake evasive maneuvers!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6281#58",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eもう、こてんぱんにしちゃって！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eGive them a thorough beating!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6281#59",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e左舷前方に新たな機影！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eNew contact ahead to port!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6281#60",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e被弾しました。　損害は軽微。\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWe are hit. Damage is minor.\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6281#62",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eターゲットを大量撃破。\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eMassive number of targets destroyed.\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6281#63",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e敵艦、反応は数万隻！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eEnemy ships, readings in the tens of thousands!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6281#64",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eついに始まったか…\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eIt has finally begun...\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6281#65",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e徹底的にやっちゃいましょう！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eLet us wipe them out completely!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6281#66",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eよし…最後の戦闘を開始する。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eAll right... beginning the final battle.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6281#67",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e五飛！？\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eWufei?!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6281#68",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e俺も、参加させてもらう。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eI will be joining in as well.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6281#69",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eヤック！？\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eYak?!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Zentradi cultural vocabulary (Yak, Deculture)."
+                 },
+                 {
+                     "ref":  "m6281#70",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e！！　全機！　回避しろ！\n敵艦隊から離れるんだ！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e!! All units! Evade!\nBreak away from the enemy fleet!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "brief63164#2",
+                     "layer":  "tactical briefing",
+                     "phase":  2,
+                     "portrait":  38,
+                     "tokens":  [
+                                    "\u003cop(38,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(2)\u003e",
+                                    "\u003cim(1)\u003e",
+                                    "\u003cim(3)\u003e",
+                                    "#c[BE5050]",
+                                    "#c",
+                                    "\u003cim(4)\u003e",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(38,1)\u003e\u003csp(2)\u003e今、\u003cim(2)\u003e我々の前\u003cim(1)\u003eにいるの\u003cim(3)\u003eは\n#c[BE5050]ボドルザー艦隊#cの\u003cim(4)\u003e#c[BE5050]前衛隊#cだ。",
+                     "en":  "\u003cop(38,1)\u003e\u003csp(2)\u003eRight now, \u003cim(2)\u003ewhat lies before \u003cim(1)\u003eus\u003cim(3)\u003e is the\n#c[BE5050]vanguard#c of the \u003cim(4)\u003e#c[BE5050]Boddole Zer Fleet#c.",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "brief63164#3",
+                     "layer":  "tactical briefing",
+                     "phase":  2,
+                     "portrait":  38,
+                     "tokens":  [
+                                    "\u003cop(38,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(7)\u003e",
+                                    "\u003cim(9)\u003e",
+                                    "\u003cim(12)\u003e",
+                                    "\u003cim(14)\u003e",
+                                    "\u003cim(16)\u003e",
+                                    "\u003cim(18)\u003e",
+                                    "\u003cim(6)\u003e",
+                                    "\u003ctr(1)\u003e",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(38,1)\u003e\u003csp(2)\u003e\u003cim(7)\u003eこの\u003cim(9)\u003e防衛\u003cim(12)\u003e線を\u003cim(14)\u003e突破\u003cim(16)\u003eしな\u003cim(18)\u003eいこ\u003cim(6)\u003eとには、\n\u003ctr(1)\u003e#c[BE5050]ボドルザーの旗艦#cに\nたどりつくことができん。",
+                     "en":  "\u003cop(38,1)\u003e\u003csp(2)\u003e\u003cim(7)\u003eUnless \u003cim(9)\u003ewe break \u003cim(12)\u003ethrough \u003cim(14)\u003ethis \u003cim(16)\u003edefensive \u003cim(18)\u003eline,\u003cim(6)\u003e\n\u003ctr(1)\u003ewe cannot reach #c[BE5050]Boddole Zer\u0027s flagship#c.",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "brief63164#4",
+                     "layer":  "tactical briefing",
+                     "phase":  2,
+                     "portrait":  38,
+                     "tokens":  [
+                                    "\u003cop(38,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[F07141]",
+                                    "\u003cim(11)\u003e",
+                                    "#c",
+                                    "\u003cof(1)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(38,1)\u003e\u003csp(2)\u003e#c[F07141]前衛艦隊を\u003cim(11)\u003e撃破#cし、\u003cof(1)\u003e中心部を目指すぞ！",
+                     "en":  "\u003cop(38,1)\u003e\u003csp(2)\u003e#c[F07141]Destroy the vanguard fleet\u003cim(11)\u003e#c and head \u003cof(1)\u003efor the center!",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#1",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "一定時間、戦闘する",
+                     "en":  "Fight for a set period of time",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#2",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e周辺の敵を掃討するぞ。\u003cab(100)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eSweep the surrounding enemies.\u003cab(100)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#3",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eなんとしても進路を開くんだ。\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eOpen a path forward at all costs.\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#4",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eマリナ！　平気か！\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eMarina! Are you holding up?!\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#5",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e鍛えられたからね…これくらい！\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI have been well-trained... this is nothing!\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#6",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(900)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eこれが、リン・ミンメイの歌か……\u003cab(900)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eSo this is Lynn Minmay\u0027s song...\u003cab(900)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#7",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(600)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e……奴ら、戦意をなくしている？\u003cab(600)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003e...Are they losing their will to fight?\u003cab(600)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#8",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(700)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e戦意なき者は相手にする必要はない！\u003cab(700)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eNo need to engage those without the will to fight!\u003cab(700)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#9",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(700)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eこの歌が……最後の武器…\u003cab(700)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThis song is... our final weapon...\u003cab(700)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#10",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e不思議だ……この歌……\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eIt is strange... this song...\u003cab(1000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#11",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eずっと昔に聞いたような気がする。\u003cab(100)\u003e",
+                     "en":  "\u003csp(20)\u003eI feel as though I heard it long ago.\u003cab(100)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#12",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eなぜだ？\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eWhy is that?\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#13",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e全機、前へ出ろ！　ここが正念場だ！\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAll units, push forward! This is the critical moment!\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#15",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eわかりました。\u003cab(500)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eUnderstood.\u003cab(500)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#16",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(900)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e我々の遺伝子提供者たちのカールチューンが\n呼び覚まされているのです。\u003cab(900)\u003e",
+                     "en":  "\u003csp(20)\u003eThe Culture of our genetic progenitors\nis being reawakened.\u003cab(900)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#17",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(800)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e……５０万周期の時を越えて！\u003cab(800)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003e...Across five hundred thousand cycles of time!\u003cab(800)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#18",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(800)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e我々にも、文化がよみがえるのか……\u003cab(800)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eCan culture truly be revived within us as well...\u003cab(800)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#19",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e戦闘モード、反撃準備！\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eCombat mode, prepare for counterattack!\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#20",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e行ける、行けるぞお～～ッ\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWe can do it, we can really do this!!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#21",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eこれが熱血なんだよ！\n魂のほとばしりなんだよォーーッ\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThis is true hot blood!\nThe surge of the very soul!!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#22",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e散開して敵を叩くぞ！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eSpread out and strike the enemy!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#23",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e私がとどめをさしてやる！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI will deliver the finishing blow!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#25",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(800)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eゼントラーディ軍ブリタイ艦隊、反転します。\u003cab(800)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eZentradi Vrlitwhai fleet is turning around.\u003cab(800)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#26",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eなんだと？\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWhat did you say?\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#27",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(800)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e通信、入ります。\u003cab(800)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eIncoming transmission.\u003cab(800)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#28",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(800)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e７０１８アドクラス艦隊よりＵＣＥ艦隊へ。\u003cab(800)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003e7018th Adclass Fleet to UCE Fleet.\u003cab(800)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#29",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこれより貴艦を援護する！\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eWe will now cover your ships!\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#30",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e援護？\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eCover us?\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#31",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(800)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eプロトカルチャーの文化を\n失うわけにはまいりません。\u003cab(800)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWe cannot allow the culture of the Protoculture\nto be lost.\u003cab(800)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#32",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(600)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eリン・ミンメイの歌を聴く全ての者に告げる。\u003cab(600)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eTo all who hear Lynn Minmay\u0027s song:\u003cab(600)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#33",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e我らの敵はただひとつ。\u003cab(200)\u003e",
+                     "en":  "\u003csp(20)\u003eWe have but one enemy.\u003cab(200)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#34",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(700)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eゴルグ・ボドルザーを倒し、\n再び文化を、取り戻すのだ！\u003cab(700)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eDefeat Golg Boddole Zer,\nand reclaim our culture once more!\u003cab(700)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#36",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eこれは……\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eThis is...\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#37",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eミンメイだ！　ミンメイの歌だ！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eIt is Minmay! Minmay\u0027s song!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6282#38",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eおおお……デカルチャー！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eOoh... Deculture!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Zentradi cultural vocabulary (Yak, Deculture)."
+                 },
+                 {
+                     "ref":  "m6282#39",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e歌だ……これが歌なのか！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eA song... is this what a song is?!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "brief63165#2",
+                     "layer":  "tactical briefing",
+                     "phase":  3,
+                     "portrait":  46,
+                     "tokens":  [
+                                    "\u003cop(46,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(2)\u003e",
+                                    "#c[5E8FD8]",
+                                    "\u003cim(1)\u003e",
+                                    "#c",
+                                    "\u003cim(3)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(46,1)\u003e\u003csp(2)\u003eミンメイさんの歌で、\u003cim(2)\u003e#c[5E8FD8]ブリタイ\u003cim(1)\u003e艦隊#cは\n我\u003cim(3)\u003e々の味方についてくれた。",
+                     "en":  "\u003cop(46,1)\u003e\u003csp(2)\u003eThanks to Minmay\u0027s song, \u003cim(2)\u003ethe #c[5E8FD8]Vrlitwhai \u003cim(1)\u003efleet#c\nhas allied \u003cim(3)\u003ewith us.",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "brief63165#3",
+                     "layer":  "tactical briefing",
+                     "phase":  3,
+                     "portrait":  46,
+                     "tokens":  [
+                                    "\u003cop(46,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[BE5050]",
+                                    "#c",
+                                    "\u003cim(4)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(46,1)\u003e\u003csp(2)\u003eそして、この攻撃で#c[BE5050]ボドルザー艦隊#cは\n浮き足立っている。\n\u003cim(4)\u003e今がチャンスだ！",
+                     "en":  "\u003cop(46,1)\u003e\u003csp(2)\u003eFurthermore, this attack has thrown the #c[BE5050]Boddole Zer Fleet#c\ninto disarray.\n\u003cim(4)\u003eNow is our chance!",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "brief63165#4",
+                     "layer":  "tactical briefing",
+                     "phase":  3,
+                     "portrait":  46,
+                     "tokens":  [
+                                    "\u003cop(46,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(5)\u003e",
+                                    "#c[F07141]",
+                                    "\u003cim(8)\u003e",
+                                    "\u003cim(9)\u003e",
+                                    "#c",
+                                    "\u003cim(7)\u003e",
+                                    "\u003ctr(1)\u003e",
+                                    "\u003cof(1)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(46,1)\u003e\u003csp(2)\u003e\u003cim(5)\u003e#c[F07141]ボド\u003cim(8)\u003eルザ\u003cim(9)\u003eーの旗艦に突入#cする。\u003cim(7)\u003e\nこれが\u003ctr(1)\u003e最後の出撃だ！\u003cof(1)\u003e",
+                     "en":  "\u003cop(46,1)\u003e\u003csp(2)\u003e\u003cim(5)\u003e#c[F07141]Charge into Boddole \u003cim(8)\u003eZer\u0027s \u003cim(9)\u003eflagship#c.\u003cim(7)\u003e\nThis is \u003ctr(1)\u003eour final sortie!\u003cof(1)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6283#1",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e全艦、最大戦速！\u003cab(100)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAll ships, maximum combat speed!\u003cab(100)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6283#2",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e７０１８アドクラス艦隊とともに、\n敵艦隊に突進せよ。\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eTogether with the 7018th Adclass Fleet,\ncharge the enemy fleet!\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6283#3",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eボース粒子反応増大！\u003cab(100)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eBoson particle readings increasing!\u003cab(100)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6283#4",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e木星連合の艦隊です！\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eIt is the Jovian fleet!\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6283#5",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e木連の艦隊から電文が届いています。\u003cab(500)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWe have received a dispatch from the Jovians.\u003cab(500)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6283#6",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e「ただいまより、木星連合は総力を挙げ、\nＵＣＥ及びその同盟艦隊を支援す。\u003cab(100)\u003e",
+                     "en":  "\u003csp(20)\u003e\"Effective immediately, the Jovian League will mobilize in full\nto support the UCE and its allied fleets.\u003cab(100)\u003e",
+                     "notes":  "Jovian League message with iconic Gekiganger slogan."
+                 },
+                 {
+                     "ref":  "m6283#7",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e宇宙に生きる全ての者のために。\nレッツ、ゲキガイン！」\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eFor all who live in space.\nLet\u0027s Gekigain!\"\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Jovian League message with iconic Gekiganger slogan."
+                 },
+                 {
+                     "ref":  "m6283#8",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(700)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e基幹艦隊内部にも、\n我々に呼応する者が出始めましたな。\u003cab(700)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eEven within the Main Fleet, those answering\nour call have begun to appear.\u003cab(700)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6283#9",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(600)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e文化だよ……これが文化の力だ。\u003cab(600)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eIt is culture... this is the power of culture.\u003cab(600)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6283#10",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eボドルザー艦を射程内に捉えました！\u003cab(300)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eBoddole Zer\u0027s ship acquired in firing range!\u003cab(300)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6283#11",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e今から、突入口を開ける！\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eOpening a breach now!\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6283#12",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e目標はボドル基艦！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eTarget is the Boddole flagship!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6283#13",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eあとちょっと！　みなさんがんばってください！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eJust a little more! Everyone, give it your all!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6283#14",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eこれで本当に最後だ！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eThis really is the end!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6283#15",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eマリナ、いいな？\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eMarina, ready?\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina establishing Guardian data link."
+                 },
+                 {
+                     "ref":  "m6283#16",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eいつでもどうぞ！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eWhenever you are!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina establishing Guardian data link."
+                 },
+                 {
+                     "ref":  "m6283#17",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eガーディアン、データリンク完了！\u003cab(0)\u003e\u003ced()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eGuardian data link complete!\u003cab(0)\u003e\u003ced()\u003e",
+                     "notes":  "Tak and Marina establishing Guardian data link."
+                 }
+             ],
+    "context_after":  [
+                          {
+                              "ref":  "m6283#18",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003con()\u003e\u003csp(20)\u003e照準制御、オールグリーン！\u003cab(0)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6283#19",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003con()\u003e\u003csp(20)\u003eいっけぇぇぇぇぇ！！\u003cab(0)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6283#20",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003con()\u003e\u003csp(20)\u003e全機、突入！\u003cab(0)\u003e\u003coff()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6284#0",
+                              "layer":  "mission dialogue",
+                              "jp":  "ボドルザーの撃破",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6284#1",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eターゲットの位置を転送します。\u003cab(400)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6284#2",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eメインターゲットＡ１３３Ｇ１６５！\u003cab(900)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6284#3",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eここは俺に任せてもらおう！\u003cab(500)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6284#4",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003con()\u003e\u003csp(20)\u003e石破っ！！！　天驚拳っ！！！！\u003cab(0)\u003e\u003coff()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6284#5",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003con()\u003e\u003csp(20)\u003eおおおおおおおお！\nプロトカルチャァアアアアアア！！！\u003cab(0)\u003e\u003coff()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6284#6",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003con()\u003e\u003csp(20)\u003e今だ！\u003cab(0)\u003e\u003coff()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6284#7",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003con()\u003e\u003csp(20)\u003e全機、一斉攻撃！\u003cab(0)\u003e\u003coff()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6284#8",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003con()\u003e\u003csp(20)\u003eぐあああああああああぁああっ！！！\u003cab(0)\u003e\u003coff()\u003e",
+                              "en":  ""
+                          }
+                      ],
+    "report":  {
+                   "translator_summary":  "Operation 28 batch 02 translated. Covers Phase 1 assault, Lynn Minmay\u0027s song reawakening Zentradi culture, Vrlitwhai fleet defection to assist UCE, Jovian reinforcements, and Guardian data link initiation.",
+                   "rows_examined":  "All 80 rows translated and checked.",
+                   "rows_examined_count":  80,
+                   "uncertainties":  [
+
+                                     ],
+                   "glossary_proposals":  [
+
+                                          ],
+                   "portrait_speakers":  {
+
+                                         }
+               }
+}

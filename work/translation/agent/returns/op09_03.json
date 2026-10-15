@@ -1,0 +1,1758 @@
+{
+ "batch": "op09_03",
+ "operation": 9,
+ "previous_batch": "op09_02",
+ "next_batch": "op09_04",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "ガンダムファイト",
+   "en": "Gundam Fight",
+   "kind": "term",
+   "series": "Mobile Fighter G Gundam",
+   "role": "The G Gundam tournament; announcer catchphrase ガンダムファイト!! レディーーー、ゴォーーー!!"
+  },
+  {
+   "ja": "ギガノス帝国",
+   "en": "Giganos Empire",
+   "kind": "faction",
+   "series": "Metal Armor Dragonar",
+   "role": "Common short name of the Unified Empire of Giganos",
+   "en_short": "Giganos"
+  },
+  {
+   "ja": "ドルチェノフ",
+   "en": "Dorchenov",
+   "kind": "character",
+   "series": "Metal Armor Dragonar",
+   "gender": "male",
+   "role": "Giganos hardliner; as Lieutenant Colonel he assassinates Marshal Guiltorre and becomes Supreme Leader of Giganos; pilots a black Gilgazamune at the end",
+   "personality": "Arrogant, power-hungry, cruel and treacherous; bullies subordinates; strong MA pilot but a poor commander",
+   "en_short": "Dorchenov"
+  },
+  {
+   "ja": "プリベンター",
+   "en": "Preventer",
+   "kind": "faction"
+  },
+  {
+   "ja": "アルトロン",
+   "en": "Altron",
+   "kind": "unit",
+   "series": "Mobile Suit Gundam Wing / Endless Waltz",
+   "role": "Wufei's upgraded Gundam (XXXG-01S2); the same machine ACE2 calls Gundam Nataku",
+   "full_name": "Altron Gundam"
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "ノイン",
+   "en": "Noin",
+   "kind": "character",
+   "series": "Mobile Suit Gundam Wing / Endless Waltz",
+   "gender": "female",
+   "role": "Mobile suit pilot and former OZ Specials instructor; Preventer agent ('Preventer Fire'); Zechs's devoted partner. ACE2 calls her ノイン特尉 (Preventer rank).",
+   "personality": "Mature, composed, slightly tomboyish; an idealist who dislikes war, but fights hard for those she believes in. Fiercely loyal to Zechs.",
+   "full_name": "Lucrezia Noin"
+  },
+  {
+   "ja": "ヒイロ",
+   "en": "Heero",
+   "kind": "character",
+   "series": "Mobile Suit Gundam Wing / Endless Waltz",
+   "gender": "male",
+   "role": "Gundam pilot (Wing Gundam Zero); Preventer agent in the Endless Waltz era",
+   "personality": "Stoic, terse 'perfect soldier'; cold on the surface, ruthless on missions, protective of Relena.",
+   "full_name": "Heero Yuy"
+  },
+  {
+   "ja": "五飛",
+   "en": "Wufei",
+   "kind": "character",
+   "series": "Mobile Suit Gundam Wing / Endless Waltz",
+   "gender": "male",
+   "role": "Gundam pilot (Shenlong/Altron, called Nataku); sides with the Mariemaia Army in Endless Waltz and in ACE2's story before rejoining his comrades",
+   "personality": "Proud and honor-obsessed; obsessed with justice; despises weakness; prone to angry outbursts. In ACE2 he declares he will 'become evil' to test whether peace built on sacrifice is just.",
+   "full_name": "Chang Wufei"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  }
+ ],
+ "known_portraits": {
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6093#6",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>大気圏突入開始します！<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6093#7",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>摩擦熱でダメージが…！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6093#8",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>早めに戻らないとやばそうだな。<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6093#9",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>左舷後方に敵艦を確認！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6093#10",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>へへ…簡単には行かせてくれそうにねえな！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6093#11",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵艦を撃墜！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6093#12",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵反応、ありません。<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6093#13",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>まったく…なんという腕前だ！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6093#14",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>よし、帰艦しろ。<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6093#15",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>待ってください！　新たな機影が一つ！\nいつの間にこんな近くに…！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6093#16",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>一つ？　ギガノスか？<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6093#17",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>…違う。　あれは…！<ab(600)><ed()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6093#18",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ガンダムタイプ！<ab(1000)>",
+   "en": "<op()><sp(20)>A Gundam type!<ab(1000)>",
+   "notes": "Pilot sighting Wufei's machine; continues into m6093#19."
+  },
+  {
+   "ref": "m6093#19",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>近接戦に特化した兵装…\nこれが話に聞く５人目の奴か？<ab(300)><ed()>",
+   "en": "<sp(20)>Armaments specialized for melee...\nIs this the fifth one we heard of?<ab(300)><ed()>",
+   "notes": "Tak noting the fifth Gundam pilot."
+  },
+  {
+   "ref": "m6093#20",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今は…敵だ。<ab(600)><ed()>",
+   "en": "<op()><sp(20)>For now... he is an enemy.<ab(600)><ed()>",
+   "notes": "Heero Yuy acknowledging Wufei's current alignment."
+  },
+  {
+   "ref": "m6093#21",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>機体を収容します。　帰艦してください。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Recovering units. Please return to ship.<ab(300)><ed()>",
+   "notes": "Albion bridge operator recall order."
+  },
+  {
+   "ref": "m6093#22",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ヒイロ。　あいつとは必ずまた、\n戦場で会うことになるはずだ。<ab(300)>",
+   "en": "<op()><sp(20)>Heero. We will definitely meet him\nagain on the battlefield.<ab(300)>",
+   "notes": "Duo Maxwell speaking to Heero; continues into m6093#23."
+  },
+  {
+   "ref": "m6093#23",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>そのときにもう一度、\nあいつの気持ちを聞こう。<ab(700)><ed()>",
+   "en": "<sp(20)>When that happens, let's ask him\nhow he really feels again.<ab(700)><ed()>",
+   "notes": "Duo hoping to understand Wufei."
+  },
+  {
+   "ref": "m6093#24",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…………ああ。<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>...Yeah.<ab(1000)><ed()>",
+   "notes": "Heero's brief assent."
+  },
+  {
+   "ref": "m6093#25",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これが、お前の言う正義なのか？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Is this what you call justice?<ab(500)><ed()>",
+   "notes": "Chang Wufei opening his interrogation of justice."
+  },
+  {
+   "ref": "m6093#26",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>五飛！　どういうつもりなんだよ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Wufei! What are you thinking?!<ab(500)><ed()>",
+   "notes": "Duo's exasperated reaction."
+  },
+  {
+   "ref": "m6093#27",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>五飛、どういうことだ？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Wufei, what is the meaning of this?<ab(500)><ed()>",
+   "notes": "Trowa Barton demanding an explanation."
+  },
+  {
+   "ref": "m6093#28",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>五飛さん！　何があったんですか！？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Wufei! What happened?!<ab(500)><ed()>",
+   "notes": "Quatre Raberba Winner concerned."
+  },
+  {
+   "ref": "m6093#29",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>答えろ！　お前たちは正義なのか！？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Answer me! Are you justice?!<ab(500)><ed()>",
+   "notes": "Wufei pressing his question passionately."
+  },
+  {
+   "ref": "m6093#30",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>貴様らは正しいのか！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Are you truly in the right?!<ab(500)><ed()>",
+   "notes": "Wufei questioning their righteousness."
+  },
+  {
+   "ref": "m6093#31",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺は、犠牲の上に成り立つ、\n平和という名の正義が<ab(0)>",
+   "en": "<op()><sp(20)>I want to see if the justice called peace,<ab(0)>",
+   "notes": "Wufei's philosophical speech; ab(0) continues into m6093#33."
+  },
+  {
+   "ref": "m6093#32",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何を言っている…？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>What are you saying...?<ab(500)><ed()>",
+   "notes": "Heero reacting to Wufei's paradox."
+  },
+  {
+   "ref": "m6093#33",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>本当に正しいか確かめたいだけだ！<ab(0)>",
+   "en": "<sp(20)>built upon sacrifice, is truly right!<ab(0)>",
+   "notes": "Wufei continuing from m6093#31; continues into m6093#34."
+  },
+  {
+   "ref": "m6093#34",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>そのために俺は悪になる！<ab(500)><ed()>",
+   "en": "<sp(20)>For that, I will become evil!<ab(500)><ed()>",
+   "notes": "Wufei's famous declaration from Endless Waltz/ACE2."
+  },
+  {
+   "ref": "m6093#35",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>だからって、俺たちと戦うのか？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>And so you fight us for that?<ab(300)><ed()>",
+   "notes": "Duo's bewildered question."
+  },
+  {
+   "ref": "m6093#36",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そのためにわざわざ、戦いを求めて\n飛び込んできたのか。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Did you dive in here seeking battle\njust for that?<ab(500)><ed()>",
+   "notes": "Trowa or Heero analyzing Wufei."
+  },
+  {
+   "ref": "m6093#37",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>本当に正しいか確かめたいだけだ！<ab(500)><ed()>",
+   "en": "<sp(20)>I only wish to test if you are right!<ab(500)><ed()>",
+   "notes": "Wufei reiterating his resolve."
+  },
+  {
+   "ref": "m6093#38",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そりゃねえぜ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Give me a break!<ab(300)><ed()>",
+   "notes": "Duo's signature colloquial retort."
+  },
+  {
+   "ref": "m6093#39",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そうだ！<ab(100)>",
+   "en": "<op()><sp(20)>That is right!<ab(100)>",
+   "notes": "Wufei or allied pilot firm statement."
+  },
+  {
+   "ref": "m6093#40",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そんな！　やめてください！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>No! Please stop this!<ab(300)><ed()>",
+   "notes": "Quatre pleading to cease fighting."
+  },
+  {
+   "ref": "m6093#41",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>正義とか悪とかは問題じゃない！<ab(0)>",
+   "en": "<op()><sp(20)>Justice or evil is not the issue!<ab(0)>",
+   "notes": "Tak or pilot arguing against Wufei's absolutes."
+  },
+  {
+   "ref": "m6093#42",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何が正義かを確かめるためなら、\n俺は悪になる！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>If it tests what justice is,\nI will become evil!<ab(500)><ed()>",
+   "notes": "Wufei repeated conviction."
+  },
+  {
+   "ref": "m6093#43",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>俺とお前は戦っている時こそ、\nお互い充実しているのではないのか！？<ab(500)><ed()>",
+   "en": "<sp(20)>Are you and I not fulfilled\nonly when we are fighting each other?!<ab(500)><ed()>",
+   "notes": "Wufei confronting Heero."
+  },
+  {
+   "ref": "m6093#44",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺は、兵器として扱われ、\n死んでいった兵士たちのために<ab(0)>",
+   "en": "<op()><sp(20)>For the sake of the soldiers who died<ab(0)>",
+   "notes": "Wufei grieving for grunts; continues into m6093#45."
+  },
+  {
+   "ref": "m6093#45",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>自分にできることをするだけだ！<ab(500)><ed()>",
+   "en": "<sp(20)>treated as weapons, I do what I must!<ab(500)><ed()>",
+   "notes": "Wufei continuing rationale."
+  },
+  {
+   "ref": "m6093#46",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>確かめなければならんのだ！<ab(500)><ed()>",
+   "en": "<sp(20)>I must confirm it for myself!<ab(500)><ed()>",
+   "notes": "Wufei emphatic statement."
+  },
+  {
+   "ref": "m6093#47",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>人類は変わらなかった…<ab(0)>",
+   "en": "<op()><sp(20)>Humanity has not changed...<ab(0)>",
+   "notes": "Wufei's disillusionment with mankind."
+  },
+  {
+   "ref": "m6093#48",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>貴様らは正しいのかと聞いている！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>I ask whether you are right!<ab(600)><ed()>",
+   "notes": "Wufei roaring in frustration."
+  },
+  {
+   "ref": "m6093#49",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>倒すべき敵を倒しても、\n地球は何も変わらなかったんだ！<ab(500)><ed()>",
+   "en": "<sp(20)>Even after defeating every foe,\nnothing on Earth has changed!<ab(500)><ed()>",
+   "notes": "Wufei lamenting endless warfare."
+  },
+  {
+   "ref": "m6093#50",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前が戦えば戦うほど、\n平和への犠牲が無駄になっていく。<ab(200)>",
+   "en": "<op()><sp(20)>The more you fight, the more\nsacrifices for peace are wasted.<ab(200)>",
+   "notes": "Heero Yuy countering Wufei; continues into m6093#51."
+  },
+  {
+   "ref": "m6093#51",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>もう気づいているはずだ！<ab(200)>",
+   "en": "<sp(20)>You must know that by now!<ab(200)>",
+   "notes": "Heero continuing; continues into m6093#52."
+  },
+  {
+   "ref": "m6093#52",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>俺たちの戦争はもう終わっている！<ab(100)><ed()>",
+   "en": "<sp(20)>Our war has already ended!<ab(100)><ed()>",
+   "notes": "Heero's core argument from Endless Waltz."
+  },
+  {
+   "ref": "m6093#53",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>だから戦士は要らんのか！<ab(100)>",
+   "en": "<op()><sp(20)>So warriors are not needed?!<ab(100)>",
+   "notes": "Wufei fighting for the warrior identity; continues into m6093#54."
+  },
+  {
+   "ref": "m6093#54",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>戦争のためだけに生きた兵士は\n切り捨てるのか！<ab(300)><ed()>",
+   "en": "<sp(20)>Do you discard soldiers who lived\nonly for war?!<ab(300)><ed()>",
+   "notes": "Wufei's famous grievance."
+  },
+  {
+   "ref": "m6093#55",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>兵士は平和のために戦ってきたはずだ。\n今ここにある世界を信じてみろ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Soldiers fought for peace.\nBelieve in the world before us now!<ab(500)><ed()>",
+   "notes": "Heero urging faith in peace."
+  },
+  {
+   "ref": "m6093#56",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺は兵器として扱われた人間達の代弁者だ。<ab(300)>",
+   "en": "<op()><sp(20)>I speak for those treated as weapons.<ab(300)>",
+   "notes": "Wufei speaking for disposable soldiers; continues into m6093#57."
+  },
+  {
+   "ref": "m6093#57",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>俺は貴様を含む兵士全てのために\n戦っている！<ab(500)><ed()>",
+   "en": "<sp(20)>I am fighting for all soldiers,\nincluding you!<ab(500)><ed()>",
+   "notes": "Wufei passionately defending his mission."
+  },
+  {
+   "ref": "m6093#58",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>本当に正しいか確かめたいだけだ！<ab(200)>",
+   "en": "<sp(20)>I only wish to test if you are right!<ab(200)>",
+   "notes": "Wufei line repeat."
+  },
+  {
+   "ref": "m6093#59",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺と貴様はこうして戦っている。<ab(200)>",
+   "en": "<op()><sp(20)>Here we are, fighting like this.<ab(200)>",
+   "notes": "Wufei pointing out the inescapable reality of combat."
+  },
+  {
+   "ref": "m6093#60",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>人類は変わらなかった…<ab(100)>",
+   "en": "<op()><sp(20)>Humanity has not changed...<ab(100)>",
+   "notes": "Wufei repeating his lament."
+  },
+  {
+   "ref": "m6093#61",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>戦っている時こそ、\n貴様も俺も充実しているのではないのか！<ab(500)><ed()>",
+   "en": "<sp(20)>Are we not at our most fulfilled\nonly when fighting each other?!<ab(500)><ed()>",
+   "notes": "Wufei challenging Heero's nature as a warrior."
+  },
+  {
+   "ref": "m6093#62",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺と貴様は同類だ。<ab(200)>",
+   "en": "<op()><sp(20)>You and I are the same kind.<ab(200)>",
+   "notes": "Wufei claiming kinship with Heero; continues into m6093#63."
+  },
+  {
+   "ref": "m6093#63",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>戦場でしか己の存在意義を\n見出すことができんのだ。<ab(100)><ed()>",
+   "en": "<sp(20)>We can only find our purpose\non the battlefield.<ab(100)><ed()>",
+   "notes": "Wufei's warrior dilemma."
+  },
+  {
+   "ref": "m6093#64",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>五飛！　トレーズはもういない！\nトレーズはお前が倒したんだ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Wufei! Treize is no longer here!\nYou defeated Treize yourself!<ab(100)><ed()>",
+   "notes": "Heero confronting Wufei's ghost of Treize."
+  },
+  {
+   "ref": "m6093#65",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>違う！！\n俺は今でも奴と戦っている！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>No!!\nI am still fighting him even now!<ab(100)><ed()>",
+   "notes": "Wufei's famous rebuttal from Endless Waltz."
+  },
+  {
+   "ref": "m6093#66",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺は貴様らを認めない。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>I will never accept you.<ab(500)><ed()>",
+   "notes": "Wufei rejecting their peaceful compromise."
+  },
+  {
+   "ref": "m6093#67",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺は兵器として扱われた人間達の代弁者だ。<ab(200)>",
+   "en": "<op()><sp(20)>I speak for those treated as weapons.<ab(200)>",
+   "notes": "Wufei repeating his stance."
+  },
+  {
+   "ref": "m6093#68",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>だから戦い続けるというのか！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>And you keep fighting for that?!<ab(200)><ed()>",
+   "notes": "Heero demanding why."
+  },
+  {
+   "ref": "m6093#69",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>俺は貴様を含む兵士全てのために\n戦っている！<ab(1000)><ed()>",
+   "en": "<sp(20)>I am fighting for all soldiers,\nincluding you!<ab(1000)><ed()>",
+   "notes": "Wufei repeated line."
+  },
+  {
+   "ref": "m6093#70",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それが戦う者の魂の拠り所となる！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>That is what anchors a warrior's soul!<ab(200)><ed()>",
+   "notes": "Wufei identifying his spiritual conviction."
+  },
+  {
+   "ref": "m6093#71",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それでは歴史を繰り返すだけだ！<ab(0)>",
+   "en": "<op()><sp(20)>That will only repeat history!<ab(0)>",
+   "notes": "Heero's warning; continues into m6093#72."
+  },
+  {
+   "ref": "m6093#72",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>悲しくみじめな戦争の歴史をな！<ab(300)>",
+   "en": "<sp(20)>A history of sorrowful, wretched war!<ab(300)>",
+   "notes": "Heero continuing; continues into m6093#73."
+  },
+  {
+   "ref": "m6093#73",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ここで流れを食い止めなければ、<ab(0)>",
+   "en": "<sp(20)>If we do not halt the tide here,<ab(0)>",
+   "notes": "Heero continuing; continues into m6093#74."
+  },
+  {
+   "ref": "m6093#74",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>また俺たちと同じような兵士が\n必要となってくる。<ab(400)>",
+   "en": "<sp(20)>soldiers like us will be needed\nall over again.<ab(400)>",
+   "notes": "Heero continuing; continues into m6093#75."
+  },
+  {
+   "ref": "m6093#75",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>そうなれば、悲劇という名の歴史が\nいつまでも続く。<ab(0)>",
+   "en": "<sp(20)>If that happens, a history named tragedy\nwill continue endlessly.<ab(0)>",
+   "notes": "Heero continuing; continues into m6093#76."
+  },
+  {
+   "ref": "m6093#76",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>五飛、教えてくれ…<ab(1100)>",
+   "en": "<sp(20)>Wufei, tell me...<ab(1100)>",
+   "notes": "Heero's iconic question from Endless Waltz; continues into m6093#77."
+  },
+  {
+   "ref": "m6093#77",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(800)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>俺たちはあと何人殺せばいい？<ab(800)>",
+   "en": "<sp(20)>How many more must we kill?<ab(800)>",
+   "notes": "Heero's iconic question from Endless Waltz; continues into m6093#78."
+  },
+  {
+   "ref": "m6093#78",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ゼロは俺に何も言ってはくれない…<ab(1200)><ed()>",
+   "en": "<sp(20)>Zero tells me nothing...<ab(1200)><ed()>",
+   "notes": "Heero concluding his famous soliloquy."
+  },
+  {
+   "ref": "m6093#80",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺と貴様らは同類だ！<ab(200)>",
+   "en": "<op()><sp(20)>You and I are the same kind!<ab(200)>",
+   "notes": "Wufei repeated line; continues into m6093#81."
+  },
+  {
+   "ref": "m6093#81",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>戦場でしか己の価値を\n見出すことができんのだ！<ab(500)><ed()>",
+   "en": "<sp(20)>We can only find our value\non the battlefield!<ab(500)><ed()>",
+   "notes": "Wufei asserting warrior worth."
+  },
+  {
+   "ref": "m6093#83",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ザコに構う必要はない。\n目標に集中しろ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>No need to bother with grunts.\nFocus on the target!<ab(500)><ed()>",
+   "notes": "Amuro or Burning tactical instruction."
+  },
+  {
+   "ref": "m6093#84",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ガンダムファイト！！\nレディーーーー、ゴォーーーー！！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Gundam Fight!!\nReady, gooooo!!<ab(500)><ed()>",
+   "notes": "Stalker / G Gundam catchphrase easter egg line."
+  },
+  {
+   "ref": "m6093#85",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>お前たちは……本当に正しいのか？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Are you lot... truly in the right?<ab(0)><off()>",
+   "notes": "Wufei questioning justice in comms."
+  },
+  {
+   "ref": "m6093#86",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>何が正義なのか、俺がこの目で確かめる！<ab(0)><off()>",
+   "en": "<on()><sp(20)>I will see with my own eyes what justice is!<ab(0)><off()>",
+   "notes": "Wufei vowing to seek truth."
+  },
+  {
+   "ref": "m6093#87",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ミッション開始<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Mission start)<ab(2000)><ed()>",
+   "notes": "Developer placeholder cue."
+  },
+  {
+   "ref": "m6093#88",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※大気圏突入開始<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Atmospheric entry starts)<ab(2000)><ed()>",
+   "notes": "Developer placeholder cue."
+  },
+  {
+   "ref": "m6093#89",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※敵艦出現時<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(When enemy ship appears)<ab(2000)><ed()>",
+   "notes": "Developer placeholder cue."
+  },
+  {
+   "ref": "m6093#90",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※迅速に倒したとき(シークレット達成）<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(When quickly defeated - secret achieved)<ab(2000)><ed()>",
+   "notes": "Developer placeholder cue."
+  },
+  {
+   "ref": "m6093#91",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※敵撃破<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Enemy destroyed)<ab(2000)><ed()>",
+   "notes": "Developer placeholder cue."
+  },
+  {
+   "ref": "m6093#92",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※VSアルトロン<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(VS Altron)<ab(2000)><ed()>",
+   "notes": "Developer placeholder cue."
+  },
+  {
+   "ref": "m6093#93",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※機体別・五飛と掛け合い<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Unit-specific exchange with Wufei)<ab(2000)><ed()>",
+   "notes": "Developer placeholder cue."
+  },
+  {
+   "ref": "m6093#94",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※アルトロン撤退<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Altron retreats)<ab(2000)><ed()>",
+   "notes": "Developer placeholder cue."
+  },
+  {
+   "ref": "brief63176#0",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(1)>",
+    "<im(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>#c[BE5050]ギガノス帝国#cで<im(1)>政権交代があり、\n<im(2)>ドルチェノフが総裁に就任したとの\n公式発表が先ほどされた。",
+   "en": "<op(37,1)><sp(2)>An official notice states the\n#c[BE5050]Giganos Empire#c<im(1)> has had a regime change,<im(2)>\nand Dorchenov assumed the presidency.",
+   "notes": "Captain Sinapus debriefing on the Giganos coup. fix: tokens order of #c and <im(1)> -> reordered tokens to match JP"
+  },
+  {
+   "ref": "brief63176#1",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(4)>",
+    "<im(5)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(4)>だが、真相は諸君らも聞いたとおり。\n<im(5)>実情はドルチェノフによるクーデターだ。",
+   "en": "<op(37,1)><sp(2)><im(4)>However, the truth is as you heard.\n<im(5)>In reality, it was a coup by Dorchenov.",
+   "notes": "Sinapus exposing the true nature of Dorchenov's takeover."
+  },
+  {
+   "ref": "brief63176#2",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(6)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(8)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(6)>ドルチェノフは、#c[5E8FD8]ＵＣＥ#cとの徹底抗戦を\n主張する強硬派だ。\n<im(8)>彼の動向には注意せねばならん。",
+   "en": "<op(37,1)><sp(2)><im(6)>Dorchenov is a hardliner advocating\nall-out war with the #c[5E8FD8]UCE#c.\n<im(8)>We must keep close watch on his movements.",
+   "notes": "Sinapus warning about Dorchenov."
+  },
+  {
+   "ref": "brief63176#3",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(9)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(9)>幸い我々は、ノイン特尉やヒイロ君を\n差し向けてくれた#c[5E8FD8]プリベンター#cと\n密接な協力関係を構築できている。",
+   "en": "<op(37,1)><sp(2)><im(9)>Fortunately, we have formed close ties\nwith the #c[5E8FD8]Preventer#c, who sent us\nLt. Noin and Heero.",
+   "notes": "Sinapus noting intelligence alliance with Preventer."
+  },
+  {
+   "ref": "brief63176#4",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(10)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(10)>情報収集には有利になるだろう。",
+   "en": "<op(37,1)><sp(2)><im(10)>This should benefit our intelligence.",
+   "notes": "Sinapus concluding debriefing."
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "brief63228#0",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>「ギガノス政変について」\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　ＵＣＥ諜報部",
+   "en": ""
+  },
+  {
+   "ref": "brief63228#1",
+   "layer": "Preventer report",
+   "jp": "<sp(0)><im(1)>#c[BE5050]ギガノス帝国#cからの公式声明において、\nギルトール元帥暗殺事件<im(3)>の犯人は、\nマイヨ・プラートであることが発表された。",
+   "en": ""
+  },
+  {
+   "ref": "brief63228#2",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>しかし、同国との交渉の席<im(2)>に居合わせた\nドーリアン外務次官は、暗殺事件の真犯人は\n#c[E2E258]ドルチェノフ#cであるとの証言を行っている。",
+   "en": ""
+  },
+  {
+   "ref": "brief63228#3",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>当のドルチェノフは、帝国総帥の座に就き\n地球への全面攻撃の準備として、宇宙機動\n要塞の建設<im(4)>を進めているとも伝えられる。",
+   "en": ""
+  },
+  {
+   "ref": "brief63228#4",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>強硬派が支配するところとなった\n#c[BE5050]ギガノス帝国#cに対しては、今後一層の\n警戒が必要となってくるだろう。",
+   "en": ""
+  },
+  {
+   "ref": "brief63228#5",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>なお、暗殺事件の実行犯として追われた\nマイヨ・プラートの消息は不明である。\n",
+   "en": ""
+  },
+  {
+   "ref": "brief63229#0",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>「バスターアークの性能変化について」\n\n　　　　　　　　　　　　　　　　　　　プリベンター　レディ・アン",
+   "en": ""
+  },
+  {
+   "ref": "brief63229#1",
+   "layer": "Preventer report",
+   "jp": "<sp(0)><im(1)>先日までに収集された#c[BE5050]バスターアーク#cの<im(2)>\n戦闘データについて、#c[5E8FD8]ＵＣＥ設計局#cからの\nレポートが提出された。",
+   "en": ""
+  },
+  {
+   "ref": "brief63229#2",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>報告によれば、#c[BE5050]バスターアーク#cの性能<im(3)>は\n記録を追うごとに、当初確認された時よりも\n少しずつ向上しているとのことである。",
+   "en": ""
+  },
+  {
+   "ref": "brief63229#3",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>さらに同機には、何らかの自律制御システム\nが実装されており、出現のたびにその制御を\n最適化しているものと推定される。",
+   "en": ""
+  },
+  {
+   "ref": "brief63229#4",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>つまり目標は、戦闘を重ねるごとに\nより高いパフォーマンス<im(4)>を持つ機体へと\n変化し続けているということになる。",
+   "en": ""
+  },
+  {
+   "ref": "brief63229#5",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>#c[BE5050]バスターアーク#cの消息は不明であるが、\n以上の点を十分認識し、各部隊には\n慎重な行動を願いたい。",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Completed translation of op09_03 (80 rows), featuring the dramatic atmospheric reentry confrontation with Chang Wufei in Gundam Nataku (Altron). Covers Wufei's intense philosophical challenge to the Gundam team regarding whether peace bought with sacrifice is truly just, stating he will 'become evil' to test their convictions, followed by Heero Yuy's celebrated retort from Endless Waltz ('How many more must we kill? Zero tells me nothing...'), Stalker's iconic Gundam Fight battle-cry easter egg, developer cues, and concluding with Captain Sinapus's debriefing on Dorchenov's coup and Giganos's transition to all-out hardliner aggression.",
+  "rows_examined": "m6093#6 to m6093#17 (context_before, 12 rows), m6093#18 to brief63176#4 (slice, 80 rows), brief63228#0 to brief63229#5 (context_after, 12 rows), op09_04 context",
+  "rows_examined_count": 104,
+  "uncertainties": [
+   {
+    "ref": "m6093#76 to #78",
+    "note": "Preserved Heero Yuy's iconic canonical Endless Waltz soliloquy ('Wufei, tell me... How many more must we kill? Zero tells me nothing...')."
+   },
+   {
+    "ref": "m6093#84",
+    "note": "Iconic G Gundam tournament catchphrase 'ガンダムファイト！！ レディーーーー、ゴォーーーー！！' rendered in canonical English as 'Gundam Fight!! Ready, gooooo!!'."
+   },
+   {
+    "ref": "brief63176#0",
+    "note": "Title '総裁' for Dorchenov translated as 'presidency' / supreme leader matching Dragonar lore."
+   }
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {
+   "37": "Eyphar Sinapus"
+  }
+ }
+}

@@ -1,0 +1,639 @@
+{
+ "table": "m6010",
+ "kind": "mission",
+ "copies": [
+  "6010:m"
+ ],
+ "rows": [
+  {
+   "ids": [
+    1
+   ],
+   "jp": "一定時間のシャトル防衛",
+   "en": "Defend the shuttle for a set time"
+  },
+  {
+   "ids": [
+    2
+   ],
+   "jp": "シャトルの破壊",
+   "en": "Destruction of the shuttle"
+  },
+  {
+   "ids": [
+    10
+   ],
+   "jp": "<op()><sp(20)>敵が接近中。襲撃部隊です！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Enemy approaching. It is an assault\nunit!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    11
+   ],
+   "jp": "<op()><sp(20)>この機を逃せば打ち上げは難しい<ab(1000)>",
+   "en": "<op()><sp(20)>If we miss this chance, a launch will\nbe difficult.<ab(1000)>"
+  },
+  {
+   "ids": [
+    12
+   ],
+   "jp": "<sp(20)>強行手段になるのは止むを得ません<ab(1000)>",
+   "en": "<sp(20)>Forcing our way through is our only\noption.<ab(1000)>"
+  },
+  {
+   "ids": [
+    13
+   ],
+   "jp": "<sp(20)>皆、全力を尽くすのです<ab(1000)><ed()>",
+   "en": "<sp(20)>Everyone, give it your absolute all.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    14
+   ],
+   "jp": "<op()><sp(20)>敵増援部隊を確認<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Enemy reinforcements confirmed.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    15
+   ],
+   "jp": "<op()><sp(20)>敵の数が多すぎる！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>There are too many enemies!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    16
+   ],
+   "jp": "<op()><sp(20)>レーダーの破壊を確認！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Destruction of radar confirmed!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    17
+   ],
+   "jp": "<op()><sp(20)>全て壊されたら、基地は丸裸だぞ！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>If all are destroyed, the base is\ncompletely exposed!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    18
+   ],
+   "jp": "<op()><sp(20)>シャトルにダメージ！　危険です！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Shuttle taking damage! It is dangerous!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    19
+   ],
+   "jp": "<op()><sp(20)>レーダーが全て破壊されました！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>All radar facilities have been\ndestroyed!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    20
+   ],
+   "jp": "<op()><sp(20)>空からの攻撃を防ぎきれんぞ…！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>We cannot fend off attacks from\nabove...!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    21
+   ],
+   "jp": "<op()><sp(20)>対空砲も迎撃準備完了<ab(1000)>",
+   "en": "<op()><sp(20)>Anti-air guns ready to intercept as\nwell.<ab(1000)>"
+  },
+  {
+   "ids": [
+    22
+   ],
+   "jp": "<sp(20)>レーダーが無事な間は対空砲が対処してくれる<ab(1000)><ed()>",
+   "en": "<sp(20)>While radar is intact, anti-air guns\nwill engage them.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    23
+   ],
+   "jp": "<op()><sp(20)>防衛網が一部突破されました！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Our defensive perimeter was partially\nbreached!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    24
+   ],
+   "jp": "<op()><sp(20)>敵の数が多すぎる…！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>There are too many enemies...!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    25
+   ],
+   "jp": "<op()><sp(20)><cs(1)>お前達を宇宙に上げるわけにはいかん<ab(1000)><ed()>",
+   "en": "<op()><sp(20)><cs(1)>We cannot allow you to ascend into\nspace.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    26
+   ],
+   "jp": "<op()><sp(20)><cs(1)>ギャブレー様の邪魔はさせない！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)><cs(1)>I will not let you get in Lord Gablae's\nway!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    27
+   ],
+   "jp": "<op()><sp(20)>敵はギャブレーの手の者<ab(1000)>",
+   "en": "<op()><sp(20)>The enemy belongs to Gablae's\nfaction.<ab(1000)>"
+  },
+  {
+   "ids": [
+    28
+   ],
+   "jp": "<sp(20)>この襲撃を足止めと考えるならば、<ab(0)>",
+   "en": "<sp(20)>If we view this assault as a diversion,<ab(0)>"
+  },
+  {
+   "ids": [
+    29
+   ],
+   "jp": "<sp(20)>彼は既に宇宙へ上がっているはず<ab(1000)><ed()>",
+   "en": "<sp(20)>he must have already ascended into\nspace.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    30
+   ],
+   "jp": "<op()><sp(20)>シャトルの打ち上げはまだでしょうか<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Is the shuttle not ready to launch yet?<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    31
+   ],
+   "jp": "<op()><sp(20)>新たな敵の反応！<ab(1000)>",
+   "en": "<op()><sp(20)>New enemy contact!<ab(1000)>"
+  },
+  {
+   "ids": [
+    32
+   ],
+   "jp": "<sp(20)>識別コード、リクレイマーです！<ab(1000)><ed()>",
+   "en": "<sp(20)>Identification code reads Reclaimers!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    33
+   ],
+   "jp": "<op()><sp(20)><cs(1)>プレートの反応はこの辺りからだ<ab(1000)><ed()>",
+   "en": "<op()><sp(20)><cs(1)>Plate reading originates around here.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    34
+   ],
+   "jp": "<op()><sp(20)><cs(1)>捜索を開始、邪魔者は排除しろ！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)><cs(1)>Begin search, eliminate any\ninterference!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    35
+   ],
+   "jp": "<op()><sp(20)>リクレイマーの狙いは<ab(0)>",
+   "en": "<op()><sp(20)>The Reclaimers seem to seek<ab(0)>"
+  },
+  {
+   "ids": [
+    36
+   ],
+   "jp": "<sp(20)>オルファンより生み出されるプレートのようです<ab(1000)><ed()>",
+   "en": "<sp(20)>the Plate born from Orphan.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    37
+   ],
+   "jp": "<op()><sp(20)>オーガニック・プレート…<ab(1000)>",
+   "en": "<op()><sp(20)>The Organic Plate...<ab(1000)>"
+  },
+  {
+   "ids": [
+    38
+   ],
+   "jp": "<sp(20)>アンチボディを生み出す源か<ab(1000)><ed()>",
+   "en": "<sp(20)>The source that generates Antibodies.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    39
+   ],
+   "jp": "<op()><sp(20)>今、構うだけの余裕はありません<ab(500)>",
+   "en": "<op()><sp(20)>We have no leisure to concern\nourselves with them now.<ab(500)>"
+  },
+  {
+   "ids": [
+    40
+   ],
+   "jp": "<sp(20)>邪魔する者だけを排除なさい<ab(1000)><ed()>",
+   "en": "<sp(20)>Eliminate only those who obstruct you.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    41
+   ],
+   "jp": "<op()><sp(20)>打ち上げ準備、整いました<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Launch preparations complete.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    42
+   ],
+   "jp": "<op()><sp(20)>打ち上げまで６０秒！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>60 seconds until launch!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    43
+   ],
+   "jp": "<op()><sp(20)>打ち上げ１０秒前、<ab(1000)>",
+   "en": "<op()><sp(20)>10 seconds to launch,<ab(1000)>"
+  },
+  {
+   "ids": [
+    44
+   ],
+   "jp": "<sp(20)>９、８、７、６、５、４、３、２、発射！<ab(1000)><ed()>",
+   "en": "<sp(20)>9, 8, 7, 6, 5, 4, 3, 2, liftoff!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    45
+   ],
+   "jp": "<on()><sp(20)>シャトル、大気圏離脱を確認！<ab(500)>",
+   "en": "<on()><sp(20)>Shuttle atmospheric breakout\nconfirmed!<ab(500)>"
+  },
+  {
+   "ids": [
+    46
+   ],
+   "jp": "<sp(20)>敵が撤退していきます<ab(2000)><off()>",
+   "en": "<sp(20)>The enemy is retreating.<ab(2000)><off()>"
+  },
+  {
+   "ids": [
+    47
+   ],
+   "jp": "<on()><sp(20)>よくやってくれました<ab(500)>",
+   "en": "<on()><sp(20)>You have done well.<ab(500)>"
+  },
+  {
+   "ids": [
+    48
+   ],
+   "jp": "<sp(20)>引き続き、グラン・ガランは#c[FF0000]\n#c地上で追撃任務にあたります<ab(500)>",
+   "en": "<sp(20)>Gran-Garan shall continue#c[FF0000]\n#cpursuit missions on the ground.<ab(500)>"
+  },
+  {
+   "ids": [
+    49
+   ],
+   "jp": "<sp(20)>宇宙でのご活躍、期待しております<ab(500)><off()>",
+   "en": "<sp(20)>I look forward to your success in\nspace.<ab(500)><off()>"
+  },
+  {
+   "ids": [
+    50
+   ],
+   "jp": "<on()><sp(20)>シーラ・ラパーナ女王、感謝します<ab(500)>",
+   "en": "<on()><sp(20)>Queen Ciela Lapana, you have our\ngratitude.<ab(500)>"
+  },
+  {
+   "ids": [
+    51
+   ],
+   "jp": "<sp(20)>我々も宇宙へ上がるぞ<ab(3000)><off()>",
+   "en": "<sp(20)>We're heading up into space as well.<ab(3000)><off()>"
+  },
+  {
+   "ids": [
+    52
+   ],
+   "jp": "<on()><sp(20)>シャトルが破壊されました…！<ab(500)><off()>",
+   "en": "<on()><sp(20)>The shuttle was destroyed...!<ab(500)><off()>"
+  },
+  {
+   "ids": [
+    53
+   ],
+   "jp": "<op()><sp(20)>作戦はこれより最終段階に入る<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Operation now entering its final phase.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    54
+   ],
+   "jp": "<op()><sp(20)>レーダーに熱源反応を確認<ab(1000)>",
+   "en": "<op()><sp(20)>Thermal reading confirmed on radar.<ab(1000)>"
+  },
+  {
+   "ids": [
+    55
+   ],
+   "jp": "<sp(20)>識別はギガノス軍です！<ab(1000)><ed()>",
+   "en": "<sp(20)>Identification confirmed as Giganos\nforces!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    56
+   ],
+   "jp": "<op()><sp(20)>なんだと！<ab(1000)>",
+   "en": "<op()><sp(20)>What did you say?!<ab(1000)>"
+  },
+  {
+   "ids": [
+    57
+   ],
+   "jp": "<sp(20)>迎撃態勢を取れ！<ab(1000)><ed()>",
+   "en": "<sp(20)>Assume intercept positions!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    60
+   ],
+   "jp": "<op()><sp(20)>あなたが最後の砦になるわ<ab(1000)>",
+   "en": "<op()><sp(20)>You will be our final bastion.<ab(1000)>"
+  },
+  {
+   "ids": [
+    61
+   ],
+   "jp": "<op()><sp(20)>そこが最終防衛ラインとなる<ab(1000)>",
+   "en": "<op()><sp(20)>That will serve as our final defense\nline.<ab(1000)>"
+  },
+  {
+   "ids": [
+    62
+   ],
+   "jp": "<op()><sp(20)>あなたは最終防衛ラインをお願いします<ab(1000)>",
+   "en": "<op()><sp(20)>Please hold the final defense line.<ab(1000)>"
+  },
+  {
+   "ids": [
+    63
+   ],
+   "jp": "<op()><sp(20)>あなたが防衛ラインの要よ<ab(1000)>",
+   "en": "<op()><sp(20)>You are the linchpin of our defense\nline.<ab(1000)>"
+  },
+  {
+   "ids": [
+    64
+   ],
+   "jp": "<op()><sp(20)>あなたが最後の砦になるわよ<ab(1000)>",
+   "en": "<op()><sp(20)>You will be our final bastion.<ab(1000)>"
+  },
+  {
+   "ids": [
+    65
+   ],
+   "jp": "<op()><sp(20)>あなたが最後の砦となるわ<ab(1000)>",
+   "en": "<op()><sp(20)>You are to be the final bastion.<ab(1000)>"
+  },
+  {
+   "ids": [
+    66
+   ],
+   "jp": "<op()><sp(20)>最終防衛ライン、レディ<ab(1000)>",
+   "en": "<op()><sp(20)>Final defense line, ready.<ab(1000)>"
+  },
+  {
+   "ids": [
+    67
+   ],
+   "jp": "<op()><sp(20)>あなたが最終防衛ラインになります<ab(1000)>",
+   "en": "<op()><sp(20)>You will form our final defense line.<ab(1000)>"
+  },
+  {
+   "ids": [
+    68
+   ],
+   "jp": "<op()><sp(20)>あなたの担当は、最終防衛ラインよ<ab(1000)>",
+   "en": "<op()><sp(20)>Your assigned post is the final\ndefense line.<ab(1000)>"
+  },
+  {
+   "ids": [
+    69
+   ],
+   "jp": "<op()><sp(20)>あなたの担当区域は最終防衛ライン<ab(1000)>",
+   "en": "<op()><sp(20)>Your operational sector is the final\ndefense line.<ab(1000)>"
+  },
+  {
+   "ids": [
+    70
+   ],
+   "jp": "<sp(20)>突破してきた敵からシャトルを守って<ab(1000)><ed()>",
+   "en": "<sp(20)>Protect the shuttle from any enemies\nthat break through.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    71
+   ],
+   "jp": "<sp(20)>何としても、敵からシャトルを守ってくれ<ab(1000)><ed()>",
+   "en": "<sp(20)>Protect the shuttle from the enemy at\nall costs.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    72
+   ],
+   "jp": "<sp(20)>敵の攻撃からシャトルを守ってください<ab(1000)><ed()>",
+   "en": "<sp(20)>Please protect the shuttle from enemy\nattacks.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    73
+   ],
+   "jp": "<sp(20)>シャトルを守って、頼んだわよ<ab(1000)><ed()>",
+   "en": "<sp(20)>Protect the shuttle, we are counting on\nyou.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    74
+   ],
+   "jp": "<sp(20)>シャトルぐらい、敵から守ってよね<ab(1000)><ed()>",
+   "en": "<sp(20)>At least keep the shuttle safe\nfrom the enemy, okay?<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    75
+   ],
+   "jp": "<sp(20)>敵からシャトルを守ってね、お願いよ<ab(1000)><ed()>",
+   "en": "<sp(20)>Protect the shuttle from enemies,\nplease.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    76
+   ],
+   "jp": "<sp(20)>シャトルノ撃破ヲ回避セヨ<ab(1000)><ed()>",
+   "en": "<sp(20)>Prevent destruction of the shuttle.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    77
+   ],
+   "jp": "<sp(20)>シャトルを敵から守ってください<ab(1000)><ed()>",
+   "en": "<sp(20)>Please defend the shuttle from the\nenemy.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    78
+   ],
+   "jp": "<sp(20)>何としても、シャトルを守ってちょうだい<ab(1000)><ed()>",
+   "en": "<sp(20)>Defend the shuttle by any means\nnecessary.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    79
+   ],
+   "jp": "<sp(20)>敵からシャトルを守ってください<ab(1000)><ed()>",
+   "en": "<sp(20)>Please protect the shuttle from the\nenemy.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    80
+   ],
+   "jp": "<op()><sp(20)>シャトルが危ないわ！　近づけさせないで！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>The shuttle is in danger! Don't let\nthem get close!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    81
+   ],
+   "jp": "<op()><sp(20)>シャトルが被弾したぞ！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>The shuttle has taken a hit!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    82
+   ],
+   "jp": "<op()><sp(20)>シャトルが危険です、敵を倒してください<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>The shuttle is in danger, destroy the\nenemy.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    83
+   ],
+   "jp": "<op()><sp(20)>シャトルを攻撃されてるわよ！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>They are attacking the shuttle!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    84
+   ],
+   "jp": "<op()><sp(20)>このままじゃ、シャトルがやられちゃうわ！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>At this rate, the shuttle will be\ndestroyed!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    85
+   ],
+   "jp": "<op()><sp(20)>シャトルが攻撃を受けてるわ、注意して<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>The shuttle is under attack, be alert.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    86
+   ],
+   "jp": "<op()><sp(20)>アラームメッセージ、シャトルノ損傷拡大<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Alarm message: shuttle damage\nspreading.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    87
+   ],
+   "jp": "<op()><sp(20)>シャトルの損傷拡大、このままでは危険です<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Shuttle damage spreading. At this rate,\nit will be in danger.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    88
+   ],
+   "jp": "<op()><sp(20)>シャトルが危険だわ、近づけさせてはダメ！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>The shuttle is in danger, keep them\naway!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    89
+   ],
+   "jp": "<op()><sp(20)>シャトルの損傷が拡大しています<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Damage to the shuttle is increasing.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    90
+   ],
+   "jp": "<op()><sp(20)>なるべく、レーダーは破壊されないようにね<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Try not to let radar get destroyed if\npossible.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    91
+   ],
+   "jp": "<op()><sp(20)>レーダーは極力守るんだ<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Protect the radar to the best of your\nability.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    92
+   ],
+   "jp": "<op()><sp(20)>レーダーはできるだけ守ってください<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Please protect the radar as much as\npossible.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    93
+   ],
+   "jp": "<op()><sp(20)>レーダーはなるべく壊されないようにね<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Do your best not to let the radars get\nwrecked.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    94
+   ],
+   "jp": "<op()><sp(20)>レーダーはあまり破壊されちゃダメよ<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Do not let too many radars be\ndestroyed.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    95
+   ],
+   "jp": "<op()><sp(20)>なるべくレーダーは破壊されないでね<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Do not let radar get destroyed if you\ncan avoid it.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    96
+   ],
+   "jp": "<op()><sp(20)>可能ナ範囲デレーダーヲ防衛セヨ<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Defend the radar to the extent\npossible.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    97
+   ],
+   "jp": "<op()><sp(20)>レーダーはなるべく守ってください<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Please protect the radar as best as\npossible.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    98
+   ],
+   "jp": "<op()><sp(20)>レーダーはなるべく破壊されないでちょうだい<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Try to prevent radar destruction as\nmuch as possible.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    99
+   ],
+   "jp": "<op()><sp(20)>レーダーはできるだけ防衛してください<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Please defend radar facilities to the\nextent possible.<ab(1000)><ed()>"
+  }
+ ]
+}

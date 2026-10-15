@@ -1,0 +1,1758 @@
+{
+ "batch": "op20_01",
+ "operation": 20,
+ "previous_batch": null,
+ "next_batch": "op20_02",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "オペレーション",
+   "en": "Operation",
+   "kind": "term"
+  },
+  {
+   "ja": "ゼントラーディ",
+   "en": "Zentradi",
+   "kind": "faction",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Race/faction of giant humanoid warriors; main antagonists."
+  },
+  {
+   "ja": "ノヴィス・ノア",
+   "en": "Novis Noah",
+   "kind": "ship",
+   "series": "Brain Powerd",
+   "role": "Anti-Orphan battleship (carrier with a pyramid superstructure); base of the Brain Powerd pilots"
+  },
+  {
+   "ja": "バスターアーク",
+   "en": "Buster Ark",
+   "kind": "unit",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Modified Gun Ark with an evolving Guardian System and fallen-angel styling; Marina's unit while with the Rainen side."
+  },
+  {
+   "ja": "メルトランディ",
+   "en": "Meltrandi",
+   "kind": "faction",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Female Zentradi faction, at war with the male Zentradi in DYRL."
+  },
+  {
+   "ja": "エステバリス",
+   "en": "Aestivalis",
+   "kind": "unit",
+   "series": "Martian Successor Nadesico",
+   "role": "Nergal mass-produced mecha; used alone and in エステバリス隊 (Aestivalis squad/team)."
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "オルファン",
+   "en": "Orphan",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Gigantic sentient alien ship buried under the Pacific; its awakening threatens Earth; base of the Reclaimers"
+  },
+  {
+   "ja": "バルキリー",
+   "en": "Valkyrie",
+   "kind": "unit",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "U.N. Spacy VF-1 variable fighter series."
+  },
+  {
+   "ja": "フォールド",
+   "en": "fold",
+   "kind": "term",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Space-jump (fold) drive of the Macross; Nadesico gets caught in the Macross space fold."
+  },
+  {
+   "ja": "ポセイダル",
+   "en": "Poseidal",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "female",
+   "role": "Emperor ruling the Pentagona World from Sveto on Gastogal; supreme commander of the Poseidal Army. The Poseidal on the throne is actually Mian Qu Ha Ussher, a puppet of the true Poseidal (Amandara Kamandara). In ACE2 'Poseidal' is the pilot of the Aug.",
+   "personality": "Regal, cold and imperious ruler who controls others (e.g. Quwasan) through the bio-relation system; her memories are themselves manipulated, and she finally turns against Amandara.",
+   "full_name": "Oldna Poseidal"
+  },
+  {
+   "ja": "宇都宮比瑪",
+   "en": "Hime Utsumiya",
+   "kind": "character",
+   "series": "Brain Powerd",
+   "gender": "female",
+   "role": "Female lead; 17-year-old Brain Powerd pilot (Hime Brain) aboard the Novis Noah",
+   "personality": "Cheerful, warm and motherly toward the children and her Brain. Optimistic and brave, and believes in talking to people and Antibodies alike.",
+   "en_short": "Hime"
+  },
+  {
+   "ja": "グラドス",
+   "en": "Grados",
+   "kind": "faction",
+   "series": "Blue Comet SPT Layzner",
+   "role": "The alien Grados Empire, from the Udoria system, that invades and occupies Earth in Layzner. Adjective form: Gradosian."
+  },
+  {
+   "ja": "マクロス",
+   "en": "Macross",
+   "kind": "ship",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "SDF-1 Macross, the U.N. Spacy super-dimensional fortress (human flagship)."
+  },
+  {
+   "ja": "伊佐未勇",
+   "en": "Yuu Isami",
+   "kind": "character",
+   "series": "Brain Powerd",
+   "gender": "male",
+   "role": "Male lead; former Reclaimer who escapes Orphan and pilots Yuu Brain, later Nelly Brain, for Novis Noah",
+   "personality": "Brooding lone wolf who resents his scientist parents. Often acts alone, but values life and comes to fight to save his sister Quincy.",
+   "en_short": "Yuu"
+  },
+  {
+   "ja": "エイジ",
+   "en": "Eiji",
+   "kind": "character",
+   "series": "Blue Comet SPT Layzner",
+   "gender": "male",
+   "role": "Protagonist Eiji Asuka's Grados name without the surname; half-Grados son of Ken Asuka who pilots the Layzner.",
+   "full_name": "Albatro Null Eiji"
+  },
+  {
+   "ja": "ケーン",
+   "en": "Kaine",
+   "kind": "character",
+   "series": "Metal Armor Dragonar",
+   "gender": "male",
+   "role": "Pilot of Dragonar-1 (D-1); Earth Alliance/Federation trainee promoted to Warrant Officer; protagonist",
+   "personality": "Hot-blooded, impulsive, acts before thinking; chases Linda; resents his absent father",
+   "full_name": "Kaine Wakaba"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {
+  "34": {
+   "speaker": "Ruri Hoshino",
+   "gender": "female",
+   "role": "Nadesico operator",
+   "confidence": "high",
+   "evidence": "brief: 'こちらはナデシコのホシノ・ルリです。'"
+  },
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  },
+  "38": {
+   "speaker": "South Burning",
+   "gender": "male",
+   "role": "Captain, mobile weapons unit commander at Torrington",
+   "confidence": "high",
+   "evidence": "brief63000: 'I'm Captain South Burning.'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [],
+ "rows": [
+  {
+   "ref": "brief63019#0",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "オペレーション　２０",
+   "en": "Operation 20",
+   "notes": "Operation title."
+  },
+  {
+   "ref": "brief63019#1",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "新造戦艦マクロス 進宙式",
+   "en": "Launch of the New Battleship Macross",
+   "notes": "Mission name."
+  },
+  {
+   "ref": "brief63019#2",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "マクロスの損傷を抑える",
+   "en": "Minimize Macross damage",
+   "notes": "Mission objective."
+  },
+  {
+   "ref": "brief63019#3",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "接近艦隊迎撃",
+   "en": "Intercept Approaching Fleet",
+   "notes": "Mission objective."
+  },
+  {
+   "ref": "brief63019#4",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "マクロス防衛",
+   "en": "Defend the Macross",
+   "notes": "Mission objective."
+  },
+  {
+   "ref": "brief63019#5",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<ac(19)>",
+    "<im(1)>",
+    "<im(2)>",
+    "#c[F07141]",
+    "<im(3)>",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><ac(19)>我々は<im(1)>これより<im(2)>、ついに完成した\n新造戦艦#c[F07141]マクロスの進宙式の\n<im(3)>警備#cへと向かう。",
+   "en": "<op(37,1)><sp(2)><ac(19)>We will now <im(1)>head out <im(2)>to #c[F07141]guard the launch\nceremony <im(3)>of the battleship Macross#c,\nwhich has finally been completed.",
+   "notes": "Captain Sinapus briefing."
+  },
+  {
+   "ref": "brief63019#6",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[E2E258]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>#c[E2E258]マクロス#cについて、知らない者のために\nひととおり説明しておこう。",
+   "en": "<op(37,1)><sp(2)>For those unfamiliar with the #c[E2E258]Macross#c,\nallow me to give a brief explanation.",
+   "notes": "Sinapus giving background."
+  },
+  {
+   "ref": "brief63019#7",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>１０年前、南アタリア島に\n落下してきた流星があった。",
+   "en": "<op(37,1)><sp(2)>Ten years ago, a meteor crashed\nupon South Ataria Island.",
+   "notes": "Sinapus explaining Macross history."
+  },
+  {
+   "ref": "brief63019#8",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>調査の結果、この流星の正体は、\n全長１２００ｍを越える異星人の戦闘艦と\n判明した。",
+   "en": "<op(37,1)><sp(2)>Investigations revealed that this meteor\nwas in fact an alien warship\nexceeding 1,200 meters in length.",
+   "notes": "Sinapus explaining alien warship discovery."
+  },
+  {
+   "ref": "brief63019#9",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>その過程で、太陽系外ではゼントラーディと\nメルトランディという２つの戦闘種族による\n戦争が行われていることも明らかになった。",
+   "en": "<op(37,1)><sp(2)>Through this, we also learned of a war\nbeyond our solar system between two\nwarrior races: Zentradi and Meltrandi.",
+   "notes": "Sinapus explaining Zentradi vs Meltrandi. fix: linha com 493 px > 430 px -> compactada para caber em 3 linhas."
+  },
+  {
+   "ref": "brief63019#10",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>軍は、ただちにそうした異星勢力に対抗する\nための防衛計画を策定し、その要として、\n落ちてきた戦艦を、修理改修した。",
+   "en": "<op(37,1)><sp(2)>The military drafted defense plans\nagainst them, repairing and refitting\nthe fallen ship as its centerpiece.",
+   "notes": "Sinapus explaining rebuilding of SDF-1. fix: linha com 480 px > 430 px -> compactada para caber em 3 linhas."
+  },
+  {
+   "ref": "brief63019#11",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(13)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>それが<im(13)>戦艦#c[5E8FD8]マクロス#cだ。",
+   "en": "<op(37,1)><sp(2)>That is <im(13)>the battleship #c[5E8FD8]Macross#c.",
+   "notes": "Sinapus revealing ship name."
+  },
+  {
+   "ref": "brief63019#12",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>この戦艦には異星人の手による\n未知の技術が使われていてな。",
+   "en": "<op(37,1)><sp(2)>Unknown technology wrought by alien hands\nhas been utilized in this warship.",
+   "notes": "Sinapus explaining overtechnology."
+  },
+  {
+   "ref": "brief63019#13",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>フォールドと呼ばれる空間跳躍航法、\n強攻型に変形できる可変構造…\n地球の技術だけでは実現不可能な物だ。",
+   "en": "<op(37,1)><sp(2)>Space-jump navigation called 'fold',\na frame transforming to Attack Mode...\nAll impossible with Earth tech alone.",
+   "notes": "Sinapus detailing fold and Attack Mode. fix: linha com 503 px > 430 px -> compactada para caber em 3 linhas."
+  },
+  {
+   "ref": "brief63019#14",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[E2E258]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>諸君が行動をともにした#c[E2E258]バルキリー#cも、\nその異星人の技術を応用することで、\n最新鋭機として完成させることができたのだ。",
+   "en": "<op(37,1)><sp(2)>The #c[E2E258]Valkyries#c you fought alongside\nwere also built with this alien tech,\nmaking them state-of-the-art machines.",
+   "notes": "Sinapus explaining Valkyrie origins. fix: linha com 470 px > 430 px -> compactada para caber em 3 linhas."
+  },
+  {
+   "ref": "brief63019#15",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>#c[5E8FD8]マクロス#cを知らなかった者もいるだろうが、\nこれを機に覚えておいてくれたまえ。",
+   "en": "<op(37,1)><sp(2)>Some among you may not have known of the\n#c[5E8FD8]Macross#c, but take this chance to learn of it.",
+   "notes": "Sinapus remarking to pilots."
+  },
+  {
+   "ref": "brief63019#16",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(10)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(9)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>現在、その#c[5E8FD8]マクロス#cの進宙式が行われる\n南アタリア島近辺に、<im(10)>#c[BE5050]ポセイダル#cと<im(9)>#c[BE5050]グラドス#cの\n艦隊をキャッチした。",
+   "en": "<op(37,1)><sp(2)>Currently, near South Ataria Island where the\nlaunch of #c[5E8FD8]Macross#c is held, we detected <im(10)>#c[BE5050]Poseidal#c\nand <im(9)>#c[BE5050]Grados#c fleets.",
+   "notes": "Sinapus reporting enemy fleet sightings."
+  },
+  {
+   "ref": "brief63019#17",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>地球圏外からの侵攻勢力である\n彼らの狙いは、#c[5E8FD8]マクロス#cの破壊だろう。",
+   "en": "<op(37,1)><sp(2)>As invading forces from outside the Earth Sphere,\ntheir objective is surely to destroy the #c[5E8FD8]Macross#c.",
+   "notes": "Sinapus deducing enemy intent."
+  },
+  {
+   "ref": "brief63019#18",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>地球側がこのような未知の戦力を\n持ってることを考えれば、\n当然予測できたことだ。",
+   "en": "<op(37,1)><sp(2)>Considering Earth possesses such unknown power,\nthis was naturally to be expected.",
+   "notes": "Sinapus continuing."
+  },
+  {
+   "ref": "brief63019#19",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>#c[BE5050]グラドス#cが地球上で確認されたのは\n今回が初めてだ。あのエイジという少年が\n言っていたことは、本当だったようだな。",
+   "en": "<op(37,1)><sp(2)>This is the first time #c[BE5050]Grados#c has been confirmed\non Earth. It seems what that boy named Eiji\nsaid was indeed true.",
+   "notes": "Sinapus confirming Eiji's warning."
+  },
+  {
+   "ref": "brief63019#20",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(5)>",
+    "<im(8)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>#c[BE5050]ポセイダル#c軍と同時期に現れたことは何か\n引っかかるが…<im(5)><im(8)>今は考えている暇はない。\n現地では、すでに交戦が発生している。",
+   "en": "<op(37,1)><sp(2)>Their arrival with #c[BE5050]Poseidal#c is odd,\nbut...<im(5)><im(8)> we have no time to ponder it.\nCombat has already begun on site.",
+   "notes": "Sinapus noting Poseidal and Grados presence. fix: linha com 478 px > 430 px -> compactada para caber em 3 linhas."
+  },
+  {
+   "ref": "brief63019#21",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>本艦はこれより南アタリア島へ急行。\n現地の#c[5E8FD8]バルキリー隊#cと協力して、\n#c[F07141]マクロスを防衛#cする。",
+   "en": "<op(37,1)><sp(2)>This ship will rush to South Ataria Island.\nWe will cooperate with the local #c[5E8FD8]Valkyrie squad#c\nto #c[F07141]defend the Macross#c.",
+   "notes": "Sinapus issuing operation orders."
+  },
+  {
+   "ref": "brief63019#22",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>なお、太平洋方面において、\nオルファンが海上への浮上を開始した\nという報告も入っている。",
+   "en": "<op(37,1)><sp(2)>Furthermore, we have received word that\nOrphan has begun surfacing in the Pacific.",
+   "notes": "Sinapus noting Orphan situation."
+  },
+  {
+   "ref": "brief63019#23",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>そのため、伊佐未勇、宇都宮比瑪の両名は\n一旦#c[5E8FD8]ノヴィス・ノア#cへ帰還した。\n以上だ。",
+   "en": "<op(37,1)><sp(2)>Because of this, Yuu Isami and Hime Utsumiya\nhave temporarily returned to the #c[5E8FD8]Novis Noah#c.\nThat is all.",
+   "notes": "Sinapus explaining Yuu and Hime's absence."
+  },
+  {
+   "ref": "brief63019#24",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 34,
+   "tokens": [
+    "<op(34,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(11)>",
+    "<im(12)>",
+    "<of(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(34,1)><sp(2)>#c[5E8FD8]マクロス#cは大事な<im(11)>戦艦らし<im(12)>いので、\n<of(1)>なるべく壊されないようにしてくださいね。",
+   "en": "<op(34,1)><sp(2)>The #c[5E8FD8]Macross#c seems to be an <im(11)>important<im(12)> ship,\n<of(1)>so please try not to let it get destroyed.",
+   "notes": "Ruri Hoshino deadpan closing remark."
+  },
+  {
+   "ref": "brief63123#0",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "マクロスの損傷",
+   "en": "Macross Damage",
+   "notes": "Tactical objective gauge."
+  },
+  {
+   "ref": "brief63123#2",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "<im(1)>",
+    "#c",
+    "<im(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(3)>",
+    "<im(5)>",
+    "<im(7)>",
+    "#c[F07141]",
+    "#c",
+    "<tr(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>#c[BE5050]ポセ<im(1)>イダル#c軍、<im(2)>#c[BE5050]グラドス#c軍の部隊が\n<im(3)>アタリア島周辺に展開中だ。\n<im(5)>各機<im(7)>は#c[F07141]マクロスへ向かう敵を迎撃#cしてくれ。<tr(1)>",
+   "en": "<op(38,1)><sp(2)>#c[BE5050]Pose<im(1)>idal#c and <im(2)>#c[BE5050]Grados#c forces are currently\n<im(3)>deploying around Ataria Island.\n<im(5)>All units,<im(7)> #c[F07141]intercept enemies heading for Macross#c.<tr(1)>",
+   "notes": "Captain South Burning tactical briefing."
+  },
+  {
+   "ref": "brief63123#3",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(9)>",
+    "<im(10)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>#c[5E8FD8]マクロス#cはすでに襲<im(9)>撃を受け<im(10)>ている。\nもたもたするなよ！",
+   "en": "<op(38,1)><sp(2)>The #c[5E8FD8]Macross#c is already under <im(9)>attack<im(10)>.\nDon't drag your feet!",
+   "notes": "Burning urgency."
+  },
+  {
+   "ref": "m6201#3",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>各機、全速でマクロスへ向かうぞ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>All units, head for Macross at full speed!<ab(500)><ed()>",
+   "notes": "Burning command."
+  },
+  {
+   "ref": "m6201#4",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>はいはい、わかってますって。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Yeah, yeah, we hear you loud and clear.<ab(200)><ed()>",
+   "notes": "Kaine Wakaba flippant response."
+  },
+  {
+   "ref": "m6201#5",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>余裕だねえ、ケーン？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Pretty cocky, aren't you, Kaine?<ab(300)><ed()>",
+   "notes": "Tapp teasing Kaine."
+  },
+  {
+   "ref": "m6201#6",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵機確認。　こりゃ、大歓迎ですな。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemy units confirmed. Quite the welcome party.<ab(300)><ed()>",
+   "notes": "Light ironic comment."
+  },
+  {
+   "ref": "m6201#7",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>うわ……すごい数だ。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Whoa... that is a crazy number.<ab(300)><ed()>",
+   "notes": "Pilot shocked at numbers."
+  },
+  {
+   "ref": "m6201#8",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ポセイダルに……グラドス。\nみんなマクロスを狙ってるのか。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Poseidal, and... Grados.\nAre they all targeting the Macross?<ab(500)><ed()>",
+   "notes": "Pilot surveying factions."
+  },
+  {
+   "ref": "m6201#9",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>来るぞ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Here they come!<ab(100)><ed()>",
+   "notes": "Warning."
+  },
+  {
+   "ref": "m6201#10",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>各機、迎撃に入ってください！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>All units, move to intercept!<ab(300)><ed()>",
+   "notes": "Operator instruction."
+  },
+  {
+   "ref": "m6201#11",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦を全て破壊するんだ。\nマクロスに向かう敵を少しでも減らす！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Destroy all enemy warships!\nThin out enemies heading for Macross!<ab(500)><ed()>",
+   "notes": "Command."
+  },
+  {
+   "ref": "m6201#12",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あれが噂に聞くアルビオン隊か…<ab(300)><ed()>",
+   "en": "<op()><sp(20)>So that's the rumored Albion team...<ab(300)><ed()>",
+   "notes": "Macross crew observing Albion."
+  },
+  {
+   "ref": "m6201#13",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なかなかの腕前ですね。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Quite skilled, aren't they?<ab(400)><ed()>",
+   "notes": "Macross operator."
+  },
+  {
+   "ref": "m6201#14",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>本艦１２時方向のアルビオン隊が\n全敵勢力の２０％を壊滅。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Albion team at 12 o'clock has wiped\nout 20% of all enemy forces.<ab(500)><ed()>",
+   "notes": "Macross operator status report."
+  },
+  {
+   "ref": "m6201#15",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そうか、頼もしい限りだな。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Is that so? Most dependable.<ab(300)><ed()>",
+   "notes": "Captain Bruno J. Global pleased."
+  },
+  {
+   "ref": "m6201#16",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アルビオン隊が本艦に急速接近中。<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Albion team rapidly approaching our ship.<ab(1000)><ed()>",
+   "notes": "Macross operator radar report."
+  },
+  {
+   "ref": "m6201#17",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>頼んだぞ…<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>We are counting on you...<ab(1000)><ed()>",
+   "notes": "Global placing faith in allies."
+  },
+  {
+   "ref": "m6201#18",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>本艦、右舷損傷！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Damage to starboard!<ab(400)><ed()>",
+   "notes": "Macross damage report."
+  },
+  {
+   "ref": "m6201#19",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>周辺の部隊は至急援護を！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Surrounding units, provide immediate support!<ab(500)><ed()>",
+   "notes": "Misa Hayase calling for support."
+  },
+  {
+   "ref": "m6201#21",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まだだ、援護が来るまで持ちこたえろ。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Not yet. Hold out until support arrives.<ab(500)><ed()>",
+   "notes": "Global steadying crew."
+  },
+  {
+   "ref": "m6201#22",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>機関部にダメージ！　危険です！\nこのままじゃ……！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Damage to the engine block! Danger!\nAt this rate...!<ab(400)><ed()>",
+   "notes": "Operator panicked report."
+  },
+  {
+   "ref": "m6201#23",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(900)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これまでか…！<ab(900)><ed()>",
+   "en": "<op()><sp(20)>Is this the end...!?<ab(900)><ed()>",
+   "notes": "Global lamenting imminent destruction."
+  },
+  {
+   "ref": "m6201#24",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵の第１陣は撃破したな。\nマクロスの様子は？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>We wiped out the first enemy wave.\nHow is the Macross holding up?<ab(200)><ed()>",
+   "notes": "Burning checking status."
+  },
+  {
+   "ref": "m6201#25",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>無事です。\nしかし、敵の第２陣が向かっています。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>It is safe. However, a second\nenemy wave is inbound.<ab(500)><ed()>",
+   "notes": "Operator report."
+  },
+  {
+   "ref": "m6201#26",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>全速で迎撃に向かえ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Intercept them at full speed!<ab(300)><ed()>",
+   "notes": "Burning order."
+  },
+  {
+   "ref": "m6201#27",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>エステバリス隊も、迎撃に向かってください。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Aestivalis squad, please intercept as well.<ab(500)><ed()>",
+   "notes": "Ruri Hoshino directing Nadesico mechas."
+  },
+  {
+   "ref": "m6201#28",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何？　これは？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>What? What is this?<ab(300)><ed()>",
+   "notes": "Misa Hayase noticing strange anomaly."
+  },
+  {
+   "ref": "m6201#29",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どうしたの？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>What is wrong?<ab(300)><ed()>",
+   "notes": "Bridge operator."
+  },
+  {
+   "ref": "m6201#30",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>修復前のシステムが、\n勝手に動き出したんです！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>The pre-repair system has started\nup completely on its own!<ab(200)><ed()>",
+   "notes": "Operator reporting uncommanded activation."
+  },
+  {
+   "ref": "m6201#31",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>全システムカット！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Cut all systems!<ab(0)><ed()>",
+   "notes": "Global emergency order."
+  },
+  {
+   "ref": "m6201#32",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>だめ！　全然効かない！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>No good! Nothing responds at all!<ab(200)><ed()>",
+   "notes": "Operator unable to override."
+  },
+  {
+   "ref": "m6201#33",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何が起こったのだ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>What on earth has happened!?<ab(400)><ed()>",
+   "notes": "Global demanding explanation."
+  },
+  {
+   "ref": "m6201#34",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……マクロスが発砲した！？<ab(600)><ed()>",
+   "en": "<op()><sp(20)>...The Macross fired!?<ab(600)><ed()>",
+   "notes": "Outside observer stunned by main gun discharge."
+  },
+  {
+   "ref": "m6201#35",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ビームが全然減衰しない！？\n……なんて威力だ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>The beam isn't attenuating at all!?\n...What incredible power!<ab(400)><ed()>",
+   "notes": "Observer remarking on Macross main cannon beam."
+  },
+  {
+   "ref": "m6201#36",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>異なるタイプの敵反応！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Different type of enemy contact!<ab(1000)><ed()>",
+   "notes": "Sensor operator."
+  },
+  {
+   "ref": "m6201#37",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>識別不明！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Identification unknown!<ab(1000)><ed()>",
+   "notes": "Sensor operator."
+  },
+  {
+   "ref": "m6201#38",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あれ、たぶん、全部無人機ですね。<ab(700)>",
+   "en": "<op()><sp(20)>Those are probably all unmanned units.<ab(700)>",
+   "notes": "Ruri Hoshino deducing automated enemy mecha."
+  },
+  {
+   "ref": "m6201#39",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>…バスターアークという機体以外は。<ab(300)><ed()>",
+   "en": "<sp(20)>...Except for the unit called Buster Ark.<ab(300)><ed()>",
+   "notes": "Ruri noting Buster Ark."
+  },
+  {
+   "ref": "m6201#40",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>わかるのか？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>You can tell?<ab(200)><ed()>",
+   "notes": "Tak questioning Ruri."
+  },
+  {
+   "ref": "m6201#41",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>はい。　非常によくできてますけど。<ab(500)>",
+   "en": "<op()><sp(20)>Yes. Though they are extremely well made.<ab(500)>",
+   "notes": "Ruri explaining analysis."
+  },
+  {
+   "ref": "m6201#42",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(900)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>よく見ると、動きや挙動に共通したパターンが\n見られますし、無駄も少なさすぎます。<ab(900)><ed()>",
+   "en": "<sp(20)>Look closely: their actions follow\nset patterns, with too little waste.<ab(900)><ed()>",
+   "notes": "Ruri explaining drone movement logic. fix: linha com 440 px > 380 px -> compactada para caber em 2 linhas."
+  },
+  {
+   "ref": "m6201#43",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ぜ、ぜんぜんわかんねぇ…<ab(600)><ed()>",
+   "en": "<op()><sp(20)>I... I can't tell at all...<ab(600)><ed()>",
+   "notes": "Tak baffled by Ruri's explanation."
+  },
+  {
+   "ref": "m6201#44",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>艦長、監視衛星からの連絡です！<ab(500)>",
+   "en": "<op()><sp(20)>Captain, report from surveillance satellite!<ab(500)>",
+   "notes": "Macross operator."
+  },
+  {
+   "ref": "m6201#45",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>主砲ビームは、月軌道内２８万キロ地点で\n宇宙船らしき物を撃破。<ab(700)><ed()>",
+   "en": "<sp(20)>Main beam destroyed an apparent ship\nin lunar orbit, 280,000 km out.<ab(700)><ed()>",
+   "notes": "Operator reporting cannon hit in deep space. fix: linha com 419 px > 380 px -> compactada para caber em 2 linhas."
+  },
+  {
+   "ref": "m6201#46",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(900)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さらに後続の宇宙船多数、急速接近中！<ab(900)><ed()>",
+   "en": "<op()><sp(20)>Multiple following spacecraft closing fast!<ab(900)><ed()>",
+   "notes": "Operator reporting Zentradi fleet arrival."
+  },
+  {
+   "ref": "m6201#47",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ふ、ふふふふふふ……ははははははは！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Heh, heheheh... Hahahahaha!<ab(700)><ed()>",
+   "notes": "Captain Bruno J. Global bitter laugh (famous anime scene)."
+  },
+  {
+   "ref": "m6201#48",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>艦長！？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Captain!?<ab(200)><ed()>",
+   "notes": "Misa Hayase shocked."
+  },
+  {
+   "ref": "m6201#49",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ハメられたんだよ、我々は！\nブービートラップに！<ab(500)>",
+   "en": "<op()><sp(20)>We've been set up! By a booby trap!<ab(500)>",
+   "notes": "Global explaining booby trap."
+  },
+  {
+   "ref": "m6201#50",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(800)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>この船は異星人がしかけた、\nブービートラップだったんだよ！<ab(800)>",
+   "en": "<sp(20)>This ship was an alien booby trap all along!<ab(800)>",
+   "notes": "Global continuing."
+  },
+  {
+   "ref": "m6201#51",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>おそらく、敵対する宇宙人が現われると<ab(0)>",
+   "en": "<sp(20)>Presumably, when hostile aliens appear...<ab(0)>",
+   "notes": "Global continuing."
+  },
+  {
+   "ref": "m6201#52",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>自動防衛システムが作動するように\nプログラムしてあったのだろう。<ab(700)>",
+   "en": "<sp(20)>...it was programmed for automated\ndefense systems to activate.<ab(700)>",
+   "notes": "Global continuing."
+  },
+  {
+   "ref": "m6201#53",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>おかげで我々は、異星人同士の戦争に\n巻き込まれるハメになったわけだ！<ab(700)><ed()>",
+   "en": "<sp(20)>And thanks to that, we've ended up\ndragged into a war between aliens!<ab(700)><ed()>",
+   "notes": "Global lamenting humanity's predicament."
+  },
+  {
+   "ref": "m6201#54",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>高速で接近する機影があります！<ab(300)>",
+   "en": "<op()><sp(20)>High-speed contact approaching!<ab(300)>",
+   "notes": "Operator report."
+  },
+  {
+   "ref": "m6201#55",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>…バスターアークです！<ab(300)><ed()>",
+   "en": "<sp(20)>...It's the Buster Ark!<ab(300)><ed()>",
+   "notes": "Operator identifying Buster Ark."
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6201#56",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>あいつは…！　来たか、マリナ！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#57",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……今回は護衛つきのようですね。<ab(1000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#58",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>私がやらなくては…<ab(1000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#59",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>マリナ、聞こえているか？\nもう一度話をしよう。<ab(1200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#60",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……聞かないなら\n力づくしかないな。<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#61",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ポセイダルの増援！？<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#62",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>よいか！　あの機体を捕らえ、\nギワザ様に献上するのだ！<ab(600)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#63",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>やはりポセイダル軍は、\nあいつを狙っている…<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#64",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>逃がすな！　追えーっ！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#65",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ギワザめ…あの機体を利用する気か！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#66",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵、撤退していきます。<ab(600)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#67",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>もう、俺には止められないのか…<ab(800)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "This slice opens Operation 20 with Captain Sinapus briefing the Albion crew on South Ataria Island about the origins of the SDF-1 Macross, the alien war between Zentradi and Meltrandi, and defending its launch ceremony. In Phase 1 combat, Poseidal and Grados forces attack, the Albion team assists, and the Macross's automated booby-trap system activates unexpectedly, firing its main cannon into space and provoking incoming alien warships. The slice concludes with the arrival of the Buster Ark.",
+  "rows_examined": "brief63019#0-24, brief63123#0-3, m6201#3-55 (slice rows), m6201#56-67 (context_after), op20_02 (next_batch)",
+  "rows_examined_count": 92,
+  "uncertainties": [
+   "In m6201#47-53, Captain Global's famous booby-trap realization dialogue from Macross is delivered without a portrait code; the attribution to Global is confirmed by Macross canon and surrounding bridge officer responses.",
+   "In m6201#38-42, the analytical remarks distinguishing unmanned units from the Buster Ark match Ruri Hoshino's blunt electronic warfare expertise."
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

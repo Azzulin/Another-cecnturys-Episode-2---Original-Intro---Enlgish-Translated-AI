@@ -1,0 +1,1744 @@
+﻿{
+    "batch":  "op28_03",
+    "operation":  28,
+    "previous_batch":  "op28_02",
+    "next_batch":  "op28_04",
+    "rows_in_slice":  80,
+    "do_not_touch_names":  [
+                               "Barkholz",
+                               "Capt. Burning",
+                               "Captain Burning",
+                               "Captain South Burning",
+                               "Cowen",
+                               "Giganos",
+                               "Lieutenant",
+                               "Lt.",
+                               "Major Anavel Gato",
+                               "Sinapus",
+                               "Tak"
+                           ],
+    "glossary":  [
+                     {
+                         "ja":  "キング・オブ・ハート",
+                         "en":  "King of Hearts",
+                         "kind":  "term",
+                         "series":  "Mobile Fighter G Gundam",
+                         "role":  "Shuffle Alliance title held by Domon Kasshu (formerly Master Asia)."
+                     },
+                     {
+                         "ja":  "アルビオン",
+                         "en":  "Albion",
+                         "kind":  "ship",
+                         "series":  "Mobile Suit Gundam 0083: Stardust Memory",
+                         "role":  "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+                     },
+                     {
+                         "ja":  "ボドルザー",
+                         "en":  "Boddole Zer",
+                         "kind":  "character",
+                         "series":  "The Super Dimension Fortress Macross",
+                         "gender":  "male",
+                         "role":  "Supreme commander of the Zentradi main fleet.",
+                         "full_name":  "Golg Boddole Zer"
+                     },
+                     {
+                         "ja":  "マーベル",
+                         "en":  "Marvel",
+                         "kind":  "character",
+                         "series":  "Aura Battler Dunbine",
+                         "gender":  "female",
+                         "role":  "Holy Warrior from a ranching family near Dallas, Texas; resistance pilot (House Givun); pilots Dunbine in ACE2",
+                         "personality":  "Confident, kind and level-headed. A skilled pilot who first meets Sho as an enemy and talks him into questioning Drake. She loves Sho and wishes he would admit his feelings.",
+                         "full_name":  "Marvel Frozen"
+                     },
+                     {
+                         "ja":  "ショウ",
+                         "en":  "Show",
+                         "kind":  "character",
+                         "series":  "Aura Battler Dunbine",
+                         "gender":  "male",
+                         "role":  "Protagonist; Holy Warrior (Seisenshi) from Tokyo summoned to Byston Well; defects from Drake Luft to the resistance; pilots Dunbine, later Billbine",
+                         "personality":  "Hot-blooded, stubborn young motocross racer who grows into a serious, driven warrior. Has huge Aura Power but struggles to control it. Has unspoken feelings for Marvel.",
+                         "full_name":  "Sho Zama"
+                     },
+                     {
+                         "ja":  "マリナ",
+                         "en":  "Marina",
+                         "kind":  "character",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "gender":  "female",
+                         "role":  "ACE2 heroine; Ensign in Tak\u0027s squad, pilot of the red Gun Ark; goes missing at Torrington Base, reappears with the Rainen Project in the Buster Ark, later rejoins Tak.",
+                         "personality":  "Cool and reserved (\u0027defrosting ice queen\u0027 in flashbacks); deeply bonded with Tak.",
+                         "full_name":  "Marina Carson"
+                     },
+                     {
+                         "ja":  "ダバ",
+                         "en":  "Daba",
+                         "kind":  "character",
+                         "series":  "Heavy Metal L-Gaim",
+                         "gender":  "male",
+                         "role":  "Protagonist. Heir of the Yaman clan\u0027s Kamon dynasty (true name Kamon Myroad), raised on Koam; leads the rebellion against Poseidal. Pilots the L-Gaim, later the L-Gaim Mk-II.",
+                         "personality":  "Calm, earnest and somewhat reserved, hard to read; indecisive at times but prone to sudden outbursts of anger, and reckless whenever his adopted sister Quwasan is involved. Grows into a capable leader.",
+                         "full_name":  "Daba Myroad"
+                     },
+                     {
+                         "ja":  "レイ",
+                         "en":  "Rei"
+                     },
+                     {
+                         "ja":  "大尉",
+                         "en":  "Captain",
+                         "en_short":  "Capt.",
+                         "kind":  "rank",
+                         "note":  "army/MS rank; a ship\u0027s captain (艦長) is also Captain"
+                     },
+                     {
+                         "ja":  "比瑪",
+                         "en":  "Hime",
+                         "kind":  "character",
+                         "series":  "Brain Powerd",
+                         "gender":  "female",
+                         "role":  "Female lead; 17-year-old Brain Powerd pilot (Hime Brain) aboard the Novis Noah",
+                         "personality":  "Cheerful, warm and motherly toward the children and her Brain. Optimistic and brave, and believes in talking to people and Antibodies alike.",
+                         "full_name":  "Hime Utsumiya"
+                     }
+                 ],
+    "known_portraits":  {
+
+                        },
+    "unknown_portraits":  [
+
+                          ],
+    "context_before":  [
+                           {
+                               "ref":  "m6283#6",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003e「ただいまより、木星連合は総力を挙げ、\nＵＣＥ及びその同盟艦隊を支援す。\u003cab(100)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6283#7",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003e宇宙に生きる全ての者のために。\nレッツ、ゲキガイン！」\u003cab(1000)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6283#8",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003e基幹艦隊内部にも、\n我々に呼応する者が出始めましたな。\u003cab(700)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6283#9",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003e文化だよ……これが文化の力だ。\u003cab(600)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6283#10",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eボドルザー艦を射程内に捉えました！\u003cab(300)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6283#11",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003e今から、突入口を開ける！\u003cab(500)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6283#12",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003e目標はボドル基艦！\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6283#13",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eあとちょっと！　みなさんがんばってください！\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6283#14",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eこれで本当に最後だ！\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6283#15",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eマリナ、いいな？\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6283#16",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eいつでもどうぞ！\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6283#17",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eガーディアン、データリンク完了！\u003cab(0)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           }
+                       ],
+    "rows":  [
+                 {
+                     "ref":  "m6283#18",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e照準制御、オールグリーン！\u003cab(0)\u003e\u003ced()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eTargeting control, all green!\u003cab(0)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6283#19",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eいっけぇぇぇぇぇ！！\u003cab(0)\u003e\u003ced()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eTake thiiiiiiis!!\u003cab(0)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6283#20",
+                     "layer":  "mission dialogue",
+                     "phase":  3,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e全機、突入！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eAll units, charge in!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6284#0",
+                     "layer":  "mission dialogue",
+                     "phase":  4,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "ボドルザーの撃破",
+                     "en":  "Defeat Boddole Zer",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6284#2",
+                     "layer":  "mission dialogue",
+                     "phase":  4,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(900)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eメインターゲットＡ１３３Ｇ１６５！\u003cab(900)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eMain target A133G165!\u003cab(900)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6284#3",
+                     "layer":  "mission dialogue",
+                     "phase":  4,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eここは俺に任せてもらおう！\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eLeave this to me!\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Domon Kasshu finisher Sekiha Tenkyoken against Boddole Zer."
+                 },
+                 {
+                     "ref":  "m6284#4",
+                     "layer":  "mission dialogue",
+                     "phase":  4,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e石破っ！！！　天驚拳っ！！！！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eSekiha... Tenkyoken!!!!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Domon Kasshu finisher Sekiha Tenkyoken against Boddole Zer."
+                 },
+                 {
+                     "ref":  "m6284#5",
+                     "layer":  "mission dialogue",
+                     "phase":  4,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eおおおおおおおお！\nプロトカルチャァアアアアアア！！！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eOooooooooooh!\nProtocultuuuuuuuure!!!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Domon Kasshu finisher Sekiha Tenkyoken against Boddole Zer."
+                 },
+                 {
+                     "ref":  "m6284#6",
+                     "layer":  "mission dialogue",
+                     "phase":  4,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e今だ！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eNow!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6284#7",
+                     "layer":  "mission dialogue",
+                     "phase":  4,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e全機、一斉攻撃！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eAll units, all-out attack!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6284#8",
+                     "layer":  "mission dialogue",
+                     "phase":  4,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eぐあああああああああぁああっ！！！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eGwaaaaaaaaaaagh!!!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6285#0",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "残存部隊を排除する",
+                     "en":  "Eliminate remaining forces",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6285#1",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e俺が援護する、先に行け！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI will cover you, go on ahead!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#2",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e背後は俺に任せて！\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eLeave the rear to me!\u003cab(1000)\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#3",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e先に行ってください！　比瑪を頼みます！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003ePlease go ahead! Look after Hime!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#4",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e敵は私とヒメブレンが引き受けるわ！\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eHime Brain and I will take on the enemy!\u003cab(1000)\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#5",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e勇！　外で待っててね！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eYuu! Wait for me outside!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#6",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eしんがりは任せろ！　先に出てくれ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eLeave the rearguard to me! Head out first!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#7",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eしんがりは俺がやる！\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI will hold the rear!\u003cab(1000)\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#8",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eみんなの背後は、しっかりお守りしますよ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eI will make sure everyone\u0027s back is well protected!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#9",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e援護するぜ！　お先にどうぞ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI will cover you! After you!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#10",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eしんがりは私に任せていただこう！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAllow me to take command of the rear guard!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#11",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eあたいがしんがりをやらせてもらうよ！\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI will handle the rear guard duty myself!\u003cab(1000)\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#12",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eプラート大尉！　退路を開いとくれ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eCaptain Plato! Clear our escape route!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#13",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eしばらく敵を足止めする！\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI will stall the enemy for a bit!\u003cab(1000)\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#14",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e先に行ってくれ！　外で会おう！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eGo on ahead! See you outside!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#15",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e脱出を援護するわ。\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI will cover the escape.\u003cab(1000)\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#16",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eダバ、またあとでね？\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eDaba, see you later, okay?\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#17",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eしんがりは困難だが名誉ある任務。\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eRear guard is a perilous yet honorable duty.\u003cab(1000)\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#18",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eならば私がやらずに誰がやるのだ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eIf not I, then who else shall do it!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#19",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eしんがりは僕が引き受けます。\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI will take up the rearguard.\u003cab(1000)\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#20",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eレイ！　周囲を警戒しろ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eRei! Keep watch on our surroundings!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#21",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eレディ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eReady!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#22",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e背後は俺が守る！\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI will protect our rear!\u003cab(1000)\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#23",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eマーベル、外で落ち合おう！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eMarvel, let us meet outside!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#24",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eしばらく敵を食い止めておくわ！\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI will hold off the enemy for a while!\u003cab(1000)\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#25",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eショウ、先に出ていて！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eShow, go on out ahead!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#26",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e後方警戒は任せてください！\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eLeave rear security to me!\u003cab(1000)\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#27",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eお先にどうぞ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003ePlease go on ahead!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#28",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e脱出を援護します！　また外で！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI will cover the escape! See you outside!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#29",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eしんがりは任せな！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eLeave the rear guard to me!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#30",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e敵は俺が食い止める！\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI will hold back the enemy!\u003cab(1000)\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#31",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e俺にかまわず先に行けぇっ！！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eDo not worry about me, get going!!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#32",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e俺が敵を食い止める！\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI will hold back the enemy!\u003cab(1000)\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#33",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eあとですぐ追いつくから！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eI will catch up with you right after!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#34",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e敵は引き受けるぜ！　先に行けっ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI will take on the enemy! Go on ahead!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#35",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eここは任せて～！　先に出て！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eLeave this place to me! Get out first!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#36",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eしんがりは私がやるわ。\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI will take the rear guard.\u003cab(1000)\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#37",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e先に外に出といて。\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eHead outside first.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#38",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e後方警戒に当たる。　先に行け。\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAssuming rear security. Go on ahead.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#39",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eここは引き受けた！　先に出ろ！\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI have got this! Head out first!\u003cab(1000)\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#40",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e敵はしっかり食い止めてやるぜ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eI will definitely hold off the enemy!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#41",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e僕が脱出を援護します！\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI will cover the escape!\u003cab(1000)\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#42",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e皆さんはお先に！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eEveryone, go on ahead!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#43",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e援護する。　先に出てくれ。\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI will provide cover. Please head out first.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#44",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e撤退を援護する。お前らは行け！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eCovering withdrawal. You guys go on!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#45",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e後方警戒は引き受けよう。\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI shall oversee the rear guard.\u003cab(1000)\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#46",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e諸君は先に脱出してくれたまえ。\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003ePray, make your escape ahead of me.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#47",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eキング・オブ・ハートの名にかけて、\nここは俺が引き受ける！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eIn the name of the King of Hearts,\nI will take this on myself!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#48",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eしんがりは私が！　先に行って！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe rearguard is mine! Go on ahead!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#49",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e俺が最後に出る！　みんなは行ってくれ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI will be the last out! Everyone, go on!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rearguard sequence lines by player and partner units."
+                 },
+                 {
+                     "ref":  "m6285#50",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e旗艦が爆発するぞ！\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe flagship is going to blow!\u003cab(1000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6285#51",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e全機、急いで脱出だ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eAll units, escape immediately!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6285#52",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "テスト",
+                     "en":  "Test",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6285#53",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　スズキヨシタカ\n　　フロムソフトウェア",
+                     "en":  "ã€€ã€€Yoshitaka Suzuki\nã€€ã€€FromSoftware",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6285#54",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e終わったね……\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eIt is over, is it not...\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina intimate post-battle reunion dialogue."
+                 },
+                 {
+                     "ref":  "m6285#55",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eああ……終わった。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eYeah... it is over.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina intimate post-battle reunion dialogue."
+                 },
+                 {
+                     "ref":  "m6285#56",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e他のみんなは？\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eWhat about everyone else?\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina intimate post-battle reunion dialogue."
+                 },
+                 {
+                     "ref":  "m6285#57",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eわからない……\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eI do not know...\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina intimate post-battle reunion dialogue."
+                 },
+                 {
+                     "ref":  "m6285#58",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e……私たちは、これからも戦い続けるの？\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...Will we keep fighting even from now on?\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina intimate post-battle reunion dialogue."
+                 },
+                 {
+                     "ref":  "m6285#59",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eそうだな…そうだとしても…\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eI suppose so... But even if we do...\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina intimate post-battle reunion dialogue."
+                 },
+                 {
+                     "ref":  "m6285#60",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e言ったろ？　守るって。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eI told you, didn\u0027t I? That I would protect you.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina intimate post-battle reunion dialogue."
+                 },
+                 {
+                     "ref":  "m6285#61",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e……まったく、いつまで私の\n保護者ヅラする気なの？\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...Honestly, just how long do you intend\nto act like my guardian?\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina intimate post-battle reunion dialogue."
+                 },
+                 {
+                     "ref":  "m6285#62",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eなんだったら、一生でもいいぜ。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eIf you ask me, for the rest of our lives.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina intimate post-battle reunion dialogue."
+                 },
+                 {
+                     "ref":  "m6285#63",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e……バ、バカ！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...Y-You idiot!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina intimate post-battle reunion dialogue."
+                 },
+                 {
+                     "ref":  "m6285#64",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eおい、通信だ！　アルビオンからだ！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eHey, a transmission! It is from the Albion!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina intimate post-battle reunion dialogue."
+                 },
+                 {
+                     "ref":  "m6285#65",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e……あ！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...Ah!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina intimate post-battle reunion dialogue."
+                 },
+                 {
+                     "ref":  "m6285#66",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e……私の役目も終わりね。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...My role is over as well.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina intimate post-battle reunion dialogue."
+                 },
+                 {
+                     "ref":  "m6285#67",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eマリナ？\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eMarina?\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina intimate post-battle reunion dialogue."
+                 },
+                 {
+                     "ref":  "m6285#68",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e結果がどうあれ、私のやったことは……\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eWhatever the outcome, what I have done is...\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina intimate post-battle reunion dialogue."
+                 }
+             ],
+    "context_after":  [
+                          {
+                              "ref":  "m6285#69",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003con()\u003e\u003csp(20)\u003e何を言っているんだ？\u003cab(0)\u003e\u003coff()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6285#70",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003con()\u003e\u003csp(20)\u003e私は償いをしないといけない。\u003cab(0)\u003e\u003coff()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6285#71",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003con()\u003e\u003csp(20)\u003e…マリナ。\u003cab(0)\u003e\u003coff()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6285#72",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003con()\u003e\u003csp(20)\u003e私…戦っていた時は、勝っても負けても、\nもうタックに会えなくなるんだと思ってた。\u003cab(0)\u003e\u003coff()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6285#73",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003con()\u003e\u003csp(20)\u003eそれだけが……心残りだった。\u003cab(0)\u003e\u003coff()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6285#74",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003con()\u003e\u003csp(20)\u003eでも、戦いが終わって、\n生きて会えることができた。\u003cab(0)\u003e\u003coff()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6285#75",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003con()\u003e\u003csp(20)\u003eそれだけで十分。\u003cab(0)\u003e\u003coff()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6285#76",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003con()\u003e\u003csp(20)\u003e……タック……\u003cab(0)\u003e\u003coff()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6285#77",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003con()\u003e\u003csp(20)\u003eもうしばらく、一緒にいて。\u003cab(0)\u003e\u003coff()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6285#78",
+                              "layer":  "mission dialogue",
+                              "jp":  "Ａｎｏｔｈｅｒ　Ｃｅｎｔｕｒｙ’ｓ　Ｅｐｉｓｏｄｅ２\n　　　　Ｓｐｅｃｉａｌ　Ｖｏｃａｌ　Ｖｅｒｓｉｏｎ\n　　　　　　－　Ａｌｌ　Ｓｔａｆｆ　－",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6285#79",
+                              "layer":  "mission dialogue",
+                              "jp":  "ディレクター\n　　　渋谷　知広",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6285#80",
+                              "layer":  "mission dialogue",
+                              "jp":  "ゲームデザイン\n　　　谷村　唯",
+                              "en":  ""
+                          }
+                      ],
+    "report":  {
+                   "translator_summary":  "Operation 28 batch 03 translated. Covers final penetration, Domon\u0027s decisive blow against Boddole Zer, escape sequence with squad rearguard dialogues, and the beginning of Tak and Marina\u0027s epilogue conversation.",
+                   "rows_examined":  "All 80 rows translated and checked.",
+                   "rows_examined_count":  80,
+                   "uncertainties":  [
+
+                                     ],
+                   "glossary_proposals":  [
+
+                                          ],
+                   "portrait_speakers":  {
+
+                                         }
+               }
+}

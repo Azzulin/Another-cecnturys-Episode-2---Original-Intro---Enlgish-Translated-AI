@@ -1,0 +1,1680 @@
+{
+    "batch":  "xa_01",
+    "operation":  null,
+    "group":  "xa",
+    "group_label":  "Extra missions (Nadesico B, Ra Cailum, White Fang...)",
+    "previous_batch":  null,
+    "next_batch":  "xa_02",
+    "rows_in_slice":  80,
+    "do_not_touch_names":  [
+                               "Amuro Ray",
+                               "Barkholz",
+                               "Capt. Burning",
+                               "Captain Burning",
+                               "Captain South Burning",
+                               "Cowen",
+                               "Giganos",
+                               "Lieutenant",
+                               "Lt.",
+                               "Major Anavel Gato",
+                               "Sinapus",
+                               "Tak"
+                           ],
+    "glossary":  [
+                     {
+                         "ja":  "ジョナサングランチャー",
+                         "en":  "Jonathan Grand Cher",
+                         "kind":  "unit",
+                         "series":  "Brain Powerd",
+                         "role":  "Same unit as ジョナサン・グランチャー; this game string just has no middle dot"
+                     },
+                     {
+                         "ja":  "シーラ・ラパーナ",
+                         "en":  "Ciela Lapana",
+                         "kind":  "character",
+                         "series":  "Aura Battler Dunbine",
+                         "gender":  "female",
+                         "role":  "Queen of the Kingdom of Na; commands the aura battleship Gran-Garan; gives Sho the Billbine",
+                         "personality":  "Serene, dignified young queen with strong Aura Power and a sense of duty to all of Byston Well. Calm but resolute.",
+                         "en_short":  "Ciela"
+                     },
+                     {
+                         "ja":  "グラン・ガラン",
+                         "en":  "Gran-Garan",
+                         "kind":  "ship",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Aura battleship of Queen Ciela Lapana (Kingdom of Na)"
+                     },
+                     {
+                         "ja":  "グランチャー",
+                         "en":  "Grand Cher",
+                         "kind":  "unit",
+                         "series":  "Brain Powerd",
+                         "role":  "Orphan-loyal Antibody piloted by Reclaimers (generic grunt unit)"
+                     },
+                     {
+                         "ja":  "リクレイマー",
+                         "en":  "Reclaimer",
+                         "kind":  "faction",
+                         "series":  "Brain Powerd",
+                         "role":  "The people who serve Orphan and pilot Grand Chers to gather its plates; plural \u0027Reclaimers\u0027"
+                     },
+                     {
+                         "ja":  "オルファン",
+                         "en":  "Orphan",
+                         "kind":  "term",
+                         "series":  "Brain Powerd",
+                         "role":  "Gigantic sentient alien ship buried under the Pacific; its awakening threatens Earth; base of the Reclaimers"
+                     },
+                     {
+                         "ja":  "ジョナサン",
+                         "en":  "Jonathan",
+                         "kind":  "character",
+                         "series":  "Brain Powerd",
+                         "gender":  "male",
+                         "role":  "Reclaimer ace of Orphan; pilots Jonathan Grand Cher, later Jonathan Baronz; Yuu\u0027s rival and the son of Novis Noah\u0027s captain Anoa McCormick",
+                         "personality":  "Arrogant, aggressive and taunting, full of resentment toward Yuu and his own mother. Loyal to Baron Maximilian.",
+                         "full_name":  "Jonathan Glenn"
+                     },
+                     {
+                         "ja":  "ドレイク",
+                         "en":  "Drake",
+                         "kind":  "character",
+                         "series":  "Aura Battler Dunbine",
+                         "gender":  "male",
+                         "role":  "Main antagonist; Lord of House Luft in the Kingdom of Ah (アの国), who summons Holy Warriors and wages war to unite Byston Well; commands the Will Wipps",
+                         "personality":  "Ambitious, scheming warlord who believes his conquest is justified. Loves his daughter Riml but is blind to the plots around him.",
+                         "full_name":  "Drake Luft"
+                     },
+                     {
+                         "ja":  "リリーナ",
+                         "en":  "Relena",
+                         "kind":  "character",
+                         "series":  "Mobile Suit Gundam Wing",
+                         "gender":  "female",
+                         "role":  "Female lead; heir of the Sanc Kingdom (real name Relena Peacecraft), Zechs\u0027s younger sister, and a pacifist leader.",
+                         "personality":  "Idealistic, determined pacifist; dignified and unafraid to confront soldiers.",
+                         "full_name":  "Relena Darlian"
+                     },
+                     {
+                         "ja":  "UCE",
+                         "en":  "UCE",
+                         "kind":  "faction"
+                     },
+                     {
+                         "ja":  "OZ",
+                         "en":  "OZ",
+                         "kind":  "faction",
+                         "series":  "Mobile Suit Gundam Wing",
+                         "role":  "Organization of the Zodiac: elite secret society/military organization inside the Alliance, led by Treize Khushrenada"
+                     }
+                 ],
+    "known_portraits":  {
+
+                        },
+    "unknown_portraits":  [
+
+                          ],
+    "context_before":  [
+                           {
+                               "ref":  "m6005#0",
+                               "layer":  "mission dialogue",
+                               "jp":  "敵勢力の撃破",
+                               "en":  "Destroy the enemy forces"
+                           }
+                       ],
+    "rows":  [
+                 {
+                     "ref":  "m6005#1",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "防空部隊の全滅",
+                     "en":  "All air defense units destroyed",
+                     "notes":  "Objective / failure condition."
+                 },
+                 {
+                     "ref":  "m6005#2",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e沿岸の対空砲が敵の爆撃機を足止めしている\n対空砲を護衛し、爆撃機の侵入を防ぐ\u003cab(500)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eCoastal AA guns hold the enemy bombers.\nProtect the guns and block the bombers!\u003cab(500)\u003e\u003coff()\u003e",
+                     "notes":  "Mission briefing."
+                 },
+                 {
+                     "ref":  "m6005#3",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eグラン・ガランは外洋にて防衛します\u003cab(500)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eThe Gran-Garan will defend the open sea.\u003cab(500)\u003e\u003coff()\u003e",
+                     "notes":  "Speaker: Ciela Lapana / Gran-Garan crew."
+                 },
+                 {
+                     "ref":  "m6005#4",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e了解です\n我々は突破された敵を対処します\u003cab(500)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eUnderstood.\nWe will stop those that break through.\u003cab(500)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6005#5",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e１機たりとも近づけるな！\u003cab(500)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eDo not let a single unit get through!\u003cab(500)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6005#6",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e沿岸の対空部隊を守るんだ\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eProtect the coastal air defense units!\u003cab(1000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6005#7",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e彼らがやられれば、爆撃機が来るぞ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eIf they fall, the bombers will come!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6005#8",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e敵はＯＺのモビルドール部隊です\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe enemy is an OZ Mobile Doll unit.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6005#9",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e最新の機種か、厄介だな…\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe latest models? Troublesome...\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6005#10",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e防衛部隊が攻撃を受けています！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe defense force is under attack!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6005#11",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e防衛部隊、残りあと３機！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eDefense force, only 3 units left!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6005#12",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e何やってんの！　敵を抑えるんだ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWhat are you doing?! Hold them back!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6005#13",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e防衛部隊、残り１機！　もう持たないぞ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eDefense force, only 1 unit left!\nThey cannot hold much longer!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6005#14",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e海中より熱源反応！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThermal signature from underwater!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6005#15",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e公共周波数にＵＣＥより通信が！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eIncoming transmission from the UCE\non the open frequency!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6005#16",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003ccs(1)\u003e",
+                                    "\u003cab(0)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(1)\u003e貴国は難民救済を名目に亡命者を受け入れ、\u003cab(0)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(1)\u003eUnder the pretext of refugee relief,\nyour nation accepts defectors,\u003cab(0)\u003e",
+                     "notes":  "Speaker: UCE commander addressing Sanc Kingdom."
+                 },
+                 {
+                     "ref":  "m6005#17",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003ccs(1)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e\u003ccs(1)\u003e犯罪者の温床となっている\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003e\u003ccs(1)\u003ebecoming a breeding ground for criminals.\u003cab(1000)\u003e",
+                     "notes":  "Speaker: UCE commander."
+                 },
+                 {
+                     "ref":  "m6005#18",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003ccs(1)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e\u003ccs(1)\u003e貴国は再三の警告にも応じなかった\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003e\u003ccs(1)\u003eYou failed to heed our repeated warnings.\u003cab(1000)\u003e",
+                     "notes":  "Speaker: UCE commander."
+                 },
+                 {
+                     "ref":  "m6005#19",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003ccs(1)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e\u003ccs(1)\u003e残された道は、かつてと同じく滅亡の命運だ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003e\u003ccs(1)\u003eAll that remains for you now\nis the same ruin as before.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: UCE commander."
+                 },
+                 {
+                     "ref":  "m6005#20",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eどうあっても潰す気か…！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThey will crush it no matter what...\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6005#21",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e長く続く戦いに飽いた民衆は\u003cab(0)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe people, weary of endless conflict,\u003cab(0)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6005#22",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eサンクキングダムを支持している\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003esupport the Sanc Kingdom.\u003cab(1000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6005#23",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eＵＣＥが脅威を感じるほどにな\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eEnough to make the UCE feel threatened.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6005#24",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e今すぐ戦闘をやめるのです！\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eCease fighting immediately!\u003cab(1000)\u003e",
+                     "notes":  "Speaker: Relena Peacecraft."
+                 },
+                 {
+                     "ref":  "m6005#25",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e武力では何の解決も望めません\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eMilitary force will solve nothing!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Relena Peacecraft."
+                 },
+                 {
+                     "ref":  "m6005#26",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003ccs(1)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(1)\u003e手強いのがいる！　増援頼む！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(1)\u003eThis one\u0027s tough! Requesting backup!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Enemy pilot."
+                 },
+                 {
+                     "ref":  "m6005#27",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e敵増援部隊を確認\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eEnemy reinforcements confirmed.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Operator."
+                 },
+                 {
+                     "ref":  "m6005#28",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e敵は撤退を開始したようです\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe enemy has begun to withdraw.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Operator."
+                 },
+                 {
+                     "ref":  "m6005#29",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e防空部隊、沈黙！\n敵爆撃機がサンクキングダムへ侵入します！\u003cab(500)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eAir defense units silenced!\nEnemy bombers entering the Sanc Kingdom!\u003cab(500)\u003e\u003coff()\u003e",
+                     "notes":  "Failure dialogue."
+                 },
+                 {
+                     "ref":  "m6005#30",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eサンクキングダムが…！\nリリーナ様…！\u003cab(500)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eThe Sanc Kingdom...!\nLady Relena...!\u003cab(500)\u003e\u003coff()\u003e",
+                     "notes":  "Failure dialogue."
+                 },
+                 {
+                     "ref":  "m6005#31",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eバリアを展開している間は動きが止まるようね\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eIt seems they stop moving\nwhile the barrier is active.\u003cab(1000)\u003e",
+                     "notes":  "Battle advice: calm female."
+                 },
+                 {
+                     "ref":  "m6005#32",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eバリアの展開中は動きが止まるようだ\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eIt appears they stop moving\nwhile deploying the barrier.\u003cab(1000)\u003e",
+                     "notes":  "Battle advice: calm male."
+                 },
+                 {
+                     "ref":  "m6005#33",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eバリア展開中は敵の動きが止まります\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eEnemy movement stops\nwhile the barrier is deployed.\u003cab(1000)\u003e",
+                     "notes":  "Battle advice: polite / formal."
+                 },
+                 {
+                     "ref":  "m6005#34",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eバリアを展開している間は動きが止まるわ\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThey stop moving\nwhile their barrier is active!\u003cab(1000)\u003e",
+                     "notes":  "Battle advice: assertive female."
+                 },
+                 {
+                     "ref":  "m6005#35",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eバリアを展開してる間は動きが止まるわ\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThey freeze up\nwhile the barrier is deployed!\u003cab(1000)\u003e",
+                     "notes":  "Battle advice: energetic female."
+                 },
+                 {
+                     "ref":  "m6005#36",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eバリアの展開中は動きが止まるみたいよ\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eLooks like they can\u0027t move\nwhile the barrier is up!\u003cab(1000)\u003e",
+                     "notes":  "Battle advice: casual female."
+                 },
+                 {
+                     "ref":  "m6005#37",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eバリア展開中ノターゲット停止ヲ確認\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eConfirmed target stops\nduring barrier deployment.\u003cab(1000)\u003e",
+                     "notes":  "Battle advice: computer / AI."
+                 },
+                 {
+                     "ref":  "m6005#38",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eバリアの展開中は敵の動きが止まるわ\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eEnemy movement halts\nwhile the barrier is active.\u003cab(1000)\u003e",
+                     "notes":  "Battle advice: serious female."
+                 },
+                 {
+                     "ref":  "m6005#39",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e片っ端から攻撃すればなんとかなるわ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eIf we attack them one after another,\nwe can manage this!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Battle advice: female."
+                 },
+                 {
+                     "ref":  "m6005#40",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eできるだけ多くの敵機に攻撃するんだ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eAttack as many enemy units\nas you can!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Battle advice: male."
+                 },
+                 {
+                     "ref":  "m6005#41",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e攻撃を続ければ、押し止められそうですね\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eIf we keep attacking,\nwe should be able to hold them back.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Battle advice: polite."
+                 },
+                 {
+                     "ref":  "m6005#42",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e次々と攻撃をして、敵を押し留めて\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eKeep hitting them one by one\nand hold the enemy back!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Battle advice: female."
+                 },
+                 {
+                     "ref":  "m6005#43",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eどんどん攻撃すれば、なんとかなりそうよ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eKeep pouring on attacks,\nand we should make it through!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Battle advice: female."
+                 },
+                 {
+                     "ref":  "m6005#44",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e次々と攻撃をすれば、敵を防げそうね\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eIf we attack relentlessly,\nwe can stop the enemy!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Battle advice: female."
+                 },
+                 {
+                     "ref":  "m6005#45",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eターゲットノ動キヲ止メヨ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eHalt target movement.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Battle advice: computer / AI."
+                 },
+                 {
+                     "ref":  "m6005#46",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e片っ端から攻撃をすれば、いけますよ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eJust hit everything in sight\nand we\u0027ve got this!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Battle advice: youthful."
+                 },
+                 {
+                     "ref":  "m6005#47",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e攻撃を続けて、敵の侵攻を防ぐのよ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eKeep attacking and stop\nthe enemy advance!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Battle advice: female."
+                 },
+                 {
+                     "ref":  "m6005#48",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e攻撃により敵の動きを止めてください\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003ePlease stop enemy movement\nwith your attacks.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Battle advice: polite."
+                 },
+                 {
+                     "ref":  "m6005#49",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eやったわ、すごいじゃない！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eYou did it! That was amazing!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Praise: female."
+                 },
+                 {
+                     "ref":  "m6005#50",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e見事な腕前だ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eMagnificent skill.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Praise: male."
+                 },
+                 {
+                     "ref":  "m6005#51",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e鮮やかですね、さすがです\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eSplendid work, as expected of you.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Praise: polite."
+                 },
+                 {
+                     "ref":  "m6005#52",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eすごい、私の予想以上だわ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eIncredible! Far beyond my expectations.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Praise: female."
+                 },
+                 {
+                     "ref":  "m6005#53",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eやーん、ちょっと、すごいじゃない\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWow, hey, that was fantastic!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Praise: energetic female."
+                 },
+                 {
+                     "ref":  "m6005#54",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eすごいわ、あなたの本領発揮ね\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eIncredible! You showed what you can do!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Praise: female."
+                 },
+                 {
+                     "ref":  "m6005#55",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e危機回避\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eCrisis averted.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Praise: computer / AI."
+                 },
+                 {
+                     "ref":  "m6005#56",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eすごい腕前ですね！　感激です！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eIncredible piloting! I\u0027m thrilled!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Praise: enthusiastic."
+                 },
+                 {
+                     "ref":  "m6005#57",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eすごいじゃないの、その調子よ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eNot bad at all! Keep that up!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Praise: female."
+                 },
+                 {
+                     "ref":  "m6005#58",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eさすが、エースパイロットですね\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eJust what I expect from an ace pilot!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Praise: formal."
+                 },
+                 {
+                     "ref":  "m6006#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "機密物資の発見",
+                     "en":  "Locate the classified supplies",
+                     "notes":  "Objective."
+                 },
+                 {
+                     "ref":  "m6006#1",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "機密物資の破壊",
+                     "en":  "Destroy the classified supplies",
+                     "notes":  "Objective."
+                 },
+                 {
+                     "ref":  "m6006#3",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "ジョナサングランチャーの撃破",
+                     "en":  "Destroy the Jonathan Grand Cher",
+                     "notes":  "Objective."
+                 },
+                 {
+                     "ref":  "m6006#4",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eドレイクを追うためＵＣＥに協力している\u003cab(0)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eTo pursue Drake,\nI am cooperating with the UCE.\u003cab(0)\u003e",
+                     "notes":  "Speaker: Ciela Lapana (no contractions)."
+                 },
+                 {
+                     "ref":  "m6006#5",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eグラン・ガランのシーラ・ラパーナと申します\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003eI am Ciela Lapana of the Gran-Garan.\u003cab(1000)\u003e",
+                     "notes":  "Speaker: Ciela Lapana (no contractions)."
+                 },
+                 {
+                     "ref":  "m6006#6",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e私達がリクレイマーをひきつけている間に\u003cab(0)\u003e",
+                     "en":  "\u003csp(20)\u003eWhile we draw the Reclaimers away,\u003cab(0)\u003e",
+                     "notes":  "Speaker: Ciela Lapana (no contractions)."
+                 },
+                 {
+                     "ref":  "m6006#7",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e目標の回収を頼みます\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eI ask that you recover the objective.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Ciela Lapana (no contractions)."
+                 },
+                 {
+                     "ref":  "m6006#8",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e目標の位置はソナー音でわかる\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eYou can find the target by the sonar.\u003cab(1000)\u003e",
+                     "notes":  "Speaker: Tactical coordinator."
+                 },
+                 {
+                     "ref":  "m6006#9",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e距離が近くなるとソナー音が速くなる\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003eAs you get closer,\nthe sonar will beep faster.\u003cab(1000)\u003e",
+                     "notes":  "Speaker: Tactical coordinator."
+                 },
+                 {
+                     "ref":  "m6006#10",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e発見したら接近して発信機を取りつけてくれ\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003eOnce found, move close\nand attach a transmitter.\u003cab(1000)\u003e",
+                     "notes":  "Speaker: Tactical coordinator."
+                 },
+                 {
+                     "ref":  "m6006#11",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e後は、こちらで回収艇を回す\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eAfter that, we will send a recovery boat.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Tactical coordinator."
+                 },
+                 {
+                     "ref":  "m6006#12",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e詳細は知らされていないが軍の重要物資だ\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWe have no details,\nbut it is vital military cargo.\u003cab(1000)\u003e",
+                     "notes":  "Speaker: Tactical coordinator."
+                 },
+                 {
+                     "ref":  "m6006#13",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e取扱いには十分注意してくれ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eHandle it with extreme care.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Tactical coordinator."
+                 },
+                 {
+                     "ref":  "m6006#14",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eまだ見つからないのですか\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eHave you not found it yet?\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Ciela Lapana (no contractions)."
+                 },
+                 {
+                     "ref":  "m6006#15",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e敵にソナーを妨害されている。倒してくれ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe enemy is jamming our sonar.\nTake them down!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Tactical coordinator."
+                 },
+                 {
+                     "ref":  "m6006#16",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003ccs(2)\u003e",
+                                    "\u003cab(0)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(2)\u003eジョナサン、俺達が戦ったって、\u003cab(0)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(2)\u003eJonathan, even if we fight,\u003cab(0)\u003e",
+                     "notes":  "Speaker: Yuu Isami."
+                 },
+                 {
+                     "ref":  "m6006#17",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003ccs(2)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e\u003ccs(2)\u003e何にもならないんだぞ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003e\u003ccs(2)\u003eit won\u0027t accomplish anything!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Yuu Isami."
+                 },
+                 {
+                     "ref":  "m6006#18",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003ccs(1)\u003e",
+                                    "\u003cab(0)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  398,
+                     "max_line_chars_approx":  40,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(1)\u003eオルファンがやろうとしていることを邪魔する奴は\u003cab(0)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(1)\u003eAnyone who gets in the way of\nwhat Orphan is trying to do...\u003cab(0)\u003e",
+                     "notes":  "Speaker: Jonathan Glenn."
+                 },
+                 {
+                     "ref":  "m6006#19",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003ccs(1)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e\u003ccs(1)\u003e全て排除する\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003e\u003ccs(1)\u003eI will eliminate every last one!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Jonathan Glenn."
+                 },
+                 {
+                     "ref":  "m6006#20",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003ccs(1)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(1)\u003e貴様の任務も同じだったはずだ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(1)\u003eYour mission was supposed\nto be the same!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Jonathan Glenn."
+                 },
+                 {
+                     "ref":  "m6006#21",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003ccs(2)\u003e",
+                                    "\u003cab(0)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(2)\u003e今は違う。グランチャーの任務も\u003cab(0)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(2)\u003eIt\u0027s different now!\nThe Grand Cher\u0027s mission,\u003cab(0)\u003e",
+                     "notes":  "Speaker: Yuu Isami."
+                 },
+                 {
+                     "ref":  "m6006#22",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003ccs(2)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e\u003ccs(2)\u003eオルファンの目的だっておかしいんだ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003e\u003ccs(2)\u003eand Orphan\u0027s purpose are both wrong!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Yuu Isami."
+                 }
+             ],
+    "context_after":  [
+                          {
+                              "ref":  "m6006#23",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(1)\u003e貴様は覚悟が足りないから、\u003cab(0)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6006#24",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e\u003ccs(1)\u003eオルファンから逃げ出そうとかするんだよ！\u003cab(1000)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6006#25",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(1)\u003eいくじなしめ！　男じゃないんだよ！！\u003cab(1000)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6006#26",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(2)\u003e言ったな…ジョナサン・グレーン！\u003cab(1000)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6006#27",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003e発信機の取りつけを確認\u003cab(1000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6006#28",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e回収艇をまわします\u003cab(1000)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6006#29",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003con()\u003e\u003csp(20)\u003eよくやってくれました\u003cab(500)\u003e\u003coff()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6006#30",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(2)\u003eポセイダルなんて奴らと手まで組んで、\u003cab(0)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6006#31",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e\u003ccs(2)\u003eそんなことを手伝う仕事なんか、もう嫌だ\u003cab(1000)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6006#32",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(1)\u003eオルファンの永遠は人類の永遠である\u003cab(1000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6006#33",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e\u003ccs(1)\u003eそれがわからないのかよ\u003cab(1000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6006#34",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e\u003ccs(1)\u003eそのためには、あれが必要であることもな！\u003cab(1000)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          }
+                      ],
+    "report":  {
+                   "translator_summary":  "Translated all 80 rows of xa_01, covering Extra Mission m6005 (Sanc Kingdom defense with Gran-Garan, Relena Peacecraft, UCE/OZ forces, and generic combat callouts) and the start of m6006 (Gran-Garan underwater retrieval mission featuring Ciela Lapana and the Brain Powerd battle between Yuu Isami and Jonathan Glenn).",
+                   "rows_examined":  "m6005#1..m6006#22",
+                   "rows_examined_count":  80,
+                   "uncertainties":  [
+                                         "Generic battlefield advice lines (m6005#31..m6005#58) represent various player/partner pilot voice personalities responding to barrier mechanics, aggressive offensive tactics, and mission success; kept them diverse and faithful to standard anime tropes. Lines m6006#8..13 speaker inferred as allied tactical coordinator or ship officer."
+                                     ],
+                   "glossary_proposals":  [
+
+                                          ],
+                   "portrait_speakers":  {
+
+                                         }
+               }
+}

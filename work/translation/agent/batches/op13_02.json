@@ -1,0 +1,645 @@
+{
+ "batch": "op13_02",
+ "operation": 13,
+ "previous_batch": "op13_01",
+ "next_batch": null,
+ "rows_in_slice": 24,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "オルドナ・ポセイダル",
+   "en": "Oldna Poseidal",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "female",
+   "role": "Emperor ruling the Pentagona World from Sveto on Gastogal; supreme commander of the Poseidal Army. The Poseidal on the throne is actually Mian Qu Ha Ussher, a puppet of the true Poseidal (Amandara Kamandara). In ACE2 'Poseidal' is the pilot of the Aug.",
+   "personality": "Regal, cold and imperious ruler who controls others (e.g. Quwasan) through the bio-relation system; her memories are themselves manipulated, and she finally turns against Amandara.",
+   "en_short": "Poseidal"
+  },
+  {
+   "ja": "ペンタゴナワールド",
+   "en": "Pentagona World",
+   "kind": "place",
+   "series": "Heavy Metal L-Gaim",
+   "role": "Dotless form: the binary-star system Daba and Poseidal's army come from."
+  },
+  {
+   "ja": "ダバ・マイロード",
+   "en": "Daba Myroad",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "male",
+   "role": "Protagonist. Heir of the Yaman clan's Kamon dynasty (true name Kamon Myroad), raised on Koam; leads the rebellion against Poseidal. Pilots the L-Gaim, later the L-Gaim Mk-II.",
+   "personality": "Calm, earnest and somewhat reserved, hard to read; indecisive at times but prone to sudden outbursts of anger, and reckless whenever his adopted sister Quwasan is involved. Grows into a capable leader.",
+   "en_short": "Daba"
+  },
+  {
+   "ja": "プリベンター",
+   "en": "Preventer",
+   "kind": "faction"
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "ペンタゴナ",
+   "en": "Pentagona",
+   "kind": "place",
+   "series": "Heavy Metal L-Gaim",
+   "role": "The Pentagona System / Pentagona World: the five-planet star system where L-Gaim is set (Koam, Mizum, Gastogal, Trydetol, ...)."
+  },
+  {
+   "ja": "ポセイダル",
+   "en": "Poseidal",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "female",
+   "role": "Emperor ruling the Pentagona World from Sveto on Gastogal; supreme commander of the Poseidal Army. The Poseidal on the throne is actually Mian Qu Ha Ussher, a puppet of the true Poseidal (Amandara Kamandara). In ACE2 'Poseidal' is the pilot of the Aug.",
+   "personality": "Regal, cold and imperious ruler who controls others (e.g. Quwasan) through the bio-relation system; her memories are themselves manipulated, and she finally turns against Amandara.",
+   "full_name": "Oldna Poseidal"
+  },
+  {
+   "ja": "ミスマル",
+   "en": "Misumaru",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "male",
+   "role": "Admiral of the United Earth forces (Third Fleet); Yurika's father; senior UESF commander in PoD",
+   "personality": "Doting, emotional father; stern but decent commander",
+   "full_name": "Kouichiro Misumaru"
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "ギワザ",
+   "en": "Giwaza",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "male",
+   "role": "Seat no. 3 and de facto leader of Poseidal's Thirteen, the highest-ranking officer after Poseidal; rebels against Poseidal with his own fleet (the Giwaza fleet) and is killed in the final battle.",
+   "personality": "Capable, cold, calculating and ambitious; uses and discards people, including his lover Nei Mo Han; a political schemer.",
+   "full_name": "Giwaza Lowau"
+  },
+  {
+   "ja": "提督",
+   "en": "Admiral",
+   "kind": "rank"
+  }
+ ],
+ "known_portraits": {
+  "36": {
+   "speaker": "Lucrezia Noin",
+   "gender": "female",
+   "role": "tactical staff officer (特尉, Special Lieutenant) from the Preventer",
+   "confidence": "high",
+   "evidence": "m6112#36 Sinapus: 'ノイン特尉、後で詳しく聞かせてくれ' then p36 explains Domon in brief63178#4-9; commanding but female, do not masculinize"
+  },
+  "45": {
+   "speaker": "Daba Myroad",
+   "gender": "male",
+   "role": "rebel leader, L-Gaim pilot",
+   "confidence": "high",
+   "evidence": "brief: '俺は、ダバ・マイロード。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6131#56",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>助かった。\nこの状況でよく見分けられたな。<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#57",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>艦長、ありがとうございます。\n助かりました。<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#58",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>いや、いいんだ。　それよりも……\n君たちに聞きたいことが山ほどある。<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#59",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>本艦に移乗してくれるか？<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#60",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>了解しました！　\nこっちも艦をやられて困ってたんです。<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#61",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>そこだ！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#62",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>レッシィ！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#63",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>任せて！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#64",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>数が多ければいいってもんじゃないわよ！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#65",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>ダバ、そこ！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#66",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>俺はこのまま敵陣に突っ込む！　援護を頼む！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6131#67",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>ラジャ！<ab(0)><off()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "brief63180#0",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "<im(6)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>彼らが<im(1)>他の星系<im(6)>から来たという話は、\n信じがたいことではあるが…\n詳しくは彼から説明してもらおう。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63180#1",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 45,
+   "tokens": [
+    "<op(45,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "#c[E2E258]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(45,1)><sp(2)><im(2)>俺は、ダバ・マイロード。\nこの星系の外にある二重太陽系、\n#c[E2E258]ペンタゴナワールド#cから来ました。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63180#2",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 45,
+   "tokens": [
+    "<op(45,1)>",
+    "<sp(2)>",
+    "#c[E2E258]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(45,1)><sp(2)>ペンタゴナは、#c[E2E258]ポセイダル#cという\n独裁者に支配されています。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63180#3",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 45,
+   "tokens": [
+    "<op(45,1)>",
+    "<sp(2)>",
+    "<im(4)>",
+    "<im(7)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(45,1)><sp(2)><im(4)><im(7)>俺は#c[BE5050]ポセイダル#cに滅ぼされた\nヤーマン王族の生き残りで…",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63180#4",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 45,
+   "tokens": [
+    "<op(45,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(45,1)><sp(2)>#c[BE5050]ポセイダル#cからペンタゴナを\n解放するために#c[5E8FD8]反乱軍#cとして\n戦っています。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63180#5",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 45,
+   "tokens": [
+    "<op(45,1)>",
+    "<sp(2)>",
+    "<im(5)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(45,1)><sp(2)><im(5)>#c[BE5050]ポセイダル#cは、あなたたちの星にある\n何かを手に入れようと企んでいるらしく…\nギワザという男を送り込みました。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63180#6",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 45,
+   "tokens": [
+    "<op(45,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(45,1)><sp(2)>俺たちはこの男を倒し、#c[BE5050]ポセイダル#cの野望を\n阻止するために、ここまで追って来たんです。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63180#7",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 45,
+   "tokens": [
+    "<op(45,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(45,1)><sp(2)>ペンタゴナでの争いを、\nここまで持ち込むわけには\nいきませんからね。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63180#8",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 45,
+   "tokens": [
+    "<op(45,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(45,1)><sp(2)>おそらく、ギワザは近いうちに\n皆さんにも牙をむいてくるはずです。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63180#9",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 45,
+   "tokens": [
+    "<op(45,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(45,1)><sp(2)>#c[5E8FD8]反乱軍#cの仲間には援護要請を\n送ったのですが、彼らが到着するには\nかなりの時間がかかります。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63180#10",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 45,
+   "tokens": [
+    "<op(45,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(45,1)><sp(2)>お願いします。\n俺たちを、皆さんに同行させてください！",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63180#11",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>最終的な決定は、\n本部の判断を待たねばならないが、",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63180#12",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>我々としても#c[BE5050]ポセイダル#c軍に関する\n情報は必要だ。この件については、\nミスマル提督へ私のほうから報告しておく。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63180#13",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>当面、彼らには本艦に協力してもらう。\nよろしく頼む。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63244#0",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「外宇宙ペンタゴナに関する報告」\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　ＵＣＥ諜報部",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63244#1",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>本件は、Ｓ４宙域にて#c[5E8FD8]アルビオン#cが\n保護した<im(1)>ダバ・マイロード率いる\n一団に関する報告である。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63244#2",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[FF0000]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>事情聴取を行ったところによると、彼らは\n地球圏外に存在するペンタゴナワールド#c[FF0000]\n#cから来たと言う。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63244#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>ペンタゴナワールドとは、<im(2)>\n#c[BE5050]オルドナ・ポセイダル#cという人物の手で\n武力支配された惑星国家連合であり、",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63244#4",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(3)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[BE5050]ポセイダル#cの配下であるギワザ率いる\n部隊が、何らかの目的で地球圏に\n侵攻<im(3)>を開始したらしいのだ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63244#5",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>一方のダバ・マイロードたちは、#c[BE5050]ポセイダル\n#cに対する#c[5E8FD8]反乱軍#cを組織しており、ギワザ隊\n追撃のため同じく地球圏に到達していた。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63244#6",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[BE5050]ポセイダル#cに全権を委任されたギワザは\nその兵力も充実しており、我々にとっても\n脅威となる可能性が高いとのこと。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63244#7",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>彼らの話が全て真実と仮定するならば、\nこれは、地球圏を脅かす新たな戦力が現れた\n深刻な事態であると言わざるをえない。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63244#8",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>今後の#c[BE5050]ポセイダル#c軍に関する調査は\n#c[5E8FD8]プリベンター#cに引き継ぎ、新たな情報\nが入り次第、報告する所存である。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63244#9",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>なおダバ・マイロード一行は、先の戦闘の\n折に母艦を損傷したため、当面の措置として\n#c[5E8FD8]アルビオン#cが保護することとする。",
+   "en": "",
+   "notes": ""
+  }
+ ],
+ "context_after": [],
+ "report": {
+  "translator_summary": "",
+  "rows_examined": "",
+  "rows_examined_count": 0,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

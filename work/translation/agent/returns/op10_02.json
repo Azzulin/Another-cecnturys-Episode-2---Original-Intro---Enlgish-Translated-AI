@@ -1,0 +1,1821 @@
+{
+ "batch": "op10_02",
+ "operation": 10,
+ "previous_batch": "op10_01",
+ "next_batch": "op10_03",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "ディストーションフィールド",
+   "en": "Distortion Field",
+   "kind": "term",
+   "series": "Martian Successor Nadesico",
+   "role": "Nadesico's gravity-wave barrier; also the Aestivalis/Nadesico-unit defensive weapon in the tutorial."
+  },
+  {
+   "ja": "バスターアーク",
+   "en": "Buster Ark",
+   "kind": "unit",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Modified Gun Ark with an evolving Guardian System and fallen-angel styling; Marina's unit while with the Rainen side."
+  },
+  {
+   "ja": "エステバリス",
+   "en": "Aestivalis",
+   "kind": "unit",
+   "series": "Martian Successor Nadesico",
+   "role": "Nergal mass-produced mecha; used alone and in エステバリス隊 (Aestivalis squad/team)."
+  },
+  {
+   "ja": "オーラ力",
+   "en": "Aura Power",
+   "kind": "term",
+   "series": "Aura Battler Dunbine",
+   "role": "The aura energy of a pilot; also the name of a Dunbine-family ability that multiplies attack power for a while (Weapon 6)."
+  },
+  {
+   "ja": "テンカワ",
+   "en": "Tenkawa",
+   "kind": "character",
+   "series": "Martian Successor Nadesico",
+   "gender": "male",
+   "role": "Surname of Akito Tenkawa; used alone (テンカワ君, テンカワ機 = Tenkawa's unit)."
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "マーベル",
+   "en": "Marvel",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "female",
+   "role": "Holy Warrior from a ranching family near Dallas, Texas; resistance pilot (House Givun); pilots Dunbine in ACE2",
+   "personality": "Confident, kind and level-headed. A skilled pilot who first meets Sho as an enemy and talks him into questioning Drake. She loves Sho and wishes he would admit his feelings.",
+   "full_name": "Marvel Frozen"
+  },
+  {
+   "ja": "ミスマル",
+   "en": "Misumaru",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "male",
+   "role": "Admiral of the United Earth forces (Third Fleet); Yurika's father; senior UESF commander in PoD",
+   "personality": "Doting, emotional father; stern but decent commander",
+   "full_name": "Kouichiro Misumaru"
+  },
+  {
+   "ja": "木星蜥蜴",
+   "en": "Jovian Lizards",
+   "kind": "faction",
+   "series": "Martian Successor Nadesico",
+   "role": "Earth's name for the unknown Jovian enemy (actually the Jovian Federation, 木連)."
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "アキト",
+   "en": "Akito",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "male",
+   "role": "TV: cook and Aestivalis pilot of the Nadesico, a Class-A Boson Jumper. PoD: the \"Prince of Darkness\", Black Sarena pilot hunting the Martian Successors",
+   "personality": "TV: kind, reluctant and insecure Gekiganger fan who wants to be a cook. PoD: cold, grim and vengeful after experiments destroyed his senses",
+   "full_name": "Akito Tenkawa"
+  },
+  {
+   "ja": "ショウ",
+   "en": "Show",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Protagonist; Holy Warrior (Seisenshi) from Tokyo summoned to Byston Well; defects from Drake Luft to the resistance; pilots Dunbine, later Billbine",
+   "personality": "Hot-blooded, stubborn young motocross racer who grows into a serious, driven warrior. Has huge Aura Power but struggles to control it. Has unspoken feelings for Marvel.",
+   "full_name": "Sho Zama"
+  },
+  {
+   "ja": "シーラ",
+   "en": "Ciela",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "female",
+   "role": "Queen of the Kingdom of Na; commands the aura battleship Gran-Garan; gives Sho the Billbine",
+   "personality": "Serene, dignified young queen with strong Aura Power and a sense of duty to all of Byston Well. Calm but resolute.",
+   "full_name": "Ciela Lapana"
+  },
+  {
+   "ja": "トッド",
+   "en": "Todd",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "American Holy Warrior summoned with Sho; fights for Drake and later Bishot Hate; pilots Wryneck in ACE2",
+   "personality": "Brash and proud. At first he treats Byston Well as a game, then becomes obsessed with beating Sho to save his pride. Makes poor choices.",
+   "full_name": "Todd Guinness"
+  },
+  {
+   "ja": "ヤマダ",
+   "en": "Yamada",
+   "kind": "character",
+   "series": "Martian Successor Nadesico",
+   "gender": "male",
+   "role": "Surname of Jiro Yamada (who calls himself Gai Daigoji); used alone (ヤマダさん)."
+  },
+  {
+   "ja": "ユリカ",
+   "en": "Yurika",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "female",
+   "role": "Captain of the ND-001 Nadesico; Akito's childhood friend and later wife; prisoner of the Martian Successors in PoD",
+   "personality": "Cheerful, airheaded and clingy toward Akito, but a genuinely brilliant tactician",
+   "full_name": "Yurika Misumaru"
+  },
+  {
+   "ja": "ルリ",
+   "en": "Ruri",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "female",
+   "role": "TV: operator/science officer of the Nadesico. PoD: Lieutenant Commander, captain of the Nadesico B (\"Electronic Fairy\")",
+   "personality": "Deadpan, cool, blunt child prodigy (catchphrase \"bunch of fools\"); slowly warms to the crew",
+   "full_name": "Ruri Hoshino"
+  },
+  {
+   "ja": "提督",
+   "en": "Admiral",
+   "kind": "rank"
+  }
+ ],
+ "known_portraits": {
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6102#21",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ショウ！？　ショウ・ザマか！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#22",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>あなたたち！　ショウを知ってるの！？<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#23",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ショウさんじゃないの？<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#24",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ショウは今、そっちに向かってます。<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#25",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>アルビオンか！　ありがたい！\n艦長さん、俺はこっちです！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#26",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>お前がショウ・ザマか！\n一体これは何が起こっているんだ！？<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#27",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>わけは後で話す！\n今はとにかく、俺たちに協力してください！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#28",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……艦長、彼らを味方につけておくことは、<ab(0)>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#29",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>情報を得る上で、我々にとっても\n大きなメリットがあるかと。<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#30",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>…そうだな。\nショウ・ザマ、君を信じよう。<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#31",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>高速で接近する機影があります！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6102#32",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>何！？<ab(100)><ed()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6102#33",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>貴様、トッドか！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Todd! Is that you?!<ab(300)><ed()>",
+   "notes": "Sho Zama recognizes Todd Guinness's Aura Battler."
+  },
+  {
+   "ref": "m6102#34",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ショウ！　よくぞ生きて地上に！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Show! So you made it back to the\nsurface alive!<ab(500)><ed()>",
+   "notes": "Todd Guinness surprised to find Show alive on the surface (Upper Earth). fix: glossary Show Zama -> changed Sho to Show"
+  },
+  {
+   "ref": "m6102#35",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>オーラ力のパワーアップが\nお前だけだと思うなよ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Don't think you're the only one\nwhose Aura Power has increased!<ab(300)><ed()>",
+   "notes": "Todd Guinness bragging about his Aura Power."
+  },
+  {
+   "ref": "m6102#36",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ショウめぇ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Damn you, Show!<ab(300)><ed()>",
+   "notes": "Todd cursing Show during combat. fix: glossary Show Zama -> changed Sho to Show"
+  },
+  {
+   "ref": "m6102#37",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ショウ！　マーベルめ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Show! Curse you, Marvel!<ab(300)><ed()>",
+   "notes": "Todd cursing Show and Marvel. fix: glossary Show Zama -> changed Sho to Show"
+  },
+  {
+   "ref": "m6102#38",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコとの距離が離されます。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>The Nadesico is pulling away\nfrom us.<ab(400)><ed()>",
+   "notes": "Albion operator reporting distance to Nadesico."
+  },
+  {
+   "ref": "m6102#40",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このままだとナデシコに追いつけません！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>At this rate, we won't be able\nto catch the Nadesico!<ab(600)><ed()>",
+   "notes": "Albion operator warning that Nadesico will escape."
+  },
+  {
+   "ref": "m6102#41",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>むぅ…<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Mmph...<ab(500)><ed()>",
+   "notes": "Captain Sinapus groaning in frustration."
+  },
+  {
+   "ref": "m6102#42",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコ、大気圏離脱態勢に入りました！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>The Nadesico has begun prep to\nbreak atmosphere!<ab(500)><ed()>",
+   "notes": "Albion operator reporting Nadesico's atmospheric exit posture."
+  },
+  {
+   "ref": "m6102#43",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>間に合わなかったか…<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>We didn't make it in time...<ab(1000)><ed()>",
+   "notes": "Sinapus acknowledging they missed their window."
+  },
+  {
+   "ref": "m6102#44",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この地上人ども、手強いぞ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>These Upper Earthers are tough!<ab(300)><ed()>",
+   "notes": "Byston Well soldier remarking on the strength of surface-world forces (地上人 = Upper Earthers)."
+  },
+  {
+   "ref": "m6102#45",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>戦況はこう着状態です！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>The battle has reached a stalemate!<ab(400)><ed()>",
+   "notes": "Albion operator reporting battlefield deadlock."
+  },
+  {
+   "ref": "m6102#46",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ふむ…このくらいでないとな。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Hmph... Wouldn't be worth it\notherwise.<ab(500)><ed()>",
+   "notes": "Todd Guinness enjoying the challenge."
+  },
+  {
+   "ref": "m6102#47",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>新たな敵艦を確認！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>New enemy warship confirmed!<ab(500)><ed()>",
+   "notes": "Albion operator spotting another Byston Well airship."
+  },
+  {
+   "ref": "m6102#48",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦を撃墜！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Enemy warship shot down!<ab(500)><ed()>",
+   "notes": "Albion operator reporting destruction of enemy ship."
+  },
+  {
+   "ref": "m6102#49",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…ここは退くのだ。<ab(700)><ed()>",
+   "en": "<op()><sp(20)>...We fall back for now.<ab(700)><ed()>",
+   "notes": "Byston Well commander ordering retreat."
+  },
+  {
+   "ref": "m6102#50",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>所属不明機たちが、撤退します。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>The unidentified craft are\nretreating.<ab(500)><ed()>",
+   "notes": "Albion operator tracking enemy withdrawal."
+  },
+  {
+   "ref": "m6102#51",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今度こそ聞こう。\n君たちは一体何者なのかね？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Now then, allow me to ask.\nWho on earth are you people?<ab(500)><ed()>",
+   "notes": "Captain Sinapus interrogating Sho and Marvel after the skirmish."
+  },
+  {
+   "ref": "m6102#52",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…話すと長くなる。\n地上に飛ばされて俺たちも混乱しています。<ab(200)>",
+   "en": "<op()><sp(20)>...It's a long story. Cast up to the\nsurface, we're confused ourselves.<ab(200)>",
+   "notes": "Sho explaining their abrupt arrival from Byston Well."
+  },
+  {
+   "ref": "m6102#53",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>まずはシーラ女王と接触したい。<ab(500)><ed()>",
+   "en": "<sp(20)>First, we must contact Queen Ciela.<ab(500)><ed()>",
+   "notes": "Sho stating his primary goal to reach Queen Ciela Lapana."
+  },
+  {
+   "ref": "m6102#54",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こちらも任務中だ…話は後だな。<ab(300)>",
+   "en": "<op()><sp(20)>We are on a mission as well...\nWe can talk later.<ab(300)>",
+   "notes": "Sinapus deferring the discussion due to their active assignment."
+  },
+  {
+   "ref": "m6102#55",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>乗艦できるか？　軍には我々が話を通す。\nそのままでいると、また敵とみなされるぞ。<ab(700)><ed()>",
+   "en": "<sp(20)>Can you board? We'll clear it with HQ.\nStay out there, and you're targets.<ab(700)><ed()>",
+   "notes": "Sinapus offering safe harbor aboard Albion to prevent military attack."
+  },
+  {
+   "ref": "m6102#56",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よし、行こう、マーベル！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>All right, let's go, Marvel!<ab(100)><ed()>",
+   "notes": "Sho instructing Marvel to land on Albion."
+  },
+  {
+   "ref": "m6102#57",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>わかったわ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Right!<ab(300)><ed()>",
+   "notes": "Marvel complying."
+  },
+  {
+   "ref": "m6102#58",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ん？　木星蜥蜴、撤退します。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Hm? Jovian Lizards are retreating.<ab(0)><off()>",
+   "notes": "Ruri Hoshino monitoring Jovian Lizard movements on Nadesico."
+  },
+  {
+   "ref": "m6102#59",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>妙だな…まだ交戦しても…！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Strange... They could still keep--?!<ab(0)><off()>",
+   "notes": "Akito or bridge officer puzzled by the sudden retreat, interrupted by an anomaly."
+  },
+  {
+   "ref": "m6102#60",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ここは…！<ab(0)><off()>",
+   "en": "<on()><sp(20)>This is...!<ab(0)><off()>",
+   "notes": "Sho reacting as their surroundings shift / feeling Aura resonance."
+  },
+  {
+   "ref": "m6102#61",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ショウ、平気！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Show, are you all right?!<ab(0)><off()>",
+   "notes": "Marvel checking on Show. fix: glossary Show Zama -> changed Sho to Show"
+  },
+  {
+   "ref": "m6102#62",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ああ…大丈夫だ。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Yeah... I'm fine.<ab(0)><off()>",
+   "notes": "Sho reassuring Marvel."
+  },
+  {
+   "ref": "brief63075#2",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>ようやく<im(1)>本命の#c[5E8FD8]ナデシコ#cを捕捉した。\nこれより停止勧告を出す。",
+   "en": "<op(37,1)><sp(2)>We have finally <im(1)>located our true target,\nthe #c[5E8FD8]Nadesico#c.\nWe will now issue an order to heave to.",
+   "notes": "Captain Sinapus ordering Phase 3 interception of Nadesico."
+  },
+  {
+   "ref": "brief63075#3",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "#c[F07141]",
+    "#c",
+    "<im(4)>",
+    "<tr(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>無論、彼らもおとなしく従うつもりは\nないだろう。よって、<im(2)>被害の出ぬ範囲で\n#c[F07141]ナデシコへの威嚇射撃#cを許<im(4)>可する。<tr(1)>",
+   "en": "<op(37,1)><sp(2)>Naturally, they will not submit quietly.\nTherefore, <im(2)>I authorize #c[F07141]warning shots\nat the Nadesico#c with<im(4)>out damage.<tr(1)>",
+   "notes": "Captain Sinapus authorizing warning shots on Nadesico while avoiding lethal damage."
+  },
+  {
+   "ref": "brief63075#4",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(6)>",
+    "<of(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>彼らも何を出してくるかわから<im(6)>んから、\n<of(1)>十分に注意はしてくれたまえ。",
+   "en": "<op(37,1)><sp(2)>We have no idea what they might de<im(6)>ploy,\n<of(1)>so please exercise the utmost caution.",
+   "notes": "Sinapus cautioning pilots about unknown weaponry from Nergal."
+  },
+  {
+   "ref": "m6103#0",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "一定時間経過",
+   "en": "Time Elapsed",
+   "notes": "Mission trigger condition: elapsed time."
+  },
+  {
+   "ref": "m6103#1",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ナデシコの撃破",
+   "en": "Destroy the Nadesico",
+   "notes": "Mission objective: destroy/defeat the Nadesico."
+  },
+  {
+   "ref": "m6103#2",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ナデシコが領域を離脱",
+   "en": "The Nadesico escapes the combat area",
+   "notes": "Mission event / failure condition: Nadesico escapes."
+  },
+  {
+   "ref": "m6103#3",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "エステバリスの撃破",
+   "en": "Destroy the Aestivalis",
+   "notes": "Mission objective: destroy the Aestivalis."
+  },
+  {
+   "ref": "m6103#4",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "バスターアークの撃破",
+   "en": "Destroy the Buster Ark",
+   "notes": "Mission objective: destroy the Buster Ark."
+  },
+  {
+   "ref": "m6103#5",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ナデシコ",
+   "en": "Nadesico",
+   "notes": "Target label: Nadesico."
+  },
+  {
+   "ref": "m6103#7",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>前方に目標を確認。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Target confirmed ahead.<ab(300)><ed()>",
+   "notes": "Albion operator or pilot confirming visual contact with Nadesico."
+  },
+  {
+   "ref": "m6103#8",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>つないでくれ。<ab(500)>",
+   "en": "<op()><sp(20)>Open a channel.<ab(500)>",
+   "notes": "Sinapus telling operator to hail Nadesico."
+  },
+  {
+   "ref": "m6103#9",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>戦艦ナデシコに告ぐ。\n今すぐその場で停船せよ。<ab(500)>",
+   "en": "<sp(20)>Battleship Nadesico.\nHeave to immediately where you are.<ab(500)>",
+   "notes": "Sinapus issuing formal order to halt."
+  },
+  {
+   "ref": "m6103#10",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>聞き入れぬ場合、\n貴艦の安全は保障しかねる。<ab(800)><ed()>",
+   "en": "<sp(20)>Refuse, and we can no longer\nguarantee your ship's safety.<ab(800)><ed()>",
+   "notes": "Sinapus issuing warning."
+  },
+  {
+   "ref": "m6103#11",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>後方にＵＣＥ所属の戦艦を確認。\n停船勧告が来ています。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>UCE battleship confirmed astern.\nThey are demanding that we heave to.<ab(400)><ed()>",
+   "notes": "Ruri Hoshino reporting Albion's hail to Yurika."
+  },
+  {
+   "ref": "m6103#12",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>え？　え～と？\nあなたたち、誰ですか？<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Huh? Uuum...\nWho are you people, anyway?<ab(700)><ed()>",
+   "notes": "Yurika Misumaru responding innocently over comms."
+  },
+  {
+   "ref": "m6103#13",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>周辺に敵反応！　木星蜥蜴です！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Enemy radar contact! Jovian Lizards!<ab(200)><ed()>",
+   "notes": "Albion operator detecting Jovian Lizard reinforcements."
+  },
+  {
+   "ref": "m6103#14",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いつの間に…！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Since when...?!<ab(400)><ed()>",
+   "notes": "Sinapus or pilot taken by surprise by the ambush."
+  },
+  {
+   "ref": "m6103#15",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>安全の確保が最優先だな。<ab(300)>",
+   "en": "<op()><sp(20)>Securing our safety is top priority.<ab(300)>",
+   "notes": "Sinapus assessing threat."
+  },
+  {
+   "ref": "m6103#16",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>周辺の敵を撃破しろ！<ab(500)><ed()>",
+   "en": "<sp(20)>Destroy all surrounding enemies!<ab(500)><ed()>",
+   "notes": "Sinapus issuing combat orders to task force."
+  },
+  {
+   "ref": "m6103#17",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>え？　護衛してくれちゃうんですか？<ab(200)>",
+   "en": "<op()><sp(20)>Huh? You're going to escort us?<ab(200)>",
+   "notes": "Yurika misunderstanding Sinapus's order as friendly escort."
+  },
+  {
+   "ref": "m6103#18",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>みなさん！　ご協力、感謝します！<ab(300)><ed()>",
+   "en": "<sp(20)>Thank you so much for your help,\neveryone!<ab(300)><ed()>",
+   "notes": "Yurika cheerfully thanking Albion forces."
+  },
+  {
+   "ref": "m6103#19",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そうではない！　今すぐ停船したまえ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>That is not it! Heave to at once!<ab(0)><ed()>",
+   "notes": "Captain Sinapus frantically clarifying his order."
+  },
+  {
+   "ref": "m6103#20",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ユリカ！\n何をやってるんだ！　すぐに艦を降りなさい！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Yurika! What are you doing?!\nGet off that ship right this instant!<ab(400)><ed()>",
+   "notes": "Admiral Kouichiro Misumaru cutting in over comms to scold his daughter."
+  },
+  {
+   "ref": "m6103#21",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>て、提督！？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>A-Admiral?!<ab(0)><ed()>",
+   "notes": "Sinapus or operator surprised by Admiral Misumaru's intrusion."
+  },
+  {
+   "ref": "m6103#22",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>通信に割り込みをかけているわね…<ab(600)><ed()>",
+   "en": "<op()><sp(20)>He's overriding our comm frequency...<ab(600)><ed()>",
+   "notes": "Minato Haruka or Megumi Reinver noting the overridden channel on Nadesico bridge."
+  },
+  {
+   "ref": "m6103#23",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それは……できません！<ab(200)>",
+   "en": "<op()><sp(20)>I... I cannot do that!<ab(200)>",
+   "notes": "Yurika refusing her father's demand."
+  },
+  {
+   "ref": "m6103#24",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>今の私は、ミスマル家の長女でも、\nお父様の娘でもない！<ab(200)>",
+   "en": "<sp(20)>Right now, I am neither the Misumaru\nheiress nor your little girl!<ab(200)>",
+   "notes": "Yurika declaring her independence as Nadesico's captain."
+  },
+  {
+   "ref": "m6103#25",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ここが私の場所ですから。\nごめんなさい！　お父様！<ab(100)><ed()>",
+   "en": "<sp(20)>This is where I belong!\nI'm sorry, Father!<ab(100)><ed()>",
+   "notes": "Yurika apologizing to her father before cutting communication."
+  },
+  {
+   "ref": "m6103#26",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(50)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコ、回線を閉じました。<ab(50)><ed()>",
+   "en": "<op()><sp(20)>The Nadesico cut the line.<ab(50)><ed()>",
+   "notes": "Albion operator reporting Nadesico terminated transmission."
+  },
+  {
+   "ref": "m6103#27",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……ユリカッ！！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>...Yurika!!<ab(700)><ed()>",
+   "notes": "Admiral Misumaru crying out in frustration."
+  },
+  {
+   "ref": "m6103#28",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコ、引力圏脱出準備に入りました。<ab(600)><ed()>",
+   "en": "<op()><sp(20)>The Nadesico has begun preparing to\nescape the gravity well.<ab(600)><ed()>",
+   "notes": "Albion operator reporting Nadesico's trajectory."
+  },
+  {
+   "ref": "m6103#29",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どうやら口だけでは聞かないようだな。<ab(500)>",
+   "en": "<op()><sp(20)>It seems words alone won't\nconvince them.<ab(500)>",
+   "notes": "Sinapus concluding that forceful action is necessary."
+  },
+  {
+   "ref": "m6103#30",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>威かく射撃を継続しろ。<ab(500)><ed()>",
+   "en": "<sp(20)>Continue firing warning shots.<ab(500)><ed()>",
+   "notes": "Sinapus ordering continued warning shots."
+  },
+  {
+   "ref": "m6103#31",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>わっ！　本当に撃ってきた！！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Wah! They really are shooting at us!!<ab(300)><ed()>",
+   "notes": "Yurika startled by incoming warning fire."
+  },
+  {
+   "ref": "m6103#32",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>勧告に応じなかったので当然です。<ab(200)>",
+   "en": "<op()><sp(20)>Naturally, since we ignored\ntheir warning.<ab(200)>",
+   "notes": "Ruri pointing out the obvious to Yurika."
+  },
+  {
+   "ref": "m6103#33",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>でもただの威かくですから。<ab(700)><ed()>",
+   "en": "<sp(20)>Though they are merely warning shots.<ab(700)><ed()>",
+   "notes": "Ruri noting the fire is non-lethal."
+  },
+  {
+   "ref": "m6103#34",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ルリちゃん、ディストーションフィールドは？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Ruri-chan, how is the\nDistortion Field?<ab(300)><ed()>",
+   "notes": "Yurika asking Ruri about the defensive barrier."
+  },
+  {
+   "ref": "m6103#35",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>最大出力で展開中です。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Deployed at maximum output.<ab(300)><ed()>",
+   "notes": "Ruri reporting shield status."
+  },
+  {
+   "ref": "m6103#36",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>じゃあ平気、平気！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Then we're totally fine!<ab(500)><ed()>",
+   "notes": "Yurika dismissing concern prematurely."
+  },
+  {
+   "ref": "m6103#37",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ディストーションフィールド、出力低下。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Distortion Field output falling.<ab(300)><ed()>",
+   "notes": "Ruri deadpan report on shield drain."
+  },
+  {
+   "ref": "m6103#38",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ちょ、ちょっと、大丈夫！？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>W-Wait, are we really okay?!<ab(300)><ed()>",
+   "notes": "Yurika panicking."
+  },
+  {
+   "ref": "m6103#39",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>相転移エンジン、出力低下。\n高度、低下します。<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Phase transition engine losing power.\nAltitude dropping.<ab(100)><ed()>",
+   "notes": "Ruri reporting engine loss and falling altitude."
+  },
+  {
+   "ref": "m6103#40",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>え！！　うっそー！？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>What?! No way--?!<ab(300)><ed()>",
+   "notes": "Yurika in disbelief."
+  },
+  {
+   "ref": "m6103#41",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>チェックメイトだな。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Checkmate.<ab(200)><ed()>",
+   "notes": "Sinapus (or Tak) observing Nadesico's inability to climb."
+  },
+  {
+   "ref": "m6103#42",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Ah.<ab(0)><ed()>",
+   "notes": "Ruri flatly noticing something happening on sensors."
+  },
+  {
+   "ref": "m6103#43",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どうしたの！？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>What is it?!<ab(500)><ed()>",
+   "notes": "Yurika reacting to Ruri."
+  },
+  {
+   "ref": "m6103#44",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ヤマダさん、勝手に発艦します。<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Yamada-san is launching without\nauthorization.<ab(1000)><ed()>",
+   "notes": "Ruri reporting Gai Daigoji (Jiro Yamada) launching his Aestivalis."
+  },
+  {
+   "ref": "m6103#45",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>テンカワ機、発進しました。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Tenkawa's unit has scrambled.<ab(200)><ed()>",
+   "notes": "Ruri reporting Akito Tenkawa's launch."
+  },
+  {
+   "ref": "m6103#46",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アキト！　また私のために…<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Akito! You're fighting for my sake\nagain...<ab(300)><ed()>",
+   "notes": "Yurika swooning over Akito launching."
+  },
+  {
+   "ref": "m6103#47",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いくぜ、ゲキガンミサイル！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Here goes! Gekigan Missile!<ab(500)><ed()>",
+   "notes": "Gai Daigoji yelling out his attack name from Gekiganger 3."
+  },
+  {
+   "ref": "m6103#48",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あ、俺……子供の頃見てた。\nゲキガンガー。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Oh, I... watched that as a kid.\nGekiganger.<ab(300)><ed()>",
+   "notes": "Tak recognizing Gekiganger 3 from his childhood."
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6103#49",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>だったら、なぜ悪の側につくんだぁ！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#50",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>なにぃ？　誰が悪だってんだよ！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#51",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>…相手すんな。<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#52",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>…こうなったら、やるしか！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#53",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>エステバリス、出力低下。\nこれ以上の戦闘は危険です。<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#54",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>そ、そんな～！！<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#55",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>そのへんで十分だろう。<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#56",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>右舷前方！！　高速で接近する機影！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#57",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>強敵出現！　燃える展開だぜぇ～！<ab(1000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#58",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>アキト！　ヤマダさん！　チャンスです！　\nナデシコに飛び乗って！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#59",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>アキト！　お前は先に行けぇ！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6103#60",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>何言ってんだ、早くこいよ！<ab(200)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Translated batch op10_02 covering the climax of Phase 2 (Sho and Marvel vs Todd Guinness and Byston Well forces, subsequent boarding of Albion) and Phase 3 (Sinapus tactical briefing, Albion hailing Nadesico, Admiral Misumaru confronting Yurika over comms, warning shots lowering Nadesico's phase engine and Distortion Field, and Gai Daigoji / Akito scrambling in their Aestivalis units while Tak recognizes Gekiganger 3). Maintained character personalities: deadpan Ruri, excitable Yurika, hot-blooded Gai, and doting/authoritative Admiral Misumaru.",
+  "rows_examined": "op10_01, op10_02, context_before (m6102#21-32), slice rows (m6102#33-62, brief63075#2-4, m6103#0-48), and context_after (m6103#49-60).",
+  "rows_examined_count": 80,
+  "uncertainties": [
+   {
+    "ref": "m6102#44",
+    "issue": "Line 'この地上人ども、手強いぞ！' translated with standard Dunbine lore term 'Upper Earthers' for 地上人 (people from the Earth surface above Byston Well)."
+   },
+   {
+    "ref": "m6102#58-62",
+    "issue": "Cutscene transition lines with <on()>/<off()> between Phase 2 and 3: Ruri notes Jovian Lizards withdrawing while Sho and Marvel experience an Aura/space warp resonance before arriving at Albion."
+   },
+   {
+    "ref": "m6103#48",
+    "issue": "Tak murmuring about having watched Gekiganger as a child, setting up the comedic ideological dispute with Gai Daigoji in the following lines."
+   }
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {
+   "37": "Captain Eyphar Sinapus"
+  }
+ }
+}

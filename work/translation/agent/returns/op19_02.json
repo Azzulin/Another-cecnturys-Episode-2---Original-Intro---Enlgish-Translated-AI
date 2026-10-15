@@ -1,0 +1,1732 @@
+{
+ "batch": "op19_02",
+ "operation": 19,
+ "previous_batch": "op19_01",
+ "next_batch": "op19_03",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "ネルガル",
+   "en": "Nergal",
+   "kind": "faction",
+   "series": "Martian Successor Nadesico",
+   "role": "Short form of Nergal Heavy Industries (ネルガル側, ネルガルの戦艦ナデシコ)."
+  },
+  {
+   "ja": "木連",
+   "en": "Jovian Federation",
+   "kind": "faction",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "Jupiter-based anti-Earth state, main enemy faction of the TV series (romaji Mokuren)",
+   "en_short": "Jovians"
+  },
+  {
+   "ja": "白鳥",
+   "en": "Shiratori",
+   "kind": "character",
+   "series": "Martian Successor Nadesico",
+   "gender": "male",
+   "role": "Lieutenant Commander in the Jovian Superior Jovian Male Forces; Tetsujin/Daitetsujin pilot; seeks peace with Earth",
+   "personality": "Honest, upright and idealistic, naive around women; hot-blooded Gekiganger fan",
+   "full_name": "Tsukumo Shiratori"
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {
+  "32": {
+   "speaker": "Yurika Misumaru",
+   "gender": "female",
+   "role": "captain of the Nadesico",
+   "confidence": "high",
+   "evidence": "brief: 'ナデシコ艦長、ミスマル・ユリカです。'"
+  },
+  "36": {
+   "speaker": "Lucrezia Noin",
+   "gender": "female",
+   "role": "tactical staff officer (特尉, Special Lieutenant) from the Preventer",
+   "confidence": "high",
+   "evidence": "m6112#36 Sinapus: 'ノイン特尉、後で詳しく聞かせてくれ' then p36 explains Domon in brief63178#4-9; commanding but female, do not masculinize"
+  },
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6191#55",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>こちらから警告を送ったら\n急いでミサイルの側に退避して。<ab(400)>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#56",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>ミサイルの熱反応を利用して\n敵の照準を狂わせるのよ。<ab(900)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#57",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ボース粒子反応増大。<ab(200)>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#58",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>来るわよ。<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#59",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ボース粒子反応増大。<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#60",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵艦を撃墜！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#61",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>こちらアルビオン。<ab(100)>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#62",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>ナデシコ、状況を知らせてくれ。<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#63",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>こちらナデシコ、交渉は決裂です！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#64",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>何だと！　一体何があった！？<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#65",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>交渉の席で、木星側の代表者が\nいきなり白鳥さんを撃ったんです！<ab(700)>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#66",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>地球は悪の帝国だから、\n滅ぼさなきゃいけないって！<ab(700)>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6191#67",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>私たちも危うく殺されそうになって、<ab(100)>",
+   "en": "<sp(20)>They almost killed us, too...<ab(100)>",
+   "notes": "Yurika Misumaru continuing report."
+  },
+  {
+   "ref": "m6191#68",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>白鳥さんを殺した罪まで着せられて…、<ab(0)>",
+   "en": "<sp(20)>and framed us for killing Shiratori...<ab(0)>",
+   "notes": "Yurika reporting being framed."
+  },
+  {
+   "ref": "m6191#69",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>そこをなんとか逃げ出してきたんです！<ab(100)><ed()>",
+   "en": "<sp(20)>We barely managed to escape!<ab(100)><ed()>",
+   "notes": "Yurika concluding escape report."
+  },
+  {
+   "ref": "m6191#70",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>つまり、敵のワナにハメられたってことです。<ab(700)><ed()>",
+   "en": "<op()><sp(20)>In short, we walked into their trap.<ab(700)><ed()>",
+   "notes": "Ruri Hoshino blunt assessment."
+  },
+  {
+   "ref": "m6191#71",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>詳しい話は後だ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Details can wait for later!<ab(300)><ed()>",
+   "notes": "Commander prioritizing current battle."
+  },
+  {
+   "ref": "m6191#72",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦がさらに来ます！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>More enemy ships incoming!<ab(100)><ed()>",
+   "notes": "Operator report."
+  },
+  {
+   "ref": "m6191#73",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>囮のミサイルを出せ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Launch the decoy missiles!<ab(400)><ed()>",
+   "notes": "Commander order."
+  },
+  {
+   "ref": "m6191#74",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まったく…なんという腕前だ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Good grief... What incredible skill!<ab(400)><ed()>",
+   "notes": "Reaction to pilot's dodging maneuver."
+  },
+  {
+   "ref": "m6191#75",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦隊は撤退していきます。<ab(100)><ed()>",
+   "en": "<op()><sp(20)>The enemy fleet is withdrawing.<ab(100)><ed()>",
+   "notes": "Operator report."
+  },
+  {
+   "ref": "m6191#76",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>両舷全速！　ナデシコと合流する！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>All engines ahead full!\nRendezvous with the Nadesico!<ab(700)><ed()>",
+   "notes": "Captain Sinapus ordering pursuit and rendezvous."
+  },
+  {
+   "ref": "m6191#77",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>レーダーに反応！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Contact on radar!<ab(500)><ed()>",
+   "notes": "Operator sensor report."
+  },
+  {
+   "ref": "m6191#78",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>あれは…木連艦ね。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Those are... Jovian ships.<ab(0)><off()>",
+   "notes": "Bridge crew sighting enemy ships."
+  },
+  {
+   "ref": "m6191#79",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>…な、なんで！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>...B-But why?!<ab(0)><off()>",
+   "notes": "Shocked bridge operator."
+  },
+  {
+   "ref": "m6191#80",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>おい、話が違うじゃねーか！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Hey, this wasn't the deal!<ab(0)><off()>",
+   "notes": "Casual allied pilot outburst."
+  },
+  {
+   "ref": "m6191#81",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>…まあ、できすぎな話だったのよね。<ab(0)><off()>",
+   "en": "<on()><sp(20)>...Well, it sounded too good to be true.<ab(0)><off()>",
+   "notes": "Cynical female pilot/crew remark."
+  },
+  {
+   "ref": "m6191#82",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>周辺にミサイル射出します！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Launching missiles into the perimeter!<ab(0)><off()>",
+   "notes": "Operator firing decoy missiles."
+  },
+  {
+   "ref": "brief63119#2",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(1)>",
+    "<im(4)>",
+    "<im(6)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>#c[BE5050]木連艦隊#cは、<im(1)>火星にある遺跡をめざして\n<im(4)>続々<im(6)>と集結している。",
+   "en": "<op(36,1)><sp(2)>The #c[BE5050]Jovian fleet#c is <im(1)>gathering in mass,\n<im(4)>heading for <im(6)>the ruins on Mars.",
+   "notes": "Lucrezia Noin tactical briefing for Phase 2."
+  },
+  {
+   "ref": "brief63119#3",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>#c[5E8FD8]ナデシコ#cにも何か考えがあるようだ。\n火星ユニットを目指して出航するとの\n連絡が入った。",
+   "en": "<op(36,1)><sp(2)>The #c[5E8FD8]Nadesico#c seems to have a plan too.\nThey notified us they are setting sail\nfor the Mars unit.",
+   "notes": "Noin reporting Nadesico's intended movement."
+  },
+  {
+   "ref": "brief63119#4",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "#c[F07141]",
+    "<im(8)>",
+    "#c",
+    "<tr(1)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>我々は<im(2)>目前の#c[F07141]敵艦隊を排<im(8)>除#cして、\n<tr(1)>火星で#c[5E8FD8]ナデシコ#cと合流する。",
+   "en": "<op(36,1)><sp(2)>We will <im(2)>#c[F07141]eliminate the enemy <im(8)>fleet#c\nbefore us, <tr(1)>then meet the #c[5E8FD8]Nadesico#c on Mars.",
+   "notes": "Noin explaining tactical objective."
+  },
+  {
+   "ref": "brief63119#5",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(9)>",
+    "<of(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>#c[BE5050]敵艦隊#cを逃がすと後で苦しくなるぞ。\n今<im(9)>のうちに<of(1)>できるだけ止めるんだ。",
+   "en": "<op(36,1)><sp(2)>Letting the #c[BE5050]enemy fleet#c escape hurts later.\nStop as <im(9)>many as you can <of(1)>right now.",
+   "notes": "Noin urging destruction of fleeing ships."
+  },
+  {
+   "ref": "m6192#3",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "敵艦の逃走数",
+   "en": "Enemy Ships Escaped",
+   "notes": "Mission counter header."
+  },
+  {
+   "ref": "m6192#5",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>皆さん！　来てくれたんですね！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Everyone! You came for us!<ab(300)><ed()>",
+   "notes": "Yurika welcoming reinforcement."
+  },
+  {
+   "ref": "m6192#6",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ああ。　だが詳しい話は後だ。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Yeah. But details will have to wait.<ab(300)><ed()>",
+   "notes": "Allied commander response."
+  },
+  {
+   "ref": "m6192#7",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>前方に敵艦、多数！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Multiple enemy ships ahead!<ab(200)><ed()>",
+   "notes": "Operator warning."
+  },
+  {
+   "ref": "m6192#8",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>全機、散開して攻撃するぞ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>All units, scatter and attack!<ab(300)><ed()>",
+   "notes": "Squad leader command."
+  },
+  {
+   "ref": "m6192#9",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>可能な限り敵艦を破壊しろ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Destroy as many enemy ships as you can!<ab(400)><ed()>",
+   "notes": "Commander order."
+  },
+  {
+   "ref": "m6192#10",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵に作戦区域の突破を許すな。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Do not let the enemy break through!<ab(400)><ed()>",
+   "notes": "Commander order."
+  },
+  {
+   "ref": "m6192#11",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦１隻、戦域を離脱しました！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>One enemy ship has left the combat area!<ab(300)><ed()>",
+   "notes": "Operator report."
+  },
+  {
+   "ref": "m6192#12",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦、さらに戦域を離脱！<ab(300)>",
+   "en": "<op()><sp(20)>Another enemy ship left the area!<ab(300)>",
+   "notes": "Operator report."
+  },
+  {
+   "ref": "m6192#13",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これ以上は作戦に支障があります！<ab(400)><ed()>",
+   "en": "<sp(20)>Any more will jeopardize the mission!<ab(400)><ed()>",
+   "notes": "Operator warning on escape threshold."
+  },
+  {
+   "ref": "m6192#14",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦、また１隻離脱。<ab(200)>",
+   "en": "<op()><sp(20)>Yet another enemy ship escaped.<ab(200)>",
+   "notes": "Operator report."
+  },
+  {
+   "ref": "m6192#15",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>こちらの戦略的優位は消失しました。<ab(400)><ed()>",
+   "en": "<sp(20)>Our tactical advantage is lost.<ab(400)><ed()>",
+   "notes": "Operator strategic update."
+  },
+  {
+   "ref": "m6192#16",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くっ…我々の力ではここまでか…<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Damn... Is this as far as we can go...<ab(400)><ed()>",
+   "notes": "Commander lamenting failure."
+  },
+  {
+   "ref": "m6192#17",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦を撃墜！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Enemy ship destroyed!<ab(100)><ed()>",
+   "notes": "Battle confirmation."
+  },
+  {
+   "ref": "m6192#18",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そうだ、その調子だ。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>That's it, keep it up.<ab(400)><ed()>",
+   "notes": "Commander praise."
+  },
+  {
+   "ref": "m6192#19",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>作戦は順調に進行中。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>The operation is proceeding smoothly.<ab(300)><ed()>",
+   "notes": "Operator progress report."
+  },
+  {
+   "ref": "m6192#20",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これだけやれば十分だろう。<ab(100)>",
+   "en": "<op()><sp(20)>This should be plenty.<ab(100)>",
+   "notes": "Commander noting threshold met."
+  },
+  {
+   "ref": "m6192#21",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>あとは可能な限り頼む。<ab(400)><ed()>",
+   "en": "<sp(20)>Do as much as you can for the rest.<ab(400)><ed()>",
+   "notes": "Commander encouraging extra kills."
+  },
+  {
+   "ref": "m6192#24",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>左舷後方に敵艦を確認！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Enemy ship confirmed on port stern!<ab(100)><ed()>",
+   "notes": "Operator sensor report."
+  },
+  {
+   "ref": "m6192#27",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ザコに構う必要はない！<ab(0)>",
+   "en": "<op()><sp(20)>No need to bother with small fry!<ab(0)>",
+   "notes": "Genichirou Tsukiomi commanding Jovian forces."
+  },
+  {
+   "ref": "m6192#28",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>目標に集中しろ！<ab(300)><ed()>",
+   "en": "<sp(20)>Focus on the target!<ab(300)><ed()>",
+   "notes": "Tsukiomi continuing order."
+  },
+  {
+   "ref": "m6192#29",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコ！　貴様らだけは\n生かして帰すわけにはいかん！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Nadesico! You bastards will not\nleave here alive!<ab(500)><ed()>",
+   "notes": "Tsukiomi threatening Nadesico."
+  },
+  {
+   "ref": "m6192#30",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どうしてですか！<ab(100)>",
+   "en": "<op()><sp(20)>Why would you do that?!<ab(100)>",
+   "notes": "Akito Tenkawa questioning Tsukiomi."
+  },
+  {
+   "ref": "m6192#31",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>なぜ、あんなことをしたんですか？<ab(400)><ed()>",
+   "en": "<sp(20)>Why did you do such a thing?!<ab(400)><ed()>",
+   "notes": "Akito asking why Tsukumo was shot."
+  },
+  {
+   "ref": "m6192#32",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>地球は悪の帝国だ！<ab(100)>",
+   "en": "<op()><sp(20)>Earth is an evil empire!<ab(100)>",
+   "notes": "Tsukiomi ideological fanatical declaration."
+  },
+  {
+   "ref": "m6192#33",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>和平を結ぶなど、もってのほか！<ab(300)>",
+   "en": "<sp(20)>Making peace with it is unthinkable!<ab(300)>",
+   "notes": "Tsukiomi rejecting peace."
+  },
+  {
+   "ref": "m6192#34",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>我々は火星の遺跡を手にして、\n悪の地球人を滅ぼさなくてはならん！<ab(700)>",
+   "en": "<sp(20)>We must claim the ruins of Mars\nand destroy evil Earthlings!<ab(700)>",
+   "notes": "Tsukiomi stating Mokuren goal."
+  },
+  {
+   "ref": "m6192#35",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>地球人に心を売った男など……<ab(200)>",
+   "en": "<sp(20)>A man who sold his heart to Earthlings...<ab(200)>",
+   "notes": "Tsukiomi rationalizing betrayal of Shiratori."
+  },
+  {
+   "ref": "m6192#36",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>親友といえども、生かしておくわけには\nいかないのだ！<ab(500)><ed()>",
+   "en": "<sp(20)>even a close friend, could not\nbe allowed to live!<ab(500)><ed()>",
+   "notes": "Tsukiomi on killing his best friend."
+  },
+  {
+   "ref": "m6192#37",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>燃え盛る俺の正義の炎を<ab(0)>",
+   "en": "<op()><sp(20)>The blazing flames of my justice...<ab(0)>",
+   "notes": "Tsukiomi anime battle catchphrase."
+  },
+  {
+   "ref": "m6192#38",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>消すことはできない！<ab(400)><ed()>",
+   "en": "<sp(20)>can never be extinguished!<ab(400)><ed()>",
+   "notes": "Tsukiomi finishing battle cry."
+  },
+  {
+   "ref": "m6192#39",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵、ゲキガンタイプです。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Enemy is a Gekigan-type unit.<ab(400)><ed()>",
+   "notes": "Ruri Hoshino identifying enemy unit."
+  },
+  {
+   "ref": "m6192#40",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前とも…生まれる星が違えば\n友達になれたかも知れないな……<ab(500)>",
+   "en": "<op()><sp(20)>Born on different stars... Perhaps\nwe could have been friends...<ab(500)>",
+   "notes": "Tsukiomi addressing Akito. fix: line length exceeded 380px -> compacted into two lines"
+  },
+  {
+   "ref": "m6192#41",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>俺は俺の国を守る。<ab(100)>",
+   "en": "<sp(20)>I will protect my country.<ab(100)>",
+   "notes": "Tsukiomi stating conviction."
+  },
+  {
+   "ref": "m6192#42",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>たとえこの身が砕け散るとも！<ab(400)><ed()>",
+   "en": "<sp(20)>Even if my body is shattered to dust!<ab(400)><ed()>",
+   "notes": "Tsukiomi finishing thought."
+  },
+  {
+   "ref": "m6192#43",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今は……ここまでか！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>For now... is this as far as I go?!<ab(400)><ed()>",
+   "notes": "Tsukiomi damaged and pulling back."
+  },
+  {
+   "ref": "m6192#44",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵、撤退していきます。<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Enemy is withdrawing.<ab(600)><ed()>",
+   "notes": "Operator confirmation."
+  },
+  {
+   "ref": "m6192#45",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これからのことについて\nうちの艦長に、考えがあるようです。<ab(600)>",
+   "en": "<op()><sp(20)>It seems our captain has an idea\nabout what to do next.<ab(600)>",
+   "notes": "Ruri Hoshino referring to Yurika."
+  },
+  {
+   "ref": "m6192#46",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(900)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>聞いてあげてください。<ab(900)><ed()>",
+   "en": "<sp(20)>Please hear her out.<ab(900)><ed()>",
+   "notes": "Ruri urging crew to listen."
+  },
+  {
+   "ref": "m6192#47",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どうして……どうして撃った！<ab(200)>",
+   "en": "<op()><sp(20)>Why... Why did you shoot him?!<ab(200)>",
+   "notes": "Akito Tenkawa demanding answers."
+  },
+  {
+   "ref": "m6192#48",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>おい！　お前、わかってんのか！？<ab(200)>",
+   "en": "<op()><sp(20)>Hey! Do you even realize what you did?!<ab(200)>",
+   "notes": "Gai Daigoji confronting Tsukiomi."
+  },
+  {
+   "ref": "m6192#49",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>親友だったんだろ！<ab(200)><ed()>",
+   "en": "<sp(20)>He was your best friend!!<ab(200)><ed()>",
+   "notes": "Gai pressing on friendship."
+  },
+  {
+   "ref": "m6192#50",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>そうやって自分の企みを全部解説すんのは\n悪者のやることだぜ！<ab(200)><ed()>",
+   "en": "<sp(20)>Explaining your whole scheme like that\nis what villains do!<ab(200)><ed()>",
+   "notes": "Gai applying anime villain logic."
+  },
+  {
+   "ref": "m6192#51",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>九十九は地球側のスパイだった！<ab(300)>",
+   "en": "<op()><sp(20)>Tsukumo was an Earth spy!<ab(300)>",
+   "notes": "Tsukiomi accusing Tsukumo Shiratori."
+  },
+  {
+   "ref": "m6192#52",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>な、なんだとぉ！？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Wh-What did you say?!<ab(300)><ed()>",
+   "notes": "Shocked reaction."
+  },
+  {
+   "ref": "m6192#53",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>正義はたった一つ、我々の側にある！<ab(300)><ed()>",
+   "en": "<sp(20)>There is only one justice, and it is ours!<ab(300)><ed()>",
+   "notes": "Tsukiomi righteous conviction."
+  },
+  {
+   "ref": "brief63120#2",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "<im(4)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>皆さん、<im(1)>和平交渉<im(4)>は失敗してしまいました。\n和平交渉をセッティングしてくれた\n白鳥さんも……殺されてしまいました。",
+   "en": "<op(32,1)><sp(2)>Everyone, <im(1)>the peace talks <im(4)>ended in failure.\nAnd Shiratori, who set up the talks,\nwas... killed as well.",
+   "notes": "Yurika briefing Phase 3 on tragic outcome."
+  },
+  {
+   "ref": "brief63120#3",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>こうなったら私たち、\n最後の手段で行きます。",
+   "en": "<op(32,1)><sp(2)>Now that it's come to this,\nwe're going with our last resort.",
+   "notes": "Yurika resolving on final measure."
+  },
+  {
+   "ref": "brief63120#4",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>#c[BE5050]木連#cと地球の対立の元になっているのは、\nたぶん火星の遺跡です。 \nこれが全ての元凶なんです！",
+   "en": "<op(32,1)><sp(2)>The root of conflict between the #c[BE5050]Jovians#c\nand Earth is likely the ruins on Mars.\nThat is the source of all of this!",
+   "notes": "Yurika identifying root cause."
+  },
+  {
+   "ref": "brief63120#5",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>それさえ何とかすれば、\n停戦に持っていけるはずです！",
+   "en": "<op(32,1)><sp(2)>If we can just do something about that,\nwe ought to be able to reach a ceasefire!",
+   "notes": "Yurika hoping for ceasefire."
+  },
+  {
+   "ref": "brief63120#6",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(6)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>そういうわけで、<im(6)>#c[5E8FD8]ナデシコ#cは今、\n遺跡に向かっています。\n現在、そのための作戦を実行中です。",
+   "en": "<op(32,1)><sp(2)>And so, the <im(6)>#c[5E8FD8]Nadesico#c is now heading\nfor the ruins, carrying out\nan operation to that end.",
+   "notes": "Yurika briefing operational movement."
+  },
+  {
+   "ref": "brief63120#7",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>そうそう、ネルガルの人たちにも、\n協力してもらっちゃいます！",
+   "en": "<op(32,1)><sp(2)>Oh, and we're even getting\nthe folks at Nergal to help us out!",
+   "notes": "Yurika mentioning Nergal's cooperation."
+  },
+  {
+   "ref": "brief63120#8",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>あの人たちにはあの人たちの\n思惑みたいなものがあるみたいですが、\nこの際、気にしないことにします！",
+   "en": "<op(32,1)><sp(2)>Those people seem to have their own hidden\nagendas, but right now,\nwe've decided not to care!",
+   "notes": "Yurika characteristic cheerful disregard for corporate politics."
+  },
+  {
+   "ref": "brief63120#9",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>遺跡をどうにかしようなんて、\n#c[5E8FD8]アルビオン#cの皆さんには、\nバカな行動だと思えるかもしれませんが、",
+   "en": "<op(32,1)><sp(2)>Doing something about the ruins may seem\nlike a foolish move to the #c[5E8FD8]Albion#c crew,\nbut even so...",
+   "notes": "Yurika addressing Albion crew respectfully."
+  },
+  {
+   "ref": "brief63120#10",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(7)>",
+    "<im(9)>",
+    "<im(11)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>私たち、自分たちらしいやり方で、\n<im(7)>この<im(9)>戦争<im(11)>に決着をつけたいんです。\n最後まで私たちらしいやり方で行きます。",
+   "en": "<op(32,1)><sp(2)>We want to settle <im(7)>this <im(9)>war <im(11)>our own way.\nWe're going to see it through to the end\nin a way that's true to who we are.",
+   "notes": "Yurika heartfelt statement of philosophy."
+  },
+  {
+   "ref": "brief63120#11",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>それでも来ていただけるなら、\n#c[5E8FD8]ナデシコ#cクルー一同、感謝感激です！",
+   "en": "<op(32,1)><sp(2)>If you still come anyway, all of us in the\n#c[5E8FD8]Nadesico#c crew will be deeply grateful!",
+   "notes": "Yurika expressing crew gratitude."
+  },
+  {
+   "ref": "brief63120#12",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(5)>",
+    "<tr(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>というわけだ。諸君。\nこれより本艦は<im(2)>#c[5E8FD8]ナデシコ#cを全力で援護す<im(5)>る。<tr(1)>",
+   "en": "<op(37,1)><sp(2)>And there you have it, gentlemen.\nThis ship will now <im(2)>support the #c[5E8FD8]Nadesico#c\nwith all our <im(5)>might.<tr(1)>",
+   "notes": "Captain Sinapus committing Albion to support Nadesico."
+  },
+  {
+   "ref": "brief63120#13",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[F07141]",
+    "#c",
+    "#c[F07141]",
+    "<im(13)>",
+    "#c",
+    "<of(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>#c[F07141]木連艦隊を迎撃#cして\n#c[F07141]ナデシコの遺跡までの進行を援<im(13)>護#cする、\n<of(1)>全員戦闘配置につけ！",
+   "en": "<op(37,1)><sp(2)>#c[F07141]Intercept the Jovian fleet#c and #c[F07141]cover\nthe Nadesico's advance <im(13)>to the ruins#c!\n<of(1)>All hands, to battle stations!",
+   "notes": "Sinapus giving battle orders."
+  },
+  {
+   "ref": "m6193#0",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ナデシコが遺跡上空に到達",
+   "en": "Nadesico reaches airspace above ruins",
+   "notes": "Mission objective condition."
+  },
+  {
+   "ref": "m6193#2",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "回収作業終了までナデシコを護衛",
+   "en": "Escort Nadesico until recovery ends",
+   "notes": "Mission objective."
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6193#3",
+   "layer": "mission dialogue",
+   "jp": "ナデシコ",
+   "en": ""
+  },
+  {
+   "ref": "m6193#4",
+   "layer": "mission dialogue",
+   "jp": "アーマー%d％",
+   "en": ""
+  },
+  {
+   "ref": "m6193#5",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>遺跡まで、ナデシコを護衛してください。<ab(100)>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#6",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>皆さんを信じてます！<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#7",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵も総力戦ね。<ab(200)>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#8",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>この遺跡はボソンジャンプの中央演算装置、\n手にした者は歴史を変える……<ab(100)>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#9",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>となれば、当然かしら。<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#10",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>遠くからナデシコを\n狙っている艦がいるようね。<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#11",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>強力なビーム兵器を搭載しているから、<ab(0)>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#12",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>直撃すればフィールドを張っていても\n無事には済まないはずよ。<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#13",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>それでは作戦を説明します。<ab(200)>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#14",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>遺跡にナデシコを突っ込ませて、\nどかーんと自爆します！<ab(300)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Yurika concludes explaining their narrow escape after being framed for Tsukumo Shiratori's murder, with Ruri bluntly summarizing they walked into a trap; Noin briefs Phase 2 to intercept Jovian fleet vessels heading to the Mars ruins. In combat, the Jovian Majin pilot Genichirou Tsukiomi attacks, furiously branding Earth an evil empire and accusing Tsukumo of being an Earth spy to justify his shooting. Akito and Gai clash with him over his twisted Gekiganger-like concept of justice before Tsukiomi retreats. In Phase 3 tactical briefing, Yurika resolves to end the war their own way by targeting the Mars ruins with Nergal's help, despite knowing the risks, and Captain Sinapus orders the Albion to support the Nadesico with all hands to battle stations.",
+  "rows_examined": "op19_01 (m6191#55-66), op19_02 (m6191#67-82, brief63119#2-5, m6192#3-53, brief63120#2-13, m6193#0-2), op19_03 (m6193#3-14)",
+  "rows_examined_count": 74,
+  "uncertainties": [
+   "In m6192#35-36 and #51, Tsukiomi rationalizes shooting Tsukumo Shiratori by branding him an Earth spy who sold his heart to the enemy.",
+   "In m6192#50, Gai Daigoji berates Tsukiomi for monologuing his entire scheme like a cartoon villain.",
+   "In brief63120#8-10, Yurika's speech balances her innocent earnestness with firm resolve to end the war 'our own way'."
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {
+   "32": "Yurika Misumaru",
+   "36": "Lucrezia Noin",
+   "37": "Eyphar Sinapus"
+  }
+ }
+}

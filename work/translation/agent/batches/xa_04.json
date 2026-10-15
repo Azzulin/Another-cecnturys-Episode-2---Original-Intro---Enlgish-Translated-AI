@@ -1,0 +1,1719 @@
+{
+ "batch": "xa_04",
+ "operation": null,
+ "group": "xa",
+ "group_label": "Extra missions (Nadesico B, Ra Cailum, White Fang...)",
+ "previous_batch": "xa_03",
+ "next_batch": "xa_05",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Amuro Ray",
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "アラームメッセージ",
+   "en": "Alarm message",
+   "kind": "generic",
+   "series": "Another Century's Episode series (game system)",
+   "role": "Computer voice prefix (alarm messages in katakana-robot speech)."
+  },
+  {
+   "ja": "ホワイトファング",
+   "en": "White Fang",
+   "kind": "faction",
+   "series": "Mobile Suit Gundam Wing",
+   "role": "Militant anti-Earth colony organization, later led by Zechs Merquise"
+  },
+  {
+   "ja": "ラー・カイラム",
+   "en": "Ra Cailum",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam: Char's Counterattack",
+   "role": "Londo Bell flagship battleship (Bright Noa's ship) in CCA."
+  },
+  {
+   "ja": "モビルスーツ",
+   "en": "mobile suit",
+   "kind": "term"
+  },
+  {
+   "ja": "エアリーズ",
+   "en": "Aries",
+   "kind": "unit",
+   "series": "Mobile Suit Gundam Wing / Endless Waltz",
+   "role": "Mass-produced aerial mobile suit (OZ-07AMS)"
+  },
+  {
+   "ja": "グラドス",
+   "en": "Grados",
+   "kind": "faction",
+   "series": "Blue Comet SPT Layzner",
+   "role": "The alien Grados Empire, from the Udoria system, that invades and occupies Earth in Layzner. Adjective form: Gradosian."
+  },
+  {
+   "ja": "ゼクス",
+   "en": "Zechs",
+   "kind": "character",
+   "series": "Mobile Suit Gundam Wing / Endless Waltz",
+   "gender": "male",
+   "role": "Ace pilot (Tallgeese, Tallgeese III); former OZ officer and White Fang leader; Preventer agent ('Preventer Wind') in Endless Waltz. True identity Milliardo Peacecraft, Relena's older brother.",
+   "personality": "Proud, chivalrous and self-loathing; a brilliant pilot torn between knightly ideals and soldiering. Speaks with formal dignity.",
+   "full_name": "Zechs Merquise"
+  },
+  {
+   "ja": "少佐",
+   "en": "Major",
+   "kind": "rank"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  }
+ ],
+ "known_portraits": {},
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6008#29",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>何故ここに…<ab(1000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6008#30",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>ぐっ…、ここまでが#c[FF0000]\n#c生身のパイロットの限界というわけか<ab(500)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6008#31",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>お兄様、戦いなどおやめください！<ab(500)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6008#32",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>リリーナ…何故、ここに…<ab(500)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6008#33",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>お兄様を止めに来たのです！<ab(500)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6008#34",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>強くなったなリリーナ、#c[FF0000]\n#cそれでこそピースクラフト家の娘だ<ab(500)>",
+   "en": ""
+  },
+  {
+   "ref": "m6008#35",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>お前ならきっと、父上の理想とした国を#c[FF0000]\n#c導いてゆけるはずだ<ab(6000)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6008#36",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>お兄様…！<ab(500)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6008#37",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>リリーナ、お前に会えてよかった#c[FF0000]\n#c不出来の兄など忘れてくれ<ab(500)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6008#38",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>待ってください、お兄様！！<ab(500)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6008#39",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>複数の機影の接近を確認#c[FF0000]\n#cこれは…我が軍の救難信号です！<ab(500)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6008#40",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)><cs(2)>こちらはＵＣＥ所属の諜報部員だ<ab(1000)>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6008#41",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<cs(2)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)><cs(2)>潜入していたホワイトファングより<ab(0)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#42",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<cs(2)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)><cs(2)>混乱に乗じて脱出したが、追撃されている<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#43",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<cs(2)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)><cs(2)>援護を頼みたい<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#44",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<cs(2)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)><cs(2)>入手した情報はそれぞれが所持している<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#45",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<cs(2)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)><cs(2)>一人でも生き残れば、それで良い<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#46",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>聞こえていたな。各機援護にあたれ！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#47",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>味方は強奪したエアリーズに搭乗している<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#48",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>識別が敵になっているから注意してくれ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#49",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<cs(2)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)><cs(2)>私は味方だ、撃たないでくれ！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#50",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<cs(2)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)><cs(2)>味方だ、撃つな！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#51",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<cs(2)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)><cs(2)>ここまでか…！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#52",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>味方機、撃墜されました！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#53",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<cs(1)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)><cs(1)>見つかったか！　逃げろ！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#54",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵の反応、全て消えました<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#55",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ゼクス…あなたは何をするつもりなのですか<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#56",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>複数の機影の接近を確認<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#57",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これは…我が軍の救難信号です！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#58",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このモビルスーツ、強いわ！<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#59",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さすがゼクス、強い…！<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#60",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このモビルスーツの性能、あなどれません<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#61",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なに…この敵、強いわよ<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#62",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やだ、こいつ強いじゃない！<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#63",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵は強いわ、気をつけて<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#64",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アラームメッセージ、ダメージ拡大<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#65",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この敵、強い！　気をつけてください！<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#66",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵の性能は相当のものよ、注意して<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#67",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵の性能は非常に強力です<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#68",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>攻撃を受けたら、ひとたまりもないわよ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#69",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>彼の攻撃を受ければ、ただじゃすまないぞ！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#70",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>特に攻撃には注意してください<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#71",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>攻撃を受ければ、ただじゃすまないわよ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#72",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>攻撃受けたら大変よ、気をつけて！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#73",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>攻撃を受けたら、ただではすまないわ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#74",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>攻撃を受ければ、ただじゃすみません！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#75",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>攻撃を受ければ、ひとたまりもないわ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#76",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>攻撃回避を推奨します<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#77",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>動きをよく見れば、味方の区別はつくはずよ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#78",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>区別はつく、よく動きを見ろ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#79",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>味方の区別は、動きでわかります<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#80",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>動きを見れば、味方の区別はつくはずよ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#81",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ちゃんと動きを見れば味方がわかるわよ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#82",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>区別はつくわ、動きを見てちょうだい<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#83",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>破壊目標ト護衛目標ノ動キニ、誤差ヲ確認<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#84",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>区別はつきます、動きをよく見てください<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#85",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>動きをよく見れば区別はつくはずよ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6008#86",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>機体の動作で味方の識別が可能です<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#0",
+   "layer": "mission dialogue",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "衛星３基及び敵勢力の撃破",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#2",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵がそちらに向かったぞ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#3",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>グラドスはこの衛星を使い、<ab(0)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#4",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>地球の主要都市を攻撃するつもりです<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#5",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>準備が整う前に何としても止めなくては<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#7",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>全衛星の半数を撃破<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#8",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵の準備は進んでいます、急いで<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#9",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>各機、衛星の破壊を急いで<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#10",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>流石、ラー・カイラムのパイロットね<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#11",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>すごいわ、こんな短時間で…！<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#12",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これで作戦は終了ね<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#13",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>待ってください！　新たな敵影を確認！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#14",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>識別はティターンズ！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#15",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんですって！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#16",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>向こうはやる気のようね。各機、応戦して！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#17",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>私はピースミリオンを任されている<ab(0)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#18",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>軍少佐のサリィ・ポォです<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#19",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>お互い、うまくいくことを願います<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#20",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(800)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こちらもよろしく頼みます<ab(800)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#21",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>各機、担当エリア内の衛星を破壊しろ<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#22",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やめてください、ゲイル先輩！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#23",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>僕の話を聞いてください！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#24",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さようなら…ゲイル先輩<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#25",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵の全撃破を確認しました<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#26",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いや…グラドスがまだ残っています！<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#27",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今回の成功は、あなた方のおかげです<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#28",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>また会えるのを楽しみにしています<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#29",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>目標の位置情報はそちらに送るわ<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#30",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>目標の位置情報を転送した<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#31",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そちらに目標の位置情報を送りました<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#32",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>目標の位置情報はそちらに送ったわ<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#33",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>目標の位置情報を送ったから、<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#34",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>目標の位置情報を送ったわ<ab(1000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6009#35",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>目標ノ位置情報ヲ表示<ab(1000)>",
+   "en": "",
+   "notes": ""
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6009#36",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>目標の位置情報をそちらに転送しました<ab(1000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6009#37",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>目標の位置情報をそっちへ送ったわ<ab(1000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6009#38",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>目標の位置情報をモニターに転送<ab(1000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6009#39",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>表示に従って、向かってちょうだい<ab(1000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6009#40",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>表示に従い、撃破に向かってくれ<ab(1000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6009#41",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>目標の把握に役立ててください<ab(1000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6009#42",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>表示を見て、目標に向かって<ab(1000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6009#43",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>それを見て、どんどん破壊しちゃって！<ab(1000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6009#44",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>表示に従って、撃破に向かってね<ab(1000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6009#45",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>至急、目標ノ撃破ニ向カエ<ab(1000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6009#46",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>表示に従って、目標に向かってください<ab(1000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6009#47",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>表示を見て、撃破に向かってちょうだい<ab(1000)>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "",
+  "rows_examined": "",
+  "rows_examined_count": 0,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

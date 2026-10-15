@@ -1,0 +1,1731 @@
+﻿{
+    "batch":  "xa_04",
+    "operation":  null,
+    "group":  "xa",
+    "group_label":  "Extra missions (Nadesico B, Ra Cailum, White Fang...)",
+    "previous_batch":  "xa_03",
+    "next_batch":  "xa_05",
+    "rows_in_slice":  80,
+    "do_not_touch_names":  [
+                               "Amuro Ray",
+                               "Barkholz",
+                               "Capt. Burning",
+                               "Captain Burning",
+                               "Captain South Burning",
+                               "Cowen",
+                               "Giganos",
+                               "Lieutenant",
+                               "Lt.",
+                               "Major Anavel Gato",
+                               "Sinapus",
+                               "Tak"
+                           ],
+    "glossary":  [
+                     {
+                         "ja":  "アラームメッセージ",
+                         "en":  "Alarm message",
+                         "kind":  "generic",
+                         "series":  "Another Century\u0027s Episode series (game system)",
+                         "role":  "Computer voice prefix (alarm messages in katakana-robot speech)."
+                     },
+                     {
+                         "ja":  "ホワイトファング",
+                         "en":  "White Fang",
+                         "kind":  "faction",
+                         "series":  "Mobile Suit Gundam Wing",
+                         "role":  "Militant anti-Earth colony organization, later led by Zechs Merquise"
+                     },
+                     {
+                         "ja":  "ラー・カイラム",
+                         "en":  "Ra Cailum",
+                         "kind":  "ship",
+                         "series":  "Mobile Suit Gundam: Char\u0027s Counterattack",
+                         "role":  "Londo Bell flagship battleship (Bright Noa\u0027s ship) in CCA."
+                     },
+                     {
+                         "ja":  "モビルスーツ",
+                         "en":  "mobile suit",
+                         "kind":  "term"
+                     },
+                     {
+                         "ja":  "エアリーズ",
+                         "en":  "Aries",
+                         "kind":  "unit",
+                         "series":  "Mobile Suit Gundam Wing / Endless Waltz",
+                         "role":  "Mass-produced aerial mobile suit (OZ-07AMS)"
+                     },
+                     {
+                         "ja":  "グラドス",
+                         "en":  "Grados",
+                         "kind":  "faction",
+                         "series":  "Blue Comet SPT Layzner",
+                         "role":  "The alien Grados Empire, from the Udoria system, that invades and occupies Earth in Layzner. Adjective form: Gradosian."
+                     },
+                     {
+                         "ja":  "ゼクス",
+                         "en":  "Zechs",
+                         "kind":  "character",
+                         "series":  "Mobile Suit Gundam Wing / Endless Waltz",
+                         "gender":  "male",
+                         "role":  "Ace pilot (Tallgeese, Tallgeese III); former OZ officer and White Fang leader; Preventer agent (\u0027Preventer Wind\u0027) in Endless Waltz. True identity Milliardo Peacecraft, Relena\u0027s older brother.",
+                         "personality":  "Proud, chivalrous and self-loathing; a brilliant pilot torn between knightly ideals and soldiering. Speaks with formal dignity.",
+                         "full_name":  "Zechs Merquise"
+                     },
+                     {
+                         "ja":  "少佐",
+                         "en":  "Major",
+                         "kind":  "rank"
+                     },
+                     {
+                         "ja":  "機体",
+                         "en":  "unit / machine",
+                         "kind":  "term",
+                         "note":  "Op 01 uses \u0027unit\u0027 for mecha in general, \u0027machine\u0027 when the speaker is the developer"
+                     }
+                 ],
+    "known_portraits":  {
+
+                        },
+    "unknown_portraits":  [
+
+                          ],
+    "context_before":  [
+                           {
+                               "ref":  "m6008#29",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003e何故ここに…\u003cab(1000)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6008#30",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eぐっ…、ここまでが#c[FF0000]\n#c生身のパイロットの限界というわけか\u003cab(500)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6008#31",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eお兄様、戦いなどおやめください！\u003cab(500)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6008#32",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eリリーナ…何故、ここに…\u003cab(500)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6008#33",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eお兄様を止めに来たのです！\u003cab(500)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6008#34",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003e強くなったなリリーナ、#c[FF0000]\n#cそれでこそピースクラフト家の娘だ\u003cab(500)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6008#35",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003eお前ならきっと、父上の理想とした国を#c[FF0000]\n#c導いてゆけるはずだ\u003cab(6000)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6008#36",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eお兄様…！\u003cab(500)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6008#37",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eリリーナ、お前に会えてよかった#c[FF0000]\n#c不出来の兄など忘れてくれ\u003cab(500)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6008#38",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003e待ってください、お兄様！！\u003cab(500)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6008#39",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003e複数の機影の接近を確認#c[FF0000]\n#cこれは…我が軍の救難信号です！\u003cab(500)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6008#40",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(2)\u003eこちらはＵＣＥ所属の諜報部員だ\u003cab(1000)\u003e",
+                               "en":  ""
+                           }
+                       ],
+    "rows":  [
+                 {
+                     "ref":  "m6008#41",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003ccs(2)\u003e",
+                                    "\u003cab(0)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e\u003ccs(2)\u003e潜入していたホワイトファングより\u003cab(0)\u003e",
+                     "en":  "\u003csp(20)\u003e\u003ccs(2)\u003eWe infiltrated White Fang,\u003cab(0)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#42",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003ccs(2)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e\u003ccs(2)\u003e混乱に乗じて脱出したが、追撃されている\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003e\u003ccs(2)\u003eand escaped amid confusion, but are pursued.\u003cab(1000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#43",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003ccs(2)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e\u003ccs(2)\u003e援護を頼みたい\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003e\u003ccs(2)\u003eRequesting cover!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#44",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003ccs(2)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(2)\u003e入手した情報はそれぞれが所持している\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(2)\u003eEach of us carries parts of the Intel obtained.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#45",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003ccs(2)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(2)\u003e一人でも生き残れば、それで良い\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(2)\u003eAs long as even one of us survives, it will do.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#46",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e聞こえていたな。各機援護にあたれ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eYou heard them. All units, cover them!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#47",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e味方は強奪したエアリーズに搭乗している\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAllies are piloting captured Aries units.\u003cab(1000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#48",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e識別が敵になっているから注意してくれ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eTheir IFF still reads as enemy, so be careful.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#49",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003ccs(2)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(2)\u003e私は味方だ、撃たないでくれ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(2)\u003eI am friendly, do not shoot!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#50",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003ccs(2)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(2)\u003e味方だ、撃つな！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(2)\u003eFriendly! Hold your fire!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#51",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003ccs(2)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(2)\u003eここまでか…！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(2)\u003eIs this the end...?!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#52",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e味方機、撃墜されました！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eFriendly unit shot down!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#53",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003ccs(1)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(1)\u003e見つかったか！　逃げろ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003e\u003ccs(1)\u003eThey found us! Run!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#54",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e敵の反応、全て消えました\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAll enemy readings have vanished.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#55",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eゼクス…あなたは何をするつもりなのですか\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eZechs... what do you intend to do?\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#56",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e複数の機影の接近を確認\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eMultiple contacts approaching confirmed.\u003cab(1000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#57",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこれは…我が軍の救難信号です！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eThis is... our forces\u0027 distress signal!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#58",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eこのモビルスーツ、強いわ！\u003cab(500)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThis mobile suit is strong!\u003cab(500)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#59",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eさすがゼクス、強い…！\u003cab(500)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAs expected of Zechs, so formidable...!\u003cab(500)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#60",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eこのモビルスーツの性能、あなどれません\u003cab(500)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThis mobile suit\u0027s specs cannot be taken lightly.\u003cab(500)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#61",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eなに…この敵、強いわよ\u003cab(500)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWhat... this enemy is tough.\u003cab(500)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#62",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eやだ、こいつ強いじゃない！\u003cab(500)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eDamn it, this one is strong!\u003cab(500)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#63",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e敵は強いわ、気をつけて\u003cab(500)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe enemy is tough, watch out.\u003cab(500)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#64",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eアラームメッセージ、ダメージ拡大\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eALARM: DAMAGE EXPANDING.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rei / AI computer system readout translated in system all-caps."
+                 },
+                 {
+                     "ref":  "m6008#65",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eこの敵、強い！　気をつけてください！\u003cab(500)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThis enemy is strong! Be careful!\u003cab(500)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#66",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e敵の性能は相当のものよ、注意して\u003cab(500)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe enemy\u0027s performance is substantial, watch out.\u003cab(500)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#67",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e敵の性能は非常に強力です\u003cab(500)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe enemy\u0027s combat capability is very powerful.\u003cab(500)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#68",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e攻撃を受けたら、ひとたまりもないわよ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eIf we take a hit, we will not stand a chance.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#69",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e彼の攻撃を受ければ、ただじゃすまないぞ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eIf his attack connects, we will not get off easy!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#70",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e特に攻撃には注意してください\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003ePay particular attention to incoming attacks.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#71",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e攻撃を受ければ、ただじゃすまないわよ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eIf you take a hit, you will not walk away cleanly.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#72",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e攻撃受けたら大変よ、気をつけて！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eTaking a hit will be catastrophic, watch out!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#73",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e攻撃を受けたら、ただではすまないわ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eIf we take a hit, we are in deep trouble.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#74",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e攻撃を受ければ、ただじゃすみません！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eIf you take a hit, you will not get off easy!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#75",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e攻撃を受ければ、ひとたまりもないわ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eTaking a direct hit will destroy you in an instant.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#76",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e攻撃回避を推奨します\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eEVASION RECOMMENDED.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rei / AI computer system readout translated in system all-caps."
+                 },
+                 {
+                     "ref":  "m6008#77",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e動きをよく見れば、味方の区別はつくはずよ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWatch their movement closely, you can tell allies apart.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#78",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e区別はつく、よく動きを見ろ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eYou can tell them apart. Watch their movement.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#79",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e味方の区別は、動きでわかります\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAllies can be distinguished by their movement.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#80",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e動きを見れば、味方の区別はつくはずよ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eIf you watch how they move, you can distinguish them.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#81",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eちゃんと動きを見れば味方がわかるわよ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eLook closely at their movement and you will know allies.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#82",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e区別はつくわ、動きを見てちょうだい\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThey can be told apart, please observe their movement.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#83",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e破壊目標ト護衛目標ノ動キニ、誤差ヲ確認\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eMOVEMENT DISCREPANCY NOTED BETWEEN TARGET AND ALLY.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Rei / AI computer system readout translated in system all-caps."
+                 },
+                 {
+                     "ref":  "m6008#84",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e区別はつきます、動きをよく見てください\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThey are distinguishable. Observe their movement carefully.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#85",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e動きをよく見れば区別はつくはずよ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eIf you watch their movement closely, you can tell.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6008#86",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e機体の動作で味方の識別が可能です\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eUnit movement allows identification of friendly craft.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "衛星３基及び敵勢力の撃破",
+                     "en":  "Destroy 3 Satellites and Enemy Forces",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#2",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e敵がそちらに向かったぞ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eEnemies are heading your way.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#3",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eグラドスはこの衛星を使い、\u003cab(0)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eGrados intends to use these satellites\u003cab(0)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#4",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e地球の主要都市を攻撃するつもりです\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003eto bombard Earth\u0027s major cities.\u003cab(1000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#5",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e準備が整う前に何としても止めなくては\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eWe must stop them before preparations finish!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#7",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e全衛星の半数を撃破\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eHalf of all satellites destroyed.\u003cab(1000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#8",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e敵の準備は進んでいます、急いで\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eEnemy preparations are progressing, hurry.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#9",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e各機、衛星の破壊を急いで\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAll units, hurry and destroy the satellites.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#10",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e流石、ラー・カイラムのパイロットね\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eJust as expected from Ra Cailum\u0027s pilots.\u003cab(1000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#11",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eすごいわ、こんな短時間で…！\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAmazing, in such a short time...!\u003cab(1000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#12",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこれで作戦は終了ね\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eThat concludes the operation.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#13",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e待ってください！　新たな敵影を確認！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWait! New hostile contacts confirmed!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#14",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e識別はティターンズ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThey are identified as Titans!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#15",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eなんですって！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWhat did you say?!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#16",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e向こうはやる気のようね。各機、応戦して！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThey look eager for a fight. All units, return fire!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#17",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e私はピースミリオンを任されている\u003cab(0)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI have been entrusted with the Peacemillion.\u003cab(0)\u003e",
+                     "notes":  "Major Sally Po aboard the Peacemillion."
+                 },
+                 {
+                     "ref":  "m6009#18",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e軍少佐のサリィ・ポォです\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003eI am Major Sally Po.\u003cab(1000)\u003e",
+                     "notes":  "Major Sally Po aboard the Peacemillion."
+                 },
+                 {
+                     "ref":  "m6009#19",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eお互い、うまくいくことを願います\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eI wish both of us the best of luck.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Major Sally Po aboard the Peacemillion."
+                 },
+                 {
+                     "ref":  "m6009#20",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(800)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eこちらもよろしく頼みます\u003cab(800)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWe look forward to working with you.\u003cab(800)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#21",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e各機、担当エリア内の衛星を破壊しろ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eAll units, destroy the satellites in your assigned zones.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#22",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eやめてください、ゲイル先輩！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003ePlease stop, Senior Gale!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Eiji Asuka addressing his Grados senior officer Gale."
+                 },
+                 {
+                     "ref":  "m6009#23",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e僕の話を聞いてください！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003ePlease listen to me!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Eiji Asuka addressing his Grados senior officer Gale."
+                 },
+                 {
+                     "ref":  "m6009#24",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eさようなら…ゲイル先輩\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eFarewell... Senior Gale.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Eiji Asuka addressing his Grados senior officer Gale."
+                 },
+                 {
+                     "ref":  "m6009#25",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e敵の全撃破を確認しました\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eDestruction of all enemies confirmed.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#26",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eいや…グラドスがまだ残っています！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eNo... Grados units still remain!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#27",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e今回の成功は、あなた方のおかげです\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eOur success this time is thanks to all of you.\u003cab(1000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#28",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eまた会えるのを楽しみにしています\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eI look forward to seeing you again.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#29",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e目標の位置情報はそちらに送るわ\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eSending target position data to you now.\u003cab(1000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#30",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e目標の位置情報を転送した\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eTransferred target location data.\u003cab(1000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#31",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eそちらに目標の位置情報を送りました\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eSent target location data your way.\u003cab(1000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#32",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e目標の位置情報はそちらに送ったわ\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI sent the target location data to you.\u003cab(1000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#33",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e目標の位置情報を送ったから、\u003cab(500)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eSent the target location data, so\u003cab(500)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#34",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e目標の位置情報を送ったわ\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eSent target location data.\u003cab(1000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6009#35",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e目標ノ位置情報ヲ表示\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eDISPLAYING TARGET POSITION DATA.\u003cab(1000)\u003e",
+                     "notes":  "Rei / AI computer system readout translated in system all-caps."
+                 }
+             ],
+    "context_after":  [
+                          {
+                              "ref":  "m6009#36",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003e目標の位置情報をそちらに転送しました\u003cab(1000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6009#37",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003e目標の位置情報をそっちへ送ったわ\u003cab(1000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6009#38",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003e目標の位置情報をモニターに転送\u003cab(1000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6009#39",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e表示に従って、向かってちょうだい\u003cab(1000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6009#40",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e表示に従い、撃破に向かってくれ\u003cab(1000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6009#41",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e目標の把握に役立ててください\u003cab(1000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6009#42",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e表示を見て、目標に向かって\u003cab(1000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6009#43",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003eそれを見て、どんどん破壊しちゃって！\u003cab(1000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6009#44",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e表示に従って、撃破に向かってね\u003cab(1000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6009#45",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e至急、目標ノ撃破ニ向カエ\u003cab(1000)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6009#46",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e表示に従って、目標に向かってください\u003cab(1000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6009#47",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e表示を見て、撃破に向かってちょうだい\u003cab(1000)\u003e",
+                              "en":  ""
+                          }
+                      ],
+    "report":  {
+                   "translator_summary":  "Extra missions batch xa_04 translated. Covers completion of White Fang / Aries escort mission (m6008) and Grados orbital satellite defense / Titans ambush mission (m6009).",
+                   "rows_examined":  "All 80 rows translated and checked.",
+                   "rows_examined_count":  80,
+                   "uncertainties":  [
+
+                                     ],
+                   "glossary_proposals":  [
+
+                                          ],
+                   "portrait_speakers":  {
+
+                                         }
+               }
+}

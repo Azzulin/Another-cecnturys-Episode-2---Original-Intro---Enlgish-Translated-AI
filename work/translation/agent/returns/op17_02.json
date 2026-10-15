@@ -1,0 +1,1811 @@
+{
+ "batch": "op17_02",
+ "operation": 17,
+ "previous_batch": "op17_01",
+ "next_batch": "op17_03",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "グラビティブラスト",
+   "en": "Gravity Blast",
+   "kind": "term",
+   "series": "Martian Successor Nadesico",
+   "role": "Nadesico's main gravity cannon (dotless spelling)."
+  },
+  {
+   "ja": "ゲキ・ガンガー",
+   "en": "Gekiganger",
+   "kind": "term",
+   "series": "Martian Successor Nadesico",
+   "role": "The in-universe 1970s-style super robot anime (full title ゲキ・ガンガー3) loved by Gai Daigoji and Akito; also the name of its robot."
+  },
+  {
+   "ja": "ボソンジャンプ",
+   "en": "Boson Jump",
+   "kind": "term",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "Teleportation/time-displacement technology of the setting"
+  },
+  {
+   "ja": "グランチャー",
+   "en": "Grand Cher",
+   "kind": "unit",
+   "series": "Brain Powerd",
+   "role": "Orphan-loyal Antibody piloted by Reclaimers (generic grunt unit)"
+  },
+  {
+   "ja": "ショウ・ザマ",
+   "en": "Show Zama",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Protagonist; Holy Warrior (Seisenshi) from Tokyo summoned to Byston Well; defects from Drake Luft to the resistance; pilots Dunbine, later Billbine",
+   "personality": "Hot-blooded, stubborn young motocross racer who grows into a serious, driven warrior. Has huge Aura Power but struggles to control it. Has unspoken feelings for Marvel.",
+   "en_short": "Sho"
+  },
+  {
+   "ja": "チューリップ",
+   "en": "Chulip",
+   "kind": "term",
+   "series": "Martian Successor Nadesico",
+   "role": "Jovian gate-ships that spawn enemy units; targets of missions like チューリップ掃討 / チューリップ排除."
+  },
+  {
+   "ja": "テンカワ",
+   "en": "Tenkawa",
+   "kind": "character",
+   "series": "Martian Successor Nadesico",
+   "gender": "male",
+   "role": "Surname of Akito Tenkawa; used alone (テンカワ君, テンカワ機 = Tenkawa's unit)."
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "マックス",
+   "en": "Max",
+   "kind": "character",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "gender": "male",
+   "role": "U.N. Spacy ace VF-1 pilot, Hikaru's wingman in Skull Squadron.",
+   "personality": "Calm, cheerful, unflappable prodigy pilot; later falls for and marries the Meltran ace Milia.",
+   "full_name": "Maximilian Jenius"
+  },
+  {
+   "ja": "木星蜥蜴",
+   "en": "Jovian Lizards",
+   "kind": "faction",
+   "series": "Martian Successor Nadesico",
+   "role": "Earth's name for the unknown Jovian enemy (actually the Jovian Federation, 木連)."
+  },
+  {
+   "ja": "アキト",
+   "en": "Akito",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "male",
+   "role": "TV: cook and Aestivalis pilot of the Nadesico, a Class-A Boson Jumper. PoD: the \"Prince of Darkness\", Black Sarena pilot hunting the Martian Successors",
+   "personality": "TV: kind, reluctant and insecure Gekiganger fan who wants to be a cook. PoD: cold, grim and vengeful after experiments destroyed his senses",
+   "full_name": "Akito Tenkawa"
+  },
+  {
+   "ja": "サセボ",
+   "en": "Sasebo",
+   "kind": "place",
+   "series": "Martian Successor Nadesico",
+   "role": "Japanese port city where the Nadesico is docked/launched (サセボドック, mission サセボ攻防戦)."
+  },
+  {
+   "ja": "マジン",
+   "en": "Majin",
+   "kind": "unit",
+   "series": "Martian Successor Nadesico",
+   "role": "Jovian manned mecha (Genichirou Tsukiomi)"
+  },
+  {
+   "ja": "ミン",
+   "en": "Min",
+   "kind": "character",
+   "series": "Metal Armor Dragonar",
+   "gender": "female",
+   "role": "Giganos Captain, the only woman among Gon Jem's Four Kings; Stark Dyne pilot; later joins Meio",
+   "personality": "Fierce, violent and battle-hungry; later shows a devoted, gentler side toward Meio",
+   "en_short": "Min"
+  },
+  {
+   "ja": "大尉",
+   "en": "Captain",
+   "en_short": "Capt.",
+   "kind": "rank",
+   "note": "army/MS rank; a ship's captain (艦長) is also Captain"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {
+  "34": {
+   "speaker": "Ruri Hoshino",
+   "gender": "female",
+   "role": "Nadesico operator",
+   "confidence": "high",
+   "evidence": "brief: 'こちらはナデシコのホシノ・ルリです。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6171#51",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>６時方向よりミサイル多数！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6171#52",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>結果さえ良ければ、一時の屈辱など！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6171#53",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>黒騎士！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6171#54",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>私は復讐のためだけに生きてきた！<ab(200)>",
+   "en": ""
+  },
+  {
+   "ref": "m6171#55",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ショウ・ザマ！<ab(100)>",
+   "en": ""
+  },
+  {
+   "ref": "m6171#56",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>私の恨みの刃を受けるがいい！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6171#57",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>私はお前に復讐するために！<ab(100)>",
+   "en": ""
+  },
+  {
+   "ref": "m6171#58",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>そのためだけに生きてきた！<ab(200)>",
+   "en": ""
+  },
+  {
+   "ref": "m6171#59",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>私の恨みの刃を受けるがいい！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6171#60",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>このぉ！<ab(10)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6171#61",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ショウ！　お前はここで落ちろ！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6171#62",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>それはお前のほうだ！<ab(100)><ed()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6171#63",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くっ！<ab(100)>",
+   "en": "<op()><sp(20)>Gah!<ab(100)>",
+   "notes": "Black Knight (Burn Bunnings) reeling under Show Zama's attack."
+  },
+  {
+   "ref": "m6171#64",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くっ！　ここは預けるぞ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Damn it! I leave this to you!<ab(200)><ed()>",
+   "notes": "Black Knight retreating from Show Zama."
+  },
+  {
+   "ref": "m6171#65",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ここは預けるぞ、ショウ・ザマ！<ab(200)><ed()>",
+   "en": "<sp(20)>I leave this to you, Show Zama!<ab(200)><ed()>",
+   "notes": "Black Knight calling out Show by name upon retreat."
+  },
+  {
+   "ref": "brief63109#2",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 34,
+   "tokens": [
+    "<op(34,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "<im(4)>",
+    "<im(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(6)>",
+    "<tr(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(34,1)><sp(2)>サセボ<im(1)>周辺に展<im(4)>開中の<im(2)>#c[BE5050]チューリップ#cから、\n敵機が多数出現して<im(6)>います。<tr(1)>",
+   "en": "<op(34,1)><sp(2)>Numerous <im(1)>enemy <im(4)>units are emerging <im(2)>from the\n#c[BE5050]Chulips#c deployed around <im(6)>Sasebo.<tr(1)>",
+   "notes": "Ruri Hoshino delivering tactical briefing for Phase 2."
+  },
+  {
+   "ref": "brief63109#3",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 34,
+   "tokens": [
+    "<op(34,1)>",
+    "<sp(2)>",
+    "<of(1)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(34,1)><sp(2)><of(1)>#c[F07141]チューリップを破壊#cして、\n敵の出現を阻止してください。",
+   "en": "<op(34,1)><sp(2)><of(1)>Please #c[F07141]destroy the Chulips#c and prevent\nthe enemy from appearing.",
+   "notes": "Ruri instructing objective."
+  },
+  {
+   "ref": "m6172#0",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "チューリップの全破壊",
+   "en": "Destroy all Chulips",
+   "notes": "Mission objective."
+  },
+  {
+   "ref": "m6172#2",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "マジンの撃破",
+   "en": "Destroy the Majin",
+   "notes": "Mission objective targeting the Jovian mecha Majin."
+  },
+  {
+   "ref": "m6172#3",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "チューリップ残存数",
+   "en": "Chulips Remaining",
+   "notes": "Mission counter."
+  },
+  {
+   "ref": "m6172#5",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>きりがねえぜ、これじゃ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>There is no end to this!<ab(100)><ed()>",
+   "notes": "Dragonar pilot (Kaine) complaining about enemy spawns."
+  },
+  {
+   "ref": "m6172#6",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)><op()><sp(20)>泣き言を言うんじゃないよ！<ab(0)>",
+   "en": "<op()><sp(20)><op()><sp(20)>Stop whining!<ab(0)>",
+   "notes": "Capt. Min snapping back."
+  },
+  {
+   "ref": "m6172#7",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>男だろ！<ab(300)><ed()>",
+   "en": "<sp(20)>Aren't you a man?!<ab(300)><ed()>",
+   "notes": "Capt. Min continuing."
+  },
+  {
+   "ref": "m6172#8",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ミン大尉の言うとおりだぜ。<ab(300)>",
+   "en": "<op()><sp(20)>Capt. Min is right.<ab(300)>",
+   "notes": "Dragonar squadmate (Tap or Light) backing Min."
+  },
+  {
+   "ref": "m6172#9",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>出てくる奴は片っ端から落とすんだ！<ab(500)><ed()>",
+   "en": "<sp(20)>Shoot down every one\nthat comes out!<ab(500)><ed()>",
+   "notes": "Dragonar squadmate continuing."
+  },
+  {
+   "ref": "m6172#10",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコが襲撃を受けている。<ab(400)>",
+   "en": "<op()><sp(20)>The Nadesico is under attack.<ab(400)>",
+   "notes": "Commander / pilot warning of Nadesico's status."
+  },
+  {
+   "ref": "m6172#11",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>時間はないぞ。　早めにすませてくれ。<ab(700)><ed()>",
+   "en": "<sp(20)>We have no time.\nFinish this quickly.<ab(700)><ed()>",
+   "notes": "Commander urging haste."
+  },
+  {
+   "ref": "m6172#12",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>グランチャー接近中！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Grand Cher approaching!<ab(100)><ed()>",
+   "notes": "Operator reporting enemy Grand Cher arrival."
+  },
+  {
+   "ref": "m6172#13",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まだ近くにいたのか！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>They were still nearby?!<ab(500)><ed()>",
+   "notes": "Pilot reacting to Reclaimers still in area."
+  },
+  {
+   "ref": "m6172#14",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ターゲットを大量撃破。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Large number of targets destroyed.<ab(400)><ed()>",
+   "notes": "Ruri / operator reporting targets cleared."
+  },
+  {
+   "ref": "m6172#15",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコ、囲まれてます。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>The Nadesico is surrounded.<ab(300)><ed()>",
+   "notes": "Operator / Megumi reporting Nadesico in danger."
+  },
+  {
+   "ref": "m6172#16",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まずいな…<ab(300)><ed()>",
+   "en": "<op()><sp(20)>This looks bad...<ab(300)><ed()>",
+   "notes": "Pilot reacting to situation."
+  },
+  {
+   "ref": "m6172#17",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコのダメージが拡大！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Damage to the Nadesico is spreading!<ab(200)><ed()>",
+   "notes": "Operator warning."
+  },
+  {
+   "ref": "m6172#18",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)><op()><sp(20)>急ぐんだ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)><op()><sp(20)>Hurry!<ab(500)><ed()>",
+   "notes": "Pilot / commander urging speed."
+  },
+  {
+   "ref": "m6172#19",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコ、沈黙！　応答ありません！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>The Nadesico is silent!\nNo response!<ab(500)><ed()>",
+   "notes": "Operator reporting mission failure / Nadesico disabled."
+  },
+  {
+   "ref": "m6172#20",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くっ…我々の力ではここまでか…<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Damn it... Is this the limit\nof our strength...?<ab(1000)><ed()>",
+   "notes": "Commander / pilot lamenting failure."
+  },
+  {
+   "ref": "m6172#23",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコ周辺の安全の確保に成功。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Successfully secured the area\naround the Nadesico.<ab(500)><ed()>",
+   "notes": "Operator reporting area clear."
+  },
+  {
+   "ref": "m6172#24",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ひとまずは安心だな。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>We can breathe easy for now.<ab(200)><ed()>",
+   "notes": "Pilot relieved."
+  },
+  {
+   "ref": "m6172#25",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ボース粒子、大量に検出！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Massive amount of Boson particles\ndetected!<ab(500)><ed()>",
+   "notes": "Operator detecting Boson Jump readings."
+  },
+  {
+   "ref": "m6172#26",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>市街に見たこともない機体がいる！<ab(0)>",
+   "en": "<op()><sp(20)>There is an unknown unit in the city!<ab(0)>",
+   "notes": "Civilian / local forces calling for help upon Majin appearance."
+  },
+  {
+   "ref": "m6172#27",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>助けてくれ！<ab(200)><ed()>",
+   "en": "<sp(20)>Help us!<ab(200)><ed()>",
+   "notes": "Civilian / local forces plea."
+  },
+  {
+   "ref": "m6172#28",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんだ！？　新手か？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>What?! New hostiles?<ab(200)><ed()>",
+   "notes": "Pilot reacting to new enemy."
+  },
+  {
+   "ref": "m6172#29",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こっちに来ます！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>It is heading this way!<ab(500)><ed()>",
+   "notes": "Operator alerting the team."
+  },
+  {
+   "ref": "m6172#30",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>え？　瞬間移動！？<ab(400)><ed()>",
+   "en": "<op()><sp(20)>What? Teleportation?!<ab(400)><ed()>",
+   "notes": "Pilot shocked by enemy Boson Jumping."
+  },
+  {
+   "ref": "m6172#31",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんてこと…敵はすでに単機による\nボソンジャンプ技術を確立していたなんて。<ab(700)><ed()>",
+   "en": "<op()><sp(20)>To think the enemy already mastered\nsingle-unit Boson Jump tech...<ab(700)><ed()>",
+   "notes": "Inez Fressange analyzing enemy capability. fix: line length exceeded 380px -> compacted into two lines"
+  },
+  {
+   "ref": "m6172#32",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そいつはちと厄介だぜ…<ab(300)><ed()>",
+   "en": "<op()><sp(20)>That is going to be troublesome...<ab(300)><ed()>",
+   "notes": "Pilot noting difficulty."
+  },
+  {
+   "ref": "m6172#33",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あいつらは今までのとは違うぞ！<ab(300)>",
+   "en": "<op()><sp(20)>They are not like the ones before!<ab(300)>",
+   "notes": "Pilot warning squad."
+  },
+  {
+   "ref": "m6172#34",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>気をつけて戦え！<ab(500)><ed()>",
+   "en": "<sp(20)>Stay on your guard!<ab(500)><ed()>",
+   "notes": "Pilot warning squad."
+  },
+  {
+   "ref": "m6172#35",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(900)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ジャンプのパターンを読みきれば、\nいけると思います。　たぶん。<ab(900)><ed()>",
+   "en": "<op()><sp(20)>If we can read its jump patterns,\nI think we can do this. Probably.<ab(900)><ed()>",
+   "notes": "Hikaru Ichijo or Kaine Wakaba offering a plan."
+  },
+  {
+   "ref": "m6172#36",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…だとさ。\n読めるか？　マックス。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>...So he says.\nCan you read it, Max?<ab(300)><ed()>",
+   "notes": "Roy Focker addressing Max Jenius."
+  },
+  {
+   "ref": "m6172#37",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やってみないとわかりませんね。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>I will not know until I try.<ab(500)><ed()>",
+   "notes": "Max Jenius responding calmly."
+  },
+  {
+   "ref": "m6172#38",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵はグラビティブラストを持っています。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>The enemy has a Gravity Blast.<ab(300)><ed()>",
+   "notes": "Ruri / operator reporting enemy armament."
+  },
+  {
+   "ref": "m6172#39",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコのアレか。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Like the Nadesico's weapon?<ab(200)><ed()>",
+   "notes": "Pilot connecting it to the Nadesico's main gun."
+  },
+  {
+   "ref": "m6172#40",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そんなものを食らえば…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>If we take a hit from that...<ab(0)><ed()>",
+   "notes": "Pilot dreading a hit."
+  },
+  {
+   "ref": "m6172#41",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>大変なことになるわね…\n…うふ、うふふふふ。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>It will get terribly messy...\n...Heh, hehehehe.<ab(500)><ed()>",
+   "notes": "Izumi Maki chuckling macabrely."
+  },
+  {
+   "ref": "m6172#42",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今までの木星蜥蜴とは違う。<ab(400)>",
+   "en": "<op()><sp(20)>It is unlike any Jovian Lizard before.<ab(400)>",
+   "notes": "Pilot (Ryoko Subaru) analyzing the threat."
+  },
+  {
+   "ref": "m6172#43",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>重力波砲を持つ人型兵器…<ab(300)>",
+   "en": "<sp(20)>A humanoid machine\nwith a gravity cannon...<ab(300)>",
+   "notes": "Pilot continuing description of Majin."
+  },
+  {
+   "ref": "m6172#44",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>全く違うタイプの敵と考えたほうがいいな。<ab(500)><ed()>",
+   "en": "<sp(20)>We should treat it as a totally\ndifferent type of enemy.<ab(500)><ed()>",
+   "notes": "Pilot advising caution."
+  },
+  {
+   "ref": "m6172#45",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>目標は沈黙！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Target is silenced!<ab(100)><ed()>",
+   "notes": "Operator reporting Majin defeated."
+  },
+  {
+   "ref": "m6172#46",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それ、捕獲できないかしら？<ab(100)>",
+   "en": "<op()><sp(20)>Could we capture that unit?<ab(100)>",
+   "notes": "Inez Fressange requesting salvage/capture."
+  },
+  {
+   "ref": "m6172#47",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>色々調べてみたいわ。<ab(300)><ed()>",
+   "en": "<sp(20)>There is so much I want to examine.<ab(300)><ed()>",
+   "notes": "Inez Fressange curious to study the machine."
+  },
+  {
+   "ref": "m6172#48",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>了解。　戦闘終了後に回収します。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Understood. We will recover it\nafter combat ends.<ab(500)><ed()>",
+   "notes": "Pilot / officer agreeing to recover."
+  },
+  {
+   "ref": "m6172#49",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(50)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵機のジェネレータ内部に、\n異常内圧を観測。<ab(50)><ed()>",
+   "en": "<op()><sp(20)>Abnormal internal pressure detected\ninside enemy unit's generator.<ab(50)><ed()>",
+   "notes": "Ruri detecting critical anomaly."
+  },
+  {
+   "ref": "m6172#50",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……最悪ね。<ab(100)>",
+   "en": "<op()><sp(20)>...This is the worst.<ab(100)>",
+   "notes": "Inez Fressange realizing danger."
+  },
+  {
+   "ref": "m6172#51",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>あの機体、最初から自爆用に\nプログラムされていたんだわ。<ab(200)><ed()>",
+   "en": "<sp(20)>That machine was programmed to\nself-destruct from the start.<ab(200)><ed()>",
+   "notes": "Inez explaining self-destruct program."
+  },
+  {
+   "ref": "m6172#52",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(50)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>自爆！？<ab(50)><ed()>",
+   "en": "<op()><sp(20)>Self-destruct?!<ab(50)><ed()>",
+   "notes": "Yurika shocked."
+  },
+  {
+   "ref": "m6172#53",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あいつは、周囲の空間全体を\n相転移しようとしている。<ab(100)>",
+   "en": "<op()><sp(20)>It is attempting a phase transition\nof the entire surrounding space.<ab(100)>",
+   "notes": "Inez describing phase transition blast."
+  },
+  {
+   "ref": "m6172#54",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ま、サセボが消し飛ぶことは保証するわ。<ab(300)><ed()>",
+   "en": "<sp(20)>Well, I can guarantee that Sasebo\nwill be blown away.<ab(300)><ed()>",
+   "notes": "Inez warning of total destruction."
+  },
+  {
+   "ref": "m6172#55",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>効果があるかわからないけど、\nグラビティブラストを。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>I do not know if it will work,\nbut fire the Gravity Blast!<ab(200)><ed()>",
+   "notes": "Yurika ordering desperate attack."
+  },
+  {
+   "ref": "m6172#56",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>艦長、謹慎中のアキトさんが出撃しました。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Captain, Akito, who was suspended,\nhas sortied.<ab(300)><ed()>",
+   "notes": "Ruri reporting Akito's unauthorized sortie."
+  },
+  {
+   "ref": "m6172#57",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アキト！？　何してるの！？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Akito?! What are you doing?!<ab(200)><ed()>",
+   "notes": "Yurika in panic."
+  },
+  {
+   "ref": "m6172#58",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あいつは何をしている！　捕まえろ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>What is he doing?! Stop him!<ab(200)><ed()>",
+   "notes": "Officer ordering interception of Akito."
+  },
+  {
+   "ref": "m6172#59",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>彼、ＣＣを持っていったみたいね。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>It seems he took the CC with him.<ab(200)><ed()>",
+   "notes": "Inez noticing Akito took the Chulip Crystal (CC)."
+  },
+  {
+   "ref": "m6172#60",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(50)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ＣＣ？<ab(50)><ed()>",
+   "en": "<op()><sp(20)>The CC?<ab(50)><ed()>",
+   "notes": "Yurika confused."
+  },
+  {
+   "ref": "m6172#61",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>チューリップと同じ組成を持つ物質よ。<ab(100)>",
+   "en": "<op()><sp(20)>A substance with the same\ncomposition as a Chulip.<ab(100)>",
+   "notes": "Inez explaining CC."
+  },
+  {
+   "ref": "m6172#62",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ボソンジャンプのトリガーにもなる…<ab(100)><ed()>",
+   "en": "<sp(20)>It also serves as a trigger\nfor Boson Jumps...<ab(100)><ed()>",
+   "notes": "Inez explaining CC function."
+  },
+  {
+   "ref": "m6172#63",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(50)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>えええ！？　じゃ、アキトは……？<ab(50)><ed()>",
+   "en": "<op()><sp(20)>What?! Then, what about Akito...?<ab(50)><ed()>",
+   "notes": "Yurika realizing what Akito intends to do."
+  },
+  {
+   "ref": "m6172#64",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…敵消失。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>...Enemy vanished.<ab(400)><ed()>",
+   "notes": "Ruri reporting disappearance."
+  },
+  {
+   "ref": "m6172#65",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>消滅だと？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Vanished?!<ab(200)><ed()>",
+   "notes": "Pilot incredulous."
+  },
+  {
+   "ref": "m6172#66",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>確かに、姿は見えないわね……<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Indeed, it is nowhere to be seen...<ab(100)><ed()>",
+   "notes": "Inez or Izumi confirming disappearance."
+  },
+  {
+   "ref": "m6172#67",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アキト！？　アキトはどこ？<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Akito?! Where is Akito?!<ab(100)><ed()>",
+   "notes": "Yurika desperately calling out."
+  },
+  {
+   "ref": "m6172#68",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵と一緒にボソンジャンプしたようね。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>It seems he Boson Jumped\nalong with the enemy.<ab(300)><ed()>",
+   "notes": "Inez explaining Akito jumped with the Majin."
+  },
+  {
+   "ref": "m6172#69",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>！？　って言うことは……<ab(100)><ed()>",
+   "en": "<op()><sp(20)>!? Then that means...<ab(100)><ed()>",
+   "notes": "Yurika terrified."
+  },
+  {
+   "ref": "m6172#70",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ボソンジャンプに巻き込まれた人間は\n助からないわ。　普通は。<ab(100)><ed()>",
+   "en": "<op()><sp(20)>A human caught in a Boson Jump\nwill not survive. Normally.<ab(100)><ed()>",
+   "notes": "Inez stating the grim reality."
+  },
+  {
+   "ref": "m6172#71",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そんなぁ……アキト！　アキト――っ！<ab(800)><ed()>",
+   "en": "<op()><sp(20)>No way... Akito! Akitooo!<ab(800)><ed()>",
+   "notes": "Yurika screaming Akito's name."
+  },
+  {
+   "ref": "m6172#72",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>海上に出てきたところを叩け！<ab(100)>",
+   "en": "<op()><sp(20)>Strike them when they surface at sea!<ab(100)>",
+   "notes": "Combat orders against remaining enemies."
+  },
+  {
+   "ref": "m6172#73",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>深追いするな！<ab(100)><ed()>",
+   "en": "<sp(20)>Do not pursue too far!<ab(100)><ed()>",
+   "notes": "Combat order."
+  },
+  {
+   "ref": "m6172#74",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>何あれ！？　ゲキ・ガンガー？<ab(0)><off()>",
+   "en": "<on()><sp(20)>What is that?! Gekiganger?<ab(0)><off()>",
+   "notes": "Akito flashback / inner monologue recalling when he first saw Gekiganger / met Gai."
+  },
+  {
+   "ref": "m6172#75",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>うおおおお！！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Uooohhh!!<ab(0)><off()>",
+   "notes": "Akito shouting in flashback/jump."
+  },
+  {
+   "ref": "m6172#76",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>俺にできること、俺にしかできないこと\nホントにあるのか？<ab(0)><off()>",
+   "en": "<on()><sp(20)>What I can do, what only I can do...\nDoes it really exist?<ab(0)><off()>",
+   "notes": "Akito questioning his existence / role."
+  },
+  {
+   "ref": "m6172#77",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>俺は何かになれるのか！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Can I become something?!<ab(0)><off()>",
+   "notes": "Akito questioning his future."
+  },
+  {
+   "ref": "m6172#78",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>何考えてんだ、テンカワ！　逃げろ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>What are you thinking, Tenkawa! Run!<ab(0)><off()>",
+   "notes": "Memory of squadmate shouting at him to flee."
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6172#79",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>俺の戦友が……<ab(100)>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#80",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ねえ……アキト君、どうなったのよ？<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#81",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>…テンカワ……どうして！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#82",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>俺たちが……もっとしっかりしていれば！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#83",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>なんでこんなこと……っ！！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#84",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>やりすぎだよ……いくらなんでも、\nやりすぎだよぉっ！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#85",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>？　……ブレン、どうしたんだ？<ab(100)>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#86",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>仲間を助けたいのはわかるけど……<ab(100)>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#87",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>テンカワ……最後の最後に\n戦士として目覚めたか……<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#88",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>うおおおおっ！　テンカワァ――――！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#89",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>たぶん……もう……だめ。<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#90",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ショウ……<ab(100)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Phase 1 conclusion with Black Knight retreating before Show Zama; phase 2 tactical briefing by Ruri Hoshino; defense of Sasebo and Nadesico against enemy onslaught and Grand Chers; appearance of the Jovian manned mecha Majin capable of single-unit Boson Jump and equipped with Gravity Blast; Majin self-destruct overload threatening Sasebo with phase transition; Akito Tenkawa sorting with CC (Chulip Crystal) while under suspension to force a Boson Jump with the enemy away from Sasebo, sacrificing himself in an apparent fatal jump.",
+  "rows_examined": "op17_01 (m6171#51-62), op17_02 (m6171#63-65, brief63109#2-3, m6172#0-78), op17_03 (m6172#79-90)",
+  "rows_examined_count": 80,
+  "uncertainties": [
+   "In m6171#64-65, 'ここは預けるぞ' is Burn Bunnings (Black Knight) ceding the battlefield for now upon retreating.",
+   "In m6172#5-9, the dialogue banter is between the Dragonar pilots (Kaine/Light/Tap) and Captain Min.",
+   "In m6172#74-78, the lines marked with <on()> and <off()> represent Akito's internal flashback/monologue questioning his purpose ('俺にできること、俺にしかできないこと...') as he initiates the Boson Jump with the self-destructing Majin."
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {
+   "34": "Ruri Hoshino"
+  }
+ }
+}

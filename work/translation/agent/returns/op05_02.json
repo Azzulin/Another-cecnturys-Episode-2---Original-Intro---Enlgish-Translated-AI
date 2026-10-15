@@ -1,0 +1,1441 @@
+{
+ "batch": "op05_02",
+ "operation": 5,
+ "previous_batch": "op05_01",
+ "next_batch": null,
+ "rows_in_slice": 65,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "エギーユ・デラーズ",
+   "en": "Aiguille Delaz",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Leader of the Delaz Fleet and mastermind of Operation Stardust; former Zeon colonel loyal to Gihren Zabi. Wiki rank: Lieutenant General (0083).",
+   "personality": "Zealous idealist devoted to Spacenoid independence and Gihren's cause; stern but paternal toward Gato; dies shouting \"Sieg Zeon\".",
+   "en_short": "Delaz"
+  },
+  {
+   "ja": "ガンダム試作2号機",
+   "en": "Gundam GP02",
+   "kind": "unit",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "RX-78GP02A Gundam \"Physalis\"."
+  },
+  {
+   "ja": "デラーズ・フリート",
+   "en": "Delaz Fleet",
+   "kind": "faction",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "Zeon remnant force led by Aiguille Delaz that carries out Operation Stardust in U.C. 0083."
+  },
+  {
+   "ja": "メタルアーマー",
+   "en": "Metal Armor",
+   "kind": "term"
+  },
+  {
+   "ja": "ギガノス帝国",
+   "en": "Giganos Empire",
+   "kind": "faction",
+   "series": "Metal Armor Dragonar",
+   "role": "Common short name of the Unified Empire of Giganos",
+   "en_short": "Giganos"
+  },
+  {
+   "ja": "コンペイトウ",
+   "en": "Konpei Island",
+   "kind": "place",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "The former Zeon fortress Solomon, renamed by the Federation; site of the 0083 naval review that Gato attacks."
+  },
+  {
+   "ja": "モビルスーツ",
+   "en": "mobile suit",
+   "kind": "term"
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "ジオン残党",
+   "en": "Zeon remnants",
+   "kind": "faction"
+  },
+  {
+   "ja": "ギガノス",
+   "en": "Giganos"
+  },
+  {
+   "ja": "デラーズ",
+   "en": "Delaz",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Leader of the Delaz Fleet and mastermind of Operation Stardust; former Zeon colonel loyal to Gihren Zabi. Wiki rank: Lieutenant General (0083).",
+   "personality": "Zealous idealist devoted to Spacenoid independence and Gihren's cause; stern but paternal toward Gato; dies shouting \"Sieg Zeon\".",
+   "full_name": "Aiguille Delaz"
+  },
+  {
+   "ja": "木星蜥蜴",
+   "en": "Jovian Lizards",
+   "kind": "faction",
+   "series": "Martian Successor Nadesico",
+   "role": "Earth's name for the unknown Jovian enemy (actually the Jovian Federation, 木連)."
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "ガトー",
+   "en": "Gato",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Main antagonist of 0083; Zeon ace \"Nightmare of Solomon\", Delaz Fleet pilot who steals Gundam GP02 and later pilots the Neue Ziel. Rank: Major (U.C. 0083).",
+   "personality": "Honorable, idealistic career soldier; charismatic leader who fights on the front line; hates the Federation but respects worthy opponents.",
+   "full_name": "Anavel Gato"
+  }
+ ],
+ "known_portraits": {
+  "39": {
+   "speaker": "John Cowen",
+   "gender": "male",
+   "role": "Commodore",
+   "confidence": "high",
+   "evidence": "brief63168: 'This is Cowen.'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "brief63049#3",
+   "layer": "tactical briefing",
+   "jp": "<op(38,1)><sp(2)>各機は前線に展開して、\n<im(5)>#c[F07141]敵艦<im(7)>の侵攻を阻止#cし<im(3)>てくれ。<tr(1)>",
+   "en": ""
+  },
+  {
+   "ref": "brief63049#4",
+   "layer": "tactical briefing",
+   "jp": "<op(38,1)><sp(2)>射程範囲に入られると、今の#c[5E8FD8]アルビオン#cには\n回避する手立てがない。\n必ず止めるんだ。",
+   "en": ""
+  },
+  {
+   "ref": "brief63049#5",
+   "layer": "tactical briefing",
+   "jp": "<op(38,1)><sp(2)>では、配置<im(9)>に着け！<of(1)>",
+   "en": ""
+  },
+  {
+   "ref": "m6052#0",
+   "layer": "mission dialogue",
+   "jp": "敵艦の全撃破",
+   "en": ""
+  },
+  {
+   "ref": "m6052#1",
+   "layer": "mission dialogue",
+   "jp": "アルビオンの撃沈",
+   "en": ""
+  },
+  {
+   "ref": "m6052#2",
+   "layer": "mission dialogue",
+   "jp": "ゲルググＭ（シーマ）の撃破",
+   "en": ""
+  },
+  {
+   "ref": "m6052#3",
+   "layer": "mission dialogue",
+   "jp": "アルビオン",
+   "en": ""
+  },
+  {
+   "ref": "m6052#4",
+   "layer": "mission dialogue",
+   "jp": "アーマー%d％",
+   "en": ""
+  },
+  {
+   "ref": "m6052#5",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>アルビオンに敵艦を近づけさせるな！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6052#6",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>母艦がやられたらゲームオーバーか。<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6052#7",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>わかりやすい状況だな。<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6052#8",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>これだけの戦力で…ナメられたものだねぇ。<ab(700)>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6052#9",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ギガノスのメタルアーマーは出ているな？<ab(300)>",
+   "en": "<sp(20)>Are the Giganos Metal Armors deployed?<ab(300)>",
+   "notes": "Cima asking her crew."
+  },
+  {
+   "ref": "m6052#10",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>存分に働いてもらうよ！<ab(300)><ed()>",
+   "en": "<sp(20)>I expect them to pull their weight!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#11",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>新たな敵影を確認！<ab(300)>",
+   "en": "<op()><sp(20)>New enemy signatures confirmed!<ab(300)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#12",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ギガノス軍です！<ab(400)><ed()>",
+   "en": "<sp(20)>It's Giganos forces!<ab(400)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#13",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵、さらに来ます！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>More enemies incoming!<ab(400)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#14",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…よりどりみどり。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>...Take your pick.<ab(500)><ed()>",
+   "notes": "Ruri's dry deadpan comment."
+  },
+  {
+   "ref": "m6052#15",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この程度の敵さんなら楽勝だね！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Enemies like this are a piece of cake!<ab(400)><ed()>",
+   "notes": "Hikaru / Kaine cocky remark."
+  },
+  {
+   "ref": "m6052#16",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんだい、あれくらい突破できないのかい！<ab(200)>",
+   "en": "<op()><sp(20)>What? Can't even break past that?!<ab(200)>",
+   "notes": "Cima berating her troops."
+  },
+  {
+   "ref": "m6052#17",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>歯がゆいねえ…<ab(200)><ed()>",
+   "en": "<sp(20)>Irritating fools...<ab(200)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#18",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦、射程範囲内に接近！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemy ship closing into firing range!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#19",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>しまった！　迎撃を！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Damn it! Intercept them!<ab(200)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#20",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦、接近！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemy ship approaching!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#21",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やらせるか！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Like I'll let you!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#22",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>機関部に被弾！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Hit to the engine room!<ab(100)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#23",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>本艦の損傷が拡大しています！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Damage to this ship is spreading!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#24",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これは……<ab(100)><ed()>",
+   "en": "<op()><sp(20)>What is this...<ab(100)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#25",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>通常回線に割り込んできています！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>A broadcast is cutting into our comms!<ab(500)><ed()>",
+   "notes": "Delaz's declaration broadcast breaking in."
+  },
+  {
+   "ref": "m6052#26",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ガンダム２号機！<ab(300)>",
+   "en": "<op()><sp(20)>Gundam Unit 2!<ab(300)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#27",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>それに……ガトーも！？<ab(400)><ed()>",
+   "en": "<sp(20)>And... Gato too?!<ab(400)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#28",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これが奴らの目的だったのか！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>So this was their objective all along!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#29",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>フン……この程度の戦力で\n私の相手をしようってのかい！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Hmph... You think this puny force\ncan take me on?!<ab(500)><ed()>",
+   "notes": "Cima's combat dialogue."
+  },
+  {
+   "ref": "m6052#30",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>悪いけどその程度じゃ\nどうにもならないねえ！<ab(500)>",
+   "en": "<op()><sp(20)>Sorry, but that pathetic showing\nwon't do you any good!<ab(500)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#31",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>出直しといで！<ab(200)><ed()>",
+   "en": "<sp(20)>Come back after more practice!<ab(200)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#32",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>や……やるじゃないか。<ab(300)>",
+   "en": "<op()><sp(20)>N-Not bad at all...<ab(300)>",
+   "notes": "Cima taking damage."
+  },
+  {
+   "ref": "m6052#33",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>そろそろ逃げ出したほうがよさそうだね。<ab(500)><ed()>",
+   "en": "<sp(20)>Looks like it's time to pull out.<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#34",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>シャクだねえ……<ab(400)>",
+   "en": "<op()><sp(20)>Infuriating...<ab(400)>",
+   "notes": "Cima retreat dialogue."
+  },
+  {
+   "ref": "m6052#35",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>けど、今日のところは見逃してあげるよ！<ab(500)><ed()>",
+   "en": "<sp(20)>Still, I'll let you off for today!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#36",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵残存兵力が離脱します！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Remaining enemy forces disengaging!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#37",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ザンジバル級も後退していきます。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Zanzibar-class is falling back as well.<ab(200)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#38",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>追撃しますか？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Shall we pursue?<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#39",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いや、深追いしていたずらに戦力を\n消耗することはない。<ab(700)>",
+   "en": "<op()><sp(20)>No, don't pursue and waste our strength\npointlessly.<ab(700)>",
+   "notes": "Sinapus giving orders."
+  },
+  {
+   "ref": "m6052#40",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>あの演説……<ab(100)>",
+   "en": "<sp(20)>That speech...<ab(100)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#41",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ＵＣＥの暗部を暴露されたことで、<ab(0)>",
+   "en": "<sp(20)>With the UCE's dark side exposed,<ab(0)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#42",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>奴らの目的は半分以上\n達成されてしまったことになる。<ab(500)>",
+   "en": "<sp(20)>more than half their objective\nhas already been achieved.<ab(500)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#43",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>いまさら焦ったところで何になる。<ab(500)>",
+   "en": "<sp(20)>What good does panicking now do?<ab(500)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#44",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>我々は本部の指示を待とう。<ab(700)><ed()>",
+   "en": "<sp(20)>Let us await HQ's orders.<ab(700)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#45",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>敵艦隊からモビルスーツ発進！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Mobile suits launching from enemy fleet!<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#46",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>迎撃しろ！\nこれ以上やらせるな！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Intercept them!\nDon't let them do any more!<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#47",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>総員退避、総員…<ab(0)><off()>",
+   "en": "<on()><sp(20)>All hands evacuate, all hands...<ab(0)><off()>",
+   "notes": "Failure line when Albion is sunk."
+  },
+  {
+   "ref": "m6052#48",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ア、アルビオンが！<ab(0)><off()>",
+   "en": "<on()><sp(20)>T-The Albion is...!!<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#49",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>助かった……俺、まだ死んでない……<ab(500)><ed()>",
+   "en": "<op()><sp(20)>I made it... I'm still alive...<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "brief63172#0",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 39,
+   "tokens": [
+    "<op(39,1)>",
+    "<sp(2)>",
+    "#c[E2E258]",
+    "#c"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(39,1)><sp(2)>#c[E2E258]デラーズ#cの演説は聞いたな？",
+   "en": "<op(39,1)><sp(2)>You heard #c[E2E258]Delaz#c's speech, didn't you?",
+   "notes": "Cowen debriefing."
+  },
+  {
+   "ref": "brief63172#1",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 39,
+   "tokens": [
+    "<op(39,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(39,1)><sp(2)>これで<im(1)>#c[BE5050]デラーズ・フリート#cは、\n#c[5E8FD8]ＵＣＥ#cに対して正式に宣戦布告をしたと\nいうわけだ。",
+   "en": "<op(39,1)><sp(2)>With this, the <im(1)>#c[BE5050]Delaz Fleet#c has formally\ndeclared war against the #c[5E8FD8]UCE#c.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63172#2",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 39,
+   "tokens": [
+    "<op(39,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(39,1)><sp(2)><im(2)>あの演説は地球圏全域に流された。\nこれで#c[5E8FD8]ＵＣＥ#cが南極条約に反して核兵器を\n開発していることが暴露されてしまった。",
+   "en": "<op(39,1)><sp(2)><im(2)>That speech aired across the Earth Sphere.\nIt exposed #c[5E8FD8]UCE#c nuclear weapon development,\nin violation of the Antarctic Treaty.",
+   "notes": "fix: linha com 504 px > 430 px e não cabe em 3 linhas -> balanced across 3 lines under 430 px"
+  },
+  {
+   "ref": "brief63172#3",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 39,
+   "tokens": [
+    "<op(39,1)>",
+    "<sp(2)>",
+    "<im(5)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(39,1)><sp(2)><im(5)>#c[5E8FD8]ＵＣＥ#cに対する反抗勢力の勢いも、\nますます強くなるだろう。",
+   "en": "<op(39,1)><sp(2)><im(5)>Resistance movements opposing the #c[5E8FD8]UCE#c\nwill only gain further momentum.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63172#4",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 39,
+   "tokens": [
+    "<op(39,1)>",
+    "<sp(2)>",
+    "<im(7)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(39,1)><sp(2)><im(7)>奴らの狙いは、まさにそこにあったわけだ。\n……連中に、見事にしてやられたわけだな。",
+   "en": "<op(39,1)><sp(2)><im(7)>That was precisely what they were aiming for.\n...They played us completely.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63172#5",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 39,
+   "tokens": [
+    "<op(39,1)>",
+    "<sp(2)>",
+    "<im(8)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(39,1)><sp(2)><im(8)>だが、#c[BE5050]ガンダム２号機#c…\nあれだけは何としても取り戻さなくては…\n必ず、#c[BE5050]デラーズ#cを阻止して欲しい。",
+   "en": "<op(39,1)><sp(2)><im(8)>Still, #c[BE5050]Gundam Unit 2#c...\nWe must recover it no matter what.\nI need you to stop #c[BE5050]Delaz#c at all costs.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63172#6",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 39,
+   "tokens": [
+    "<op(39,1)>",
+    "<sp(2)>",
+    "<im(10)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(39,1)><sp(2)><im(10)>それからもう一つ。君らの回収した#c[BE5050]衛星#cの\n残骸だが、#c[5E8FD8]ＵＣＥ#c本部の調査機関に回して\n詳しく調べてもらう。",
+   "en": "<op(39,1)><sp(2)><im(10)>And one more thing. The #c[BE5050]satellite#c wreckage\nyou recovered will be sent to #c[5E8FD8]UCE#c HQ intelligence\nfor closer examination.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63172#7",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 39,
+   "tokens": [
+    "<op(39,1)>",
+    "<sp(2)>",
+    "<im(11)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(39,1)><sp(2)><im(11)>何か情報が手に入れば、すぐに連絡する。\n以上だ。",
+   "en": "<op(39,1)><sp(2)><im(11)>I will contact you as soon as we learn anything.\nThat is all.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63212#0",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「デラーズ・フリート」\n\n　　　　　　　　　　　　　　　　　　　プリベンター　レディ・アン",
+   "en": "<sp(0)>\"Delaz Fleet\"\n\n　　　　　　　　　　　　　　　　　　Preventer Lady Une",
+   "notes": "Preventer intelligence report title."
+  },
+  {
+   "ref": "brief63212#1",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(1)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c",
+    "<im(4)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)><im(1)>#c[BE5050]ガンダム試作２号機#cを強奪した#c[BE5050]ジオン残党#cは\n#c[BE5050]デラーズ・フリート#cと名乗り、<im(4)>\n#c[5E8FD8]ＵＣＥ#cに対して宣戦布告を行った。",
+   "en": "<sp(0)><im(1)>The #c[BE5050]Zeon remnants#c who stole #c[BE5050]Gundam GP02#c\nhave named themselves the #c[BE5050]Delaz Fleet#c<im(4)>\nand declared war on the #c[5E8FD8]UCE#c.",
+   "notes": "Exact tokens preserved."
+  },
+  {
+   "ref": "brief63212#2",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[BE5050]ジオン#cの思想を受け継ぐ彼らが、#c[BE5050]２号機#cを\n確保している今、あらゆる事態に対応した\n厳戒体制が必要となるだろう。",
+   "en": "<sp(0)>Now that heirs of the #c[BE5050]Zeon#c ideology possess\n#c[BE5050]Unit 2#c, a state of highest alert is required\nto prepare for any contingency.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63212#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(3)>",
+    "#c[E2E258]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>対して#c[5E8FD8]ＵＣＥ#cでは、#c[5E8FD8]連邦#c派の主導の下、<im(3)>\n以前より計画されていた#c[E2E258]コンペイトウ#cでの\n観艦式が、正式に決行されることとなった。",
+   "en": "<sp(0)>Under #c[5E8FD8]UCE#c #c[5E8FD8]Federation#c faction leadership,<im(3)>\nthe planned naval review at #c[E2E258]Konpei Island#c\nhas been formally slated to proceed.",
+   "notes": "fix: linha com 582 px > 430 px e não cabe em 3 linhas -> tightened phrasing into 3 lines under 430 px"
+  },
+  {
+   "ref": "brief63212#4",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>観艦式には、#c[5E8FD8]ＵＣＥ#cの主力艦が集められ、\n#c[5E8FD8]ＵＣＥ#cの軍事力が大々的に示される。\n",
+   "en": "<sp(0)>The review gathers the #c[5E8FD8]UCE#c main fleet,\nshowing off #c[5E8FD8]UCE#c military might to all.\n",
+   "notes": "Trailing newline preserved. fix: linha com 496 px > 430 px e não cabe em 3 linhas -> shortened text to fit under 430 px"
+  },
+  {
+   "ref": "brief63212#5",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(2)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>先日の#c[BE5050]エギーユ・デラーズ#cの演説<im(2)>や\n#c[BE5050]ギガノス帝国#cの台頭、#c[BE5050]木星蜥蜴#cの襲撃により\n民衆の#c[5E8FD8]ＵＣＥ#cへの不信感が強まっている今、",
+   "en": "<sp(0)>Between #c[BE5050]Aiguille Delaz#c's speech,<im(2)>\nthe #c[BE5050]Giganos Empire#c, and #c[BE5050]Jovian Lizards#c,\npublic distrust in the #c[5E8FD8]UCE#c has grown,",
+   "notes": "fix: linha com 576 px > 430 px e não cabe em 3 linhas -> distributed lines evenly under 430 px"
+  },
+  {
+   "ref": "brief63212#6",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[5E8FD8]ＵＣＥ#cの威信を改めて世に示す、\nというのが主な目的である。\n",
+   "en": "<sp(0)>its primary purpose is to demonstrate\nthe prestige of the #c[5E8FD8]UCE#c to the world anew.\n",
+   "notes": "Trailing newline preserved."
+  },
+  {
+   "ref": "brief63212#7",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[BE5050]デラーズ・フリート#cや#c[BE5050]ギガノス軍#cによる\n襲撃も予想されるが、上層部は何としても\n観艦式を成功させる構えだ。",
+   "en": "<sp(0)>Though raids by the #c[BE5050]Delaz Fleet#c or\n#c[BE5050]Giganos forces#c are expected, high command\nis resolved to make the review succeed.",
+   "notes": "fix: linha com 438 px > 430 px e não cabe em 3 linhas -> shortened text across 3 lines under 430 px"
+  },
+  {
+   "ref": "brief63213#0",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「不審衛星の分析報告」\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　ＵＣＥ諜報部",
+   "en": "<sp(0)>\"Analysis Report on Suspicious Satellite\"\n\n　　　　　　　　　　　　　　　　　　　　　　　UCE Intelligence",
+   "notes": "UCE Intelligence signature."
+  },
+  {
+   "ref": "brief63213#1",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(1)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)><im(1)>先日、衛星軌道上で回収された#c[BE5050]軍事衛星#cの\n解析結果が提出されたので報告する。\n",
+   "en": "<sp(0)><im(1)>Reporting the submitted analysis of the\n#c[BE5050]military satellite#c recovered from orbit.\n",
+   "notes": "Trailing newline preserved. fix: linha com 461 px > 430 px e não cabe em 3 linhas -> shortened text under 430 px per line"
+  },
+  {
+   "ref": "brief63213#2",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>ほぼ全壊状態であったため、作業は難航\nしたが、その動力部分から未確認の<im(2)>\nエネルギー物質の存在が確認された。",
+   "en": "<sp(0)>Heavy damage made the work difficult, but\nan unknown energy substance<im(2)> was\nconfirmed within its power section.",
+   "notes": "fix: linha com 465 px > 430 px e não cabe em 3 linhas -> balanced text across 3 lines under 430 px"
+  },
+  {
+   "ref": "brief63213#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>前#c[5E8FD8]ＵＣＥ#cの資料との照合により、\nこの物質は大戦前に研究されていた\nエネルギー体であるとの結論が出された。",
+   "en": "<sp(0)>Records from the former #c[5E8FD8]UCE#c conclude that\nthis was an energy substance studied\nprior to the Great War.",
+   "notes": "fix: linha com 461 px > 430 px e não cabe em 3 linhas -> adjusted line splits to stay under 430 px"
+  },
+  {
+   "ref": "brief63213#4",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[E2E258]",
+    "#c",
+    "<im(3)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>なお、#c[E2E258]Ｅ２物質#cと呼ばれるこの素材は\nエネルギーの自己増幅機能を持ち、<im(3)>\n永久機関としての運用が可能である。",
+   "en": "<sp(0)>This material, called #c[E2E258]E2 Substance#c,<im(3)>\ncan self-amplify energy and operate\nas a perpetual motion system.",
+   "notes": "fix: linha com 470 px > 430 px e não cabe em 3 linhas -> shortened text under 430 px per line"
+  },
+  {
+   "ref": "brief63213#5",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>果たしてこれが、どのような原理によって\n実装されているのかは、今後の検証作業で\n明らかになるだろうが、",
+   "en": "<sp(0)>By what principles this was implemented\nwill become clear through future investigation, but",
+   "notes": ""
+  },
+  {
+   "ref": "brief63213#6",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(4)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>例の#c[BE5050]軍事衛星#cは、地球圏のレベルをはるかに<im(4)>\n超えた技術を兵器転用に成功させた、\n極めて危険な存在と言えよう。",
+   "en": "<sp(0)>The #c[BE5050]military satellite#c adapted tech far<im(4)>\nbeyond Earth Sphere capabilities,\nmaking it an exceedingly grave threat.",
+   "notes": "fix: linha com 481 px > 430 px e não cabe em 3 linhas -> distributed lines evenly under 430 px"
+  },
+  {
+   "ref": "brief63213#7",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>地球周辺に展開する部隊には、\n#c[BE5050]衛星#cを発見次第、本部に報告の上、\n無闇な攻撃は控えるように願いたい。",
+   "en": "<sp(0)>Forces deployed near Earth are instructed\nto report any sighted #c[BE5050]satellite#c to HQ\nand refrain from reckless attacks.",
+   "notes": ""
+  }
+ ],
+ "context_after": [],
+ "report": {
+  "translator_summary": "Completed translation of op05_02 (65 rows), completing Operation 05. Covers Phase 2 mission dialogue (battle against Cima Garahau and Giganos reinforcements, Delaz's broadcast revealing UCE's nuclear violation, Cima's withdrawal), debriefing with Commodore John Cowen, and two detailed intelligence reports (Preventer report on the Delaz Fleet and upcoming Konpei Island naval review, and UCE Intelligence analysis of the recovered satellite revealing the mysterious E2 Substance).",
+  "rows_examined": "m6052#9 to brief63213#7 (65 rows)",
+  "rows_examined_count": 65,
+  "uncertainties": [
+   {
+    "ref": "brief63213#4",
+    "note": "Term 'Ｅ２物質' translated as 'E2 Substance', aligning with project study documentation notes on the mysterious pre-war energy source."
+   },
+   {
+    "ref": "brief63212#3",
+    "note": "Phrase '連邦派' translated as 'Federation faction'."
+   }
+  ],
+  "glossary_proposals": [
+   {
+    "ja": "Ｅ２物質",
+    "en": "E2 Substance",
+    "kind": "term",
+    "source": "Another Century's Episode 2 (in-game lore / Rainen Project power source)"
+   }
+  ],
+  "portrait_speakers": {
+   "39": "John Cowen"
+  }
+ }
+}

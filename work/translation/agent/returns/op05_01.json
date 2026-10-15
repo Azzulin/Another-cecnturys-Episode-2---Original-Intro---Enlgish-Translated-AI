@@ -1,0 +1,1652 @@
+{
+ "batch": "op05_01",
+ "operation": 5,
+ "previous_batch": null,
+ "next_batch": "op05_02",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "ゲルググM(シーマ)",
+   "en": "Gelgoog Marine (Cima)",
+   "kind": "unit",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "Cima Garahau's personal unit, the MS-14Fs Gelgoog Marine Commander Type."
+  },
+  {
+   "ja": "オペレーション",
+   "en": "Operation",
+   "kind": "term"
+  },
+  {
+   "ja": "バスターアーク",
+   "en": "Buster Ark",
+   "kind": "unit",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Modified Gun Ark with an evolving Guardian System and fallen-angel styling; Marina's unit while with the Rainen side."
+  },
+  {
+   "ja": "ガーディアン",
+   "en": "Guardian",
+   "kind": "term",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Network of (hundreds of) orbital military satellite cannons of the Rainen Project; Gun Ark/Buster Ark can call it via the Guardian System."
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "ジオン残党",
+   "en": "Zeon remnants",
+   "kind": "faction"
+  },
+  {
+   "ja": "ロックオン",
+   "en": "lock on",
+   "kind": "generic",
+   "series": "Another Century's Episode series (game system)",
+   "role": "Target lock (verb) / lock-on (noun)."
+  },
+  {
+   "ja": "ダッシュ",
+   "en": "Dash",
+   "kind": "generic",
+   "series": "Another Century's Episode series (game system)",
+   "role": "Boost dash."
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "マリナ",
+   "en": "Marina",
+   "kind": "character",
+   "series": "Another Century's Episode 2 (original)",
+   "gender": "female",
+   "role": "ACE2 heroine; Ensign in Tak's squad, pilot of the red Gun Ark; goes missing at Torrington Base, reappears with the Rainen Project in the Buster Ark, later rejoins Tak.",
+   "personality": "Cool and reserved ('defrosting ice queen' in flashbacks); deeply bonded with Tak.",
+   "full_name": "Marina Carson"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  },
+  "38": {
+   "speaker": "South Burning",
+   "gender": "male",
+   "role": "Captain, mobile weapons unit commander at Torrington",
+   "confidence": "high",
+   "evidence": "brief63000: 'I'm Captain South Burning.'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [],
+ "rows": [
+  {
+   "ref": "brief63004#0",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "オペレーション　０５",
+   "en": "Operation 05",
+   "notes": ""
+  },
+  {
+   "ref": "brief63004#1",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "軍事衛星ガーディアン",
+   "en": "Military Satellite Guardian",
+   "notes": ""
+  },
+  {
+   "ref": "brief63004#2",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "短時間で作戦を遂行する",
+   "en": "Complete the operation quickly",
+   "notes": ""
+  },
+  {
+   "ref": "brief63004#3",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "軍事衛星調査",
+   "en": "Survey the Military Satellite",
+   "notes": ""
+  },
+  {
+   "ref": "brief63004#4",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "アルビオン防衛",
+   "en": "Defend the Albion",
+   "notes": ""
+  },
+  {
+   "ref": "brief63004#5",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<ac(4)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><ac(4)>#c[BE5050]ガンダム２号機#cの追撃に向かう前に\n緊急の指令だ。",
+   "en": "<op(37,1)><sp(2)><ac(4)>Before we pursue #c[BE5050]Gundam Unit 2#c,\nwe have urgent orders.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63004#6",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(1)>本艦がアフリカで受けた砲撃だが、\n本部が発射元を割り出すことに成功した。",
+   "en": "<op(37,1)><sp(2)><im(1)>Regarding the bombardment we took\nin Africa, HQ has pinpointed its source.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63004#7",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(11)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>発射元は、衛星軌道上の<im(11)>#c[BE5050]軍事衛星#cだ。\n旧時代の物で、今は使われておらんが、\nまだ何百も漂っていると言われている代物だ。",
+   "en": "<op(37,1)><sp(2)>It came from an orbital<im(11)> #c[BE5050]military satellite#c.\nAn obsolete relic no longer in use, yet\nhundreds are said to still drift out there.",
+   "notes": "fix: token order <im(11)> before #c[BE5050] and line wrapped under 430 px -> repositioned <im(11)> and shortened line 2"
+  },
+  {
+   "ref": "brief63004#8",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>あの所属不明機#c[BE5050]バスターアーク#c…\n状況から、あの機体が何らかの手段で\n#c[BE5050]衛星#cをコントロールしていたと予測される。",
+   "en": "<op(37,1)><sp(2)>As for that unknown unit, the #c[BE5050]Buster Ark#c...\ncircumstances suggest it somehow seized control\nof the #c[BE5050]satellite#c.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63004#9",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(3)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(3)>現在、被害も各地で報告されているのだが…\nわからないのは、その攻撃目標が、\n軍事施設に限られていることだ。",
+   "en": "<op(37,1)><sp(2)><im(3)>Damage is being reported everywhere, but\nwhat puzzles us is that the strikes have been\nconfined strictly to military facilities.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63004#10",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>#c[5E8FD8]ＵＣＥ#cに限らず、全ての陣営が対象で、\n非軍事目標に被害を出さない、\nピンポイント攻撃であるとのことだ。",
+   "en": "<op(37,1)><sp(2)>All factions are targeted, not just #c[5E8FD8]UCE#c,\nin pinpoint strikes that cause no\ndamage to non-military targets.",
+   "notes": "fix: linha com 532 px > 430 px e não cabe em 3 linhas -> shortened and distributed across 3 lines under 430 px"
+  },
+  {
+   "ref": "brief63004#11",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(2)>いずれにせよ、あれを目の当たりにした\n以上、無視するわけにはいかん。",
+   "en": "<op(37,1)><sp(2)><im(2)>In any case, having witnessed it firsthand,\nwe cannot ignore it.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63004#12",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(8)>",
+    "#c[F07141]",
+    "#c",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(8)>我々は至急#c[F07141]目標を調査#cし、\n#c[F07141]必要があれば破壊#cする。",
+   "en": "<op(37,1)><sp(2)><im(8)>We must promptly #c[F07141]survey the target#c,\nand #c[F07141]destroy it if necessary#c.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63004#13",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<im(10)>",
+    "<im(12)>",
+    "<of(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>周辺の宙域に<im(10)>敵がいないとも<im(12)>限らん。\n<of(1)>可能な限り迅速に済ませるぞ。",
+   "en": "<op(38,1)><sp(2)>There could be enemies lurking in this<im(10)> airspace.<im(12)>\n<of(1)>Wrap this up as fast as possible.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63048#0",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "作戦所要時間",
+   "en": "Required Operation Time",
+   "notes": ""
+  },
+  {
+   "ref": "brief63048#1",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "tokens": [
+    "%d"
+   ],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "所要時間 %d 秒",
+   "en": "Time Required: %d sec",
+   "notes": ""
+  },
+  {
+   "ref": "brief63048#2",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<im(1)>",
+    "<sp(2)>",
+    "#c[F07141]",
+    "#c",
+    "<im(2)>",
+    "<im(4)>",
+    "<tr(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><im(1)><sp(2)>これから#c[F07141]衛星に接近#cする。\n<im(2)>接近時は十分に警戒し<im(4)>てくれ。<tr(1)>",
+   "en": "<op(38,1)><im(1)><sp(2)>We are now going to #c[F07141]approach the satellite#c.\n<im(2)>Stay fully alert while closing in.<im(4)><tr(1)>",
+   "notes": ""
+  },
+  {
+   "ref": "brief63048#3",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>本任務は#c[F07141]宇宙での戦闘訓練#cも兼ねている。\n宇宙での戦闘経験がない者は、\n早く無重力下での操縦に慣れておけ。",
+   "en": "<op(38,1)><sp(2)>This also serves as #c[F07141]space combat training#c.\nIf you lack space experience,\nget used to zero-G handling quickly.",
+   "notes": "fix: linha com 480 px > 430 px e não cabe em 3 linhas -> shortened text across 3 lines under 430 px"
+  },
+  {
+   "ref": "m6051#0",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "軍事衛星への接近",
+   "en": "Approach the military satellite",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#1",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "軍事衛星の全破壊",
+   "en": "Destroy all military satellites",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#2",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "敵艦の全撃破",
+   "en": "Destroy all enemy ships",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#3",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>右スティックで機体の向きを\n調整できます。<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>Adjust your unit's orientation\nwith the right stick.<ab(3000)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#4",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ターゲットをロックオンした状態で\nダッシュボタンを２回連続で押すと、<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>Double-tap the Dash button while\nlocked on to a target, and<ab(3000)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#5",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ターゲットのほうに向かって\n急旋回することが可能です。<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>you can make a quick turn toward\nthat target.<ab(3000)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#6",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なお、急旋回はダッシュ中でも有効です。<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>Quick turns also work while dashing.<ab(3000)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#7",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>各機、配置についたな。<ab(300)>",
+   "en": "<op()><sp(20)>All units in position, right?<ab(300)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#8",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>まずは衛星に接近しろ。<ab(500)><ed()>",
+   "en": "<sp(20)>First, close in on the satellite.<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#9",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ターゲットの位置を転送します。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Transmitting target coordinates.<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#10",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>宇宙での戦闘経験がない者は、\n今のうちに感覚をつかんでおけ。<ab(300)>",
+   "en": "<op()><sp(20)>Anyone without space experience,\nget a feel for it while you can.<ab(300)>",
+   "notes": "fix: linha com 399 px > 380 px e não cabe em 2 linhas -> shortened line 1 from combat experience to experience"
+  },
+  {
+   "ref": "m6051#11",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>無重力下での操縦は少し違うぞ。<ab(300)>",
+   "en": "<sp(20)>Piloting in zero-G is a bit different.<ab(300)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#12",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>慣れている者もいるだろうが\n一応説明しておく。<ab(500)>",
+   "en": "<sp(20)>Some of you are used to it, but\nI'll explain just in case.<ab(500)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#13",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>宇宙ではピッチの調整が必要になる。<ab(400)><ed()>",
+   "en": "<sp(20)>In space, pitch adjustment is necessary.<ab(400)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#14",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そうだ、その調子だ。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>That's it, keep that up.<ab(200)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#15",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何が起こるかわからんぞ。　注意しろ。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Anything could happen. Stay sharp.<ab(200)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#16",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……地上の被害を増やすわけにはいかん。<ab(300)>",
+   "en": "<op()><sp(20)>...We cannot allow surface damage to rise.<ab(300)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#17",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>無傷での回収は断念する。<ab(200)>",
+   "en": "<sp(20)>Give up on recovering it intact.<ab(200)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#18",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>全機、衛星を破壊せよ！<ab(500)><ed()>",
+   "en": "<sp(20)>All units, destroy the satellite!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#19",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>マリナ…生きているのか？<ab(700)>",
+   "en": "<op()><sp(20)>Marina... are you alive?<ab(700)>",
+   "notes": "Tak murmuring to himself."
+  },
+  {
+   "ref": "m6051#20",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(50)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>そうだとしたら…<ab(50)>",
+   "en": "<sp(20)>If so...<ab(50)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#21",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>やっぱりこれに関係しているのか？<ab(300)><ed()>",
+   "en": "<sp(20)>are you really connected to this?<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#22",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>目標は領域内にまだ確認されている。<ab(300)>",
+   "en": "<op()><sp(20)>Targets still confirmed in the sector.<ab(300)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#23",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>次の奴に向かえ。<ab(500)><ed()>",
+   "en": "<sp(20)>Head for the next one.<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#24",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>衛星軌道からの直接砲撃か。<ab(500)>",
+   "en": "<op()><sp(20)>Direct bombardment from orbit, huh?<ab(500)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#25",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>しかし…なぜこんな物が\n放置されたままなんだ…？<ab(700)><ed()>",
+   "en": "<sp(20)>Still... why was something like this\nleft abandoned...?<ab(700)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#26",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺たちを狙ってくる気配は\nないようだが……<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Doesn't seem to be aiming at us,\nthough...<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#27",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こんなのに撃たれたらたまんねーな！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Getting shot by that would be suicide!<ab(400)><ed()>",
+   "notes": "Kaine's casual tone."
+  },
+  {
+   "ref": "m6051#28",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あともう一つだ。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Just one left.<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#29",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あまりグズグズするな。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Don't dawdle.<ab(200)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#30",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それで最後か？　ご苦労。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Was that the last one? Good work.<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#31",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>艦長！　艦隊が接近してきます！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Captain! A fleet is closing in!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#32",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>所属は！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Affiliation?!<ab(100)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#33",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これは……ジオンの艦隊です！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>It's... a Zeon fleet!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#34",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ただちに迎撃態勢をとれ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Assume intercept positions at once!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#35",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>宇宙では敵の動きも違う。<ab(400)>",
+   "en": "<op()><sp(20)>Enemy maneuvers are different in space.<ab(400)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#36",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>慣れていない者は気をつけろ！<ab(500)><ed()>",
+   "en": "<sp(20)>If you're not used to it, watch out!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#37",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ロックオン中にはクイックターンができる。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>You can quick turn while locked on.<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#38",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>戦闘にうまく組み込んで活用しろよ。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Work that into your combat tactics.<ab(400)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#40",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦隊は壊滅。<ab(300)>",
+   "en": "<op()><sp(20)>Enemy fleet annihilated.<ab(300)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#41",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>周辺の衛星も破壊完了。<ab(300)><ed()>",
+   "en": "<sp(20)>Destruction of nearby satellites complete.<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#42",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦、離脱します。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemy ships are disengaging.<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#43",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>深追いはせんでいい。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>No need to pursue too far.<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#44",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>衛星の残がいは回収しろ。<ab(100)>",
+   "en": "<op()><sp(20)>Recover the satellite wreckage.<ab(100)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#45",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>本部へ送って、詳しく調査してもらう。<ab(700)><ed()>",
+   "en": "<sp(20)>Send it to HQ for a thorough analysis.<ab(700)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#46",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>目標が稼動！<ab(0)><off()>",
+   "en": "<on()><sp(20)>The target is active!<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#47",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>攻撃が始まった！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>It's begun attacking?!<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#48",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>キャアアア！！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Aaaaaah!!<ab(0)><off()>",
+   "notes": "Female operator screaming."
+  },
+  {
+   "ref": "m6051#49",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>被害を報告しろ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Report damage!<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#50",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>機関部に損傷！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Damage to the engine room!<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#51",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>砲撃は地表に到達！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Bombardment has reached the surface!<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#52",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>これがアフリカの砲撃の正体……<ab(0)><off()>",
+   "en": "<on()><sp(20)>So this was what fired on Africa...<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6051#53",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>撤退！　てったーい！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Retreat! Retreaaat!<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "brief63049#2",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>#c[BE5050]ジオン残党#cが再び奇襲を仕掛けてきた。\n<im(1)>本艦は先ほどの砲撃で機関部を損傷し、\n急速航行が不可能だ。",
+   "en": "<op(38,1)><sp(2)>#c[BE5050]Zeon remnants#c ambushed us once again.\n<im(1)>Our engines took damage from the strike,\nmaking high-speed cruise impossible.",
+   "notes": "fix: linha com 525 px > 430 px e não cabe em 3 linhas -> tightened phrasing across 3 lines under 430 px"
+  },
+  {
+   "ref": "brief63049#3",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<im(5)>",
+    "#c[F07141]",
+    "<im(7)>",
+    "#c",
+    "<im(3)>",
+    "<tr(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>各機は前線に展開して、\n<im(5)>#c[F07141]敵艦<im(7)>の侵攻を阻止#cし<im(3)>てくれ。<tr(1)>",
+   "en": "<op(38,1)><sp(2)>All units, deploy to the front lines\n<im(5)>#c[F07141]and stop the enemy ships<im(7)>' advance#c<im(3)>.<tr(1)>",
+   "notes": "fix: token order #c before <im(3)> -> swapped closing tag #c to precede <im(3)>"
+  },
+  {
+   "ref": "brief63049#4",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>射程範囲に入られると、今の#c[5E8FD8]アルビオン#cには\n回避する手立てがない。\n必ず止めるんだ。",
+   "en": "<op(38,1)><sp(2)>If they get within firing range, the #c[5E8FD8]Albion#c\nhas no way to evade right now.\nYou must stop them.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63049#5",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<im(9)>",
+    "<of(1)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>では、配置<im(9)>に着け！<of(1)>",
+   "en": "<op(38,1)><sp(2)>Now, move into<im(9)> position!<of(1)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#2",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ゲルググＭ（シーマ）の撃破",
+   "en": "Destroy the Gelgoog Marine (Cima)",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#5",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アルビオンに敵艦を近づけさせるな！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Don't let enemy ships near the Albion!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#6",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>母艦がやられたらゲームオーバーか。<ab(300)>",
+   "en": "<op()><sp(20)>If the mothership goes down, it's over.<ab(300)>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#7",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>わかりやすい状況だな。<ab(300)><ed()>",
+   "en": "<sp(20)>Simple enough situation, at least.<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6052#8",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これだけの戦力で…ナメられたものだねぇ。<ab(700)>",
+   "en": "<op()><sp(20)>Sent this meager force? Underestimating us!<ab(700)>",
+   "notes": "Cima Garahau's haughty, venomous mocking tone."
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6052#9",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>ギガノスのメタルアーマーは出ているな？<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6052#10",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>存分に働いてもらうよ！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6052#11",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>新たな敵影を確認！<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6052#12",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>ギガノス軍です！<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6052#13",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵、さらに来ます！<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6052#14",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>…よりどりみどり。<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6052#15",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>この程度の敵さんなら楽勝だね！<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6052#16",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>なんだい、あれくらい突破できないのかい！<ab(200)>",
+   "en": ""
+  },
+  {
+   "ref": "m6052#17",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>歯がゆいねえ…<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6052#18",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵艦、射程範囲内に接近！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6052#19",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>しまった！　迎撃を！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6052#20",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵艦、接近！<ab(300)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Completed translation of op05_01 (80 rows). Covers the strategic briefing and Phase 1 tactical briefing for Operation 05 (Military Satellite Guardian), where Captain Sinapus and Captain Burning task the squad with surveying and destroying ancient orbital military satellites linked to the Buster Ark. Follows through Phase 1 mission dialogue, including zero-G maneuvering tutorials, Tak's private thoughts questioning Marina's involvement, the surprise activation and orbital firing of the satellite that damages the Albion's engines, and into Phase 2 tactical briefing and the opening clash against Cima Garahau's Gelgoog Marine and Zeon fleet.",
+  "rows_examined": "brief63004#0 to m6052#8 (slice, 80 rows), m6052#9 to m6052#20 (context_after, 12 rows)",
+  "rows_examined_count": 92,
+  "uncertainties": [
+   {
+    "ref": "m6051#53",
+    "note": "Dramatic panic line '撤退！　てったーい！' translated as 'Retreat! Retreaaat!' to match tone and urgency."
+   },
+   {
+    "ref": "m6052#6",
+    "note": "Informal line '母艦がやられたらゲームオーバーか。' kept natural as 'If the mothership goes down, it's over.' rather than literal video-game term 'game over'."
+   }
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

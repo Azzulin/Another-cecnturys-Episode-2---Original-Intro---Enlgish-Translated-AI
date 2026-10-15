@@ -1,0 +1,729 @@
+{
+ "batch": "op02_03",
+ "operation": 2,
+ "previous_batch": "op02_02",
+ "next_batch": null,
+ "rows_in_slice": 27,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "ガンダム開発計画",
+   "en": "Gundam Development Project",
+   "kind": "term",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "Top-secret EFF/Anaheim project that produced GP01-GP04."
+  },
+  {
+   "ja": "統一帝国ギガノス",
+   "en": "Unified Empire of Giganos",
+   "kind": "faction",
+   "series": "Metal Armor Dragonar",
+   "role": "Formal name of the lunar state that declared independence from Earth",
+   "en_short": "Giganos"
+  },
+  {
+   "ja": "トリントン基地",
+   "en": "Torrington Base",
+   "kind": "place"
+  },
+  {
+   "ja": "ギガノス帝国",
+   "en": "Giganos Empire",
+   "kind": "faction",
+   "series": "Metal Armor Dragonar",
+   "role": "Common short name of the Unified Empire of Giganos",
+   "en_short": "Giganos"
+  },
+  {
+   "ja": "グン・ジェム",
+   "en": "Gon Jem",
+   "kind": "character",
+   "series": "Metal Armor Dragonar",
+   "gender": "male",
+   "role": "Giganos Colonel commanding the Gon Jem Squad (the \"Filth of Giganos\"); pilots the Geyzam, later the prototype Gilgazamune",
+   "personality": "Brutal, crude, greedy and cunning, with famously bad table manners; superb pilot; fiercely loyal to his Four Kings",
+   "en_short": "Gon Jem"
+  },
+  {
+   "ja": "ジオン残党",
+   "en": "Zeon remnants",
+   "kind": "faction"
+  },
+  {
+   "ja": "GP02",
+   "en": "GP02",
+   "kind": "unit",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "Gundam Development Project Unit 2, RX-78GP02A Gundam \"Physalis\", the nuclear-armed Gundam stolen by Gato."
+  },
+  {
+   "ja": "ギガノス",
+   "en": "Giganos"
+  },
+  {
+   "ja": "ゲイザム",
+   "en": "Geyzam",
+   "kind": "unit",
+   "series": "Metal Armor Dragonar",
+   "role": "YAMA-13 Geyzam, Gon Jem's one-off prototype Metal Armor"
+  },
+  {
+   "ja": "バニング",
+   "en": "Burning",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Veteran Earth Federation pilot (Captain, 大尉), leader of the Burning Team on the Albion and Kou's mentor; KIA 8 Nov 0083.",
+   "personality": "Experienced, strict but fatherly mentor to the young pilots. (The wiki personality section is empty; this is inferred from his role on the wiki.)",
+   "full_name": "South Burning"
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "アムロ",
+   "en": "Amuro",
+   "kind": "character",
+   "series": "Mobile Suit Gundam: Char's Counterattack (also Mobile Suit Gundam, Zeta Gundam)",
+   "gender": "male",
+   "role": "Earth Federation ace Newtype pilot; in CCA a Londo Bell mobile suit team leader (Captain) aboard the Ra Cailum and pilot of the Nu Gundam; Char's lifelong rival.",
+   "personality": "Withdrawn, machine-obsessed teen in the original series; by CCA a mature, dependable veteran still bound up in his rivalry with Char.",
+   "full_name": "Amuro Ray"
+  },
+  {
+   "ja": "ガトー",
+   "en": "Gato",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Main antagonist of 0083; Zeon ace \"Nightmare of Solomon\", Delaz Fleet pilot who steals Gundam GP02 and later pilots the Neue Ziel. Rank: Major (U.C. 0083).",
+   "personality": "Honorable, idealistic career soldier; charismatic leader who fights on the front line; hates the Federation but respects worthy opponents.",
+   "full_name": "Anavel Gato"
+  },
+  {
+   "ja": "ミン",
+   "en": "Min",
+   "kind": "character",
+   "series": "Metal Armor Dragonar",
+   "gender": "female",
+   "role": "Giganos Captain, the only woman among Gon Jem's Four Kings; Stark Dyne pilot; later joins Meio",
+   "personality": "Fierce, violent and battle-hungry; later shows a devoted, gentler side toward Meio",
+   "en_short": "Min"
+  },
+  {
+   "ja": "大尉",
+   "en": "Captain",
+   "en_short": "Capt.",
+   "kind": "rank",
+   "note": "army/MS rank; a ship's captain (艦長) is also Captain"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  }
+ ],
+ "known_portraits": {
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6022#71",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>あれは……グン・ジェムの専用機！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#72",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>なんだって？　グン・ジェム野郎か！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#73",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>ぐふふふふ！　ソロモンの！　どきやがれ！\nこいつは俺の獲物だ！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#74",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>代わりにたっぷりと可愛がってやるからね。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#75",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>どけってのが聞こえねえのか！\nどこへなりと、とっとと失せやがれ！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#76",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>…とりあえず、救援には感謝しておこう。\n後は頼む。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#77",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※オペレータがミッション内容を確認<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#78",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※はじめて輸送艦を破壊したら偽物だった<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#79",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※新たに敵の輸送艦が出現した連絡<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#80",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※新たに敵の輸送艦が出現した連絡　ver2<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#81",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)><op()><sp(20)>※順調だと誉められる<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6022#82",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※敵輸送艦がゴールに近づいた<ab(3000)><ed()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6022#83",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ミッション失敗の連絡<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6022#84",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※アムロとガトーの掛け合い<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6022#85",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ＧＰ０２を倒すように指令を受ける<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6022#86",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※リガズィに対するコメント<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6022#87",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ガトーvsパイロットの掛け合い\n　・機体別メッセージ<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6022#88",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ガトーがほめる　その１<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6022#89",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ガトーがほめる　その２<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6022#90",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ゲイザムを倒すように指令を受ける<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6022#91",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※グンジェムvsパイロットの掛け合い<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6022#92",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ミンvsパイロットの掛け合い<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6022#93",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ミンの捨てセリフ\n※グン･ジェム怒る<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6022#94",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※グンジェムの捨てゼリフ<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6022#95",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ミッション成功の連絡<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63169#0",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>#c[BE5050]ガンダム２号機#cを取り逃した今、<im(1)>\n我々は核の脅威にさらされている。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63169#1",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(4)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>それだけではない。\nガンダム開発計画が<im(4)>公となれば、#c[5E8FD8]ＵＣＥ#cは\n非常に苦しい立場に立たされることになる。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63169#2",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(6)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>我々は何としても、\n#c[BE5050]２号機#cを<im(6)>取り戻さねばならん。\n本艦は引き続き、追跡任務を続行する。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63169#3",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(9)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>アムロ大尉は、バニング隊長の補佐役として<im(9)>\n現場で指揮をとってもらうことになる。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63169#4",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(10)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>バニング大尉はアムロ大尉と協力し、<im(10)>\nブリッジから作戦行動と\n機動部隊全般を統括してくれ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63169#5",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>これからも各員、任務にベストを\n尽くして欲しい。\n",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63200#0",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「統一帝国ギガノス」\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　ＵＣＥ諜報部",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63200#1",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[BE5050]ギガノス#c軍の最新の動向を報告する。\n\n",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63200#2",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(1)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)><im(1)>前大戦後に設立された#c[BE5050]統一帝国ギガノス#cが、\n地球からの独立を主張して抵抗活動を\n続けていることは、周知の事実である。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63200#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>さらに先のトリントン基地襲撃事件では、<im(2)>\n#c[BE5050]ジオン残党#c勢力との協力による作戦行動が\n確認された。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63200#4",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c",
+    "<im(3)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>宇宙移民の自治権確立を提唱した\n#c[BE5050]旧ジオン公国#cと#c[BE5050]ギガノス帝国#cの主張には、<im(3)>\n思想的に共通する部分があり、",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63200#5",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>それが、両者が手を結んだことの\n背景にあると推測される。\n",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63200#6",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>しかし、この時期にあえて共同作戦を\nとることには、別の狙いがあるとも思われ、\n引き続き調査を要するだろう。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63200#7",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>今回の一連の件に関しては\n新たな情報が入り次第、\n逐次報告していく所存である。",
+   "en": "",
+   "notes": ""
+  }
+ ],
+ "context_after": [],
+ "report": {
+  "translator_summary": "",
+  "rows_examined": "",
+  "rows_examined_count": 0,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

@@ -1,0 +1,1631 @@
+{
+ "batch": "xb_04",
+ "operation": null,
+ "group": "xb",
+ "group_label": "In-game tutorial / manual",
+ "previous_batch": "xb_03",
+ "next_batch": null,
+ "rows_in_slice": 75,
+ "do_not_touch_names": [
+  "Amuro Ray",
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "ディストーションフィールド",
+   "en": "Distortion Field",
+   "kind": "term",
+   "series": "Martian Successor Nadesico",
+   "role": "Nadesico's gravity-wave barrier; also the Aestivalis/Nadesico-unit defensive weapon in the tutorial."
+  },
+  {
+   "ja": "トランスユニット",
+   "en": "Trans Unit",
+   "kind": "term",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Buster Ark's remote weapon pods that surround the target (Weapon 2)."
+  },
+  {
+   "ja": "ハイパージャマー",
+   "en": "Hyper Jammer",
+   "kind": "term",
+   "series": "New Mobile Report Gundam Wing: Endless Waltz",
+   "role": "Gundam Deathscythe Hell's jamming device (Weapon 5): evades enemy lock-on for a time, drains vernier."
+  },
+  {
+   "ja": "ローラーダッシュ",
+   "en": "Roller Dash",
+   "kind": "generic",
+   "series": "Another Century's Episode series (game system)",
+   "role": "Ground skating ability (Aestivalis etc.)."
+  },
+  {
+   "ja": "ゴッドガンダム",
+   "en": "God Gundam",
+   "kind": "unit",
+   "series": "Mobile Fighter G Gundam",
+   "role": "Domon's second Mobile Fighter (GF13-017NJII), Neo Japan; God Finger and Hyper Mode (Meikyo Shisui)"
+  },
+  {
+   "ja": "ボソンジャンプ",
+   "en": "Boson Jump",
+   "kind": "term",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "Teleportation/time-displacement technology of the setting"
+  },
+  {
+   "ja": "ガーディアン",
+   "en": "Guardian",
+   "kind": "term",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Network of (hundreds of) orbital military satellite cannons of the Rainen Project; Gun Ark/Buster Ark can call it via the Guardian System."
+  },
+  {
+   "ja": "クローアーム",
+   "en": "claw arm",
+   "kind": "term",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "Neue Ziel's wired claw arms, fired from the main arms (有線クローアーム = Wired Claw Arm)."
+  },
+  {
+   "ja": "アビリティ",
+   "en": "Ability",
+   "kind": "generic",
+   "series": "Another Century's Episode series (game system)",
+   "role": "Unit ability; game also writes アビリティー."
+  },
+  {
+   "ja": "ファンネル",
+   "en": "Funnel",
+   "kind": "term",
+   "series": "Mobile Suit Gundam: Char's Counterattack",
+   "role": "Sazabi's remote psycommu weapon (Weapon 6); ν Gundam's version is フィン・ファンネル (Fin Funnel)."
+  },
+  {
+   "ja": "リーンの翼",
+   "en": "Wings of Rean",
+   "kind": "term",
+   "series": "The Wings of Rean",
+   "role": "Nanajin's ability (auto-activates at low armor; also usable as a barrier) and the series title (menu3022#12)."
+  },
+  {
+   "ja": "チャクラ",
+   "en": "Chakra",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Brain energy in weapon names: チャクラシールド (Chakra Shield), チャクラ光 (Chakra Light), チャクラ光一斉射撃, チャクラフラッシュ."
+  },
+  {
+   "ja": "バーニア",
+   "en": "vernier",
+   "kind": "generic",
+   "series": "Another Century's Episode series (game system)",
+   "role": "Boost thrust resource (バーニア消費)."
+  },
+  {
+   "ja": "オーラ",
+   "en": "aura",
+   "kind": "term",
+   "series": "Aura Battler Dunbine",
+   "role": "Life energy of Byston Well that powers aura machines; used alone in lines like オーラの力 / 悪しきオーラ / オーラ光."
+  }
+ ],
+ "known_portraits": {},
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6302#228",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ウェポン６：２連２５ｍｍ機関砲<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#229",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ウェポン２：３連ハンドレールキャノン<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#230",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ウェポン４：ジャマー<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#231",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ウェポン２：５連ミサイルポッド<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#232",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>アビリティ：キャバリアー<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#233",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ウェポン３：ダブルレールキャノン<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#234",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ウェポン３：ミサイルＥＣＭ<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#235",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ウェポン２：１００連装ミサイルポッド<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#236",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ウェポン２：３連マルチディスチャージャー<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#237",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ウェポン３：２連２５ｍｍ機関砲<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#238",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>アビリティ：機嫌<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6302#239",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>アビリティ：バイタルジャンプ<ab(4000)>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6302#240",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン２：ブレンブレード<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#241",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン４：チャクラシールド<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#242",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン２：ショーター<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#243",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン５：ミサイルランチャー<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#244",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン２：フィン（モーフィング）<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#245",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン３：チャクラ光一斉射撃<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#246",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン６：スリットウエハー<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#247",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アビリティ：ローラーダッシュ<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#248",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン２：ミサイルポッド<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#249",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン３：リムーブドアーム<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#250",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン４：ディストーションフィールド<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#251",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン４：ゲキガンバリヤー<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#252",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン２：ゲキガンミサイル<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#253",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン３：ゲキガンチェーンパンチ<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#254",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アビリティ：追加装甲<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#255",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン２：ハンドカノン<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#256",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン５：ボソンジャンプ<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#257",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン３：ダブルクロー<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#258",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン３：パンチラッシュ<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#259",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン１：ビームシザース投げ<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#260",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン２：バルカン<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#261",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン４：アクティブクローク<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#262",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン５：ハイパージャマー<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#263",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン２：バルカン＆マシンキャノン<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#264",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン４：マイクロミサイル<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#265",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン５：ホーミングミサイル<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#266",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン６：フルオープンアタック<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#267",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン１：ヒートショーテル投げ<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#268",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン３：ドラゴンハング（ホールド）<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#269",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン１：メガキャノン<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#270",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン３：ヒートロッド<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#271",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン３：ミサイル<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#272",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン４：ダミー・バルーン<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#273",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン６：ファンネル<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#274",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン７：Ｉフィールド<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#275",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン２：拡散ビーム・ショット・ライフル<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#276",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン６：フィン・ファンネル<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#277",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン７：拡散メガ粒子砲<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#278",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アビリティ：Ｂ・Ｗ・Ｓ<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#279",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン５：腰部グレネード・ランチャー<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#280",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン３：ジュッテ<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#281",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アビリティ：アームド・ベース<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#282",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン２：マイクロミサイル<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#283",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン３：集束ミサイル<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#284",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン６：Ｉフィールド・ジェネレータ<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#285",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン１：偏向メガ粒子砲<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#286",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン２：有線クローアーム<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#287",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン３：有線クローアーム（ホールド）<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#288",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン４：小型ミサイルランチャー<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#289",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン７：大型ミサイルランチャー<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#290",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アビリティ：三段変形<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#291",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン１：ガンポッド<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#292",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン２：頭部レーザー砲<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#293",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン３：マイクロミサイル<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#294",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン３：マイクロ＆ホーミングミサイル<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#295",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン３：ミサイルランチャー<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#296",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン６：全弾発射<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#297",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン３：高速徹甲弾<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#298",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン４：超高機動マイクロミサイル<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#299",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン５：大型ハンドグレネード<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#300",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ゴッドガンダムの機能<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#301",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アビリティ：ゴッドシャドー<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#302",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アビリティ：リーンの翼<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#303",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン１：オーラ斬波<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#304",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン６：リーンの翼（バリア）<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#305",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン６：斬り返し<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#306",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン２：レーザーガン<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#307",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン７：ハイマニューバモード変形<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#308",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン１：アークライフル<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#309",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン２：トランスユニット<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#310",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン６：ガーディアン<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#311",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウェポン２：レーザーキャノン<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#312",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>一定時間敵のロック機能を\n避けることができます。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6302#313",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>起動中はバーニアを消費します。<ab(4000)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6303#232",
+   "layer": "mission dialogue",
+   "phase": null,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(4000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アビリティ：キャバリア<ab(4000)>",
+   "en": "",
+   "notes": ""
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6303#233",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ウェポン３：ダブルレールキャノン<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6303#234",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ウェポン３：ミサイルＥＣＭ<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6303#235",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ウェポン２：１００連装ミサイルポッド<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6303#236",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ウェポン２：３連マルチディスチャージャー<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6303#237",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ウェポン３：２連２５ｍｍ機関砲<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6303#238",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>アビリティ：機嫌<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6303#239",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>アビリティ：バイタルジャンプ<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6303#240",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ウェポン２：ブレンブレード<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6303#241",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ウェポン４：チャクラシールド<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6303#242",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ウェポン２：ショーター<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6303#243",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ウェポン５：ミサイルランチャー<ab(4000)>",
+   "en": ""
+  },
+  {
+   "ref": "m6303#244",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ウェポン２：フィン（モーフィング）<ab(4000)>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "",
+  "rows_examined": "",
+  "rows_examined_count": 0,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

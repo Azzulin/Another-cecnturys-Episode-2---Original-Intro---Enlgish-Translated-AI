@@ -1,0 +1,674 @@
+{
+ "batch": "op21_04",
+ "operation": 21,
+ "previous_batch": "op21_03",
+ "next_batch": null,
+ "rows_in_slice": 26,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "グラドス地球制圧軍",
+   "en": "Grados Earth Subjugation Force",
+   "kind": "faction",
+   "series": "Blue Comet SPT Layzner",
+   "role": "The Grados military forces conquering and occupying Earth (Admiral Gresco's, later Le Cain's, command)."
+  },
+  {
+   "ja": "ゼントラーディ",
+   "en": "Zentradi",
+   "kind": "faction",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Race/faction of giant humanoid warriors; main antagonists."
+  },
+  {
+   "ja": "メルトランディ",
+   "en": "Meltrandi",
+   "kind": "faction",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Female Zentradi faction, at war with the male Zentradi in DYRL."
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "ブリタイ艦",
+   "en": "Vrlitwhai's Ship",
+   "kind": "ship",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Vrlitwhai's fleet command battleship."
+  },
+  {
+   "ja": "ポセイダル",
+   "en": "Poseidal",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "female",
+   "role": "Emperor ruling the Pentagona World from Sveto on Gastogal; supreme commander of the Poseidal Army. The Poseidal on the throne is actually Mian Qu Ha Ussher, a puppet of the true Poseidal (Amandara Kamandara). In ACE2 'Poseidal' is the pilot of the Aug.",
+   "personality": "Regal, cold and imperious ruler who controls others (e.g. Quwasan) through the bio-relation system; her memories are themselves manipulated, and she finally turns against Amandara.",
+   "full_name": "Oldna Poseidal"
+  },
+  {
+   "ja": "グラドス",
+   "en": "Grados",
+   "kind": "faction",
+   "series": "Blue Comet SPT Layzner",
+   "role": "The alien Grados Empire, from the Udoria system, that invades and occupies Earth in Layzner. Adjective form: Gradosian."
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "マクロス",
+   "en": "Macross",
+   "kind": "ship",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "SDF-1 Macross, the U.N. Spacy super-dimensional fortress (human flagship)."
+  },
+  {
+   "ja": "早瀬未沙",
+   "en": "Misa Hayase",
+   "kind": "character",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "gender": "female",
+   "role": "U.N. Spacy officer (Lieutenant), bridge officer/coordinator of the SDF-1 Macross.",
+   "personality": "Stern, by-the-book, duty-bound officer with little humor at work; softens and grows close to Hikaru.",
+   "en_short": "Misa"
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "一条輝",
+   "en": "Hikaru Ichijyo",
+   "kind": "character",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "gender": "male",
+   "role": "Protagonist of Macross DYRL; former civilian stunt flyer turned U.N. Spacy VF-1 Valkyrie pilot (Skull Squadron).",
+   "personality": "Hot-headed, impulsive and stubborn young pilot who grows into responsibility; caught in a love triangle between Minmay and Misa.",
+   "en_short": "Hikaru"
+  }
+ ],
+ "known_portraits": {
+  "33": {
+   "speaker": "Kouichiro Misumaru",
+   "gender": "male",
+   "role": "UCE Space Force admiral (Yurika's father)",
+   "confidence": "high",
+   "evidence": "brief: '私はＵＣＥ宇宙軍提督のミスマルだ。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6214#88",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>マクロスはきっと無事だ。　今はそう、信じよう。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6214#89",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>はい！信じましょう！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6214#90",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>今は我々にできることは何もない。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6214#91",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>ここは一旦、地球にもどろう。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6214#92",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>そうですね……あっちも心配ですし。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "brief63188#0",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)>諸君らが南アタリア島でフォールドに\n巻きこまれてから、１ヶ月が過ぎている。\nこの短期間でよく戻ってくれた。",
+   "en": ""
+  },
+  {
+   "ref": "brief63188#1",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)>君たちが<im(1)>不在中の<im(3)>地球圏の<im(2)>情勢の変化を\nかいつまんで説明しておこう。",
+   "en": ""
+  },
+  {
+   "ref": "brief63188#2",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)>まず、#c[BE5050]グラドス#c軍が#c[BE5050]ポセイダル#c軍と手を結び、\n戦力増強を図っている。",
+   "en": ""
+  },
+  {
+   "ref": "brief63188#3",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)><im(4)>#c[BE5050]グラドス#cは北米大陸を拠点に活動しており、\nグラドスタワーと呼ばれる巨大な\n基地まで建造した。",
+   "en": ""
+  },
+  {
+   "ref": "brief63188#4",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)>狙いは共にオルファンのようだが、\n#c[BE5050]リクレイマー#cと#c[BE5050]ドレイク軍#cを警戒して\n容易には手が出せない状況らしい。",
+   "en": ""
+  },
+  {
+   "ref": "brief63188#5",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)><im(6)><im(8)><im(7)>そして、その#c[BE5050]リクレイマー#cと#c[BE5050]ドレイク#cが、\n守るオルファンだが……\nついに地上まで浮上してしまった。",
+   "en": ""
+  },
+  {
+   "ref": "brief63188#6",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)><im(9)>これにより、大規模な津波や地震が頻発し、\n各地の被害は深刻な問題となっている。",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "brief63188#7",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(15)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(15)>我が軍は一般市民の保護や救助活動で\n手一杯という状況だ。",
+   "en": "<op(33,1)><sp(2)><im(15)>Our forces have their hands full\nprotecting civilians and conducting\nrescue operations.",
+   "notes": "Admiral Misumaru debriefing."
+  },
+  {
+   "ref": "brief63188#8",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(21)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(21)>#c[5E8FD8]ＵＣＥ#cは、これらの事態により\nかなりの戦線縮小を強いられ、\n現在は圧倒的に不利な状況だ。",
+   "en": "<op(33,1)><sp(2)><im(21)>Due to this, the #c[5E8FD8]UCE#c was forced to\nscale back its battle lines heavily, leaving\nus at an overwhelming disadvantage.",
+   "notes": "Admiral Misumaru on UCE crisis."
+  },
+  {
+   "ref": "brief63188#9",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(22)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(22)>今となっては我が軍でも最強と呼ばれる、\n#c[5E8FD8]アルビオン#cと#c[5E8FD8]ナデシコ#cの遊撃艦隊！",
+   "en": "<op(33,1)><sp(2)><im(22)>After all, the task force of the #c[5E8FD8]Albion#c\nand #c[5E8FD8]Nadesico#c was known as the strongest\nin our entire military!",
+   "notes": "Admiral Misumaru praise of player ships."
+  },
+  {
+   "ref": "brief63188#10",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>そして、切り札である#c[5E8FD8]マクロス#cまでも不在と\nなっていたからな……",
+   "en": "<op(33,1)><sp(2)>And on top of that, even our trump card,\nthe #c[5E8FD8]Macross#c, had gone missing...",
+   "notes": "Admiral Misumaru on missing Macross."
+  },
+  {
+   "ref": "brief63188#11",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(24)>",
+    "<im(25)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(24)><im(25)>だが、諸君が帰ってきてくれた以上、\n戦局は一気に我々に傾いたと\n言ってもいいだろう。",
+   "en": "<op(33,1)><sp(2)><im(24)><im(25)>However, now that you have returned,\nit is safe to say the tides of war\nhave turned in our favor.",
+   "notes": "Admiral Misumaru rallying tone."
+  },
+  {
+   "ref": "brief63188#12",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>よって我々は、ただちに攻勢に出る。\n諸君らには、その作戦の中核を\n担ってもらうことになるだろう。",
+   "en": "<op(33,1)><sp(2)>Therefore, we will go on the offensive\nat once. You will be tasked with\nserving as the core of that operation.",
+   "notes": "Admiral Misumaru announcing counterattack."
+  },
+  {
+   "ref": "brief63188#13",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(27)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(27)>戦いを終わらせるためにも、\n最後までがんばってもらいたい！",
+   "en": "<op(33,1)><sp(2)><im(27)>To bring this war to an end,\ngive it your all until the very end!",
+   "notes": "Admiral Misumaru closing speech."
+  },
+  {
+   "ref": "brief63276#0",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「グラドス地球制圧軍の動向に関して」\n\n　　　　　　　　　　　　　　　　　　　プリベンター　レディ・アン",
+   "en": "<sp(0)>\"On the Grados Earth Subjugation Force\"\n\n　　　　　　　　　　　　　　　　　　　Preventer Lady Une",
+   "notes": "Preventer report title. Wide spaces preserved from jp."
+  },
+  {
+   "ref": "brief63276#1",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[BE5050]グラドス#c軍は、地上の侵攻を推し進め、\n北米全域<im(1)>をその支配下に置いた。\n",
+   "en": "<sp(0)>The #c[BE5050]Grados#c forces pressed their invasion\non the ground, bringing all of North America<im(1)>\nunder their direct control.",
+   "notes": "Lady Une report."
+  },
+  {
+   "ref": "brief63276#2",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[5E8FD8]ＵＣＥ#cの激しい抵抗に対する兵力不足を\n解消するために、#c[BE5050]ポセイダル#cとの結託を\n図ったことが功を奏した形だ。",
+   "en": "<sp(0)>To resolve troop shortages against fierce\n#c[5E8FD8]UCE#c resistance, their collusion with\n#c[BE5050]Poseidal#c has proven effective.",
+   "notes": "Lady Une report."
+  },
+  {
+   "ref": "brief63276#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[BE5050]グラドス#cの勢力圏となった現在の北米は、\nいまや#c[5E8FD8]ＵＣＥ#cの影響力を及ぼすことが\n不可能な状態である。",
+   "en": "<sp(0)>Having fallen under the #c[BE5050]Grados#c sphere,\nNorth America is now in a state where\nthe #c[5E8FD8]UCE#c cannot exert any influence.",
+   "notes": "Lady Une report."
+  },
+  {
+   "ref": "brief63276#4",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>これに乗じて#c[BE5050]グラドス#cは<im(2)>、北米において\n文化統制運動を始めとする独自政策を\n展開している。",
+   "en": "<sp(0)>Taking advantage of this, #c[BE5050]Grados#c<im(2)> has\nenforced its own policies in North America,\nincluding cultural control measures.",
+   "notes": "Lady Une report."
+  },
+  {
+   "ref": "brief63276#5",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(3)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[BE5050]グラドス#cの攻勢に対しては、民間の\n#c[5E8FD8]レジスタンス#cが抵抗<im(3)>を続けているものの、\n現状では十分な戦果に結びついていない。",
+   "en": "<sp(0)>Against the #c[BE5050]Grados#c offensive, a civilian\n#c[5E8FD8]resistance#c continues to fight back,<im(3)> but has\nyet to achieve sufficient military results.",
+   "notes": "Lady Une report."
+  },
+  {
+   "ref": "brief63276#6",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>現在#c[5E8FD8]ＵＣＥ#cでは、孤立した北米を\n解放するために、#c[5E8FD8]レジスタンス#cとの\n接触を試みている。",
+   "en": "<sp(0)>Currently, the #c[5E8FD8]UCE#c is attempting to make\ncontact with the #c[5E8FD8]resistance#c in order\nto liberate isolated North America.",
+   "notes": "Lady Une report."
+  },
+  {
+   "ref": "brief63277#0",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「ブリタイ艦潜入報告」\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　ＵＣＥ諜報部",
+   "en": "<sp(0)>\"Vrlitwhai Ship Infiltration Report\"\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　UCE Intelligence",
+   "notes": "Intelligence report title. Wide spaces preserved from jp."
+  },
+  {
+   "ref": "brief63277#1",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>本件は、#c[5E8FD8]ナデシコ#c、#c[5E8FD8]マクロス#c、#c[5E8FD8]アルビオン#cの\n３艦の地球帰還までの経緯に関する\n報告である。",
+   "en": "<sp(0)>This is a report on the circumstances\nsurrounding the return of the #c[5E8FD8]Nadesico#c,\n#c[5E8FD8]Macross#c, and #c[5E8FD8]Albion#c to Earth.",
+   "notes": "UCE Intelligence report."
+  },
+  {
+   "ref": "brief63277#2",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>３艦は、フォールドシステムによって\n冥王星<im(1)>へと空間転移した後、孤立した\n状態で地球への帰還を開始した。",
+   "en": "<sp(0)>After being folded to Pluto<im(1)> by the fold\nsystem, the three ships began their return\nto Earth while completely isolated.",
+   "notes": "UCE Intelligence report."
+  },
+  {
+   "ref": "brief63277#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>この過程で、早瀬未沙、一条輝、他民間人\n２名が#c[BE5050]ゼントラーディ#cに拉致され、その\n代表と思われる人物に尋問を受けている。",
+   "en": "<sp(0)>During this, Misa Hayase, Hikaru Ichijyo,\nand two civilians were abducted by the\n#c[BE5050]Zentradi#c and interrogated by a leader.",
+   "notes": "UCE Intelligence report."
+  },
+  {
+   "ref": "brief63277#4",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>その結果、#c[BE5050]ゼントラーディ#cについて\n多くの情報が得られた。\n",
+   "en": "<sp(0)>As a result, a great deal of information\nregarding the #c[BE5050]Zentradi#c was obtained.",
+   "notes": "UCE Intelligence report."
+  },
+  {
+   "ref": "brief63277#5",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>まず、彼らは純粋に戦いのために生きる\n種族であり、全ての者が兵士として\nその肉体を戦闘用に強化されていた。",
+   "en": "<sp(0)>First, they are a race living solely for\nbattle, each individual having their body\ngenetically enhanced as soldiers for combat.",
+   "notes": "UCE Intelligence report on Zentradi soldiers."
+  },
+  {
+   "ref": "brief63277#6",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>その反面、歌などの文化に属する物に\n対しては、異常な驚きや恐怖を示す\n反応を見せている。",
+   "en": "<sp(0)>Conversely, toward culture such as songs,\nthey exhibited reactions of extraordinary\nsurprise and terror.",
+   "notes": "UCE Intelligence report on culture reaction."
+  },
+  {
+   "ref": "brief63277#7",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>また、#c[BE5050]ゼントラーディ#cにとって\n男女が共存しているという状況は、\n驚くべき事態であるようだ。",
+   "en": "<sp(0)>Furthermore, to the #c[BE5050]Zentradi#c, the coexistence\nof men and women appears to be an\nastounding circumstance.",
+   "notes": "UCE Intelligence report on male-female coexistence."
+  },
+  {
+   "ref": "brief63277#8",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(2)>",
+    "<im(3)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>彼ら#c[BE5050]ゼントラーディ#cは男ばかりの軍隊<im(2)>\nであり、同じく女ばかりの軍隊<im(3)>である\n#c[BE5050]メルトランディ#cと長い交戦状態にある。",
+   "en": "<sp(0)>The #c[BE5050]Zentradi#c are an all-male military,<im(2)>\nand have long been at war with the<im(3)>\nall-female #c[BE5050]Meltrandi#c force.",
+   "notes": "UCE Intelligence report on Meltrandi war."
+  },
+  {
+   "ref": "brief63277#9",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>彼らにとって性別の違いは、すなわち\n敵ということになるのだ。\n",
+   "en": "<sp(0)>To them, a difference in sex is inherently\nequivalent to being an enemy.",
+   "notes": "UCE Intelligence report."
+  },
+  {
+   "ref": "brief63277#10",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>さらに#c[BE5050]ゼントラーディ#cは、彼らにとって\n異質な存在である我々人類を\n非常に危険な対象と見なしている。",
+   "en": "<sp(0)>Moreover, the #c[BE5050]Zentradi#c view humanity,\nwhich is utterly alien to them, as an\nextremely dangerous threat.",
+   "notes": "UCE Intelligence report."
+  },
+  {
+   "ref": "brief63277#11",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>こうした経緯から、#c[BE5050]ゼントラーディ#cが\n地球への本格的な侵攻を開始する\n可能性は極めて高いと予測される。",
+   "en": "<sp(0)>From this background, it is predicted\nthat the likelihood of the #c[BE5050]Zentradi#c\nlaunching a full Earth invasion is very high.",
+   "notes": "UCE Intelligence report."
+  }
+ ],
+ "context_after": [],
+ "report": {
+  "translator_summary": "Translated all 26 rows of Op 21 Phase 4 debriefing and Preventer/UCE intelligence reports. Completes Operation 21. Covers Admiral Misumaru's debriefing on the counteroffensive plans, Preventer Lady Une's report on Grados-Poseidal control of North America and local resistance, and UCE Intelligence report detailing Zentradi biology, male/female division against Meltrandi, fear of culture/songs, and looming invasion threat.",
+  "rows_examined": "1-26",
+  "rows_examined_count": 26,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {
+   "33": "Kouichiro Misumaru"
+  }
+ }
+}

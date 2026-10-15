@@ -1,0 +1,1884 @@
+{
+ "batch": "op16_03",
+ "operation": 16,
+ "previous_batch": "op16_02",
+ "next_batch": "op16_04",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "クインシィ・イッサー",
+   "en": "Quincy Issa",
+   "kind": "character",
+   "series": "Brain Powerd",
+   "gender": "female",
+   "role": "Reclaimer leader at Orphan; Yuu's older sister (real name Iiko Isami); pilots Quincy Grand Cher, later Quincy Baronz",
+   "personality": "Harsh, domineering and emotionally unstable. She denies her past as Iiko and resents Yuu, but underneath she is a lonely, confused girl.",
+   "en_short": "Quincy"
+  },
+  {
+   "ja": "シーラ・ラパーナ",
+   "en": "Ciela Lapana",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "female",
+   "role": "Queen of the Kingdom of Na; commands the aura battleship Gran-Garan; gives Sho the Billbine",
+   "personality": "Serene, dignified young queen with strong Aura Power and a sense of duty to all of Byston Well. Calm but resolute.",
+   "en_short": "Ciela"
+  },
+  {
+   "ja": "オーラバトラー",
+   "en": "Aura Battler",
+   "kind": "term",
+   "series": "Aura Battler Dunbine",
+   "role": "Class of insect-like Byston Well mecha fielded by the Drake Army and Show's side."
+  },
+  {
+   "ja": "グランチャー",
+   "en": "Grand Cher",
+   "kind": "unit",
+   "series": "Brain Powerd",
+   "role": "Orphan-loyal Antibody piloted by Reclaimers (generic grunt unit)"
+  },
+  {
+   "ja": "リクレイマー",
+   "en": "Reclaimer",
+   "kind": "faction",
+   "series": "Brain Powerd",
+   "role": "The people who serve Orphan and pilot Grand Chers to gather its plates; plural 'Reclaimers'"
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "オルファン",
+   "en": "Orphan",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Gigantic sentient alien ship buried under the Pacific; its awakening threatens Earth; base of the Reclaimers"
+  },
+  {
+   "ja": "バルキリー",
+   "en": "Valkyrie",
+   "kind": "unit",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "U.N. Spacy VF-1 variable fighter series."
+  },
+  {
+   "ja": "オーラ力",
+   "en": "Aura Power",
+   "kind": "term",
+   "series": "Aura Battler Dunbine",
+   "role": "The aura energy of a pilot; also the name of a Dunbine-family ability that multiplies attack power for a while (Weapon 6)."
+  },
+  {
+   "ja": "シナプス",
+   "en": "Sinapus",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Earth Federation captain (Captain, 大佐) of the assault carrier Albion; leads the pursuit of the stolen GP02.",
+   "personality": "Grizzled veteran with a commanding presence and keen tactical mind; relies on his own judgement and sense of right and wrong.",
+   "full_name": "Eyphar Sinapus"
+  },
+  {
+   "ja": "ジェリル",
+   "en": "Jeryll",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "female",
+   "role": "Holy Warrior from the second group summoned by Drake (said to be from Dublin, Ireland); enemy ace who pilots Leprechaun and is the first to go 'Hyper'",
+   "personality": "Violent, impulsive and bloodthirsty; enjoys destruction. Her enormous, unstable Aura Power mirrors what Sho could have become.",
+   "full_name": "Jeryll Coochibie"
+  },
+  {
+   "ja": "テンカワ",
+   "en": "Tenkawa",
+   "kind": "character",
+   "series": "Martian Successor Nadesico",
+   "gender": "male",
+   "role": "Surname of Akito Tenkawa; used alone (テンカワ君, テンカワ機 = Tenkawa's unit)."
+  },
+  {
+   "ja": "ドレイク",
+   "en": "Drake",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Main antagonist; Lord of House Luft in the Kingdom of Ah (アの国), who summons Holy Warriors and wages war to unite Byston Well; commands the Will Wipps",
+   "personality": "Ambitious, scheming warlord who believes his conquest is justified. Loves his daughter Riml but is blind to the plots around him.",
+   "full_name": "Drake Luft"
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "ナナフシ",
+   "en": "Nanafushi",
+   "kind": "unit",
+   "series": "Martian Successor Nadesico",
+   "role": "Jovian 'new weapon' (micro black hole railgun) that the player must destroy (mission 新型兵器ナナフシ)."
+  },
+  {
+   "ja": "マクロス",
+   "en": "Macross",
+   "kind": "ship",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "SDF-1 Macross, the U.N. Spacy super-dimensional fortress (human flagship)."
+  },
+  {
+   "ja": "オーラ",
+   "en": "aura",
+   "kind": "term",
+   "series": "Aura Battler Dunbine",
+   "role": "Life energy of Byston Well that powers aura machines; used alone in lines like オーラの力 / 悪しきオーラ / オーラ光."
+  },
+  {
+   "ja": "サセボ",
+   "en": "Sasebo",
+   "kind": "place",
+   "series": "Martian Successor Nadesico",
+   "role": "Japanese port city where the Nadesico is docked/launched (サセボドック, mission サセボ攻防戦)."
+  },
+  {
+   "ja": "シーラ",
+   "en": "Ciela",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "female",
+   "role": "Queen of the Kingdom of Na; commands the aura battleship Gran-Garan; gives Sho the Billbine",
+   "personality": "Serene, dignified young queen with strong Aura Power and a sense of duty to all of Byston Well. Calm but resolute.",
+   "full_name": "Ciela Lapana"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {
+  "33": {
+   "speaker": "Kouichiro Misumaru",
+   "gender": "male",
+   "role": "UCE Space Force admiral (Yurika's father)",
+   "confidence": "high",
+   "evidence": "brief: '私はＵＣＥ宇宙軍提督のミスマルだ。'"
+  },
+  "54": {
+   "speaker": "Ciela Lapana",
+   "gender": "female",
+   "role": "Queen of Na",
+   "confidence": "high",
+   "evidence": "brief: '私は、ナの国の女王、シーラ・ラパーナです。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6162#55",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>さー、皆さん！　今がチャンスです！\nがんばりましょう！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6162#56",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>こちらＵＣＥ第三地上部隊。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6162#57",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>今から救援のため、降下…<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6163#0",
+   "layer": "mission dialogue",
+   "jp": "ナナフシの破壊",
+   "en": ""
+  },
+  {
+   "ref": "m6163#1",
+   "layer": "mission dialogue",
+   "jp": "アルビオンの撃沈",
+   "en": ""
+  },
+  {
+   "ref": "m6163#2",
+   "layer": "mission dialogue",
+   "jp": "クインシィ・グランチャーの撃破",
+   "en": ""
+  },
+  {
+   "ref": "m6163#3",
+   "layer": "mission dialogue",
+   "jp": "レプラカーンの撃破",
+   "en": ""
+  },
+  {
+   "ref": "m6163#4",
+   "layer": "mission dialogue",
+   "jp": "アルビオン",
+   "en": ""
+  },
+  {
+   "ref": "m6163#5",
+   "layer": "mission dialogue",
+   "jp": "アーマー%d％",
+   "en": ""
+  },
+  {
+   "ref": "m6163#6",
+   "layer": "mission dialogue",
+   "jp": "ＣＡＵＴＩＯＮ",
+   "en": ""
+  },
+  {
+   "ref": "m6163#7",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>周辺に敵が潜んでいます。\n気をつけてください。<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6163#8",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>引き続き上空には注意しろ！<ab(500)><ed()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6163#9",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵、砲撃準備。<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Enemy readying cannon.<ab(100)><ed()>",
+   "notes": "Ruri Hoshino"
+  },
+  {
+   "ref": "m6163#11",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>被弾を確認。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Confirmed direct hit.<ab(300)><ed()>",
+   "notes": "Ruri"
+  },
+  {
+   "ref": "m6163#12",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>大丈夫ですか？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Are you all right?<ab(200)><ed()>",
+   "notes": "Operator / Megumi"
+  },
+  {
+   "ref": "m6163#13",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>だ、大丈夫ですか？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>A-are you all right?<ab(200)><ed()>",
+   "notes": "Yurika"
+  },
+  {
+   "ref": "m6163#14",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>無事か？　怪我はないな？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Are you okay? No injuries?<ab(200)><ed()>",
+   "notes": "Sinapus or Burning"
+  },
+  {
+   "ref": "m6163#15",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まったく、何やってる！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Good grief, what are you doing?!<ab(200)><ed()>",
+   "notes": "Burning or Ryoko"
+  },
+  {
+   "ref": "m6163#16",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ちょっと、しっかりしてよね！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Hey, pull yourself together!<ab(200)><ed()>",
+   "notes": "Ryoko or Hikaru"
+  },
+  {
+   "ref": "m6163#17",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナナフシ周辺にボソン反応あり。\nあ、敵がいっぱい出てきました。<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Boson readings near Nanafushi.\nOh, tons of enemies just came out.<ab(100)><ed()>",
+   "notes": "Megumi or Minato"
+  },
+  {
+   "ref": "m6163#18",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>気軽に言うなぁ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't say it so casually!<ab(0)><ed()>",
+   "notes": "Akito"
+  },
+  {
+   "ref": "m6163#19",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵がいっぱい、てきっぱい……手一杯。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Enemies aplenty... Plenty full...\nHands full.<ab(0)><ed()>",
+   "notes": "Izumi Maki pun (teki ga ippai -> tekippai -> teippai)"
+  },
+  {
+   "ref": "m6163#20",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……あ、あははは……<ab(0)><ed()>",
+   "en": "<op()><sp(20)>...Ah, hahaha...<ab(0)><ed()>",
+   "notes": "Akito / Megumi dry laughter"
+  },
+  {
+   "ref": "m6163#21",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>バカばっか。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Nothing but idiots.<ab(500)><ed()>",
+   "notes": "Ruri Hoshino signature phrase"
+  },
+  {
+   "ref": "m6163#22",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>本艦は敵の攻撃を受けています！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Our ship is under enemy attack!<ab(300)><ed()>",
+   "notes": "Operator"
+  },
+  {
+   "ref": "m6163#23",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>急がないと…！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>We have to hurry...!<ab(200)><ed()>",
+   "notes": "Pilot"
+  },
+  {
+   "ref": "m6163#24",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>本艦の損傷が拡大しています！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Damage to the ship is spreading!<ab(200)><ed()>",
+   "notes": "Operator"
+  },
+  {
+   "ref": "m6163#25",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…アルビオンが撃沈されました。<ab(600)>",
+   "en": "<op()><sp(20)>...The Albion has been sunk.<ab(600)>",
+   "notes": "Ruri"
+  },
+  {
+   "ref": "m6163#26",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>…残念です。<ab(500)><ed()>",
+   "en": "<sp(20)>...Unfortunate.<ab(500)><ed()>",
+   "notes": "Ruri continues"
+  },
+  {
+   "ref": "m6163#27",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>友軍機接近！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Friendly aircraft approaching!<ab(300)><ed()>",
+   "notes": "Operator"
+  },
+  {
+   "ref": "m6163#28",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やっと来たか！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Finally, they're here!<ab(100)><ed()>",
+   "notes": "Burning or pilot"
+  },
+  {
+   "ref": "m6163#29",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これは…\n新造艦マクロスのバルキリー隊です！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>This is... the Valkyrie squad\nfrom the new ship Macross!<ab(400)><ed()>",
+   "notes": "Operator announcing arrival of Valkyries"
+  },
+  {
+   "ref": "m6163#30",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こっちはもう大丈夫だ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>We'll be all right now!<ab(100)><ed()>",
+   "notes": "Pilot"
+  },
+  {
+   "ref": "m6163#31",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>見えてますよね？　\nそれがナナフシです。<ab(300)>",
+   "en": "<op()><sp(20)>You see it, don't you?\nThat is the Nanafushi.<ab(300)>",
+   "notes": "Ruri"
+  },
+  {
+   "ref": "m6163#32",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>壊しちゃってください。<ab(500)><ed()>",
+   "en": "<sp(20)>Please destroy it.<ab(500)><ed()>",
+   "notes": "Ruri continues"
+  },
+  {
+   "ref": "m6163#33",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>噂には聞いてたが……\nあれが最新鋭機のバルキリーか。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>I'd heard rumors, but...\nSo that's the cutting-edge Valkyrie.<ab(300)><ed()>",
+   "notes": "Burning or Tak"
+  },
+  {
+   "ref": "m6163#34",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>すげえ！　さすが最新型！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Incredible!\nAs expected of the latest model!<ab(100)><ed()>",
+   "notes": "Kaine Wakaba"
+  },
+  {
+   "ref": "m6163#35",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>きゃー！　かっこいい！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Kyaa! So cool!<ab(300)><ed()>",
+   "notes": "Megumi or Hikaru"
+  },
+  {
+   "ref": "m6163#36",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナナフシの破壊を確認。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Nanafushi destruction confirmed.<ab(300)><ed()>",
+   "notes": "Ruri"
+  },
+  {
+   "ref": "m6163#37",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やったぁ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>We did it!<ab(500)><ed()>",
+   "notes": "Yurika"
+  },
+  {
+   "ref": "m6163#38",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>予定作戦時間を大幅に短縮、\n機体の損傷も軽微みたいです。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Operation time significantly cut,\nand unit damage appears minimal.<ab(500)><ed()>",
+   "notes": "Operator"
+  },
+  {
+   "ref": "m6163#39",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まったく…なんという腕前だ。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Good grief... What incredible skill.<ab(500)><ed()>",
+   "notes": "Burning or Sinapus"
+  },
+  {
+   "ref": "m6163#40",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>艦長さん！　まだまだ油断は禁物だ！\n引き続き、俺たちが周辺を警戒する！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Captain! Don't drop your guard yet!\nWe'll keep patrolling the area!<ab(500)><ed()>",
+   "notes": "Show Zama ('艦長さん')"
+  },
+  {
+   "ref": "m6163#41",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>新たな敵影を感知！\nナデシコでも見えてる！？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>New enemy contact detected!\nCan the Nadesico see it too?!<ab(200)><ed()>",
+   "notes": "Show or pilot"
+  },
+  {
+   "ref": "m6163#42",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>はい、高速で接近中。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Yes, approaching at high speed.<ab(500)><ed()>",
+   "notes": "Ruri"
+  },
+  {
+   "ref": "m6163#43",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>オルファンのために、やらせないよ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>For Orphan's sake,\nI won't let you do this!<ab(400)><ed()>",
+   "notes": "Quincy Issa"
+  },
+  {
+   "ref": "m6163#44",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ハハハハハ……\nせいぜい暴れさせてもらうよ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Hahahahaha...\nI'll run wild as much as I please!<ab(200)><ed()>",
+   "notes": "Jeryll Coochibie"
+  },
+  {
+   "ref": "m6163#45",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>姉さん！　なぜドレイクたちと\n手を組むんだ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Sister! Why join hands with\nDrake and his thugs?!<ab(400)><ed()>",
+   "notes": "Yuu Isami calling Quincy '姉さん'"
+  },
+  {
+   "ref": "m6163#46",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>決まってる！　\nオルファンをお前たちから守るためだ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Isn't it obvious?!\nTo protect Orphan from you!<ab(300)><ed()>",
+   "notes": "Quincy Issa"
+  },
+  {
+   "ref": "m6163#47",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>だまされてるのが、わかんないのかよ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Can't you see you're being deceived?!<ab(500)><ed()>",
+   "notes": "Yuu"
+  },
+  {
+   "ref": "m6163#48",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やめてよ、依衣子さん！　\nなんで姉弟で争うの！？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Stop it, Iiko-san!\nWhy must brother and sister fight?!<ab(300)><ed()>",
+   "notes": "Hime calling Quincy by her true name Iiko"
+  },
+  {
+   "ref": "m6163#49",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>その名前で呼ぶな！　\n私は、クインシィ・イッサーだ！<ab(500)>",
+   "en": "<op()><sp(20)>Don't call me by that name!\nI am Quincy Issa!<ab(500)>",
+   "notes": "Quincy furiously rejecting her former identity"
+  },
+  {
+   "ref": "m6163#50",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>それに勇など、弟でも何でもない！<ab(400)><ed()>",
+   "en": "<sp(20)>And Yuu is no brother of mine!<ab(400)><ed()>",
+   "notes": "Quincy continues"
+  },
+  {
+   "ref": "m6163#51",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ジェリル！　なぜここに出てくる！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Jeryll! Why are you showing up here?!<ab(300)><ed()>",
+   "notes": "Show Zama"
+  },
+  {
+   "ref": "m6163#52",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あたしは殺し合いが大好きなのさ！\nそれさえできりゃ、どんなところにも、さ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>I love slaughter! As long as I can\nkill, I'll go anywhere!<ab(600)><ed()>",
+   "notes": "Jeryll Coochibie"
+  },
+  {
+   "ref": "m6163#53",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ジェリル！　ここで何をしているの！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Jeryll! What are you doing here?!<ab(300)><ed()>",
+   "notes": "Marvel Frozen"
+  },
+  {
+   "ref": "m6163#54",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何をしてるって？<ab(500)>",
+   "en": "<op()><sp(20)>What am I doing?<ab(500)>",
+   "notes": "Jeryll"
+  },
+  {
+   "ref": "m6163#55",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>あたしの大好きなことさ！\n殺し合いをしてるのさぁ！<ab(400)><ed()>",
+   "en": "<sp(20)>My favorite thing in the world!\nSlaughtering people!<ab(400)><ed()>",
+   "notes": "Jeryll continues"
+  },
+  {
+   "ref": "m6163#56",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>オルファンに危害を加えるものは、\n地球人でも敵だ！<ab(400)>",
+   "en": "<op()><sp(20)>Anyone who harms Orphan is an enemy,\neven Earthlings!<ab(400)>",
+   "notes": "Quincy Issa"
+  },
+  {
+   "ref": "m6163#57",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>オルファンを守るためなら、\n異世界の人間とでも手を組む！<ab(500)><ed()>",
+   "en": "<sp(20)>To protect Orphan, I'll join hands\neven with otherworlders!<ab(500)><ed()>",
+   "notes": "Quincy continues"
+  },
+  {
+   "ref": "m6163#58",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いいねえ！　殺し合いはゾクゾクするよ！<ab(300)>",
+   "en": "<op()><sp(20)>I love it! Killing gives me thrills!<ab(300)>",
+   "notes": "Jeryll"
+  },
+  {
+   "ref": "m6163#59",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>あたしはこれだけが楽しみで\nオーラバトラーに乗ってるんだよ！<ab(300)><ed()>",
+   "en": "<sp(20)>This thrill is the only reason\nI pilot an Aura Battler!<ab(300)><ed()>",
+   "notes": "Jeryll continues"
+  },
+  {
+   "ref": "m6163#60",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>戦闘に集中しろ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Focus on the battle!<ab(200)><ed()>",
+   "notes": "Burning"
+  },
+  {
+   "ref": "m6163#61",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こんなこと…迂闊ではないのか！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>This is... How careless of me!<ab(200)><ed()>",
+   "notes": "Quincy taking damage"
+  },
+  {
+   "ref": "m6163#62",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アルビオン！　次回は必ず沈める！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Albion! Next time I'll sink you!<ab(500)><ed()>",
+   "notes": "Quincy retreating"
+  },
+  {
+   "ref": "m6163#63",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>うっとうしい連中だ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Annoying pests!<ab(300)><ed()>",
+   "notes": "Quincy or Jeryll"
+  },
+  {
+   "ref": "m6163#64",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くそ！　調子に乗るな！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Damn you! Don't get cocky!<ab(300)><ed()>",
+   "notes": "Jeryll"
+  },
+  {
+   "ref": "m6163#65",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>冗談じゃないよ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>You've got to be kidding me!<ab(500)><ed()>",
+   "notes": "Jeryll taking damage"
+  },
+  {
+   "ref": "m6163#66",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この次は\nもっと派手に殺し合おうじゃないか！<ab(800)><ed()>",
+   "en": "<op()><sp(20)>Next time, let's kill each other\nwith a lot more flair!<ab(800)><ed()>",
+   "notes": "Jeryll retreating"
+  },
+  {
+   "ref": "m6163#67",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>殺し合おう……か。<ab(600)>",
+   "en": "<op()><sp(20)>Kill each other... huh?<ab(600)>",
+   "notes": "Akito Tenkawa deeply unsettled"
+  },
+  {
+   "ref": "m6163#68",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>どんなきれい事を言ったって、\nやってるのは、結局殺し合いなんだよな…<ab(0)><ed()>",
+   "en": "<sp(20)>No matter what pretty words we use,\nin the end it's just killing...<ab(0)><ed()>",
+   "notes": "Akito continues"
+  },
+  {
+   "ref": "m6163#69",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>テンカワ？　何を言っている？<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Tenkawa? What are you saying?<ab(100)><ed()>",
+   "notes": "Burning or squadmate"
+  },
+  {
+   "ref": "m6163#70",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>結局、軍ってのは\n殺し合いのための組織でさ……<ab(100)>",
+   "en": "<op()><sp(20)>In the end, the military is just\nan organization made for killing...<ab(100)>",
+   "notes": "Akito"
+  },
+  {
+   "ref": "m6163#71",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>俺、そんなとこで何やってるんだろ……\n俺がしたかったのは、もっと……<ab(0)>",
+   "en": "<sp(20)>What am I even doing here...\nWhat I really wanted to do was...<ab(0)>",
+   "notes": "Akito (wishing he were cooking instead)"
+  },
+  {
+   "ref": "m6163#72",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>戦いに疑問を持つと……死ぬぞ。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Doubt the battle, and you'll die.<ab(200)><ed()>",
+   "notes": "Burning warning Akito"
+  },
+  {
+   "ref": "m6163#73",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そうだな。　お前は戦いには向かぬ…<ab(500)><ed()>",
+   "en": "<op()><sp(20)>He's right.\nYou aren't cut out for fighting...<ab(500)><ed()>",
+   "notes": "Squadmate agreeing Akito lacks soldier temperament"
+  },
+  {
+   "ref": "m6163#74",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>これより地上部隊の援護を行う！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Commencing support for ground forces!<ab(0)><off()>",
+   "notes": "Valkyrie pilot"
+  },
+  {
+   "ref": "m6163#75",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>展開しつつミサイル発射！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Deploy and launch missiles!<ab(0)><off()>",
+   "notes": "Valkyrie pilot"
+  },
+  {
+   "ref": "m6163#76",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>攻撃はこちらで引きつけます。\n皆さんはナナフシを！<ab(0)><off()>",
+   "en": "<on()><sp(20)>We'll draw their attacks!\nYou focus on the Nanafushi!<ab(0)><off()>",
+   "notes": "Valkyrie pilot"
+  },
+  {
+   "ref": "m6163#77",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>くらえぃ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Take this!<ab(0)><off()>",
+   "notes": "Valkyrie pilot (Roy Focker)"
+  },
+  {
+   "ref": "brief63183#0",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "#c[5E8FD8]",
+    "<im(11)>",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>今回の戦闘で、<im(1)>#c[5E8FD8]ナデシコ<im(11)>#cの相転移エンジンが\n大破してしまった。今の#c[5E8FD8]ナデシコ#cは、\n通常航行しかできない状態だ。",
+   "en": "<op(33,1)><sp(2)>In combat, the <im(1)>#c[5E8FD8]Nadesico's<im(11)>#c phase engine\nwas wrecked. Now, the #c[5E8FD8]Nadesico#c\ncan only use conventional cruising.",
+   "notes": "p33 is Admiral Kouichiro Misumaru. fix: line length exceeded 430px -> compacted into three lines"
+  },
+  {
+   "ref": "brief63183#1",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(2)>#c[5E8FD8]ナデシコ#cの修理はサセボドックで行う。\n#c[5E8FD8]アルビオン#c隊は、#c[5E8FD8]ナデシコ#cを護衛して、\nサセボへ向かってくれ。",
+   "en": "<op(33,1)><sp(2)><im(2)>The #c[5E8FD8]Nadesico's#c repairs will be at Sasebo Dock.\nThe #c[5E8FD8]Albion#c squad must escort the #c[5E8FD8]Nadesico#c\nand make way for Sasebo.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63183#2",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>なお、サセボへ向かうまでの間、\n#c[5E8FD8]バルキリー隊#cが実戦テストも兼ねて\n諸君らに同行する。よろしく頼むぞ。",
+   "en": "<op(33,1)><sp(2)>Until you reach Sasebo, the #c[5E8FD8]Valkyrie squad#c\nwill accompany you for live combat testing.\nI'm counting on you.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63183#3",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(4)>",
+    "<im(12)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(4)><im(12)>シーラ女王からも連絡が入っている。\n回線を回そう。",
+   "en": "<op(33,1)><sp(2)><im(4)><im(12)>We have also received a call\nfrom Queen Ciela. Patching her through now.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63183#4",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 54,
+   "tokens": [
+    "<op(54,1)>",
+    "<sp(2)>",
+    "<im(5)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(54,1)><sp(2)><im(5)>シナプス艦長、シーラ・ラパーナです。",
+   "en": "<op(54,1)><sp(2)><im(5)>Captain Sinapus, this is Ciela Lapana.",
+   "notes": "p54 is Queen Ciela Lapana (regal, formal, no contractions)"
+  },
+  {
+   "ref": "brief63183#5",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 54,
+   "tokens": [
+    "<op(54,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(54,1)><sp(2)>かの地に現れた#c[BE5050]ドレイク軍#cのことですが…\n#c[BE5050]ドレイク#cが理由なく行動していたとは\n思えないのです。",
+   "en": "<op(54,1)><sp(2)>Regarding the #c[BE5050]Drake Army#c in that region...\nI cannot believe that #c[BE5050]Drake#c would act\nwithout some underlying motive.",
+   "notes": "Formal style maintained"
+  },
+  {
+   "ref": "brief63183#6",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 54,
+   "tokens": [
+    "<op(54,1)>",
+    "<sp(2)>",
+    "<im(6)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(54,1)><sp(2)><im(6)>#c[BE5050]ドレイク#cは他軍と協力して\nことを運ぶような人間ではありません。",
+   "en": "<op(54,1)><sp(2)><im(6)>#c[BE5050]Drake#c is not a man who would cooperate\nwith other forces to carry out his plans.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63183#7",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 54,
+   "tokens": [
+    "<op(54,1)>",
+    "<sp(2)>",
+    "<im(8)>",
+    "<im(13)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(54,1)><sp(2)><im(8)><im(13)>他人は、徹底的に利用して、\n用が済めば使い捨てる。\nそのような男です。",
+   "en": "<op(54,1)><sp(2)><im(8)><im(13)>He exploits others completely,\nonly to discard them when they have served\nhis purpose. Such is the man he is.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63183#8",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 54,
+   "tokens": [
+    "<op(54,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(54,1)><sp(2)>きっと、#c[BE5050]リクレイマー#cとの同盟にも、\n何らかの裏があるはずです。",
+   "en": "<op(54,1)><sp(2)>Surely, his alliance with the #c[BE5050]Reclaimers#c\nmust conceal some hidden scheme.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63183#9",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 54,
+   "tokens": [
+    "<op(54,1)>",
+    "<sp(2)>",
+    "<im(9)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(54,1)><sp(2)><im(9)>あのグランチャーという兵器…\nオーラバトラーに近い力を感じます。",
+   "en": "<op(54,1)><sp(2)><im(9)>In those weapons known as Grand Chers,\nI sense a power akin to Aura Battlers.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63183#10",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 54,
+   "tokens": [
+    "<op(54,1)>",
+    "<sp(2)>",
+    "<im(10)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(54,1)><sp(2)><im(10)>オーラ力と似て異なる力…\n#c[BE5050]ドレイク#cはその力に目をつけたのかも\nしれません。",
+   "en": "<op(54,1)><sp(2)><im(10)>A power similar to, yet different from,\nAura Power... Perhaps #c[BE5050]Drake#c has set eyes\nupon that very strength.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63183#11",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 54,
+   "tokens": [
+    "<op(54,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(54,1)><sp(2)>#c[BE5050]ドレイク#cの真の狙いが何なのかは\nまだわかりませんが、\n今後とも彼の動きに注意してください。",
+   "en": "<op(54,1)><sp(2)>While we do not yet know #c[BE5050]Drake's#c true aim,\nI ask that you remain watchful of his\nmovements hereafter.",
+   "notes": ""
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "brief63256#0",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>「ドレイク軍とリクレイマー」\n\n　　　　　　　　　　　　　　　　　　　プリベンター　レディ・アン",
+   "en": ""
+  },
+  {
+   "ref": "brief63256#1",
+   "layer": "Preventer report",
+   "jp": "<sp(0)><im(1)>#c[5E8FD8]アルビオン#cの報告とその後の調査の結果、\n#c[BE5050]ドレイク軍#cは現在、#c[BE5050]リクレイマー#cとともに\n行動していることが明らかとなった。",
+   "en": ""
+  },
+  {
+   "ref": "brief63256#2",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>#c[BE5050]リクレイマー#cには本来兵力が少なく、\n一方の#c[BE5050]ドレイク#cにも地上に関する情報が\n少ないという事情がある。",
+   "en": ""
+  },
+  {
+   "ref": "brief63256#3",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>互いの欠点を補い合うため、兵力と情報を\n分け合う形で共同作戦をとるという動きは、\n戦略的にも妥当であろう。",
+   "en": ""
+  },
+  {
+   "ref": "brief63256#4",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>しかし、シーラ・ラパーナ女王<im(3)>からの\n情報によれば、彼らが手を結ぶのは\n戦略的な理由からだけではないと言う。",
+   "en": ""
+  },
+  {
+   "ref": "brief63256#5",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>オルファンの<im(4)>持つオーガニック・エナジーは\nオーラ力に近い性質を持っており、\n両勢力の機体との親和性が高い。",
+   "en": ""
+  },
+  {
+   "ref": "brief63256#6",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>そこで#c[BE5050]ドレイク軍#cは、オルファンの力を\n手に入れることで、オーラマシンの戦力増大\nを図るつもりなのではないか。",
+   "en": ""
+  },
+  {
+   "ref": "brief63256#7",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>#c[BE5050]リクレイマー#cの伊佐未博士も先日の学会で、\nオーガニック・エナジーとオーラ力の共通性\nに関する研究結果を発表している。",
+   "en": ""
+  },
+  {
+   "ref": "brief63256#8",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>さらにオーラマシンの出現<im(2)>以降、\nオルファンの動きが活発化している\nことなども合わせて考えるならば、",
+   "en": ""
+  },
+  {
+   "ref": "brief63256#9",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>#c[BE5050]リクレイマー#cが、研究のために#c[BE5050]ドレイク軍#cと\n手を結ぶことも十分に考えうることだ。\n",
+   "en": ""
+  },
+  {
+   "ref": "brief63256#10",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>このような超自然的な事象は、我々にとって\n完全に未知の分野であるため、今はただ\nシーラ女王の情報だけが頼りである。",
+   "en": ""
+  },
+  {
+   "ref": "brief63257#0",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>「ナデシコの配属」\n\n　　　　　　　　　　　　　　　　　　　プリベンター　レディ・アン",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Translated phase 3 combat featuring arrival of Macross Valkyrie squadron, destruction of Nanafushi, boss encounters with Quincy Grand Cher and Leprechaun (Jeryll Coochibie), Akito's anti-war existential crisis, and debriefing by Admiral Misumaru and Queen Ciela Lapana.",
+  "rows_examined": "m6163#9-77, brief63183#0-11; context brief63256#0-10, brief63257#0 and op16_04",
+  "rows_examined_count": 80,
+  "uncertainties": [
+   "m6163#19: Izumi Maki's wordplay on 'teki ga ippai' / 'teippai' translated as 'Enemies aplenty... Plenty full... Hands full.'",
+   "m6163#40: Show Zama addressing the captain as '艦長さん' (Captain).",
+   "m6163#45-50: Sibling rivalry between Yuu Isami and Quincy Issa (Iiko Isami).",
+   "m6163#52-59, 66: Jeryll Coochibie reveling in violence and bloodshed.",
+   "m6163#67-73: Akito Tenkawa questioning whether soldiers are merely organized killers.",
+   "brief63183#4-11: Queen Ciela Lapana rendered in formal, elevated English without contractions as required."
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {
+   "33": "Kouichiro Misumaru",
+   "54": "Ciela Lapana"
+  }
+ }
+}

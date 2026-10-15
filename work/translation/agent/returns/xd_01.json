@@ -1,0 +1,1576 @@
+﻿{
+    "batch":  "xd_01",
+    "operation":  null,
+    "group":  "xd",
+    "group_label":  "Short and system missions",
+    "previous_batch":  null,
+    "next_batch":  "xd_02",
+    "rows_in_slice":  80,
+    "do_not_touch_names":  [
+                               "Amuro Ray",
+                               "Barkholz",
+                               "Capt. Burning",
+                               "Captain Burning",
+                               "Captain South Burning",
+                               "Cowen",
+                               "Giganos",
+                               "Lieutenant",
+                               "Lt.",
+                               "Major Anavel Gato",
+                               "Sinapus",
+                               "Tak"
+                           ],
+    "glossary":  [
+                     {
+                         "ja":  "エステバリス(アキト)",
+                         "en":  "Aestivalis (Akito)",
+                         "kind":  "unit",
+                         "series":  "Martian Successor Nadesico",
+                         "role":  "Akito\u0027s Aestivalis (TV series)"
+                     },
+                     {
+                         "ja":  "ウイングガンダムゼロ",
+                         "en":  "Wing Gundam Zero",
+                         "kind":  "unit",
+                         "series":  "Mobile Suit Gundam Wing / Endless Waltz",
+                         "role":  "Heero\u0027s Gundam (XXXG-00W0) with the ZERO System and Twin Buster Rifle",
+                         "en_short":  "Wing Zero"
+                     },
+                     {
+                         "ja":  "ウィル・ウィプス",
+                         "en":  "Will Wipps",
+                         "kind":  "ship",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Drake Luft\u0027s flagship aura battleship; an enemy ship in Operation 25."
+                     },
+                     {
+                         "ja":  "トールギスIII",
+                         "en":  "Tallgeese III",
+                         "kind":  "unit",
+                         "series":  "Mobile Suit Gundam Wing: Endless Waltz",
+                         "role":  "Final Tallgeese variant (OZ-00MS2B) with a Mega Cannon, piloted by Zechs in Endless Waltz"
+                     },
+                     {
+                         "ja":  "ゴッドガンダム",
+                         "en":  "God Gundam",
+                         "kind":  "unit",
+                         "series":  "Mobile Fighter G Gundam",
+                         "role":  "Domon\u0027s second Mobile Fighter (GF13-017NJII), Neo Japan; God Finger and Hyper Mode (Meikyo Shisui)"
+                     },
+                     {
+                         "ja":  "エステバリス",
+                         "en":  "Aestivalis",
+                         "kind":  "unit",
+                         "series":  "Martian Successor Nadesico",
+                         "role":  "Nergal mass-produced mecha; used alone and in エステバリス隊 (Aestivalis squad/team)."
+                     },
+                     {
+                         "ja":  "ヒメ・ブレン",
+                         "en":  "Hime Brain",
+                         "kind":  "unit",
+                         "series":  "Brain Powerd",
+                         "role":  "Hime Utsumiya\u0027s Brain Powerd"
+                     },
+                     {
+                         "ja":  "ラーカイラム",
+                         "en":  "Ra Cailum",
+                         "kind":  "ship",
+                         "series":  "Mobile Suit Gundam: Char\u0027s Counterattack",
+                         "role":  "Bright Noa\u0027s flagship, dotless spelling used in m6900."
+                     },
+                     {
+                         "ja":  "νガンダム",
+                         "en":  "Nu Gundam"
+                     },
+                     {
+                         "ja":  "エルガイム",
+                         "en":  "L-Gaim",
+                         "kind":  "unit",
+                         "series":  "Heavy Metal L-Gaim",
+                         "role":  "Daba\u0027s white A-class Heavy Metal, a Yaman-built mecha. Later piloted by Amu."
+                     },
+                     {
+                         "ja":  "サーペント",
+                         "en":  "Serpent",
+                         "kind":  "unit",
+                         "series":  "Mobile Suit Gundam Wing: Endless Waltz",
+                         "role":  "Mass-produced heavy-firepower mobile suit (MMS-01) of the Mariemaia Army"
+                     },
+                     {
+                         "ja":  "ドラグナー",
+                         "en":  "Dragonar",
+                         "kind":  "term",
+                         "series":  "Metal Armor Dragonar",
+                         "role":  "The three D-series prototype Metal Armors (D-1, D-2, D-3), also called D-weapons"
+                     },
+                     {
+                         "ja":  "ビルバイン",
+                         "en":  "Billbine",
+                         "kind":  "unit",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Sho\u0027s upgraded, transformable Aura Battler from the Kingdom of Na; Sho\u0027s playable unit in ACE2 (also a camouflage-color version)"
+                     },
+                     {
+                         "ja":  "レイズナー",
+                         "en":  "Layzner",
+                         "kind":  "unit",
+                         "series":  "Blue Comet SPT Layzner",
+                         "role":  "SPT-LZ-00X, Eiji\u0027s experimental Grados SPT with the AI \u0027Rei\u0027 and the V-MAX system."
+                     },
+                     {
+                         "ja":  "ドレイク",
+                         "en":  "Drake",
+                         "kind":  "character",
+                         "series":  "Aura Battler Dunbine",
+                         "gender":  "male",
+                         "role":  "Main antagonist; Lord of House Luft in the Kingdom of Ah (アの国), who summons Holy Warriors and wages war to unite Byston Well; commands the Will Wipps",
+                         "personality":  "Ambitious, scheming warlord who believes his conquest is justified. Loves his daughter Riml but is blind to the plots around him.",
+                         "full_name":  "Drake Luft"
+                     },
+                     {
+                         "ja":  "リリーナ",
+                         "en":  "Relena",
+                         "kind":  "character",
+                         "series":  "Mobile Suit Gundam Wing",
+                         "gender":  "female",
+                         "role":  "Female lead; heir of the Sanc Kingdom (real name Relena Peacecraft), Zechs\u0027s younger sister, and a pacifist leader.",
+                         "personality":  "Idealistic, determined pacifist; dignified and unafraid to confront soldiers.",
+                         "full_name":  "Relena Darlian"
+                     },
+                     {
+                         "ja":  "聖戦士",
+                         "en":  "Holy Warrior",
+                         "kind":  "term",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Title given to surface-world (地上人) pilots summoned to Byston Well; also part of the series title 聖戦士ダンバイン."
+                     },
+                     {
+                         "ja":  "機体",
+                         "en":  "unit / machine",
+                         "kind":  "term",
+                         "note":  "Op 01 uses \u0027unit\u0027 for mecha in general, \u0027machine\u0027 when the speaker is the developer"
+                     }
+                 ],
+    "known_portraits":  {
+
+                        },
+    "unknown_portraits":  [
+
+                          ],
+    "context_before":  [
+
+                       ],
+    "rows":  [
+                 {
+                     "ref":  "m6340#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "敵機体の全撃破",
+                     "en":  "Destroy All Enemy Units",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6342#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "敵機を１００機以上撃破",
+                     "en":  "Destroy 100 or More Enemy Units",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6342#1",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "できるだけ多くの敵機を撃破",
+                     "en":  "Destroy As Many Enemy Units As Possible",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6350#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "ＧＰ０１に勝利",
+                     "en":  "Defeat GP01",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6351#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "ドラグナー１型に勝利",
+                     "en":  "Defeat Dragonar-1",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6352#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "ヒメ・ブレンに勝利",
+                     "en":  "Defeat Hime Brain",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6353#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "ウイングガンダムゼロに勝利",
+                     "en":  "Defeat Wing Gundam Zero",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6354#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "ビルバインに勝利",
+                     "en":  "Defeat Billbine",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6355#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "エルガイムに勝利",
+                     "en":  "Defeat L-Gaim",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6356#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "エステバリス（アキト）に勝利",
+                     "en":  "Defeat Aestivalis (Akito)",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6357#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "レイズナーに勝利",
+                     "en":  "Defeat Layzner",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6358#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "νガンダムに勝利",
+                     "en":  "Defeat Nu Gundam",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6359#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "ゴッドガンダムに勝利",
+                     "en":  "Defeat God Gundam",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6360#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "エステバリス３機に勝利",
+                     "en":  "Defeat 3 Aestivalis Units",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6361#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "スカル小隊に勝利",
+                     "en":  "Defeat Skull Squadron",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "貯蔵庫の全破壊",
+                     "en":  "Destroy All Storage Depots",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#1",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "制限時間の超過",
+                     "en":  "Time Limit Exceeded",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#2",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "ウィル・ウィプスの撃沈",
+                     "en":  "Sink the Will Wips",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#3",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "ＴＡＲＧＥＴ",
+                     "en":  "TARGET",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#4",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+                                    "%d"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "ＯＵＴＰＵＴ%d％",
+                     "en":  "OUTPUT %dï¼…",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#5",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e敵機影確認。\u003cab(100)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eEnemy contact confirmed.\u003cab(100)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#6",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(3000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e識別コードありません\u003cab(3000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eNo identification code.\u003cab(3000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#7",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eターゲットは点在する貯蔵庫だ\u003cab(2000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe targets are the scattered storage depots.\u003cab(2000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#8",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e格納されているのは敵の機密物資らしい\u003cab(2000)\u003e",
+                     "en":  "\u003csp(20)\u003eThey appear to house enemy classified supplies.\u003cab(2000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#9",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1500)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eなんとしても全ての貯蔵庫を\u003cab(1500)\u003e",
+                     "en":  "\u003csp(20)\u003eWe must destroy all storage depots\u003cab(1500)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#10",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e破壊しなければならない\u003cab(2000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eby any means necessary.\u003cab(2000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#11",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e敵は逃走の準備を進めている\u003cab(2000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe enemy is preparing to escape.\u003cab(2000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#12",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e急いで全て貯蔵庫を破壊してくれ\u003cab(2000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eHurry and destroy every storage depot.\u003cab(2000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#13",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e目標の位置情報をそちらに転送した\u003cab(2000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eTransferred target position data to you.\u003cab(2000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#14",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e貯蔵庫は矢印の示す方向にあるぞ\u003cab(2000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eDepots lie in the directions indicated by arrows.\u003cab(2000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#15",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e貯蔵庫の破壊を確認\u003cab(1500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eDestruction of depot confirmed.\u003cab(1500)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#16",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e全ての貯蔵庫の破壊を確認\u003cab(2000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAll storage depots confirmed destroyed.\u003cab(2000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#17",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e敵基地も沈黙したようだな\u003cab(2000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eLooks like the enemy base was silenced too.\u003cab(2000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#18",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eよし、各機ラーカイラムに戻れ\u003cab(2500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAll right, all units return to Ra Cailum.\u003cab(2500)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#19",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1500)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eいや…この感覚は…！\u003cab(1500)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWait... this sensation...!\u003cab(1500)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#20",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e新たな熱源反応！\u003cab(2000)\u003e",
+                     "en":  "\u003csp(20)\u003eNew thermal contact!\u003cab(2000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#21",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e識別はドレイク軍・・・\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003eIdentified as Drake forces...\u003cab(1000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#22",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこれは・・・戦艦ウィル・ウィプスです！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eIt is... the battleship Will Wips!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#23",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eなんだと・・・！\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWhat...?!\u003cab(1000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#24",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e各機、応戦しろ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eAll units, engage!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#25",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eおのれの力の無さを知るがいい\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eKnow the depth of your own powerlessness.\u003cab(1000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#26",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e地上人の聖戦士など不要だということを\u003cab(0)\u003e",
+                     "en":  "\u003csp(20)\u003eThat Holy Warriors from the Upper World are unnecessary,\u003cab(0)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#27",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e私が証明してみせるッ！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eI shall prove it here and now!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#28",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eウィル・ウィプスの破壊を確認！\u003cab(2000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eDestruction of the Will Wips confirmed!\u003cab(2000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#29",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e敵も撤退していくぞ\u003cab(2000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eThe enemy is retreating as well.\u003cab(2000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#30",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1500)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e見事な戦いだ\u003cab(1500)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eA magnificent battle.\u003cab(1500)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#31",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e各機、ラーカイラムに帰還しろ…\u003cab(2000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eAll units, return to the Ra Cailum...\u003cab(2000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#32",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e時間がないぞ、急いでくれ\u003cab(2000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThere is no time, please hurry.\u003cab(2000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#33",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eこのままでは戦線が維持できない\u003cab(2000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAt this rate we cannot hold the battle line.\u003cab(2000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#34",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e敵戦艦の撃破を急いでくれ･･･！\u003cab(2000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eHurry and destroy the enemy battleship...!\u003cab(2000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#35",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e作戦領域の南より新たな熱源反応！\u003cab(2000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eNew thermal contact south of the operation area!\u003cab(2000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#36",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e識別はドレイク軍！\u003cab(1500)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eIdentified as Drake forces!\u003cab(1500)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#37",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e作戦領域の東より新たな熱源反応！\u003cab(2000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eNew thermal contact east of the operation area!\u003cab(2000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#38",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e作戦領域の北より新たな熱源反応！\u003cab(2000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eNew thermal contact north of the operation area!\u003cab(2000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#39",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e敵の逃走を確認！\u003cab(2000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eEnemy retreat confirmed!\u003cab(2000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#40",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eちっ・・・作戦は失敗だ\u003cab(2000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eTch... the operation is a failure.\u003cab(2000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#41",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e各機、ラーカイラムに帰還しろ・・・！\u003cab(2000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eAll units, return to the Ra Cailum...!\u003cab(2000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#42",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eＥ戦区の戦線が崩壊した模様！\u003cab(2000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe front line in Sector E has collapsed!\u003cab(2000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#43",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこれ以上の戦いは危険だ！\u003cab(2000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eFighting any further is dangerous!\u003cab(2000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#44",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e敵機影確認。識別コードありません\u003cab(2000)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eEnemy contact confirmed. No identification code.\u003cab(2000)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#45",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eこいつらは…？\u003cab(2000)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eWho are these guys...?\u003cab(2000)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#46",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e見たこともない機体です！\u003cab(2000)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eUnits never seen before!\u003cab(2000)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#47",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e戦艦クラスの熱源反応を確認\u003cab(500)\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eBattleship-class thermal reading confirmed.\u003cab(500)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#48",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e識別はドレイク軍です！\u003cab(500)\u003e\u003coff()\u003e",
+                     "en":  "\u003csp(20)\u003eIdentified as Drake forces!\u003cab(500)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#49",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e作戦変更、応戦しろ！\u003cab(500)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eChange of plans, return fire!\u003cab(500)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#50",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eドレイクだけを倒せばすむなどとは思わせん\u003cab(500)\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eDo not think defeating Drake alone suffices.\u003cab(500)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#51",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eいくぞ、地上人ども！\u003cab(500)\u003e\u003coff()\u003e",
+                     "en":  "\u003csp(20)\u003eHere we come, Upper Worlders!\u003cab(500)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#52",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eくそっ。いてぇーじゃねーかよ\u003cab(500)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eDamn it. That really hurt!\u003cab(500)\u003e\u003coff()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#53",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eぐっ…、ここまでが\n生身のパイロットの限界というわけか\u003cab(2000)\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eGuh... is this the limit of a\nflesh-and-blood pilot?\u003cab(2000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#54",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eリリーナ…何故、ここに…\u003cab(2000)\u003e",
+                     "en":  "\u003csp(20)\u003eRelena... why are you here...\u003cab(2000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#55",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e強くなったなリリーナ、\nそれでこそピースクラフト家の娘だ\u003cab(2000)\u003e",
+                     "en":  "\u003csp(20)\u003eYou have grown strong, Relena,\ntruly a daughter of the Peacecraft family.\u003cab(2000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6900#56",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(2000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eお前ならきっと、父上の理想とした国を\n導いてゆけるはずだ\u003cab(2000)\u003e",
+                     "en":  "\u003csp(20)\u003eYou will surely guide the nation\nour father envisioned.\u003cab(2000)\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6901#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(3000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eバストアップ　テスト\u003cab(3000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eBust-up test\u003cab(3000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6905#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "サーペントの全撃破",
+                     "en":  "Destroy all Serpents",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6905#1",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "トールギスⅢの撃墜",
+                     "en":  "Shoot down Tallgeese III",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6905#2",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eすごいプレッシャーだ、気をつけろ\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eIncredible pressure, be careful.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6905#3",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eνガンダムは伊達じゃない！\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe Nu Gundam is not just for show!\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  ""
+                 },
+                 {
+                     "ref":  "m6998#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(100)\u003e",
+                                    "\u003cab(5000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(100)\u003eホシノルリ撃滅壊護衛爆\u003cab(5000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(100)\u003eRuri Hoshino test string destroy defend burst\u003cab(5000)\u003e\u003ced()\u003e",
+                     "notes":  "Developer font/system test string."
+                 },
+                 {
+                     "ref":  "m6998#1",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(100)\u003e",
+                                    "②",
+                                    "\u003cab(5000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(100)\u003eロンドベルは鈴を鳴らし②\u003cab(5000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(100)\u003eLondo Bell rings the bell ②\u003cab(5000)\u003e\u003ced()\u003e",
+                     "notes":  "Developer font/system test string."
+                 },
+                 {
+                     "ref":  "m6998#2",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(100)\u003e",
+                                    "③",
+                                    "\u003cab(5000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(100)\u003eロンドベルは鈴を鳴らし③\u003cab(5000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(100)\u003eLondo Bell rings the bell ③\u003cab(5000)\u003e\u003ced()\u003e",
+                     "notes":  "Developer font/system test string."
+                 }
+             ],
+    "context_after":  [
+                          {
+                              "ref":  "m6998#3",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(100)\u003eロンドベルは鈴を鳴らし④\u003cab(5000)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6998#4",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(100)\u003eロンドベルは鈴を鳴らし⑤\u003cab(5000)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          }
+                      ],
+    "report":  {
+                   "translator_summary":  "Group xd batch xd_01 translated. Covers Extra duel mission titles (m6340..m6361), storage depot assault and Will Wips ambush (m6900), Endless Waltz extra mission (m6905), and developer test strings (m6901, m6998).",
+                   "rows_examined":  "All 80 rows translated and checked.",
+                   "rows_examined_count":  80,
+                   "uncertainties":  [
+
+                                     ],
+                   "glossary_proposals":  [
+
+                                          ],
+                   "portrait_speakers":  {
+
+                                         }
+               }
+}

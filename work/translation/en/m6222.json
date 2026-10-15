@@ -1,0 +1,678 @@
+{
+ "table": "m6222",
+ "kind": "mission",
+ "copies": [
+  "42222:m",
+  "6222:m"
+ ],
+ "rows": [
+  {
+   "ids": [
+    1,
+    3
+   ],
+   "jp": "敵勢力の撃破",
+   "en": "Destroy the enemy forces"
+  },
+  {
+   "ids": [
+    2
+   ],
+   "jp": "護衛対象の破壊",
+   "en": "Loss of Escort Target"
+  },
+  {
+   "ids": [
+    4
+   ],
+   "jp": "アシュラ・テンプルの撃破",
+   "en": "Destroy the Ashura Temple"
+  },
+  {
+   "ids": [
+    5
+   ],
+   "jp": "グラドス基地の全破壊",
+   "en": "Destroy All Grados Bases"
+  },
+  {
+   "ids": [
+    10
+   ],
+   "jp": "レジスタンス施設",
+   "en": "Resistance Facility"
+  },
+  {
+   "ids": [
+    11
+   ],
+   "jp": "耐久値%d％",
+   "en": "Durability: %d％"
+  },
+  {
+   "ids": [
+    50
+   ],
+   "jp": "<op()><sp(20)>やられちまう！　援軍はまだか！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>We're done for!\nWhere are the reinforcements?!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    51
+   ],
+   "jp": "<op()><sp(20)>大丈夫か！　助けに来たぞ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Hang on! We're here to help!<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    56
+   ],
+   "jp": "<op()><sp(20)>レジスタンスの脱出を援護してくれ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Cover the resistance's escape!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    61
+   ],
+   "jp": "<op()><sp(20)>この数なら、いけそうだ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>With these numbers, we can do this!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    62
+   ],
+   "jp": "<op()><sp(20)>３時の方向より敵の伏兵です！　<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemy ambush at 3 o'clock!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    63
+   ],
+   "jp": "<op()><sp(20)>しまった！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Damn it!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    64
+   ],
+   "jp": "<op()><sp(20)>嘘！　いつの間に！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>No way! When did they get there?!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    65
+   ],
+   "jp": "<op()><sp(20)>３時の方向に熱源を確認！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Thermal signature at 3 o'clock!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    66
+   ],
+   "jp": "<op()><sp(20)>あの機体、爆薬を積んでいる……！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>That machine is loaded\nwith explosives...!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    67
+   ],
+   "jp": "<op()><sp(20)>施設に特攻するつもりか！？\n敵が来たら施設から離れるな！<ab(800)><ed()>",
+   "en": "<op()><sp(20)>A suicide attack on the facility?!\nStay close to it if enemies approach!<ab(800)><ed()>"
+  },
+  {
+   "ids": [
+    71
+   ],
+   "jp": "<op()><sp(20)>だめだ！\n施設から離れては、みんなが！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>No! If we leave the facility,\neveryone will be in danger!<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    72
+   ],
+   "jp": "<op()><sp(20)>このままでは防戦一方だ……\nなんとかならないのか！？<ab(400)><ed()>",
+   "en": "<op()><sp(20)>We're purely on the defensive...\nCan't we do something?!<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    76
+   ],
+   "jp": "<op()><sp(20)>施設の損傷拡大！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Facility damage increasing!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    81
+   ],
+   "jp": "<op()><sp(20)>施設の損傷、さらに拡大！\nこのままではレジスタンスが……！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Facility damage spreading further!\nAt this rate the resistance will...!<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    91
+   ],
+   "jp": "<op()><sp(20)>施設が破壊されました……<ab(300)><ed()>",
+   "en": "<op()><sp(20)>The facility has been destroyed...<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    92
+   ],
+   "jp": "<op()><sp(20)>みんな……返事をしてくれ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Everyone... Please respond!<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    93
+   ],
+   "jp": "<op()><sp(20)>だめだったか…<ab(500)><ed()>",
+   "en": "<op()><sp(20)>We couldn't save them...<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    96
+   ],
+   "jp": "<op()><sp(20)>敵基地の破壊を確認！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Destruction of enemy base confirmed!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    101
+   ],
+   "jp": "<op()><sp(20)>グラドス部隊がさらに出現！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>More Grados units have appeared!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    102
+   ],
+   "jp": "<op()><sp(20)>…まずいぞ。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>...This is bad.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    103
+   ],
+   "jp": "<op()><sp(20)>別方向から異なるタイプの反応もあります！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Different signatures detected\nfrom another direction!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    104
+   ],
+   "jp": "<op()><sp(20)>こんな時に！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>At a time like this?!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    106
+   ],
+   "jp": "<op()><sp(20)>艦長、レジスタンスから通信です！\n全員、退避完了したそうです！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Captain, message from the resistance!\nThey report all personnel evacuated!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    107
+   ],
+   "jp": "<op()><sp(20)>よし、施設はもう気にしなくていい。\n反撃を開始せよ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Good, forget the facility now.\nBegin the counterattack!<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    111
+   ],
+   "jp": "<op()><sp(20)>ゼクス！？　ゼクス・マーキス！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Zechs?! Zechs Merquise!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    112
+   ],
+   "jp": "<op()><sp(20)>ノイン。\n……元気だったか。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Noin.\n...Have you been well?<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    113
+   ],
+   "jp": "<op()><sp(20)>はい。\n……ゼクス、１年と２日ぶりですね。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Yes. Zechs...\nIt has been a year and two days.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    114
+   ],
+   "jp": "<op()><sp(20)>ガンダムのパイロット、君たちもいるのか。\n遠い宇宙から、よく帰ってきたな。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Gundam pilots, you are here too.\nWelcome back from distant space.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    115
+   ],
+   "jp": "<op()><sp(20)>それが任務だ。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>That was the mission.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    116
+   ],
+   "jp": "<op()><sp(20)>ふっ……相変わらずだな。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Heh... As stoic as ever.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    121
+   ],
+   "jp": "<op()><sp(20)>ゼクス。\n生きていると思っていた。<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Zechs.\nI believed you were alive.<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    122,
+    127
+   ],
+   "jp": "<op()><sp(20)>死んでいたさ。<ab(300)>",
+   "en": "<op()><sp(20)>I was dead.<ab(300)>"
+  },
+  {
+   "ids": [
+    123,
+    128
+   ],
+   "jp": "<sp(20)>だが平和が訪れるまでは、大人しく\n棺桶に眠っているわけにもいかんのでな！<ab(500)><ed()>",
+   "en": "<sp(20)>Yet until peace arrives, I cannot\nquietly sleep inside a coffin!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    124
+   ],
+   "jp": "<op()><sp(20)>ゼクス！\nまた会えて嬉しいぜ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Zechs!\nGood to see you again!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    125
+   ],
+   "jp": "<op()><sp(20)>相変わらず、威勢のいいことだ。\n背後は任せるぞ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>As high-spirited as ever.\nI leave my back to you!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    126
+   ],
+   "jp": "<op()><sp(20)>ゼクス。\nやはり生きていたか。<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Zechs.\nSo you were alive after all.<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    129
+   ],
+   "jp": "<op()><sp(20)>さすがですね、ゼクス！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Splendid as always, Zechs!<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    130
+   ],
+   "jp": "<op()><sp(20)>当然だ。\n背後は任せたぞ、ガンダムのパイロット！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Naturally.\nWatch my back, Gundam pilot!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    136
+   ],
+   "jp": "<op()><sp(20)>敵勢力の壊滅を確認！\n敵部隊、基地共に、反応ありません！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Enemy destruction confirmed!\nNo response from units or bases!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    137
+   ],
+   "jp": "<op()><sp(20)>あざやかな手際だな。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Brilliantly handled.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    141
+   ],
+   "jp": "<op()><sp(20)>新たな機影を確認！<ab(500)>",
+   "en": "<op()><sp(20)>New unit spotted on radar!<ab(500)>"
+  },
+  {
+   "ids": [
+    142
+   ],
+   "jp": "<sp(20)>レーダーに反応多数！<ab(200)>",
+   "en": "<sp(20)>Multiple radar contacts!<ab(200)>"
+  },
+  {
+   "ids": [
+    143
+   ],
+   "jp": "<sp(20)>ポセイダル軍です！<ab(500)><ed()>",
+   "en": "<sp(20)>It is the Poseidal Army!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    145
+   ],
+   "jp": "<op()><sp(20)>……新手か！<ab300)><ed()>",
+   "en": "<op()><sp(20)>...Fresh reinforcements?!<ed()>"
+  },
+  {
+   "ids": [
+    146
+   ],
+   "jp": "<op()><sp(20)>何なの、あれ！？<ab(100)><ed()>",
+   "en": "<op()><sp(20)>What is that thing?!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    147
+   ],
+   "jp": "<op()><sp(20)>あれは、アトールの改造機かしら？\n随分ごちゃごちゃとつけたものね！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Is that a modified A-Taul?\nThey certainly cluttered it up!<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    151
+   ],
+   "jp": "<op()><sp(20)>ギャブレー！！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Gablae!!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    152
+   ],
+   "jp": "<op()><sp(20)>今日は私の都合だけで来たわけじゃない！\nダバ！　死んでもらうぞ！<ab(500)>",
+   "en": "<op()><sp(20)>I have not come today for myself\nalone! Daba! You must die!<ab(500)>"
+  },
+  {
+   "ids": [
+    153
+   ],
+   "jp": "<sp(20)>汚れを知らぬ乙女、クワサン・オリビーを\nギワザの手元には置いておけん！<ab(500)><ed()>",
+   "en": "<sp(20)>I cannot leave the pure maiden\nQuwasan Olibee in Giwaza's hands!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    154
+   ],
+   "jp": "<op()><sp(20)>クワサン・オリビーだと！？　お前……<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Quwasan Olibee?! You...<ab(0)><ed()>"
+  },
+  {
+   "ids": [
+    155
+   ],
+   "jp": "<op()><sp(20)>クワサン・オリビーを助けるためには、\n貴様の命を持っていかねばならんのだ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>To save Quwasan Olibee,\nI must take your life!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    156
+   ],
+   "jp": "<op()><sp(20)>クワサン・オリビーは俺が助ける！\n貴様が助ける筋合いはない！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>I will save Quwasan Olibee myself!\nYou have no business saving her!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    157
+   ],
+   "jp": "<op()><sp(20)>ならば、貴様はクワサンに惚れているのか！\n惚れた男が女を助けるのは筋だ。<ab(500)>",
+   "en": "<op()><sp(20)>Then are you in love with Quwasan?!\nIt's only right her lover saves her.<ab(500)>"
+  },
+  {
+   "ids": [
+    158
+   ],
+   "jp": "<sp(20)>他人のダバに筋合いをどうのと\n言われる筋はない！<ab(500)><ed()>",
+   "en": "<sp(20)>An outsider like Daba has no right\nto lecture me on what is proper!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    159
+   ],
+   "jp": "<op()><sp(20)>それは兄として許さん！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>As her brother, I won't allow it!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    160
+   ],
+   "jp": "<op()><sp(20)>なんだと？　なんと言った！？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>What?! What did you just say?!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    161
+   ],
+   "jp": "<op()><sp(20)>クワサン・オリビーは\nヤーマン狩りに利用された女なんだ！<ab(300)>",
+   "en": "<op()><sp(20)>Quwasan Olibee was used\nin the Yaman purge!<ab(300)>"
+  },
+  {
+   "ids": [
+    162
+   ],
+   "jp": "<sp(20)>ギャブレーが惚れる資格のある女じゃない！<ab(500)><ed()>",
+   "en": "<sp(20)>She's no woman Gablae\nis qualified to love!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    163
+   ],
+   "jp": "<op()><sp(20)>資格だと！？　愛に資格があるものか！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Qualified?! What qualification\nis ever needed for love?!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    164
+   ],
+   "jp": "<op()><sp(20)>ちょっと！　あんたら何やってんの！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Hey! What are you two doing?!<ab(0)><ed()>"
+  },
+  {
+   "ids": [
+    165
+   ],
+   "jp": "<op()><sp(20)>女はひっこんでろ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Stay out of this, woman!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    169
+   ],
+   "jp": "<op()><sp(20)>ごめん！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Sorry!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    171
+   ],
+   "jp": "<op()><sp(20)>貴様を仕留めるのはこの私だ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>I am the one who will finish you!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    172
+   ],
+   "jp": "<op()><sp(20)>思い通りにはさせん！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>I won't let you have your way!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    173
+   ],
+   "jp": "<op()><sp(20)>ザコに構う必要はない！\n目標に集中しろ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Ignore the small fry!\nFocus on the target!<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    176
+   ],
+   "jp": "<op()><sp(20)>打倒ポセイダルだけしか考えられない貴様に\n愛の痛みがわかるか！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>You only think of defeating Poseidal!\nWhat do you know of love's pain?!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    177
+   ],
+   "jp": "<op()><sp(20)>一目ぼれなんて、愛じゃないんだよ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Love at first sight isn't real love!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    178
+   ],
+   "jp": "<op()><sp(20)>愛にしてみせると言っている！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>I told you I'll make it into love!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    179
+   ],
+   "jp": "<op()><sp(20)>ギワザが言うとおりにする男だと\n思っているのか！　脳天気め！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Do you think I obey Giwaza blindly?!\nYou naive fool!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    180
+   ],
+   "jp": "<op()><sp(20)>じゃあ！　どうしたらクワサン・オリビーを\nギワザから取り戻せるんだ！<ab(300)>",
+   "en": "<op()><sp(20)>Then how do you expect to win back\nQuwasan Olibee from Giwaza?!<ab(300)>"
+  },
+  {
+   "ids": [
+    181
+   ],
+   "jp": "<sp(20)>ギワザの人形のようにされている\nクワサンの悲しさを…<ab(0)>",
+   "en": "<sp(20)>The sorrow of Quwasan, turned\ninto Giwaza's puppet...<ab(0)>"
+  },
+  {
+   "ids": [
+    182
+   ],
+   "jp": "<sp(20)>お前は知らないんだよ！<ab(400)><ed()>",
+   "en": "<sp(20)>you know nothing of it!<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    183
+   ],
+   "jp": "<op()><sp(20)>クワサンがギワザの人形！？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Quwasan is Giwaza's puppet?!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    184
+   ],
+   "jp": "<op()><sp(20)>あの美しい少女が、\nギワザごとき男の人形なぞ！<ab(100)>",
+   "en": "<op()><sp(20)>That beautiful maiden, the puppet\nof a man the likes of Giwaza?!<ab(100)>"
+  },
+  {
+   "ids": [
+    185
+   ],
+   "jp": "<sp(20)>想像するのも汚らわしい！<ab(600)><ed()>",
+   "en": "<sp(20)>It is filthy to even imagine!<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    186
+   ],
+   "jp": "<op()><sp(20)>ギャブレー……君の言葉、信じよう。<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Gablae... I will believe your words.<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    187
+   ],
+   "jp": "<op()><sp(20)>そうか。　信じてくれるか。\nならば素直に！　死んでくれ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>I see. You believe me?\nThen be a good boy and die!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    188
+   ],
+   "jp": "<op()><sp(20)>ダバ！　愛の話、\nケリをつけてみせるからな！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Daba! I will settle this\nmatter of love once and for all!<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    189
+   ],
+   "jp": "<op()><sp(20)>ケリをつける必要などない！\nクワサン・オリビーのことは忘れろ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>There's no need to settle anything!\nForget about Quwasan Olibee!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    191
+   ],
+   "jp": "<op()><sp(20)>敵が退いていきます！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>The enemy is pulling back!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    196
+   ],
+   "jp": "<op()><sp(20)>なんとか、退けたようだな。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Seems we managed to repel them.<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    197
+   ],
+   "jp": "<op()><sp(20)>シナプス艦長、プリベンター本部の指示で\n貴艦に合流いたします。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Captain Sinapus, by order of Preventer\nHQ, I will be joining your ship.<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    198
+   ],
+   "jp": "<op()><sp(20)>君が作戦に参加してくれるのは心強い。\nよし、グラドスタワーの制圧を開始する。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Having you with us is reassuring.\nAll units, begin taking Grados Tower.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    201
+   ],
+   "jp": "<on()><sp(20)>レジスタンスが逃げ込んだ施設は\n完全に包囲されています！<ab(0)><off()>",
+   "en": "<on()><sp(20)>The resistance facility\nis completely surrounded!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    202
+   ],
+   "jp": "<on()><sp(20)>救出を急ぐぞ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Hurry to their rescue!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    203
+   ],
+   "jp": "<on()><sp(20)>みんな…持ちこたえてくれ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Everyone... Hold on!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    204
+   ],
+   "jp": "<on()><sp(20)>あれは！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Look there!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    205
+   ],
+   "jp": "<on()><sp(20)>…やっと来たか。<ab(0)><off()>",
+   "en": "<on()><sp(20)>...Finally here, are you?<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    206
+   ],
+   "jp": "<on()><sp(20)>こちらはプリベンター・ウインド！\nただ今よりそちらを援護する！<ab(0)><off()>",
+   "en": "<on()><sp(20)>This is Preventer Wind!\nProviding backup immediately!<ab(0)><off()>"
+  }
+ ]
+}

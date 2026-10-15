@@ -1,0 +1,481 @@
+{
+ "table": "m6122",
+ "kind": "mission",
+ "copies": [
+  "42122:m",
+  "6122:m"
+ ],
+ "rows": [
+  {
+   "ids": [
+    1
+   ],
+   "jp": "１１隻以上の敵艦を撃破",
+   "en": "Destroy 11 or more enemy ships"
+  },
+  {
+   "ids": [
+    2
+   ],
+   "jp": "５隻以上の敵艦が領域を離脱",
+   "en": "5 or more enemy ships escape the area"
+  },
+  {
+   "ids": [
+    3
+   ],
+   "jp": "敵勢力の撃破",
+   "en": "Destroy the enemy forces"
+  },
+  {
+   "ids": [
+    10
+   ],
+   "jp": "敵艦逃走数",
+   "en": "Escaped Enemy Ships"
+  },
+  {
+   "ids": [
+    11
+   ],
+   "jp": "%d隻",
+   "en": "%d Ships"
+  },
+  {
+   "ids": [
+    50
+   ],
+   "jp": "<op()><sp(20)>敵を要塞の方へ行かせるな。\nできるだけここで止めるんだ。<ab(800)><ed()>",
+   "en": "<op()><sp(20)>Don't let enemies reach the fortress.\nStop them here as best you can.<ab(800)><ed()>"
+  },
+  {
+   "ids": [
+    51
+   ],
+   "jp": "<op()><sp(20)>さっさと終わらせてしまおう。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Let's finish this quickly.<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    52
+   ],
+   "jp": "<op()><sp(20)>ターゲットの位置を転送します。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Transmitting target coordinates.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    53
+   ],
+   "jp": "<op()><sp(20)>ＵＣＥの部隊を確認！\nあれは…アルビオンです。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>UCE unit confirmed!\nThat's... the Albion.<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    54
+   ],
+   "jp": "<op()><sp(20)>あれが噂に聞く精鋭部隊…\nだが今は要塞への帰還が優先だ。<ab(100)><ed()>",
+   "en": "<op()><sp(20)>So that's the rumored elite unit...\nPriority is returning to base!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    55
+   ],
+   "jp": "<sp(20)>全速力で振りきれ。<ab(200)><ed()>",
+   "en": "<sp(20)>Break away at full speed.<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    56
+   ],
+   "jp": "<op()><sp(20)>はっ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Yes, sir!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    57
+   ],
+   "jp": "<op()><sp(20)>ザコにかまう必要はない。\n目標に集中しろ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Ignore the small fry!\nFocus on the target!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    58
+   ],
+   "jp": "<op()><sp(20)>友軍が撃沈されました！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>An allied ship has been sunk!<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    59
+   ],
+   "jp": "<op()><sp(20)>迎撃、まだか！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Where is our interception?!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    60
+   ],
+   "jp": "<op()><sp(20)>３番艦が！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Ship Number 3 is hit!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    61
+   ],
+   "jp": "<op()><sp(20)>さすが話に聞くだけのことはある！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Living up to your reputation!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    62
+   ],
+   "jp": "<op()><sp(20)>これだけやれば十分だろう。\nあとは可能な限り頼む。<ab(600)><ed()>",
+   "en": "<op()><sp(20)>This should be enough.\nTake out as many more as you can.<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    63,
+    64,
+    66
+   ],
+   "jp": "<op()><sp(20)>目標の突破を許しました。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Target has broken through.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    65
+   ],
+   "jp": "<op()><sp(20)>このままだとまずい…<ab(200)><ed()>",
+   "en": "<op()><sp(20)>At this rate, we're in trouble...<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    67
+   ],
+   "jp": "<op()><sp(20)>これ以上はまずい…！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Any more than this is bad...!<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    68
+   ],
+   "jp": "<op()><sp(20)>突破した敵艦と友軍が交戦に入りました！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Breaching enemy ships are engaging\nour allied forces!<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    69
+   ],
+   "jp": "<op()><sp(20)>間に合わなかったか…<ab(800)><ed()>",
+   "en": "<op()><sp(20)>We didn't make it in time...<ab(800)><ed()>"
+  },
+  {
+   "ids": [
+    70
+   ],
+   "jp": "<op()><sp(20)>作戦目標は達成しました。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Mission objective achieved.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    71
+   ],
+   "jp": "<op()><sp(20)>よし、すぐに戻ってくれ。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Good. Return immediately.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    72
+   ],
+   "jp": "<op()><sp(20)>全ターゲットの破壊を確認。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>All targets confirmed destroyed.<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    73
+   ],
+   "jp": "<op()><sp(20)>まったく、なんという腕前だ。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Good grief, what incredible skill.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    74
+   ],
+   "jp": "<op()><sp(20)>チューリップ、本艦の背後に接近！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>A Chulip is approaching behind us!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    75
+   ],
+   "jp": "<op()><sp(20)>なに！？　いつの間に！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>What?! When did it get here?!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    76
+   ],
+   "jp": "<op()><sp(20)>チュ、チューリップ、\nバッタを射出します！<ab(200)>",
+   "en": "<op()><sp(20)>Th-The Chulip is launching Batta!<ab(200)>"
+  },
+  {
+   "ids": [
+    77
+   ],
+   "jp": "<sp(20)>……前後を挟まれました！<ab(400)><ed()>",
+   "en": "<sp(20)>...We're caught in a pincer attack!<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    78
+   ],
+   "jp": "<op()><sp(20)>絶妙のタイミングで出してきたわね……<ab(500)><ed()>",
+   "en": "<op()><sp(20)>They timed that remarkably well...<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    79
+   ],
+   "jp": "<op()><sp(20)>このままでは艦が危ない！\n各銃座、応戦せよ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>The ship is in danger!\nAll gun turrets, return fire!<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    80
+   ],
+   "jp": "<op()><sp(20)>さらに増援！\nきりがありません！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>More reinforcements!\nThere's no end to them!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    81
+   ],
+   "jp": "<op()><sp(20)>友軍が包囲されています！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Allied forces are surrounded!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    82
+   ],
+   "jp": "<op()><sp(20)>まずい…完全に劣勢だな。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Bad... We're totally overwhelmed.<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    83
+   ],
+   "jp": "<op()><sp(20)>１時の方向に熱源を確認！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Heat signature at 1 o'clock!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    84
+   ],
+   "jp": "<op()><sp(20)>なんだと！？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>What did you say?!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    85
+   ],
+   "jp": "<op()><sp(20)>ルリちゃん、状況は？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Ruri, what's the situation?<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    86
+   ],
+   "jp": "<op()><sp(20)>アルビオンが交戦中のようです。\n完全に囲まれちゃってます。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Albion appears to be engaged.\nThey are completely surrounded.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    87
+   ],
+   "jp": "<op()><sp(20)>あたしらがエステバリスで出りゃいいんだよ！\nこっちはいつでもＯＫだぜ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>We just gotta launch in Aestivalis!\nWe're ready to go anytime!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    88
+   ],
+   "jp": "<op()><sp(20)>そういうわけで、出撃してまーす！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>And that's why we're sortiiing!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    89
+   ],
+   "jp": "<op()><sp(20)>ふふふ…<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Fufufu...<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    90
+   ],
+   "jp": "<op()><sp(20)>さっきのがグラビティブラスト…\nすごいな、敵を一掃してしまった…<ab(400)><ed()>",
+   "en": "<op()><sp(20)>That was the Gravity Blast...\nIncredible, it wiped out the enemy...<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    91
+   ],
+   "jp": "<op()><sp(20)>ちょっとしたタイミングと角度の問題よ。<ab(100)><ed()>",
+   "en": "<op()><sp(20)>It is merely a matter of\ntiming and angle.<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    92
+   ],
+   "jp": "<sp(20)>ナデシコの火力をもってすれば、\nこれぐらいのことはさほど難しくはないわ。<ab(500)><ed()>",
+   "en": "<sp(20)>With the Nadesico's firepower,\nsomething like this isn't hard at all.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    93
+   ],
+   "jp": "<op()><sp(20)>……今の人は？<ab(100)><ed()>",
+   "en": "<op()><sp(20)>...Who was that just now?<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    94
+   ],
+   "jp": "<op()><sp(20)>えーとですね……火星コロニーの……\nその、最後の生き残りで……<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Umm, well... she is the... um,\nlast survivor of the Mars colony...<ab(0)><ed()>"
+  },
+  {
+   "ids": [
+    95
+   ],
+   "jp": "<sp(20)>イネス・フレサンジュさんです。\nナデシコの設計者だそうです。<ab(300)><ed()>",
+   "en": "<sp(20)>Her name is Inez Fressange.\nApparently she designed the Nadesico.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    96
+   ],
+   "jp": "<op()><sp(20)>よろしく。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Pleased to meet you.<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    97
+   ],
+   "jp": "<op()><sp(20)>じゃあ皆さん！\n残りの敵を一掃しちゃってください！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>All right, everyone! Go wipe out\nthe remaining enemies for us!<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    98
+   ],
+   "jp": "<op()><sp(20)>あ、ヤマダさん、おひさしぶり！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Ah, Yamada, long time no see!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    99
+   ],
+   "jp": "<op()><sp(20)>ガイ！　大丈夫だったか！？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Gai! You're okay?!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    100
+   ],
+   "jp": "<op()><sp(20)>おう！　俺は不死身だぜ！\n悪党どもから地球の平和を守っていこうぜ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Yeah! I'm immortal!\nLet's defend Earth from villains!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    101
+   ],
+   "jp": "<op()><sp(20)>……いいのかな、地球のことだけ考えてて。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>...Is it okay to only think of Earth?<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    102
+   ],
+   "jp": "<op()><sp(20)>何言ってんだ！　お前、地球人だろ？\n地球の平和を守るのは当たり前だろ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>What?! You're an Earthling, right?\nOf course we protect Earth's peace!<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    103
+   ],
+   "jp": "<op()><sp(20)>……そのためなら、戦争してもいいってのか？\n敵なら、死んでもいいのか？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>...Does that make war okay? If they're\nenemies, is it okay if they die?<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    104
+   ],
+   "jp": "<op()><sp(20)>……う。<ab(700)><ed()>",
+   "en": "<op()><sp(20)>...Ugh.<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    105
+   ],
+   "jp": "<op()><sp(20)>今はそのようなことを\n考えている場合ではない！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Now is not the time\nto be thinking about that!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    106
+   ],
+   "jp": "<sp(20)>軍の作戦行動中だぞ！<ab(300)><ed()>",
+   "en": "<sp(20)>We're in the middle of an operation!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    107
+   ],
+   "jp": "<op()><sp(20)>……はい。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>...Yes, sir.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    108
+   ],
+   "jp": "<op()><sp(20)>友軍機以外の反応、ありません。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>No contacts other than friendlies.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    109
+   ],
+   "jp": "<op()><sp(20)>さてと、シナプス艦長！\nこれよりナデシコはアルビオンを援護します！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Now then, Captain Sinapus!\nThe Nadesico will support the Albion!<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    110
+   ],
+   "jp": "<op()><sp(20)>奇妙な縁だが…今は助かる。\nよろしく頼みます。<ab(900)><ed()>",
+   "en": "<op()><sp(20)>A strange twist of fate... but helpful.\nWe're counting on you.<ab(900)><ed()>"
+  },
+  {
+   "ids": [
+    201
+   ],
+   "jp": "<on()><sp(20)>目標を確認しました。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Target confirmed.<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    202
+   ],
+   "jp": "<on()><sp(20)>お待たせしました！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Sorry to keep you waiting!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    203
+   ],
+   "jp": "<on()><sp(20)>機動戦艦ナデシコ、火星よりただいま戻りました！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Mobile Battleship Nadesico has returned\nfrom Mars!<ab(0)><off()>"
+  }
+ ]
+}

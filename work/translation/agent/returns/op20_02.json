@@ -1,0 +1,1834 @@
+{
+ "batch": "op20_02",
+ "operation": 20,
+ "previous_batch": "op20_01",
+ "next_batch": "op20_03",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "ゼントラーディ",
+   "en": "Zentradi",
+   "kind": "faction",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Race/faction of giant humanoid warriors; main antagonists."
+  },
+  {
+   "ja": "ポセイダル軍",
+   "en": "Poseidal Army",
+   "kind": "faction",
+   "series": "Heavy Metal L-Gaim",
+   "role": "The military of Emperor Poseidal that rules the Pentagona World; the main antagonist force of L-Gaim."
+  },
+  {
+   "ja": "バルキリー",
+   "en": "Valkyrie",
+   "kind": "unit",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "U.N. Spacy VF-1 variable fighter series."
+  },
+  {
+   "ja": "フォッカー",
+   "en": "Focker",
+   "kind": "character",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "gender": "male",
+   "role": "Skull Squadron leader, veteran ace VF-1S pilot and Hikaru's senpai/mentor.",
+   "personality": "Brave, easygoing 'man's man' and ladies' man; rough exterior hiding compassion and humor even in grim situations.",
+   "full_name": "Roy Focker"
+  },
+  {
+   "ja": "フォールド",
+   "en": "fold",
+   "kind": "term",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Space-jump (fold) drive of the Macross; Nadesico gets caught in the Macross space fold."
+  },
+  {
+   "ja": "ポセイダル",
+   "en": "Poseidal",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "female",
+   "role": "Emperor ruling the Pentagona World from Sveto on Gastogal; supreme commander of the Poseidal Army. The Poseidal on the throne is actually Mian Qu Ha Ussher, a puppet of the true Poseidal (Amandara Kamandara). In ACE2 'Poseidal' is the pilot of the Aug.",
+   "personality": "Regal, cold and imperious ruler who controls others (e.g. Quwasan) through the bio-relation system; her memories are themselves manipulated, and she finally turns against Amandara.",
+   "full_name": "Oldna Poseidal"
+  },
+  {
+   "ja": "シナプス",
+   "en": "Sinapus",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Earth Federation captain (Captain, 大佐) of the assault carrier Albion; leads the pursuit of the stolen GP02.",
+   "personality": "Grizzled veteran with a commanding presence and keen tactical mind; relies on his own judgement and sense of right and wrong.",
+   "full_name": "Eyphar Sinapus"
+  },
+  {
+   "ja": "マクロス",
+   "en": "Macross",
+   "kind": "ship",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "SDF-1 Macross, the U.N. Spacy super-dimensional fortress (human flagship)."
+  },
+  {
+   "ja": "早瀬未沙",
+   "en": "Misa Hayase",
+   "kind": "character",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "gender": "female",
+   "role": "U.N. Spacy officer (Lieutenant), bridge officer/coordinator of the SDF-1 Macross.",
+   "personality": "Stern, by-the-book, duty-bound officer with little humor at work; softens and grows close to Hikaru.",
+   "en_short": "Misa"
+  },
+  {
+   "ja": "ギワザ",
+   "en": "Giwaza",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "male",
+   "role": "Seat no. 3 and de facto leader of Poseidal's Thirteen, the highest-ranking officer after Poseidal; rebels against Poseidal with his own fleet (the Giwaza fleet) and is killed in the final battle.",
+   "personality": "Capable, cold, calculating and ambitious; uses and discards people, including his lover Nei Mo Han; a political schemer.",
+   "full_name": "Giwaza Lowau"
+  },
+  {
+   "ja": "マリナ",
+   "en": "Marina",
+   "kind": "character",
+   "series": "Another Century's Episode 2 (original)",
+   "gender": "female",
+   "role": "ACE2 heroine; Ensign in Tak's squad, pilot of the red Gun Ark; goes missing at Torrington Base, reappears with the Rainen Project in the Buster Ark, later rejoins Tak.",
+   "personality": "Cool and reserved ('defrosting ice queen' in flashbacks); deeply bonded with Tak.",
+   "full_name": "Marina Carson"
+  },
+  {
+   "ja": "一条輝",
+   "en": "Hikaru Ichijyo",
+   "kind": "character",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "gender": "male",
+   "role": "Protagonist of Macross DYRL; former civilian stunt flyer turned U.N. Spacy VF-1 Valkyrie pilot (Skull Squadron).",
+   "personality": "Hot-headed, impulsive and stubborn young pilot who grows into responsibility; caught in a love triangle between Minmay and Misa.",
+   "en_short": "Hikaru"
+  },
+  {
+   "ja": "中尉",
+   "en": "Lieutenant",
+   "en_short": "Lt.",
+   "kind": "rank"
+  },
+  {
+   "ja": "大尉",
+   "en": "Captain",
+   "en_short": "Capt.",
+   "kind": "rank",
+   "note": "army/MS rank; a ship's captain (艦長) is also Captain"
+  },
+  {
+   "ja": "少佐",
+   "en": "Major",
+   "kind": "rank"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {
+  "40": {
+   "speaker": "Misa Hayase",
+   "gender": "female",
+   "role": "Macross bridge officer (callsign Delta 1)",
+   "confidence": "high",
+   "evidence": "brief: 'こちらデルタ１。' (Delta 1 is Misa's callsign in Macross DYRL); confirmed by brief63124#2"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6201#44",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>艦長、監視衛星からの連絡です！<ab(500)>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#45",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>主砲ビームは、月軌道内２８万キロ地点で\n宇宙船らしき物を撃破。<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#46",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>さらに後続の宇宙船多数、急速接近中！<ab(900)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#47",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ふ、ふふふふふふ……ははははははは！<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#48",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>艦長！？<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#49",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ハメられたんだよ、我々は！\nブービートラップに！<ab(500)>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#50",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>この船は異星人がしかけた、\nブービートラップだったんだよ！<ab(800)>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#51",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>おそらく、敵対する宇宙人が現われると<ab(0)>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#52",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>自動防衛システムが作動するように\nプログラムしてあったのだろう。<ab(700)>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#53",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>おかげで我々は、異星人同士の戦争に\n巻き込まれるハメになったわけだ！<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#54",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>高速で接近する機影があります！<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6201#55",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>…バスターアークです！<ab(300)><ed()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6201#56",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あいつは…！　来たか、マリナ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>That machine...! You came, Marina!<ab(500)><ed()>",
+   "notes": "Tak recognizes Marina piloting the Buster Ark."
+  },
+  {
+   "ref": "m6201#57",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……今回は護衛つきのようですね。<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>...It seems you have an escort\nthis time.<ab(1000)><ed()>",
+   "notes": "Marina Carson observing Tak and allied forces."
+  },
+  {
+   "ref": "m6201#58",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>私がやらなくては…<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>I must do this...<ab(1000)><ed()>",
+   "notes": "Marina speaking to herself."
+  },
+  {
+   "ref": "m6201#59",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>マリナ、聞こえているか？\nもう一度話をしよう。<ab(1200)><ed()>",
+   "en": "<op()><sp(20)>Marina, can you hear me?\nLet us talk one more time.<ab(1200)><ed()>",
+   "notes": "Tak Kepford trying to communicate with Marina."
+  },
+  {
+   "ref": "m6201#60",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……聞かないなら\n力づくしかないな。<ab(700)><ed()>",
+   "en": "<op()><sp(20)>...If you will not listen,\nI have to use force.<ab(700)><ed()>",
+   "notes": "Tak resolving to disable the Buster Ark."
+  },
+  {
+   "ref": "m6201#61",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ポセイダルの増援！？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Poseidal reinforcements!?<ab(300)><ed()>",
+   "notes": "Allied pilot / Tak reaction to Poseidal forces."
+  },
+  {
+   "ref": "m6201#62",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よいか！　あの機体を捕らえ、\nギワザ様に献上するのだ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Listen up! Capture that machine\nand present it to Lord Giwaza!<ab(600)><ed()>",
+   "notes": "Poseidal commander ordering capture of the Buster Ark."
+  },
+  {
+   "ref": "m6201#63",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やはりポセイダル軍は、\nあいつを狙っている…<ab(500)><ed()>",
+   "en": "<op()><sp(20)>The Poseidal forces really are\nafter her...<ab(500)><ed()>",
+   "notes": "Tak realizing Giwaza's intent to capture Marina."
+  },
+  {
+   "ref": "m6201#64",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>逃がすな！　追えーっ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Do not let it escape! Pursue it!<ab(200)><ed()>",
+   "notes": "Poseidal pilot pursuing Buster Ark."
+  },
+  {
+   "ref": "m6201#65",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ギワザめ…あの機体を利用する気か！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Damn Giwaza... He intends to use\nthat machine!<ab(500)><ed()>",
+   "notes": "Tak recognizing Giwaza's ambitions."
+  },
+  {
+   "ref": "m6201#67",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>もう、俺には止められないのか…<ab(800)><ed()>",
+   "en": "<op()><sp(20)>Can I not stop her anymore...?<ab(800)><ed()>",
+   "notes": "Tak lamenting his inability to reach Marina."
+  },
+  {
+   "ref": "m6201#68",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>周辺地域を制圧した。\n各機、全速でマクロスへ向かえ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>The surrounding area is secured.\nAll units, head to Macross at top speed!<ab(600)><ed()>",
+   "notes": "Allied commander ordering rendezvous at SDF-1 Macross."
+  },
+  {
+   "ref": "m6201#69",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やはりこの惑星に隠れておったのか……<ab(600)>",
+   "en": "<op()><sp(20)>So it was hiding on this planet\nafter all...<ab(600)>",
+   "notes": "Zentradi commander detecting the SDF-1 Macross."
+  },
+  {
+   "ref": "m6201#70",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(900)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>全艦に発令！\nインファイトゾーンに突入する！<ab(900)><ed()>",
+   "en": "<sp(20)>Order to all ships!\nCharge into the close-combat zone!<ab(900)><ed()>",
+   "notes": "Zentradi commander ordering fleet to engage Macross."
+  },
+  {
+   "ref": "m6201#73",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>６時の方向に熱源を確認！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Heat source detected at 6 o'clock!<ab(400)><ed()>",
+   "notes": "Bridge operator detecting thermal signature."
+  },
+  {
+   "ref": "m6201#74",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>主砲が、作動します！<ab(0)><off()>",
+   "en": "<on()><sp(20)>The main cannon is activating!<ab(0)><off()>",
+   "notes": "Bridge operator warning that the main cannon is firing automatically."
+  },
+  {
+   "ref": "brief63124#2",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 40,
+   "tokens": [
+    "<op(40,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "<im(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(40,1)><sp(2)>こちら<im(1)>デルタ１。\n<im(2)>回線を開いてください。",
+   "en": "<op(40,1)><sp(2)>This is <im(1)>Delta 1.\n<im(2)>Please open a channel.",
+   "notes": "Misa Hayase (portrait 40) opening comm line in tactical briefing."
+  },
+  {
+   "ref": "brief63124#3",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 40,
+   "tokens": [
+    "<op(40,1)>",
+    "<sp(2)>",
+    "<im(6)>",
+    "<im(8)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(40,1)><sp(2)>先ほどの戦闘における主砲の発射で、\n<im(6)>衛星<im(8)>軌道に展開する#c[BE5050]異星人の艦隊#cに、\n本艦の位置を察知されました。",
+   "en": "<op(40,1)><sp(2)>The earlier main cannon fire alerted\nthe <im(6)>forces in <im(8)>orbit, the #c[BE5050]alien fleet#c,\nto this ship's position.",
+   "notes": "Misa Hayase explaining how the booby trap gave away Macross's location."
+  },
+  {
+   "ref": "brief63124#4",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 40,
+   "tokens": [
+    "<op(40,1)>",
+    "<sp(2)>",
+    "<im(3)>",
+    "#c[F07141]",
+    "<im(5)>",
+    "#c",
+    "<tr(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(40,1)><sp(2)>現在、本艦は敵の攻撃を受けています。\n<im(3)>ただちに#c[F07141]マクロス<im(5)>の防衛#cに<tr(1)>入ってください。",
+   "en": "<op(40,1)><sp(2)>This ship is currently under enemy attack.\n<im(3)>Please proceed with the #c[F07141]defense <im(5)>of Macross#c<tr(1)>\nimmediately.",
+   "notes": "Misa Hayase issuing defense orders. Tokens match exact sequence."
+  },
+  {
+   "ref": "brief63124#5",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 40,
+   "tokens": [
+    "<op(40,1)>",
+    "<sp(2)>",
+    "<im(10)>",
+    "<of(1)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(40,1)><sp(2)>こち<im(10)>らからは、<of(1)>#c[5E8FD8]スカル小隊#cの発艦を\n許可します。",
+   "en": "<op(40,1)><sp(2)>From our end, <im(10)>we have <of(1)>authorized\nthe launch of #c[5E8FD8]Skull Squadron#c.",
+   "notes": "Misa Hayase authorizing Skull Squadron sortie."
+  },
+  {
+   "ref": "m6202#1",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "マクロスの撃沈",
+   "en": "Destruction of Macross",
+   "notes": "Mission loss condition."
+  },
+  {
+   "ref": "m6202#2",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "マクロス",
+   "en": "Macross",
+   "notes": "Target name."
+  },
+  {
+   "ref": "m6202#4",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>本艦は現在、異星人と交戦中である！\nこれは演習ではない。<ab(200)>",
+   "en": "<op()><sp(20)>This ship is engaging alien forces!\nThis is not a drill.<ab(200)>",
+   "notes": "Global ship-wide broadcast."
+  },
+  {
+   "ref": "m6202#5",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>繰り返す、これは演習ではない！<ab(300)>",
+   "en": "<sp(20)>I repeat, this is not a drill!<ab(300)>",
+   "notes": "Global broadcast continuation."
+  },
+  {
+   "ref": "m6202#6",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>敵の数が多すぎて、\n攻撃を完全に防ぐことはできません。<ab(400)>",
+   "en": "<sp(20)>There are too many enemies to fully\ndefend against every attack.<ab(400)>",
+   "notes": "Global / Misa situation update."
+  },
+  {
+   "ref": "m6202#7",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>可能な限り早く敵を排除して、\n本艦の損傷を最小限に留めてください！<ab(500)><ed()>",
+   "en": "<sp(20)>Eliminate the enemy quickly and keep\nthis ship's damage to a minimum!<ab(500)><ed()>",
+   "notes": "Global / Misa order to player units."
+  },
+  {
+   "ref": "m6202#8",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こいつらがシナプス艦長の言ってた…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>So these are the ones\nCapt. Sinapus spoke of...<ab(0)><ed()>",
+   "notes": "Allied pilot recalling Sinapus's briefing on Zentradi."
+  },
+  {
+   "ref": "m6202#9",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ゼントラーディとか言う異星人か！？<ab(400)><ed()>",
+   "en": "<op()><sp(20)>The aliens called Zentradi!?<ab(400)><ed()>",
+   "notes": "Pilot identifying Zentradi forces."
+  },
+  {
+   "ref": "m6202#10",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>とにかく、敵なのは確かだ！　迎撃するぞ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Either way, they are enemies!\nIntercept them!<ab(500)><ed()>",
+   "notes": "Squad leader / pilot ordering interception."
+  },
+  {
+   "ref": "m6202#11",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>周辺の市街地は危険だ。\n市民を艦内に避難させろ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>The city area is in danger.\nEvacuate civilians into the ship!<ab(500)><ed()>",
+   "notes": "Global / Macross officer ordering South Ataria civilian evacuation."
+  },
+  {
+   "ref": "m6202#12",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>フォッカー少佐！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Major Focker!<ab(100)><ed()>",
+   "notes": "Capt. Burning or allied officer addressing Roy Focker."
+  },
+  {
+   "ref": "m6202#13",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よお、大尉！　今回はスマンな。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Hey, Captain! Sorry about this.<ab(200)><ed()>",
+   "notes": "Roy Focker greeting Captain Burning."
+  },
+  {
+   "ref": "m6202#14",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>少佐、彼は？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Major, who is he?<ab(200)><ed()>",
+   "notes": "Burning noticing Hikaru Ichijyo in formation."
+  },
+  {
+   "ref": "m6202#15",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こいつは一条輝。　見てのとおり腕は確かだ。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>This is Hikaru Ichijyo.\nAs you can see, his skills are solid.<ab(200)><ed()>",
+   "notes": "Focker introducing Hikaru."
+  },
+  {
+   "ref": "m6202#16",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>だから、俺は民間人だって……<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Like I said, I am a civilian...<ab(0)><ed()>",
+   "notes": "Hikaru complaining that he is not a soldier."
+  },
+  {
+   "ref": "m6202#17",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>輝さんだっけ、あきらめなよ。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Was it Hikaru? Just give up.<ab(300)><ed()>",
+   "notes": "Kaine Wakaba (Dragonar) giving sympathetic advice."
+  },
+  {
+   "ref": "m6202#18",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺たちも同じこと言ってたしな……<ab(300)><ed()>",
+   "en": "<op()><sp(20)>We used to say the exact same thing...<ab(300)><ed()>",
+   "notes": "Tap Oceano / Light Newman chiming in."
+  },
+  {
+   "ref": "m6202#19",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺なんか、ほんとはコックだったのに……<ab(100)><ed()>",
+   "en": "<op()><sp(20)>I was actually\nsupposed to be a cook...<ab(100)><ed()>",
+   "notes": "Akito Tenkawa (Nadesico) grumbling about his original trade."
+  },
+  {
+   "ref": "m6202#20",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>無駄話はそこまでだ！　来やがったぞ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Enough chatter! Here they come!<ab(400)><ed()>",
+   "notes": "Burning cutting off the banter as enemy arrives."
+  },
+  {
+   "ref": "m6202#21",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>Ｄブロックに損傷。\nこちらもそう長くは持ちません！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Damage to D-Block.\nWe cannot hold out much longer either!<ab(500)><ed()>",
+   "notes": "Macross bridge operator damage report."
+  },
+  {
+   "ref": "m6202#22",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>損傷箇所拡大。\nこのままでは危険です、急いで！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Damage spreading.\nThis is dangerous at this rate, hurry!<ab(500)><ed()>",
+   "notes": "Bridge operator urging quick action."
+  },
+  {
+   "ref": "m6202#23",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>左舷Ｆブロック、エンジンブロック損傷。\n艦長……！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Port F-Block and engine block damaged.\nCaptain...!<ab(300)><ed()>",
+   "notes": "Bridge operator / Misa reporting critical damage."
+  },
+  {
+   "ref": "m6202#24",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ここで沈むわけには……！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>We cannot go down here...!<ab(300)><ed()>",
+   "notes": "Captain Global determined."
+  },
+  {
+   "ref": "m6202#25",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>総員、退避を……<ab(0)><ed()>",
+   "en": "<op()><sp(20)>All hands, abandon ship...<ab(0)><ed()>",
+   "notes": "Global order on mission failure."
+  },
+  {
+   "ref": "m6202#26",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>マクロスが撃沈！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Macross has been destroyed!<ab(600)><ed()>",
+   "notes": "Failure notification line."
+  },
+  {
+   "ref": "m6202#27",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんということだ…<ab(800)><ed()>",
+   "en": "<op()><sp(20)>How could this happen...<ab(800)><ed()>",
+   "notes": "Capt. Sinapus reaction to Macross sinking."
+  },
+  {
+   "ref": "m6202#28",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>未確認機の増援を確認！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Unidentified reinforcements detected!<ab(300)><ed()>",
+   "notes": "Bridge operator detecting wave."
+  },
+  {
+   "ref": "m6202#29",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>しゃーないなあ、行きますか……<ab(500)><ed()>",
+   "en": "<op()><sp(20)>No choice then, guess I'll go...<ab(500)><ed()>",
+   "notes": "Casual tone, likely Focker or Dragonar pilot."
+  },
+  {
+   "ref": "m6202#30",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>未確認機、さらに来ます！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>More unidentified units incoming!<ab(300)><ed()>",
+   "notes": "Bridge operator warning."
+  },
+  {
+   "ref": "m6202#31",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そこのバルキリー、しっかりしなさい！\n戦争なのよ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Valkyrie over there, get a grip!\nThis is a war!<ab(300)><ed()>",
+   "notes": "Misa Hayase scolding civilian Hikaru Ichijyo."
+  },
+  {
+   "ref": "m6202#32",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>誰です、あのオバサン？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Who is that old lady?<ab(200)><ed()>",
+   "notes": "Hikaru asking Focker about Misa (the famous 'obasan' line)."
+  },
+  {
+   "ref": "m6202#33",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>オバ……！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Old...!?<ab(0)><ed()>",
+   "notes": "Misa sputtering in shock and rage."
+  },
+  {
+   "ref": "m6202#34",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>はははは！　マクロスのオペレータ、\n早瀬未沙中尉だ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Hahaha! That is Macross's controller,\nLieutenant Misa Hayase!<ab(200)><ed()>",
+   "notes": "Focker laughing and introducing Misa."
+  },
+  {
+   "ref": "m6202#35",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>輝から見ればオバサンか、ふははは！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>An old lady to you, huh? Hahaha!<ab(100)><ed()>",
+   "notes": "Focker teasing."
+  },
+  {
+   "ref": "m6202#36",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……フォッカー少佐！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>...Major Focker!<ab(500)><ed()>",
+   "notes": "Misa indignant at Focker."
+  },
+  {
+   "ref": "m6202#38",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なあ輝、こうして並んで飛んでると\n昔を思い出すな。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Hey Hikaru, flying side by side like\nthis brings back old times.<ab(400)><ed()>",
+   "notes": "Focker reminiscing about airshows."
+  },
+  {
+   "ref": "m6202#39",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そんなのん気なこと言ってる場合ですか？<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Is this really the time\nto be talking so carefree?<ab(400)><ed()>",
+   "notes": "Hikaru retorting in combat."
+  },
+  {
+   "ref": "m6202#40",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺が前で、お前はいつも\n後ろをちょろちょろ飛んでたっけ。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>I was out front, and you were always\nbuzzing around right behind me.<ab(300)><ed()>",
+   "notes": "Focker teasing Hikaru about formation flying."
+  },
+  {
+   "ref": "m6202#41",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>言ったでしょ、\nいつまでも後ろじゃないって！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>I told you, I am not staying\nbehind you forever!<ab(400)><ed()>",
+   "notes": "Hikaru asserting himself."
+  },
+  {
+   "ref": "m6202#42",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵の増援、止まりました！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemy reinforcements have stopped!<ab(300)><ed()>",
+   "notes": "Bridge operator announcement."
+  },
+  {
+   "ref": "m6202#43",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>全機、残った機体を掃討せよ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>All units, sweep the remaining forces!<ab(400)><ed()>",
+   "notes": "Burning / Focker command."
+  },
+  {
+   "ref": "m6202#44",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>も、目標多数接近します！\nすごい数です……！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>M-Multiple targets approaching!\nThere are so many of them...!<ab(400)><ed()>",
+   "notes": "Bridge operator detecting mass Zentradi force."
+  },
+  {
+   "ref": "m6202#45",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ちくしょー、死ぬ時は親父みたいに\nスタント中にって決めてたのに！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Damn it, I decided that when I die,\nit would be in a stunt like my dad!<ab(300)><ed()>",
+   "notes": "Hikaru complaining about dying in military combat."
+  },
+  {
+   "ref": "m6202#46",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>弱音を吐くな！\n片っ端から落とすぞ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Stop whining!\nShoot down every last one of them!<ab(500)><ed()>",
+   "notes": "Roy Focker encouraging Hikaru."
+  },
+  {
+   "ref": "m6202#47",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これ以上は艦がもたん！\n空間転移に入る！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>The ship cannot take any more!\nInitiating space fold!<ab(400)><ed()>",
+   "notes": "Global deciding on emergency fold escape."
+  },
+  {
+   "ref": "m6202#48",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>フォールドシステムを？\nまだテストも済んでいません！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>The fold system?\nIt has not even been tested yet!<ab(300)><ed()>",
+   "notes": "Misa Hayase protesting untested fold."
+  },
+  {
+   "ref": "m6202#49",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>確かにリスクは大きい。<ab(100)>",
+   "en": "<op()><sp(20)>The risk is certainly high.<ab(100)>",
+   "notes": "Global acknowledging risk."
+  },
+  {
+   "ref": "m6202#50",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>しかし、ここでとどまっていては\nやられるだけだ！<ab(400)><ed()>",
+   "en": "<sp(20)>However, if we stay here,\nwe will only be destroyed!<ab(400)><ed()>",
+   "notes": "Global continuing rationale."
+  },
+  {
+   "ref": "m6202#51",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>でも、異星人のシステムですよ？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>But it is an alien system!<ab(200)><ed()>",
+   "notes": "Bridge operator objecting."
+  },
+  {
+   "ref": "m6202#52",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やってもみないで\nあきらめられては困るな！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>We cannot just give up\nwithout even trying!<ab(300)><ed()>",
+   "notes": "Global pressing forward."
+  },
+  {
+   "ref": "m6202#53",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>フォールドシステムスタンバイ！\nフォールド目標、月の裏側！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Fold system on standby!\nFold target, dark side of the Moon!<ab(700)><ed()>",
+   "notes": "Misa / bridge operator executing fold countdown."
+  },
+  {
+   "ref": "m6202#54",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>輝！　何でお前がいるんだ？\nお前、いつから戦闘機乗りになったんだ？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Hikaru! What are you doing here?\nWhen did you become a fighter pilot?<ab(0)><off()>",
+   "notes": "Focker spotting Hikaru during battle."
+  },
+  {
+   "ref": "m6202#55",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>冗談！　誰が戦闘機乗りなんかに！<ab(0)><off()>",
+   "en": "<on()><sp(20)>No way! Who wants\nto be a fighter pilot!?<ab(0)><off()>",
+   "notes": "Hikaru vehemently denying he chose this."
+  },
+  {
+   "ref": "m6202#56",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>……行きがかり上、\n乗せられちまっただけですよ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>...Things just turned out this way,\nand I got stuck flying it!<ab(0)><off()>",
+   "notes": "Hikaru explaining how he ended up in the cockpit."
+  },
+  {
+   "ref": "m6202#57",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>非常事態だ。\nそれだけ操縦できてりゃ十分だ。<ab(0)><off()>",
+   "en": "<on()><sp(20)>It is an emergency. Flying that well\nis good enough!<ab(0)><off()>",
+   "notes": "Focker accepting Hikaru's presence."
+  },
+  {
+   "ref": "m6202#58",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>まったくです。\n今はネコの手でも借りたいですからね。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Tell me about it. Right now,\nwe will take all the help we can get.<ab(0)><off()>",
+   "notes": "Allied pilot agreeing (using 'cat's paw' idiom)."
+  },
+  {
+   "ref": "m6202#59",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>なんだ？<ab(0)><off()>",
+   "en": "<on()><sp(20)>What is that!?<ab(0)><off()>",
+   "notes": "Pilots reacting to fold activation flash."
+  },
+  {
+   "ref": "m6202#60",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>うおおおっ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Whoaaa!<ab(0)><off()>",
+   "notes": "Pilots being pulled into fold space."
+  },
+  {
+   "ref": "m6202#61",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>なんだってんだよ！　いったい！<ab(0)><off()>",
+   "en": "<on()><sp(20)>What on earth is happening!?<ab(0)><off()>",
+   "notes": "Hikaru yelling as Macross folds."
+  },
+  {
+   "ref": "m6202#62",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>マイクローンの星か…。<ab(0)><off()>",
+   "en": "<on()><sp(20)>A micron planet, is it...?<ab(0)><off()>",
+   "notes": "Zentradi commander observing Earth."
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6202#63",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>この星にオルファンを確認いたしました。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6202#64",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>オルファン…？<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6202#65",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>数十万年ほど前に交戦記録があります。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6202#66",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>マイクローンにオルファンか……\nふっ、まさかな…。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6202#67",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>なにか？<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6202#68",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>なぜかわからんが…\nプロトカルチャーかもしれんと思ったのだ。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6202#69",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>まさか…<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6202#70",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>しばらくの間、この星は監視を続ける。\nフォールドした３隻を追うのだ。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "brief63187#0",
+   "layer": "debriefing",
+   "jp": "<op(40,1)><sp(2)>現在、#c[5E8FD8]マクロス#c、#c[5E8FD8]アルビオン#c、#c[5E8FD8]ナデシコ#cは\n冥王星近海を漂流しています。",
+   "en": ""
+  },
+  {
+   "ref": "brief63187#1",
+   "layer": "debriefing",
+   "jp": "<op(40,1)><sp(2)><im(1)>#c[5E8FD8]アルビオン#cと<im(2)>#c[5E8FD8]ナデシコ#cは、\n#c[5E8FD8]マクロス#cのスペースフォールドに\n巻きこまれた形になります。",
+   "en": ""
+  },
+  {
+   "ref": "brief63187#2",
+   "layer": "debriefing",
+   "jp": "<op(40,1)><sp(2)>本来のフォールド目標は\n月の裏側だったのですが……",
+   "en": ""
+  },
+  {
+   "ref": "brief63187#3",
+   "layer": "debriefing",
+   "jp": "<op(40,1)><sp(2)><im(3)>システムの制御に失敗し、\nここまで飛ばされてしまったものと\n推測されます。",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Translated op20_02 (80 rows), spanning the arrival of Marina in the Buster Ark, Giwaza's forces attempting to capture it, Misa Hayase's Phase 2 tactical briefing (portrait 40, Delta 1), and Phase 2 battle where Zentradi overwhelm Macross. Captures the iconic banter where Hikaru calls Misa 'obasan', Focker's amusement, the fellow reluctant civilian pilots (Dragonar trio, Akito), and Global's desperate gamble to execute an untested space fold.",
+  "rows_examined": "m6201#56 to m6202#62",
+  "rows_examined_count": 80,
+  "uncertainties": [
+   "m6202#18 and m6202#19: identified speakers as Dragonar squad (Tap/Light) and Akito Tenkawa ('was supposed to be a cook') reacting to Hikaru's civilian status based on cross-series character backstories.",
+   "m6202#62: Zentradi commander line ('A micron planet, is it...?') assigned as Britai/Exsedol watching Earth after Macross folds."
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {
+   "40": "Misa Hayase"
+  }
+ }
+}

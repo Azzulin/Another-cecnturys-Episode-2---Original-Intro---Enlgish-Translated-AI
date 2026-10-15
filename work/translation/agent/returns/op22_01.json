@@ -1,0 +1,1821 @@
+{
+ "batch": "op22_01",
+ "operation": 22,
+ "previous_batch": null,
+ "next_batch": "op22_02",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "アルバトロ・ナル・エイジ・アスカ",
+   "en": "Albatro Null Eiji Asuka",
+   "kind": "character",
+   "series": "Blue Comet SPT Layzner",
+   "gender": "male",
+   "role": "Full Gradosian name of Eiji Asuka (Albatro Null is his Grados name, Eiji his human name).",
+   "personality": "See Eiji Asuka.",
+   "en_short": "Eiji"
+  },
+  {
+   "ja": "オペレーション・ライトニング",
+   "en": "Operation Lightning",
+   "kind": "term",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Name of the operation that covers Operations 22 and 23 (22: Defeat Death Demon Corps; 23: Escort Friendly Detachment)."
+  },
+  {
+   "ja": "ターミネーターポリス",
+   "en": "Terminator Police",
+   "kind": "unit",
+   "series": "Blue Comet SPT Layzner",
+   "role": "TS-TP-50D, unmanned Grados Terror Striker developed from the Skull Gunner and used to hunt Earth's resistance; capable of acrobatic maneuvers. Enemy unit."
+  },
+  {
+   "ja": "ドモン・カッシュ",
+   "en": "Domon Kasshu",
+   "kind": "character",
+   "series": "Mobile Fighter G Gundam",
+   "gender": "male",
+   "role": "Neo Japan Gundam Fighter (Shining Gundam, then God Gundam); King of Hearts and leader of the Shuffle Alliance",
+   "personality": "Hot-blooded, brash, impulsive and impatient; socially awkward, but has a strong sense of justice. Prone to loud battle cries.",
+   "en_short": "Domon"
+  },
+  {
+   "ja": "モビルファイター",
+   "en": "Mobile Fighter",
+   "kind": "term",
+   "series": "Mobile Fighter G Gundam",
+   "role": "G Gundam term for Gundam Fight mecha (Devil Gundam, Master Gundam...).",
+   "en_short": "MF"
+  },
+  {
+   "ja": "オペレーション",
+   "en": "Operation",
+   "kind": "term"
+  },
+  {
+   "ja": "ゴッドガンダム",
+   "en": "God Gundam",
+   "kind": "unit",
+   "series": "Mobile Fighter G Gundam",
+   "role": "Domon's second Mobile Fighter (GF13-017NJII), Neo Japan; God Finger and Hyper Mode (Meikyo Shisui)"
+  },
+  {
+   "ja": "ゼントラーディ",
+   "en": "Zentradi",
+   "kind": "faction",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Race/faction of giant humanoid warriors; main antagonists."
+  },
+  {
+   "ja": "デビルガンダム",
+   "en": "Devil Gundam",
+   "kind": "unit",
+   "series": "Mobile Fighter G Gundam",
+   "role": "Self-evolving, self-repairing, self-replicating rogue Gundam (JDG-00X); main antagonist machine of G Gundam"
+  },
+  {
+   "ja": "ガッシュラン",
+   "en": "Gashlan",
+   "kind": "unit",
+   "series": "Blue Comet SPT Layzner",
+   "role": "Shikitai custom MF of the Grados army (m6221 '行け、ガッシュラン!')."
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "クスコの聖女",
+   "en": "Saint of Cuzco",
+   "kind": "character",
+   "series": "Blue Comet SPT Layzner",
+   "gender": "female",
+   "role": "Honorific/alias of Julia, Eiji's older sister, held by Grados in the Cuzco base and treated as a living symbol of resistance hope."
+  },
+  {
+   "ja": "死鬼隊",
+   "en": "Shikitai",
+   "kind": "faction",
+   "series": "Blue Comet SPT Layzner",
+   "role": "Grados elite 4-pilot task force under Le Cain: Gosterro, Manjuro, Bohn, Getai.",
+   "note": "Glossed Shikitai."
+  },
+  {
+   "ja": "グラドス",
+   "en": "Grados",
+   "kind": "faction",
+   "series": "Blue Comet SPT Layzner",
+   "role": "Extraterrestrial empire originating from the planet Grados; invades Earth in the second half of the series."
+  },
+  {
+   "ja": "ル・カイン",
+   "en": "Le Cain",
+   "kind": "character",
+   "series": "Blue Comet SPT Layzner",
+   "gender": "male",
+   "role": "Imperial inspector and son of Gresco; cold-blooded, aristocratic Gradosian commander leading the Earth occupation force.",
+   "personality": "Arrogant, refined, despises Earthlings as inferior beings; highly skilled SPT pilot (pilots the Zakron).",
+   "en_short": "Le Cain"
+  },
+  {
+   "ja": "エルダール",
+   "en": "El Darr",
+   "kind": "unit",
+   "series": "Blue Comet SPT Layzner",
+   "role": "Shikitai custom MF of the Grados army (m6221 '行け、エルダール!')."
+  },
+  {
+   "ja": "キョウジ",
+   "en": "Kyoji",
+   "kind": "character",
+   "series": "Mobile Fighter G Gundam",
+   "gender": "male",
+   "role": "Domon's older brother (Kyoji Kasshu); escaped to Earth piloting the Devil Gundam; Domon chases him seeking revenge/answers.",
+   "personality": "Originally kind and caring elder brother; later consumed/controlled by DG cells.",
+   "full_name": "Kyoji Kasshu"
+  },
+  {
+   "ja": "ゴステロ",
+   "en": "Gosterro",
+   "kind": "character",
+   "series": "Blue Comet SPT Layzner",
+   "gender": "male",
+   "role": "Gradosian pilot, member of Le Cain's Death Demon Corps (Shikitai); sadistic rival of Eiji.",
+   "personality": "Sly, cruel sadist who enjoys killing; kills his own subordinates and frames others; vengeful and obsessive.",
+   "en_short": "Gosterro"
+  },
+  {
+   "ja": "ダンコフ",
+   "en": "Dankova",
+   "kind": "unit",
+   "series": "Blue Comet SPT Layzner",
+   "role": "Shikitai custom MF of the Grados army (m6221 '行け、ダンコフ!')."
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "エイジ",
+   "en": "Eiji",
+   "kind": "character",
+   "series": "Blue Comet SPT Layzner",
+   "gender": "male",
+   "role": "Protagonist Eiji Asuka's Grados name without the surname; half-Grados son of Ken Asuka who pilots the Layzner.",
+   "full_name": "Albatro Null Eiji"
+  },
+  {
+   "ja": "レイ",
+   "en": "Rei"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  }
+ ],
+ "known_portraits": {
+  "33": {
+   "speaker": "Kouichiro Misumaru",
+   "gender": "male",
+   "role": "UCE Space Force admiral (Yurika's father)",
+   "confidence": "high",
+   "evidence": "brief: '私はＵＣＥ宇宙軍提督のミスマルだ。'"
+  },
+  "34": {
+   "speaker": "Ruri Hoshino",
+   "gender": "female",
+   "role": "Nadesico operator",
+   "confidence": "high",
+   "evidence": "brief: 'こちらはナデシコのホシノ・ルリです。'"
+  },
+  "38": {
+   "speaker": "South Burning",
+   "gender": "male",
+   "role": "Captain, mobile weapons unit commander at Torrington",
+   "confidence": "high",
+   "evidence": "brief63000: 'I'm Captain South Burning.'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [],
+ "rows": [
+  {
+   "ref": "brief63021#0",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "オペレーション　２２",
+   "en": "OPERATION 22",
+   "notes": "Operation header."
+  },
+  {
+   "ref": "brief63021#1",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "オペレーション・ライトニング",
+   "en": "Operation Lightning",
+   "notes": "Operation title."
+  },
+  {
+   "ref": "brief63021#2",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ターミネーターポリスを",
+   "en": "Terminator Police",
+   "notes": "Objective header."
+  },
+  {
+   "ref": "brief63021#4",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "死鬼隊排除",
+   "en": "Eliminate Shikitai",
+   "notes": "Objective header. Glossed Shikitai."
+  },
+  {
+   "ref": "brief63021#5",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "レジスタンス支援",
+   "en": "Support Resistance",
+   "notes": "Objective header."
+  },
+  {
+   "ref": "brief63021#6",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "グラドスタワー制圧",
+   "en": "Seize Grados Tower",
+   "notes": "Objective header."
+  },
+  {
+   "ref": "brief63021#7",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<ac(21)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(1)>",
+    "#c[5E8FD8]",
+    "<im(2)>",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><ac(21)>#c[5E8FD8]ナデシコ#c、<im(1)>#c[5E8FD8]アルビオン<im(2)>#cという\n主力を欠いた状態で、\n#c[5E8FD8]ＵＣＥ#cは苦しい戦いを強いられてきた。",
+   "en": "<op(33,1)><sp(2)><ac(21)>Without main forces like the #c[5E8FD8]Nadesico#c and\n<im(1)>#c[5E8FD8]Albion<im(2)>#c, the #c[5E8FD8]UCE#c has been forced into a\nbitter, grueling fight.",
+   "notes": "Speaker: Admiral Kouichiro Misumaru (portrait 33)."
+  },
+  {
+   "ref": "brief63021#8",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>だが、諸君らが帰ってきた今、\nようやく我々は反攻作戦を行うことが\n可能となった。",
+   "en": "<op(33,1)><sp(2)>But now that you have returned,\nwe are finally capable of mounting\na counteroffensive.",
+   "notes": "Speaker: Admiral Kouichiro Misumaru (portrait 33)."
+  },
+  {
+   "ref": "brief63021#9",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(3)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>明日、０５００時を期して、\n<im(3)>#c[5E8FD8]ＵＣＥ#c全軍が地上各地で一気に攻勢に出る。",
+   "en": "<op(33,1)><sp(2)>Tomorrow at 0500 hours,\n<im(3)>all #c[5E8FD8]UCE#c forces across the globe will launch\nan offensive simultaneously.",
+   "notes": "Speaker: Admiral Kouichiro Misumaru (portrait 33)."
+  },
+  {
+   "ref": "brief63021#10",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>作戦名は#c[F07141]オペレーション・ライトニング#c！",
+   "en": "<op(33,1)><sp(2)>The operation is named #c[F07141]Operation Lightning#c!",
+   "notes": "Speaker: Admiral Kouichiro Misumaru (portrait 33)."
+  },
+  {
+   "ref": "brief63021#11",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[F07141]",
+    "#c",
+    "<im(9)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>作戦は、各地の#c[F07141]敵勢力拠点に対する攻撃#cと、\n<im(9)>#c[BE5050]グラドス#cに占領された北米大陸への#c[F07141]\n強襲上陸作戦#cの二本柱で展開される。",
+   "en": "<op(33,1)><sp(2)>We will mount #c[F07141]strikes on enemy bases#c,\nand assault <im(9)>#c[BE5050]Grados#c-held North America\nwith an #c[F07141]assault landing operation#c.",
+   "notes": "Speaker: Admiral Kouichiro Misumaru (portrait 33)."
+  },
+  {
+   "ref": "brief63021#12",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>#c[5E8FD8]アルビオン#cと#c[5E8FD8]ナデシコ#cには、\n主戦場となるであろう#c[F07141]北米大陸で\n戦力の中核#cとして働いてもらうことになる。",
+   "en": "<op(33,1)><sp(2)>The #c[5E8FD8]Albion#c and #c[5E8FD8]Nadesico#c will serve\nas the #c[F07141]core combat force in North America#c,\nwhich will likely be our main battlefield.",
+   "notes": "Speaker: Admiral Kouichiro Misumaru (portrait 33)."
+  },
+  {
+   "ref": "brief63021#13",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>現在北米は#c[BE5050]グラドス#c軍の占領下にあり、\n地球人は#c[BE5050]文化矯正隊#cによって\n厳しい弾圧を受けている。",
+   "en": "<op(33,1)><sp(2)>North America is under #c[BE5050]Grados#c occupation,\nand Earthlings are being harshly oppressed\nby their #c[BE5050]Cultural Correction Corps#c.",
+   "notes": "Speaker: Admiral Kouichiro Misumaru (portrait 33). Cultural Correction Corps (bunka kyouseitai)."
+  },
+  {
+   "ref": "brief63021#14",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(5)>",
+    "<im(6)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>だが、ここには#c[5E8FD8]レジスタンス#cを組織し、\n抵抗を続けてきた人々がいる。\n<im(5)><im(6)>彼らの協力で作戦は行われる予定だ。",
+   "en": "<op(33,1)><sp(2)>Yet people here organized a #c[5E8FD8]resistance#c\nand kept fighting. We will carry out this\noperation <im(5)><im(6)>in cooperation with them.",
+   "notes": "Speaker: Admiral Kouichiro Misumaru (portrait 33)."
+  },
+  {
+   "ref": "brief63021#15",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>エイジという少年を覚えているかね？\n彼も#c[5E8FD8]レジスタンス#cに参加している。\n大いに働いてくれるはずだ。",
+   "en": "<op(33,1)><sp(2)>Do you recall the young man named Eiji?\nHe has also joined the #c[5E8FD8]resistance#c.\nHe should prove to be of great help.",
+   "notes": "Speaker: Admiral Kouichiro Misumaru (portrait 33)."
+  },
+  {
+   "ref": "brief63021#16",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(11)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>#c[BE5050]グラドス#c軍を指揮しているのは\n<im(11)>ル・カインという男。こやつを倒せば、\n#c[BE5050]グラドス#cの勢いは一気に弱まるはずだ。",
+   "en": "<op(33,1)><sp(2)>Commanding the #c[BE5050]Grados#c forces is a man named\n<im(11)>Le Cain. Defeating him will surely break\nthe momentum of #c[BE5050]Grados#c all at once.",
+   "notes": "Speaker: Admiral Kouichiro Misumaru (portrait 33)."
+  },
+  {
+   "ref": "brief63021#17",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>#c[BE5050]ゼントラーディ#cの存在が明確になった今、\n地上での争いに終止符を打って、\nそれに備えないとならない。",
+   "en": "<op(33,1)><sp(2)>Now that the #c[BE5050]Zentradi#c threat is clear,\nwe must put an end to our earthly struggles\nand prepare for them.",
+   "notes": "Speaker: Admiral Kouichiro Misumaru (portrait 33)."
+  },
+  {
+   "ref": "brief63021#18",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>諸君の健闘を期待しているぞ！",
+   "en": "<op(33,1)><sp(2)>I am counting on you all to fight bravely!",
+   "notes": "Speaker: Admiral Kouichiro Misumaru (portrait 33)."
+  },
+  {
+   "ref": "brief63021#19",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 34,
+   "tokens": [
+    "<op(34,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c",
+    "<im(10)>",
+    "<of(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(34,1)><sp(2)>#c[5E8FD8]レジスタンス#cの人たちは#c[BE5050]グラドス#cの#c[BE5050]無人機#cに\n手を焼いているらしいです。<im(10)>発見したら、\n<of(1)>できるだけ片付けておいてください。",
+   "en": "<op(34,1)><sp(2)>The #c[5E8FD8]resistance#c is having a hard time with\nthe #c[BE5050]Grados#c #c[BE5050]drones#c. <im(10)>If you spot them,\n<of(1)>please destroy as many as possible.",
+   "notes": "Speaker: Ruri Hoshino (portrait 34)."
+  },
+  {
+   "ref": "brief63133#0",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ターミネーターポリスの撃墜",
+   "en": "Shoot Down Terminator Police",
+   "notes": "Tactical briefing objective header."
+  },
+  {
+   "ref": "brief63133#2",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "<im(1)>",
+    "#c",
+    "<im(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>#c[5E8FD8]レジスタンス<im(1)>#cからの<im(2)>情報提供により、\n北米の#c[BE5050]グラドス#cの動向を掴んだぞ。",
+   "en": "<op(38,1)><sp(2)>Thanks to intel from the #c[5E8FD8]resistance<im(1)>#c,\n<im(2)>we've tracked the movements of #c[BE5050]Grados#c\nforces in North America.",
+   "notes": "Speaker: Captain South Burning (portrait 38)."
+  },
+  {
+   "ref": "brief63133#3",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>現在、#c[BE5050]グラドス#cの指導者であるル・カインと\n彼直属の#c[BE5050]死鬼隊#cと呼ばれる特殊部隊が、\nニューヨークに集結している。",
+   "en": "<op(38,1)><sp(2)>Right now, #c[BE5050]Grados#c leader Le Cain and his\npersonal special forces unit, the #c[BE5050]Shikitai#c,\nare gathering in New York.",
+   "notes": "Speaker: Captain South Burning (portrait 38)."
+  },
+  {
+   "ref": "brief63133#4",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>地球人の代表と、#c[BE5050]グラドス#cの代表とで、\n試合を行いたいということだが…",
+   "en": "<op(38,1)><sp(2)>He claims to want a match between Earth's\nchampion and #c[BE5050]Grados#c, but...",
+   "notes": "Speaker: Captain South Burning (portrait 38)."
+  },
+  {
+   "ref": "brief63133#5",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>彼の狙いは#c[5E8FD8]レジスタンス#cの精神的支えである\nクスコの聖女の前で地球人を叩きのめし、\n抵抗の意思をそぐことにあるようだ。",
+   "en": "<op(38,1)><sp(2)>His aim is to beat Earth's fighter before\nthe Saint of Cuzco, the #c[5E8FD8]resistance#c's hope,\nand break their will to fight.",
+   "notes": "Speaker: Captain South Burning (portrait 38)."
+  },
+  {
+   "ref": "brief63133#6",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<im(6)>",
+    "<im(7)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>となれば、<im(6)>まと<im(7)>もな試合になるはずがない。\n…もちろん、俺たちもまともに試合を\nする気などないんだがな。",
+   "en": "<op(38,1)><sp(2)>In that case, <im(6)>this won't<im(7)> be a fair duel.\n...Not that we plan on playing fair\neither, of course.",
+   "notes": "Speaker: Captain South Burning (portrait 38)."
+  },
+  {
+   "ref": "brief63133#7",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>今回の作戦には#c[5E8FD8]レジスタンス#cの\nアルバトロ・ナル・エイジ・アスカが\n#c[5E8FD8]レイズナー#cで協力することになっている。",
+   "en": "<op(38,1)><sp(2)>For this mission, Albatro Null Eiji Asuka\nof the #c[5E8FD8]resistance#c will cooperate with us\nin the #c[5E8FD8]Layzner#c.",
+   "notes": "Speaker: Captain South Burning (portrait 38)."
+  },
+  {
+   "ref": "brief63133#8",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<im(3)>",
+    "#c[F07141]",
+    "<im(5)>",
+    "#c",
+    "<tr(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>彼が囮となってル・カインの注意を\nひきつけたところで、<im(3)>我々が#c[F07141]奇襲を<im(5)>かける#c。<tr(1)>",
+   "en": "<op(38,1)><sp(2)>He will act as a decoy to draw\nLe Cain's attention, while <im(3)>we launch a\n#c[F07141]surprise <im(5)>attack#c.<tr(1)>",
+   "notes": "Speaker: Captain South Burning (portrait 38)."
+  },
+  {
+   "ref": "brief63133#9",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>ル・カインを守る#c[BE5050]死鬼隊#cは手強い相手だ。\n逃げられると後々厄介なので、ここで\nできるだけ叩いておいたほうがいいだろう。",
+   "en": "<op(38,1)><sp(2)>The #c[BE5050]Shikitai#c protecting Le Cain are tough.\nThey'll be trouble later if they escape,\nso we must crush as many as we can here.",
+   "notes": "Speaker: Captain South Burning (portrait 38)."
+  },
+  {
+   "ref": "brief63133#10",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>また、#c[BE5050]強力な無人機#cも周辺に展開している。\nこいつらにも注意するようにな。",
+   "en": "<op(38,1)><sp(2)>Also, #c[BE5050]powerful drones#c are deployed nearby.\nStay on your guard against them as well.",
+   "notes": "Speaker: Captain South Burning (portrait 38)."
+  },
+  {
+   "ref": "brief63133#11",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(8)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>#c[5E8FD8]レイズナー#cはすでに向かって<im(8)>いるはずだ。\n我々も急ぐぞ。",
+   "en": "<op(38,1)><sp(2)>The #c[5E8FD8]Layzner#c should already be on its way.<im(8)>\nLet's hurry as well.",
+   "notes": "Speaker: Captain South Burning (portrait 38)."
+  },
+  {
+   "ref": "m6221#0",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "死鬼隊の全撃破",
+   "en": "Defeat All Shikitai",
+   "notes": "Mission objective header."
+  },
+  {
+   "ref": "m6221#2",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(50)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あれは！<ab(50)><ed()>",
+   "en": "<op()><sp(20)>Look, over there!<ab(50)><ed()>",
+   "notes": "Speaker: Allied pilot."
+  },
+  {
+   "ref": "m6221#3",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ドモン・カッシュ！？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Domon Kasshu?!<ab(300)><ed()>",
+   "notes": "Speaker: Allied pilot spotting Domon."
+  },
+  {
+   "ref": "m6221#4",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今だ！　行くぞ、レイ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Now! Let's go, Rei!<ab(0)><ed()>",
+   "notes": "Speaker: Eiji Asuka to Layzner AI Rei."
+  },
+  {
+   "ref": "m6221#5",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>レディ。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Ready.<ab(300)><ed()>",
+   "notes": "Speaker: Rei (Layzner AI)."
+  },
+  {
+   "ref": "m6221#6",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くっそぉ！　なんでもいい！\nたたんじまえ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Damn it! Whatever!\nJust tear them apart!<ab(300)><ed()>",
+   "notes": "Speaker: Shikitai member."
+  },
+  {
+   "ref": "m6221#7",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ふん！　はじめから、まともな試合など\nするつもりはないということか！<ab(300)>",
+   "en": "<op()><sp(20)>Hmph! So you never intended to have\na fair match from the start!<ab(300)>",
+   "notes": "Speaker: Domon Kasshu."
+  },
+  {
+   "ref": "m6221#8",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ならばまとめて、かかって来い！<ab(700)><ed()>",
+   "en": "<sp(20)>Then come at me all at once!<ab(700)><ed()>",
+   "notes": "Speaker: Domon Kasshu."
+  },
+  {
+   "ref": "m6221#9",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>全機発進！\n彼らを援護するんだ。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>All units, launch!\nProvide backup for them!<ab(500)><ed()>",
+   "notes": "Speaker: Captain South Burning."
+  },
+  {
+   "ref": "m6221#10",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>スタジアムの外は、私たちが引き受けます。\nそちらはよろしく。<ab(700)><ed()>",
+   "en": "<op()><sp(20)>We will handle outside the stadium.\nGood luck in there.<ab(700)><ed()>",
+   "notes": "Speaker: Resistance member."
+  },
+  {
+   "ref": "m6221#11",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(800)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>死鬼隊の連中は、劣勢になると\nル・カインのところへ逃げ帰るはずだ。<ab(800)>",
+   "en": "<op()><sp(20)>If the Shikitai are losing, they will\nflee back to Le Cain.<ab(800)>",
+   "notes": "Speaker: Allied pilot."
+  },
+  {
+   "ref": "m6221#12",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>その前に勝負をつけるぞ！<ab(500)><ed()>",
+   "en": "<sp(20)>Let's finish them before they can!<ab(500)><ed()>",
+   "notes": "Speaker: Allied pilot."
+  },
+  {
+   "ref": "m6221#13",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あのゴッドガンダムという機体……<ab(200)>",
+   "en": "<op()><sp(20)>That machine, the God Gundam...<ab(200)>",
+   "notes": "Speaker: Allied pilot."
+  },
+  {
+   "ref": "m6221#14",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>モビルファイターというだけあって\n格闘戦に特化した機体みたいだな。<ab(500)><ed()>",
+   "en": "<sp(20)>As expected of a Mobile Fighter,\nit seems specialized in close combat.<ab(500)><ed()>",
+   "notes": "Speaker: Allied pilot."
+  },
+  {
+   "ref": "m6221#15",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さすが、コロニー格闘技の王者ってところか。<ab(700)><ed()>",
+   "en": "<op()><sp(20)>As expected of the colony's\nmartial arts champion.<ab(700)><ed()>",
+   "notes": "Speaker: Allied pilot."
+  },
+  {
+   "ref": "m6221#16",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>エイジィィィ！　\nよくも俺をこんな体にしてくれたなああ！<ab(200)>",
+   "en": "<op()><sp(20)>Eijiii! How dare you reduce\nmy body to this!<ab(200)>",
+   "notes": "Speaker: Gosterro."
+  },
+  {
+   "ref": "m6221#17",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>お前をおんなじ目にあわせてやるぜぇ！<ab(300)><ed()>",
+   "en": "<sp(20)>I'll make you suffer\nthe very same fate!<ab(300)><ed()>",
+   "notes": "Speaker: Gosterro."
+  },
+  {
+   "ref": "m6221#18",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(50)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>骨のきしむ音を聞きながら\n死んでいけええええ！！！<ab(50)><ed()>",
+   "en": "<op()><sp(20)>Die while listening to the sound\nof your own bones creaking!!!<ab(50)><ed()>",
+   "notes": "Speaker: Gosterro."
+  },
+  {
+   "ref": "m6221#19",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(50)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ひゃーははは！<ab(50)><ed()>",
+   "en": "<op()><sp(20)>Hyahahaha!<ab(50)><ed()>",
+   "notes": "Speaker: Gosterro."
+  },
+  {
+   "ref": "m6221#20",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くそっ、いてぇじゃねぇか。\nこの礼は倍にして返してやるぜぇ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Damn it, that hurt!\nI'll pay you back double for this!<ab(500)><ed()>",
+   "notes": "Speaker: Gosterro."
+  },
+  {
+   "ref": "m6221#21",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ちっ！　これ以上はあぶねえな！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Tch! Any more of this is bad news!<ab(100)><ed()>",
+   "notes": "Speaker: Gosterro."
+  },
+  {
+   "ref": "m6221#22",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>次こそは殺してやるぜぇぇ！\nひゃーはっはっは！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Next time I'll kill you for sure!\nHyahahahaha!<ab(700)><ed()>",
+   "notes": "Speaker: Gosterro."
+  },
+  {
+   "ref": "m6221#23",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>の、脳が痛いぃぃぃ！\nぐわあああああっ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>M-My brain hurts!\nGwaaaargh!<ab(500)><ed()>",
+   "notes": "Speaker: Gosterro."
+  },
+  {
+   "ref": "m6221#24",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ゴステロめ……\n私に恥をかかせおって！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>That Gosterro...\nHumiliating me like this!<ab(700)><ed()>",
+   "notes": "Speaker: Le Cain."
+  },
+  {
+   "ref": "m6221#25",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>の、脳が痛いぃぃぃ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>M-My brain hurts!<ab(100)><ed()>",
+   "notes": "Speaker: Gosterro."
+  },
+  {
+   "ref": "m6221#26",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ぐわあああああっ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Gwaaaargh!<ab(300)><ed()>",
+   "notes": "Speaker: Gosterro."
+  },
+  {
+   "ref": "m6221#27",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>行け、エルダール！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Go, El Darr!<ab(400)><ed()>",
+   "notes": "Speaker: Le Cain."
+  },
+  {
+   "ref": "m6221#28",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そいつはドリルに注意しろ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Watch out for that one's drill!<ab(500)><ed()>",
+   "notes": "Speaker: Eiji Asuka."
+  },
+  {
+   "ref": "m6221#29",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>優勢だ。　このまま押し切るぞ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>We have the advantage.\nPush through like this!<ab(300)><ed()>",
+   "notes": "Speaker: Allied pilot."
+  },
+  {
+   "ref": "m6221#30",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵が撤退していきます。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>The enemy is retreating.<ab(300)><ed()>",
+   "notes": "Speaker: Operator (gender neutral)."
+  },
+  {
+   "ref": "m6221#31",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>逃げられたか……しかたない。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>They got away... It can't be helped.<ab(500)><ed()>",
+   "notes": "Speaker: Allied pilot."
+  },
+  {
+   "ref": "m6221#32",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>愚か者め！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Fools!<ab(400)><ed()>",
+   "notes": "Speaker: Le Cain."
+  },
+  {
+   "ref": "m6221#33",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>行け、ダンコフ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Go, Dankova!<ab(300)><ed()>",
+   "notes": "Speaker: Le Cain."
+  },
+  {
+   "ref": "m6221#34",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そいつは接近戦に優れた機体だ。\n気をつけてくれ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>That machine excels at close combat.\nBe careful!<ab(400)><ed()>",
+   "notes": "Speaker: Eiji Asuka."
+  },
+  {
+   "ref": "m6221#35",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>その調子だ！\n逃げられる前に倒すぞ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>That's it! Take them down\nbefore they can escape!<ab(400)><ed()>",
+   "notes": "Speaker: Allied pilot."
+  },
+  {
+   "ref": "m6221#37",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>逃げられたか……しかたない。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>They got away... It can't be helped.<ab(300)><ed()>",
+   "notes": "Speaker: Allied pilot."
+  },
+  {
+   "ref": "m6221#38",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何をやっている……！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>What are you doing...?!<ab(400)><ed()>",
+   "notes": "Speaker: Le Cain."
+  },
+  {
+   "ref": "m6221#39",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>行け、ガッシュラン！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Go, Gashlan!<ab(300)><ed()>",
+   "notes": "Speaker: Le Cain."
+  },
+  {
+   "ref": "m6221#40",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>左腕のコーンに気をつけろ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Watch out for the cone\non its left arm!<ab(600)><ed()>",
+   "notes": "Speaker: Eiji Asuka."
+  },
+  {
+   "ref": "m6221#41",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こちらが押している。\n攻撃を集中するんだ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>We are pushing them back.\nConcentrate your fire!<ab(300)><ed()>",
+   "notes": "Speaker: Allied pilot."
+  },
+  {
+   "ref": "m6221#42",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くっ……逃げたか！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Damn it... They fled!<ab(200)><ed()>",
+   "notes": "Speaker: Domon Kasshu / allied pilot."
+  },
+  {
+   "ref": "m6221#43",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>馬鹿な……！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Impossible...!<ab(600)><ed()>",
+   "notes": "Speaker: Le Cain."
+  },
+  {
+   "ref": "m6221#44",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ル・カイン！　勝負だ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Le Cain! Face me!<ab(100)><ed()>",
+   "notes": "Speaker: Eiji Asuka."
+  },
+  {
+   "ref": "m6221#45",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あれを出せ！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Deploy that thing!<ab(700)><ed()>",
+   "notes": "Speaker: Le Cain."
+  },
+  {
+   "ref": "m6221#46",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>地中より熱源反応！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Thermal signature from underground!<ab(100)><ed()>",
+   "notes": "Speaker: Operator (gender neutral)."
+  },
+  {
+   "ref": "m6221#47",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>待て！　ル・カイン！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Wait! Le Cain!<ab(200)><ed()>",
+   "notes": "Speaker: Eiji Asuka."
+  },
+  {
+   "ref": "m6221#48",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そいつは後だ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>He can wait!<ab(300)><ed()>",
+   "notes": "Speaker: Domon Kasshu."
+  },
+  {
+   "ref": "m6221#49",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>聞いているか、キョウジ！<ab(300)>",
+   "en": "<op()><sp(20)>Are you listening, Kyoji?!<ab(300)>",
+   "notes": "Speaker: Domon Kasshu."
+  },
+  {
+   "ref": "m6221#50",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>貴様がデビルガンダムを持ち出したおかげで！<ab(100)>",
+   "en": "<sp(20)>Because you stole the Devil Gundam!<ab(100)>",
+   "notes": "Speaker: Domon Kasshu."
+  },
+  {
+   "ref": "m6221#51",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>母は死に、父は冷凍刑！<ab(100)><ed()>",
+   "en": "<sp(20)>Mother died, and Father\nwas frozen in stasis!<ab(100)><ed()>",
+   "notes": "Speaker: Domon Kasshu."
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6221#52",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>俺は貴様を追ってきてこのザマだぁっ！<ab(500)>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#53",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>今ここで叩き潰してやるぅ！！<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#54",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>あれはデビルガンダムの戦闘用ユニットね。\nあの先は本体につながっているはず……<ab(600)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#55",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>周辺に敵影なし。<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#56",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……お前たちは軍の人間だな。\n助けを頼んだ覚えはないぞ。<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#57",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>俺たちも助けに来た覚えはないさ。<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#58",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>我々と一緒に来る気はないか？<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#59",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>仲間は必要ない。\n俺は自分の手でデビルガンダムを倒す。<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#60",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>目的は同じだ。\n単独行動より一緒のほうが情報も早い。<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#61",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>デビルガンダムの所在が特定された今、\n間違いなく一戦交えることになる。<ab(600)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#62",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……よかろう。<ab(200)>",
+   "en": ""
+  },
+  {
+   "ref": "m6221#63",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>だが、デビルガンダムが出てきた時は\n他に敵がいようが俺は好きにさせてもらう。<ab(1000)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Translated all 80 rows of op22_01, covering Operation 22 strategic briefings (Misumaru, Ruri), tactical briefings (South Burning), and Phase 1 mission dialogue (Eiji, Rei, Domon Kasshu, Le Cain, Gosterro, Shikitai MF battles).",
+  "rows_examined": "brief63021#0..m6221#51",
+  "rows_examined_count": 80,
+  "uncertainties": [],
+  "glossary_proposals": [
+   {
+    "ja": "文化矯正隊",
+    "en": "Cultural Correction Corps",
+    "kind": "faction",
+    "series": "Blue Comet SPT Layzner",
+    "role": "Gradosian ideological / occupation force enforcing cultural subjugation."
+   }
+  ],
+  "portrait_speakers": {
+   "33": "Kouichiro Misumaru",
+   "34": "Ruri Hoshino",
+   "38": "South Burning"
+  }
+ }
+}

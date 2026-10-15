@@ -1,0 +1,1665 @@
+{
+ "batch": "op06_01",
+ "operation": 6,
+ "previous_batch": null,
+ "next_batch": "op06_02",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "デラーズ・フリート",
+   "en": "Delaz Fleet",
+   "kind": "faction",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "Zeon remnant force led by Aiguille Delaz that carries out Operation Stardust in U.C. 0083."
+  },
+  {
+   "ja": "オペレーション",
+   "en": "Operation",
+   "kind": "term"
+  },
+  {
+   "ja": "コンペイトウ",
+   "en": "Konpei Island",
+   "kind": "place",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "The former Zeon fortress Solomon, renamed by the Federation; site of the 0083 naval review that Gato attacks."
+  },
+  {
+   "ja": "ゲルググM",
+   "en": "Gelgoog Marine",
+   "kind": "unit",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MS-14F, marine-corps Gelgoog flown by the Cima Fleet."
+  },
+  {
+   "ja": "GP02",
+   "en": "GP02",
+   "kind": "unit",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "Gundam Development Project Unit 2, RX-78GP02A Gundam \"Physalis\", the nuclear-armed Gundam stolen by Gato."
+  },
+  {
+   "ja": "ギガノス",
+   "en": "Giganos"
+  },
+  {
+   "ja": "デラーズ",
+   "en": "Delaz",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Leader of the Delaz Fleet and mastermind of Operation Stardust; former Zeon colonel loyal to Gihren Zabi. Wiki rank: Lieutenant General (0083).",
+   "personality": "Zealous idealist devoted to Spacenoid independence and Gihren's cause; stern but paternal toward Gato; dies shouting \"Sieg Zeon\".",
+   "full_name": "Aiguille Delaz"
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "ケーン",
+   "en": "Kaine",
+   "kind": "character",
+   "series": "Metal Armor Dragonar",
+   "gender": "male",
+   "role": "Pilot of Dragonar-1 (D-1); Earth Alliance/Federation trainee promoted to Warrant Officer; protagonist",
+   "personality": "Hot-blooded, impulsive, acts before thinking; chases Linda; resents his absent father",
+   "full_name": "Kaine Wakaba"
+  }
+ ],
+ "known_portraits": {
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  },
+  "38": {
+   "speaker": "South Burning",
+   "gender": "male",
+   "role": "Captain, mobile weapons unit commander at Torrington",
+   "confidence": "high",
+   "evidence": "brief63000: 'I'm Captain South Burning.'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [],
+ "rows": [
+  {
+   "ref": "brief63005#0",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "オペレーション　０６",
+   "en": "Operation 06",
+   "notes": ""
+  },
+  {
+   "ref": "brief63005#1",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "コンペイトウ 観艦式",
+   "en": "Konpei Island Naval Review",
+   "notes": ""
+  },
+  {
+   "ref": "brief63005#2",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "防衛ラインを突破する",
+   "en": "Breaching defense line",
+   "notes": ""
+  },
+  {
+   "ref": "brief63005#3",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "敵ユニットを防ぐ",
+   "en": "Stop enemy units",
+   "notes": ""
+  },
+  {
+   "ref": "brief63005#4",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "防衛ライン突破阻止",
+   "en": "Prevent defense line breach",
+   "notes": ""
+  },
+  {
+   "ref": "brief63005#5",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ＧＰ０２追撃",
+   "en": "Pursue GP02",
+   "notes": ""
+  },
+  {
+   "ref": "brief63005#6",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<ac(5)>",
+    "<im(11)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(13)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><ac(5)>観艦式が行なわれるコンペイトウ宙域で、\n<im(11)>#c[BE5050]デラーズ・フリート#cと<im(13)>#c[BE5050]ギガノス#cの動きが\n活発になってきている。",
+   "en": "<op(37,1)><sp(2)><ac(5)>In Konpei Island airspace where the review is held,\n<im(11)>#c[BE5050]Delaz Fleet#c and <im(13)>#c[BE5050]Giganos#c activity\nhas been increasing.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63005#7",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "<im(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>その状況に<im(1)>対応するため、\n本艦は、<im(2)>コンペイトウ宙域の\n哨戒任務につくこととなった。",
+   "en": "<op(37,1)><sp(2)>To respond<im(1)> to this situation,\nthis ship has been assigned to<im(2)> patrol\nthe Konpei Island sector.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63005#8",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(14)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>観艦式に集結した#c[5E8FD8]ＵＣＥ#c艦隊に対して、\n<im(14)>#c[BE5050]デラーズ#cが行動を起こす可能性は高い。\nしかし、式は予定どおり挙行される。",
+   "en": "<op(37,1)><sp(2)>Against the #c[5E8FD8]UCE#c fleet at the review,\n<im(14)>#c[BE5050]Delaz#c is highly likely to make a move.\nEven so, the ceremony proceeds as planned.",
+   "notes": "fix: tokens order and line over 430 px -> placed #c[5E8FD8]UCE#c first then <im(14)> and #c[BE5050]Delaz#c, keeping lines under 430 px"
+  },
+  {
+   "ref": "brief63005#9",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(5)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>あえてこの時期に観艦式を行うことで、\n<im(5)>地球圏に#c[5E8FD8]ＵＣＥ#cの力を誇示する……\nというのが司令部の考えらしい。",
+   "en": "<op(37,1)><sp(2)>HQ's thinking seems to be that holding\nthe review now will flaunt<im(5)> #c[5E8FD8]UCE#c power\nto the Earth Sphere...",
+   "notes": ""
+  },
+  {
+   "ref": "brief63005#10",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(8)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(8)>それで息を潜める連中とは思えんがな。",
+   "en": "<op(37,1)><sp(2)><im(8)>Though I hardly expect them to quiet down.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63005#11",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>我々は観艦式の終了まで\nコンペイトウの周囲を警戒し、\n#c[F07141]敵を発見次第、これを掃討#cする。",
+   "en": "<op(37,1)><sp(2)>We shall guard the perimeter of Konpei Island\nuntil the review ends, and #c[F07141]sweep away any enemy#c\nas soon as detected.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63005#12",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<im(10)>",
+    "<im(12)>",
+    "<of(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>いいか、敵が来ても、<im(10)>コンペイ<im(12)>トウへは\n<of(1)>絶対に行かせるなよ。",
+   "en": "<op(38,1)><sp(2)>Listen up. If enemies arrive,<im(10)> under no<im(12)> circumstances\n<of(1)>let them reach Konpei Island.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63053#0",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "敵の防衛ライン突破数",
+   "en": "Enemy Defense Line Breaches",
+   "notes": ""
+  },
+  {
+   "ref": "brief63053#1",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "tokens": [
+    "%d"
+   ],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "突破数 %d 機",
+   "en": "Breaches: %d units",
+   "notes": ""
+  },
+  {
+   "ref": "brief63053#2",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "<im(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>コンペイトウに<im(1)>接近中の敵部隊を発見した。\n大体、予想どおりだな。\n<im(2)>これよりただちに迎撃に当たる！",
+   "en": "<op(38,1)><sp(2)>We've spotted an enemy force<im(1)> nearing Konpei Island.\nJust about as expected.\n<im(2)>We intercept them immediately!",
+   "notes": ""
+  },
+  {
+   "ref": "brief63053#3",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<im(4)>",
+    "<im(7)>",
+    "<tr(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>こいつらは<im(4)>おそ<im(7)>らく前座だ。\n式典の<tr(1)>開始に合わせて、\n敵の行動も激しくなるだろう。",
+   "en": "<op(38,1)><sp(2)>These ones are likely<im(4)> the opening<im(7)> act.\nOnce the ceremony<tr(1)> begins,\nthe enemy moves will intensify.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63053#4",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[F07141]",
+    "<im(5)>",
+    "<im(8)>",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>１機たりとも#c[F07141]突<im(5)>破させな<im(8)>い#cよう、\n気合入れていけ！",
+   "en": "<op(38,1)><sp(2)>Give it everything you've got so #c[F07141]not<im(5)>\na single unit breaches<im(8)>#c!",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#1",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "５機以上のゲルググＭが領域を離脱",
+   "en": "5 or more Gelgoog Marines leave area",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#3",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "敵突破数",
+   "en": "Enemy breaches",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#5",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵部隊、射程圏内に入ります！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemy forces entering firing range!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#6",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>来たぞ！　コンペイトウに行かせるな！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Here they come! Don't let them reach\nKonpei Island!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#7",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦も確認されています。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Enemy ships confirmed as well.<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#8",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>優先目標とするんだ。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Make them your priority targets.<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#9",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦より発進した部隊がコンペイトウに\n向かっている。　援護を頼みたい。<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Units launched from enemy ships head for\nKonpei Island. Requesting support.<ab(700)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#10",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦が接近！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemy ship approaching!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#11",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦がまた現れました！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Another enemy ship has appeared!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#12",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦がさらに来ます！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>More enemy ships incoming!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#13",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵が防衛ライン上に接近！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemies approaching defense line!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#14",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>逃がすな！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Don't let them get away!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#15",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>コンペイトウ付近で友軍が襲撃されました！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Friendly forces attacked near\nKonpei Island!<ab(600)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#16",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>聞いたか！　これ以上逃がすなよ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>You heard that! Don't let any more slip\npast!<ab(600)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#17",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵に突破されました！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>The enemy broke through!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#18",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何をしている！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>What are you doing?!<ab(200)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#19",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵にコンペイトウへの到達を許しました！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>The enemy was allowed to reach\nKonpei Island!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#20",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>だめだったか…<ab(800)><ed()>",
+   "en": "<op()><sp(20)>It was no good...<ab(800)><ed()>",
+   "notes": "Failure line."
+  },
+  {
+   "ref": "m6061#21",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ベララベラ管制区が手薄になっています。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Vella Lavella control zone is undermanned.<ab(400)><ed()>",
+   "notes": "Solomon Islands airspace sector reference."
+  },
+  {
+   "ref": "m6061#22",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やむをえん。　この機数では…\n主力艦隊のほとんどがコンペイトウ…<ab(500)>",
+   "en": "<op()><sp(20)>No choice. We have too few units...\nOur main fleet is at Konpei Island...<ab(500)>",
+   "notes": "fix: linha com 431 px > 380 px e não cabe em 2 linhas -> shortened both lines under 380 px"
+  },
+  {
+   "ref": "m6061#23",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これほどまで手薄にしてよかったんだろうか。<ab(500)><ed()>",
+   "en": "<sp(20)>Was it wise leaving it this undermanned?<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#24",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>警戒を怠るな。\nまだ、本命が現れていないぞ。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Stay vigilant. The main threat has not\nshown itself yet.<ab(400)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#25",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ガンダム２号機……ですか？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>You mean... Gundam Unit 2?<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#26",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このくらいで片付いたか？<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Are they mostly cleared out?<ab(400)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#27",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…いや、さらに機影が接近中！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>...No, more craft are closing in!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#28",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こんな時に厄介な連中が…！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Troublesome foes at a time like this...!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#29",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いい腕だ。　俺ももう引退かな…<ab(300)>",
+   "en": "<op()><sp(20)>Fine skill. Maybe I should retire...<ab(300)>",
+   "notes": "Burning's wry praise."
+  },
+  {
+   "ref": "m6061#30",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>このくらいで片付いたか？<ab(400)><ed()>",
+   "en": "<sp(20)>Did that clear them out?<ab(400)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#31",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いいか！　目標は護衛部隊だ！\n観艦式は彼らに任せておけ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Listen! Our target is the escort force!\nLeave the naval review to them!<ab(500)><ed()>",
+   "notes": "Meio Plato commanding his unit."
+  },
+  {
+   "ref": "m6061#32",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>私の役割は十分果たせたろう。\nあとは手並みを見せてもらう。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>I have fulfilled my role well enough.\nNow show me what you can do.<ab(500)><ed()>",
+   "notes": "Meio Plato withdrawing."
+  },
+  {
+   "ref": "m6061#33",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>待てよ！　逃げる気かよ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Hold it! You running away?!<ab(0)><ed()>",
+   "notes": "Kaine's brash challenge."
+  },
+  {
+   "ref": "m6061#34",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ケーン！　ほっとけ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Kaine! Leave him!<ab(300)><ed()>",
+   "notes": "Tapp or Light restraining Kaine."
+  },
+  {
+   "ref": "m6061#35",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>Ｓ０、暗礁空域に敵機！\n映像を転送します！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemy unit in shoal zone S0!\nTransmitting video feed!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#36",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ガンダム２号機！？<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Gundam Unit 2?!<ab(100)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#37",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くっ！　今までのは囮か！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Damn! The rest was a decoy?!<ab(100)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#38",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>私にはやらねばならん事がある！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>I have a duty I must fulfill!<ab(500)><ed()>",
+   "notes": "Meio Plato duel dialogue."
+  },
+  {
+   "ref": "m6061#39",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>作戦の目的を忘れるな！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Do not forget the operation's objective!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#40",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そんな事では私を倒すことなどできん！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Fighting like that will never defeat me!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#41",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんでてめえが出て来るんだよ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Why the hell are you showing up?!<ab(500)><ed()>",
+   "notes": "Kaine yelling at Meio."
+  },
+  {
+   "ref": "m6061#42",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前らギガノスは関係ねぇだろ？\nとっとと帰ってくれよ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>This has nothing to do with you Giganos!\nJust hurry up and go home!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#43",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんでジオンとつるんでやがんだ！？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Why are you hanging around with Zeon?!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#44",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>貴様らなどに話したところで、\n理解できようはずもない！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Even if I explained it to the likes of you,\nyou could never understand!<ab(500)><ed()>",
+   "notes": "Meio answering Kaine."
+  },
+  {
+   "ref": "m6061#45",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前たちが敵である以上、\nこの戦いもまた私の戦いだ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>As long as you are our enemies,\nthis battle is my battle as well!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#46",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それを話したところで、\nどうなると言うのだ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>What difference would telling you\nmake anyway?!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#47",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>新たな機影を確認！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>New craft signatures confirmed!<ab(300)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#48",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ザコに構う必要はない！\n目標に集中しろ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>No need to bother with small fry!\nFocus on the target!<ab(500)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#49",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>観艦式が始まったようです。<ab(0)><off()>",
+   "en": "<on()><sp(20)>The naval review has begun.<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#50",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>そうか…俺たちも仕事を始めるぞ。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Understood... Time for our work to begin.<ab(0)><off()>",
+   "notes": "Anavel Gato commencing attack."
+  },
+  {
+   "ref": "m6061#51",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>待ちに待った時が来たのだ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>The long-awaited moment has arrived!<ab(0)><off()>",
+   "notes": "Gato's famous speech line."
+  },
+  {
+   "ref": "m6061#52",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>多くの英霊が無駄死にでなかったことの\n証のために！！<ab(0)><off()>",
+   "en": "<on()><sp(20)>To prove that the souls of our fallen\ndid not die in vain!!<ab(0)><off()>",
+   "notes": "Gato's iconic line."
+  },
+  {
+   "ref": "m6061#53",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ガンダム２号機！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Gundam Unit 2?!<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#54",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ま、まさか核を！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>I-Is he firing a nuke?!<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#55",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ウソだろ？　ウソだよな！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>No way... That can't be real?!<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#56",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(10400)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>再びジオンの理想を掲げるために！<ab(10400)><off()>",
+   "en": "<on()><sp(20)>To raise the ideals of Zeon once more!<ab(10400)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#57",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>星の屑、成就のために！<ab(0)><off()>",
+   "en": "<on()><sp(20)>To bring Stardust to fruition!<ab(0)><off()>",
+   "notes": ""
+  },
+  {
+   "ref": "m6061#58",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ソロモンよ！　私は帰ってきた！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Solomon! I have returned!<ab(0)><off()>",
+   "notes": "Gato's most famous line, firing the GP02 nuclear warhead."
+  },
+  {
+   "ref": "m6061#59",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ミッション補足<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Mission note)<ab(3000)><ed()>",
+   "notes": "Developer placeholder."
+  },
+  {
+   "ref": "m6061#60",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※敵が通過しそうだと警告<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Warning that enemy may break through)<ab(3000)><ed()>",
+   "notes": "Developer placeholder."
+  },
+  {
+   "ref": "m6061#61",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※怒られる<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Reprimanded)<ab(3000)><ed()>",
+   "notes": "Developer placeholder."
+  },
+  {
+   "ref": "m6061#62",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※高官の戦艦がダメージを受けている\nらしいセリフ<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Line indicating dignitary battleship\nis taking damage)<ab(3000)><ed()>",
+   "notes": "Developer placeholder."
+  },
+  {
+   "ref": "m6061#63",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※さらに怒られる<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Reprimanded further)<ab(3000)><ed()>",
+   "notes": "Developer placeholder."
+  },
+  {
+   "ref": "m6061#64",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※もうだみだ<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(All hope is lost)<ab(3000)><ed()>",
+   "notes": "Developer placeholder."
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6061#65",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※ギガノス増援のお知らせ<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6061#66",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※誉められる　その１<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6061#67",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※誉められる　その２<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6061#68",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※ミッションは成功だとぬか喜び<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6061#69",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※超誉められる\n※ミッションは成功だとぬか喜び<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6061#70",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※マイヨとパイロットの掛け合い\n　・機体別メッセージ<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6061#71",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※マイヨの捨てゼリフ<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6061#72",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※敵が居なくなったことをお知らせ\n※しかし・・・（ポリ劇へと繋げる）<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6061#73",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※ミッションアップデートのお知らせ<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6061#74",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※マイヨの悔しがり　その１<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6061#75",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※マイヨの悔しがり　その２<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6061#76",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※マイヨの悔しがり　その３<ab(3000)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Completed translation of op06_01 (80 rows), opening Operation 06 (Konpei Island Naval Review). Covers strategic and tactical briefings for Phase 1 by Sinapus and Burning, defending the defense line against Gelgoog Marines and Zanzibar-class cruisers, Kaine's duel and heated exchange with Meio Plato, the revelation that the attack is a diversion, Anavel Gato's iconic nuclear strike speech ('Solomon! I have returned!'), and developer placeholder notes formatted consistently.",
+  "rows_examined": "brief63005#0 to m6061#64 (slice, 80 rows), m6061#65 to m6061#76 (context_after, 12 rows)",
+  "rows_examined_count": 92,
+  "uncertainties": [
+   {
+    "ref": "m6061#58",
+    "note": "Iconic line 'ソロモンよ！　私は帰ってきた！' translated as 'Solomon! I have returned!' preserving the historical 0083 delivery and INDICE guidance."
+   },
+   {
+    "ref": "m6061#59-64",
+    "note": "Developer placeholder dialogue tags translated concisely in parentheses following op02/op04 patterns."
+   }
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

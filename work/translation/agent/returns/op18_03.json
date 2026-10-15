@@ -1,0 +1,1365 @@
+{
+ "batch": "op18_03",
+ "operation": 18,
+ "previous_batch": "op18_02",
+ "next_batch": null,
+ "rows_in_slice": 56,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "クワサン・オリビー",
+   "en": "Quwasan Olibee",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "female",
+   "role": "Daba's adopted younger sister and fiancee. Kidnapped and brainwashed by Poseidal via bio-relation; reappears as commander of Poseidal's Imperial Guard. Pilots a copper-yellow Calvary Temple.",
+   "personality": "Under mind control she is cold and obedient, acting on Poseidal's orders; underneath she is fragile, and her mind breaks down by the end of the series.",
+   "en_short": "Quwasan"
+  },
+  {
+   "ja": "ゲキ・ガンガー",
+   "en": "Gekiganger",
+   "kind": "term",
+   "series": "Martian Successor Nadesico",
+   "role": "The in-universe 1970s-style super robot anime (full title ゲキ・ガンガー3) loved by Gai Daigoji and Akito; also the name of its robot."
+  },
+  {
+   "ja": "バスターアーク",
+   "en": "Buster Ark",
+   "kind": "unit",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Modified Gun Ark with an evolving Guardian System and fallen-angel styling; Marina's unit while with the Rainen side."
+  },
+  {
+   "ja": "ダイテツジン",
+   "en": "Daitetsujin",
+   "kind": "unit",
+   "series": "Martian Successor Nadesico",
+   "role": "Upgraded Jovian Tetsujin (Tsukumo; later Takasugi)"
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "オルファン",
+   "en": "Orphan",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Gigantic sentient alien ship buried under the Pacific; its awakening threatens Earth; base of the Reclaimers"
+  },
+  {
+   "ja": "ギワザ艦隊",
+   "en": "Giwaza Fleet",
+   "kind": "faction",
+   "series": "Heavy Metal L-Gaim",
+   "role": "Giwaza Lowau's rebel fleet (mostly Sarge Opus planet cruisers of the Thirteen) that turns against Poseidal."
+  },
+  {
+   "ja": "ダイマジン",
+   "en": "Daimajin",
+   "kind": "unit",
+   "series": "Martian Successor Nadesico",
+   "role": "Upgraded Jovian Majin (Tsukiomi)"
+  },
+  {
+   "ja": "ペンタゴナ",
+   "en": "Pentagona",
+   "kind": "place",
+   "series": "Heavy Metal L-Gaim",
+   "role": "The Pentagona System / Pentagona World: the five-planet star system where L-Gaim is set (Koam, Mizum, Gastogal, Trydetol, ...)."
+  },
+  {
+   "ja": "ポセイダル",
+   "en": "Poseidal",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "female",
+   "role": "Emperor ruling the Pentagona World from Sveto on Gastogal; supreme commander of the Poseidal Army. The Poseidal on the throne is actually Mian Qu Ha Ussher, a puppet of the true Poseidal (Amandara Kamandara). In ACE2 'Poseidal' is the pilot of the Aug.",
+   "personality": "Regal, cold and imperious ruler who controls others (e.g. Quwasan) through the bio-relation system; her memories are themselves manipulated, and she finally turns against Amandara.",
+   "full_name": "Oldna Poseidal"
+  },
+  {
+   "ja": "白鳥九十九",
+   "en": "Tsukumo Shiratori",
+   "kind": "character",
+   "series": "Martian Successor Nadesico",
+   "gender": "male",
+   "role": "Lieutenant Commander in the Jovian Superior Jovian Male Forces; Tetsujin/Daitetsujin pilot; seeks peace with Earth",
+   "personality": "Honest, upright and idealistic, naive around women; hot-blooded Gekiganger fan",
+   "en_short": "Shiratori"
+  },
+  {
+   "ja": "ギガノス",
+   "en": "Giganos"
+  },
+  {
+   "ja": "シナプス",
+   "en": "Sinapus",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Earth Federation captain (Captain, 大佐) of the assault carrier Albion; leads the pursuit of the stolen GP02.",
+   "personality": "Grizzled veteran with a commanding presence and keen tactical mind; relies on his own judgement and sense of right and wrong.",
+   "full_name": "Eyphar Sinapus"
+  },
+  {
+   "ja": "デラーズ",
+   "en": "Delaz",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Leader of the Delaz Fleet and mastermind of Operation Stardust; former Zeon colonel loyal to Gihren Zabi. Wiki rank: Lieutenant General (0083).",
+   "personality": "Zealous idealist devoted to Spacenoid independence and Gihren's cause; stern but paternal toward Gato; dies shouting \"Sieg Zeon\".",
+   "full_name": "Aiguille Delaz"
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "ネルガル",
+   "en": "Nergal",
+   "kind": "faction",
+   "series": "Martian Successor Nadesico",
+   "role": "Short form of Nergal Heavy Industries (ネルガル側, ネルガルの戦艦ナデシコ)."
+  },
+  {
+   "ja": "木星蜥蜴",
+   "en": "Jovian Lizards",
+   "kind": "faction",
+   "series": "Martian Successor Nadesico",
+   "role": "Earth's name for the unknown Jovian enemy (actually the Jovian Federation, 木連)."
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "アキト",
+   "en": "Akito",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "male",
+   "role": "TV: cook and Aestivalis pilot of the Nadesico, a Class-A Boson Jumper. PoD: the \"Prince of Darkness\", Black Sarena pilot hunting the Martian Successors",
+   "personality": "TV: kind, reluctant and insecure Gekiganger fan who wants to be a cook. PoD: cold, grim and vengeful after experiments destroyed his senses",
+   "full_name": "Akito Tenkawa"
+  },
+  {
+   "ja": "イネス",
+   "en": "Inez",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "female",
+   "role": "Nergal scientist aboard the Nadesico (Mars survivor); explains the technology",
+   "personality": "Brilliant, self-absorbed lecturer who loves giving \"explanations\"; secretly the grown-up Ai",
+   "full_name": "Inez Fressange"
+  },
+  {
+   "ja": "ガイ",
+   "en": "Gai",
+   "kind": "character",
+   "series": "Martian Successor Nadesico",
+   "gender": "male",
+   "role": "Original Aestivalis pilot of the Nadesico (real name Jiro Yamada); killed early in the TV series",
+   "personality": "Loud, hot-blooded, obsessed with Gekiganger III; insists Gai is his soul's name",
+   "full_name": "Gai Daigoji"
+  },
+  {
+   "ja": "新兵",
+   "en": "Recruit",
+   "kind": "generic",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Generic new soldier."
+  },
+  {
+   "ja": "月臣",
+   "en": "Tsukiomi",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "male",
+   "role": "Officer of the Jovian Superior Jovian Male Forces (Yuujin Butai), Majin/Daimajin pilot; in PoD a Nergal operative who trained Akito",
+   "personality": "Proud, serious, intensely idealistic; haunted by having shot his friend Tsukumo",
+   "full_name": "Genichirou Tsukiomi"
+  },
+  {
+   "ja": "木連",
+   "en": "Jovian Federation",
+   "kind": "faction",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "Jupiter-based anti-Earth state, main enemy faction of the TV series (romaji Mokuren)",
+   "en_short": "Jovians"
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {
+  "32": {
+   "speaker": "Yurika Misumaru",
+   "gender": "female",
+   "role": "captain of the Nadesico",
+   "confidence": "high",
+   "evidence": "brief: 'ナデシコ艦長、ミスマル・ユリカです。'"
+  },
+  "36": {
+   "speaker": "Lucrezia Noin",
+   "gender": "female",
+   "role": "tactical staff officer (特尉, Special Lieutenant) from the Preventer",
+   "confidence": "high",
+   "evidence": "m6112#36 Sinapus: 'ノイン特尉、後で詳しく聞かせてくれ' then p36 explains Domon in brief63178#4-9; commanding but female, do not masculinize"
+  },
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6182#54",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>地球人め！　覚えていろ！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#55",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ここまで来ればもう大丈夫！\n皆さん、ホントにありがとう！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#56",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>作戦終了。　帰還してください。<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#57",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵艦が接近！<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#58",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>熱源反応！　気をつけて！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#59",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>相転移砲、発射！\n目標、そのへんの全部！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#60",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>了解。　相転移砲、発射します。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#61",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>す、すげぇ…<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#62",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>うわ～、なんにもいなくなっちゃった…<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#63",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>…フフフ…<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#64",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ミッション説明<ab(2000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#65",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>しびれをきらして①<ab(2000)><ed()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6182#66",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "②",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>しびれをきらして②<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Losing patience) ②<ab(2000)><ed()>",
+   "notes": "Dev scratch label: losing patience part 2"
+  },
+  {
+   "ref": "m6182#67",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>Sミッション敵出現<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(S-Mission enemy spawn)<ab(2000)><ed()>",
+   "notes": "Dev scratch label: Special/S-Mission enemy spawn"
+  },
+  {
+   "ref": "m6182#68",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ダイマジンとダイテツジンの出現\nうらやむガイのセリフもここ<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Daimajin and Daitetsujin spawn)\n(Gai's envious dialogue goes here)<ab(2000)><ed()>",
+   "notes": "Dev scratch label: Daimajin & Daitetsujin spawn, Gai's line placeholder"
+  },
+  {
+   "ref": "m6182#69",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アキト登場<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Akito appears)<ab(2000)><ed()>",
+   "notes": "Dev scratch label: Akito's entrance"
+  },
+  {
+   "ref": "m6182#70",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>見直すガイ<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Gai gains new respect)<ab(2000)><ed()>",
+   "notes": "Dev scratch label: Gai's newfound respect for Akito"
+  },
+  {
+   "ref": "m6182#71",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>イネスさんの解説<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Inez's explanation)<ab(2000)><ed()>",
+   "notes": "Dev scratch label: Inez Fressange's explanation"
+  },
+  {
+   "ref": "m6182#72",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>復讐を語る月臣との会話<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Dialogue with Tsukiomi on revenge)<ab(2000)><ed()>",
+   "notes": "Dev scratch label: Tsukiomi discussing revenge"
+  },
+  {
+   "ref": "m6182#73",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコ離陸<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Nadesico takes off)<ab(2000)><ed()>",
+   "notes": "Dev scratch label: Nadesico liftoff"
+  },
+  {
+   "ref": "m6182#74",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>威力に驚く<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Amazed by the firepower)<ab(2000)><ed()>",
+   "notes": "Dev scratch label: Astonished by weapon firepower"
+  },
+  {
+   "ref": "m6182#75",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>相転移砲によりダイマジン、\nダイテツジン出力低下<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Phase Transition Cannon reduces)\n(Daimajin and Daitetsujin output)<ab(2000)><ed()>",
+   "notes": "Dev scratch label: Daimajin & Daitetsujin power drop from Phase Transition Cannon"
+  },
+  {
+   "ref": "m6182#76",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ダイマジンピンチ１<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Daimajin in a pinch 1)<ab(2000)><ed()>",
+   "notes": "Dev scratch label: Daimajin in a pinch 1"
+  },
+  {
+   "ref": "m6182#77",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ダイマジンピンチ２<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Daimajin in a pinch 2)<ab(2000)><ed()>",
+   "notes": "Dev scratch label: Daimajin in a pinch 2"
+  },
+  {
+   "ref": "m6182#78",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ダイマジンピンチ３<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Daimajin in a pinch 3)<ab(2000)><ed()>",
+   "notes": "Dev scratch label: Daimajin in a pinch 3"
+  },
+  {
+   "ref": "m6182#79",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ダイマジン撤退１<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Daimajin retreats 1)<ab(2000)><ed()>",
+   "notes": "Dev scratch label: Daimajin retreats 1"
+  },
+  {
+   "ref": "m6182#80",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ダイマジン撤退２<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Daimajin retreats 2)<ab(2000)><ed()>",
+   "notes": "Dev scratch label: Daimajin retreats 2"
+  },
+  {
+   "ref": "m6182#81",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ダイテツジンピンチ１<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Daitetsujin in a pinch 1)<ab(2000)><ed()>",
+   "notes": "Dev scratch label: Daitetsujin in a pinch 1"
+  },
+  {
+   "ref": "m6182#82",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ダイテツジンピンチ２<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Daitetsujin in a pinch 2)<ab(2000)><ed()>",
+   "notes": "Dev scratch label: Daitetsujin in a pinch 2"
+  },
+  {
+   "ref": "m6182#83",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ダイテツジンピンチ３<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Daitetsujin in a pinch 3)<ab(2000)><ed()>",
+   "notes": "Dev scratch label: Daitetsujin in a pinch 3"
+  },
+  {
+   "ref": "m6182#84",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ダイテツジン撤退１<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Daitetsujin retreats 1)<ab(2000)><ed()>",
+   "notes": "Dev scratch label: Daitetsujin retreats 1"
+  },
+  {
+   "ref": "m6182#85",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ダイテツジン撤退２<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Daitetsujin retreats 2)<ab(2000)><ed()>",
+   "notes": "Dev scratch label: Daitetsujin retreats 2"
+  },
+  {
+   "ref": "brief63185#0",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>結論から<im(1)>言っちゃいます。\n#c[BE5050]木星蜥蜴#cは……過去に地球から\n追放された人たちだったんです！",
+   "en": "<op(32,1)><sp(2)>I'll get straight to <im(1)>the point:\nThe #c[BE5050]Jovian Lizards#c are... people who\nwere banished from Earth in the past!",
+   "notes": "Yurika: revealing the truth behind the Jovian Lizards"
+  },
+  {
+   "ref": "brief63185#1",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>１００年前、月に移民した彼らの先祖は、\n地球に対して独立運動を始めました。",
+   "en": "<op(32,1)><sp(2)>A century ago, their ancestors who had\nmigrated to the Moon began a movement\nfor independence from Earth.",
+   "notes": "Yurika: lunar independence movement"
+  },
+  {
+   "ref": "brief63185#2",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)><im(2)>でも、それを快く思わない地球の人たちは、\n月の人たちが内部分裂するように仕向け、\n最後まで地球との共存を拒否した人たちを",
+   "en": "<op(32,1)><sp(2)><im(2)>But Earth was displeased by this, and\nschemed to divide the people of the Moon.\nThose who refused to coexist with Earth...",
+   "notes": "Yurika: Earth inciting division among lunar colonists"
+  },
+  {
+   "ref": "brief63185#3",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>追放しちゃったんです。\n追放された人たちは、月から、\nさらに火星へと逃げていきました。",
+   "en": "<op(32,1)><sp(2)>...were banished into exile!\nThose exiled people fled from the Moon,\nescaping all the way to Mars.",
+   "notes": "Yurika: flight to Mars"
+  },
+  {
+   "ref": "brief63185#4",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(4)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)><im(4)>その後、地球では彼らの存在を\n全ての記録から抹殺しました。\nそれというのも、当時の地球政府が……",
+   "en": "<op(32,1)><sp(2)><im(4)>After that, Earth erased their existence\nfrom all records. That was because\nthe Earth government at the time...",
+   "notes": "Yurika: historical erasure"
+  },
+  {
+   "ref": "brief63185#5",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>火星に……追放された人たちに……\n核を撃ち込んだからです。\n裏工作の証拠を消すために…",
+   "en": "<op(32,1)><sp(2)>...launched nuclear weapons at Mars...\nat the exiled people... all to erase\nthe evidence of their cover-up...",
+   "notes": "Yurika: nuclear bombardment of Mars to cover up the conspiracy"
+  },
+  {
+   "ref": "brief63185#6",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(5)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)><im(5)>そこで生き残った人たちは、\nさらに木星へと逃げていくしか\nなかったんです。",
+   "en": "<op(32,1)><sp(2)><im(5)>The people who survived there had no\nchoice but to flee even farther,\nall the way to Jupiter.",
+   "notes": "Yurika: survivors fled to Jupiter"
+  },
+  {
+   "ref": "brief63185#7",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>何とか木星へ逃げのびた人たちは、\n火星で発見された遺跡と同じ古代遺跡を\n発見して、自分たちの国を作ったんです。",
+   "en": "<op(32,1)><sp(2)>Those who managed to escape to Jupiter\nfound ancient ruins like those on Mars,\nand established their own nation.",
+   "notes": "Yurika: founding of Mokuren using ancient ruins"
+  },
+  {
+   "ref": "brief63185#8",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(6)>",
+    "#c[E2E258]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)><im(6)>地球から持っていったアニメ、\n「#c[E2E258]ゲキ・ガンガー３#c」だけを心の支えに。",
+   "en": "<op(32,1)><sp(2)><im(6)>With only an anime brought from Earth,\n\"#c[E2E258]Gekiganger 3#c\", to keep their\nspirits alive.",
+   "notes": "Yurika: Gekiganger 3 as the Jovians' emotional foundation"
+  },
+  {
+   "ref": "brief63185#9",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "#c[E2E258]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>それ以来……#c[E2E258]木星連合#cの人たちは、\nずっと地球への復讐のチャンスを\n狙ってきたそうです。",
+   "en": "<op(32,1)><sp(2)>Ever since... the people of the\n#c[E2E258]Jovian Federation#c have waited for\na chance to take revenge on Earth.",
+   "notes": "Yurika: Jovian desire for revenge"
+  },
+  {
+   "ref": "brief63185#10",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(8)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)><im(8)>そして、ついにその機会が訪れたんです。\n#c[BE5050]ギガノス#cや、#c[BE5050]デラーズ#cを利用することで。",
+   "en": "<op(32,1)><sp(2)><im(8)>And that opportunity finally came.\nBy making use of #c[BE5050]Giganos#c\nand #c[BE5050]Delaz#c.",
+   "notes": "Yurika: Mokuren utilizing Giganos and Delaz Fleet"
+  },
+  {
+   "ref": "brief63185#11",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>でもですね、こちらで一旦捕虜にした\n白鳥九十九さんと、クルーが仲良く\nなったことから#c[BE5050]木連#c側の話が聞けたんです。",
+   "en": "<op(32,1)><sp(2)>But you see, our crew bonded with\nTsukumo Shiratori while held prisoner,\nlearning the #c[BE5050]Jovian Federation#c's side.",
+   "notes": "Yurika: friendship with Tsukumo Shiratori"
+  },
+  {
+   "ref": "brief63185#12",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(9)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)><im(9)>それで、#c[BE5050]木連#cのほうにも\n戦争をやめたいって思っている人が\nいることがわかったんですよ。",
+   "en": "<op(32,1)><sp(2)><im(9)>Through that, we learned that on the\n#c[BE5050]Jovian#c side, too, there are people\nwho want to put an end to the war.",
+   "notes": "Yurika: peace faction within Mokuren"
+  },
+  {
+   "ref": "brief63185#13",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>ですから、私たち、木星に行って\n和平交渉をしてこようかと思うんです！",
+   "en": "<op(32,1)><sp(2)>So, we are going to travel to Jupiter\nand attempt peace negotiations ourselves!",
+   "notes": "Yurika: Nadesico mission to Jupiter"
+  },
+  {
+   "ref": "brief63185#14",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>お父様に言えば反対されるだろうし、\nネルガルの上層部にも、\n反対する人が多いとは思います。",
+   "en": "<op(32,1)><sp(2)>I am sure my father would oppose this,\nand many in Nergal's upper management\nwould object as well.",
+   "notes": "Yurika: expected opposition from her father and Nergal"
+  },
+  {
+   "ref": "brief63185#15",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>それは、#c[BE5050]木連#cのほうも同じらしいんですが……\nでも、もう、私たち、誰かが死んだり、\n傷ついたりするのは嫌なんです！",
+   "en": "<op(32,1)><sp(2)>It seems to be the same with the\n#c[BE5050]Jovians#c... But we just do not want\nanyone else to die or get hurt anymore!",
+   "notes": "Yurika: plea against casualties"
+  },
+  {
+   "ref": "brief63185#16",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(11)>",
+    "<im(12)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)><im(11)>だから、私たち、<im(12)>木星に行きます！\nとにかく、戦いを終わらせたいんです！",
+   "en": "<op(32,1)><sp(2)><im(11)>So we are going <im(12)>to Jupiter!\nAbove all, we want to end this fighting!",
+   "notes": "Yurika: determination to end the war"
+  },
+  {
+   "ref": "brief63185#17",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>私たちらしいやり方で、\n宇宙のみんなが\n幸せになれるようにしたいんです！",
+   "en": "<op(32,1)><sp(2)>In our own way, we want to make sure\neveryone in space can find happiness!",
+   "notes": "Yurika: doing things in their own Nadesico way"
+  },
+  {
+   "ref": "brief63185#18",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>ですから……シナプス艦長たちとは、\nここでお別れです！\n……お父様によろしく！",
+   "en": "<op(32,1)><sp(2)>And so... Captain Sinapus, this is where\nwe say goodbye! Please give my father\nmy best regards!",
+   "notes": "Yurika: saying farewell to Sinapus"
+  },
+  {
+   "ref": "brief63185#19",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>艦長。\nいまの通信を聞いたクルー全員の\n答えは一つです。",
+   "en": "<op(36,1)><sp(2)>Captain. Having heard that transmission,\nthe crew has only one answer.",
+   "notes": "Noin: speaking for the Albion crew to Sinapus"
+  },
+  {
+   "ref": "brief63185#20",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>全員、#c[5E8FD8]ナデシコ#cに協力したいと。\n無駄な戦争を終わらせることができるなら、\nどんなことでもすると。",
+   "en": "<op(36,1)><sp(2)>All of them wish to assist the #c[5E8FD8]Nadesico#c.\nIf this senseless war can be ended, they\nare willing to do whatever it takes.",
+   "notes": "Noin: crew solidarity with Nadesico"
+  },
+  {
+   "ref": "brief63185#21",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>上層部は、過去の事件を世間に隠蔽し、\n人々を騙して戦わせていたのです。\n艦長、ご命令を。",
+   "en": "<op(36,1)><sp(2)>High Command concealed the past from the\npublic, deceiving people into fighting.\nCaptain, your orders.",
+   "notes": "Noin: requesting orders from Sinapus"
+  },
+  {
+   "ref": "brief63185#22",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>こんなことを隠していたとは呆れる…\n侵略ではなく、復讐だったということか…\n地球の人間自身が招いたものだったのだ。",
+   "en": "<op(37,1)><sp(2)>To think they hid such a thing... It was\nnot an invasion, but revenge... Brought\nabout by the people of Earth themselves.",
+   "notes": "Sinapus: disgusted by Earth government's deception"
+  },
+  {
+   "ref": "brief63185#23",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>これ以上の犠牲が避けられるなら、\n軍規違反と言えど全力を尽くすべきだろう。\n……あの時のようにな。",
+   "en": "<op(37,1)><sp(2)>If further sacrifice can be prevented,\nwe must do our utmost, even in defiance\nof military code. ...Just like back then.",
+   "notes": "Sinapus: echoing his defiance in Gundam 0083"
+  },
+  {
+   "ref": "brief63185#24",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(10)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(10)>全員、配置に着け！\n今すぐ#c[5E8FD8]ナデシコ#cを追う！",
+   "en": "<op(37,1)><sp(2)><im(10)>All hands, man your battle stations!\nPursue the #c[5E8FD8]Nadesico#c immediately!",
+   "notes": "Sinapus: ordering the Albion to follow the Nadesico"
+  },
+  {
+   "ref": "brief63264#0",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「ナデシコとアルビオン」\n\n　　　　　　　　　　　　　　　　　　　プリベンター　レディ・アン",
+   "en": "<sp(0)>\"The Nadesico and Albion\"\n\n　　　　　　　　　　　　　　　　　　Preventer Lady Une",
+   "notes": "Preventer report header. fix: double space and leading spaces -> replaced with fullwidth Japanese spaces"
+  },
+  {
+   "ref": "brief63264#1",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>ネルガル月面ドックに停泊中の\n#c[5E8FD8]戦艦ナデシコ#cは、<im(1)>地球への帰還命令を\n無視し、木星圏へと進路を取った。",
+   "en": "<sp(0)>Anchored at Nergal's lunar dock,\nthe #c[5E8FD8]battleship Nadesico#c <im(1)>defied orders\nto return to Earth, heading for Jupiter.",
+   "notes": "Lady Une: Nadesico departs lunar dock for Jupiter"
+  },
+  {
+   "ref": "brief63264#2",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[BE5050]",
+    "#c",
+    "<im(3)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>彼らは#c[5E8FD8]ＵＣＥ#c本部に、#c[BE5050]木星蜥蜴#cとの\n<im(3)>和平交渉を行う旨をすでに伝えており、\n上層部の反対を押し切り、出発した形だ。",
+   "en": "<sp(0)>They notified #c[5E8FD8]UCE#c HQ of their intent to\nconduct peace talks with #c[BE5050]Jovian Lizards#c,\n<im(3)>departing over High Command's objections.",
+   "notes": "Lady Une: Nadesico's unauthorized peace mission"
+  },
+  {
+   "ref": "brief63264#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[5E8FD8]ＵＣＥ#c上層部は、<im(2)>これを独断行動に\n当たるとして、同艦への厳重な対処を\n検討中である。",
+   "en": "<sp(0)>#c[5E8FD8]UCE#c High Command deems <im(2)>this unauthorized\naction, and is considering severe\nmeasures against the vessel.",
+   "notes": "Lady Une: UCE considering disciplinary measures"
+  },
+  {
+   "ref": "brief63265#0",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「ギワザ艦隊の目的」\n\n　　　　　　　　　　　　　　　　　　　プリベンター　レディ・アン",
+   "en": "<sp(0)>\"Objectives of the Giwaza Fleet\"\n\n　　　　　　　　　　　　　　　　　　Preventer Lady Une",
+   "notes": "Preventer report header. fix: double space and leading spaces -> replaced with fullwidth Japanese spaces"
+  },
+  {
+   "ref": "brief63265#1",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[BE5050]ポセイダル#cの先遣隊である#c[BE5050]ギワザ艦隊#cの\n最近の動向について報告する。\n",
+   "en": "<sp(0)>This report covers recent movements of\n#c[BE5050]Poseidal#c's vanguard, the #c[BE5050]Giwaza Fleet#c.",
+   "notes": "Lady Une: reporting on Giwaza Fleet movements"
+  },
+  {
+   "ref": "brief63265#2",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>彼らのこれまでの動きは、オルファン<im(1)>を\n新兵器の一種と捉え、その強制占拠を優先\nさせた作戦行動であると判断されてきた。",
+   "en": "<sp(0)>Their actions until now were <im(1)>assessed as\nprioritizing the seizure of Orphan, which\nthey regarded as a new type of weapon.",
+   "notes": "Lady Une: Giwaza's priority was capturing Orphan"
+  },
+  {
+   "ref": "brief63265#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>しかしここにきて同艦隊は、#c[BE5050]バスターアーク#c\nを<im(2)>始めとして、いくつかの強力な兵器の情報\nも集めていることが明らかとなった。",
+   "en": "<sp(0)>However, starting with the #c[BE5050]Buster Ark#c, <im(2)>the\nfleet is evidently gathering intelligence\non several other powerful weapons.",
+   "notes": "Lady Une: Giwaza gathering intel on Buster Ark and other tech"
+  },
+  {
+   "ref": "brief63265#4",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>ここから推測するに、彼らはその占有目標を\nペンタゴナに存在しないテクノロジー全般に\nまで、広げてきたのではないか。",
+   "en": "<sp(0)>From this, we infer they have broadened\ntheir targets to encompass any technology\nnot found within Pentagona.",
+   "notes": "Lady Une: Giwaza's ambitions expanding to foreign technology"
+  },
+  {
+   "ref": "brief63265#5",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[E2E258]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>また#c[BE5050]ギワザ艦隊#cには、#c[E2E258]クワサン・オリビー#c\nという人物の指揮する#c[BE5050]ポセイダル#c親衛隊が\n監視役として同行していることも判明した。",
+   "en": "<sp(0)>Moreover, the #c[BE5050]Giwaza Fleet#c is accompanied\nby #c[E2E258]Quwasan Olibee#c, commanding #c[BE5050]Poseidal#c\nImperial Guards acting as monitors.",
+   "notes": "Lady Une: Quwasan Olibee accompanying Giwaza Fleet as observer"
+  },
+  {
+   "ref": "brief63265#6",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(3)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>これは、#c[BE5050]ポセイダル#cの対地球圏政策<im(3)>が\n今まで以上に強化されてきたことを\n意味する。",
+   "en": "<sp(0)>This indicates #c[BE5050]Poseidal's#c Earth Sphere\npolicy <im(3)>has been escalated to an extent\ngreater than ever before.",
+   "notes": "Lady Une: Poseidal intensifying Earth Sphere policy"
+  }
+ ],
+ "context_after": [],
+ "report": {
+  "translator_summary": "Translated Operation 18 Phase 2 dev scratch labels, debriefing where Yurika reveals the origin of the Jovian Lizards (human survivors of Earth's nuclear strike on Mars who founded Mokuren with Gekiganger 3 as their spiritual guide) and announces their voyage to Jupiter for peace talks, leading Sinapus to follow them in defiance of orders, followed by Lady Une's Preventer reports on the Nadesico's unauthorized mission and the Giwaza Fleet's technological ambitions.",
+  "rows_examined": "m6182#66-85, brief63185#0-24, brief63264#0-3, brief63265#0-6; context from op18_01 and op18_02",
+  "rows_examined_count": 56,
+  "uncertainties": [
+   "m6182#66-85: Developer scratch placeholder labels translated succinctly within parentheses.",
+   "brief63185#0-18: Rendered Yurika's revelation of the dark history behind the Jovians with her characteristic earnest and lively cadence, juxtaposing the tragedy of the nuclear bombing of Mars and their reliance on Gekiganger 3 with her resolute drive to end the war.",
+   "brief63185#23: Sinapus's line 'あの時のようにな' is a direct nod to Operation Stardust in Gundam 0083, where he took the Albion rogue for the greater good.",
+   "brief63265#1-6: Preserved precise color tagging sequence and formal intelligence tone in Lady Une's analysis of Giwaza's interest in Buster Ark and Quwasan Olibee's oversight role."
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {
+   "32": "Yurika Misumaru",
+   "36": "Lucrezia Noin",
+   "37": "Eyphar Sinapus"
+  }
+ }
+}

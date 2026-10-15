@@ -1,0 +1,1816 @@
+{
+ "batch": "op21_03",
+ "operation": 21,
+ "previous_batch": "op21_02",
+ "next_batch": "op21_04",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "プロトカルチャー",
+   "en": "Protoculture",
+   "kind": "term",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Ancient precursor civilisation; the found song/poem plates are judged to be Protoculture artefacts."
+  },
+  {
+   "ja": "ゲキ・ガンガー",
+   "en": "Gekiganger",
+   "kind": "term",
+   "series": "Martian Successor Nadesico",
+   "role": "The in-universe 1970s-style super robot anime (full title ゲキ・ガンガー3) loved by Gai Daigoji and Akito; also the name of its robot."
+  },
+  {
+   "ja": "エステバリス",
+   "en": "Aestivalis",
+   "kind": "unit",
+   "series": "Martian Successor Nadesico",
+   "role": "Nergal mass-produced mecha; used alone and in エステバリス隊 (Aestivalis squad/team)."
+  },
+  {
+   "ja": "リクレイマー",
+   "en": "Reclaimer",
+   "kind": "faction",
+   "series": "Brain Powerd",
+   "role": "The people who serve Orphan and pilot Grand Chers to gather its plates; plural 'Reclaimers'"
+  },
+  {
+   "ja": "オルファン",
+   "en": "Orphan",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Gigantic sentient alien ship buried under the Pacific; its awakening threatens Earth; base of the Reclaimers"
+  },
+  {
+   "ja": "フォールド",
+   "en": "fold",
+   "kind": "term",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Space-jump (fold) drive of the Macross; Nadesico gets caught in the Macross space fold."
+  },
+  {
+   "ja": "ポセイダル",
+   "en": "Poseidal",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "female",
+   "role": "Emperor ruling the Pentagona World from Sveto on Gastogal; supreme commander of the Poseidal Army. The Poseidal on the throne is actually Mian Qu Ha Ussher, a puppet of the true Poseidal (Amandara Kamandara). In ACE2 'Poseidal' is the pilot of the Aug.",
+   "personality": "Regal, cold and imperious ruler who controls others (e.g. Quwasan) through the bio-relation system; her memories are themselves manipulated, and she finally turns against Amandara.",
+   "full_name": "Oldna Poseidal"
+  },
+  {
+   "ja": "グラドス",
+   "en": "Grados",
+   "kind": "faction",
+   "series": "Blue Comet SPT Layzner",
+   "role": "The alien Grados Empire, from the Udoria system, that invades and occupies Earth in Layzner. Adjective form: Gradosian."
+  },
+  {
+   "ja": "ドレイク",
+   "en": "Drake",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Main antagonist; Lord of House Luft in the Kingdom of Ah (アの国), who summons Holy Warriors and wages war to unite Byston Well; commands the Will Wipps",
+   "personality": "Ambitious, scheming warlord who believes his conquest is justified. Loves his daughter Riml but is blind to the plots around him.",
+   "full_name": "Drake Luft"
+  },
+  {
+   "ja": "プレート",
+   "en": "plate",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Orphan's disc plates sought by the Reclaimers; ALSO (crossover) inscribed plates carrying a Zentradi/Protoculture song."
+  },
+  {
+   "ja": "マクロス",
+   "en": "Macross",
+   "kind": "ship",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "SDF-1 Macross, the U.N. Spacy super-dimensional fortress (human flagship)."
+  },
+  {
+   "ja": "ミンメイ",
+   "en": "Minmay",
+   "kind": "character",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "gender": "female",
+   "role": "Idol singer aboard the Macross; her songs (culture) are the key to defeating the Zentradi.",
+   "personality": "Bright, cheerful and ambitious pop idol, somewhat self-absorbed; infatuated with Hikaru.",
+   "full_name": "Lynn Minmay"
+  },
+  {
+   "ja": "ガイ",
+   "en": "Gai",
+   "kind": "character",
+   "series": "Martian Successor Nadesico",
+   "gender": "male",
+   "role": "Original Aestivalis pilot of the Nadesico (real name Jiro Yamada); killed early in the TV series",
+   "personality": "Loud, hot-blooded, obsessed with Gekiganger III; insists Gai is his soul's name",
+   "full_name": "Gai Daigoji"
+  }
+ ],
+ "known_portraits": {
+  "33": {
+   "speaker": "Kouichiro Misumaru",
+   "gender": "male",
+   "role": "UCE Space Force admiral (Yurika's father)",
+   "confidence": "high",
+   "evidence": "brief: '私はＵＣＥ宇宙軍提督のミスマルだ。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6214#1",
+   "layer": "mission dialogue",
+   "jp": "制限時間超過",
+   "en": ""
+  },
+  {
+   "ref": "m6214#2",
+   "layer": "mission dialogue",
+   "jp": "クァドラン・ロー（ミリア）の撃破",
+   "en": ""
+  },
+  {
+   "ref": "m6214#3",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>フォッカー少佐！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6214#4",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ミンメイちゃん救出に\n同行させていただきます！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6214#5",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>輝の奴が手間をかけさせてすまんな！<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6214#6",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>いいんですよ！　そのおかげで\n本物のミンメイちゃんに会えるんですから！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6214#7",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵小隊、撤退していきます。<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6214#8",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>なるほど、リーダー機さえやっちまえば\n尻尾を巻いて逃げるようだな。<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6214#9",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵部隊がすごい勢いで減っています。<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6214#10",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ようし、その調子だ！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6214#11",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵、さらに来ます！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6214#12",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>なんて数だ…！<ab(300)><ed()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6214#13",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵部隊、撤退開始しました。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemy forces began their retreat.<ab(300)><ed()>",
+   "notes": "Bridge operator status report."
+  },
+  {
+   "ref": "m6214#14",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵機の大量撃破を確認。\n敵部隊、撤退を開始。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Mass enemy losses confirmed.\nEnemy forces are retreating.<ab(300)><ed()>",
+   "notes": "Bridge operator battle assessment."
+  },
+  {
+   "ref": "m6214#15",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>連中、さすがにかなわんと思ったようだな。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Seems they knew they stood no chance.<ab(500)><ed()>",
+   "notes": "Roy Focker confident comment."
+  },
+  {
+   "ref": "m6214#16",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あまりグズグズするな。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Don't dawdle around too long.<ab(300)><ed()>",
+   "notes": "Pilot / commander warning."
+  },
+  {
+   "ref": "m6214#18",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦にフォールド反応！\n…敵艦、反応消失しました…<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Fold reaction on enemy ship!\n...Enemy ship signature lost...<ab(700)><ed()>",
+   "notes": "Bridge operator tracking enemy space fold."
+  },
+  {
+   "ref": "m6214#20",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>おら、輝！\nまた、面倒かけやがって！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Hey, Hikaru!\nCausing trouble for us again!<ab(200)><ed()>",
+   "notes": "Roy Focker greeting Hikaru."
+  },
+  {
+   "ref": "m6214#21",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>先輩！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Senpai!<ab(100)><ed()>",
+   "notes": "Hikaru calling Roy Focker."
+  },
+  {
+   "ref": "m6214#22",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>だが、よくやった！<ab100)>",
+   "en": "<op()><sp(20)>Still, you did well!",
+   "notes": "Roy Focker praising Hikaru. Tokens strictly match list (jp contains malformed tag)."
+  },
+  {
+   "ref": "m6214#23",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>男はそのくらいじゃなきゃな。\n女はものにできん！<ab(300)><ed()>",
+   "en": "<sp(20)>A real man has to be like that,\nor he'll never win a woman's heart!<ab(300)><ed()>",
+   "notes": "Focker joking about dating Minmay."
+  },
+  {
+   "ref": "m6214#24",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>先輩、酔ってますね？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Senpai, you're drunk, aren't you?<ab(300)><ed()>",
+   "notes": "Hikaru calling out Focker."
+  },
+  {
+   "ref": "m6214#25",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>バーロー。\n酒が怖くて戦ができるかってんだ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Fool! How could I fight a war if\nI was afraid of a little booze?!<ab(500)><ed()>",
+   "notes": "Focker classic line."
+  },
+  {
+   "ref": "m6214#26",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>輝！　今のうちに脱出だ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Hikaru! Escape while you still can!<ab(400)><ed()>",
+   "notes": "Focker urging retreat."
+  },
+  {
+   "ref": "m6214#27",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>待ってください！\nミンメイを助けに行きます！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Wait!\nI'm going back to save Minmay!<ab(0)><ed()>",
+   "notes": "Hikaru refusing to leave without Minmay."
+  },
+  {
+   "ref": "m6214#28",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まったぁ！　俺も行くぜ！<ab(200)>",
+   "en": "<op()><sp(20)>Hold up! I'm coming with you!<ab(200)>",
+   "notes": "Gai Daigoji joining the rescue."
+  },
+  {
+   "ref": "m6214#29",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>生ミンメイちゃんを見れるチャンスを、\n逃してたまるもんか！<ab(200)><ed()>",
+   "en": "<sp(20)>No way I'm passing up a chance to\nsee Minmay in the flesh!<ab(200)><ed()>",
+   "notes": "Gai Daigoji fan enthusiasm."
+  },
+  {
+   "ref": "m6214#30",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ミンメイ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Minmay!<ab(100)><ed()>",
+   "notes": "Hikaru calling Minmay."
+  },
+  {
+   "ref": "m6214#31",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ミンメイちゃぁん！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Minmaaaay!<ab(100)><ed()>",
+   "notes": "Gai Daigoji shouting affectionately."
+  },
+  {
+   "ref": "m6214#32",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵がそちらに行きます。\n気をつけてください。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemies are heading your way.\nPlease be careful.<ab(300)><ed()>",
+   "notes": "Bridge operator warning."
+  },
+  {
+   "ref": "m6214#33",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>各機、分散して迎撃に当たれ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>All units, scatter and intercept!<ab(300)><ed()>",
+   "notes": "Commander / pilot command."
+  },
+  {
+   "ref": "m6214#34",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>マイクローン、手並みを見せてもらうぞ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Microns, let's see what you can do!<ab(300)><ed()>",
+   "notes": "Zentradi pilot challenging the player."
+  },
+  {
+   "ref": "m6214#35",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今までの奴と違う…\n奴らのエースなのか？<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Different from the rest...\nAre they an enemy ace?<ab(400)><ed()>",
+   "notes": "Allied pilot sensing Milia's piloting skill."
+  },
+  {
+   "ref": "m6214#36",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>情けない。\n私と互角に戦える者はいないのか。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Pathetic. Is there no one here\nwho can fight me on equal terms?<ab(500)><ed()>",
+   "notes": "Milia boasting in her Queadluun-Rau."
+  },
+  {
+   "ref": "m6214#37",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>デブラン！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Debran!<ab(100)><ed()>",
+   "notes": "Zentradi exclamation."
+  },
+  {
+   "ref": "m6214#38",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵、撤退していきます。<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Enemies are retreating.<ab(100)><ed()>",
+   "notes": "Bridge operator status report."
+  },
+  {
+   "ref": "m6214#39",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よくやった！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Well done!<ab(100)><ed()>",
+   "notes": "Focker praise."
+  },
+  {
+   "ref": "m6214#41",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦に熱源反応！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Thermal signature on enemy warship!<ab(300)><ed()>",
+   "notes": "Bridge sensor alert."
+  },
+  {
+   "ref": "m6214#42",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>１時の方向に熱源を確認！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Thermal source at one o'clock!<ab(300)><ed()>",
+   "notes": "Bridge sensor bearing report."
+  },
+  {
+   "ref": "m6214#45",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>１０時の方向に熱源を確認！<ab(300)>",
+   "en": "<op()><sp(20)>Thermal source at ten o'clock!<ab(300)>",
+   "notes": "Bridge sensor bearing report."
+  },
+  {
+   "ref": "m6214#46",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>識別不明！<ab(200)><ed()>",
+   "en": "<sp(20)>Unknown identification!<ab(200)><ed()>",
+   "notes": "Operator report."
+  },
+  {
+   "ref": "m6214#49",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>重力波ビーム、\n各エステバリスにコンタクト！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Gravity Wave Beam,\nlinked to each Aestivalis!<ab(500)><ed()>",
+   "notes": "Nadesico operator reporting Gravity Wave Beam contact."
+  },
+  {
+   "ref": "m6214#50",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>敵部隊が周辺に展開しています。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Enemy forces deployed nearby.<ab(0)><off()>",
+   "notes": "Combat situation report."
+  },
+  {
+   "ref": "m6214#51",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>なっ！　なんだこりゃ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Wh-what in the world is this?!<ab(0)><off()>",
+   "notes": "Pilot shocked by space fold anomaly."
+  },
+  {
+   "ref": "m6214#52",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>フォールドだ！\nこの艦が、フォールドしようとしている！<ab(0)><off()>",
+   "en": "<on()><sp(20)>A fold! This ship is about to\nexecute a space fold!<ab(0)><off()>",
+   "notes": "Bridge crew shouting alarm as Zentradi ship folds."
+  },
+  {
+   "ref": "m6214#53",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>なに！？　何なの！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>What?! What's happening?!<ab(0)><off()>",
+   "notes": "Bridge crew panic."
+  },
+  {
+   "ref": "m6214#54",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>総員、ショックに備えろ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>All hands, brace for impact!<ab(0)><off()>",
+   "notes": "Commander warning crew to brace for fold shock."
+  },
+  {
+   "ref": "m6214#55",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>あの３人はどうした。<ab(0)><off()>",
+   "en": "<on()><sp(20)>What became of those three?<ab(0)><off()>",
+   "notes": "Vrlitwhai inquiring about the prisoners."
+  },
+  {
+   "ref": "m6214#56",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ミンメイ、カイフン、ガイと名乗る\nマイクローンでしたら、<ab(0)><off()>",
+   "en": "<on()><sp(20)>The Microns calling themselves\nMinmay, Kaifun, and Gai?<ab(0)><off()>",
+   "notes": "Exsedol reporting."
+  },
+  {
+   "ref": "m6214#57",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>先ほど尋問を終え、\n拘束室に監禁してあります。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Interrogation just concluded;\nthey are confined to holding cells.<ab(0)><off()>",
+   "notes": "Exsedol status update."
+  },
+  {
+   "ref": "m6214#58",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>プロトカルチャー……<ab(0)><off()>",
+   "en": "<on()><sp(20)>Protoculture...<ab(0)><off()>",
+   "notes": "Vrlitwhai musing gravely."
+  },
+  {
+   "ref": "m6214#59",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>プロトカルチャー？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Protoculture?<ab(0)><off()>",
+   "notes": "Exsedol question."
+  },
+  {
+   "ref": "m6214#60",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>文化をもつマイクローンは\nすなわち「プロトカルチャー」だ。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Microns possessing culture are,\nin other words, Protoculture.<ab(0)><off()>",
+   "notes": "Vrlitwhai defining Protoculture."
+  },
+  {
+   "ref": "m6214#61",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>文化？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Culture?<ab(0)><off()>",
+   "notes": "Exsedol puzzled."
+  },
+  {
+   "ref": "m6214#62",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>「戦う以外の創造的活動」\nという他は私も詳しく知らぬ。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Beyond creative activity outside\nof battle, I know little else.<ab(0)><off()>",
+   "notes": "Vrlitwhai admitting limited knowledge."
+  },
+  {
+   "ref": "m6214#63",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>我々の製造者たちは\n文化について何も私に教育しなかった。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Our creators taught me nothing\nconcerning culture.<ab(0)><off()>",
+   "notes": "Vrlitwhai recalling origins."
+  },
+  {
+   "ref": "m6214#64",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>「文化に触れるな」\nというプログラムを除いてな。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Except for the program:\nDo not touch culture.<ab(0)><off()>",
+   "notes": "Vrlitwhai forbidden programming."
+  },
+  {
+   "ref": "m6214#65",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ミンメイの発した恐るべき音と、<ab(0)><off()>",
+   "en": "<on()><sp(20)>The dreadful sounds made by Minmay,<ab(0)><off()>",
+   "notes": "Exsedol referring to singing."
+  },
+  {
+   "ref": "m6214#66",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ガイの持ち込んだ\n「ゲキ・ガンガー３」とかいう奇妙な映像、<ab(0)><off()>",
+   "en": "<on()><sp(20)>and the strange footage brought by Gai\ncalled Gekiganger 3...<ab(0)><off()>",
+   "notes": "Exsedol referring to Gekiganger III anime tape."
+  },
+  {
+   "ref": "m6214#67",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>あれが文化なのでしょうか？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Could that be culture?<ab(0)><off()>",
+   "notes": "Exsedol question."
+  },
+  {
+   "ref": "m6214#68",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>あれは「歌」と「物語」という物だ。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Those are things known as\nsong and story.<ab(0)><off()>",
+   "notes": "Vrlitwhai explaining song and story."
+  },
+  {
+   "ref": "m6214#69",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>「歌」？　「物語」？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Song? Story?<ab(0)><off()>",
+   "notes": "Exsedol repeating alien concepts."
+  },
+  {
+   "ref": "m6214#70",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>私とて創造以来すでに\n１２万周期を経た機動要塞だ。<ab(0)><off()>",
+   "en": "<on()><sp(20)>I am a mobile fortress that has\npassed 120,000 cycles since creation.<ab(0)><off()>",
+   "notes": "Vrlitwhai stating age and experience."
+  },
+  {
+   "ref": "m6214#71",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>プロトカルチャーの文化をわずかながら\n解読する能力は身に付けている。<ab(0)><off()>",
+   "en": "<on()><sp(20)>I have acquired some slight ability\nto decipher Protoculture culture.<ab(0)><off()>",
+   "notes": "Vrlitwhai on deciphering Protoculture."
+  },
+  {
+   "ref": "m6214#72",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>「歌」や「物語」には、\n男と女を引き寄せる力があるらしい。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Song and story apparently have the\npower to draw men and women together.<ab(0)><off()>",
+   "notes": "Vrlitwhai explaining culture effect on sexes."
+  },
+  {
+   "ref": "m6214#73",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>何という力！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>What terrifying power...?!<ab(0)><off()>",
+   "notes": "Exsedol horrified."
+  },
+  {
+   "ref": "m6214#74",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>それが我らの戦意を奪うのか……<ab(0)><off()>",
+   "en": "<on()><sp(20)>Does that rob us of will to fight...?<ab(0)><off()>",
+   "notes": "Exsedol realizing effect of culture on Zentradi."
+  },
+  {
+   "ref": "m6214#75",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>これをあの者たちに渡せ。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Hand this over to those Microns.<ab(0)><off()>",
+   "notes": "Vrlitwhai ordering plate delivered."
+  },
+  {
+   "ref": "m6214#76",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>このプレートは？<ab(0)><off()>",
+   "en": "<on()><sp(20)>This plate?<ab(0)><off()>",
+   "notes": "Exsedol asking."
+  },
+  {
+   "ref": "m6214#77",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>はるか昔の戦闘で捕獲した「文化の断片」だ。<ab(0)><off()>",
+   "en": "<on()><sp(20)>A fragment of culture seized in\nbattle long ago.<ab(0)><off()>",
+   "notes": "Vrlitwhai explaining Protoculture artifact."
+  },
+  {
+   "ref": "m6214#78",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>「文化の断片」？<ab(0)><off()>",
+   "en": "<on()><sp(20)>A fragment of culture?<ab(0)><off()>",
+   "notes": "Exsedol echo."
+  },
+  {
+   "ref": "m6214#79",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>このプロトカルチャーの３人ならば\nこれがなんであるかわかるやも知れん。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Those three Protoculture may perhaps\nknow what this is.<ab(0)><off()>",
+   "notes": "Vrlitwhai hoping they can interpret the song plate."
+  },
+  {
+   "ref": "m6214#80",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ここは…<ab(0)><off()>",
+   "en": "<on()><sp(20)>Where are we...?<ab(0)><off()>",
+   "notes": "Pilot / crew disoriented after space fold."
+  },
+  {
+   "ref": "m6214#81",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>もしかして…地球？\n帰ってきちゃったの？　<ab(0)><off()>",
+   "en": "<on()><sp(20)>Could this be... Earth?\nDid we actually make it back?<ab(0)><off()>",
+   "notes": "Crew member recognizing Earth."
+  },
+  {
+   "ref": "m6214#82",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>そうみたいです。\nマクロスがいませんけど。<ab(0)><off()>",
+   "en": "<on()><sp(20)>It seems so.\nThough the Macross isn't here.<ab(0)><off()>",
+   "notes": "Operator reporting missing Macross."
+  },
+  {
+   "ref": "m6214#83",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>えー！？　どうして？<ab(0)><off()>",
+   "en": "<on()><sp(20)>What?! Why?<ab(0)><off()>",
+   "notes": "Crew surprised reaction."
+  },
+  {
+   "ref": "m6214#84",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>多分、敵艦がフォールドした時に、\n私たちだけ巻き込まれたんだと思います。<ab(0)><off()>",
+   "en": "<on()><sp(20)>When the enemy ship folded,\nI think only we were dragged along.<ab(0)><off()>",
+   "notes": "Technical assessment of fold separation."
+  },
+  {
+   "ref": "m6214#85",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>そ、それじゃ、マクロスは！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Th-then what about the Macross?!<ab(0)><off()>",
+   "notes": "Concern for Macross."
+  },
+  {
+   "ref": "m6214#86",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>わかりません。<ab(0)><off()>",
+   "en": "<on()><sp(20)>I don't know.<ab(0)><off()>",
+   "notes": "Uncertain status."
+  },
+  {
+   "ref": "m6214#87",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>無事ならば帰ってくるでしょうし、\n無事でなければ……<ab(0)><off()>",
+   "en": "<on()><sp(20)>If she's safe, she will return.\nAnd if not...<ab(0)><off()>",
+   "notes": "Somber realization."
+  },
+  {
+   "ref": "m6214#88",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>マクロスはきっと無事だ。　今はそう、信じよう。<ab(0)><off()>",
+   "en": "<on()><sp(20)>The Macross must be safe.\nLet's have faith in that for now.<ab(0)><off()>",
+   "notes": "Sinapus / commander reassurance."
+  },
+  {
+   "ref": "m6214#89",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>はい！信じましょう！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Yes! Let's believe in them!<ab(0)><off()>",
+   "notes": "Yurika agreeing."
+  },
+  {
+   "ref": "m6214#90",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>今は我々にできることは何もない。<ab(0)><off()>",
+   "en": "<on()><sp(20)>There is nothing we can do right now.<ab(0)><off()>",
+   "notes": "Pragmatic decision."
+  },
+  {
+   "ref": "m6214#91",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ここは一旦、地球にもどろう。<ab(0)><off()>",
+   "en": "<on()><sp(20)>For now, let us return to Earth.<ab(0)><off()>",
+   "notes": "Order to set course for Earth."
+  },
+  {
+   "ref": "m6214#92",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>そうですね……あっちも心配ですし。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Right... We are worried about\nthings back there as well.<ab(0)><off()>",
+   "notes": "Agreement to return to Earth."
+  },
+  {
+   "ref": "brief63188#0",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>諸君らが南アタリア島でフォールドに\n巻きこまれてから、１ヶ月が過ぎている。\nこの短期間でよく戻ってくれた。",
+   "en": "<op(33,1)><sp(2)>One month has passed since you were caught\nin the fold at South Ataria Island.\nYou did well to return so quickly.",
+   "notes": "Admiral Misumaru debriefing."
+  },
+  {
+   "ref": "brief63188#1",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "<im(3)>",
+    "<im(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>君たちが<im(1)>不在中の<im(3)>地球圏の<im(2)>情勢の変化を\nかいつまんで説明しておこう。",
+   "en": "<op(33,1)><sp(2)>Allow me to briefly <im(1)>explain the shifts\n<im(3)>in the Earth Sphere's <im(2)>situation during\nyour absence.",
+   "notes": "Admiral Misumaru explaining strategic situation."
+  },
+  {
+   "ref": "brief63188#2",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>まず、#c[BE5050]グラドス#c軍が#c[BE5050]ポセイダル#c軍と手を結び、\n戦力増強を図っている。",
+   "en": "<op(33,1)><sp(2)>First, the #c[BE5050]Grados#c forces joined hands\nwith the #c[BE5050]Poseidal#c army to bolster\ntheir military strength.",
+   "notes": "Admiral Misumaru on Grados-Poseidal alliance."
+  },
+  {
+   "ref": "brief63188#3",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(4)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(4)>#c[BE5050]グラドス#cは北米大陸を拠点に活動しており、\nグラドスタワーと呼ばれる巨大な\n基地まで建造した。",
+   "en": "<op(33,1)><sp(2)><im(4)>#c[BE5050]Grados#c is operating out of North America\nand has built a massive base known as\nthe Grados Tower.",
+   "notes": "Admiral Misumaru on Grados Tower."
+  },
+  {
+   "ref": "brief63188#4",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>狙いは共にオルファンのようだが、\n#c[BE5050]リクレイマー#cと#c[BE5050]ドレイク軍#cを警戒して\n容易には手が出せない状況らしい。",
+   "en": "<op(33,1)><sp(2)>Both seem to target Orphan, but wary of\nthe #c[BE5050]Reclaimers#c and #c[BE5050]Drake forces#c,\nthey cannot easily make a move.",
+   "notes": "Admiral Misumaru on Orphan standoff."
+  },
+  {
+   "ref": "brief63188#5",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(6)>",
+    "<im(8)>",
+    "<im(7)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(6)><im(8)><im(7)>そして、その#c[BE5050]リクレイマー#cと#c[BE5050]ドレイク#cが、\n守るオルファンだが……\nついに地上まで浮上してしまった。",
+   "en": "<op(33,1)><sp(2)><im(6)><im(8)><im(7)>Furthermore, the Orphan protected by\nthe #c[BE5050]Reclaimers#c and #c[BE5050]Drake#c...\nhas finally surfaced to the ground.",
+   "notes": "Admiral Misumaru on Orphan surfacing."
+  },
+  {
+   "ref": "brief63188#6",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(9)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(9)>これにより、大規模な津波や地震が頻発し、\n各地の被害は深刻な問題となっている。",
+   "en": "<op(33,1)><sp(2)><im(9)>As a result, massive tsunamis and\nearthquakes have struck frequently,\ncausing severe damage across the world.",
+   "notes": "Admiral Misumaru on global cataclysms."
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "brief63188#7",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)><im(15)>我が軍は一般市民の保護や救助活動で\n手一杯という状況だ。",
+   "en": ""
+  },
+  {
+   "ref": "brief63188#8",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)><im(21)>#c[5E8FD8]ＵＣＥ#cは、これらの事態により\nかなりの戦線縮小を強いられ、\n現在は圧倒的に不利な状況だ。",
+   "en": ""
+  },
+  {
+   "ref": "brief63188#9",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)><im(22)>今となっては我が軍でも最強と呼ばれる、\n#c[5E8FD8]アルビオン#cと#c[5E8FD8]ナデシコ#cの遊撃艦隊！",
+   "en": ""
+  },
+  {
+   "ref": "brief63188#10",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)>そして、切り札である#c[5E8FD8]マクロス#cまでも不在と\nなっていたからな……",
+   "en": ""
+  },
+  {
+   "ref": "brief63188#11",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)><im(24)><im(25)>だが、諸君が帰ってきてくれた以上、\n戦局は一気に我々に傾いたと\n言ってもいいだろう。",
+   "en": ""
+  },
+  {
+   "ref": "brief63188#12",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)>よって我々は、ただちに攻勢に出る。\n諸君らには、その作戦の中核を\n担ってもらうことになるだろう。",
+   "en": ""
+  },
+  {
+   "ref": "brief63188#13",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)><im(27)>戦いを終わらせるためにも、\n最後までがんばってもらいたい！",
+   "en": ""
+  },
+  {
+   "ref": "brief63276#0",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>「グラドス地球制圧軍の動向に関して」\n\n　　　　　　　　　　　　　　　　　　　プリベンター　レディ・アン",
+   "en": ""
+  },
+  {
+   "ref": "brief63276#1",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>#c[BE5050]グラドス#c軍は、地上の侵攻を推し進め、\n北米全域<im(1)>をその支配下に置いた。\n",
+   "en": ""
+  },
+  {
+   "ref": "brief63276#2",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>#c[5E8FD8]ＵＣＥ#cの激しい抵抗に対する兵力不足を\n解消するために、#c[BE5050]ポセイダル#cとの結託を\n図ったことが功を奏した形だ。",
+   "en": ""
+  },
+  {
+   "ref": "brief63276#3",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>#c[BE5050]グラドス#cの勢力圏となった現在の北米は、\nいまや#c[5E8FD8]ＵＣＥ#cの影響力を及ぼすことが\n不可能な状態である。",
+   "en": ""
+  },
+  {
+   "ref": "brief63276#4",
+   "layer": "Preventer report",
+   "jp": "<sp(0)>これに乗じて#c[BE5050]グラドス#cは<im(2)>、北米において\n文化統制運動を始めとする独自政策を\n展開している。",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Translated all 80 rows of Op 21 Phase 4 and Debriefing. Covers Focker and Hikaru's rescue reunion, Gai Daigoji chasing Minmay, battle against Milia's Meltrandi/Zentradi forces, the space fold separation, Vrlitwhai and Exsedol's interrogation of the prisoners and dialogue on culture/songs/Gekiganger/Protoculture plates, and Admiral Misumaru's debriefing on the state of Earth after one month (Grados, Poseidal, Orphan surface).",
+  "rows_examined": "1-80",
+  "rows_examined_count": 80,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {
+   "33": "Kouichiro Misumaru"
+  }
+ }
+}

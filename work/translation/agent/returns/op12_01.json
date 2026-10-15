@@ -1,0 +1,1654 @@
+{
+ "batch": "op12_01",
+ "operation": 12,
+ "previous_batch": null,
+ "next_batch": "op12_02",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "デラーズ・フリート",
+   "en": "Delaz Fleet",
+   "kind": "faction",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "Zeon remnant force led by Aiguille Delaz that carries out Operation Stardust in U.C. 0083."
+  },
+  {
+   "ja": "D-1カスタム",
+   "en": "D-1 Custom",
+   "kind": "unit",
+   "series": "Metal Armor Dragonar",
+   "role": "XD-01SR Dragonar-1 Custom (Kaine)"
+  },
+  {
+   "ja": "アオイ・ワカバ",
+   "en": "Aoi Wakaba",
+   "kind": "character",
+   "series": "Metal Armor Dragonar",
+   "gender": "female",
+   "role": "Kaine's mother, administrator of the colony Alucard; captured by Giganos and used as leverage against Kaine."
+  },
+  {
+   "ja": "オペレーション",
+   "en": "Operation",
+   "kind": "term"
+  },
+  {
+   "ja": "ケーン・ワカバ",
+   "en": "Kaine Wakaba",
+   "kind": "character",
+   "series": "Metal Armor Dragonar",
+   "gender": "male",
+   "role": "Pilot of Dragonar-1 (D-1); Earth Alliance/Federation trainee promoted to Warrant Officer; protagonist",
+   "personality": "Hot-blooded, impulsive, acts before thinking; chases Linda; resents his absent father",
+   "en_short": "Kaine"
+  },
+  {
+   "ja": "モビルスーツ",
+   "en": "mobile suit",
+   "kind": "term"
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "ドラグナー",
+   "en": "Dragonar",
+   "kind": "term",
+   "series": "Metal Armor Dragonar",
+   "role": "The three D-series prototype Metal Armors (D-1, D-2, D-3), also called D-weapons"
+  },
+  {
+   "ja": "ギガノス",
+   "en": "Giganos"
+  },
+  {
+   "ja": "D-1",
+   "en": "D-1",
+   "kind": "unit",
+   "series": "Metal Armor Dragonar",
+   "role": "XD-01 Dragonar-1 (Kaine), close-combat type"
+  },
+  {
+   "ja": "ケーン",
+   "en": "Kaine",
+   "kind": "character",
+   "series": "Metal Armor Dragonar",
+   "gender": "male",
+   "role": "Pilot of Dragonar-1 (D-1); Earth Alliance/Federation trainee promoted to Warrant Officer; protagonist",
+   "personality": "Hot-blooded, impulsive, acts before thinking; chases Linda; resents his absent father",
+   "full_name": "Kaine Wakaba"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  }
+ ],
+ "known_portraits": {
+  "36": {
+   "speaker": "Lucrezia Noin",
+   "gender": "female",
+   "role": "tactical staff officer (特尉, Special Lieutenant) from the Preventer",
+   "confidence": "high",
+   "evidence": "m6112#36 Sinapus: 'ノイン特尉、後で詳しく聞かせてくれ' then p36 explains Domon in brief63178#4-9; commanding but female, do not masculinize"
+  },
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  },
+  "38": {
+   "speaker": "South Burning",
+   "gender": "male",
+   "role": "Captain, mobile weapons unit commander at Torrington",
+   "confidence": "high",
+   "evidence": "brief63000: 'I'm Captain South Burning.'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [],
+ "rows": [
+  {
+   "ref": "brief63011#0",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "オペレーション　１２",
+   "en": "Operation 12",
+   "notes": "Standard operation title header."
+  },
+  {
+   "ref": "brief63011#1",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ギガノス宇宙要塞",
+   "en": "Giganos Space Fortress",
+   "notes": "Operation subtitle header matching glossary."
+  },
+  {
+   "ref": "brief63011#2",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "友軍の損害を抑える",
+   "en": "Minimize Allied Losses",
+   "notes": "Strategic briefing objective header."
+  },
+  {
+   "ref": "brief63011#3",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "友軍艦合流支援",
+   "en": "Support Allied Fleet Rendezvous",
+   "notes": "Strategic briefing objective header."
+  },
+  {
+   "ref": "brief63011#4",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "別働艦隊せん滅",
+   "en": "Annihilate the Detached Fleet",
+   "notes": "Strategic briefing objective header."
+  },
+  {
+   "ref": "brief63011#5",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "防衛網突破",
+   "en": "Breach the Defense Line",
+   "notes": "Strategic briefing objective header."
+  },
+  {
+   "ref": "brief63011#6",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "要塞内部侵入",
+   "en": "Infiltrate Fortress Interior",
+   "notes": "Strategic briefing objective header."
+  },
+  {
+   "ref": "brief63011#7",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<ac(11)>",
+    "<im(1)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><ac(11)>あと数時間で<im(1)>#c[BE5050]ギガノス宇宙要塞#cの\n攻略作戦が開始されるわけだが…\n<im(2)>先ほどトラブルが発生した。",
+   "en": "<op(37,1)><sp(2)><ac(11)>The attack on the <im(1)>#c[BE5050]Giganos Space Fortress#c\nis set to begin in just hours, but\n<im(2)>a problem has arisen.",
+   "notes": "Captain Sinapus speaking. Kept color tag around fortress name and preserved token sequence."
+  },
+  {
+   "ref": "brief63011#8",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(15)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(15)>ケーン・ワカバが、\n#c[5E8FD8]ドラグナー1型#cとともに艦を脱走し…\n敵に投降したのだ。",
+   "en": "<op(37,1)><sp(2)><im(15)>Kaine Wakaba has fled the ship with\nthe #c[5E8FD8]Dragonar-1#c and...\nsurrendered to the enemy.",
+   "notes": "Captain Sinapus speaking. 'ドラグナー1型' rendered as Dragonar-1."
+  },
+  {
+   "ref": "brief63011#9",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>情報では、彼の母親である、\nアオイ・ワカバさんが\n人質に取られているらしい。",
+   "en": "<op(37,1)><sp(2)>According to our intel, his mother,\nAoi Wakaba, is apparently being held\nhostage.",
+   "notes": "Captain Sinapus speaking. Aoi Wakaba identified from glossary."
+  },
+  {
+   "ref": "brief63011#10",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>ケーンの件は置いておくにしても、\n民間人が人質に取られては\nうかつに手出しはできない。",
+   "en": "<op(37,1)><sp(2)>Setting Kaine's actions aside, with a\ncivilian held hostage, we cannot make\na careless move.",
+   "notes": "Captain Sinapus speaking."
+  },
+  {
+   "ref": "brief63011#11",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(11)>",
+    "<im(12)>",
+    "<im(13)>",
+    "<im(7)>",
+    "#c[5E8FD8]",
+    "<im(8)>",
+    "#c",
+    "<im(9)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>しかし、<im(11)>作戦<im(12)>は予<im(13)>定の時間に開始される。\n<im(7)>#c[5E8FD8]友軍<im(8)>艦#cの<im(9)>突入が始まったら、\n我々はその援護をしなくてはならない。",
+   "en": "<op(37,1)><sp(2)>However, the <im(11)>operation <im(12)>begins <im(13)>on schedule.\nOnce <im(7)>#c[5E8FD8]allied <im(8)>ships#c <im(9)>begin their assault,\nwe must provide support for them.",
+   "notes": "Captain Sinapus speaking. Preserved complex image and color token sequence strictly."
+  },
+  {
+   "ref": "brief63011#12",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(4)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(4)>時間は限られているが…\nしばらくは様子を見る。",
+   "en": "<op(37,1)><sp(2)><im(4)>Time is limited, but...\nwe will observe the situation for now.",
+   "notes": "Captain Sinapus speaking."
+  },
+  {
+   "ref": "brief63011#13",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "#c[F07141]",
+    "<im(10)>",
+    "#c",
+    "<im(14)>",
+    "<of(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>我々の今回の任務は、\n#c[F07141]友軍艦<im(10)>を援護#cす<im(14)>ることだ。\n<of(1)>それは肝に命じておいてくれ。",
+   "en": "<op(36,1)><sp(2)>Our mission this time is to\n#c[F07141]support the <im(10)>allied ships#c.<im(14)>\n<of(1)>Keep that firmly in mind.",
+   "notes": "Portrait 36 is Special Lt. Lucrezia Noin. Firm military tone without masculinizing."
+  },
+  {
+   "ref": "brief63083#0",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "友軍の損害",
+   "en": "Allied Losses",
+   "notes": "Tactical briefing meter label."
+  },
+  {
+   "ref": "brief63083#1",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "tokens": [
+    "%d"
+   ],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "損害率 %d ％",
+   "en": "Damage Rate %d％",
+   "notes": "Damage percentage display preserving fullwidth percent symbol."
+  },
+  {
+   "ref": "brief63083#2",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "<im(4)>",
+    "#c[5E8FD8]",
+    "<im(5)>",
+    "#c",
+    "<im(6)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)><im(1)>作戦が開始された。\n<im(4)>#c[5E8FD8]友軍<im(5)>艦#cが周辺<im(6)>の制圧行動に入るので、\n我々は#c[F07141]前衛でその援護#cを行う。",
+   "en": "<op(38,1)><sp(2)><im(1)>The operation has begun.\n<im(4)>As #c[5E8FD8]allied <im(5)>ships#c clear <im(6)>the area,\nwe will #c[F07141]provide vanguard support#c.",
+   "notes": "Captain South Burning speaking. All tokens preserved in exact sequence."
+  },
+  {
+   "ref": "brief63083#3",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(7)>",
+    "<im(9)>",
+    "<tr(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)><im(2)>進路上には、#c[BE5050]ギガノス#cの防衛戦力が\n展開している。<im(7)>急い<im(9)>で破壊して、\n友軍の<tr(1)>被害を最小限に食い止めるんだ。",
+   "en": "<op(38,1)><sp(2)><im(2)>#c[BE5050]Giganos#c defense forces are deployed\nalong our route. <im(7)>Destroy <im(9)>them fast\nand keep allied <tr(1)>losses to a minimum.",
+   "notes": "Captain South Burning speaking."
+  },
+  {
+   "ref": "brief63083#4",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>一つ問題がある。\nケーン・ワカバが乗っていると思われる\n#c[5E8FD8]Ｄ－１#cの出撃が確認されている。",
+   "en": "<op(38,1)><sp(2)>There is one problem.\nWe've confirmed the launch of the #c[5E8FD8]D-1#c,\nlikely piloted by Kaine Wakaba.",
+   "notes": "Captain South Burning speaking."
+  },
+  {
+   "ref": "brief63083#5",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>こうなってはやむをえん。\n#c[F07141]ケーンを敵とみなし、迎え撃つ#c！",
+   "en": "<op(38,1)><sp(2)>It can't be helped now.\n#c[F07141]Treat Kaine as hostile and engage him#c!",
+   "notes": "Captain South Burning speaking."
+  },
+  {
+   "ref": "brief63083#6",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>そして……\nできるだけ派手に戦闘して見せろ。\n敵の目を引くようにな。",
+   "en": "<op(38,1)><sp(2)>And one more thing...\nMake this fight look as flashy as you can.\nDraw the enemy's attention.",
+   "notes": "Captain South Burning giving secretive orders to put on a show."
+  },
+  {
+   "ref": "brief63083#7",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>わからんか？　実は、人質になった\nケーンの母親を救出する部隊が\nすでに向かっている。",
+   "en": "<op(38,1)><sp(2)>Don't you get it? In truth, a team has\nalready been sent to rescue Kaine's\nmother from captivity.",
+   "notes": "Captain South Burning revealing the true plan."
+  },
+  {
+   "ref": "brief63083#8",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>彼らの潜入を気取られないよう、\nお前たちが敵の注意を引き付けるんだ。",
+   "en": "<op(38,1)><sp(2)>Draw the enemy's attention so they don't\nnotice our team infiltrating.",
+   "notes": "Captain South Burning speaking."
+  },
+  {
+   "ref": "brief63083#9",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<im(11)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>お前らの演技力の見せどこ<im(11)>ろだぞ！\n迫真の演技を見せてやれ！",
+   "en": "<op(38,1)><sp(2)>This is a chance to show off your <im(11)>acting!\nPut on a performance of a lifetime!",
+   "notes": "Captain South Burning speaking emphatically with rough humor."
+  },
+  {
+   "ref": "m6121#0",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "４隻以上の友軍艦が領域を離脱",
+   "en": "4 or more allied ships escape the area",
+   "notes": "Victory condition string."
+  },
+  {
+   "ref": "m6121#1",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "３隻以上の友軍艦が撃沈",
+   "en": "3 or more allied ships destroyed",
+   "notes": "Defeat condition string."
+  },
+  {
+   "ref": "m6121#2",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "Ｄ－１の撃破",
+   "en": "Destroy the D-1",
+   "notes": "Objective string."
+  },
+  {
+   "ref": "m6121#4",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "Ｄ－１カスタムの撃破",
+   "en": "Destroy the D-1 Custom",
+   "notes": "Objective string."
+  },
+  {
+   "ref": "m6121#5",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "友軍ダメージ",
+   "en": "Allied Damage",
+   "notes": "UI status meter label."
+  },
+  {
+   "ref": "m6121#6",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "友軍艦残存数",
+   "en": "Remaining Allied Ships",
+   "notes": "UI status count label."
+  },
+  {
+   "ref": "m6121#7",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [
+    "%d"
+   ],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "%d隻",
+   "en": "%d Ships",
+   "notes": "Counter format string."
+  },
+  {
+   "ref": "m6121#8",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>各機は周辺の防衛戦力を排除せよ。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>All units, eliminate the nearby\ndefense forces.<ab(400)><ed()>",
+   "notes": "Captain Burning/command order."
+  },
+  {
+   "ref": "m6121#9",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ターゲットの位置を転送します。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Transmitting target coordinates.<ab(400)><ed()>",
+   "notes": "Operator report, neutral gender."
+  },
+  {
+   "ref": "m6121#10",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>友軍艦を援護するんだ。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Support the allied ships.<ab(400)><ed()>",
+   "notes": "Captain Burning commanding."
+  },
+  {
+   "ref": "m6121#11",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ターゲットの破壊を確認。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Target destruction confirmed.<ab(400)><ed()>",
+   "notes": "Operator confirmation, neutral gender."
+  },
+  {
+   "ref": "m6121#12",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そうだ、どんどんやれ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>That's it! Keep at it!<ab(100)><ed()>",
+   "notes": "Captain Burning encouraging the squad."
+  },
+  {
+   "ref": "m6121#13",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>友軍が敵射程内に入ります！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Allies entering enemy firing range!<ab(300)><ed()>",
+   "notes": "Operator report, neutral gender."
+  },
+  {
+   "ref": "m6121#14",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>友軍が砲撃を受けています！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Allies are taking enemy fire!<ab(500)><ed()>",
+   "notes": "Operator report, neutral gender."
+  },
+  {
+   "ref": "m6121#15",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>もたもたするな！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Don't dawdle! Move it!<ab(300)><ed()>",
+   "notes": "Captain Burning shouting an order."
+  },
+  {
+   "ref": "m6121#16",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>友軍艦、撃沈されました！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>An allied ship has been sunk!<ab(500)><ed()>",
+   "notes": "Operator report, neutral gender."
+  },
+  {
+   "ref": "m6121#17",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>友軍艦が撃沈されました！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Allied ship has been sunk!<ab(500)><ed()>",
+   "notes": "Operator report, neutral gender."
+  },
+  {
+   "ref": "m6121#18",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これ以上やられたらまずい…！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>If we lose any more,\nwe're in trouble...!<ab(600)><ed()>",
+   "notes": "Allied pilot / Tak reaction to casualties."
+  },
+  {
+   "ref": "m6121#19",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>友軍艦、撃沈！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Allied ship sunk!<ab(400)><ed()>",
+   "notes": "Operator report, neutral gender."
+  },
+  {
+   "ref": "m6121#20",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これ以上の作戦遂行は不可能だ。\n作戦は中止、撤退しろ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Further operations are impossible.\nAbort mission! Fall back!<ab(600)><ed()>",
+   "notes": "Captain Burning ordering mission abort on failure."
+  },
+  {
+   "ref": "m6121#21",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>作戦は…失敗か。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>The operation... failed, huh.<ab(500)><ed()>",
+   "notes": "Tak / pilot dismay at mission failure."
+  },
+  {
+   "ref": "m6121#22",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>友軍が攻撃されています！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Allies are under attack!<ab(300)><ed()>",
+   "notes": "Operator report, neutral gender."
+  },
+  {
+   "ref": "m6121#23",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>異なるタイプの敵反応！\n識別はモビルスーツ！！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Different enemy type detected!\nIdentified as mobile suits!!<ab(300)><ed()>",
+   "notes": "Operator report, neutral gender."
+  },
+  {
+   "ref": "m6121#24",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まさか…もう一度確認しろ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>No way... Confirm it again!<ab(100)><ed()>",
+   "notes": "Captain Burning reacting in surprise."
+  },
+  {
+   "ref": "m6121#25",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>間違いありません、ジオンの機体です。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>No mistake, they're Zeon units.<ab(300)><ed()>",
+   "notes": "Operator report, neutral gender."
+  },
+  {
+   "ref": "m6121#26",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>デラーズ・フリートがまだ？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>The Delaz Fleet is still around?<ab(500)><ed()>",
+   "notes": "Captain Burning referring to Delaz Fleet from Gundam 0083."
+  },
+  {
+   "ref": "m6121#27",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>新たな敵の反応！\n識別はモビルスーツ！！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>New enemy reading detected!\nIdentified as mobile suits!!<ab(400)><ed()>",
+   "notes": "Operator report, neutral gender."
+  },
+  {
+   "ref": "m6121#28",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>友軍艦を敵の攻撃から守るんだ。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Protect the allied ships\nfrom enemy attacks.<ab(500)><ed()>",
+   "notes": "Captain Burning command."
+  },
+  {
+   "ref": "m6121#29",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>作戦は順調だ。\nアルビオン、引き続き援護を頼む。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Operation is proceeding smoothly.\nAlbion, keep supporting us.<ab(300)><ed()>",
+   "notes": "Allied ship commander comms to Albion."
+  },
+  {
+   "ref": "m6121#30",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>本艦隊は目標地点に到達。\nアルビオン、援護感謝する。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Our fleet has reached the objective.\nAlbion, thanks for the cover.<ab(500)><ed()>",
+   "notes": "Allied ship commander thanking Albion upon reaching destination."
+  },
+  {
+   "ref": "m6121#31",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よし、残存部隊を排除せよ。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>All right, eliminate remaining\nforces.<ab(300)><ed()>",
+   "notes": "Captain Burning commanding."
+  },
+  {
+   "ref": "m6121#32",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>新たな機影を確認！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>New contact confirmed!<ab(600)><ed()>",
+   "notes": "Operator report, neutral gender."
+  },
+  {
+   "ref": "m6121#33",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>Ｄ－１は作戦通りだ、いいな！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Handle the D-1 as planned, got it?!<ab(600)><ed()>",
+   "notes": "Captain Burning reminding pilots to stage the battle."
+  },
+  {
+   "ref": "m6121#34",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ケーン！　来るな！　来るなぁ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Kaine! Stay back! Stay away!<ab(600)><ed()>",
+   "notes": "Tap or Light from the Dragonar trio overacting convincingly as instructed by Burning."
+  },
+  {
+   "ref": "m6121#35",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……どけよ。　邪魔するなら\nテメぇらだって容赦はしねえぞ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>...Out of my way! If you get in my\nway, I won't hold back on you!<ab(200)><ed()>",
+   "notes": "Kaine speaking in rough, agonized tone ('テメぇら')."
+  },
+  {
+   "ref": "m6121#36",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今ならまだ何とかなる！\n帰って来いよ！　ケーン！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>It's not too late!\nCome back to us, Kaine!<ab(700)><ed()>",
+   "notes": "Tap or Light pleading with Kaine."
+  },
+  {
+   "ref": "m6121#37",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そうは……そうは行かねえんだよぉ！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>I can't... I can't do that!<ab(700)><ed()>",
+   "notes": "Kaine crying out in anguish."
+  },
+  {
+   "ref": "m6121#38",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ケーン・ワカバ、<ab(0)>",
+   "en": "<op()><sp(20)>Kaine Wakaba,<ab(0)>",
+   "notes": "Giganos surveillance officer/commander addressing Kaine."
+  },
+  {
+   "ref": "m6121#39",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ギガノスの誠の兵士となったことを\n自ら証明するのだ！<ab(600)><ed()>",
+   "en": "<sp(20)>Prove that you have become\na true soldier of Giganos!<ab(600)><ed()>",
+   "notes": "Same Giganos officer continuing without new window."
+  },
+  {
+   "ref": "m6121#40",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やめろ、ケーン！<ab(100)>",
+   "en": "<op()><sp(20)>Stop it, Kaine!<ab(100)>",
+   "notes": "Tak / allied pilot shouting."
+  },
+  {
+   "ref": "m6121#41",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なぜ抵抗するんだ！<ab(100)>",
+   "en": "<op()><sp(20)>Why are you resisting?!<ab(100)>",
+   "notes": "Tak / allied pilot shouting in the mock battle."
+  },
+  {
+   "ref": "m6121#42",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>もうやめろよ！\nお前とは……やりあいたくない！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Just stop it!\nI don't... I don't want to fight you!<ab(500)><ed()>",
+   "notes": "Tap or Light acting their part."
+  },
+  {
+   "ref": "m6121#43",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こんなことしたって、お前の母さん\n喜んじゃくれないぞ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Even if you do this,\nyour mother won't be happy!<ab(500)><ed()>",
+   "notes": "Tap or Light appealing to Kaine regarding his mother."
+  },
+  {
+   "ref": "m6121#44",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ケーン、投降しろ！\n戦闘を中止するんだ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Kaine, surrender!\nCease fighting at once!<ab(500)><ed()>",
+   "notes": "Allied pilot commanding Kaine to surrender."
+  },
+  {
+   "ref": "m6121#45",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ケーン！　どうしちまったんだよ！\n俺たちは仲間じゃないか！！<ab(500)><ed()>",
+   "en": "<sp(20)>Kaine! What happened to you?!\nAren't we comrades?!<ab(500)><ed()>",
+   "notes": "Same allied pilot / teammate continuing without new window."
+  },
+  {
+   "ref": "m6121#46",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>お前だって、\nアルビオンのパイロットだろうに！<ab(500)><ed()>",
+   "en": "<sp(20)>You're a pilot of the Albion too!<ab(500)><ed()>",
+   "notes": "Same allied pilot continuing without new window."
+  },
+  {
+   "ref": "m6121#47",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺だって、好きでやっちゃいねえよ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>It's not like I want to do this!<ab(300)><ed()>",
+   "notes": "Kaine's angry, desperate response."
+  },
+  {
+   "ref": "m6121#48",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前に何がわかるんだよ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>What do you know about it?!<ab(300)><ed()>",
+   "notes": "Kaine snapping back."
+  },
+  {
+   "ref": "m6121#49",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それができれば、苦労しねえんだよ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>If I could do that,\nI wouldn't be having a hard time!<ab(300)><ed()>",
+   "notes": "Kaine retorting in frustration."
+  },
+  {
+   "ref": "m6121#50",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>わかってるよ！　わかってるけどさぁ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>I know! I know that, but still...!<ab(300)><ed()>",
+   "notes": "Kaine's conflicted outburst."
+  },
+  {
+   "ref": "m6121#51",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よいか、ケーン・ワカバ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Listen closely, Kaine Wakaba!<ab(0)><ed()>",
+   "notes": "Giganos surveillance officer/commander interjecting."
+  },
+  {
+   "ref": "m6121#52",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>貴様の行動は逐一、\n我々に監視されていることを忘れるな。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Do not forget that your every move\nis being monitored by us.<ab(500)><ed()>",
+   "notes": "Giganos commander threatening Kaine."
+  },
+  {
+   "ref": "m6121#53",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くそ……っ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Damn it...!!<ab(500)><ed()>",
+   "notes": "Kaine's suppressed rage."
+  },
+  {
+   "ref": "m6121#54",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こちら救出部隊、今から潜入します。<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Rescue team here,\ninfiltrating now.<ab(600)><ed()>",
+   "notes": "Allied rescue team report via secure comms."
+  },
+  {
+   "ref": "m6121#55",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よし…頼んだぞ。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>All right... I'm counting on you.<ab(300)><ed()>",
+   "notes": "Captain Burning acknowledging the rescue team."
+  },
+  {
+   "ref": "m6121#56",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(900)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こちら救出部隊、成功です！<ab(900)><ed()>",
+   "en": "<op()><sp(20)>Rescue team here, we succeeded!<ab(900)><ed()>",
+   "notes": "Rescue team reporting successful recovery of Aoi Wakaba."
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6121#57",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>撃つな！　ケーン！\nお前のおふくろさんは、今救出した！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6121#58",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>もう奴らにヘーコラすることはねえんだ！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6121#59",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>なんだって？　本当か？<ab(600)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6121#60",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>本当よ。　今、お母さんを連れて\n艦に戻ったところよ！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6121#61",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……うおおおおおおおおっ！\n今までの恨み、１００倍にして返してやる！<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6121#62",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>周辺の敵を掃討しろ！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6121#63",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>高熱源体が多数接近！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6121#64",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>出やがったな、番犬ども！<ab(1000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6121#65",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>周辺に敵影なし。<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6121#66",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>よし、全機、一旦帰投しろ。<ab(900)>",
+   "en": ""
+  },
+  {
+   "ref": "m6121#67",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>どうした？　ケーン。<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6121#68",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>大尉……俺……<ab(0)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Translated Operation 12 Phase 1 (Giganos Space Fortress), covering the strategic briefing by Captain Sinapus and Special Lt. Noin regarding Kaine's apparent desertion to protect his mother Aoi Wakaba, Captain Burning's tactical briefing revealing the staged combat to allow a rescue team to infiltrate, and Phase 1 combat comms where the Albion pilots dramatically stage the battle against Kaine while the rescue succeeds.",
+  "rows_examined": "brief63011#0 to brief63011#13, brief63083#0 to brief63083#9, m6121#0 to m6121#56, with context before and after (m6121#57-68, op12_02).",
+  "rows_examined_count": 80,
+  "uncertainties": [
+   "In m6121#34, #36, #42-46, the speaker trying to reason with Kaine speaks informally ('ケーン！ 来るな！ 来るなぁ！', 'お前とは……やりあいたくない！', 'お前の母さん喜んじゃくれないぞ！', '俺たちは仲間じゃないか！！'). This is characteristic of Tap Oceano or Light Newman from the Dragonar trio acting out their scripted performance to keep Giganos convinced while the rescue team operates.",
+   "In m6121#38-39 and #51-52, the commanding, stern voice demanding proof of loyalty to Giganos is inferred to be a Giganos surveillance officer or commander keeping watch over Kaine over open transmission."
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {
+   "36": "Lucrezia Noin",
+   "37": "Eyphar Sinapus",
+   "38": "South Burning"
+  }
+ }
+}

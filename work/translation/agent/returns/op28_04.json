@@ -1,0 +1,1391 @@
+﻿{
+    "batch":  "op28_04",
+    "operation":  28,
+    "previous_batch":  "op28_03",
+    "next_batch":  null,
+    "rows_in_slice":  80,
+    "do_not_touch_names":  [
+                               "Barkholz",
+                               "Capt. Burning",
+                               "Captain Burning",
+                               "Captain South Burning",
+                               "Cowen",
+                               "Giganos",
+                               "Lieutenant",
+                               "Lt.",
+                               "Major Anavel Gato",
+                               "Sinapus",
+                               "Tak"
+                           ],
+    "glossary":  [
+                     {
+                         "ja":  "タック",
+                         "en":  "Tak",
+                         "kind":  "character",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "gender":  "male",
+                         "role":  "ACE2 protagonist; UCE squad leader (First Lieutenant) and Gun Ark test pilot, joins the Albion unit.",
+                         "personality":  "Skilled ace and natural leader, but clumsy with machines (mechanically inept); grows suspicious of the Rainen Project and fights to bring Marina back.",
+                         "full_name":  "Tak Kepford"
+                     },
+                     {
+                         "ja":  "マリナ",
+                         "en":  "Marina",
+                         "kind":  "character",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "gender":  "female",
+                         "role":  "ACE2 heroine; Ensign in Tak\u0027s squad, pilot of the red Gun Ark; goes missing at Torrington Base, reappears with the Rainen Project in the Buster Ark, later rejoins Tak.",
+                         "personality":  "Cool and reserved (\u0027defrosting ice queen\u0027 in flashbacks); deeply bonded with Tak.",
+                         "full_name":  "Marina Carson"
+                     },
+                     {
+                         "ja":  "レイ",
+                         "en":  "Rei"
+                     },
+                     {
+                         "ja":  "白鳥",
+                         "en":  "Shiratori",
+                         "kind":  "character",
+                         "series":  "Martian Successor Nadesico",
+                         "gender":  "male",
+                         "role":  "Lieutenant Commander in the Jovian Superior Jovian Male Forces; Tetsujin/Daitetsujin pilot; seeks peace with Earth",
+                         "personality":  "Honest, upright and idealistic, naive around women; hot-blooded Gekiganger fan",
+                         "full_name":  "Tsukumo Shiratori"
+                     }
+                 ],
+    "known_portraits":  {
+
+                        },
+    "unknown_portraits":  [
+
+                          ],
+    "context_before":  [
+                           {
+                               "ref":  "m6285#57",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eわからない……\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6285#58",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003e……私たちは、これからも戦い続けるの？\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6285#59",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eそうだな…そうだとしても…\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6285#60",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003e言ったろ？　守るって。\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6285#61",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003e……まったく、いつまで私の\n保護者ヅラする気なの？\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6285#62",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eなんだったら、一生でもいいぜ。\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6285#63",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003e……バ、バカ！\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6285#64",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eおい、通信だ！　アルビオンからだ！\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6285#65",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003e……あ！\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6285#66",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003e……私の役目も終わりね。\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6285#67",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eマリナ？\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6285#68",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003e結果がどうあれ、私のやったことは……\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           }
+                       ],
+    "rows":  [
+                 {
+                     "ref":  "m6285#69",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e何を言っているんだ？\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eWhat are you saying?\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina emotional epilogue scene."
+                 },
+                 {
+                     "ref":  "m6285#70",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e私は償いをしないといけない。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eI have to make amends.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina emotional epilogue scene."
+                 },
+                 {
+                     "ref":  "m6285#71",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e…マリナ。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...Marina.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina emotional epilogue scene."
+                 },
+                 {
+                     "ref":  "m6285#72",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e私…戦っていた時は、勝っても負けても、\nもうタックに会えなくなるんだと思ってた。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eI... when I was fighting, win or lose,\nI thought I would never see Tak again.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina emotional epilogue scene."
+                 },
+                 {
+                     "ref":  "m6285#73",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eそれだけが……心残りだった。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eThat was... my only regret.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina emotional epilogue scene."
+                 },
+                 {
+                     "ref":  "m6285#74",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eでも、戦いが終わって、\n生きて会えることができた。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eYet the battle has ended,\nand I was able to see you alive.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina emotional epilogue scene."
+                 },
+                 {
+                     "ref":  "m6285#75",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eそれだけで十分。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eThat alone is enough.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina emotional epilogue scene."
+                 },
+                 {
+                     "ref":  "m6285#76",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e……タック……\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003e...Tak...\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina emotional epilogue scene."
+                 },
+                 {
+                     "ref":  "m6285#77",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eもうしばらく、一緒にいて。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eStay with me, just a little longer.\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Tak and Marina emotional epilogue scene."
+                 },
+                 {
+                     "ref":  "m6285#78",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  464,
+                     "max_line_chars_approx":  47,
+                     "jp":  "Ａｎｏｔｈｅｒ　Ｃｅｎｔｕｒｙ’ｓ　Ｅｐｉｓｏｄｅ２\n　　　　Ｓｐｅｃｉａｌ　Ｖｏｃａｌ　Ｖｅｒｓｉｏｎ\n　　　　　　－　Ａｌｌ　Ｓｔａｆｆ　－",
+                     "en":  "Another Century\u0027s Episode 2\nã€€ã€€ã€€ã€€Special Vocal Version\nã€€ã€€ã€€ã€€ã€€ã€€- All Staff -",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#79",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "ディレクター\n　　　渋谷　知広",
+                     "en":  "Director\nã€€ã€€ã€€Tomohiro Shibuya",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#80",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "ゲームデザイン\n　　　谷村　唯",
+                     "en":  "Game Design\nã€€ã€€ã€€Yui Tanimura",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#81",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "プログラマー",
+                     "en":  "Programmers",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#82",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  7,
+                     "max_lines":  7,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　メインプログラム\n　　　　　　鈴木　良隆\n　　　プログラム\n　　　　　　倉持　智成\n　　　　　　鳴海　隆士\n　　　　　　佐渡山　陽\n　　　　　　伊東　和秋",
+                     "en":  "ã€€ã€€ã€€Lead Programmer\nã€€ã€€ã€€ã€€ã€€ã€€Yoshitaka Suzuki\nã€€ã€€ã€€Programmers\nã€€ã€€ã€€ã€€ã€€ã€€Tomonari Kuramochi\nã€€ã€€ã€€ã€€ã€€ã€€Takashi Narumi\nã€€ã€€ã€€ã€€ã€€ã€€You Sadoyama\nã€€ã€€ã€€ã€€ã€€ã€€Kazuaki Itou",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#83",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "プランナー",
+                     "en":  "Planners",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#84",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  6,
+                     "max_lines":  6,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　ステージプランナー\n　　　　　　平井　重人\n　　　プランナー\n　　　　　　正田　智史\n　　　　　　引田　景子\n　　　　　　木村　康隆",
+                     "en":  "ã€€ã€€ã€€Stage Planner\nã€€ã€€ã€€ã€€ã€€ã€€Shigeto Hirai\nã€€ã€€ã€€Planners\nã€€ã€€ã€€ã€€ã€€ã€€Satoshi Shouda\nã€€ã€€ã€€ã€€ã€€ã€€Keiko Hikita\nã€€ã€€ã€€ã€€ã€€ã€€Yasutaka Kimura",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#85",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "３Ｄモデル",
+                     "en":  "3D Models",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#86",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  7,
+                     "max_lines":  7,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　モデル／アニメーション\n　　　　　　川崎　友也\n　　　　　　山岸　亮\n　　　　　　上田　克\n　　　　　　早野　明寛\n　　　　　　岡田　吉人\n　　　　　　宮下　侑",
+                     "en":  "ã€€ã€€ã€€Modeling / Animation\nã€€ã€€ã€€ã€€ã€€ã€€Tomoya Kawasaki\nã€€ã€€ã€€ã€€ã€€ã€€Ryou Yamagishi\nã€€ã€€ã€€ã€€ã€€ã€€Masaru Ueda\nã€€ã€€ã€€ã€€ã€€ã€€Akihiro Hayano\nã€€ã€€ã€€ã€€ã€€ã€€Yoshito Okada\nã€€ã€€ã€€ã€€ã€€ã€€Yuu Miyashita",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#87",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "２Ｄグラフィック",
+                     "en":  "2D Graphics",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#88",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  8,
+                     "max_lines":  8,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　３Ｄキャラクター\n　　　　　　石濃　潤一郎\n　　　　　　本田　英\n　　　ＴＥＸ\n　　　　　　渡邊　知子\n　　　　　　黒木　渉\n　　　　　　藤川　尚美\n　　　　　　山上　朋子",
+                     "en":  "ã€€ã€€ã€€3D Characters\nã€€ã€€ã€€ã€€ã€€ã€€Junichirou Ishinou\nã€€ã€€ã€€ã€€ã€€ã€€Suguru Honda\nã€€ã€€ã€€Textures\nã€€ã€€ã€€ã€€ã€€ã€€Tomoko Watanabe\nã€€ã€€ã€€ã€€ã€€ã€€Wataru Kuroki\nã€€ã€€ã€€ã€€ã€€ã€€Naomi Fujikawa\nã€€ã€€ã€€ã€€ã€€ã€€Tomoko Yamagami",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#89",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  6,
+                     "max_lines":  6,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　２Ｄキャラクター\n　　　　　　関　理絵\n　　　　　　小川　英里\n　　　　　　金辺　彩\n　　　　　　熊野　はつみ\n　　　　　　小林　孝司",
+                     "en":  "ã€€ã€€ã€€2D Characters\nã€€ã€€ã€€ã€€ã€€ã€€Rie Seki\nã€€ã€€ã€€ã€€ã€€ã€€Eri Ogawa\nã€€ã€€ã€€ã€€ã€€ã€€Aya Kanebe\nã€€ã€€ã€€ã€€ã€€ã€€Hatsumi Kumano\nã€€ã€€ã€€ã€€ã€€ã€€Takashi Kobayashi",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#90",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "デザイン",
+                     "en":  "Design",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#91",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  4,
+                     "max_lines":  4,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　メニューデザイン\n　　　　　　田雑　直泉\n　　　デザイン\n　　　　　　三木　真宏",
+                     "en":  "ã€€ã€€ã€€Menu Design\nã€€ã€€ã€€ã€€ã€€ã€€Naozumi Tazashi\nã€€ã€€ã€€Design\nã€€ã€€ã€€ã€€ã€€ã€€Masahiro Miki",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#92",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "サウンド",
+                     "en":  "Sound",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#93",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  9,
+                     "max_lines":  9,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　ディレクター\n　　　　　　齋藤　司\n\n　　　　　　松本　大祐\n　　　　　　高山　義和\n　　　　　　末永　浩一\n　　　　　　瀬川　圭一郎\n　　　音響効果\n　　　　　　土屋　昇平",
+                     "en":  "ã€€ã€€ã€€Director\nã€€ã€€ã€€ã€€ã€€ã€€Tsukasa Saito\n\nã€€ã€€ã€€ã€€ã€€ã€€Daisuke Matsumoto\nã€€ã€€ã€€ã€€ã€€ã€€Yoshikazu Takayama\nã€€ã€€ã€€ã€€ã€€ã€€Kouichi Suenaga\nã€€ã€€ã€€ã€€ã€€ã€€Keiichirou Segawa\nã€€ã€€ã€€Sound Effects\nã€€ã€€ã€€ã€€ã€€ã€€Shouhei Tsuchiya",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#94",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "ＣＧデザイナー",
+                     "en":  "CG Designers",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#95",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  7,
+                     "max_lines":  7,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　ディレクター\n　　　　　　冨野　公洋\n\n　　　　　　田所　周三\n　　　　　　戸田　貴之\n　　　　　　堀部　彰夫\n　　　　　　斉藤　壮平",
+                     "en":  "ã€€ã€€ã€€Director\nã€€ã€€ã€€ã€€ã€€ã€€Kimihiro Tomino\n\nã€€ã€€ã€€ã€€ã€€ã€€Shuuzou Tadokoro\nã€€ã€€ã€€ã€€ã€€ã€€Takayuki Toda\nã€€ã€€ã€€ã€€ã€€ã€€Akio Horibe\nã€€ã€€ã€€ã€€ã€€ã€€Souhei Saitou",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#96",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "シナリオ協力",
+                     "en":  "Scenario Support",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#97",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　ライター\n　　　　　　山野辺　一記（ＥＤＧＥＷＯＲＫＳ）\n　　　　　　持田　康之（ＥＤＧＥＷＯＲＫＳ）",
+                     "en":  "ã€€ã€€ã€€Writers\nã€€ã€€ã€€ã€€ã€€ã€€Kazuki Yamanobe (EDGEWORKS)\nã€€ã€€ã€€ã€€ã€€ã€€Yasuyuki Mochida (EDGEWORKS)",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#98",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "リアルタイムデモ",
+                     "en":  "Real-Time Cinematics",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#99",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  4,
+                     "max_lines":  4,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　統括ディレクター\n　　　　　　金重　保貴（イメージエポック）\n　　　ディレクター\n　　　　　　佐藤　祐二（イメージエポック）",
+                     "en":  "ã€€ã€€ã€€Supervising Director\nã€€ã€€ã€€ã€€ã€€ã€€Yasutaka Kaneshige (Imageepoch)\nã€€ã€€ã€€Director\nã€€ã€€ã€€ã€€ã€€ã€€Yuuji Satou (Imageepoch)",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#100",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  5,
+                     "max_lines":  5,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　アニメーション\n　　　　　　高橋　功吉（イメージエポック）\n　　　　　　丸野　文裕（イメージエポック）\n　　　　　　松下　巧（イメージエポック）\n　　　　　　佐藤　数也（イメージエポック）",
+                     "en":  "ã€€ã€€ã€€Animation\nã€€ã€€ã€€ã€€ã€€ã€€Koukichi Takahashi (Imageepoch)\nã€€ã€€ã€€ã€€ã€€ã€€Fumihiro Maruno (Imageepoch)\nã€€ã€€ã€€ã€€ã€€ã€€Takumi Matsushita (Imageepoch)\nã€€ã€€ã€€ã€€ã€€ã€€Kazuya Satou (Imageepoch)",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#101",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "サポート",
+                     "en":  "Support",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#102",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  6,
+                     "max_lines":  6,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　スクリプト\n　　　　　　大久保　哲也\n　　　　　　新口　高志\n　　　アシスタント\n　　　　　　山本　寛展\n　　　　　　吉川　和正",
+                     "en":  "ã€€ã€€ã€€Script\nã€€ã€€ã€€ã€€ã€€ã€€Tetsuya Ookubo\nã€€ã€€ã€€ã€€ã€€ã€€Takashi Shinguchi\nã€€ã€€ã€€Assistants\nã€€ã€€ã€€ã€€ã€€ã€€Hironobu Yamamoto\nã€€ã€€ã€€ã€€ã€€ã€€Kazumasa Yoshikawa",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#103",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  8,
+                     "max_lines":  8,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　ロジック\n　　　　　　渡邉　佳明\n　　　　　　濱野　利紀\n　　　ブリーフィング\n　　　　　　秋葉　賢治\n　　　マップＴＥＸ協力\n　　　　　　塚田　和彦\n　　　　　　（ポリアセッツ・ユナイテッド・インク）",
+                     "en":  "ã€€ã€€ã€€Logic\nã€€ã€€ã€€ã€€ã€€ã€€Yoshiaki Watanabe\nã€€ã€€ã€€ã€€ã€€ã€€Toshinori Hamano\nã€€ã€€ã€€Briefing\nã€€ã€€ã€€ã€€ã€€ã€€Kenji Akiba\nã€€ã€€ã€€Map Texture Support\nã€€ã€€ã€€ã€€ã€€ã€€Kazuhiko Tsukada\nã€€ã€€ã€€ã€€ã€€ã€€(PolyAssets United, Inc.)",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#104",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "開発管理",
+                     "en":  "Development Management",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#105",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  4,
+                     "max_lines":  4,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　進行\n　　　　　　池田　吉志\n　　　デバッグ\n　　　　　　井口　裕貴",
+                     "en":  "ã€€ã€€ã€€Production Management\nã€€ã€€ã€€ã€€ã€€ã€€Yoshishi Ikeda\nã€€ã€€ã€€QA Lead\nã€€ã€€ã€€ã€€ã€€ã€€Yuuki Iguchi",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#106",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "デバッグ",
+                     "en":  "QA \u0026 Debugging",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#107",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  7,
+                     "max_lines":  7,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　テスター\n　　　　　　金城　拓磨\n　　　　　　瀬口　拓郎\n　　　　　　秋葉　賢治\n　　　　　　川田　一実\n　　　　　　萩原　宏典\n　　　　　　伊藤　友広",
+                     "en":  "ã€€ã€€ã€€Testers\nã€€ã€€ã€€ã€€ã€€ã€€Takuma Kinjou\nã€€ã€€ã€€ã€€ã€€ã€€Takurou Seguchi\nã€€ã€€ã€€ã€€ã€€ã€€Kenji Akiba\nã€€ã€€ã€€ã€€ã€€ã€€Kazumi Kawada\nã€€ã€€ã€€ã€€ã€€ã€€Hironori Hagiwara\nã€€ã€€ã€€ã€€ã€€ã€€Tomohiro Itou",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#108",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  7,
+                     "max_lines":  7,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　テスター\n　　　　　　飯塚　好永\n　　　　　　出口　大介\n　　　　　　佐藤　佳\n　　　　　　佐々木　明\n　　　　　　藤沢　元介\n　　　　　　樫山　昇",
+                     "en":  "ã€€ã€€ã€€Testers\nã€€ã€€ã€€ã€€ã€€ã€€Yoshinaga Iizuka\nã€€ã€€ã€€ã€€ã€€ã€€Daisuke Deguchi\nã€€ã€€ã€€ã€€ã€€ã€€Kei Satou\nã€€ã€€ã€€ã€€ã€€ã€€Akira Sasaki\nã€€ã€€ã€€ã€€ã€€ã€€Motosuke Fujisawa\nã€€ã€€ã€€ã€€ã€€ã€€Noboru Kashiyama",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#109",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "Ａ．Ｃ．Ｅ．オリジナル",
+                     "en":  "A.C.E. Original",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#110",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  5,
+                     "max_lines":  5,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　メカデザイン\n　　　　　　石垣　純哉\n　　　　　　藤井　大誠（レイアップ）\n　　　キャラクターデザイン\n　　　　　　齋藤　卓也",
+                     "en":  "ã€€ã€€ã€€Mecha Design\nã€€ã€€ã€€ã€€ã€€ã€€Junya Ishigaki\nã€€ã€€ã€€ã€€ã€€ã€€Taisei Fujii (Layup)\nã€€ã€€ã€€Character Design\nã€€ã€€ã€€ã€€ã€€ã€€Takuya Saito",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#111",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "音声収録",
+                     "en":  "Voice Recording",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#112",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  7,
+                     "max_lines":  7,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　音響監督\n　　　　　　菊田　浩巳（楽音舎）\n　　　キャスティング\n　　　　　　角　康昭（青ニプロダクション）\n　　　　　　関根　佐知子（青ニプロダクション）\n　　　スタジオ\n　　　　　　ＭＩＴスタジオ",
+                     "en":  "ã€€ã€€ã€€Audio Director\nã€€ã€€ã€€ã€€ã€€ã€€Hiromi Kikuta (Rakuonsha)\nã€€ã€€ã€€Casting\nã€€ã€€ã€€ã€€ã€€ã€€Yasuaki Sumi (Aoni Production)\nã€€ã€€ã€€ã€€ã€€ã€€Sachiko Sekine (Aoni Production)\nã€€ã€€ã€€Studio\nã€€ã€€ã€€ã€€ã€€ã€€MIT Studio",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#113",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "キャスト",
+                     "en":  "Cast",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#114",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  8,
+                     "max_lines":  8,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　　　　青野　武\n　　　　　　青羽　剛\n　　　　　　荒木　香恵\n　　　　　　飯塚　昭三\n　　　　　　伊倉　一恵\n　　　　　　池田　秀一\n　　　　　　石野　竜三\n　　　　　　磯辺　万沙子",
+                     "en":  "ã€€ã€€ã€€ã€€ã€€ã€€Takeshi Aono\nã€€ã€€ã€€ã€€ã€€ã€€Gou Aoba\nã€€ã€€ã€€ã€€ã€€ã€€Kae Araki\nã€€ã€€ã€€ã€€ã€€ã€€Shouzou Iizuka\nã€€ã€€ã€€ã€€ã€€ã€€Kazue Ikura\nã€€ã€€ã€€ã€€ã€€ã€€Shuuichi Ikeda\nã€€ã€€ã€€ã€€ã€€ã€€Ryuuzou Ishino\nã€€ã€€ã€€ã€€ã€€ã€€Masako Isobe",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#115",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  8,
+                     "max_lines":  8,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　　　　市川　治\n　　　　　　井上　和彦\n　　　　　　うえだ　ゆうじ\n　　　　　　内川　藍維\n　　　　　　大木　正司\n　　　　　　大塚　明夫\n　　　　　　大塚　周夫\n　　　　　　大塚　智子",
+                     "en":  "ã€€ã€€ã€€ã€€ã€€ã€€Osamu Ichikawa\nã€€ã€€ã€€ã€€ã€€ã€€Kazuhiko Inoue\nã€€ã€€ã€€ã€€ã€€ã€€Yuuji Ueda\nã€€ã€€ã€€ã€€ã€€ã€€Ai Uchikawa\nã€€ã€€ã€€ã€€ã€€ã€€Shouji Ohki\nã€€ã€€ã€€ã€€ã€€ã€€Akio Ohtsuka\nã€€ã€€ã€€ã€€ã€€ã€€Chikao Ohtsuka\nã€€ã€€ã€€ã€€ã€€ã€€Tomoko Ohtsuka",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#116",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  8,
+                     "max_lines":  8,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　　　　大塚　芳忠\n　　　　　　大友　龍三郎\n　　　　　　大林　隆介\n　　　　　　大原　崇\n　　　　　　置鮎　龍太郎\n　　　　　　折笠　愛\n　　　　　　加瀬　康之\n　　　　　　加藤　治",
+                     "en":  "ã€€ã€€ã€€ã€€ã€€ã€€Houchu Ohtsuka\nã€€ã€€ã€€ã€€ã€€ã€€Ryuuzaburou Ohtomo\nã€€ã€€ã€€ã€€ã€€ã€€Ryuusuke Ohbayashi\nã€€ã€€ã€€ã€€ã€€ã€€Takashi Ohara\nã€€ã€€ã€€ã€€ã€€ã€€Ryoutarou Okiayu\nã€€ã€€ã€€ã€€ã€€ã€€Ai Orikasa\nã€€ã€€ã€€ã€€ã€€ã€€Yasuyuki Kase\nã€€ã€€ã€€ã€€ã€€ã€€Osamu Katou",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#117",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  8,
+                     "max_lines":  8,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　　　　金子　英彦\n　　　　　　神谷　明\n　　　　　　川村　万梨阿\n　　　　　　菊池　志穂\n　　　　　　菊池　正美\n　　　　　　岸尾　大輔\n　　　　　　桑島　法子\n　　　　　　小杉　十郎太",
+                     "en":  "ã€€ã€€ã€€ã€€ã€€ã€€Hidehiko Kaneko\nã€€ã€€ã€€ã€€ã€€ã€€Akira Kamiya\nã€€ã€€ã€€ã€€ã€€ã€€Maria Kawamura\nã€€ã€€ã€€ã€€ã€€ã€€Shiho Kikuchi\nã€€ã€€ã€€ã€€ã€€ã€€Masami Kikuchi\nã€€ã€€ã€€ã€€ã€€ã€€Daisuke Kishio\nã€€ã€€ã€€ã€€ã€€ã€€Houko Kuwashima\nã€€ã€€ã€€ã€€ã€€ã€€Juurouta Kosugi",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#118",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  8,
+                     "max_lines":  8,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　　　　小林　清志\n　　　　　　子安　武人\n　　　　　　小山　力也\n　　　　　　佐久間　レイ\n　　　　　　島津　冴子\n　　　　　　白鳥　哲\n　　　　　　進藤　尚美\n　　　　　　菅原　正志",
+                     "en":  "ã€€ã€€ã€€ã€€ã€€ã€€Kiyoshi Kobayashi\nã€€ã€€ã€€ã€€ã€€ã€€Takehito Koyasu\nã€€ã€€ã€€ã€€ã€€ã€€Rikiya Koyama\nã€€ã€€ã€€ã€€ã€€ã€€Rei Sakuma\nã€€ã€€ã€€ã€€ã€€ã€€Saeko Shimazu\nã€€ã€€ã€€ã€€ã€€ã€€Tetsu Shiratori\nã€€ã€€ã€€ã€€ã€€ã€€Naomi Shindou\nã€€ã€€ã€€ã€€ã€€ã€€Masashi Sugawara",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#119",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  8,
+                     "max_lines":  8,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　　　　関　俊彦\n　　　　　　関　智一\n　　　　　　高橋　美紀\n　　　　　　竹田　えり\n　　　　　　田中　大文\n　　　　　　鶴　ひろみ\n　　　　　　土井　美加\n　　　　　　長沢　美樹",
+                     "en":  "ã€€ã€€ã€€ã€€ã€€ã€€Toshihiko Seki\nã€€ã€€ã€€ã€€ã€€ã€€Tomokazu Seki\nã€€ã€€ã€€ã€€ã€€ã€€Miki Takahashi\nã€€ã€€ã€€ã€€ã€€ã€€Eri Takeda\nã€€ã€€ã€€ã€€ã€€ã€€Hirofumi Tanaka\nã€€ã€€ã€€ã€€ã€€ã€€Hiromi Tsuru\nã€€ã€€ã€€ã€€ã€€ã€€Mika Doi\nã€€ã€€ã€€ã€€ã€€ã€€Miki Nagasawa",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#120",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  8,
+                     "max_lines":  8,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　　　　中原　茂\n　　　　　　名越　志保\n　　　　　　西村　知道\n　　　　　　野島　健児\n　　　　　　羽佐間　道夫\n　　　　　　速水　奨\n　　　　　　原　えりこ\n　　　　　　服巻　浩司",
+                     "en":  "ã€€ã€€ã€€ã€€ã€€ã€€Shigeru Nakahara\nã€€ã€€ã€€ã€€ã€€ã€€Shiho Nagoshi\nã€€ã€€ã€€ã€€ã€€ã€€Tomomichi Nishimura\nã€€ã€€ã€€ã€€ã€€ã€€Kenji Nojima\nã€€ã€€ã€€ã€€ã€€ã€€Michio Hazama\nã€€ã€€ã€€ã€€ã€€ã€€Shou Hayami\nã€€ã€€ã€€ã€€ã€€ã€€Eriko Hara\nã€€ã€€ã€€ã€€ã€€ã€€Kouji Hakamaki",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#121",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  8,
+                     "max_lines":  8,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　　　　平松　広和\n　　　　　　広瀬　正志\n　　　　　　福山　潤\n　　　　　　藤井　佳代子\n　　　　　　古谷　徹\n　　　　　　堀内　賢雄\n　　　　　　堀川　りょう\n　　　　　　堀部　隆一",
+                     "en":  "ã€€ã€€ã€€ã€€ã€€ã€€Hirokazu Hiramatsu\nã€€ã€€ã€€ã€€ã€€ã€€Masashi Hirose\nã€€ã€€ã€€ã€€ã€€ã€€Jun Fukuyama\nã€€ã€€ã€€ã€€ã€€ã€€Kayoko Fujii\nã€€ã€€ã€€ã€€ã€€ã€€Touru Furuya\nã€€ã€€ã€€ã€€ã€€ã€€Kenyuu Horiuchi\nã€€ã€€ã€€ã€€ã€€ã€€Ryou Horikawa\nã€€ã€€ã€€ã€€ã€€ã€€Ryuuichi Horibe",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#122",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  8,
+                     "max_lines":  8,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　　　　本多　知恵子\n　　　　　　真柴　摩利\n　　　　　　松井　菜桜子\n　　　　　　増谷　康紀\n　　　　　　緑川　光\n　　　　　　南　央美\n　　　　　　村田　秋乃\n　　　　　　森川　智之",
+                     "en":  "ã€€ã€€ã€€ã€€ã€€ã€€Chieko Honda\nã€€ã€€ã€€ã€€ã€€ã€€Mari Mashiba\nã€€ã€€ã€€ã€€ã€€ã€€Naoko Matsui\nã€€ã€€ã€€ã€€ã€€ã€€Yasunori Masutani\nã€€ã€€ã€€ã€€ã€€ã€€Hikaru Midorikawa\nã€€ã€€ã€€ã€€ã€€ã€€Omi Minami\nã€€ã€€ã€€ã€€ã€€ã€€Akino Murata\nã€€ã€€ã€€ã€€ã€€ã€€Toshiyuki Morikawa",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#123",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  6,
+                     "max_lines":  6,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　　　　山寺　宏一\n　　　　　　横山　智佐\n　　　　　　吉原　ナツキ\n　　　　　　渡辺　久美子\n　　　　　　渡部　猛\n　　　　　　　　　（五十音順）",
+                     "en":  "ã€€ã€€ã€€ã€€ã€€ã€€Kouichi Yamadera\nã€€ã€€ã€€ã€€ã€€ã€€Chisa Yokoyama\nã€€ã€€ã€€ã€€ã€€ã€€Natsuki Yoshihara\nã€€ã€€ã€€ã€€ã€€ã€€Kumiko Watanabe\nã€€ã€€ã€€ã€€ã€€ã€€Takeshi Watabe\nã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€(In alphabetical order)",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#124",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "宣伝・広報・営業",
+                     "en":  "Public Relations \u0026 Sales",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#125",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  7,
+                     "max_lines":  7,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　バンプレスト\n　　　　　　熊倉　浩司\n　　　　　　松田　吉史\n　　　　　　渡部　隆\n　　　　　　木村　知佳恵\n　　　　　　會本　英雄\n　　　　　　吉羽　将一",
+                     "en":  "ã€€ã€€ã€€Banpresto\nã€€ã€€ã€€ã€€ã€€ã€€Kouji Kumakura\nã€€ã€€ã€€ã€€ã€€ã€€Yoshifumi Matsuda\nã€€ã€€ã€€ã€€ã€€ã€€Takashi Watabe\nã€€ã€€ã€€ã€€ã€€ã€€Chikae Kimura\nã€€ã€€ã€€ã€€ã€€ã€€Hideo Eimoto\nã€€ã€€ã€€ã€€ã€€ã€€Shouichi Yoshiba",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#126",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  6,
+                     "max_lines":  6,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　フロム・ソフトウェア\n　　　　　　小倉　康敬\n　　　　　　瀬川　圭一郎\n　　　　　　駒津　芳則\n　　　　　　佐藤　澄宣\n　　　　　　下川　友大",
+                     "en":  "ã€€ã€€ã€€FromSoftware\nã€€ã€€ã€€ã€€ã€€ã€€Yasunori Ogura\nã€€ã€€ã€€ã€€ã€€ã€€Keiichirou Segawa\nã€€ã€€ã€€ã€€ã€€ã€€Yoshinori Komatsu\nã€€ã€€ã€€ã€€ã€€ã€€Suminori Satou\nã€€ã€€ã€€ã€€ã€€ã€€Tomohiro Shimokawa",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#127",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  6,
+                     "max_lines":  6,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　バンプレスト\n　　　　　　鈴木　桃子\n　　　　　　竹原　朋子\n　　　　　　石井　司門\n　　　　　　奥垣　晴子\n　　　　　　辻本　正太",
+                     "en":  "ã€€ã€€ã€€Banpresto\nã€€ã€€ã€€ã€€ã€€ã€€Momoko Suzuki\nã€€ã€€ã€€ã€€ã€€ã€€Tomoko Takehara\nã€€ã€€ã€€ã€€ã€€ã€€Shimon Ishii\nã€€ã€€ã€€ã€€ã€€ã€€Haruko Okugaki\nã€€ã€€ã€€ã€€ã€€ã€€Shouta Tsujimoto",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#128",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "Ａ．Ｃ．Ｅ．２　プロモーションチーム",
+                     "en":  "A.C.E. 2 Promotion Team",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#129",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  5,
+                     "max_lines":  5,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　広告代理店　株式会社　創通\n　　　　　　武藤誉\n　　　　　　大坂龍太郎\n　　　ＰＲ映像制作\n　　　　　　株式会社　東宝映像美術",
+                     "en":  "ã€€ã€€ã€€Advertising Agency: Sotsu Co., Ltd.\nã€€ã€€ã€€ã€€ã€€ã€€Homare Mutou\nã€€ã€€ã€€ã€€ã€€ã€€Ryuutarou Osaka\nã€€ã€€ã€€PR Video Production\nã€€ã€€ã€€ã€€ã€€ã€€Toho Visual Art Co., Ltd.",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#130",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  4,
+                     "max_lines":  4,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　プロデューサー\n　　　　　　花輪幸弥\n　　　プロダクション・マネージャー\n　　　　　　金房隆志",
+                     "en":  "ã€€ã€€ã€€Producer\nã€€ã€€ã€€ã€€ã€€ã€€Yukiya Hanawa\nã€€ã€€ã€€Production Manager\nã€€ã€€ã€€ã€€ã€€ã€€Takashi Kanefusa",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#131",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  432,
+                     "max_line_chars_approx":  44,
+                     "jp":  "　　　ディレクター\n　　　　　　嶋崎直登\n　　　　　　（ＨｅａｖｅｎｌｙＧａｒｄｅｎ，Ｉｎｃ．）",
+                     "en":  "ã€€ã€€ã€€Director\nã€€ã€€ã€€ã€€ã€€ã€€Naoto Shimazaki\nã€€ã€€ã€€ã€€ã€€ã€€(HeavenlyGarden, Inc.)",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#132",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "Ａ．Ｃ．Ｅ．２　公式サイト制作",
+                     "en":  "A.C.E. 2 Official Website Production",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#133",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  4,
+                     "max_lines":  4,
+                     "max_line_px":  460,
+                     "max_line_chars_approx":  47,
+                     "jp":  "　　　プロデューサー\n　　　　　　伊藤由希雄（ＢＴＭ）\n　　　ＷＥＢ制作\n　　　　　　Ｖｉｓｕａｌ　ａｎｄ　ｅｃｈｏ　ｊａｐａｎ．",
+                     "en":  "ã€€ã€€ã€€Producer\nã€€ã€€ã€€ã€€ã€€ã€€Yukio Itou (BTM)\nã€€ã€€ã€€Web Production\nã€€ã€€ã€€ã€€ã€€ã€€Visual and echo japan.",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#134",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  6,
+                     "max_lines":  6,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　ＷＥＢディレクター\n　　　　　　池田篤\n　　　ＷＥＢデザイナー\n　　　　　　キムラダイゴ\n　　　ＷＥＢオーサリング\n　　　　　　宮沢喬",
+                     "en":  "ã€€ã€€ã€€Web Director\nã€€ã€€ã€€ã€€ã€€ã€€Atsushi Ikeda\nã€€ã€€ã€€Web Designer\nã€€ã€€ã€€ã€€ã€€ã€€Daigo Kimura\nã€€ã€€ã€€Web Authoring\nã€€ã€€ã€€ã€€ã€€ã€€Takashi Miyazawa",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#135",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "スペシャルサンクス　ｔｏ",
+                     "en":  "Special Thanks To",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#136",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  4,
+                     "max_lines":  4,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　　　　富野　由悠季\n　　　　　　河口　佳高（サンライズ）\n　　　　　　谷口　廣次朗（サンライズ）\n　　　　　　渋谷　誠（サンライズ）",
+                     "en":  "ã€€ã€€ã€€ã€€ã€€ã€€Yoshiyuki Tomino\nã€€ã€€ã€€ã€€ã€€ã€€Yoshitaka Kawaguchi (Sunrise)\nã€€ã€€ã€€ã€€ã€€ã€€Koujirou Taniguchi (Sunrise)\nã€€ã€€ã€€ã€€ã€€ã€€Makoto Shibuya (Sunrise)",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#137",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  8,
+                     "max_lines":  8,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　　　　寺田　貴信\n　　　　　　菊池　博\n　　　　　　金坂　吉久\n　　　　　　大塚　怜士\n　　　　　　吉崎　邦法\n　　　　　　樋口　絢子\n　　　　　　増田　茂敏\n　　　　　　二見　鷹介",
+                     "en":  "ã€€ã€€ã€€ã€€ã€€ã€€Takanobu Terada\nã€€ã€€ã€€ã€€ã€€ã€€Hiroshi Kikuchi\nã€€ã€€ã€€ã€€ã€€ã€€Yoshihisa Kanesaka\nã€€ã€€ã€€ã€€ã€€ã€€Satoshi Ohtsuka\nã€€ã€€ã€€ã€€ã€€ã€€Kuninori Yoshizaki\nã€€ã€€ã€€ã€€ã€€ã€€Ayako Higuchi\nã€€ã€€ã€€ã€€ã€€ã€€Shigetoshi Masuda\nã€€ã€€ã€€ã€€ã€€ã€€Yousuke Futami",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#138",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  6,
+                     "max_lines":  6,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　　　　小川　啓一郎\n　　　　　　後藤　亜衣子\n　　　　　　齋藤　雅子\n　　　　　　佐竹　大輔\n　　　　　　佐藤　誠\n　　　　　　武村　大",
+                     "en":  "ã€€ã€€ã€€ã€€ã€€ã€€Keiichirou Ogawa\nã€€ã€€ã€€ã€€ã€€ã€€Aiko Gotou\nã€€ã€€ã€€ã€€ã€€ã€€Masako Saitou\nã€€ã€€ã€€ã€€ã€€ã€€Daisuke Satake\nã€€ã€€ã€€ã€€ã€€ã€€Makoto Satou\nã€€ã€€ã€€ã€€ã€€ã€€Dai Takemura",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#139",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  4,
+                     "max_lines":  4,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　　　　宮崎　政人\n　　　　　　山岸　孝明\n　　　　　　横田　義生\n　　　　　　　　　・・・　ａｎｄ　ａｌｌ",
+                     "en":  "ã€€ã€€ã€€ã€€ã€€ã€€Masato Miyazaki\nã€€ã€€ã€€ã€€ã€€ã€€Takaaki Yamagishi\nã€€ã€€ã€€ã€€ã€€ã€€Yoshio Yokota\nã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€... and all",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#140",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "協力会社",
+                     "en":  "Partner Companies",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#141",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  4,
+                     "max_lines":  4,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　株式会社　サンライズ\n　　　株式会社　創通\n　　　株式会社　ビックウエスト・アド\n　　　株式会社　ライツ・イン",
+                     "en":  "ã€€ã€€ã€€Sunrise Inc.\nã€€ã€€ã€€Sotsu Co., Ltd.\nã€€ã€€ã€€Big West Ad Co., Ltd.\nã€€ã€€ã€€Rights In Co., Ltd.",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#142",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  4,
+                     "max_lines":  4,
+                     "max_line_px":  513,
+                     "max_line_chars_approx":  52,
+                     "jp":  "　　　株式会社　アートプレスト\n　　　株式会社　イメージエポック\n　　　有限会社　エッジワークス\n　　　ＤＯＵＢＬＥ　Ｒ　Ｅｎｔｅｒｔａｉｎｍｅｎｔ，　ｉｎｃ．",
+                     "en":  "ã€€ã€€ã€€Artpresto Co., Ltd.\nã€€ã€€ã€€Imageepoch Inc.\nã€€ã€€ã€€EDGEWORKS Inc.\nã€€ã€€ã€€DOUBLE R Entertainment, inc.",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#143",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "　　　株式会社　デジタルハーツ\n　　　ポリアセッツ・ユナイテッド・インク\n　　　株式会社　レイアップ",
+                     "en":  "ã€€ã€€ã€€Digital Hearts Co., Ltd.\nã€€ã€€ã€€PolyAssets United, Inc.\nã€€ã€€ã€€Layup Co., Ltd.",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#144",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "プロデューサー\n　　　小菅　寛史（バンプレスト）\n　　　後藤　広幸（フロム・ソフトウェア）",
+                     "en":  "Producers\nã€€ã€€ã€€Hirofumi Kosuge (Banpresto)\nã€€ã€€ã€€Hiroyuki Gotou (FromSoftware)",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#145",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "スーパーバイザー　\n　　　神　直利（フロム・ソフトウェア）",
+                     "en":  "Supervisor\nã€€ã€€ã€€Naotoshi Zin (FromSoftware)",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#146",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "エグゼクティブプロデューサー\n　　　灘　俊宏（バンプレスト）\n　　　中島　英一（フロム・ソフトウェア）",
+                     "en":  "Executive Producers\nã€€ã€€ã€€Toshihiro Nada (Banpresto)\nã€€ã€€ã€€Eiichi Nakajima (FromSoftware)",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#147",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "開発",
+                     "en":  "Developer",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 },
+                 {
+                     "ref":  "m6285#148",
+                     "layer":  "mission dialogue",
+                     "phase":  5,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "販売元",
+                     "en":  "Publisher",
+                     "notes":  "Credits: formatted with standard English roles, official company names, and Hepburn romanization (Given Name + Surname)."
+                 }
+             ],
+    "context_after":  [
+
+                      ],
+    "report":  {
+                   "translator_summary":  "Operation 28 batch 04 translated. Covers final Tak and Marina epilogue lines (0-8) and complete staff credits (9-79) with preserved fullwidth indentations, blank lines, official studio names, and verified Hepburn personal names.",
+                   "rows_examined":  "All 80 rows translated and checked.",
+                   "rows_examined_count":  80,
+                   "uncertainties":  [
+                                         "Kanji readings for less common staff names verified against standard game credit listings; documented in Hepburn transliteration."
+                                     ],
+                   "glossary_proposals":  [
+
+                                          ],
+                   "portrait_speakers":  {
+
+                                         }
+               }
+}

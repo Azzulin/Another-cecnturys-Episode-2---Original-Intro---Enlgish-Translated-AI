@@ -1,0 +1,579 @@
+{
+ "table": "m6061",
+ "kind": "mission",
+ "copies": [
+  "42061:m",
+  "6061:m"
+ ],
+ "rows": [
+  {
+   "ids": [
+    1
+   ],
+   "jp": "敵勢力の撃破",
+   "en": "Destroy the enemy forces"
+  },
+  {
+   "ids": [
+    2
+   ],
+   "jp": "５機以上のゲルググＭが領域を離脱",
+   "en": "5 or more Gelgoog Marines leave area"
+  },
+  {
+   "ids": [
+    3
+   ],
+   "jp": "ファルゲンの撃破",
+   "en": "Destroy the Falguen"
+  },
+  {
+   "ids": [
+    10
+   ],
+   "jp": "敵突破数",
+   "en": "Enemy breaches"
+  },
+  {
+   "ids": [
+    11
+   ],
+   "jp": "%d機",
+   "en": "%d units"
+  },
+  {
+   "ids": [
+    51
+   ],
+   "jp": "<op()><sp(20)>敵部隊、射程圏内に入ります！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemy forces entering firing range!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    52
+   ],
+   "jp": "<op()><sp(20)>来たぞ！　コンペイトウに行かせるな！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Here they come! Don't let them reach\nKonpei Island!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    53
+   ],
+   "jp": "<op()><sp(20)>敵艦も確認されています。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Enemy ships confirmed as well.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    54
+   ],
+   "jp": "<op()><sp(20)>優先目標とするんだ。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Make them your priority targets.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    55
+   ],
+   "jp": "<op()><sp(20)>敵艦より発進した部隊がコンペイトウに\n向かっている。　援護を頼みたい。<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Units launched from enemy ships head\nfor Konpei Island. Requesting support.<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    56
+   ],
+   "jp": "<op()><sp(20)>敵艦が接近！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemy ship approaching!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    57
+   ],
+   "jp": "<op()><sp(20)>敵艦がまた現れました！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Another enemy ship has appeared!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    58
+   ],
+   "jp": "<op()><sp(20)>敵艦がさらに来ます！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>More enemy ships incoming!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    61
+   ],
+   "jp": "<op()><sp(20)>敵が防衛ライン上に接近！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemies approaching defense line!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    62
+   ],
+   "jp": "<op()><sp(20)>逃がすな！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Don't let them get away!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    66
+   ],
+   "jp": "<op()><sp(20)>コンペイトウ付近で友軍が襲撃されました！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Friendly forces attacked near\nKonpei Island!<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    71
+   ],
+   "jp": "<op()><sp(20)>聞いたか！　これ以上逃がすなよ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>You heard that! Don't let any more\nslip past!<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    76
+   ],
+   "jp": "<op()><sp(20)>敵に突破されました！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>The enemy broke through!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    77
+   ],
+   "jp": "<op()><sp(20)>何をしている！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>What are you doing?!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    81
+   ],
+   "jp": "<op()><sp(20)>敵にコンペイトウへの到達を許しました！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>The enemy was allowed to reach\nKonpei Island!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    82
+   ],
+   "jp": "<op()><sp(20)>だめだったか…<ab(800)><ed()>",
+   "en": "<op()><sp(20)>It was no good...<ab(800)><ed()>"
+  },
+  {
+   "ids": [
+    86
+   ],
+   "jp": "<op()><sp(20)>ベララベラ管制区が手薄になっています。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Vella Lavella control zone is\nundermanned.<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    87
+   ],
+   "jp": "<op()><sp(20)>やむをえん。　この機数では…\n主力艦隊のほとんどがコンペイトウ…<ab(500)>",
+   "en": "<op()><sp(20)>No choice. We have too few units...\nOur main fleet is at Konpei Island...<ab(500)>"
+  },
+  {
+   "ids": [
+    88
+   ],
+   "jp": "<sp(20)>これほどまで手薄にしてよかったんだろうか。<ab(500)><ed()>",
+   "en": "<sp(20)>Was it wise leaving it this\nundermanned?<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    91
+   ],
+   "jp": "<op()><sp(20)>警戒を怠るな。\nまだ、本命が現れていないぞ。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Stay vigilant. The main threat has not\nshown itself yet.<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    92
+   ],
+   "jp": "<op()><sp(20)>ガンダム２号機……ですか？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>You mean... Gundam Unit 2?<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    96
+   ],
+   "jp": "<op()><sp(20)>このくらいで片付いたか？<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Are they mostly cleared out?<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    97,
+    103
+   ],
+   "jp": "<op()><sp(20)>…いや、さらに機影が接近中！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>...No, more craft are closing in!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    98,
+    104
+   ],
+   "jp": "<op()><sp(20)>こんな時に厄介な連中が…！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Troublesome foes at a time like this...!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    101
+   ],
+   "jp": "<op()><sp(20)>いい腕だ。　俺ももう引退かな…<ab(300)>",
+   "en": "<op()><sp(20)>Fine skill. Maybe I should retire...<ab(300)>"
+  },
+  {
+   "ids": [
+    102
+   ],
+   "jp": "<sp(20)>このくらいで片付いたか？<ab(400)><ed()>",
+   "en": "<sp(20)>Did that clear them out?<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    106
+   ],
+   "jp": "<op()><sp(20)>いいか！　目標は護衛部隊だ！\n観艦式は彼らに任せておけ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Listen! Our target is the escort force!\nLeave the naval review to them!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    116
+   ],
+   "jp": "<op()><sp(20)>私の役割は十分果たせたろう。\nあとは手並みを見せてもらう。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>I have fulfilled my role well enough.\nNow show me what you can do.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    117
+   ],
+   "jp": "<op()><sp(20)>待てよ！　逃げる気かよ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Hold it! You running away?!<ab(0)><ed()>"
+  },
+  {
+   "ids": [
+    118
+   ],
+   "jp": "<op()><sp(20)>ケーン！　ほっとけ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Kaine! Leave him!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    121
+   ],
+   "jp": "<op()><sp(20)>Ｓ０、暗礁空域に敵機！\n映像を転送します！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemy unit in shoal zone S0!\nTransmitting video feed!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    122
+   ],
+   "jp": "<op()><sp(20)>ガンダム２号機！？<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Gundam Unit 2?!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    123
+   ],
+   "jp": "<op()><sp(20)>くっ！　今までのは囮か！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Damn! The rest was a decoy?!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    126
+   ],
+   "jp": "<op()><sp(20)>私にはやらねばならん事がある！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>I have a duty I must fulfill!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    127
+   ],
+   "jp": "<op()><sp(20)>作戦の目的を忘れるな！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Do not forget the operation's objective!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    128
+   ],
+   "jp": "<op()><sp(20)>そんな事では私を倒すことなどできん！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Fighting like that will never defeat\nme!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    131
+   ],
+   "jp": "<op()><sp(20)>なんでてめえが出て来るんだよ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Why the hell are you showing up?!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    132
+   ],
+   "jp": "<op()><sp(20)>お前らギガノスは関係ねぇだろ？\nとっとと帰ってくれよ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>This has nothing to do with you\nGiganos! Just hurry up and go home!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    133
+   ],
+   "jp": "<op()><sp(20)>なんでジオンとつるんでやがんだ！？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Why are you hanging around with\nZeon?!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    134
+   ],
+   "jp": "<op()><sp(20)>貴様らなどに話したところで、\n理解できようはずもない！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Even if I explained it to the likes of\nyou, you could never understand!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    135
+   ],
+   "jp": "<op()><sp(20)>お前たちが敵である以上、\nこの戦いもまた私の戦いだ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>As long as you are our enemies,\nthis battle is my battle as well!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    136
+   ],
+   "jp": "<op()><sp(20)>それを話したところで、\nどうなると言うのだ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>What difference would telling you\nmake anyway?!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    141
+   ],
+   "jp": "<op()><sp(20)>新たな機影を確認！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>New craft signatures confirmed!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    142
+   ],
+   "jp": "<op()><sp(20)>ザコに構う必要はない！\n目標に集中しろ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>No need to bother with small fry!\nFocus on the target!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    201
+   ],
+   "jp": "<on()><sp(20)>観艦式が始まったようです。<ab(0)><off()>",
+   "en": "<on()><sp(20)>The naval review has begun.<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    202
+   ],
+   "jp": "<on()><sp(20)>そうか…俺たちも仕事を始めるぞ。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Understood... Time for our work to\nbegin.<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    203
+   ],
+   "jp": "<on()><sp(20)>待ちに待った時が来たのだ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>The long-awaited moment has arrived!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    204
+   ],
+   "jp": "<on()><sp(20)>多くの英霊が無駄死にでなかったことの\n証のために！！<ab(0)><off()>",
+   "en": "<on()><sp(20)>To prove that the souls of our fallen\ndid not die in vain!!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    205
+   ],
+   "jp": "<on()><sp(20)>ガンダム２号機！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Gundam Unit 2?!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    206
+   ],
+   "jp": "<on()><sp(20)>ま、まさか核を！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>I-Is he firing a nuke?!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    207
+   ],
+   "jp": "<on()><sp(20)>ウソだろ？　ウソだよな！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>You're kidding... right?!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    208
+   ],
+   "jp": "<on()><sp(20)>再びジオンの理想を掲げるために！<ab(10400)><off()>",
+   "en": "<on()><sp(20)>To raise the ideals of Zeon once more!<ab(10400)><off()>"
+  },
+  {
+   "ids": [
+    209
+   ],
+   "jp": "<on()><sp(20)>星の屑、成就のために！<ab(0)><off()>",
+   "en": "<on()><sp(20)>For the success of Operation Stardust!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    210
+   ],
+   "jp": "<on()><sp(20)>ソロモンよ！　私は帰ってきた！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Solomon! I have returned!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    300
+   ],
+   "jp": "<op()><sp(20)>※ミッション補足<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Mission note)<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    301
+   ],
+   "jp": "<op()><sp(20)>※敵が通過しそうだと警告<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Warning that enemy may break\nthrough)<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    302
+   ],
+   "jp": "<op()><sp(20)>※怒られる<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Reprimanded)<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    303
+   ],
+   "jp": "<op()><sp(20)>※高官の戦艦がダメージを受けている\nらしいセリフ<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Line indicating dignitary battleship\nis taking damage)<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    304
+   ],
+   "jp": "<op()><sp(20)>※さらに怒られる<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Reprimanded further)<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    305
+   ],
+   "jp": "<op()><sp(20)>※もうだみだ<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(All hope is lost)<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    306
+   ],
+   "jp": "<op()><sp(20)>※ギガノス増援のお知らせ<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Notice of Giganos reinforcements)<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    307
+   ],
+   "jp": "<op()><sp(20)>※誉められる　その１<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Praised 1)<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    308
+   ],
+   "jp": "<op()><sp(20)>※誉められる　その２<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Praised 2)<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    309
+   ],
+   "jp": "<op()><sp(20)>※ミッションは成功だとぬか喜び<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Premature celebration of success)<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    310
+   ],
+   "jp": "<op()><sp(20)>※超誉められる\n※ミッションは成功だとぬか喜び<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Heavily praised /\nPremature celebration of success)<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    311
+   ],
+   "jp": "<op()><sp(20)>※マイヨとパイロットの掛け合い\n　・機体別メッセージ<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Dialogue between Meio and pilot -\nUnit-specific message)<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    312
+   ],
+   "jp": "<op()><sp(20)>※マイヨの捨てゼリフ<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Meio parting remark)<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    313
+   ],
+   "jp": "<op()><sp(20)>※敵が居なくなったことをお知らせ\n※しかし・・・（ポリ劇へと繋げる）<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Notice that enemies cleared,\nhowever... connects to cutscene)<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    314
+   ],
+   "jp": "<op()><sp(20)>※ミッションアップデートのお知らせ<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Notice of mission update)<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    315
+   ],
+   "jp": "<op()><sp(20)>※マイヨの悔しがり　その１<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Meio frustration 1)<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    316
+   ],
+   "jp": "<op()><sp(20)>※マイヨの悔しがり　その２<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Meio frustration 2)<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    317
+   ],
+   "jp": "<op()><sp(20)>※マイヨの悔しがり　その３<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Meio frustration 3)<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    318
+   ],
+   "jp": "<op()><sp(20)>※デラーズの戦艦が出現１<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Delaz battleship appears 1)<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    319
+   ],
+   "jp": "<op()><sp(20)>※デラーズの戦艦が出現２<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Delaz battleship appears 2)<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    320
+   ],
+   "jp": "<op()><sp(20)>※デラーズの戦艦が出現３<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Delaz battleship appears 3)<ab(3000)><ed()>"
+  },
+  {
+   "ids": [
+    321
+   ],
+   "jp": "<op()><sp(20)>※ギガノス増援のお知らせ（戦艦出現）<ab(3000)><ed()>",
+   "en": "<op()><sp(20)>(Notice of Giganos battleship arrival)<ab(3000)><ed()>"
+  }
+ ]
+}

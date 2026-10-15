@@ -1,0 +1,1743 @@
+{
+ "batch": "op19_01",
+ "operation": 19,
+ "previous_batch": null,
+ "next_batch": "op19_02",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "カルバリー・テンプル",
+   "en": "Calvary Temple",
+   "kind": "unit",
+   "series": "Heavy Metal L-Gaim",
+   "role": "Poseidal Army Temple-series A-class Heavy Metal with a chest laser reflector; Quwasan Olibee's unit (copper-yellow), also used by Hassha Mossha and others."
+  },
+  {
+   "ja": "ミスマル・ユリカ",
+   "en": "Yurika Misumaru",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "female",
+   "role": "Captain of the ND-001 Nadesico; Akito's childhood friend and later wife; prisoner of the Martian Successors in PoD",
+   "personality": "Cheerful, airheaded and clingy toward Akito, but a genuinely brilliant tactician",
+   "en_short": "Yurika"
+  },
+  {
+   "ja": "オペレーション",
+   "en": "Operation",
+   "kind": "term"
+  },
+  {
+   "ja": "ゲキ・ガンガー",
+   "en": "Gekiganger",
+   "kind": "term",
+   "series": "Martian Successor Nadesico",
+   "role": "The in-universe 1970s-style super robot anime (full title ゲキ・ガンガー3) loved by Gai Daigoji and Akito; also the name of its robot."
+  },
+  {
+   "ja": "ボソンジャンプ",
+   "en": "Boson Jump",
+   "kind": "term",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "Teleportation/time-displacement technology of the setting"
+  },
+  {
+   "ja": "エステバリス",
+   "en": "Aestivalis",
+   "kind": "unit",
+   "series": "Martian Successor Nadesico",
+   "role": "Nergal mass-produced mecha; used alone and in エステバリス隊 (Aestivalis squad/team)."
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "オルファン",
+   "en": "Orphan",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Gigantic sentient alien ship buried under the Pacific; its awakening threatens Earth; base of the Reclaimers"
+  },
+  {
+   "ja": "ギャブレー",
+   "en": "Gablae",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "male",
+   "role": "Daba's rival. Ambitious country noble from Koam who joins the Poseidal military (under Chai Char, later one of the Thirteen); commands the Slender Skala, finally sides with Daba to rescue Quwasan. Pilots Ashura Temple, A-Taul, Bat-Shu in ACE2.",
+   "personality": "Pompous and vain but sincere, warm-hearted and quick to fall in love; naive and comically airheaded, a rival with a sense of honor.",
+   "full_name": "Gavlet Gablae"
+  },
+  {
+   "ja": "クワサン",
+   "en": "Quwasan",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "female",
+   "role": "Daba's adopted younger sister and fiancee. Kidnapped and brainwashed by Poseidal via bio-relation; reappears as commander of Poseidal's Imperial Guard. Pilots a copper-yellow Calvary Temple.",
+   "personality": "Under mind control she is cold and obedient, acting on Poseidal's orders; underneath she is fragile, and her mind breaks down by the end of the series.",
+   "full_name": "Quwasan Olibee"
+  },
+  {
+   "ja": "テンカワ",
+   "en": "Tenkawa",
+   "kind": "character",
+   "series": "Martian Successor Nadesico",
+   "gender": "male",
+   "role": "Surname of Akito Tenkawa; used alone (テンカワ君, テンカワ機 = Tenkawa's unit)."
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "ミスマル",
+   "en": "Misumaru",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "male",
+   "role": "Admiral of the United Earth forces (Third Fleet); Yurika's father; senior UESF commander in PoD",
+   "personality": "Doting, emotional father; stern but decent commander",
+   "full_name": "Kouichiro Misumaru"
+  },
+  {
+   "ja": "ギワザ",
+   "en": "Giwaza",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "male",
+   "role": "Seat no. 3 and de facto leader of Poseidal's Thirteen, the highest-ranking officer after Poseidal; rebels against Poseidal with his own fleet (the Giwaza fleet) and is killed in the final battle.",
+   "personality": "Capable, cold, calculating and ambitious; uses and discards people, including his lover Nei Mo Han; a political schemer.",
+   "full_name": "Giwaza Lowau"
+  },
+  {
+   "ja": "ダバ",
+   "en": "Daba",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "male",
+   "role": "Protagonist. Heir of the Yaman clan's Kamon dynasty (true name Kamon Myroad), raised on Koam; leads the rebellion against Poseidal. Pilots the L-Gaim, later the L-Gaim Mk-II.",
+   "personality": "Calm, earnest and somewhat reserved, hard to read; indecisive at times but prone to sudden outbursts of anger, and reckless whenever his adopted sister Quwasan is involved. Grows into a capable leader.",
+   "full_name": "Daba Myroad"
+  },
+  {
+   "ja": "中将",
+   "en": "Vice Admiral",
+   "kind": "rank",
+   "series": "Universal Century (general)",
+   "role": "Military rank"
+  },
+  {
+   "ja": "木連",
+   "en": "Jovian Federation",
+   "kind": "faction",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "Jupiter-based anti-Earth state, main enemy faction of the TV series (romaji Mokuren)",
+   "en_short": "Jovians"
+  },
+  {
+   "ja": "白鳥",
+   "en": "Shiratori",
+   "kind": "character",
+   "series": "Martian Successor Nadesico",
+   "gender": "male",
+   "role": "Lieutenant Commander in the Jovian Superior Jovian Male Forces; Tetsujin/Daitetsujin pilot; seeks peace with Earth",
+   "personality": "Honest, upright and idealistic, naive around women; hot-blooded Gekiganger fan",
+   "full_name": "Tsukumo Shiratori"
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {
+  "32": {
+   "speaker": "Yurika Misumaru",
+   "gender": "female",
+   "role": "captain of the Nadesico",
+   "confidence": "high",
+   "evidence": "brief: 'ナデシコ艦長、ミスマル・ユリカです。'"
+  },
+  "34": {
+   "speaker": "Ruri Hoshino",
+   "gender": "female",
+   "role": "Nadesico operator",
+   "confidence": "high",
+   "evidence": "brief: 'こちらはナデシコのホシノ・ルリです。'"
+  },
+  "36": {
+   "speaker": "Lucrezia Noin",
+   "gender": "female",
+   "role": "tactical staff officer (特尉, Special Lieutenant) from the Preventer",
+   "confidence": "high",
+   "evidence": "m6112#36 Sinapus: 'ノイン特尉、後で詳しく聞かせてくれ' then p36 explains Domon in brief63178#4-9; commanding but female, do not masculinize"
+  },
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [],
+ "rows": [
+  {
+   "ref": "brief63018#0",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "オペレーション　１９",
+   "en": "Operation 19",
+   "notes": "Operation title."
+  },
+  {
+   "ref": "brief63018#1",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "和平交渉",
+   "en": "Peace Talks",
+   "notes": "Mission name."
+  },
+  {
+   "ref": "brief63018#3",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "周辺警護",
+   "en": "Perimeter Security",
+   "notes": "Objective header."
+  },
+  {
+   "ref": "brief63018#4",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "木連艦隊追撃",
+   "en": "Pursue Jovian Fleet",
+   "notes": "Objective header."
+  },
+  {
+   "ref": "brief63018#5",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ナデシコ進行支援",
+   "en": "Support Nadesico Advance",
+   "notes": "Objective header."
+  },
+  {
+   "ref": "brief63018#6",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "不明勢力調査",
+   "en": "Investigate Unknown Forces",
+   "notes": "Objective header."
+  },
+  {
+   "ref": "brief63018#7",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<ac(18)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)><ac(18)>#c[5E8FD8]ナデシコ#c艦長、ミスマル・ユリカです！\n#c[5E8FD8]アルビオン#cの皆さんも来てくれたんですね！\nほんとに、ほんとにありがとうございます！",
+   "en": "<op(32,1)><sp(2)><ac(18)>I'm Yurika Misumaru, captain of the\n#c[5E8FD8]Nadesico#c! Everyone from the #c[5E8FD8]Albion#c came\ntoo! Thank you so, so very much!",
+   "notes": "Yurika Misumaru briefing with characteristic youthful enthusiasm."
+  },
+  {
+   "ref": "brief63018#8",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(4)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(3)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>白鳥さんががんばってくれたおかげで、\n<im(4)>これから私たちは#c[BE5050]木連#c代表の草壁中将と\n<im(3)>和平交渉を行うことになりました。",
+   "en": "<op(32,1)><sp(2)>Thanks to Shiratori's hard work,\n<im(4)>we are set to hold peace talks with the\n#c[BE5050]Jovian Federation#c's <im(3)>Vice Admiral Kusakabe.",
+   "notes": "Yurika reporting upcoming peace talks with Vice Admiral Kusakabe."
+  },
+  {
+   "ref": "brief63018#9",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>地球では、ただの子供向けアニメだと\n思われてるゲキ・ガンガー３と、\nそして……",
+   "en": "<op(32,1)><sp(2)>Gekiganger 3, which people on Earth\nthink is just a children's anime,\nand also...",
+   "notes": "Yurika mentioning Gekiganger 3 as the cultural bridge."
+  },
+  {
+   "ref": "brief63018#10",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>白鳥さんとミナトさんとの、\n宇宙を越えた愛が、\n２つの世界をつないでくれたんです！",
+   "en": "<op(32,1)><sp(2)>The love between Shiratori and Minato,\nreaching across space itself,\nhas connected our two worlds!",
+   "notes": "Yurika highlighting the romance between Shiratori and Minato."
+  },
+  {
+   "ref": "brief63018#11",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>これって、とっても感動的ですよね！",
+   "en": "<op(32,1)><sp(2)>Isn't that just so moving?!",
+   "notes": "Yurika emotional reaction."
+  },
+  {
+   "ref": "brief63018#12",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>私たちは、必ず交渉を成功させてきます。\n<im(1)>#c[5E8FD8]アルビオン#cの皆さん、\nその成果を楽しみにしていてください！",
+   "en": "<op(32,1)><sp(2)>We will make these talks a success!\n<im(1)>Everyone on the #c[5E8FD8]Albion#c,\nplease look forward to the results!",
+   "notes": "Yurika addressing the Albion crew."
+  },
+  {
+   "ref": "brief63018#13",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>それでは、はりきって行ってきます！",
+   "en": "<op(32,1)><sp(2)>And so, we are off in high spirits!",
+   "notes": "Yurika energetic sign-off."
+  },
+  {
+   "ref": "brief63018#14",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>以上が、#c[5E8FD8]ナデシコ#cからの通信内容だ。\n本艦は、<im(2)>万が一に備えて木星付近に\n待機する。",
+   "en": "<op(37,1)><sp(2)>That concludes the #c[5E8FD8]Nadesico#c's transmission.\nThis ship will <im(2)>stand by near Jupiter,\nprepared for any eventuality.",
+   "notes": "Captain Sinapus briefing Albion."
+  },
+  {
+   "ref": "brief63018#15",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>なお「交渉に必要以上の武装はいらない」\nというミスマル艦長の意向で、テンカワ機\n以外の#c[5E8FD8]エステバリス隊#cは本艦で預かる。",
+   "en": "<op(37,1)><sp(2)>By Captain Misumaru's wish to take no\nexcess arms into talks, our ship holds the\n#c[5E8FD8]Aestivalis squad#c, except Tenkawa's unit.",
+   "notes": "Sinapus explaining disarmed mission parameters."
+  },
+  {
+   "ref": "brief63018#16",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(6)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(6)>「万が一」が起こらないことを祈るが、\n念のため準備を怠るな。",
+   "en": "<op(37,1)><sp(2)><im(6)>I pray that worst case does not come,\nbut maintain full readiness just in case.",
+   "notes": "Sinapus warning crew to stay prepared."
+  },
+  {
+   "ref": "brief63018#17",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 34,
+   "tokens": [
+    "<op(34,1)>",
+    "<sp(2)>",
+    "<im(5)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[F07141]",
+    "<im(7)>",
+    "<of(1)>",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(34,1)><sp(2)>「万が一」が起こって<im(5)>#c[5E8FD8]ナデシコ#cが\n#c[F07141]他の勢力に襲われることになっ<im(7)>た時は、\n<of(1)>護衛#cよろしくお願いします。",
+   "en": "<op(34,1)><sp(2)>If the worst happens and the <im(5)>#c[5E8FD8]Nadesico#c\n#c[F07141]is attacked by other forces,<im(7)>\n<of(1)>we would appreciate an escort#c.",
+   "notes": "Ruri Hoshino calm request for backup."
+  },
+  {
+   "ref": "brief63118#2",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "<im(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>不測の<im(1)>事態に備え、\n<im(2)>第一種戦闘態勢で待機する。\nこのことは#c[BE5050]木連#c側も了解済みだ。",
+   "en": "<op(36,1)><sp(2)>Prepared for the <im(1)>unexpected,\nwe stand by in <im(2)>Condition One battle readiness.\nThe #c[BE5050]Jovians#c have acknowledged this as well.",
+   "notes": "Lucrezia Noin tactical briefing."
+  },
+  {
+   "ref": "brief63118#3",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "<im(4)>",
+    "#c[F07141]",
+    "<im(5)>",
+    "<tr(1)>",
+    "<im(6)>",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>いいか、<im(4)>#c[F07141]相手<im(5)>が怪しい動きを<tr(1)>見せた時は\nすぐに出<im(6)>撃#cする。\n注意を怠るな。",
+   "en": "<op(36,1)><sp(2)>Listen. <im(4)>#c[F07141]If they <im(5)>make any <tr(1)>suspicious\nmoves, sort<im(6)>ie immediately#c.\nStay sharp.",
+   "notes": "Noin warning to sortie if any suspicious moves occur."
+  },
+  {
+   "ref": "m6191#1",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "カルバリー・テンプルの撃破",
+   "en": "Destroy Calvary Temple",
+   "notes": "Tactical objective."
+  },
+  {
+   "ref": "m6191#5",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ダバ！　敵が来る！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Daba! The enemy is coming!<ab(100)><ed()>",
+   "notes": "Allied companion warning Daba."
+  },
+  {
+   "ref": "m6191#6",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どこからだ！？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>From where?!<ab(0)><ed()>",
+   "notes": "Daba responding."
+  },
+  {
+   "ref": "m6191#7",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あっち！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Over there!<ab(300)><ed()>",
+   "notes": "Companion pointing direction."
+  },
+  {
+   "ref": "m6191#8",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こいつらを抑えれば、火星の遺跡と\nボソンジャンプの技術も手中にできる。<ab(400)>",
+   "en": "<op()><sp(20)>If we pin them down, Mars's ruins\nand Boson Jump tech are ours.<ab(400)>",
+   "notes": "Poseidal Army pilot from Giwaza's fleet."
+  },
+  {
+   "ref": "m6191#9",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>何としてもギワザ様の元へ持ち帰るのだ！<ab(500)><ed()>",
+   "en": "<sp(20)>We must bring them to Lord Giwaza!<ab(500)><ed()>",
+   "notes": "Poseidal pilot continues."
+  },
+  {
+   "ref": "m6191#10",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こんなとこまで来るとはしつこい連中だ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Coming all the way out here...\nPersistent bastards!<ab(200)><ed()>",
+   "notes": "Allied pilot complaining about enemy persistence."
+  },
+  {
+   "ref": "m6191#11",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>和平交渉の最中に、無粋な奴らだな。<ab(300)>",
+   "en": "<op()><sp(20)>Showing up during peace talks...\nWhat tasteless brutes.<ab(300)>",
+   "notes": "Allied pilot criticizing lack of manners."
+  },
+  {
+   "ref": "m6191#12",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>さっさと追い払うぞ！<ab(500)><ed()>",
+   "en": "<sp(20)>Let's drive them off quick!<ab(500)><ed()>",
+   "notes": "Allied pilot ordering to repel enemies."
+  },
+  {
+   "ref": "m6191#13",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このくらいの連中をどうにかできないのか！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Can't you handle small fry like this?!<ab(200)><ed()>",
+   "notes": "Gavlet Gablae berating grunts."
+  },
+  {
+   "ref": "m6191#14",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>も、申し訳ありません！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>F-Forgive us, sir!<ab(200)><ed()>",
+   "notes": "Grunt apologizing to Gablae."
+  },
+  {
+   "ref": "m6191#15",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あれは…クワサン！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>That machine... Quwasan!<ab(500)><ed()>",
+   "notes": "Daba recognizing Quwasan's Calvary Temple."
+  },
+  {
+   "ref": "m6191#16",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(50)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>クワサン！　わからないのか！？<ab(50)>",
+   "en": "<op()><sp(20)>Quwasan! Don't you know me?!<ab(50)>",
+   "notes": "Daba calling out to his adopted sister."
+  },
+  {
+   "ref": "m6191#17",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>お兄ちゃんだよ！<ab(500)><ed()>",
+   "en": "<sp(20)>It's your brother!<ab(500)><ed()>",
+   "notes": "Daba calling himself her older brother."
+  },
+  {
+   "ref": "m6191#18",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>バカな！　私に兄など…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Absurd! I have no brother...!<ab(0)><ed()>",
+   "notes": "Quwasan Olibee brainwashed under Bio-Relation."
+  },
+  {
+   "ref": "m6191#19",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>貴様！　クワサン殿から離れろ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>You! Stay away from Lady Quwasan!<ab(100)><ed()>",
+   "notes": "Gablae defending Quwasan."
+  },
+  {
+   "ref": "m6191#20",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ギャブレー！　邪魔をするなぁっ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Gablae! Stay out of my way!!<ab(100)><ed()>",
+   "notes": "Daba shouting at Gablae."
+  },
+  {
+   "ref": "m6191#21",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(11000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>邪魔をしているのは貴様だ！<ab(11000)><ed()>",
+   "en": "<op()><sp(20)>You're the one in the way!<ab(11000)><ed()>",
+   "notes": "Gablae retorting."
+  },
+  {
+   "ref": "m6191#22",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>クワサン殿！　退きましょう！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Lady Quwasan! Let us withdraw!<ab(400)><ed()>",
+   "notes": "Gablae urging retreat."
+  },
+  {
+   "ref": "m6191#23",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>し、しかし、ギャブレー！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>B-But, Gablae!<ab(400)><ed()>",
+   "notes": "Quwasan hesitating."
+  },
+  {
+   "ref": "m6191#24",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>我々の真の目的はオルファン！　<ab(100)>",
+   "en": "<op()><sp(20)>Our true objective is Orphan!<ab(100)>",
+   "notes": "Gablae reminding primary goal."
+  },
+  {
+   "ref": "m6191#25",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>遺跡などは物のついでにすぎません！<ab(100)>",
+   "en": "<sp(20)>The ruins are merely a sideline!<ab(100)>",
+   "notes": "Gablae continues."
+  },
+  {
+   "ref": "m6191#26",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(50)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>それよりは……その……<ab(50)>",
+   "en": "<sp(20)>More importantly... well...<ab(50)>",
+   "notes": "Gablae stammering shyly."
+  },
+  {
+   "ref": "m6191#27",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>クワサン殿の御身が……大事……<ab(700)><ed()>",
+   "en": "<sp(20)>Your safety, Lady Quwasan... matters...<ab(700)><ed()>",
+   "notes": "Gablae expressing care for Quwasan."
+  },
+  {
+   "ref": "m6191#28",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……ありがとう、ギャブレー。<ab(300)>",
+   "en": "<op()><sp(20)>...Thank you, Gablae.<ab(300)>",
+   "notes": "Quwasan acknowledging Gablae's sentiment."
+  },
+  {
+   "ref": "m6191#29",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>わかりました、\nお前の言うとおりにしましょう。<ab(500)><ed()>",
+   "en": "<sp(20)>I understand.\nI shall do as you say.<ab(500)><ed()>",
+   "notes": "Quwasan agreeing to retreat."
+  },
+  {
+   "ref": "m6191#30",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(50)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ギャブレー！　ここまでです。<ab(50)>",
+   "en": "<op()><sp(20)>Gablae! That is enough.<ab(50)>",
+   "notes": "Quwasan calling halt to combat."
+  },
+  {
+   "ref": "m6191#31",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>退きますよ。<ab(200)><ed()>",
+   "en": "<sp(20)>We are withdrawing.<ab(200)><ed()>",
+   "notes": "Quwasan commanding retreat."
+  },
+  {
+   "ref": "m6191#32",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>しかし、遺跡が……！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>B-But the ruins...!!<ab(100)><ed()>",
+   "notes": "Gablae reluctant to abandon mission."
+  },
+  {
+   "ref": "m6191#33",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>遺跡などより、お前の命が大事です。<ab(100)>",
+   "en": "<op()><sp(20)>Your life is more precious than ruins.<ab(100)>",
+   "notes": "Quwasan prioritizing Gablae's life."
+  },
+  {
+   "ref": "m6191#34",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ここでお前の助けを失っては、\n私は明日からどうしたらよいのです？<ab(500)><ed()>",
+   "en": "<sp(20)>If I lose your help here,\nwhat am I to do tomorrow?<ab(500)><ed()>",
+   "notes": "Quwasan displaying reliance on Gablae."
+  },
+  {
+   "ref": "m6191#35",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ク、クワサン殿…承知いたしました！　<ab(100)>",
+   "en": "<op()><sp(20)>L-Lady Quwasan... Understood!<ab(100)>",
+   "notes": "Gablae deeply moved."
+  },
+  {
+   "ref": "m6191#36",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>このギャブレー、明日のために\n今日の屈辱に耐えましょう！<ab(400)><ed()>",
+   "en": "<sp(20)>I, Gablae, shall endure today's\nhumiliation for tomorrow's sake!<ab(400)><ed()>",
+   "notes": "Gablae theatrical resolution."
+  },
+  {
+   "ref": "m6191#37",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(50)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アルビオン！　<ab(50)>",
+   "en": "<op()><sp(20)>Albion!<ab(50)>",
+   "notes": "Gablae addressing Albion."
+  },
+  {
+   "ref": "m6191#38",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>次はこうはいかんぞ！　覚えておけ！<ab(500)><ed()>",
+   "en": "<sp(20)>Next time won't go like this! Remember it!<ab(500)><ed()>",
+   "notes": "Gablae parting threat."
+  },
+  {
+   "ref": "m6191#40",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ひとまずは安心だな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We're safe for the moment, then.<ab(0)><ed()>",
+   "notes": "Allied pilot sigh of relief."
+  },
+  {
+   "ref": "m6191#41",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ま、待ってください！<ab(400)>",
+   "en": "<op()><sp(20)>W-Wait, please!<ab(400)>",
+   "notes": "Operator urgent warning."
+  },
+  {
+   "ref": "m6191#42",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>敵艦がまた現れました！<ab(100)><ed()>",
+   "en": "<sp(20)>More enemy ships have appeared!<ab(100)><ed()>",
+   "notes": "Operator reporting new contacts."
+  },
+  {
+   "ref": "m6191#43",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>木連艦隊、接近してきます！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>The Jovian fleet is approaching!<ab(600)><ed()>",
+   "notes": "Operator identifying Jovian fleet."
+  },
+  {
+   "ref": "m6191#44",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>地球人は白鳥艦長の仇だ！<ab(500)>",
+   "en": "<op()><sp(20)>Earthlings killed Captain Shiratori!<ab(500)>",
+   "notes": "Jovian pilot crying revenge."
+  },
+  {
+   "ref": "m6191#45",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>奴らに正義の怒りをぶつけるのだ！<ab(700)><ed()>",
+   "en": "<sp(20)>Unleash righteous fury upon them!<ab(700)><ed()>",
+   "notes": "Jovian pilot invoking righteous fury (Gekiganger trope)."
+  },
+  {
+   "ref": "m6191#46",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どういうことだ…<ab(0)>",
+   "en": "<op()><sp(20)>What is the meaning of this...<ab(0)>",
+   "notes": "Albion commander bewildered."
+  },
+  {
+   "ref": "m6191#47",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>何が起こったというのだ！<ab(300)><ed()>",
+   "en": "<sp(20)>What on earth happened?!<ab(300)><ed()>",
+   "notes": "Commander continues."
+  },
+  {
+   "ref": "m6191#48",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>交渉決裂か……！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>The talks have broken down...?!<ab(600)><ed()>",
+   "notes": "Allied officer deducing breakdown of talks."
+  },
+  {
+   "ref": "m6191#49",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このままではやられるぞ…<ab(600)><ed()>",
+   "en": "<op()><sp(20)>We'll be wiped out at this rate...<ab(600)><ed()>",
+   "notes": "Allied pilot sensing danger."
+  },
+  {
+   "ref": "m6191#50",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…やむを得ん！　応戦する！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>...We have no choice! Return fire!<ab(600)><ed()>",
+   "notes": "Sinapus or Burning ordering return fire."
+  },
+  {
+   "ref": "m6191#51",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦はボソン砲を搭載しているわ。<ab(700)>",
+   "en": "<op()><sp(20)>The enemy ship has a Boson Cannon.<ab(700)>",
+   "notes": "Inez Fressange explaining enemy tech."
+  },
+  {
+   "ref": "m6191#52",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ボソンジャンプを利用して、ターゲットに\n直接爆発物を送り込んでくる……<ab(1200)>",
+   "en": "<sp(20)>Using Boson Jump, it beams explosives\ndirectly into the target...<ab(1200)>",
+   "notes": "Inez explaining Boson Jump projectile transmission."
+  },
+  {
+   "ref": "m6191#53",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これに対する防御手段は皆無でしょうね。<ab(300)>",
+   "en": "<sp(20)>There is virtually no defense against it.<ab(300)>",
+   "notes": "Inez noting lack of conventional defenses."
+  },
+  {
+   "ref": "m6191#54",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>でも……<ab(700)><ed()>",
+   "en": "<sp(20)>However...<ab(700)><ed()>",
+   "notes": "Inez introducing countermeasure."
+  },
+  {
+   "ref": "m6191#55",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こちらから警告を送ったら\n急いでミサイルの側に退避して。<ab(400)>",
+   "en": "<op()><sp(20)>Once we send an alert,\nhurry toward the missile.<ab(400)>",
+   "notes": "Inez tactical instruction."
+  },
+  {
+   "ref": "m6191#56",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(900)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ミサイルの熱反応を利用して\n敵の照準を狂わせるのよ。<ab(900)><ed()>",
+   "en": "<sp(20)>Use the missile's heat signature\nto throw off the enemy's aim.<ab(900)><ed()>",
+   "notes": "Inez explaining how the missile decoy works."
+  },
+  {
+   "ref": "m6191#57",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ボース粒子反応増大。<ab(200)>",
+   "en": "<op()><sp(20)>Bose particle reaction increasing.<ab(200)>",
+   "notes": "Ruri Hoshino detecting Bose particles."
+  },
+  {
+   "ref": "m6191#58",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>来るわよ。<ab(400)><ed()>",
+   "en": "<sp(20)>Here it comes.<ab(400)><ed()>",
+   "notes": "Operator warning."
+  },
+  {
+   "ref": "m6191#59",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ボース粒子反応増大。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Bose particle reaction increasing.<ab(200)><ed()>",
+   "notes": "Ruri repeating detection."
+  },
+  {
+   "ref": "m6191#61",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こちらアルビオン。<ab(100)>",
+   "en": "<op()><sp(20)>This is the Albion.<ab(100)>",
+   "notes": "Albion hail."
+  },
+  {
+   "ref": "m6191#62",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ナデシコ、状況を知らせてくれ。<ab(400)><ed()>",
+   "en": "<sp(20)>Nadesico, report your situation.<ab(400)><ed()>",
+   "notes": "Sinapus asking for status."
+  },
+  {
+   "ref": "m6191#63",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こちらナデシコ、交渉は決裂です！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>This is Nadesico! Talks collapsed!<ab(300)><ed()>",
+   "notes": "Nadesico bridge reporting collapse of talks."
+  },
+  {
+   "ref": "m6191#64",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何だと！　一体何があった！？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>What?! What on earth happened?!<ab(500)><ed()>",
+   "notes": "Albion bridge shocked reaction."
+  },
+  {
+   "ref": "m6191#65",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>交渉の席で、木星側の代表者が\nいきなり白鳥さんを撃ったんです！<ab(700)>",
+   "en": "<op()><sp(20)>At the talks, the Jovian envoy\nsuddenly shot Shiratori!<ab(700)>",
+   "notes": "Yurika reporting Kusakabe shooting Tsukumo Shiratori."
+  },
+  {
+   "ref": "m6191#66",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>地球は悪の帝国だから、\n滅ぼさなきゃいけないって！<ab(700)>",
+   "en": "<sp(20)>Saying Earth is an evil empire\nthat must be destroyed!<ab(700)>",
+   "notes": "Yurika quoting Kusakabe's fanatical justification."
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6191#67",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>私たちも危うく殺されそうになって、<ab(100)>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#68",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>白鳥さんを殺した罪まで着せられて…、<ab(0)>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#69",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>そこをなんとか逃げ出してきたんです！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#70",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>つまり、敵のワナにハメられたってことです。<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#71",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>詳しい話は後だ！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#72",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵艦がさらに来ます！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#73",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>囮のミサイルを出せ！<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#74",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>まったく…なんという腕前だ！<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#75",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵艦隊は撤退していきます。<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#76",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>両舷全速！　ナデシコと合流する！<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#77",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>レーダーに反応！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6191#78",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>あれは…木連艦ね。<ab(0)><off()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Strategic briefing opens with Captain Yurika Misumaru enthusiastically thanking the Albion and announcing peace talks with the Jovians arranged by Tsukumo Shiratori; Captain Sinapus keeps the Albion on standby with disarmed parameters, and Ruri Hoshino requests an escort in case of trouble. Lucrezia Noin establishes Condition One readiness for Phase 1. In mission combat, the Poseidal Army (Giwaza's vanguard) attacks seeking Martian ruins and Boson Jump tech, leading to a confrontation where Daba tries to reach Quwasan, while Gablae intervenes to protect her and convinces her to retreat. Soon after, Jovian forces attack in a frenzy accusing Earthlings of killing Shiratori, as the Jovians utilize Boson Cannons; Inez Fressange explains the mechanics and evasion strategy using missile heat signatures; Yurika contacts the Albion in shock, revealing that the Jovian envoy shot Shiratori claiming Earth must be destroyed.",
+  "rows_examined": "op19_01 (brief63018#0-17, brief63118#2-3, m6191#1-66), op19_02 (m6191#67-78)",
+  "rows_examined_count": 64,
+  "uncertainties": [
+   "In brief63018#8, rendered 草壁中将 as Vice Admiral Kusakabe (head of the Jovian delegation).",
+   "In m6191#30-34, Quwasan unexpectedly tells Gablae that his life is more important than the ruins and asks what she would do without him, to which Gablae reacts with emotional theatrical devotion.",
+   "In m6191#51-56, the explanation of the Boson Cannon and missile decoy tactic is identified as Inez Fressange based on her characteristic lecturer tone and feminine sentence endings ('〜わ', '〜のよ')."
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {
+   "32": "Yurika Misumaru",
+   "34": "Ruri Hoshino",
+   "36": "Lucrezia Noin",
+   "37": "Eyphar Sinapus"
+  }
+ }
+}

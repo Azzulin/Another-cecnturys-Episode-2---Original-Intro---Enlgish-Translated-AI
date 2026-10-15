@@ -1,0 +1,752 @@
+{
+ "table": "m6103",
+ "kind": "mission",
+ "copies": [
+  "42103:m",
+  "6103:m"
+ ],
+ "rows": [
+  {
+   "ids": [
+    1
+   ],
+   "jp": "一定時間経過",
+   "en": "Time Elapsed"
+  },
+  {
+   "ids": [
+    3
+   ],
+   "jp": "ナデシコの撃破",
+   "en": "Destroy the Nadesico"
+  },
+  {
+   "ids": [
+    4
+   ],
+   "jp": "ナデシコが領域を離脱",
+   "en": "The Nadesico escapes the combat area"
+  },
+  {
+   "ids": [
+    5
+   ],
+   "jp": "エステバリスの撃破",
+   "en": "Destroy the Aestivalis"
+  },
+  {
+   "ids": [
+    6
+   ],
+   "jp": "バスターアークの撃破",
+   "en": "Destroy the Buster Ark"
+  },
+  {
+   "ids": [
+    10
+   ],
+   "jp": "ナデシコ",
+   "en": "Nadesico"
+  },
+  {
+   "ids": [
+    11
+   ],
+   "jp": "アーマー%d％",
+   "en": "Armor %d％"
+  },
+  {
+   "ids": [
+    50
+   ],
+   "jp": "<op()><sp(20)>前方に目標を確認。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Target confirmed ahead.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    51
+   ],
+   "jp": "<op()><sp(20)>つないでくれ。<ab(500)>",
+   "en": "<op()><sp(20)>Open a channel.<ab(500)>"
+  },
+  {
+   "ids": [
+    52
+   ],
+   "jp": "<sp(20)>戦艦ナデシコに告ぐ。\n今すぐその場で停船せよ。<ab(500)>",
+   "en": "<sp(20)>Battleship Nadesico.\nHeave to immediately where you are.<ab(500)>"
+  },
+  {
+   "ids": [
+    53
+   ],
+   "jp": "<sp(20)>聞き入れぬ場合、\n貴艦の安全は保障しかねる。<ab(800)><ed()>",
+   "en": "<sp(20)>Refuse, and we can no longer\nguarantee your ship's safety.<ab(800)><ed()>"
+  },
+  {
+   "ids": [
+    54
+   ],
+   "jp": "<op()><sp(20)>後方にＵＣＥ所属の戦艦を確認。\n停船勧告が来ています。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>UCE battleship confirmed astern.\nThey are demanding that we heave to.<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    55
+   ],
+   "jp": "<op()><sp(20)>え？　え～と？\nあなたたち、誰ですか？<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Huh? Uuum...\nWho are you people, anyway?<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    56
+   ],
+   "jp": "<op()><sp(20)>周辺に敵反応！　木星蜥蜴です！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Enemy radar contact! Jovian Lizards!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    57
+   ],
+   "jp": "<op()><sp(20)>いつの間に…！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Since when...?!<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    58
+   ],
+   "jp": "<op()><sp(20)>安全の確保が最優先だな。<ab(300)>",
+   "en": "<op()><sp(20)>Securing our safety is top priority.<ab(300)>"
+  },
+  {
+   "ids": [
+    59
+   ],
+   "jp": "<sp(20)>周辺の敵を撃破しろ！<ab(500)><ed()>",
+   "en": "<sp(20)>Destroy all surrounding enemies!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    60
+   ],
+   "jp": "<op()><sp(20)>え？　護衛してくれちゃうんですか？<ab(200)>",
+   "en": "<op()><sp(20)>Huh? You're going to escort us?<ab(200)>"
+  },
+  {
+   "ids": [
+    61
+   ],
+   "jp": "<sp(20)>みなさん！　ご協力、感謝します！<ab(300)><ed()>",
+   "en": "<sp(20)>Thank you so much for your help,\neveryone!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    62
+   ],
+   "jp": "<op()><sp(20)>そうではない！　今すぐ停船したまえ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>That is not what I meant! Heave to at\nonce!<ab(0)><ed()>"
+  },
+  {
+   "ids": [
+    63
+   ],
+   "jp": "<op()><sp(20)>ユリカ！\n何をやってるんだ！　すぐに艦を降りなさい！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Yurika! What are you doing?!\nGet off that ship right this instant!<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    64
+   ],
+   "jp": "<op()><sp(20)>て、提督！？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>A-Admiral?!<ab(0)><ed()>"
+  },
+  {
+   "ids": [
+    65
+   ],
+   "jp": "<op()><sp(20)>通信に割り込みをかけているわね…<ab(600)><ed()>",
+   "en": "<op()><sp(20)>He's overriding our comm frequency...<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    66
+   ],
+   "jp": "<op()><sp(20)>それは……できません！<ab(200)>",
+   "en": "<op()><sp(20)>I-I can't do that!<ab(200)>"
+  },
+  {
+   "ids": [
+    67
+   ],
+   "jp": "<sp(20)>今の私は、ミスマル家の長女でも、\nお父様の娘でもない！<ab(200)>",
+   "en": "<sp(20)>Right now, I'm neither the Misumaru\nheiress nor your little girl!<ab(200)>"
+  },
+  {
+   "ids": [
+    68
+   ],
+   "jp": "<sp(20)>ここが私の場所ですから。\nごめんなさい！　お父様！<ab(100)><ed()>",
+   "en": "<sp(20)>This is where I belong!\nI'm sorry, Father!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    69
+   ],
+   "jp": "<op()><sp(20)>ナデシコ、回線を閉じました。<ab(50)><ed()>",
+   "en": "<op()><sp(20)>The Nadesico cut the line.<ab(50)><ed()>"
+  },
+  {
+   "ids": [
+    70
+   ],
+   "jp": "<op()><sp(20)>……ユリカッ！！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>...Yurika!!<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    71
+   ],
+   "jp": "<op()><sp(20)>ナデシコ、引力圏脱出準備に入りました。<ab(600)><ed()>",
+   "en": "<op()><sp(20)>The Nadesico has begun preparing to\nescape the gravity well.<ab(600)><ed()>"
+  },
+  {
+   "ids": [
+    72
+   ],
+   "jp": "<op()><sp(20)>どうやら口だけでは聞かないようだな。<ab(500)>",
+   "en": "<op()><sp(20)>It seems words alone won't\nconvince them.<ab(500)>"
+  },
+  {
+   "ids": [
+    73
+   ],
+   "jp": "<sp(20)>威かく射撃を継続しろ。<ab(500)><ed()>",
+   "en": "<sp(20)>Continue firing warning shots.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    74
+   ],
+   "jp": "<op()><sp(20)>わっ！　本当に撃ってきた！！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Wah! They really are shooting at us!!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    75
+   ],
+   "jp": "<op()><sp(20)>勧告に応じなかったので当然です。<ab(200)>",
+   "en": "<op()><sp(20)>Naturally, since we ignored\ntheir warning.<ab(200)>"
+  },
+  {
+   "ids": [
+    76
+   ],
+   "jp": "<sp(20)>でもただの威かくですから。<ab(700)><ed()>",
+   "en": "<sp(20)>Though they are merely warning shots.<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    77
+   ],
+   "jp": "<op()><sp(20)>ルリちゃん、ディストーションフィールドは？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Ruri, how is the\nDistortion Field?<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    78
+   ],
+   "jp": "<op()><sp(20)>最大出力で展開中です。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Deployed at maximum output.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    79
+   ],
+   "jp": "<op()><sp(20)>じゃあ平気、平気！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Then we're totally fine!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    80
+   ],
+   "jp": "<op()><sp(20)>ディストーションフィールド、出力低下。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Distortion Field output falling.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    81
+   ],
+   "jp": "<op()><sp(20)>ちょ、ちょっと、大丈夫！？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>W-Wait, are we really okay?!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    82
+   ],
+   "jp": "<op()><sp(20)>相転移エンジン、出力低下。\n高度、低下します。<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Phase transition engine losing power.\nAltitude dropping.<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    83
+   ],
+   "jp": "<op()><sp(20)>え！！　うっそー！？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>What?! No way--?!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    84
+   ],
+   "jp": "<op()><sp(20)>チェックメイトだな。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Checkmate.<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    85
+   ],
+   "jp": "<op()><sp(20)>あ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Ah.<ab(0)><ed()>"
+  },
+  {
+   "ids": [
+    86
+   ],
+   "jp": "<op()><sp(20)>どうしたの！？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>What is it?!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    87
+   ],
+   "jp": "<op()><sp(20)>ヤマダさん、勝手に発艦します。<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Mr. Yamada is launching without\nauthorization.<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    88
+   ],
+   "jp": "<op()><sp(20)>テンカワ機、発進しました。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Tenkawa's unit has scrambled.<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    89
+   ],
+   "jp": "<op()><sp(20)>アキト！　また私のために…<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Akito! You're fighting for my sake\nagain...<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    90
+   ],
+   "jp": "<op()><sp(20)>いくぜ、ゲキガンミサイル！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Here goes! Gekigan Missile!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    91
+   ],
+   "jp": "<op()><sp(20)>あ、俺……子供の頃見てた。\nゲキガンガー。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Oh, I... watched that as a kid.\nGekiganger.<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    92
+   ],
+   "jp": "<op()><sp(20)>だったら、なぜ悪の側につくんだぁ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Then why are you siding with evil?!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    93
+   ],
+   "jp": "<op()><sp(20)>なにぃ？　誰が悪だってんだよ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>What?! Who are you calling evil?!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    94
+   ],
+   "jp": "<op()><sp(20)>…相手すんな。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>...Don't bother with him.<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    95
+   ],
+   "jp": "<op()><sp(20)>…こうなったら、やるしか！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>...No choice now but to fight!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    96
+   ],
+   "jp": "<op()><sp(20)>エステバリス、出力低下。\nこれ以上の戦闘は危険です。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Aestivalis output dropping.\nFurther combat is hazardous.<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    97
+   ],
+   "jp": "<op()><sp(20)>そ、そんな～！！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>N-No way...!!<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    98
+   ],
+   "jp": "<op()><sp(20)>そのへんで十分だろう。<ab(50)><ed()>",
+   "en": "<op()><sp(20)>That should be plenty.<ab(50)><ed()>"
+  },
+  {
+   "ids": [
+    99
+   ],
+   "jp": "<op()><sp(20)>右舷前方！！　高速で接近する機影！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Starboard bow! An unidentified craft\nis approaching at high speed!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    100
+   ],
+   "jp": "<op()><sp(20)>強敵出現！　燃える展開だぜぇ～！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>A formidable foe appears!\nNow things are heating up!<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    101
+   ],
+   "jp": "<op()><sp(20)>アキト！　ヤマダさん！　チャンスです！　\nナデシコに飛び乗って！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Akito! Mr. Yamada! This is our\nchance! Jump onto the Nadesico!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    102
+   ],
+   "jp": "<op()><sp(20)>アキト！　お前は先に行けぇ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Akito! You go on ahead!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    103
+   ],
+   "jp": "<op()><sp(20)>何言ってんだ、早くこいよ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>What are you saying?! Come on, hurry!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    104
+   ],
+   "jp": "<op()><sp(20)>いや、あの正体不明の機体がいる限り\nこのままじゃ振り切れん。<ab(400)>",
+   "en": "<op()><sp(20)>No! With that unknown craft here,\nwe won't shake them at this rate.<ab(400)>"
+  },
+  {
+   "ids": [
+    105
+   ],
+   "jp": "<sp(20)>ここは俺が引き受けたぁ！\n艦長！　俺にかまわず行ってくれぇ！！！<ab(0)><ed()>",
+   "en": "<sp(20)>I'll hold them off here!\nCaptain! Leave me and goooo!!!<ab(0)><ed()>"
+  },
+  {
+   "ids": [
+    106
+   ],
+   "jp": "<op()><sp(20)>…わかりました！　ルリちゃん、行こう！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>...Understood! Ruri, let's go!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    107
+   ],
+   "jp": "<op()><sp(20)>了解。　相転移エンジン出力全開。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Roger. Phase transition engine at full\npower.<ab(0)><ed()>"
+  },
+  {
+   "ids": [
+    108
+   ],
+   "jp": "<op()><sp(20)>ちょ、ちょっと待て！　ガイは置き去りかよ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>H-Hold on! We're leaving Gai behind?!<ab(0)><ed()>"
+  },
+  {
+   "ids": [
+    109
+   ],
+   "jp": "<op()><sp(20)>ヤマダさん！　あなたの気持ち、\n絶対に無駄にはしませんからっ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Mr. Yamada! I'll never let your\nfeelings go to waste!<ab(100)><ed()>"
+  },
+  {
+   "ids": [
+    110
+   ],
+   "jp": "<op()><sp(20)>くぅ～、燃えるシチュエーションだぜぇ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Gwah! Now this is what I call\na fiery climax!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    111
+   ],
+   "jp": "<op()><sp(20)>ナデシコ、離脱しました！　追いますか？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>The Nadesico has escaped!\nShall we pursue?<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    112
+   ],
+   "jp": "<op()><sp(20)>それどころではないだろう！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>We have more urgent matters at hand!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    113
+   ],
+   "jp": "<op()><sp(20)>ちきしょーーッ、おぼえてろよ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Damn it! You won't get away with this!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    114
+   ],
+   "jp": "<op()><sp(20)>熱源反応！　気をつけて！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Heat signature detected! Watch out!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    115
+   ],
+   "jp": "<op()><sp(20)>…今度こそ確かめる。<ab(500)>",
+   "en": "<op()><sp(20)>...This time, I will make sure.<ab(500)>"
+  },
+  {
+   "ids": [
+    116
+   ],
+   "jp": "<sp(20)>マリナ！　お前はマリナなのか！？<ab(500)><ed()>",
+   "en": "<sp(20)>Marina! Is that you, Marina?!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    117
+   ],
+   "jp": "<op()><sp(20)>答えろ！　お前はマリナなんだろ！\nどうなんだ！　答えてくれ！！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Answer me! You're Marina, aren't you?!\nSay something! Please answer me!!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    118
+   ],
+   "jp": "<op()><sp(20)>…タック。\nあなたの機体を放棄して。<ab(700)><ed()>",
+   "en": "<op()><sp(20)>...Tak.\nAbandon your unit.<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    119
+   ],
+   "jp": "<op()><sp(20)>マリナ！？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Marina?!<ab(0)><ed()>"
+  },
+  {
+   "ids": [
+    120
+   ],
+   "jp": "<op()><sp(20)>そうすれば、命まではとらないから。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Do so, and I will spare your life.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    122
+   ],
+   "jp": "<op()><sp(20)>バスターアーク、撤退します。<ab(700)><ed()>",
+   "en": "<op()><sp(20)>The Buster Ark is retreating.<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    123
+   ],
+   "jp": "<op()><sp(20)>……マリナ……なぜ……<ab(700)><ed()>",
+   "en": "<op()><sp(20)>...Marina... Why...?<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    124
+   ],
+   "jp": "<op()><sp(20)>結局、ナデシコも取り逃がしたか…\nミスマル提督に何と報告したものか…<ab(300)><ed()>",
+   "en": "<op()><sp(20)>The Nadesico got away in the end...\nWhat do I tell Admiral Misumaru...?<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    125
+   ],
+   "jp": "<op()><sp(20)>艦長、エステバリスが、\n救難信号を出していますが…<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Captain, that Aestivalis is\ntransmitting a distress signal...<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    126
+   ],
+   "jp": "<op()><sp(20)>…回収してやれ。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>...Recover it.<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    127
+   ],
+   "jp": "<op()><sp(20)>アキト、火星でがんばれよ…\n緑の地球は、俺に任せとけ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Do your best on Mars, Akito...\nLeave our green Earth to me!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    128
+   ],
+   "jp": "<op()><sp(20)>ナデシコ、脱出態勢に入ります。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>The Nadesico is preparing to escape.<ab(400)><ed()>"
+  },
+  {
+   "ids": [
+    129
+   ],
+   "jp": "<op()><sp(20)>早く止めるんだ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Stop them, quickly!<ab(500)><ed()>"
+  },
+  {
+   "ids": [
+    130
+   ],
+   "jp": "<op()><sp(20)>ナデシコに脱出されました！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>The Nadesico has escaped!<ab(200)><ed()>"
+  },
+  {
+   "ids": [
+    131
+   ],
+   "jp": "<op()><sp(20)>間に合わなかったか…<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>We didn't make it in time...<ab(1000)><ed()>"
+  },
+  {
+   "ids": [
+    133
+   ],
+   "jp": "<op()><sp(20)>敵艦が接近！<ab(300)>",
+   "en": "<op()><sp(20)>Enemy ship approaching!<ab(300)>"
+  },
+  {
+   "ids": [
+    134
+   ],
+   "jp": "<sp(20)>熱源反応！　気をつけて！<ab(300)><ed()>",
+   "en": "<sp(20)>Thermal signature detected! Be careful!<ab(300)><ed()>"
+  },
+  {
+   "ids": [
+    136
+   ],
+   "jp": "<op()><sp(20)>うわ～～ッ、ゴメンなさいゴメンなさい！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Waaah! I'm sorry, I'm sorry!!<ab(700)><ed()>"
+  },
+  {
+   "ids": [
+    201
+   ],
+   "jp": "<on()><sp(20)>このダイゴウジ・ガイがいる限り、\nナデシコには指一本触れさせないぜ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>As long as Gai Daigoji is here,\nyou won't lay a finger on Nadesico!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    202
+   ],
+   "jp": "<on()><sp(20)>テンカワ機、発進しました。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Tenkawa's unit has scrambled.<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    203
+   ],
+   "jp": "<on()><sp(20)>なんで俺が戦わなくちゃいけないんだ。\n俺はコックのはずなのに……<ab(0)><off()>",
+   "en": "<on()><sp(20)>Why do I have to fight?\nI was supposed to be a cook...<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    204
+   ],
+   "jp": "<on()><sp(20)>アキトォ、がんばってね～！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Akitooo, do your best!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    205
+   ],
+   "jp": "<on()><sp(20)>う、うるさ～い！<ab(0)><off()>",
+   "en": "<on()><sp(20)>S-Shut up!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    206
+   ],
+   "jp": "<on()><sp(20)>ロボットのパイロットに何の不満がある！<ab(0)><off()>",
+   "en": "<on()><sp(20)>What could you possibly dislike\nabout piloting a robot?!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    207
+   ],
+   "jp": "<on()><sp(20)>くそぉ、もうどうなったって知るもんか。\nやってやる！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Dammit, I don't care what happens\nanymore! Let's do this!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    208
+   ],
+   "jp": "<on()><sp(20)>よぉ～し、その意気だアキト！<ab(0)><off()>",
+   "en": "<on()><sp(20)>All right! That's the spirit, Akito!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    209
+   ],
+   "jp": "<on()><sp(20)>レッツゴー！　ゲキ・ガンガー！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Let's go! Gekiganger!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    210
+   ],
+   "jp": "<on()><sp(20)>…あれは！<ab(0)><off()>",
+   "en": "<on()><sp(20)>...That's--!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    211
+   ],
+   "jp": "<on()><sp(20)>バスターアーク！！<ab(0)><off()>",
+   "en": "<on()><sp(20)>The Buster Ark!!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    212
+   ],
+   "jp": "<on()><sp(20)>キャー！！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Kyaaah!!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    213
+   ],
+   "jp": "<on()><sp(20)>回避運動をとれ！！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Take evasive action!!<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    214
+   ],
+   "jp": "<on()><sp(20)>え？　もしかしてチャンス？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Wait, could this be our chance?<ab(0)><off()>"
+  },
+  {
+   "ids": [
+    215
+   ],
+   "jp": "<on()><sp(20)>ルリちゃん、急速前進！！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Ruri, full speed ahead!!<ab(0)><off()>"
+  }
+ ]
+}

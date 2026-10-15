@@ -1,0 +1,350 @@
+﻿{
+    "batch":  "op26_02",
+    "operation":  26,
+    "previous_batch":  "op26_01",
+    "next_batch":  null,
+    "rows_in_slice":  10,
+    "do_not_touch_names":  [
+                               "Barkholz",
+                               "Capt. Burning",
+                               "Captain Burning",
+                               "Captain South Burning",
+                               "Cowen",
+                               "Giganos",
+                               "Lieutenant",
+                               "Lt.",
+                               "Major Anavel Gato",
+                               "Sinapus",
+                               "Tak"
+                           ],
+    "glossary":  [
+                     {
+                         "ja":  "プロトカルチャー",
+                         "en":  "Protoculture",
+                         "kind":  "term",
+                         "series":  "Super Dimension Fortress Macross: Do You Remember Love?",
+                         "role":  "Ancient precursor civilisation; the found song/poem plates are judged to be Protoculture artefacts."
+                     },
+                     {
+                         "ja":  "ゼントラーディ",
+                         "en":  "Zentradi",
+                         "kind":  "faction",
+                         "series":  "Super Dimension Fortress Macross: Do You Remember Love?",
+                         "role":  "Race/faction of giant humanoid warriors; main antagonists."
+                     },
+                     {
+                         "ja":  "メルトランディ",
+                         "en":  "Meltrandi",
+                         "kind":  "faction",
+                         "series":  "Super Dimension Fortress Macross: Do You Remember Love?",
+                         "role":  "Female Zentradi faction, at war with the male Zentradi in DYRL."
+                     },
+                     {
+                         "ja":  "オルファン",
+                         "en":  "Orphan",
+                         "kind":  "term",
+                         "series":  "Brain Powerd",
+                         "role":  "Gigantic sentient alien ship buried under the Pacific; its awakening threatens Earth; base of the Reclaimers"
+                     },
+                     {
+                         "ja":  "プレート",
+                         "en":  "plate",
+                         "kind":  "term",
+                         "series":  "Brain Powerd",
+                         "role":  "Orphan\u0027s disc plates sought by the Reclaimers; ALSO (crossover) inscribed plates carrying a Zentradi/Protoculture song."
+                     },
+                     {
+                         "ja":  "マクロス",
+                         "en":  "Macross",
+                         "kind":  "ship",
+                         "series":  "Super Dimension Fortress Macross: Do You Remember Love?",
+                         "role":  "SDF-1 Macross, the U.N. Spacy super-dimensional fortress (human flagship)."
+                     },
+                     {
+                         "ja":  "UCE",
+                         "en":  "UCE",
+                         "kind":  "faction"
+                     }
+                 ],
+    "known_portraits":  {
+                            "41":  {
+                                       "speaker":  "Bruno J. Global",
+                                       "gender":  "male",
+                                       "role":  "captain of the Macross",
+                                       "confidence":  "high",
+                                       "evidence":  "brief63020#7, brief63025#4, brief63193#0 (Macross command briefings)"
+                                   }
+                        },
+    "unknown_portraits":  [
+
+                          ],
+    "context_before":  [
+                           {
+                               "ref":  "m6261#66",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eゼントラーディの艦隊が接近。\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6261#67",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eなんだと！？\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6261#68",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003e……何か、聞こえてくるぞ？\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6261#69",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003e……地球の……歌だよな？　これは。\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6261#70",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eミンメイ…！？\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6261#71",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003e兵士達の戦闘レベル低下！\nこの音は一体？\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6261#72",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003con()\u003e\u003csp(20)\u003eこれが「遺跡の力」なのか…！\u003cab(0)\u003e\u003coff()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "brief63193#0",
+                               "layer":  "debriefing",
+                               "jp":  "\u003cop(41,1)\u003e\u003csp(2)\u003e#c[BE5050]ゼントラーディ#c艦隊との\u003cim(2)\u003e和平交渉\u003cim(1)\u003eが\n始まったことは承知のとおりだ。",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "brief63193#1",
+                               "layer":  "debriefing",
+                               "jp":  "\u003cop(41,1)\u003e\u003csp(2)\u003e\u003cim(3)\u003e彼らの突然の行動にはもちろん理由がある。\nその理由とは「文化」だ。",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "brief63193#2",
+                               "layer":  "debriefing",
+                               "jp":  "\u003cop(41,1)\u003e\u003csp(2)\u003e\u003cim(6)\u003e\u003cim(5)\u003e何万年もの間、戦うことしか知らない\n戦闘種族であった彼らが\n我々と接触し、文化を知ったこと……",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "brief63193#3",
+                               "layer":  "debriefing",
+                               "jp":  "\u003cop(41,1)\u003e\u003csp(2)\u003e\u003cim(7)\u003eとりわけ、ミンメイさんの歌や\nダイゴウジ君の持ち込んだ\nゲキ・ガンガー３に触れたことで",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "brief63193#4",
+                               "layer":  "debriefing",
+                               "jp":  "\u003cop(41,1)\u003e\u003csp(2)\u003e\u003cim(8)\u003e彼らにも大きな変化が起こっているらしい。",
+                               "en":  ""
+                           }
+                       ],
+    "rows":  [
+                 {
+                     "ref":  "brief63193#5",
+                     "layer":  "debriefing",
+                     "phase":  null,
+                     "portrait":  41,
+                     "tokens":  [
+                                    "\u003cop(41,1)\u003e",
+                                    "\u003csp(2)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(41,1)\u003e\u003csp(2)\u003e文化を知った彼らとわかりあえるかどうか、\nそれは交渉の進展を待たねばならない。",
+                     "en":  "\u003cop(41,1)\u003e\u003csp(2)\u003eWhether we can truly understand each other with those\nwho learned Culture must await further progress in talks.",
+                     "notes":  "Captain Global debriefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63296#0",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003e「和平提案の意図」\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　ＵＣＥ諜報部",
+                     "en":  "\u003csp(0)\u003e\"Intent Behind the Peace Proposal\"\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　UCE Intelligence",
+                     "notes":  "Intelligence report title. Wide spaces preserved."
+                 },
+                 {
+                     "ref":  "brief63296#1",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e",
+                                    "\u003cim(1)\u003e",
+                                    "#c[5E8FD8]",
+                                    "#c",
+                                    "#c[5E8FD8]",
+                                    "#c",
+                                    "#c[5E8FD8]",
+                                    "#c",
+                                    "\u003cim(3)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003e\u003cim(1)\u003e本日、#c[5E8FD8]ＵＣＥ#c所属ＳＤＦ－１#c[5E8FD8]マクロス#cは\n#c[5E8FD8]ゼントラーディ#c軍７０１８アドクラス艦隊と\n正式に和平\u003cim(3)\u003eを締結した。",
+                     "en":  "\u003csp(0)\u003e\u003cim(1)\u003eToday, the #c[5E8FD8]UCE#c SDF-1 #c[5E8FD8]Macross#c formally concluded\na peace pact with the #c[5E8FD8]Zentradi#c 7018th Adoclass Fleet\u003cim(3)\u003e.",
+                     "notes":  "Intelligence report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63296#2",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003eこの和平の背景には、我々地球圏の\n文化の存在が大きく関係している。\n",
+                     "en":  "\u003csp(0)\u003eBehind this peace, the presence of our Earth Sphere\u0027s\nCulture plays a major role.\n",
+                     "notes":  "Intelligence report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63296#3",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e",
+                                    "#c[5E8FD8]",
+                                    "#c",
+                                    "\u003cim(2)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003e#c[5E8FD8]ゼントラーディ#cの言い伝え\u003cim(2)\u003eによると、\n文化を持つ者は、プロトカルチャーと呼ばれ\n彼らの祖先に当たる存在であるらしい。",
+                     "en":  "\u003csp(0)\u003eAccording to #c[5E8FD8]Zentradi#c lore,\u003cim(2)\u003e\nthose possessing culture are called Protoculture,\napparently their ancient ancestors.",
+                     "notes":  "Intelligence report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63296#4",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e",
+                                    "#c[5E8FD8]",
+                                    "#c",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003eさらに文化の力は、彼ら#c[5E8FD8]ゼントラーディ#cと\n#c[BE5050]メルトランディ#cに、大いなる衝撃と混乱を\n招いてしまうのだと言う。",
+                     "en":  "\u003csp(0)\u003eFurthermore, the power of culture reportedly causes\ngreat shock and confusion to both the #c[5E8FD8]Zentradi#c\nand the #c[BE5050]Meltrandi#c.",
+                     "notes":  "Intelligence report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63296#5",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e",
+                                    "#c[5E8FD8]",
+                                    "#c",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003eそこで#c[5E8FD8]ゼントラーディ#cは、我々と手を結び\n文化という切り札を確保することで、\n#c[BE5050]メルトランディ#cとの決着をつける構えだ。",
+                     "en":  "\u003csp(0)\u003eThus the #c[5E8FD8]Zentradi#c, by allying with us and securing\nculture as a trump card, intend to settle things\nwith the #c[BE5050]Meltrandi#c.",
+                     "notes":  "Intelligence report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63296#6",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e",
+                                    "#c[E2E258]",
+                                    "#c",
+                                    "\u003cim(4)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003e彼らの持つ#c[E2E258]メモリープレート#cという\u003cim(4)\u003e物が、\n戦いの切り札とされているが、これが\n何を意味するのかは不明である。",
+                     "en":  "\u003csp(0)\u003eAn item they possess called a #c[E2E258]memory plate#c is considered \u003cim(4)\u003ethe\ntrump card, though what it signifies remains unclear.",
+                     "notes":  "Intelligence report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63296#7",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003eそれは、オルファンで見つかったプレートと\n極めて酷似しており、その関連性も含めて\n現在解析が進められている。",
+                     "en":  "\u003csp(0)\u003eIt bears an extreme resemblance to the plate found at\nOrphan, and analysis is currently progressing\nincluding that connection.",
+                     "notes":  "Intelligence report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63296#8",
+                     "layer":  "Preventer report",
+                     "phase":  null,
+                     "tokens":  [
+                                    "\u003csp(0)\u003e",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003csp(0)\u003eこれらの謎が解明すれば、#c[BE5050]メルトランディ#cが\n攻め込んできた事態を打開するための\n重要なカギとなってくれるだろう。",
+                     "en":  "\u003csp(0)\u003eDeciphering these mysteries should serve as a vital key\nto breaking through the crisis of the #c[BE5050]Meltrandi#c\ninvasion.",
+                     "notes":  "Intelligence report. Exact tokens preserved."
+                 }
+             ],
+    "context_after":  [
+
+                      ],
+    "report":  {
+                   "translator_summary":  "Translated all 10 rows of op26_02, completing Operation 26. Covers Captain Global\u0027s conclusion on negotiating with Culture-awakened Zentradi, and a UCE Intelligence report detailing the historic peace agreement between SDF-1 Macross and the Zentradi 7018th Adoclass Fleet, the exchange of culture for hostages, and the discovery of the memory plate linking Zentradi and Orphan Protoculture lore.",
+                   "rows_examined":  "brief63193#5..brief63296#8",
+                   "rows_examined_count":  10,
+                   "uncertainties":  [
+
+                                     ],
+                   "glossary_proposals":  [
+
+                                          ],
+                   "portrait_speakers":  {
+                                             "41":  "Bruno J. Global"
+                                         }
+               }
+}

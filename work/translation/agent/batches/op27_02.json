@@ -1,0 +1,1003 @@
+{
+ "batch": "op27_02",
+ "operation": 27,
+ "previous_batch": "op27_01",
+ "next_batch": null,
+ "rows_in_slice": 43,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "アークシリーズ",
+   "en": "Ark Series",
+   "kind": "term",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "UCE Design Bureau machine line: Feather Ark, Gun Ark, Buster Ark."
+  },
+  {
+   "ja": "ゼントラーディ",
+   "en": "Zentradi",
+   "kind": "faction",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Race/faction of giant humanoid warriors; main antagonists."
+  },
+  {
+   "ja": "メルトランディ",
+   "en": "Meltrandi",
+   "kind": "faction",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Female Zentradi faction, at war with the male Zentradi in DYRL."
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "ガンアーク",
+   "en": "Gun Ark",
+   "kind": "unit",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Latest Ark-series transforming machine from the UCE Design Bureau; Tak's (and initially Marina's red) unit; can call Guardian satellite strikes."
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "マクロス",
+   "en": "Macross",
+   "kind": "ship",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "SDF-1 Macross, the U.N. Spacy super-dimensional fortress (human flagship)."
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "タック",
+   "en": "Tak",
+   "kind": "character",
+   "series": "Another Century's Episode 2 (original)",
+   "gender": "male",
+   "role": "ACE2 protagonist; UCE squad leader (First Lieutenant) and Gun Ark test pilot, joins the Albion unit.",
+   "personality": "Skilled ace and natural leader, but clumsy with machines (mechanically inept); grows suspicious of the Rainen Project and fights to bring Marina back.",
+   "full_name": "Tak Kepford"
+  },
+  {
+   "ja": "マリナ",
+   "en": "Marina",
+   "kind": "character",
+   "series": "Another Century's Episode 2 (original)",
+   "gender": "female",
+   "role": "ACE2 heroine; Ensign in Tak's squad, pilot of the red Gun Ark; goes missing at Torrington Base, reappears with the Rainen Project in the Buster Ark, later rejoins Tak.",
+   "personality": "Cool and reserved ('defrosting ice queen' in flashbacks); deeply bonded with Tak.",
+   "full_name": "Marina Carson"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  },
+  "43": {
+   "speaker": "Tak Kepford",
+   "gender": "male",
+   "role": "Gun Ark pilot (protagonist)",
+   "confidence": "medium",
+   "evidence": "brief63194#14-28 ('待て……マリナ'), brief63026#17"
+  },
+  "44": {
+   "speaker": "Marina Carson",
+   "gender": "female",
+   "role": "Tak's partner; declared killed in Op 01, later the pilot of the Buster Ark",
+   "confidence": "high",
+   "evidence": "brief: 'はい。そのために、私はタックの機体を破壊しようとしました。… タック、さよなら。'; confirmed by brief63194#2"
+  },
+  "55": {
+   "speaker": "Albion bridge operator",
+   "gender": null,
+   "role": "bridge operator; gender unknown, keep neutral",
+   "confidence": "medium",
+   "evidence": "brief63194#10 ('艦長！ マクロスより緊急連絡です！')"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6272#52",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>あんた、タックの相棒だったんだろ？\nなんで仲間を攻撃するんだよ！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6272#53",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……仲間だから、\nやらなきゃいけないこともあるの！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6272#54",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>もうやめろ！　タックが苦しむだけだ！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6272#55",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>わかったようなことを言うな！<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6272#56",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>事情は知らんが、\n俺の前に立ちふさがるものは倒すまで！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6272#57",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>私の相手はあなたじゃない！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6272#58",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>くっ！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6272#59",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>マリナ！\nもういいだろう。　投降しろ！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6272#60",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>……嫌…<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6272#61",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>勝負はついている。\n俺はお前を殺したくない……だから…<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6272#62",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>君の目的は理解しているつもりだ。\n決して悪いようにはしない。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6272#63",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>とりあえず話をさせてくれないか？<ab(0)><off()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6272#64",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>…条件があります。<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6272#65",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>私の機体を、\n決して破壊しないと約束してくれますか？<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6272#66",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ああ、約束しよう。<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6272#67",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>わかりました……投降します。<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6272#68",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>来た…！<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6272#69",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>マリナ…<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#0",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "#c[5E8FD8]",
+    "<im(1)>",
+    "#c",
+    "<im(3)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>つまり、<im(2)>#c[5E8FD8]ガーディ<im(1)>アン#c最終<im(3)>レベルの\nロックを解除するためには、",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#1",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(4)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(4)>#c[5E8FD8]アークシリーズ#cが残り１機に\nなる必要があったということかね？",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#2",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 44,
+   "tokens": [
+    "<op(44,1)>",
+    "<sp(2)>",
+    "<im(7)>",
+    "<im(6)>",
+    "<im(8)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(44,1)><sp(2)><im(7)><im(6)><im(8)>はい。\nそのために、私はタックの機体を\n破壊しようとしました。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#3",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 44,
+   "tokens": [
+    "<op(44,1)>",
+    "<sp(2)>",
+    "<im(9)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(44,1)><sp(2)><im(9)>#c[5E8FD8]ガンアーク#cは、各衛星から照射される\nエネルギーの焦点となり、\n砲身の役目も果たします。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#4",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 44,
+   "tokens": [
+    "<op(44,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(44,1)><sp(2)>当然、機体はそのエネルギーに耐えられず\n射撃と同時に消失します。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#5",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 44,
+   "tokens": [
+    "<op(44,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(44,1)><sp(2)>だから、使えるのは一回だけです。\nパイロットが助かる見込みは……\n万に一つもありません。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#6",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 44,
+   "tokens": [
+    "<op(44,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(44,1)><sp(2)>人の命と引き換えに、その力を最大限に\n引き出すことができる不完全な機体…\nそれが#c[5E8FD8]アークシリーズ#cです。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#7",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 44,
+   "tokens": [
+    "<op(44,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(44,1)><sp(2)>ですが、これを使わなければ\n#c[BE5050]ゼントラーディ#cに対抗することはできません。\n誰かがやらなければならないんです。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#8",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 44,
+   "tokens": [
+    "<op(44,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(44,1)><sp(2)>私は……\nタックをそんな目にあわせたくはなかった……\nそれだけです。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#9",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 44,
+   "tokens": [
+    "<op(44,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(44,1)><sp(2)>わかってもらえたなら、私は出撃します。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#10",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 55,
+   "tokens": [
+    "<op(55,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(55,1)><sp(2)>艦長！　#c[5E8FD8]マクロス#cより緊急連絡です！",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#11",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 55,
+   "tokens": [
+    "<op(55,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(55,1)><sp(2)>軌道上の#c[BE5050]ゼントラーディ#cと#c[BE5050]メルトランディ#c\n#c[BE5050]艦隊#cが戦闘状態に突入！！",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#12",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>もはや…万事休すか…",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#13",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 44,
+   "tokens": [
+    "<op(44,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(44,1)><sp(2)>では、私は行きます。\nタック、さよなら。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#14",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 43,
+   "tokens": [
+    "<op(43,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(43,1)><sp(2)>待て……マリナ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#15",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 43,
+   "tokens": [
+    "<op(43,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(43,1)><sp(2)>そんなことは決してやらせない。\n…もちろん俺も使うつもりはない。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#16",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 43,
+   "tokens": [
+    "<op(43,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(43,1)><sp(2)>地球を守るというのは、\n単に人の命を守るってことじゃない。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#17",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 43,
+   "tokens": [
+    "<op(43,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(43,1)><sp(2)>そこに息づく人々の心や文化、\nそれら全てを守るということなんだ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#18",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 43,
+   "tokens": [
+    "<op(43,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(43,1)><sp(2)>お前が犠牲になることで、\n#c[BE5050]ゼントラーディ#cに勝てるかもしれない。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#19",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 43,
+   "tokens": [
+    "<op(43,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(43,1)><sp(2)>しかし、それは地球の上で長い間かけて、\n多くの犠牲を払って人間が学んだ\n「心」というものが、",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#20",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 43,
+   "tokens": [
+    "<op(43,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(43,1)><sp(2)>血に飢えた本能に負けたのを\n認めるってことだ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#21",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 43,
+   "tokens": [
+    "<op(43,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(43,1)><sp(2)>人間が理性と心を持つ生物じゃなく、\n殺し合いで相手を倒すためには\n平気で仲間を見殺しにする、",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#22",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 43,
+   "tokens": [
+    "<op(43,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(43,1)><sp(2)>そんな凶暴な生物でしかなかったと、\n自分たちで認めることになるんだ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#23",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 43,
+   "tokens": [
+    "<op(43,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(43,1)><sp(2)>単にお前が死ぬのを見殺しにする、\nということじゃない。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#24",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 43,
+   "tokens": [
+    "<op(43,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(43,1)><sp(2)>俺たち全員が、そして全ての人々が、\n自分の心を見殺しにするということだ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#25",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 43,
+   "tokens": [
+    "<op(43,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(43,1)><sp(2)>そんなことをして#c[BE5050]ゼントラーディ#cに勝っても、\n救ったことなどにならない。\n絶対にな。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#26",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 43,
+   "tokens": [
+    "<op(43,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(43,1)><sp(2)>それは俺だけじゃない。\nこの艦、そして、#c[5E8FD8]ナデシコ#cや#c[5E8FD8]マクロス#cの\n全員が一致した意見だ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#27",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 43,
+   "tokens": [
+    "<op(43,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(43,1)><sp(2)>…わかってもらえるか？",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#28",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 43,
+   "tokens": [
+    "<op(43,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(43,1)><sp(2)>マリナ。\nここにいる、今までともに戦って来た\n#c[5E8FD8]アルビオン#cの仲間たちを信じてみないか？",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63194#29",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 44,
+   "tokens": [
+    "<op(44,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(44,1)><sp(2)>…………「人間の心を守る」……か。\nそうね……\nタックの言うとおりかもしれない。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63300#0",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「ＵＣＥ防衛艦隊の壊滅」\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　ＵＣＥ諜報部",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63300#1",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[BE5050]",
+    "#c",
+    "<im(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>本日０６００、衛星軌道で警戒態勢にあった\n#c[5E8FD8]ＵＣＥ第三艦隊#cが、#c[BE5050]ゼントラーディ軍#cの<im(2)>\n一方的な攻撃により壊滅した。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63300#2",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>０８００には#c[5E8FD8]第ニ艦隊、第五艦隊#cも壊滅。\n#c[5E8FD8]ＵＣＥ#cは防衛戦力の半数以上を失った。\n",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63300#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(3)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>しかしながら、これらの戦闘における\n#c[BE5050]ゼントラーディ軍#c側<im(3)>の被害は\n一切確認されていない。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63300#4",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>状況は絶望的と判断せざるを得ない。\n極めて無念な結果ではあるが、\n我々にできることは、もはや何もない。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63300#5",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(1)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>現在、特務遊撃部隊のアルビオン、\nナデシコ、マクロスの３艦<im(1)>が\n#c[BE5050]ゼントラーディ#cの迎撃に向かっている。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63300#6",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>我々は、多くの激戦を潜り抜けて来た\n彼らの戦いに、わずかな望みを託したい。\n",
+   "en": "",
+   "notes": ""
+  }
+ ],
+ "context_after": [],
+ "report": {
+  "translator_summary": "",
+  "rows_examined": "",
+  "rows_examined_count": 0,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

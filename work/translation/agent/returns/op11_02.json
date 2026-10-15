@@ -1,0 +1,1427 @@
+{
+ "batch": "op11_02",
+ "operation": 11,
+ "previous_batch": "op11_01",
+ "next_batch": null,
+ "rows_in_slice": 63,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "キング・オブ・ハート",
+   "en": "King of Hearts",
+   "kind": "term",
+   "series": "Mobile Fighter G Gundam",
+   "role": "Shuffle Alliance title held by Domon Kasshu (formerly Master Asia)."
+  },
+  {
+   "ja": "キョウジ・カッシュ",
+   "en": "Kyoji Kasshu",
+   "kind": "character",
+   "series": "Mobile Fighter G Gundam",
+   "gender": "male",
+   "role": "Domon's older brother and a Neo Japan scientist; co-developer of the Ultimate Gundam, later the Devil Gundam's core unit.",
+   "personality": "Kind and gentle; loves his younger brother and taught him to have faith in others.",
+   "en_short": "Kyoji"
+  },
+  {
+   "ja": "ドモン・カッシュ",
+   "en": "Domon Kasshu",
+   "kind": "character",
+   "series": "Mobile Fighter G Gundam",
+   "gender": "male",
+   "role": "Neo Japan Gundam Fighter (Shining Gundam, then God Gundam); King of Hearts and leader of the Shuffle Alliance",
+   "personality": "Hot-blooded, brash, impulsive and impatient; socially awkward, but has a strong sense of justice. Prone to loud battle cries.",
+   "en_short": "Domon"
+  },
+  {
+   "ja": "モビルファイター",
+   "en": "Mobile Fighter",
+   "kind": "term",
+   "series": "Mobile Fighter G Gundam",
+   "role": "G Gundam term for Gundam Fight mecha (Devil Gundam, Master Gundam...)."
+  },
+  {
+   "ja": "グン・ジェム隊",
+   "en": "Gon Jem Squad",
+   "kind": "faction",
+   "series": "Metal Armor Dragonar",
+   "role": "Gon Jem's irregular unit, nicknamed the \"Filth of Giganos\""
+  },
+  {
+   "ja": "デビルガンダム",
+   "en": "Devil Gundam",
+   "kind": "unit",
+   "series": "Mobile Fighter G Gundam",
+   "role": "Self-evolving, self-repairing, self-replicating rogue Gundam (JDG-00X); main antagonist machine of G Gundam"
+  },
+  {
+   "ja": "メタルアーマー",
+   "en": "Metal Armor",
+   "kind": "term"
+  },
+  {
+   "ja": "ドルチェノフ",
+   "en": "Dorchenov",
+   "kind": "character",
+   "series": "Metal Armor Dragonar",
+   "gender": "male",
+   "role": "Giganos hardliner; as Lieutenant Colonel he assassinates Marshal Guiltorre and becomes Supreme Leader of Giganos; pilots a black Gilgazamune at the end",
+   "personality": "Arrogant, power-hungry, cruel and treacherous; bullies subordinates; strong MA pilot but a poor commander",
+   "en_short": "Dorchenov"
+  },
+  {
+   "ja": "ギガノス",
+   "en": "Giganos"
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "ノイン",
+   "en": "Noin",
+   "kind": "character",
+   "series": "Mobile Suit Gundam Wing / Endless Waltz",
+   "gender": "female",
+   "role": "Mobile suit pilot and former OZ Specials instructor; Preventer agent ('Preventer Fire'); Zechs's devoted partner. ACE2 calls her ノイン特尉 (Preventer rank).",
+   "personality": "Mature, composed, slightly tomboyish; an idealist who dislikes war, but fights hard for those she believes in. Fiercely loyal to Zechs.",
+   "full_name": "Lucrezia Noin"
+  },
+  {
+   "ja": "大佐",
+   "en": "Captain",
+   "kind": "rank",
+   "series": "Universal Century (general)",
+   "role": "Military rank"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {
+  "33": {
+   "speaker": "Kouichiro Misumaru",
+   "gender": "male",
+   "role": "UCE Space Force admiral (Yurika's father)",
+   "confidence": "high",
+   "evidence": "brief: '私はＵＣＥ宇宙軍提督のミスマルだ。'"
+  },
+  "36": {
+   "speaker": "Lucrezia Noin",
+   "gender": "female",
+   "role": "tactical staff officer (特尉, Special Lieutenant) from the Preventer",
+   "confidence": "high",
+   "evidence": "m6112#36 Sinapus: 'ノイン特尉、後で詳しく聞かせてくれ' then p36 explains Domon in brief63178#4-9; commanding but female, do not masculinize"
+  },
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6112#12",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>へっへっへっへ、そう来なくちゃな。<ab(100)>",
+   "en": ""
+  },
+  {
+   "ref": "m6112#13",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>楽しみだ、早く来い！<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6112#14",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>熱量増大！　来ます！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6112#15",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>熱量増大！　退避を！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6112#16",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>無限機動砲は、再充填に時間がかかるわ。<ab(200)>",
+   "en": ""
+  },
+  {
+   "ref": "m6112#17",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>今がチャンスよ！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6112#18",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>これ以上は危険です！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6112#19",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>やむをえん…一旦後退する！<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6112#20",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>す、すっげえええ！<ab(10)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6112#21",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>あいつは…！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6112#22",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>きっさまらぁ！　よくもゴルをぉ！<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6112#23",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>大佐……無茶しないどくれ！<ab(500)><ed()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6112#24",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ジンーーー！！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Jiiin!!!<ab(100)><ed()>",
+   "notes": "Gon Jem or Ganan howling over Jin's death."
+  },
+  {
+   "ref": "m6112#25",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やるじゃないか、坊や！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Not bad at all, boy!<ab(400)><ed()>",
+   "notes": "Min taunting Kaine with mocking admiration."
+  },
+  {
+   "ref": "m6112#26",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>畜生！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Dammit!<ab(400)><ed()>",
+   "notes": "Kaine or Ganan swearing in frustration."
+  },
+  {
+   "ref": "m6112#27",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>大佐…みんな、死んじまいやがって。<ab(500)>",
+   "en": "<op()><sp(20)>Colonel... Everyone's dead and gone.<ab(500)>",
+   "notes": "Min mourning the fallen Four Kings to Gon Jem."
+  },
+  {
+   "ref": "m6112#28",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>あたいはあきらめないよ！<ab(400)><ed()>",
+   "en": "<sp(20)>Well, I ain't givin' up!<ab(400)><ed()>",
+   "notes": "Min declaring her stubborn refusal to yield (uses 'あたい' and rough tone)."
+  },
+  {
+   "ref": "m6112#29",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さっきの機体はどうした？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>What happened to that craft?<ab(200)><ed()>",
+   "notes": "Burning asking about the God Gundam."
+  },
+  {
+   "ref": "m6112#30",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>反応ありません。　見失いました。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>No reading. We've lost track of it.<ab(400)><ed()>",
+   "notes": "Operator reporting Domon disappeared."
+  },
+  {
+   "ref": "m6112#31",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ドモン・カッシュ…<ab(200)>",
+   "en": "<op()><sp(20)>Domon Kasshu...<ab(200)>",
+   "notes": "Lucrezia Noin murmuring Domon's name."
+  },
+  {
+   "ref": "m6112#32",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>あの男、ここにも現れたのか。<ab(400)><ed()>",
+   "en": "<sp(20)>So that man appeared here as well.<ab(400)><ed()>",
+   "notes": "Noin remarking on Domon's trail."
+  },
+  {
+   "ref": "m6112#33",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あいつを知ってるんですか？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>You know who he is?<ab(200)><ed()>",
+   "notes": "Kaine or Tak asking Noin."
+  },
+  {
+   "ref": "m6112#34",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ああ。　あの男は、\n軍の特命である機体を追っている。<ab(600)>",
+   "en": "<op()><sp(20)>Yes. He is pursuing a certain unit\non a special military mission.<ab(600)>",
+   "notes": "Noin explaining Domon's pursuit of Devil Gundam."
+  },
+  {
+   "ref": "m6112#35",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>その所在に関する情報を聞いて、\n確かめに来たのだろう。<ab(400)><ed()>",
+   "en": "<sp(20)>He must have heard of its location\nand came to see for himself.<ab(400)><ed()>",
+   "notes": "Noin assessing why Domon struck the Giganos factory."
+  },
+  {
+   "ref": "m6112#36",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ノイン特尉、後で詳しく聞かせてくれ。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Lt. Noin, give me details later.<ab(400)><ed()>",
+   "notes": "Captain Sinapus requesting a full briefing from Noin."
+  },
+  {
+   "ref": "m6112#37",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あれがモビルファイターってヤツか！？<ab(100)>",
+   "en": "<op()><sp(20)>So that's a Mobile Fighter?!<ab(100)>",
+   "notes": "Kaine impressed by the machine."
+  },
+  {
+   "ref": "m6112#38",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>一度でいいから乗ってみたいぜ！<ab(500)><ed()>",
+   "en": "<sp(20)>I'd love to take one for a spin!<ab(500)><ed()>",
+   "notes": "Kaine's enthusiastic hot-blooded reaction."
+  },
+  {
+   "ref": "m6112#40",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>！？　遠方で熱量増大！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Thermal surge at long range!<ab(0)><off()>",
+   "notes": "Operator warning during cutscene."
+  },
+  {
+   "ref": "m6112#41",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ほおれ！　ぶっとんじめえ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Eat this! Blow to kingdom come!<ab(0)><off()>",
+   "notes": "Gon Jem firing the Infinite Mobile Cannon."
+  },
+  {
+   "ref": "m6112#42",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>へへへ、待っていたぜ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Hehehe, we've been waitin' for this!<ab(0)><off()>",
+   "notes": "Ganan or Gon Jem Squad goon cackling."
+  },
+  {
+   "ref": "m6112#43",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>さあおいで、坊やたち！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Come on over, boys!<ab(0)><off()>",
+   "notes": "Min mocking the heroes."
+  },
+  {
+   "ref": "m6112#44",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>何ぃ！？　無限機動砲が！！<ab(0)><off()>",
+   "en": "<on()><sp(20)>What?! The Infinite Mobile Cannon...!!<ab(0)><off()>",
+   "notes": "Gon Jem shocked by Domon stopping or shattering the cannon."
+  },
+  {
+   "ref": "m6112#45",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>お前たちに聞きたいことがある！<ab(0)><off()>",
+   "en": "<on()><sp(20)>I have a question for you!<ab(0)><off()>",
+   "notes": "Domon Kasshu shouting his iconic line."
+  },
+  {
+   "ref": "m6112#46",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>この男を知っているか？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Have you seen this man?!<ab(0)><off()>",
+   "notes": "Domon holding up the photo of Kyoji Kasshu."
+  },
+  {
+   "ref": "m6112#47",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>何だぁ、お前は！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Who the hell are you?!<ab(0)><off()>",
+   "notes": "Gol shouting in bewilderment."
+  },
+  {
+   "ref": "m6112#48",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>もう一度だけ聞く。\nこの男を知っているか？<ab(0)><off()>",
+   "en": "<on()><sp(20)>I will ask only once more.\nDo you know this man?!<ab(0)><off()>",
+   "notes": "Domon repeating his question forcefully."
+  },
+  {
+   "ref": "m6112#49",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>そんな奴、知るかぁ！\n野郎ども、ぶっ殺せ！！<ab(0)><off()>",
+   "en": "<on()><sp(20)>How should I know?! Kill him, boys!<ab(0)><off()>",
+   "notes": "Gol barking attack orders."
+  },
+  {
+   "ref": "m6112#50",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ならば、お前たちに用はない！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Then I have no business with you!<ab(0)><off()>",
+   "notes": "Domon brushing them off."
+  },
+  {
+   "ref": "m6112#51",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ばぁくねぇつ！　ゴッドフィンガァァー！！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Erupting... God Fiiingeeer!!<ab(0)><off()>",
+   "notes": "Domon unleashing his signature special move (Bakunetsu God Finger)."
+  },
+  {
+   "ref": "m6112#52",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ゴルゥゥゥ！！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Gooool!!<ab(0)><off()>",
+   "notes": "Gon Jem / Ganan howling as Gol is crushed."
+  },
+  {
+   "ref": "m6112#53",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ここも違ったか…<ab(0)><off()>",
+   "en": "<on()><sp(20)>Not here either, huh...<ab(0)><off()>",
+   "notes": "Domon lamenting another dead end in his search for Kyoji."
+  },
+  {
+   "ref": "m6112#54",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>まあいい、しらみ潰しに探すまでだ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>No matter. I will search everywhere!<ab(0)><off()>",
+   "notes": "Domon declaring his determination."
+  },
+  {
+   "ref": "m6112#55",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ワシャ、死なんっ！\n貴様らを殺すまで！<ab(0)><off()>",
+   "en": "<on()><sp(20)>I ain't gonna die!\nNot until I've slaughtered you all!<ab(0)><off()>",
+   "notes": "Gon Jem surviving in the prototype Gilgazamune."
+  },
+  {
+   "ref": "m6112#56",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>うああああっ！　ぐおああああっ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Uwaaaagh! Gwoooaaagh!!<ab(0)><off()>",
+   "notes": "Gon Jem screaming in thought-control brain strain."
+  },
+  {
+   "ref": "m6112#57",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>でけえ！　なんだこりゃ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>It's huge! What the hell is that?!<ab(200)><ed()>",
+   "notes": "Kaine shocked by the size of the Gilgazamune."
+  },
+  {
+   "ref": "m6112#58",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>奴のパワーはケタ外れだぜ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>That thing's power is unreal!<ab(200)><ed()>",
+   "notes": "Tapp or Light warning of the Gilgazamune's output."
+  },
+  {
+   "ref": "m6112#59",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>勘弁してくれ、こんな奴！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Give me a break! How do we beat that?!<ab(200)><ed()>",
+   "notes": "Light groaning in despair."
+  },
+  {
+   "ref": "m6112#60",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あのメタルアーマー！<ab(200)>",
+   "en": "<op()><sp(20)>That Metal Armor...!<ab(200)>",
+   "notes": "Pilot staring at the machine."
+  },
+  {
+   "ref": "m6112#61",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>おいおい！　俺たちは関係ないぞ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Whoa! We had nothin' to do with it!<ab(200)><ed()>",
+   "notes": "Kaine protesting Gon Jem's indiscriminate fury."
+  },
+  {
+   "ref": "m6112#62",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ぐははは！　驚くのは早ぇぞ小僧！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Gwahaha! Too early to be shocked, brat!<ab(200)><ed()>",
+   "notes": "Gon Jem boasting."
+  },
+  {
+   "ref": "m6112#63",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>遊びは終わりだ！<ab(200)>",
+   "en": "<op()><sp(20)>Playtime is over!<ab(200)>",
+   "notes": "Gon Jem getting serious."
+  },
+  {
+   "ref": "m6112#64",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>あの図体でなんて高機動だ！<ab(200)><ed()>",
+   "en": "<sp(20)>How can it be so fast with that bulk?!<ab(200)><ed()>",
+   "notes": "Kaine or pilot astonished by Gilgazamune's agility."
+  },
+  {
+   "ref": "m6112#65",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>うるせぇ、死ねぇぇ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Shut your mouth and dieee!<ab(200)><ed()>",
+   "notes": "Gon Jem in berserk rage."
+  },
+  {
+   "ref": "m6112#66",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>今すぐ楽にしてやるぜ！<ab(200)><ed()>",
+   "en": "<sp(20)>I'll put you out of your misery!<ab(200)><ed()>",
+   "notes": "Gon Jem threatening."
+  },
+  {
+   "ref": "m6112#67",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんだ、この金ピカは…！<ab(200)>",
+   "en": "<op()><sp(20)>What is with this golden monstrosity?!<ab(200)>",
+   "notes": "Kaine reacting to Gilgazamune's shimmering gold armor."
+  },
+  {
+   "ref": "m6112#68",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>図体だけじゃないようだな！<ab(200)><ed()>",
+   "en": "<sp(20)>Guess it isn't just for show!<ab(200)><ed()>",
+   "notes": "Kaine acknowledging the machine's brute strength."
+  },
+  {
+   "ref": "brief63178#0",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>アジア方面軍を悩ませていた\n<im(1)>グン・ジェム隊を壊滅させたのはお手柄だ。\nよくやってくれた。",
+   "en": "<op(33,1)><sp(2)>Destroying Gon Jem's squad, which plagued\n<im(1)>our Asian Sector forces, is a commendable\nachievement. Well done.",
+   "notes": "Admiral Misumaru commending the destruction of the Gon Jem Squad."
+  },
+  {
+   "ref": "brief63178#1",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[E2E258]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(2)>だが、そちらに気を取られている隙に、\n建造中だった#c[BE5050]ギガノス#cの#c[E2E258]宇宙要塞#cが、\n本格的に稼動を始めたらしい。",
+   "en": "<op(33,1)><sp(2)><im(2)>However, while we were focused there,\nthe #c[BE5050]Giganos#c #c[E2E258]space fortress#c being built\nhas reportedly become fully operational.",
+   "notes": "Misumaru reporting the activation of the Giganos space fortress."
+  },
+  {
+   "ref": "brief63178#2",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)>追い詰められたドルチェノフはこの#c[BE5050]要塞#cで、\n本格的な侵攻作戦に乗り出すつもりの\nようだ。",
+   "en": "<op(33,1)><sp(2)>Backed into a corner, Dorchenov now plans\nto launch a full-scale invasion using this\n#c[BE5050]fortress#c.",
+   "notes": "Misumaru explaining Dorchenov's desperate gambit."
+  },
+  {
+   "ref": "brief63178#3",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 33,
+   "tokens": [
+    "<op(33,1)>",
+    "<sp(2)>",
+    "<im(4)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(33,1)><sp(2)><im(4)>立て続けになって悪いが、諸君は直ちに\n宇宙に向かい、#c[5E8FD8]ＵＣＥ#cの#c[BE5050]要塞#c攻略作戦に\n参加してくれたまえ。",
+   "en": "<op(33,1)><sp(2)><im(4)>I regret the relentless pace, but you must\nproceed to space at once and join the #c[5E8FD8]UCE#c\noperation to capture the #c[BE5050]fortress#c.",
+   "notes": "Misumaru dispatching Albion to join the space fortress assault."
+  },
+  {
+   "ref": "brief63178#4",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "<im(5)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)><im(5)>艦長、続いて先程の件をお話します。\nさっきの男の名はドモン・カッシュ。",
+   "en": "<op(36,1)><sp(2)><im(5)>Captain, regarding the incident earlier...\nThat man's name is Domon Kasshu.",
+   "notes": "Noin (portrait 36) formally reporting on Domon to Sinapus."
+  },
+  {
+   "ref": "brief63178#5",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "#c[E2E258]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>彼が追っているのは#c[E2E258]デビルガンダム#c。\n本来はアルティメットガンダムという\n名称の機体です。",
+   "en": "<op(36,1)><sp(2)>He is in pursuit of the #c[E2E258]Devil Gundam#c.\nA unit originally known as the Ultimate\nGundam.",
+   "notes": "Noin identifying Devil Gundam and its original designation."
+  },
+  {
+   "ref": "brief63178#6",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "<im(6)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)><im(6)>この機体は地球再生のために開発され、\n三大理論を備えた究極のガンダムだったの\nですが、",
+   "en": "<op(36,1)><sp(2)><im(6)>This machine was built to restore the Earth,\na pinnacle Gundam with the Three Great\nPrinciples, yet...",
+   "notes": "Noin detailing the original environmental purpose of Ultimate Gundam. fix: missing comma after jp -> added comma"
+  },
+  {
+   "ref": "brief63178#7",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "#c[E2E258]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>彼の兄である#c[E2E258]キョウジ・カッシュ#cが\nこの機体を、強奪、逃亡しています。\n…それ以上の詳細はわかりません。",
+   "en": "<op(36,1)><sp(2)>his older brother, #c[E2E258]Kyoji Kasshu#c, seized\nand fled with it. Beyond that, no further\ndetails are known.",
+   "notes": "Noin recounting Kyoji's theft of the machine."
+  },
+  {
+   "ref": "brief63178#8",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "<im(8)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)><im(8)>逃亡の際の事故が原因で暴走を始め、\n悪魔のガンダムに生まれ変わった…\n以来#c[BE5050]デビルガンダム#cと呼ばれています。",
+   "en": "<op(36,1)><sp(2)><im(8)>An escape accident caused it to run amok,\ntransforming it into a demonic machine...\nSince then, it has been the #c[BE5050]Devil Gundam#c.",
+   "notes": "Noin explaining how the machine mutated into the Devil Gundam."
+  },
+  {
+   "ref": "brief63178#9",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "<im(9)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)><im(9)>その戦闘力はケタ外れで、軍もうかつに\n手を出せない状況のようです。",
+   "en": "<op(36,1)><sp(2)><im(9)>Its combat power is staggering, leaving the\nmilitary unable to carelessly engage it.",
+   "notes": "Noin describing the immense threat of Devil Gundam."
+  },
+  {
+   "ref": "brief63178#10",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>あの男…コロニー格闘技のチャンピオン、\nキング・オブ・ハートのドモン・カッシュだな。",
+   "en": "<op(37,1)><sp(2)>That man... Colony martial arts champion,\nDomon Kasshu, the King of Hearts.",
+   "notes": "Captain Sinapus recognizing Domon's title and identity."
+  },
+  {
+   "ref": "brief63178#11",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(10)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[E2E258]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(10)>#c[BE5050]デビルガンダム#cの件は聞いてはいたが、\nあの男と新型#c[E2E258]モビルファイター#cまで\n投入しているとは知らなかった。",
+   "en": "<op(37,1)><sp(2)><im(10)>I had heard of the #c[BE5050]Devil Gundam#c, but not that\nthat man and a new #c[E2E258]Mobile Fighter#c had been\ndeployed as well.",
+   "notes": "Sinapus surprised by the deployment of Domon and God Gundam."
+  },
+  {
+   "ref": "brief63178#12",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>いつかまた会うことになるかもしれんな。",
+   "en": "<op(37,1)><sp(2)>We may well cross paths with him again.",
+   "notes": "Sinapus musing on a future encounter with Domon."
+  },
+  {
+   "ref": "brief63236#0",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「ギガノス宇宙要塞稼動開始」\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　ＵＣＥ諜報部",
+   "en": "<sp(0)>\"Giganos Space Fortress Activated\"\n\n　　　　　　　　　　　　　　　　　　　　　　　　　　UCE Intelligence",
+   "notes": "Intelligence report header on Giganos's space fortress. fix: signature spaces -> aligned with fullwidth Japanese spaces"
+  },
+  {
+   "ref": "brief63236#1",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[BE5050]ギガノス軍#cが、<im(2)>月周辺において\n新たな戦略兵器#c[BE5050]宇宙機動要塞#cの\n稼動を開始した。",
+   "en": "<sp(0)>The #c[BE5050]Giganos Army#c has commenced operations<im(2)>\nof its new strategic weapon, the\n#c[BE5050]Space Mobile Fortress#c, near the Moon.",
+   "notes": "Report detailing Giganos's new Space Mobile Fortress."
+  },
+  {
+   "ref": "brief63236#2",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>バイオフィードバックシステムと\n呼ばれるシステムを搭載したこの#c[BE5050]要塞#cは、\n高性能な機動兵器と同等の機動性と、",
+   "en": "<sp(0)>Equipped with a Bio-Feedback System,\nthis #c[BE5050]fortress#c possesses mobility equal to\nhigh-performance mobile weapons, and",
+   "notes": "Report explaining the Bio-Feedback System."
+  },
+  {
+   "ref": "brief63236#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>拠点防衛要塞クラスの高火力を両立させた\n#c[BE5050]ギガノス#cの最終兵器<im(1)>である。\n",
+   "en": "<sp(0)>combines it with massive defense firepower,\nstanding as #c[BE5050]Giganos#c's ultimate weapon.<im(1)>",
+   "notes": "Report describing fortress capabilities."
+  },
+  {
+   "ref": "brief63236#4",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>先の反乱事件以来、#c[BE5050]ギガノス#cは\n#c[5E8FD8]ＵＣＥ#cの重点的な対抗策によって\n不利な戦況に追い込まれている。",
+   "en": "<sp(0)>Since the recent rebellion, #c[BE5050]Giganos#c has\nbeen forced into a corner by concentrated\n#c[5E8FD8]UCE#c countermeasures.",
+   "notes": "Report on Giganos's strategic decline."
+  },
+  {
+   "ref": "brief63236#5",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>#c[BE5050]ギガノス軍#cの切り札とも言える#c[BE5050]機動要塞\n#cの投入で戦況を挽回し、本格的な攻勢に\n転じる作戦であろう。",
+   "en": "<sp(0)>By fielding the #c[BE5050]Giganos Army#c's ace trump,\nthis #c[BE5050]Mobile Fortress#c, they seek to rally\nand mount a full-scale counteroffensive.",
+   "notes": "Analysis of Giganos's strategic objective with the Mobile Fortress."
+  }
+ ],
+ "context_after": [],
+ "report": {
+  "translator_summary": "Translated batch op11_02 (63 rows), concluding Operation 11. Covers the fall of the Gon Jem Squad (Jin and Gol killed, Min's defiant struggle), Domon Kasshu's sudden entrance with the God Finger seeking Kyoji, the battle against Gon Jem in the prototype Gilgazamune, the debriefing with Misumaru, Noin (explaining the Devil Gundam and Kyoji Kasshu), and Sinapus, and the UCE Intelligence report on the activation of the Giganos Space Mobile Fortress.",
+  "rows_examined": "op11_01, op11_02, context_before (m6112#12-23), slice rows (m6112#24-68, brief63178#0-12, brief63236#0-5).",
+  "rows_examined_count": 63,
+  "uncertainties": [
+   {
+    "ref": "m6112#28",
+    "issue": "Min's defiant line 'あたいはあきらめないよ！' translated with her characteristic scrappy phrasing ('Well, I ain't givin' up!')."
+   },
+   {
+    "ref": "m6112#51",
+    "issue": "Domon's iconic special attack cry 'ばぁくねぇつ！ ゴッドフィンガァァー！！' translated as 'Erupting... God Fiiingeeer!!'."
+   },
+   {
+    "ref": "brief63178#4-9",
+    "issue": "Noin's explanation of Devil Gundam and Kyoji preserved with serious military officer tone while maintaining her female character."
+   }
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {
+   "33": "Kouichiro Misumaru",
+   "36": "Lucrezia Noin",
+   "37": "Eyphar Sinapus"
+  }
+ }
+}

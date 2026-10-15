@@ -1,0 +1,1784 @@
+{
+ "batch": "op12_03",
+ "operation": 12,
+ "previous_batch": "op12_02",
+ "next_batch": "op12_04",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "ガーベラ・テトラ",
+   "en": "Gerbera Tetra",
+   "kind": "unit",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "AGX-04, Anaheim prototype (the GP04 Gerbera rebuilt) handed to Cima."
+  },
+  {
+   "ja": "ギガノス要塞",
+   "en": "Giganos Fortress",
+   "kind": "place",
+   "series": "Metal Armor Dragonar",
+   "role": "Giganos fortress (ep. 21 title \"ギガノス要塞破壊命令\"; late in the series also the Giganos mobile space fortress)"
+  },
+  {
+   "ja": "ドルチェノフ",
+   "en": "Dorchenov",
+   "kind": "character",
+   "series": "Metal Armor Dragonar",
+   "gender": "male",
+   "role": "Giganos hardliner; as Lieutenant Colonel he assassinates Marshal Guiltorre and becomes Supreme Leader of Giganos; pilots a black Gilgazamune at the end",
+   "personality": "Arrogant, power-hungry, cruel and treacherous; bullies subordinates; strong MA pilot but a poor commander",
+   "en_short": "Dorchenov"
+  },
+  {
+   "ja": "モビルスーツ",
+   "en": "mobile suit",
+   "kind": "term"
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "ドラグナー",
+   "en": "Dragonar",
+   "kind": "term",
+   "series": "Metal Armor Dragonar",
+   "role": "The three D-series prototype Metal Armors (D-1, D-2, D-3), also called D-weapons"
+  },
+  {
+   "ja": "ギガノス",
+   "en": "Giganos"
+  },
+  {
+   "ja": "シナプス",
+   "en": "Sinapus",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Earth Federation captain (Captain, 大佐) of the assault carrier Albion; leads the pursuit of the stolen GP02.",
+   "personality": "Grizzled veteran with a commanding presence and keen tactical mind; relies on his own judgement and sense of right and wrong.",
+   "full_name": "Eyphar Sinapus"
+  },
+  {
+   "ja": "デラーズ",
+   "en": "Delaz",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Leader of the Delaz Fleet and mastermind of Operation Stardust; former Zeon colonel loyal to Gihren Zabi. Wiki rank: Lieutenant General (0083).",
+   "personality": "Zealous idealist devoted to Spacenoid independence and Gihren's cause; stern but paternal toward Gato; dies shouting \"Sieg Zeon\".",
+   "full_name": "Aiguille Delaz"
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "リンダ",
+   "en": "Linda",
+   "kind": "character",
+   "series": "Metal Armor Dragonar",
+   "gender": "female",
+   "role": "Meio's younger sister; refugee who becomes an Earth Alliance communications operator; heroine",
+   "personality": "Gentle and reserved, opposes the war; slowly opens up to Kaine",
+   "full_name": "Linda Plato"
+  },
+  {
+   "ja": "大尉",
+   "en": "Captain",
+   "en_short": "Capt.",
+   "kind": "rank",
+   "note": "army/MS rank; a ship's captain (艦長) is also Captain"
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {
+  "56": {
+   "speaker": "Linda Plato",
+   "gender": "female",
+   "role": "Dragonar transport unit",
+   "confidence": "high",
+   "evidence": "brief: 'ドラグナー輸送部隊のリンダ・プラートです。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6122#49",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>よろしく。<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6122#50",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>じゃあ皆さん！\n残りの敵を一掃しちゃってください！<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6122#51",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>あ、ヤマダさん、おひさしぶり！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6122#52",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ガイ！　大丈夫だったか！？<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6122#53",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>おう！　俺は不死身だぜ！\n悪党どもから地球の平和を守っていこうぜ！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6122#57",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……う。<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6122#58",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>今はそのようなことを\n考えている場合ではない！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6122#59",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>軍の作戦行動中だぞ！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6122#60",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……はい。<ab(300)><ed()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6122#61",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>友軍機以外の反応、ありません。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>No contacts other than friendlies.<ab(300)><ed()>",
+   "notes": "Operator report, neutral gender."
+  },
+  {
+   "ref": "m6122#62",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さてと、シナプス艦長！\nこれよりナデシコはアルビオンを援護します！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Now then, Captain Sinapus!\nThe Nadesico will support the Albion!<ab(700)><ed()>",
+   "notes": "Captain Yurika Misumaru addressing Captain Sinapus."
+  },
+  {
+   "ref": "m6122#63",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(900)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>奇妙な縁だが…今は助かる。\nよろしく頼みます。<ab(900)><ed()>",
+   "en": "<op()><sp(20)>A strange twist of fate... but helpful.\nWe're counting on you.<ab(900)><ed()>",
+   "notes": "Captain Sinapus responding gratefully."
+  },
+  {
+   "ref": "m6122#64",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>目標を確認しました。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Target confirmed.<ab(0)><off()>",
+   "notes": "Nadesico operator / crew report."
+  },
+  {
+   "ref": "m6122#65",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>お待たせしました！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Sorry to keep you waiting!<ab(0)><off()>",
+   "notes": "Yurika Misumaru greeting cheerily."
+  },
+  {
+   "ref": "m6122#66",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 392,
+   "max_line_chars_approx": 40,
+   "jp": "<on()><sp(20)>機動戦艦ナデシコ、火星よりただいま戻りました！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Mobile Battleship Nadesico has returned\nfrom Mars!<ab(0)><off()>",
+   "notes": "Yurika Misumaru announcing the Nadesico's return from Mars."
+  },
+  {
+   "ref": "brief63085#2",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 56,
+   "tokens": [
+    "<op(56,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(1)>",
+    "<im(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(56,1)><sp(2)>#c[BE5050]ギガノス要塞#cの<im(1)>機能を麻痺させるため、\n<im(2)>#c[5E8FD8]発電衛星#cによる攻撃作戦が行われます。",
+   "en": "<op(56,1)><sp(2)>To disable the #c[BE5050]Giganos Fortress#c's <im(1)>systems,\nwe will attack using <im(2)>the #c[5E8FD8]power satellite#c.",
+   "notes": "Portrait 56 is Linda Plato delivering tactical briefing. Preserved token sequence strictly."
+  },
+  {
+   "ref": "brief63085#3",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 56,
+   "tokens": [
+    "<op(56,1)>",
+    "<sp(2)>",
+    "<im(4)>",
+    "#c[5E8FD8]",
+    "<im(5)>",
+    "#c",
+    "<im(7)>",
+    "#c[BE5050]",
+    "<im(9)>",
+    "#c",
+    "<im(6)>",
+    "<tr(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(56,1)><sp(2)><im(4)>#c[5E8FD8]発電<im(5)>衛星#cからマイクロウェーブを照射し、\n<im(7)>#c[BE5050]要塞<im(9)>#cのバイオフィー<im(6)>ドバック<tr(1)>システムを\n飽和状態にするのが目的です。",
+   "en": "<op(56,1)><sp(2)><im(4)>The #c[5E8FD8]power <im(5)>satellite#c will emit microwaves\n<im(7)>to overload the #c[BE5050]fortress<im(9)>#c's\n<im(6)>biofeedback systems.<tr(1)>",
+   "notes": "Linda Plato explaining microwave attack. All 12 tokens preserved in exact sequence."
+  },
+  {
+   "ref": "brief63085#4",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 56,
+   "tokens": [
+    "<op(56,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(11)>",
+    "<of(1)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(56,1)><sp(2)>今回の出撃の目的は、#c[5E8FD8]発電衛星#cと\n#c[5E8FD8]友軍艦隊#cの進軍を護衛するこ<im(11)>とです。\n<of(1)>#c[F07141]周辺の敵の迎撃#cをお願いします。",
+   "en": "<op(56,1)><sp(2)>Our goal is to escort the #c[5E8FD8]power satellite#c\nand the #c[5E8FD8]allied fleet#c as they advance.<im(11)>\n<of(1)>Please #c[F07141]intercept all nearby enemies#c.",
+   "notes": "Linda Plato detailing Phase 3 mission objective."
+  },
+  {
+   "ref": "m6123#0",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "友軍艦が領域を離脱",
+   "en": "Allied ships escape the area",
+   "notes": "Victory condition string."
+  },
+  {
+   "ref": "m6123#1",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "全ての友軍艦が撃沈",
+   "en": "All allied ships destroyed",
+   "notes": "Defeat condition string."
+  },
+  {
+   "ref": "m6123#2",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ガーベラ・テトラの撃破",
+   "en": "Destroy the Gerbera Tetra",
+   "notes": "Objective string matching glossary."
+  },
+  {
+   "ref": "m6123#6",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>周辺の敵を掃討しろ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Sweep all enemies in the area!<ab(600)><ed()>",
+   "notes": "Captain Burning command."
+  },
+  {
+   "ref": "m6123#7",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ＵＣＥ所属のアルビオンとお見受けする！<ab(300)>",
+   "en": "<op()><sp(20)>I take it you are the UCE's Albion!<ab(300)>",
+   "notes": "Meio Plato hailing the Albion in his formal, martial tone."
+  },
+  {
+   "ref": "m6123#8",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ドルチェノフは、私の手で始末をつける！<ab(300)>",
+   "en": "<sp(20)>Dorchenov will fall by my own hand!<ab(300)>",
+   "notes": "Meio Plato continuing without new window."
+  },
+  {
+   "ref": "m6123#9",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ギガノスの誇りをおとしめた男は\nギガノス軍人たる私の手で地獄に送る！<ab(700)>",
+   "en": "<sp(20)>He who disgraced Giganos's pride\nwill be sent to hell by my hands!<ab(700)>",
+   "notes": "Meio Plato expressing his resolve as a Giganos soldier. fix: line length exceeded 380px -> compacted line 1"
+  },
+  {
+   "ref": "m6123#10",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ただちに撤退していただきたい！<ab(200)><ed()>",
+   "en": "<sp(20)>I request that you withdraw at once!<ab(200)><ed()>",
+   "notes": "Meio Plato commanding UCE to back off."
+  },
+  {
+   "ref": "m6123#11",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>兄さん！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Brother!<ab(0)><ed()>",
+   "notes": "Linda Plato calling out to Meio ('兄さん')."
+  },
+  {
+   "ref": "m6123#12",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>リンダ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Linda!<ab(100)><ed()>",
+   "notes": "Meio Plato in shock at hearing Linda."
+  },
+  {
+   "ref": "m6123#13",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>兄さん、一人で行くつもり？\nやめて！　死にに行くようなものよ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Brother, are you going alone?\nStop! You're going to your death!<ab(400)><ed()>",
+   "notes": "Linda Plato desperately pleading with her brother."
+  },
+  {
+   "ref": "m6123#14",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>では、私にどうしろと言うのだ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Then what would you have me do?!<ab(500)><ed()>",
+   "notes": "Meio Plato torn between duty and honor."
+  },
+  {
+   "ref": "m6123#15",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>大尉、目的は一緒のはずだ。\nここは力を合わせて……<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Captain, we share the same goal.\nLet's join forces here and...<ab(0)><ed()>",
+   "notes": "Kaine Wakaba proposing alliance to Meio."
+  },
+  {
+   "ref": "m6123#16",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵と手を組めと言うのか！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>You want me to join hands with\nthe enemy?!<ab(1000)><ed()>",
+   "notes": "Meio Plato proudly resisting allied cooperation."
+  },
+  {
+   "ref": "m6123#17",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>兄さん！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Brother!<ab(100)><ed()>",
+   "notes": "Linda Plato crying out."
+  },
+  {
+   "ref": "m6123#18",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いいじゃないか、プラート大尉。<ab(400)>",
+   "en": "<op()><sp(20)>What's the harm, Capt. Plato?<ab(400)>",
+   "notes": "Min (Lee Sue Min) interjecting in casual tone."
+  },
+  {
+   "ref": "m6123#19",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>今、あたいたちだけで乗り込んだって、\n分が悪いからね。<ab(400)>",
+   "en": "<sp(20)>Charging in by ourselves right now\nis bad odds, after all.<ab(400)>",
+   "notes": "Min using 'あたいたち' to refer to herself and Meio."
+  },
+  {
+   "ref": "m6123#20",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ある程度割り切りも必要さ。<ab(500)><ed()>",
+   "en": "<sp(20)>You've gotta be a bit practical.<ab(500)><ed()>",
+   "notes": "Min giving pragmatic advice."
+  },
+  {
+   "ref": "m6123#21",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前はそれでいいのか！？　\nドラグナーが憎くはないのか！？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Are you fine with that?!\nDon't you hate the Dragonar?!<ab(300)><ed()>",
+   "notes": "Meio asking Min, remembering her squad's grudge against Dragonar."
+  },
+  {
+   "ref": "m6123#22",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>もうそんな恨みは忘れたね。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>I've forgotten all about that grudge.<ab(500)><ed()>",
+   "notes": "Min brushing off old animosity."
+  },
+  {
+   "ref": "m6123#23",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>死にかけてたあたいを救ってくれたあんたに\nこんな説教めいたことを言いたかないけど。<ab(700)><ed()>",
+   "en": "<op()><sp(20)>I hate to lecture the man who saved\nmy life when I was dying, but...<ab(700)><ed()>",
+   "notes": "Min acknowledging Meio saved her life after Gon Jem's downfall."
+  },
+  {
+   "ref": "m6123#24",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…わかった。　\nならば一時、共同作戦といくか。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>...Understood. Then we shall conduct\na joint operation for now.<ab(300)><ed()>",
+   "notes": "Meio Plato conceding to the temporary alliance."
+  },
+  {
+   "ref": "m6123#25",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>了解だ。　本艦の部隊と合流してくれ。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Acknowledged. Rendezvous with our\nship's forces.<ab(300)><ed()>",
+   "notes": "Captain Burning / Sinapus accepting."
+  },
+  {
+   "ref": "m6123#26",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あたいはちょっと下準備があるんでね、\n先に行くよ。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>I've got some prep work to do,\nso I'm heading on ahead.<ab(400)><ed()>",
+   "notes": "Min hinting at her plan to expose Dorchenov."
+  },
+  {
+   "ref": "m6123#27",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ターゲットを大量撃破。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Massive target destruction confirmed.<ab(200)><ed()>",
+   "notes": "Operator report, neutral gender."
+  },
+  {
+   "ref": "m6123#28",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さすがはうちのエースだな。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Just what I expect from our ace.<ab(300)><ed()>",
+   "notes": "Captain Burning praising the player."
+  },
+  {
+   "ref": "m6123#30",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これより機動要塞へ侵攻する。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Now advancing on the mobile fortress.<ab(300)><ed()>",
+   "notes": "Allied commander order."
+  },
+  {
+   "ref": "m6123#31",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>防衛部隊を掃討して\n友軍艦の進路を確保しろ。<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Mop up defenses and secure the path\nfor our allied ships.<ab(600)><ed()>",
+   "notes": "Captain Burning command."
+  },
+  {
+   "ref": "m6123#32",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アルビオン隊、本艦は攻撃を受けている。\n援護を頼む。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Albion team, we are under attack!\nRequesting support!<ab(500)><ed()>",
+   "notes": "Allied ship captain calling Albion for support."
+  },
+  {
+   "ref": "m6123#33",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>２番艦、撃沈！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Ship Number 2 sunk!<ab(300)><ed()>",
+   "notes": "Operator report, neutral gender."
+  },
+  {
+   "ref": "m6123#34",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アルビオン隊は何をやっているのだ！？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>What is the Albion team doing?!<ab(500)><ed()>",
+   "notes": "Allied captain panicking."
+  },
+  {
+   "ref": "m6123#35",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>４番艦、撃沈！　あと２隻！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Ship Number 4 sunk! 2 ships left!<ab(300)><ed()>",
+   "notes": "Operator report, neutral gender."
+  },
+  {
+   "ref": "m6123#36",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くそ…このままでは…<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Damn it... At this rate...<ab(400)><ed()>",
+   "notes": "Tak / pilot dismay."
+  },
+  {
+   "ref": "m6123#37",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>３番艦撃沈！　残りは我々のみ…！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Ship Number 3 sunk! Only us left...!<ab(500)><ed()>",
+   "notes": "Allied captain reporting casualties."
+  },
+  {
+   "ref": "m6123#38",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんとしても作戦は続行する！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Continue the mission at all costs!<ab(300)><ed()>",
+   "notes": "Allied captain determined to carry on."
+  },
+  {
+   "ref": "m6123#39",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>か、艦隊は全滅…<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Th-The fleet is wiped out...<ab(600)><ed()>",
+   "notes": "Operator report on mission failure, neutral gender."
+  },
+  {
+   "ref": "m6123#40",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(900)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>作戦は…失敗か！<ab(900)><ed()>",
+   "en": "<op()><sp(20)>The operation... failed?!<ab(900)><ed()>",
+   "notes": "Allied commander exclamation on failure."
+  },
+  {
+   "ref": "m6123#41",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>第一次防衛網を突破！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Breached the first defense line!<ab(300)><ed()>",
+   "notes": "Operator report, neutral gender."
+  },
+  {
+   "ref": "m6123#42",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>全艦、前進せよ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>All ships, advance!<ab(500)><ed()>",
+   "notes": "Allied fleet commander order."
+  },
+  {
+   "ref": "m6123#44",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>第二次防衛網を突破！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Breached the second defense line!<ab(400)><ed()>",
+   "notes": "Operator report, neutral gender."
+  },
+  {
+   "ref": "m6123#45",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まだ先があるぞ！　気を抜くな！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>More ahead! Stay on your guard!<ab(500)><ed()>",
+   "notes": "Captain Burning warning."
+  },
+  {
+   "ref": "m6123#47",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>第三次防衛網を突破！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Breached the third defense line!<ab(500)><ed()>",
+   "notes": "Operator report, neutral gender."
+  },
+  {
+   "ref": "m6123#48",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>進路、オールクリア！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Route is all clear!<ab(600)><ed()>",
+   "notes": "Operator report, neutral gender."
+  },
+  {
+   "ref": "m6123#49",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よし、発電衛星を進めろ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Good, advance the power satellite!<ab(500)><ed()>",
+   "notes": "Captain Burning ordering satellite forward."
+  },
+  {
+   "ref": "m6123#50",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>発電衛星は発射地点に到着する。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Satellite arriving at firing point.<ab(400)><ed()>",
+   "notes": "Operator report, neutral gender."
+  },
+  {
+   "ref": "m6123#51",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なあ、これって何に使うんだ？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Hey, what is this used for anyway?<ab(300)><ed()>",
+   "notes": "Tak asking curiously about the satellite weapon."
+  },
+  {
+   "ref": "m6123#52",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>マイクロウェーブを照射して、\n敵の要塞をまるごと焼くんだってさ。<ab(200)>",
+   "en": "<op()><sp(20)>It fires microwaves to roast\nthe enemy fortress whole, they say.<ab(200)>",
+   "notes": "Allied crew / technician explaining."
+  },
+  {
+   "ref": "m6123#53",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>でっかい電子レンジみたいなもんだよ。<ab(300)><ed()>",
+   "en": "<sp(20)>Basically like a giant microwave oven.<ab(300)><ed()>",
+   "notes": "Same speaker continuing without new window."
+  },
+  {
+   "ref": "m6123#54",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……怖いこと考えるなぁ。<ab(600)><ed()>",
+   "en": "<op()><sp(20)>...What a terrifying idea.<ab(600)><ed()>",
+   "notes": "Tak reacting with a dry chill."
+  },
+  {
+   "ref": "m6123#55",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>異なるタイプの敵反応！\n識別はモビルスーツ！！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Different enemy type detected!\nIdentified as mobile suits!!<ab(400)><ed()>",
+   "notes": "Operator detection report, neutral gender."
+  },
+  {
+   "ref": "m6123#56",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まったく、ふがいないねえ、\nどいつも、こいつも！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Good grief, pathetic fools,\nevery single one of 'em!<ab(600)><ed()>",
+   "notes": "Cima Garahau entering battle in her Gerbera Tetra with characteristic foul temper."
+  },
+  {
+   "ref": "m6123#57",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あいつ、デラーズを裏切った後、\nギガノスに逃げ込んだのか！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Did she flee to Giganos after\nbetraying Delaz?!<ab(500)><ed()>",
+   "notes": "Kou Uraki recognizing Cima."
+  },
+  {
+   "ref": "m6123#58",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>流れの傭兵ってわけか、\n大した女だな、まったく……<ab(600)><ed()>",
+   "en": "<op()><sp(20)>A drifting mercenary, huh.\nQuite a woman, honestly...<ab(600)><ed()>",
+   "notes": "Captain Burning wryly commenting on Cima's survival skills."
+  },
+  {
+   "ref": "m6123#59",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ふっ……私ゃ、結局ツキには\n見放されちまったようだねえ……<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Heh... Looks like my luck has\nrun out in the end...<ab(100)><ed()>",
+   "notes": "Cima Garahau defeated in battle ('私ゃ')."
+  },
+  {
+   "ref": "m6123#60",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>う、うあああああああっ！！<ab(100)><ed()>",
+   "en": "<sp(20)>A-Aaaargh!!<ab(100)><ed()>",
+   "notes": "Cima Garahau's defeat scream."
+  },
+  {
+   "ref": "m6123#61",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>照準よし！　３０秒後に照射開始します！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Target locked! Firing in 30 seconds!<ab(200)><ed()>",
+   "notes": "Satellite operator report, neutral gender."
+  },
+  {
+   "ref": "m6123#62",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>全艦、照射弾道軌道より退避せよ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>All ships, clear firing trajectory!<ab(300)><ed()>",
+   "notes": "Fleet commander order."
+  },
+  {
+   "ref": "m6123#63",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>５……４……３……２……１\n照射！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>5... 4... 3... 2... 1...\nFire!<ab(0)><ed()>",
+   "notes": "Countdown and firing command."
+  },
+  {
+   "ref": "m6123#64",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>おやおや、ガンダムの坊やも\n少しは動きがよくなったようだねえ。<ab(200)>",
+   "en": "<op()><sp(20)>Well, well, the Gundam boy's moves\nhave improved a bit, haven't they.<ab(200)>",
+   "notes": "Cima taunting Kou Uraki in combat."
+  },
+  {
+   "ref": "m6123#65",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんのために、ギガノス軍について戦うんだ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Why are you fighting for Giganos?!<ab(200)><ed()>",
+   "notes": "Kou Uraki demanding answers."
+  },
+  {
+   "ref": "m6123#66",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ちょっとしつこいぜ、オバサンよ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>You're pretty persistent, lady!<ab(200)><ed()>",
+   "notes": "Kaine Wakaba insulting Cima as 'オバサン'."
+  },
+  {
+   "ref": "m6123#67",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>月に逃げて来てまで、\n戦争することはないだろうに！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Why wage war after fleeing all the\nway to the Moon?!<ab(200)><ed()>",
+   "notes": "Kou Uraki questioning Cima."
+  },
+  {
+   "ref": "m6123#68",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>傭兵なんかより、海賊に戻ればいいだろう！<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>Go back to being pirates instead of\nmercenaries!<ab(2000)><ed()>",
+   "notes": "Kou or Kaine shouting at Cima."
+  },
+  {
+   "ref": "m6123#69",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>でもね、私の相手をするには\n１０年早いんだよ！<ab(200)><ed()>",
+   "en": "<sp(20)>Still, you're ten years too early\nto take me on!<ab(200)><ed()>",
+   "notes": "Cima continuing her battle banter without new window."
+  },
+  {
+   "ref": "m6123#70",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんのため？　食うためさ！　\nわたしゃこれが商売さね！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Why? To eat! This is my business!<ab(200)><ed()>",
+   "notes": "Cima explaining her cynical mercenary motive."
+  },
+  {
+   "ref": "m6123#71",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>しつこいのはお前だよ！　坊主！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>You're the persistent one, brat!<ab(200)><ed()>",
+   "notes": "Cima snapping at Kaine or Kou."
+  },
+  {
+   "ref": "m6123#72",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いまさら商売がえなんぞ、できるかい！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>As if I could switch jobs now!<ab(200)><ed()>",
+   "notes": "Cima scoffing at switching careers."
+  },
+  {
+   "ref": "m6123#73",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こっちのほうが稼ぎがでかいんでね！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>The payout is way bigger this way!<ab(200)><ed()>",
+   "notes": "Cima explaining the higher pay under Giganos."
+  },
+  {
+   "ref": "m6123#74",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>だったら俺を落としてみろっ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Then try shooting me down!<ab(200)><ed()>",
+   "notes": "Kou or Kaine defying Cima."
+  },
+  {
+   "ref": "m6123#75",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>味方の護衛目標を守るんだ。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Protect our escort target.<ab(400)><ed()>",
+   "notes": "Captain Burning reminding squad of the main objective."
+  },
+  {
+   "ref": "m6123#76",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>あいつらは…！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Those guys are...!<ab(0)><off()>",
+   "notes": "Allied pilot spotting enemy units."
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6123#77",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>なんだい、知り合いかい？<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6123#78",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>せっかく見つけたスポンサーだからねぇ、<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6123#79",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>ここらで手柄の一つもあげて、\nせいぜい高く売り込ませてもらうよ！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6123#80",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>フィードバックシステムに異常電流！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6123#81",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>電流、測定限界値を突破！\nうわぁああああっ！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6123#82",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>第３格納庫で爆発！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6123#83",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>……バカな！　<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6123#84",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>うまく行ったようだな。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6123#85",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>はい。　あとは制圧するだけです。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "brief63086#0",
+   "layer": "tactical briefing",
+   "jp": "友軍の損害",
+   "en": ""
+  },
+  {
+   "ref": "brief63086#1",
+   "layer": "tactical briefing",
+   "jp": "損害率 %d ％",
+   "en": ""
+  },
+  {
+   "ref": "brief63086#2",
+   "layer": "tactical briefing",
+   "jp": "<op(56,1)><sp(2)>#c[5E8FD8]電磁衛星#cの攻撃により、\n#c[BE5050]機動要塞#cはコントロールを失って\n月の引力につかまりました。",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Translated Operation 12 Phase 3 (Giganos Space Fortress), covering the Nadesico's post-battle comms with the Albion, Linda Plato's tactical briefing regarding the microwave power satellite operation against the fortress, Meio Plato and Min joining forces with the Albion after Linda and Min persuade Meio, combat against the defense fleet, and the clash with mercenary Cima Garahau in her Gerbera Tetra with banter between Cima, Kou Uraki, and Kaine Wakaba.",
+  "rows_examined": "m6122#61 to m6122#66, brief63085#2 to brief63085#4, m6123#0 to m6123#2, m6123#6 to m6123#76, along with context before (m6122#49-60) and after (m6123#77-85, brief63086#0-2, op12_04).",
+  "rows_examined_count": 80,
+  "uncertainties": [
+   "In m6123#7-10, Meio Plato arrives and passionately declares his intent to purge Dorchenov for staining Giganos's honor, asking the Albion to withdraw before Linda and Min convince him to cooperate.",
+   "In m6123#56-60 and #64-74, Cima Garahau's distinct rough mercenary tone ('私ゃ', '〜だねえ', '坊や', '坊主') is preserved, clashing with Kou Uraki and Kaine ('オバサンよ').",
+   "In m6123#51-54, informal dialogue between allied pilots/crew about the microwave satellite functioning like a giant microwave oven ('でっかい電子レンジ') reflects the series' casual banter."
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {
+   "56": "Linda Plato"
+  }
+ }
+}

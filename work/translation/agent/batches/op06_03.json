@@ -1,0 +1,686 @@
+{
+ "batch": "op06_03",
+ "operation": 6,
+ "previous_batch": "op06_02",
+ "next_batch": null,
+ "rows_in_slice": 25,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "ガンダム試作3号機",
+   "en": "Gundam GP03",
+   "kind": "unit",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "RX-78GP03 Gundam \"Dendrobium\" (Stamen MS plus Orchis armed base), flown by Kou in space."
+  },
+  {
+   "ja": "デラーズ・フリート",
+   "en": "Delaz Fleet",
+   "kind": "faction",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "Zeon remnant force led by Aiguille Delaz that carries out Operation Stardust in U.C. 0083."
+  },
+  {
+   "ja": "シーマ・ガラハウ",
+   "en": "Cima Garahau",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "female",
+   "role": "Commander of the Cima Fleet (ex-Zeon marines); allied with the Delaz Fleet, then betrays it to the Federation; pilots the Gelgoog Marine Commander Type and Gerbera Tetra. Rank: Lieutenant Colonel (中佐).",
+   "personality": "Scheming, harsh and venomous, intolerant of failure, yet decisive and fiercely loyal to her own men; embittered by how Zeon used her and her homeland Mahal.",
+   "en_short": "Cima"
+  },
+  {
+   "ja": "バスターアーク",
+   "en": "Buster Ark",
+   "kind": "unit",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Modified Gun Ark with an evolving Guardian System and fallen-angel styling; Marina's unit while with the Rainen side."
+  },
+  {
+   "ja": "ラビアンローズ",
+   "en": "La Vie en Rose",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "Anaheim Electronics mobile docking ship where Kou receives GP03."
+  },
+  {
+   "ja": "コンペイトウ",
+   "en": "Konpei Island",
+   "kind": "place",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "The former Zeon fortress Solomon, renamed by the Federation; site of the 0083 naval review that Gato attacks."
+  },
+  {
+   "ja": "コーウェン",
+   "en": "Cowen",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Earth Federation Vice Admiral (中将), commander of the 3rd Earth Orbital Fleet and head of the Gundam Development Project; reformist forced out during Operation Stardust.",
+   "personality": "Reform-minded, determined officer who does everything he can against Operation Stardust despite political opposition.",
+   "full_name": "John Cowen"
+  },
+  {
+   "ja": "GP02",
+   "en": "GP02",
+   "kind": "unit",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "Gundam Development Project Unit 2, RX-78GP02A Gundam \"Physalis\", the nuclear-armed Gundam stolen by Gato."
+  },
+  {
+   "ja": "デラーズ",
+   "en": "Delaz",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Leader of the Delaz Fleet and mastermind of Operation Stardust; former Zeon colonel loyal to Gihren Zabi. Wiki rank: Lieutenant General (0083).",
+   "personality": "Zealous idealist devoted to Spacenoid independence and Gihren's cause; stern but paternal toward Gato; dies shouting \"Sieg Zeon\".",
+   "full_name": "Aiguille Delaz"
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "ガトー",
+   "en": "Gato",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Main antagonist of 0083; Zeon ace \"Nightmare of Solomon\", Delaz Fleet pilot who steals Gundam GP02 and later pilots the Neue Ziel. Rank: Major (U.C. 0083).",
+   "personality": "Honorable, idealistic career soldier; charismatic leader who fights on the front line; hates the Federation but respects worthy opponents.",
+   "full_name": "Anavel Gato"
+  },
+  {
+   "ja": "シーマ",
+   "en": "Cima",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "female",
+   "role": "Commander of the Cima Fleet (ex-Zeon marines); allied with the Delaz Fleet, then betrays it to the Federation; pilots the Gelgoog Marine Commander Type and Gerbera Tetra. Rank: Lieutenant Colonel (中佐).",
+   "personality": "Scheming, harsh and venomous, intolerant of failure, yet decisive and fiercely loyal to her own men; embittered by how Zeon used her and her homeland Mahal.",
+   "full_name": "Cima Garahau"
+  },
+  {
+   "ja": "准将",
+   "en": "Commodore",
+   "kind": "rank"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  }
+ ],
+ "known_portraits": {
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6062#52",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>確か、ウラキと言ったな。<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6062#53",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>私をここまで追い込むとは……<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6062#54",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>なんと他愛のない。\n鎧袖一触とはこのことか。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6062#55",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>二度と忘れん！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6062#56",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>少佐、脱出を！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6062#57",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>ガトーーー！！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6062#58",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>２号機の破壊には成功しました。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6062#59",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>果たしてこれで終わりなのか…<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6062#60",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※ミッション補足<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6062#61",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※敵の増援\n　・ガトーを援護しにきた敵の増援部隊<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6062#62",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※ガトーとパイロットの掛け合い\n　・機体別メッセージ（仮ID：10）<ab(3000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6062#63",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>※ガトーのセリフ　その１\n　・機体別メッセージ（仮ID：11)<ab(3000)><ed()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6062#64",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ガトーのセリフ　その２\n　・機体別メッセージ（仮ID：12)<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6062#65",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ガトーのセリフ　その３\n　・機体別メッセージ（仮ID：13)<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6062#66",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ガトーがプレイヤーの腕を少し認める\n　・機体別メッセージ（仮ID：14)<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6062#67",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ガトーがキレる<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6062#68",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※怒るガトーとパイロットの掛け合い\n　・機体別メッセージ（仮ID：15)<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6062#69",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※ガトーがパイロットと激しく認める\n　・機体別メッセージ（仮ID：16）<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6062#70",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※GP02を逃がすなと激励<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6062#71",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※GP02が逃げそうだと警告　その１<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6062#72",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(3000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>※GP02が逃げそうだと警告　その２<ab(3000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63173#0",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>#c[BE5050]デラーズ#cの<im(1)>コンペイトウ襲撃を防ぐことは\nできなかった。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63173#1",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(2)>だが、私はこれが終わりだとは\n思っていない。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63173#2",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(7)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(9)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(7)>でなければ、#c[BE5050]デラーズ#cがあれだけの\n<im(9)>演説をした理由が見当たらん。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63173#3",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(4)>",
+    "<im(8)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(4)>まだ何か、これ以上に大がかりなことを\n企んでいるからこそ、<im(8)>あれだけの大芝居を\n打って見せたのだ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63173#4",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(10)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(10)>私はコーウェン准将に許可を取り、\n#c[BE5050]デラーズ・フリート#cに対する\n戦闘の続行を決定した。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63173#5",
+   "layer": "debriefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(6)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>これより本艦は<im(6)>ラビアンローズに向かい、\n補給並びに戦力増強のため\n#c[5E8FD8]ガンダム試作３号機#cを受け取る。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63216#0",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「シーマ艦隊の動向」\n\n　　　　　　　　　　　　　　　　　　　プリベンター　レディ・アン",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63216#1",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(1)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(3)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)><im(1)>#c[BE5050]ガンダム２号機#cによる核攻撃の被害は、\n#c[5E8FD8]ＵＣＥ#c艦隊<im(3)>の３分の２を破壊するに至った。\n",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63216#2",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[E2E258]",
+    "#c",
+    "<im(4)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>その一方で、#c[BE5050]デラーズ・フリート#c指揮下の\n#c[E2E258]シーマ・ガラハウ#c率いる部隊<im(4)>は、観艦式とは\nまったく異なる方角へ向かっている。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63216#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>彼らが向かうサイド１付近に、大規模な\n#c[5E8FD8]ＵＣＥ#cの拠点はないが、コロニー再生計画\nのために２基のコロニーが移送されている。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63216#4",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>観艦式での派手な行動とは対照的に、\n隠密に徹したこの行動を見る限りでは、\n観艦式テロ<im(2)>の方が陽動であった可能性もある。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63216#5",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>各部隊には、十分な警戒を求めたい。\n\n",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63217#0",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>「バスターアークの動向」\n\n　　　　　　　　　　　　　　　　　　　プリベンター　レディ・アン",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63217#1",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "<im(1)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)><im(1)>先日、衛星軌道上で#c[BE5050]バスターアーク#cを\n目撃した<im(2)>との報告が#c[5E8FD8]ＵＣＥ#c第二監視センター\nより報告された。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63217#2",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>同機は、これまでにも地上の各交戦地域で\n目撃されてきたが、大気圏外での出現報告は\n今回が初めてとなる。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63217#3",
+   "layer": "Preventer report",
+   "phase": null,
+   "tokens": [
+    "<sp(0)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<sp(0)>何らかの行動を起こす可能性が高いと\n考えられるため、現在も#c[BE5050]バスターアーク#cの\n監視行動を続行中である。",
+   "en": "",
+   "notes": ""
+  }
+ ],
+ "context_after": [],
+ "report": {
+  "translator_summary": "",
+  "rows_examined": "",
+  "rows_examined_count": 0,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

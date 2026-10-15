@@ -1,0 +1,1899 @@
+{
+ "batch": "op03_02",
+ "operation": 3,
+ "previous_batch": "op03_01",
+ "next_batch": "op03_03",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "ジョナサン・グランチャー",
+   "en": "Jonathan Grand Cher",
+   "kind": "unit",
+   "series": "Brain Powerd",
+   "role": "Jonathan Glenn's custom Grand Cher"
+  },
+  {
+   "ja": "オーガニックプレート",
+   "en": "Organic Plate",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Dotless form of オーガニック・プレート (plate the Reclaimers collect)."
+  },
+  {
+   "ja": "ノヴィス・ノア",
+   "en": "Novis Noah",
+   "kind": "ship",
+   "series": "Brain Powerd",
+   "role": "Anti-Orphan battleship (carrier with a pyramid superstructure); base of the Brain Powerd pilots"
+  },
+  {
+   "ja": "アンチボディ",
+   "en": "Antibody",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Organic mecha born from Orphan plates (Grand Chers and Brains)."
+  },
+  {
+   "ja": "グランチャー",
+   "en": "Grand Cher",
+   "kind": "unit",
+   "series": "Brain Powerd",
+   "role": "Orphan-loyal Antibody piloted by Reclaimers (generic grunt unit)"
+  },
+  {
+   "ja": "ショウ・ザマ",
+   "en": "Show Zama",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Protagonist; Holy Warrior (Seisenshi) from Tokyo summoned to Byston Well; defects from Drake Luft to the resistance; pilots Dunbine, later Billbine",
+   "personality": "Hot-blooded, stubborn young motocross racer who grows into a serious, driven warrior. Has huge Aura Power but struggles to control it. Has unspoken feelings for Marvel.",
+   "en_short": "Sho"
+  },
+  {
+   "ja": "ヒメ・ブレン",
+   "en": "Hime Brain",
+   "kind": "unit",
+   "series": "Brain Powerd",
+   "role": "Hime Utsumiya's Brain Powerd"
+  },
+  {
+   "ja": "ユウ・ブレン",
+   "en": "Yuu Brain",
+   "kind": "unit",
+   "series": "Brain Powerd",
+   "role": "Yuu Isami's Brain Powerd"
+  },
+  {
+   "ja": "リクレイマー",
+   "en": "Reclaimer",
+   "kind": "faction",
+   "series": "Brain Powerd",
+   "role": "The people who serve Orphan and pilot Grand Chers to gather its plates; plural 'Reclaimers'"
+  },
+  {
+   "ja": "ガンアーク",
+   "en": "Gun Ark",
+   "kind": "unit",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Latest Ark-series transforming machine from the UCE Design Bureau; Tak's (and initially Marina's red) unit; can call Guardian satellite strikes."
+  },
+  {
+   "ja": "バストール",
+   "en": "Bastole",
+   "kind": "unit",
+   "series": "Aura Battler Dunbine",
+   "role": "Drake army Aura Battler (Garalia's pink custom in the series)"
+  },
+  {
+   "ja": "ガラリア",
+   "en": "Garalia",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "female",
+   "role": "Knight in Burn's squadron of Drake's army; pilots Drumlo, Virunvee and Bastole",
+   "personality": "Fiercely ambitious and hot-tempered. Desperate to win glory and restore her family name, which was disgraced when her parents defected. Has a rivalry with Sho.",
+   "full_name": "Garalia Nyamhee"
+  },
+  {
+   "ja": "バニング",
+   "en": "Burning",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Veteran Earth Federation pilot (Captain, 大尉), leader of the Burning Team on the Albion and Kou's mentor; KIA 8 Nov 0083.",
+   "personality": "Experienced, strict but fatherly mentor to the young pilots. (The wiki personality section is empty; this is inferred from his role on the wiki.)",
+   "full_name": "South Burning"
+  },
+  {
+   "ja": "プレート",
+   "en": "plate",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Orphan's disc plates sought by the Reclaimers; ALSO (crossover) inscribed plates carrying a Zentradi/Protoculture song."
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "ショウ",
+   "en": "Show",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Protagonist; Holy Warrior (Seisenshi) from Tokyo summoned to Byston Well; defects from Drake Luft to the resistance; pilots Dunbine, later Billbine",
+   "personality": "Hot-blooded, stubborn young motocross racer who grows into a serious, driven warrior. Has huge Aura Power but struggles to control it. Has unspoken feelings for Marvel.",
+   "full_name": "Sho Zama"
+  },
+  {
+   "ja": "ブレン",
+   "en": "Brain",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Short for Brain Powerd units (ブレンたち, ブレンパワード隊)."
+  },
+  {
+   "ja": "マリナ",
+   "en": "Marina",
+   "kind": "character",
+   "series": "Another Century's Episode 2 (original)",
+   "gender": "female",
+   "role": "ACE2 heroine; Ensign in Tak's squad, pilot of the red Gun Ark; goes missing at Torrington Base, reappears with the Rainen Project in the Buster Ark, later rejoins Tak.",
+   "personality": "Cool and reserved ('defrosting ice queen' in flashbacks); deeply bonded with Tak.",
+   "full_name": "Marina Carson"
+  },
+  {
+   "ja": "大尉",
+   "en": "Captain",
+   "en_short": "Capt.",
+   "kind": "rank",
+   "note": "army/MS rank; a ship's captain (艦長) is also Captain"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  },
+  {
+   "ja": "比瑪",
+   "en": "Hime",
+   "kind": "character",
+   "series": "Brain Powerd",
+   "gender": "female",
+   "role": "Female lead; 17-year-old Brain Powerd pilot (Hime Brain) aboard the Novis Noah",
+   "personality": "Cheerful, warm and motherly toward the children and her Brain. Optimistic and brave, and believes in talking to people and Antibodies alike.",
+   "full_name": "Hime Utsumiya"
+  }
+ ],
+ "known_portraits": {
+  "31": {
+   "speaker": "Irene Carrier",
+   "gender": "female",
+   "role": "acting captain of the Novis Noa",
+   "confidence": "high",
+   "evidence": "brief: 'ノヴィス・ノアの艦長代理、アイリーン・キャリアーです。'"
+  },
+  "38": {
+   "speaker": "South Burning",
+   "gender": "male",
+   "role": "Captain, mobile weapons unit commander at Torrington",
+   "confidence": "high",
+   "evidence": "brief63000: 'I'm Captain South Burning.'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6031#44",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>間に合わなかったか…<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6031#45",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵の増援を確認！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6031#46",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>高速で接近する機影があります！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6031#47",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>こいつらはちょっと違う…！<ab(200)>",
+   "en": ""
+  },
+  {
+   "ref": "m6031#48",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>くそっ！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6031#49",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>これじゃきりがない！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6031#50",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>怖がるな、ブレン！　お前ならやれるさ。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6031#51",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>あと少しだ！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6031#52",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>…勇！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "brief63039#0",
+   "layer": "tactical briefing",
+   "jp": "ノヴィス・ノアの損傷",
+   "en": ""
+  },
+  {
+   "ref": "brief63039#1",
+   "layer": "tactical briefing",
+   "jp": "損傷率 %d ％",
+   "en": ""
+  },
+  {
+   "ref": "brief63039#2",
+   "layer": "tactical briefing",
+   "jp": "<op(31,1)><sp(2)>#c[BE5050]リクレイマー#cの<im(1)>別の部隊がそちらに\n向かっているのを確認<im(4)><im(6)>しました。",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "brief63039#3",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(2)>最近の大規模な地殻変動の影響で、\nこのあたりではよくプレートが\n出現しています。",
+   "en": "<op(31,1)><sp(2)>Due to recent large-scale tectonic shifts,\nplates have frequently been surfacing\naround here.",
+   "notes": "Irene Carrier continues Phase 2 tactical briefing."
+  },
+  {
+   "ref": "brief63039#4",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(2)>彼らがここに来たのはそのプレートを\n集めるためですが、だからと言って\n素通りはさせてくれないと思います。",
+   "en": "<op(31,1)><sp(2)>They came here to collect those plates,\nbut even so, I doubt they will let us\npass by freely.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63039#5",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "<im(5)>",
+    "<im(7)>",
+    "#c[F07141]",
+    "#c",
+    "<tr(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(2)>貴艦の進路<im(2)><im(5)><im(7)>を確保するためには\n#c[F07141]交戦は避けられない#cでしょう。<tr(1)>\nよろしくお願いします。",
+   "en": "<op(31,1)><sp(2)>To secure your ship's route,<im(2)><im(5)><im(7)>\n#c[F07141]combat will likely be unavoidable#c.<tr(1)>\nI am counting on you.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63039#6",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(2)>",
+    "<im(8)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(2)>また、可能な限りでいいのですが、\n彼らのプレート回収の阻止を\n行ってもらえるでしょうか？<im(8)>",
+   "en": "<op(31,1)><sp(2)>Also, if at all possible,\ncould you prevent them from collecting\nthe plates?<im(8)>",
+   "notes": ""
+  },
+  {
+   "ref": "brief63039#7",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<of(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(2)>これが#c[BE5050]リクレイマー#cの手に渡ると、\nグランチャーなどの戦力を<of(1)>\n生み出す原因になってしまいます。",
+   "en": "<op(31,1)><sp(2)>If these fall to the #c[BE5050]Reclaimers#c,\nit will allow them to produce forces<of(1)>\nsuch as Grand Chers.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63039#8",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>#c[5E8FD8]ノヴィス・ノア#cはまだ持ちこたえているが、\nあまりぐずぐずしていられないぞ。",
+   "en": "<op(38,1)><sp(2)>The #c[5E8FD8]Novis Noah#c is still holding out,\nbut we can't afford to waste time.",
+   "notes": "Captain South Burning."
+  },
+  {
+   "ref": "m6032#0",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ヌートリアの全破壊",
+   "en": "Destroy all Nutria",
+   "notes": "Objective label. Nutria is the Reclaimer transport craft in Brain Powerd."
+  },
+  {
+   "ref": "m6032#2",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "所属不明機の撃破",
+   "en": "Destroy the unidentified unit",
+   "notes": "Objective label."
+  },
+  {
+   "ref": "m6032#3",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>高速接近する熱源多数！\n敵のアンチボディです！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Multiple heat sources closing fast!\nEnemy Antibodies incoming!<ab(1000)><ed()>",
+   "notes": "Operator alert."
+  },
+  {
+   "ref": "m6032#4",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>プレートの位置はこちらで指示します。\n回収を阻止してください。<ab(600)><ed()>",
+   "en": "<op()><sp(20)>We will designate plate locations.\nPrevent their recovery!<ab(600)><ed()>",
+   "notes": "Operator instruction."
+  },
+  {
+   "ref": "m6032#5",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>順調なようですね。\nその調子でお願いします。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Looks like things are going well.\nKeep up the good work.<ab(500)><ed()>",
+   "notes": "Operator encouragement."
+  },
+  {
+   "ref": "m6032#7",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>新手か！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>More hostiles?!<ab(200)><ed()>",
+   "notes": "Combat line."
+  },
+  {
+   "ref": "m6032#8",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>貴様らにプレートは渡さん！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>We won't let you have the plates!<ab(300)><ed()>",
+   "notes": "Reclaimer pilot."
+  },
+  {
+   "ref": "m6032#10",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>進路の確保を急いでくれ。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Hurry and clear our route.<ab(500)><ed()>",
+   "notes": "Bridge instruction."
+  },
+  {
+   "ref": "m6032#11",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ノヴィス・ノアのダメージ、さらに拡大！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Novis Noah damage worsening further!<ab(300)><ed()>",
+   "notes": "Damage alert."
+  },
+  {
+   "ref": "m6032#12",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そろそろまずくなってきたわね…<ab(500)><ed()>",
+   "en": "<op()><sp(20)>This is starting to look bad...<ab(500)><ed()>",
+   "notes": "Female observer (Linda or operator)."
+  },
+  {
+   "ref": "m6032#13",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ノヴィス、ノア、機関部に損傷！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Novis Noah engine room damaged!<ab(200)><ed()>",
+   "notes": "Damage alert."
+  },
+  {
+   "ref": "m6032#14",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何をやっているんだ！<ab(800)><ed()>",
+   "en": "<op()><sp(20)>What are you doing?!<ab(800)><ed()>",
+   "notes": "Captain Burning."
+  },
+  {
+   "ref": "m6032#15",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>援護する！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Providing cover!<ab(100)><ed()>",
+   "notes": "Combat shout."
+  },
+  {
+   "ref": "m6032#16",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>助かる！　敵は強いぞ！　気をつけろ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Thanks! The enemy is tough!\nStay sharp!<ab(300)><ed()>",
+   "notes": "Combat line."
+  },
+  {
+   "ref": "m6032#17",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>おい、なんか手強そうなのが来たぞ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Hey, something tough is coming!<ab(500)><ed()>",
+   "notes": "Pilot (Tak or Kaine)."
+  },
+  {
+   "ref": "m6032#18",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>全ターゲットの破壊を確認。\n残りの敵、撤退していきます。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>All targets confirmed destroyed.\nRemaining hostiles are retreating.<ab(500)><ed()>",
+   "notes": "Radar operator."
+  },
+  {
+   "ref": "m6032#19",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よーし、よくやった！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>All right, well done!<ab(300)><ed()>",
+   "notes": "Commander."
+  },
+  {
+   "ref": "m6032#20",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>周辺にプレート、敵機ともに反応なし。\nご協力、感謝します。<ab(800)><ed()>",
+   "en": "<op()><sp(20)>No plates or hostiles on sensors.\nThank you for your cooperation.<ab(800)><ed()>",
+   "notes": "Operator report."
+  },
+  {
+   "ref": "m6032#21",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>高熱源体、高速で接近！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>High heat signature closing fast!<ab(100)><ed()>",
+   "notes": "Radar alert."
+  },
+  {
+   "ref": "m6032#22",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>またリクレイマー？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>More Reclaimers?<ab(300)><ed()>",
+   "notes": "Pilot query."
+  },
+  {
+   "ref": "m6032#23",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>所属不明機が攻撃を仕掛けてきました！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Unidentified unit launching an attack!<ab(500)><ed()>",
+   "notes": "Operator alert."
+  },
+  {
+   "ref": "m6032#24",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんだってんだよ！　そいつは！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>What the hell is that thing?!<ab(200)><ed()>",
+   "notes": "Pilot shout."
+  },
+  {
+   "ref": "m6032#25",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵ということは確かだな。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>It's definitely an enemy.<ab(300)><ed()>",
+   "notes": "Veteran assessment."
+  },
+  {
+   "ref": "m6032#26",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>バニング大尉、あの機体は…<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Captain Burning, that unit...<ab(700)><ed()>",
+   "notes": "Tak Kepford to Capt. Burning."
+  },
+  {
+   "ref": "m6032#27",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>似てはいますが…\nしかし、そんなはずは…<ab(700)><ed()>",
+   "en": "<op()><sp(20)>It looks similar, but...\nThat shouldn't be possible...<ab(700)><ed()>",
+   "notes": "Burning or operator."
+  },
+  {
+   "ref": "m6032#28",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ガンアークはもうこの１機だけのはず…\nだとしたらあれは何だ！<ab(800)><ed()>",
+   "en": "<op()><sp(20)>There should only be one Gun Ark...\nThen what is that machine?!<ab(800)><ed()>",
+   "notes": "Tak Kepford."
+  },
+  {
+   "ref": "m6032#29",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>落ち着けよ、ユウ・ブレン！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Calm down, Yuu Brain!<ab(300)><ed()>",
+   "notes": "Tak or ally to Yuu."
+  },
+  {
+   "ref": "m6032#30",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>所属不明機は撤退。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Unidentified unit retreating.<ab(400)><ed()>",
+   "notes": "Radar operator."
+  },
+  {
+   "ref": "m6032#31",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>結局何がしたかったんだ、あいつ？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>What did that guy even want?<ab(300)><ed()>",
+   "notes": "Pilot query."
+  },
+  {
+   "ref": "m6032#32",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>わからないな……<ab(500)><ed()>",
+   "en": "<op()><sp(20)>I have no idea...<ab(500)><ed()>",
+   "notes": "Pilot response."
+  },
+  {
+   "ref": "m6032#33",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……マリナ……？<ab(2200)><ed()>",
+   "en": "<op()><sp(20)>...Marina...?<ab(2200)><ed()>",
+   "notes": "Tak murmurs in disbelief."
+  },
+  {
+   "ref": "m6032#34",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>話は後だ。\n今は目の前の作戦を忘れるな！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Talk later.\nFocus on the mission ahead!<ab(700)><ed()>",
+   "notes": "Captain Burning."
+  },
+  {
+   "ref": "m6032#35",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>迎撃しろ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Intercept them!<ab(400)><ed()>",
+   "notes": "Order."
+  },
+  {
+   "ref": "m6032#36",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>敵はオーガニックプレートを回収中です。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Enemy is collecting Organic Plates.<ab(0)><off()>",
+   "notes": "Comms report."
+  },
+  {
+   "ref": "m6032#37",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(3900)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>隙をみて、こちらもプレートを\n回収してください。<ab(3900)><off()>",
+   "en": "<on()><sp(20)>Watch for an opening and\nretrieve plates ourselves.<ab(3900)><off()>",
+   "notes": "Comms instruction."
+  },
+  {
+   "ref": "m6032#38",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>！！　あれは…ガンアーク！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>!! That's... the Gun Ark?!<ab(0)><off()>",
+   "notes": "Shocked pilot reaction."
+  },
+  {
+   "ref": "m6032#39",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>…バカな！<ab(0)><off()>",
+   "en": "<on()><sp(20)>...Impossible!<ab(0)><off()>",
+   "notes": "Disbelief."
+  },
+  {
+   "ref": "m6032#40",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>まだグランチャーが！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>More Grand Chers?!<ab(0)><off()>",
+   "notes": "Combat line."
+  },
+  {
+   "ref": "m6032#41",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>あれは……マリナ…？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Is that... Marina...?<ab(0)><off()>",
+   "notes": "Tak murmurs over comms."
+  },
+  {
+   "ref": "brief63040#2",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(0)>",
+    "<im(1)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(9)>",
+    "<im(4)>",
+    "<im(6)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(0)><im(1)>こちら#c[5E8FD8]ノヴィス・ノア#c！<im(9)><im(4)><im(6)>\n#c[BE5050]リクレイマー#cの#c[BE5050]グランチャー部隊#cとの\n交戦がまだ続いています。",
+   "en": "<op(31,1)><sp(0)><im(1)>This is the #c[5E8FD8]Novis Noah#c!<im(9)><im(4)><im(6)>\nWe are still engaged in combat with the\n#c[BE5050]Reclaimer#c #c[BE5050]Grand Cher force#c.",
+   "notes": "Irene Carrier gives Phase 3 tactical briefing."
+  },
+  {
+   "ref": "brief63040#3",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(0)>",
+    "<im(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(5)>",
+    "<im(7)>",
+    "<tr(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(0)><im(2)>哨戒任務中だった#c[5E8FD8]ヒメ・ブレン#cが戻って<im(5)><im(7)>\n迎撃に当たってくれていますが、<tr(1)>\n数が多すぎて対応し切れません。",
+   "en": "<op(31,1)><sp(0)><im(2)>#c[5E8FD8]Hime Brain#c returned from patrol<im(5)><im(7)>\nand is intercepting,<tr(1)> but they are\nsimply too numerous to handle.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63040#4",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(0)>",
+    "#c[F07141]",
+    "#c",
+    "<im(3)>",
+    "<im(8)>",
+    "<of(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(0)>至急、#c[F07141]援護#cを<im(3)><im(8)>お願いします！<of(1)>\n勇、悪いけど、\nこちらに来て比瑪を助けてあげて！",
+   "en": "<op(31,1)><sp(0)>Please provide #c[F07141]support#c<im(3)><im(8)> immediately!<of(1)>\nYuu, I hate to ask, but please head over\nand help Hime out!",
+   "notes": ""
+  },
+  {
+   "ref": "m6033#1",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ジョナサン・グランチャーの撃破",
+   "en": "Destroy the Jonathan Grand Cher",
+   "notes": "Objective label."
+  },
+  {
+   "ref": "m6033#2",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "バストールの撃破",
+   "en": "Destroy the Bastole",
+   "notes": "Objective label."
+  },
+  {
+   "ref": "m6033#5",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵影確認！\nリクレイマーのアンチボディです！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Hostile signatures confirmed!\nReclaimer Antibodies incoming!<ab(300)><ed()>",
+   "notes": "Operator alert."
+  },
+  {
+   "ref": "m6033#6",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ノヴィス・ノアの援護を頼む。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Cover the Novis Noah.<ab(300)><ed()>",
+   "notes": "Order."
+  },
+  {
+   "ref": "m6033#7",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>行くよ、ヒメブレン！\nまだ行けるよね？<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Let's go, Hime Brain!\nYou can still fight, right?<ab(700)><ed()>",
+   "notes": "Hime Utsumiya speaks to her Brain."
+  },
+  {
+   "ref": "m6033#8",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>オーガニックシールドを展開して！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Deploy the Organic Shield!<ab(300)><ed()>",
+   "notes": "Hime Utsumiya."
+  },
+  {
+   "ref": "m6033#9",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ノヴィス・ノアの付近にいれば、\nダメージを抑えられるわよ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Stay close to the Novis Noah\nto minimize damage!<ab(600)><ed()>",
+   "notes": "Hime advises allies."
+  },
+  {
+   "ref": "m6033#10",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>５時の方向に熱源を確認！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Heat signature at five o'clock!<ab(400)><ed()>",
+   "notes": "Radar operator."
+  },
+  {
+   "ref": "m6033#11",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>連携攻撃を使うんだ。<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Use coordinated attacks.<ab(600)><ed()>",
+   "notes": "Tactical instruction."
+  },
+  {
+   "ref": "m6033#12",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>聞こえた？　タイミングはよろしく。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Hear that? I'll match your timing.<ab(500)><ed()>",
+   "notes": "Hime to player/Yuu."
+  },
+  {
+   "ref": "m6033#13",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>気をつけて！\nグランチャーが、もう１機上がってくるわ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Look out!\nAnother Grand Cher is coming up!<ab(400)><ed()>",
+   "notes": "Hime warning."
+  },
+  {
+   "ref": "m6033#14",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そいつが敵の指揮官だな。\n気をつけろよ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>That must be the enemy commander.\nStay on your guard!<ab(600)><ed()>",
+   "notes": "Pilot warning about Jonathan Glenn."
+  },
+  {
+   "ref": "m6033#15",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くそ、ここは一旦退く！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Damn it, fall back for now!<ab(400)><ed()>",
+   "notes": "Jonathan Glenn retreat."
+  },
+  {
+   "ref": "m6033#16",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こちらＵＣＥ第八海上部隊。<ab(300)>",
+   "en": "<op()><sp(20)>This is UCE 8th Naval Unit.<ab(300)>",
+   "notes": "UCE allied unit transmission."
+  },
+  {
+   "ref": "m6033#17",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>こちらで追跡中の所属不明機２機が\nそちらに向かった。　援護を要請したい。<ab(300)><ed()>",
+   "en": "<sp(20)>Two unknown units we were tracking\nheaded your way. Requesting backup.<ab(300)><ed()>",
+   "notes": "Continuation of row 61."
+  },
+  {
+   "ref": "m6033#18",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>リクレイマーじゃないのか？<ab(100)><ed()>",
+   "en": "<op()><sp(20)>They're not Reclaimers?<ab(100)><ed()>",
+   "notes": "Pilot query."
+  },
+  {
+   "ref": "m6033#19",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こちらでも機影は捉えていますが、\nデータにありません！<ab(200)>",
+   "en": "<op()><sp(20)>We have them on radar too,\nbut there's no data on them!<ab(200)>",
+   "notes": "Operator report."
+  },
+  {
+   "ref": "m6033#20",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(50)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>こっちに来ます！<ab(50)><ed()>",
+   "en": "<sp(20)>They're coming right at us!<ab(50)><ed()>",
+   "notes": "Continuation of row 64."
+  },
+  {
+   "ref": "m6033#21",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんだ、あの機体は…！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>What are those units...?!<ab(500)><ed()>",
+   "notes": "Surprise at Dunbine and Bastole."
+  },
+  {
+   "ref": "m6033#22",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こいつらも味方でないことは確かだな。\n向かってくる奴には応戦しろ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>They're certainly no allies either.\nReturn fire on any who attack!<ab(500)><ed()>",
+   "notes": "Captain Burning order."
+  },
+  {
+   "ref": "m6033#23",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あの機体…教則書にも載ってなかったぞ。\nかなりの機動性だ。<ab(400)>",
+   "en": "<op()><sp(20)>Those units aren't in any manual.\nTheir mobility is incredible.<ab(400)>",
+   "notes": "Pilot assessment."
+  },
+  {
+   "ref": "m6033#24",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>まるで生き物のようだな…一体何者だ？<ab(400)><ed()>",
+   "en": "<sp(20)>They move just like creatures...\nWho on earth are they?<ab(400)><ed()>",
+   "notes": "Continuation of row 68."
+  },
+  {
+   "ref": "m6033#25",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ショウ！　地上人に己を売ったのか！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Show! Have you sold yourself\nto the Upper Earthlings?!<ab(300)><ed()>",
+   "notes": "Garalia Nyamhee shouts at Show Zama."
+  },
+  {
+   "ref": "m6033#26",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ガラリア！　違う！　こいつらは！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Garalia! You're wrong! They're...!<ab(200)><ed()>",
+   "notes": "Show Zama responds."
+  },
+  {
+   "ref": "m6033#27",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そうよ！　誤解よ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>That's right! It's a mistake!<ab(100)><ed()>",
+   "notes": "Cham Huau chimes in."
+  },
+  {
+   "ref": "m6033#28",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ええい黙れ！！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Enough! Silence!!<ab(400)><ed()>",
+   "notes": "Garalia Nyamhee."
+  },
+  {
+   "ref": "m6033#29",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そこの２機！　所属と目的を明らかにしろ！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>You two units!\nState your affiliation and intent!<ab(700)><ed()>",
+   "notes": "Albion / UCE pilot hail."
+  },
+  {
+   "ref": "m6033#30",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺はショウ・ザマ！<ab(200)>",
+   "en": "<op()><sp(20)>I am Show Zama!<ab(200)>",
+   "notes": "Show Zama introduces himself."
+  },
+  {
+   "ref": "m6033#31",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>来たところに帰りたいだけだ！\n離れていてくれ！　頼む！<ab(500)><ed()>",
+   "en": "<sp(20)>I only want to return where I came from!\nStay back! Please!<ab(500)><ed()>",
+   "notes": "Continuation of row 75."
+  },
+  {
+   "ref": "m6033#32",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>見えすいた茶番はよせっ！！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Cut the transparent farce!!<ab(300)><ed()>",
+   "notes": "Garalia Nyamhee."
+  },
+  {
+   "ref": "m6033#33",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あいつ……敵意はないのか？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>That guy... has no hostile intent?<ab(300)><ed()>",
+   "notes": "Tak Kepford."
+  },
+  {
+   "ref": "m6033#34",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やめろって言ってるのに！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>I told you to stop it!<ab(300)><ed()>",
+   "notes": "Show Zama."
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6033#35",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>お前らも敵か！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6033#36",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>なんとかあいつをおとなしくさせるんだ！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6033#37",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……ブレンは、あの人たちを怖がってない。\nよーし！<ab(800)>",
+   "en": ""
+  },
+  {
+   "ref": "m6033#38",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>ねえ、もうやめよう？　あなたたち、\n本当は戦いたくなんかないんでしょう？<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6033#39",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>なんだお前は？　邪魔だ！　どけ！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6033#40",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>そんな風に脅かしたって怖くないよ？\nだって、あなた悪い人じゃないから。<ab(400)>",
+   "en": ""
+  },
+  {
+   "ref": "m6033#41",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>ブレンが怖がってないもの。<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6033#42",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>な、何が言いたい？<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6033#43",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>俺たちは戦うべきじゃないってことだ！<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6033#44",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>ガラリア！　\n一緒にバイストン・ウェルに帰ろう！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6033#45",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>なんだと！？<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6033#46",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>試してみよう。<ab(100)>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Operation 03 continues across Phase 2 and Phase 3. In Phase 2, the team stops Reclaimers from collecting Organic Plates and encounters an unidentified machine resembling the Gun Ark, leading Tak to suspect Marina is alive. In Phase 3, Hime Utsumiya in Hime Brain helps defend the Novis Noah against Jonathan Glenn, and Show Zama (Dunbine) with Cham Huau and Garalia Nyamhee (Bastole) unexpectedly breach into the area from Byston Well. All lines follow the established glossary, character registers, and technical constraints.",
+  "rows_examined": "op03_02 rows 1-80 + op03_01 rows 60-80 context + op03_03 rows 1-30 forward context",
+  "rows_examined_count": 120,
+  "uncertainties": [
+   "Row 6 (m6032#0): 'ヌートリア' translated as 'Nutria', the Reclaimer transport craft in Brain Powerd.",
+   "Row 36 (m6032#33) and Row 44 (m6032#41): Kept 'Marina...?' with question mark per INDICE.md instructions not to reveal her identity prematurely.",
+   "Row 70 (m6033#25): '地上人' translated as 'Upper Earthlings' (the standard Dunbine series term for people from Earth's surface).",
+   "Row 72 (m6033#27): Cham Huau interjecting in support of Show Zama."
+  ],
+  "glossary_proposals": [
+   {
+    "ja": "ヌートリア",
+    "en": "Nutria",
+    "kind": "unit",
+    "series": "Brain Powerd",
+    "sources": [
+     "https://brainpowerd.fandom.com/wiki/Nutria"
+    ],
+    "note": "Reclaimer transport / recovery craft in Brain Powerd; appears in row 6 (m6032#0)."
+   },
+   {
+    "ja": "地上人",
+    "en": "Upper Earthling",
+    "kind": "term",
+    "series": "Aura Battler Dunbine",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Aura_Battler_Dunbine"
+    ],
+    "note": "Byston Well term for surface dwellers; used by Garalia in row 70 (m6033#25)."
+   },
+   {
+    "ja": "オーガニックシールド",
+    "en": "Organic Shield",
+    "kind": "term",
+    "series": "Brain Powerd",
+    "sources": [
+     "https://brainpowerd.fandom.com/wiki/Brain_Powerd"
+    ],
+    "note": "Barrier ability used by Brain Powerds; row 53 (m6033#8)."
+   }
+  ],
+  "portrait_speakers": {},
+  "rows_left_untranslated": []
+ }
+}

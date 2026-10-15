@@ -1,0 +1,1849 @@
+﻿{
+    "batch":  "op25_02",
+    "operation":  25,
+    "previous_batch":  "op25_01",
+    "next_batch":  "op25_03",
+    "rows_in_slice":  80,
+    "do_not_touch_names":  [
+                               "Barkholz",
+                               "Capt. Burning",
+                               "Captain Burning",
+                               "Captain South Burning",
+                               "Cowen",
+                               "Giganos",
+                               "Lieutenant",
+                               "Lt.",
+                               "Major Anavel Gato",
+                               "Sinapus",
+                               "Tak"
+                           ],
+    "glossary":  [
+                     {
+                         "ja":  "バイストン・ウェル",
+                         "en":  "Byston Well",
+                         "kind":  "place",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "The otherworld between sea and land where Dunbine takes place."
+                     },
+                     {
+                         "ja":  "ウィル・ウィプス",
+                         "en":  "Will Wipps",
+                         "kind":  "ship",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Drake Luft\u0027s flagship aura battleship; an enemy ship in Operation 25."
+                     },
+                     {
+                         "ja":  "グラン・ガラン",
+                         "en":  "Gran-Garan",
+                         "kind":  "ship",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Aura battleship of Queen Ciela Lapana (Kingdom of Na)"
+                     },
+                     {
+                         "ja":  "ゲア・ガリング",
+                         "en":  "Gea Garing",
+                         "kind":  "ship",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Aura battleship of Bishot Hatta, King of Ku; an enemy ship in Operation 25."
+                     },
+                     {
+                         "ja":  "バスターアーク",
+                         "en":  "Buster Ark",
+                         "kind":  "unit",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "role":  "Modified Gun Ark with an evolving Guardian System and fallen-angel styling; Marina\u0027s unit while with the Rainen side."
+                     },
+                     {
+                         "ja":  "オーラノヴァ",
+                         "en":  "Aura Nova",
+                         "kind":  "term",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Only appears as オーラノヴァ砲, the main cannon of the aura battleship Goraon."
+                     },
+                     {
+                         "ja":  "オーラマシン",
+                         "en":  "Aura Machine",
+                         "kind":  "term",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Collective term for all aura-powered machines (Aura Battlers, aura ships) of the Drake Army."
+                     },
+                     {
+                         "ja":  "ショウ・ザマ",
+                         "en":  "Show Zama",
+                         "kind":  "character",
+                         "series":  "Aura Battler Dunbine",
+                         "gender":  "male",
+                         "role":  "Protagonist; Holy Warrior (Seisenshi) from Tokyo summoned to Byston Well; defects from Drake Luft to the resistance; pilots Dunbine, later Billbine",
+                         "personality":  "Hot-blooded, stubborn young motocross racer who grows into a serious, driven warrior. Has huge Aura Power but struggles to control it. Has unspoken feelings for Marvel.",
+                         "en_short":  "Sho"
+                     },
+                     {
+                         "ja":  "ダンバイン",
+                         "en":  "Dunbine",
+                         "kind":  "unit",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Title Aura Battler; Sho\u0027s first unit; Marvel\u0027s playable unit in ACE2"
+                     },
+                     {
+                         "ja":  "バロンズゥ",
+                         "en":  "Baronz",
+                         "kind":  "unit",
+                         "series":  "Brain Powerd",
+                         "role":  "Dotless form of バロン・ズゥ: Jonathan\u0027s/Quincy\u0027s powerful Antibody (also 巨大バロンズゥ)."
+                     },
+                     {
+                         "ja":  "ライネック",
+                         "en":  "Wryneck",
+                         "kind":  "unit",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Late-war Aura Battler of the Drake and Kingdom of Kuh side (Bishot Hate); Todd\u0027s unit in ACE2"
+                     },
+                     {
+                         "ja":  "ゴラオン",
+                         "en":  "Goraon",
+                         "kind":  "ship",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Aura battleship of Elle Humm (Kingdom of Lao), armed with the Aura Nova Cannon"
+                     },
+                     {
+                         "ja":  "ドレイク",
+                         "en":  "Drake",
+                         "kind":  "character",
+                         "series":  "Aura Battler Dunbine",
+                         "gender":  "male",
+                         "role":  "Main antagonist; Lord of House Luft in the Kingdom of Ah (アの国), who summons Holy Warriors and wages war to unite Byston Well; commands the Will Wipps",
+                         "personality":  "Ambitious, scheming warlord who believes his conquest is justified. Loves his daughter Riml but is blind to the plots around him.",
+                         "full_name":  "Drake Luft"
+                     },
+                     {
+                         "ja":  "ナデシコ",
+                         "en":  "Nadesico",
+                         "kind":  "ship",
+                         "series":  "Martian Successor Nadesico (TV) / Prince of Darkness",
+                         "role":  "ND-001 Nadesico, Nergal\u0027s battleship"
+                     },
+                     {
+                         "ja":  "アムロ",
+                         "en":  "Amuro",
+                         "kind":  "character",
+                         "series":  "Mobile Suit Gundam: Char\u0027s Counterattack (also Mobile Suit Gundam, Zeta Gundam)",
+                         "gender":  "male",
+                         "role":  "Earth Federation ace Newtype pilot; in CCA a Londo Bell mobile suit team leader (Captain) aboard the Ra Cailum and pilot of the Nu Gundam; Char\u0027s lifelong rival.",
+                         "personality":  "Withdrawn, machine-obsessed teen in the original series; by CCA a mature, dependable veteran still bound up in his rivalry with Char.",
+                         "full_name":  "Amuro Ray"
+                     },
+                     {
+                         "ja":  "オーラ",
+                         "en":  "aura",
+                         "kind":  "term",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Life energy of Byston Well that powers aura machines; used alone in lines like オーラの力 / 悪しきオーラ / オーラ光."
+                     },
+                     {
+                         "ja":  "ガラバ",
+                         "en":  "Galava",
+                         "kind":  "unit",
+                         "series":  "Aura Battler Dunbine",
+                         "role":  "Aura Fighter (not humanoid); the Black Knight\u0027s second unit in ACE2"
+                     },
+                     {
+                         "ja":  "ショウ",
+                         "en":  "Show",
+                         "kind":  "character",
+                         "series":  "Aura Battler Dunbine",
+                         "gender":  "male",
+                         "role":  "Protagonist; Holy Warrior (Seisenshi) from Tokyo summoned to Byston Well; defects from Drake Luft to the resistance; pilots Dunbine, later Billbine",
+                         "personality":  "Hot-blooded, stubborn young motocross racer who grows into a serious, driven warrior. Has huge Aura Power but struggles to control it. Has unspoken feelings for Marvel.",
+                         "full_name":  "Sho Zama"
+                     },
+                     {
+                         "ja":  "トッド",
+                         "en":  "Todd",
+                         "kind":  "character",
+                         "series":  "Aura Battler Dunbine",
+                         "gender":  "male",
+                         "role":  "American Holy Warrior summoned with Sho; fights for Drake and later Bishot Hate; pilots Wryneck in ACE2",
+                         "personality":  "Brash and proud. At first he treats Byston Well as a game, then becomes obsessed with beating Sho to save his pride. Makes poor choices.",
+                         "full_name":  "Todd Guinness"
+                     },
+                     {
+                         "ja":  "マリナ",
+                         "en":  "Marina",
+                         "kind":  "character",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "gender":  "female",
+                         "role":  "ACE2 heroine; Ensign in Tak\u0027s squad, pilot of the red Gun Ark; goes missing at Torrington Base, reappears with the Rainen Project in the Buster Ark, later rejoins Tak.",
+                         "personality":  "Cool and reserved (\u0027defrosting ice queen\u0027 in flashbacks); deeply bonded with Tak.",
+                         "full_name":  "Marina Carson"
+                     },
+                     {
+                         "ja":  "中尉",
+                         "en":  "Lieutenant",
+                         "en_short":  "Lt.",
+                         "kind":  "rank"
+                     },
+                     {
+                         "ja":  "大尉",
+                         "en":  "Captain",
+                         "en_short":  "Capt.",
+                         "kind":  "rank",
+                         "note":  "army/MS rank; a ship\u0027s captain (艦長) is also Captain"
+                     }
+                 ],
+    "known_portraits":  {
+                            "54":  {
+                                       "speaker":  "Ciela Lapana",
+                                       "gender":  "female",
+                                       "role":  "Queen of Na",
+                                       "confidence":  "high",
+                                       "evidence":  "brief: \u0027私は、ナの国の女王、シーラ・ラパーナです。\u0027"
+                                   }
+                        },
+    "unknown_portraits":  [
+
+                          ],
+    "context_before":  [
+                           {
+                               "ref":  "m6251#40",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eよくやってくれました。\u003cab(500)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6251#41",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eレーダーに感！\u003cab(200)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6251#42",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003eバスターアークです！\u003cab(200)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6251#43",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eマリナ！\u003cab(400)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6251#44",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eまだやるのか？　なぜだ…？\u003cab(800)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6251#45",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eマリナ！　あいつは死んだ。\u003cab(200)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6251#46",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003eどんな理由があったか知らないが、\nもう戦う必要はないだろう！\u003cab(700)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6251#47",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eやめろ、ケプフォード！\u003cab(100)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6251#48",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003e今は目の前のことに専念しろ！\u003cab(100)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6251#49",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003cop()\u003e\u003csp(20)\u003eいつまでこんなことを続けるんだ！\u003cab(300)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6251#50",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003e強要されていたんだろ？\u003cab(300)\u003e",
+                               "en":  ""
+                           },
+                           {
+                               "ref":  "m6251#51",
+                               "layer":  "mission dialogue",
+                               "jp":  "\u003csp(20)\u003e答えろ！　マリナ！\u003cab(300)\u003e\u003ced()\u003e",
+                               "en":  ""
+                           }
+                       ],
+    "rows":  [
+                 {
+                     "ref":  "m6251#52",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e違う…あんな人はどうでもいい。\u003cab(300)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eNo... Someone like that does not matter.\u003cab(300)\u003e",
+                     "notes":  "Marina cold voice. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#53",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e…あなたを止めなくては。\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003e...I must stop you.\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Marina continuation. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#54",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e……なんだと？\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003e...What did you say?\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Tak shocked response. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#55",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(700)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e…次が最後よ。\u003cab(700)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003e...The next time will be the last.\u003cab(700)\u003e\u003ced()\u003e",
+                     "notes":  "Marina final warning. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#56",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eバスターアーク、離脱します！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe Buster Ark is pulling back!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Operator report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#57",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eマリナ！！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eMarina!!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Tak shout. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#58",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e今は待て！\u003cab(100)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eHold on for now!\u003cab(100)\u003e",
+                     "notes":  "Burning order. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#59",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e近いうちに、彼女は必ずまた現れる！\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eShe will definitely show up again soon!\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  "Burning continuation. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#60",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eし、しかし！！\u003cab(0)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eB-But, Captain!!\u003cab(0)\u003e\u003ced()\u003e",
+                     "notes":  "Tak protest. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#61",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eこの混乱状態で、追いかけても無駄だ！\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eChasing her in this chaos is completely pointless!\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  "Amuro or Burning warning. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#62",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eアムロ大尉の言うとおりだ。\u003cab(500)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eCapt. Amuro is right.\u003cab(500)\u003e",
+                     "notes":  "Burning agreement. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#63",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e彼女があくまでも目的を果たすつもりなら…\u003cab(0)\u003e",
+                     "en":  "\u003csp(20)\u003eIf she intends to carry through her purpose...\u003cab(0)\u003e",
+                     "notes":  "Burning rationale. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#64",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(400)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e次の機会は必ず来る。\u003cab(400)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eThe next opportunity will definitely come.\u003cab(400)\u003e\u003ced()\u003e",
+                     "notes":  "Burning continuation. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#65",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(700)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eケプフォード中尉。　君なら、\n二人の言うことが正しいと判断できるはずだ。\u003cab(700)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003e1st Lt. Kepford. You should be able to see\nthat what the two of them are saying is right.\u003cab(700)\u003e\u003ced()\u003e",
+                     "notes":  "Sinapus calming Tak. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#66",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e…わかりました。\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003e...Understood, sir.\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Tak relents. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#67",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eレーダーに感！　敵機、来ます！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eRadar contact! Enemy machines incoming!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Operator combat alert. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#68",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e……ママ、ママに見せてやりてえなぁ。\u003cab(300)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003e...Mama, I really wish Mama could see me.\u003cab(300)\u003e",
+                     "notes":  "Todd Guinness monologue. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#69",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e自分の軍団を指揮する立場になったんだぜ？\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eI am in command of my very own army now!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Todd Guinness boast. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#70",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(600)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eショウ・ザマ！　貴様がいなければ\n戦いは地上に拡大しなかったんだ！\u003cab(600)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eShow Zama! If not for you,\nthis war would never have spread to the surface!\u003cab(600)\u003e\u003ced()\u003e",
+                     "notes":  "Todd shouting at Show. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#71",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(400)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e俺が戦いを地上に上げただと？\u003cab(400)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eYou claim I brought the war to the surface?!\u003cab(400)\u003e\u003ced()\u003e",
+                     "notes":  "Show Zama retort. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#72",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eダンバインさえあれば、\nバイストン・ウェルは制圧できていた！\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eIf we just had the Dunbine,\nwe could have brought Byston Well under control!\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Todd claim. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#73",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(600)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eそんなことしたら、バイストン・ウェルが\n機械だらけになっちゃう！\u003cab(600)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eIf you did that, Byston Well would just end up\nfull of mechanical junk!\u003cab(600)\u003e\u003ced()\u003e",
+                     "notes":  "Cham Hua angry rebuttal. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#74",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eなめるな！\u003cab(100)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eDo not mock me!\u003cab(100)\u003e",
+                     "notes":  "Todd fury. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#75",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(600)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこんなことで負けるもんか！\u003cab(600)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eLike hell I will lose over something like this!\u003cab(600)\u003e\u003ced()\u003e",
+                     "notes":  "Todd desperation. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#76",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(600)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e巨大化したぁ！？　\u003cab(600)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eHe grew massive?!\u003cab(600)\u003e\u003ced()\u003e",
+                     "notes":  "Pilot shock. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#77",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eライネックが、巨大になって見える！\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe Rynck looks gigantic!\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Pilot observation. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#78",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eハッタリか？　幻覚なんだろ！？\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eIs it a bluff?! An optical illusion?!\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  "Pilot disbelief. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#79",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(600)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e違う！　本当に巨大化しているんだ！\u003cab(600)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eNo! It really has grown huge!\u003cab(600)\u003e\u003ced()\u003e",
+                     "notes":  "Show confirmation. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#80",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(800)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eオーラの力は、\nマシンをも巨大化すると言うのか！？\u003cab(800)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAre you saying Aura Power can enlarge\neven a machine?!\u003cab(800)\u003e\u003ced()\u003e",
+                     "notes":  "Pilot bewilderment. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#81",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eこれが……ハイパー化！？\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eIs this... Hyperization?!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Marvel realization. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#82",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e敵残存艦隊、後退していきます。\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eRemaining enemy fleet is falling back.\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Operator tactical report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#83",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eグラン・ガランはどうだ？\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eHow is the Gran-Garan holding up?\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Commander status inquiry. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#84",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(400)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e健在です。\u003cab(400)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eShe is still operational.\u003cab(400)\u003e\u003ced()\u003e",
+                     "notes":  "Operator status report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#85",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e皆さんのお力添えがあってのことです。\u003cab(300)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThis is entirely thanks to everyone\u0027s assistance.\u003cab(300)\u003e",
+                     "notes":  "Queen Ciela: regal, no contractions. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#86",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(600)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e心より感謝いたします。\u003cab(600)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eI express my gratitude from my heart.\u003cab(600)\u003e\u003ced()\u003e",
+                     "notes":  "Queen Ciela: regal, no contractions. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#87",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e間に合って何よりでした。\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWe are glad we arrived in time.\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Commander relief. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#88",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eドレイクも焦っているようです。\u003cab(500)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eDrake appears to be growing impatient as well.\u003cab(500)\u003e",
+                     "notes":  "Queen Ciela: regal, no contractions. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#89",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこの機を逃してはなりません。\u003cab(300)\u003e",
+                     "en":  "\u003csp(20)\u003eWe must not let this chance slip away.\u003cab(300)\u003e",
+                     "notes":  "Queen Ciela: regal, no contractions. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#90",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(800)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e迎撃に向かいましょう。\u003cab(800)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eLet us move forward to intercept them.\u003cab(800)\u003e\u003ced()\u003e",
+                     "notes":  "Queen Ciela: regal, no contractions. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#91",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこの、アーミーグランチャーたちをさ！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eAlong with these Army Grandchers!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Antibody pilot remark. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#92",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e前方にオーラマシン多数！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eMultiple Aura Machines ahead!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Bridge alert. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#93",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e来たわ、ショウ！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eThey are here, Show!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Marvel warning. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#94",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e狙いは本艦です。　迎撃を！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eTheir target is this ship. Intercept them!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Bridge combat order. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#95",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e主砲、撃て！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eMain guns, fire!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Bridge firing order. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#96",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003e見てな、ママ。\n俺の力でこいつらを落として見せるぜ！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eWatch me, Mama.\nI will shoot these guys down by my own strength!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Todd Guinness battle cry. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#97",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eそうすりゃ、ママも楽できるってもんだ！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eOnce I do that, you can take it easy, Mama!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Todd Guinness continuation. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#98",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eこのオーラ光！？\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eThis Aura light...?!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Todd shock. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#99",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eいい夢を見させてもらったぜ。\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eI got to have a pleasant dream...\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Todd dying realization. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#100",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eママ……あああっ！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eMama... Aaaaargh!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Todd death cry. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#101",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003con()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003coff()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003con()\u003e\u003csp(20)\u003eこれが……いい夢でたまるかよぉ！\u003cab(0)\u003e\u003coff()\u003e",
+                     "en":  "\u003con()\u003e\u003csp(20)\u003eLike hell... I would settle for a pleasant dream!\u003cab(0)\u003e\u003coff()\u003e",
+                     "notes":  "Todd dying defiance. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#102",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eショウ！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eShow!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Marvel call. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#103",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eアメリカ人同士が、\nどうしてこう争わなければならないの！\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWhy must fellow Americans fight each other\nlike this?!\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Marvel lament. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#104",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eトッド！　貴様！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eTodd! You bastard!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Show battle cry. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#105",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(700)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e西部のイモにはわからんだろうさ、\n東部の落ちこぼれのことはな！\u003cab(700)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eA Western bumpkin like you could never get\nwhat it is like for an Eastern dropout!\u003cab(700)\u003e\u003ced()\u003e",
+                     "notes":  "Todd anger. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#106",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e性こりもなくー！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eYou never learn, do you?!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Show frustration. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6251#107",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eけりをつけるぜ、ショウ！\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eLet us settle this once and for all, Show!\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  "Todd challenge. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63149#2",
+                     "layer":  "tactical briefing",
+                     "phase":  2,
+                     "portrait":  54,
+                     "tokens":  [
+                                    "\u003cop(54,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[BE5050]",
+                                    "\u003cim(6)\u003e",
+                                    "#c",
+                                    "\u003cim(1)\u003e",
+                                    "\u003cim(11)\u003e",
+                                    "#c[BE5050]",
+                                    "\u003cim(12)\u003e",
+                                    "#c",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(54,1)\u003e\u003csp(2)\u003e#c[BE5050]敵艦\u003cim(6)\u003eゲア・ガリング#cが南下してきました。\n\u003cim(1)\u003eおそらく\u003cim(11)\u003e、#c[BE5050]ドレイ\u003cim(12)\u003eク#cの#c[BE5050]旗艦ウィル・ウィプス#cと\n合流するつもりでしょう。",
+                     "en":  "\u003cop(54,1)\u003e\u003csp(2)\u003e#c[BE5050]The enemy warship \u003cim(6)\u003eGea Garing#c has moved south.\u003cim(1)\u003e\nIt \u003cim(11)\u003elikely intends to rendezvous with #c[BE5050]Dra\u003cim(12)\u003eke#c\u0027s\nflagship, the #c[BE5050]Will Wips#c.",
+                     "notes":  "Queen Ciela briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63149#3",
+                     "layer":  "tactical briefing",
+                     "phase":  2,
+                     "portrait":  54,
+                     "tokens":  [
+                                    "\u003cop(54,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(4)\u003e",
+                                    "\u003cim(8)\u003e",
+                                    "\u003cim(9)\u003e",
+                                    "\u003cim(10)\u003e",
+                                    "\u003ctr(1)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(54,1)\u003e\u003csp(2)\u003e\u003cim(4)\u003e敵が合流する前に、各個に叩くのが\n\u003cim(8)\u003e兵法\u003cim(9)\u003eの常\u003cim(10)\u003e道という\u003ctr(1)\u003eものです。",
+                     "en":  "\u003cop(54,1)\u003e\u003csp(2)\u003e\u003cim(4)\u003eStriking each enemy individually before they join\nis standard \u003cim(8)\u003edoctrine \u003cim(9)\u003ein the \u003cim(10)\u003eart of war.\u003ctr(1)\u003e",
+                     "notes":  "Queen Ciela briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63149#4",
+                     "layer":  "tactical briefing",
+                     "phase":  2,
+                     "portrait":  54,
+                     "tokens":  [
+                                    "\u003cop(54,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[F07141]",
+                                    "#c",
+                                    "\u003cof(1)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(54,1)\u003e\u003csp(2)\u003eこれより#c[F07141]ゲア・ガリングとの戦い#cに臨みます。\n\u003cof(1)\u003e皆さんも、ご協力をお願いします。",
+                     "en":  "\u003cop(54,1)\u003e\u003csp(2)\u003eWe shall now proceed to #c[F07141]battle the Gea Garing#c.\n\u003cof(1)\u003eI ask for everyone\u0027s generous assistance.",
+                     "notes":  "Queen Ciela briefing. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6252#0",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "ゲア・ガリングの撃破",
+                     "en":  "Defeat the Gea Garing",
+                     "notes":  "Objective text."
+                 },
+                 {
+                     "ref":  "m6252#2",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "ゴラオンの撃沈",
+                     "en":  "Golaon Sunk",
+                     "notes":  "Objective failure display."
+                 },
+                 {
+                     "ref":  "m6252#3",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "ガラバの撃破",
+                     "en":  "Defeat Garaba",
+                     "notes":  "Objective text."
+                 },
+                 {
+                     "ref":  "m6252#4",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "バロンズゥの撃破",
+                     "en":  "Defeat Baron Zu",
+                     "notes":  "Objective text."
+                 },
+                 {
+                     "ref":  "m6252#7",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "ゴラオン",
+                     "en":  "Golaon",
+                     "notes":  "Unit label."
+                 },
+                 {
+                     "ref":  "m6252#9",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(400)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e我々の目標はゲア・ガリングである。\u003cab(400)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eOur objective is the Gea Garing.\u003cab(400)\u003e",
+                     "notes":  "Commander order. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6252#10",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(400)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e全艦、進軍せよ。\u003cab(400)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eAll ships, advance.\u003cab(400)\u003e\u003ced()\u003e",
+                     "notes":  "Commander continuation. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6252#11",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(700)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e今回の作戦には、友軍艦の\nゴラオンも同行してくれます！\u003cab(700)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eOur allied ship, the Golaon,\nwill accompany us for this operation!\u003cab(700)\u003e",
+                     "notes":  "Bridge announcement. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6252#12",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(400)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eここでやられるわけにはいきません！\u003cab(400)\u003e",
+                     "en":  "\u003csp(20)\u003eWe cannot afford to fall here!\u003cab(400)\u003e",
+                     "notes":  "Golaon crew resolve. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6252#13",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e護衛、よろしくお願いします！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eWe leave our escort in your capable hands!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Golaon request. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6252#14",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e敵艦がバリアを展開。\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe enemy warship deployed a barrier.\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Operator sensor report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6252#15",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(800)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eゴラオンのオーラノヴァ砲ならば\n打ち破れるかもしれません。\u003cab(800)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe Golaon\u0027s Aura Nova Cannon\nmay be able to breach it.\u003cab(800)\u003e",
+                     "notes":  "Tactical suggestion. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6252#16",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eゴラオン、発射準備を。\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eGolaon, prepare to fire.\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Combat instruction. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6252#17",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e敵艦のバリア、消滅。\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe enemy ship\u0027s barrier has vanished.\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Operator sensor report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6252#18",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e今がチャンスです！\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eNow is our chance!\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Combat opportunity call. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6252#19",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(400)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eゴラオン、囲まれてます。\u003cab(400)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe Golaon is surrounded.\u003cab(400)\u003e",
+                     "notes":  "Operator warning. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6252#20",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(400)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eオーラノヴァ砲、撃てません。\u003cab(400)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eIt cannot fire the Aura Nova Cannon.\u003cab(400)\u003e\u003ced()\u003e",
+                     "notes":  "Weapon disabled report. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6252#21",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(400)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eオーラノヴァ砲、撃て！\u003cab(400)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAura Nova Cannon, fire!\u003cab(400)\u003e\u003ced()\u003e",
+                     "notes":  "Firing command. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6252#22",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(400)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eそこにいると危険です。\u003cab(400)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eRemaining in that sector is hazardous.\u003cab(400)\u003e",
+                     "notes":  "Warning to units. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6252#23",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(700)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eオーラノヴァ砲の射線上から\n退避してください。\u003cab(700)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eClear the line of fire for the Aura Nova Cannon!\u003cab(700)\u003e\u003ced()\u003e",
+                     "notes":  "Evacuation order. Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6252#24",
+                     "layer":  "mission dialogue",
+                     "phase":  2,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eナデシコ、囲まれてます。\u003cab(300)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe Nadesico is surrounded.\u003cab(300)\u003e",
+                     "notes":  "Nadesico operator alert. Exact tokens preserved."
+                 }
+             ],
+    "context_after":  [
+                          {
+                              "ref":  "m6252#25",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e攻撃により照準が不安定。\u003cab(400)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6252#26",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e相転移砲、発射できません。\u003cab(500)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6252#27",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003eなんとかしてください。\u003cab(400)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6252#28",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003e相転移砲、発射！\u003cab(300)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6252#29",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eそこにいると相転移砲を撃てません。\u003cab(400)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6252#30",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003eナデシコの射線上から退避してください。\u003cab(600)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6252#31",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eゴラオン、被弾。\u003cab(200)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6252#32",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eゴラオン、ダメージ拡大。\u003cab(200)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6252#33",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eゴラオン、ダメージ拡大。\u003cab(200)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6252#34",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003eこれ以上は危険です。\u003cab(200)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6252#35",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003e……ゴラオン、撃沈。\u003cab(500)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6252#36",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eこんなことになろうとは……！\u003cab(700)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          }
+                      ],
+    "report":  {
+                   "translator_summary":  "Translated all 80 rows of op25_02. Covers conclusion of Marina\u0027s retreat and Tak\u0027s exchange with Burning and Sinapus; the battle against Todd Guinness culminating in his Hyperization, dialogue with Show and Marvel, and death; Queen Ciela\u0027s tactical briefing regarding the Gea Garing and Will Wips; and Phase 2 mission dialogue escorting Golaon and coordinating its Aura Nova Cannon.",
+                   "rows_examined":  "m6251#52..m6252#24",
+                   "rows_examined_count":  80,
+                   "uncertainties":  [
+
+                                     ],
+                   "glossary_proposals":  [
+
+                                          ],
+                   "portrait_speakers":  {
+                                             "54":  "Ciela Lapana"
+                                         }
+               }
+}

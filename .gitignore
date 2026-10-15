@@ -1,0 +1,29 @@
+# Game data is never committed: every user supplies their own disc images.
+*.iso
+*.ISO
+*.PSS
+*.pss
+*.bin
+*.BIN
+
+# Release patches go to GitHub Releases, not to the repository
+*.xdelta
+work/release/
+
+# Build outputs (the JSON build reports in work/output are kept)
+work/output/*.iso
+
+# Local environment
+.venv/
+__pycache__/
+*.pyc
+
+# Files the external translator wrote outside its folder (kept locally as a record only; one holds a 3.5 GB ISO)
+work/translation/agent/_quarentena_*/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store

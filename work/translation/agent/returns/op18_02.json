@@ -1,0 +1,1828 @@
+{
+ "batch": "op18_02",
+ "operation": 18,
+ "previous_batch": "op18_01",
+ "next_batch": "op18_03",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "グラビティブラスト",
+   "en": "Gravity Blast",
+   "kind": "term",
+   "series": "Martian Successor Nadesico",
+   "role": "Nadesico's main gravity cannon (dotless spelling)."
+  },
+  {
+   "ja": "ゲキ・ガンガー",
+   "en": "Gekiganger",
+   "kind": "term",
+   "series": "Martian Successor Nadesico",
+   "role": "The in-universe 1970s-style super robot anime (full title ゲキ・ガンガー3) loved by Gai Daigoji and Akito; also the name of its robot."
+  },
+  {
+   "ja": "エステバリス",
+   "en": "Aestivalis",
+   "kind": "unit",
+   "series": "Martian Successor Nadesico",
+   "role": "Nergal mass-produced mecha; used alone and in エステバリス隊 (Aestivalis squad/team)."
+  },
+  {
+   "ja": "ダイテツジン",
+   "en": "Daitetsujin",
+   "kind": "unit",
+   "series": "Martian Successor Nadesico",
+   "role": "Upgraded Jovian Tetsujin (Tsukumo; later Takasugi)"
+  },
+  {
+   "ja": "ネルガル重工",
+   "en": "Nergal Heavy Industries",
+   "kind": "faction",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "Corporation that built the Nadesico and the Aestivalis",
+   "en_short": "Nergal"
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "ダイマジン",
+   "en": "Daimajin",
+   "kind": "unit",
+   "series": "Martian Successor Nadesico",
+   "role": "Upgraded Jovian Majin (Tsukiomi)"
+  },
+  {
+   "ja": "ポセイダル",
+   "en": "Poseidal",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "female",
+   "role": "Emperor ruling the Pentagona World from Sveto on Gastogal; supreme commander of the Poseidal Army. The Poseidal on the throne is actually Mian Qu Ha Ussher, a puppet of the true Poseidal (Amandara Kamandara). In ACE2 'Poseidal' is the pilot of the Aug.",
+   "personality": "Regal, cold and imperious ruler who controls others (e.g. Quwasan) through the bio-relation system; her memories are themselves manipulated, and she finally turns against Amandara.",
+   "full_name": "Oldna Poseidal"
+  },
+  {
+   "ja": "白鳥九十九",
+   "en": "Tsukumo Shiratori",
+   "kind": "character",
+   "series": "Martian Successor Nadesico",
+   "gender": "male",
+   "role": "Lieutenant Commander in the Jovian Superior Jovian Male Forces; Tetsujin/Daitetsujin pilot; seeks peace with Earth",
+   "personality": "Honest, upright and idealistic, naive around women; hot-blooded Gekiganger fan",
+   "en_short": "Shiratori"
+  },
+  {
+   "ja": "クワサン",
+   "en": "Quwasan",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "female",
+   "role": "Daba's adopted younger sister and fiancee. Kidnapped and brainwashed by Poseidal via bio-relation; reappears as commander of Poseidal's Imperial Guard. Pilots a copper-yellow Calvary Temple.",
+   "personality": "Under mind control she is cold and obedient, acting on Poseidal's orders; underneath she is fragile, and her mind breaks down by the end of the series.",
+   "full_name": "Quwasan Olibee"
+  },
+  {
+   "ja": "チャージ",
+   "en": "charge",
+   "kind": "generic",
+   "series": "Another Century's Episode series (game system)",
+   "role": "Charging a shot; in weapon names (チャージ) suffix."
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "木星蜥蜴",
+   "en": "Jovian Lizards",
+   "kind": "faction",
+   "series": "Martian Successor Nadesico",
+   "role": "Earth's name for the unknown Jovian enemy (actually the Jovian Federation, 木連)."
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "アキト",
+   "en": "Akito",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "male",
+   "role": "TV: cook and Aestivalis pilot of the Nadesico, a Class-A Boson Jumper. PoD: the \"Prince of Darkness\", Black Sarena pilot hunting the Martian Successors",
+   "personality": "TV: kind, reluctant and insecure Gekiganger fan who wants to be a cook. PoD: cold, grim and vengeful after experiments destroyed his senses",
+   "full_name": "Akito Tenkawa"
+  },
+  {
+   "ja": "ルリ",
+   "en": "Ruri",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "female",
+   "role": "TV: operator/science officer of the Nadesico. PoD: Lieutenant Commander, captain of the Nadesico B (\"Electronic Fairy\")",
+   "personality": "Deadpan, cool, blunt child prodigy (catchphrase \"bunch of fools\"); slowly warms to the crew",
+   "full_name": "Ruri Hoshino"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {
+  "32": {
+   "speaker": "Yurika Misumaru",
+   "gender": "female",
+   "role": "captain of the Nadesico",
+   "confidence": "high",
+   "evidence": "brief: 'ナデシコ艦長、ミスマル・ユリカです。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6181#51",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>今の感じ……あれはきっと\nバイオリレーションシステムよ。<ab(400)>",
+   "en": ""
+  },
+  {
+   "ref": "m6181#52",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>おそらく彼女はそのシステムで、\nポセイダルに操られているのよ。<ab(900)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6181#53",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……くそっ！<ab(600)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6181#54",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>役立たずどもめ！　私が出る！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6181#55",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>私が直接出る！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6181#56",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>マリナ出現示唆\nミッション説明補足<ab(2000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6181#57",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>順調に撃破①<ab(2000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6181#58",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>順調に撃破②<ab(2000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6181#59",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵の増援<ab(2000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6181#60",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>一定時間経過①<ab(2000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6181#61",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>一定時間経過②<ab(2000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6181#62",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>一定時間経過③<ab(2000)><ed()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6181#63",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "④",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>一定時間経過④　ミッション失敗<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Time elapsed ④ - Mission failure)<ab(2000)><ed()>",
+   "notes": "Developer placeholder text."
+  },
+  {
+   "ref": "m6181#64",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>プラネットボンバー出現のお知らせ<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Planet Bomber appearance notice)<ab(2000)><ed()>",
+   "notes": "Developer placeholder text."
+  },
+  {
+   "ref": "m6181#65",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>シークレットミッションクリア<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Secret mission clear)<ab(2000)><ed()>",
+   "notes": "Developer placeholder text."
+  },
+  {
+   "ref": "m6181#66",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "①",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦を攻撃①<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Attack enemy ship) ①<ab(2000)><ed()>",
+   "notes": "Developer placeholder text."
+  },
+  {
+   "ref": "m6181#67",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "②",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦を攻撃②<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Attack enemy ship) ②<ab(2000)><ed()>",
+   "notes": "Developer placeholder text."
+  },
+  {
+   "ref": "m6181#68",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>成功条件の変更のお知らせ<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Condition change notice)<ab(2000)><ed()>",
+   "notes": "Developer placeholder text."
+  },
+  {
+   "ref": "m6181#69",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>掛け合い<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Dialogue exchange)<ab(2000)><ed()>",
+   "notes": "Developer placeholder text."
+  },
+  {
+   "ref": "m6181#70",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "①",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ギャブレーピンチ①<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Gablae in a pinch) ①<ab(2000)><ed()>",
+   "notes": "Developer placeholder text."
+  },
+  {
+   "ref": "m6181#71",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "②",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ギャブレーピンチ②<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Gablae in a pinch) ②<ab(2000)><ed()>",
+   "notes": "Developer placeholder text."
+  },
+  {
+   "ref": "m6181#72",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アシュラ撤退（クワサンと通信最初だけ）<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Ashura retreat - Quwasan call start)<ab(2000)><ed()>",
+   "notes": "Developer placeholder text."
+  },
+  {
+   "ref": "m6181#73",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>クワサンとの通信の続き<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Quwasan call continuation)<ab(2000)><ed()>",
+   "notes": "Developer placeholder text."
+  },
+  {
+   "ref": "m6181#74",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ミッションクリア<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Mission clear)<ab(2000)><ed()>",
+   "notes": "Developer placeholder text."
+  },
+  {
+   "ref": "brief63114#2",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>#c[5E8FD8]アルビオン#cの<im(1)>皆さん！\nいつもありがとうございます！",
+   "en": "<op(32,1)><sp(2)>Everyone on the #c[5E8FD8]Albion#c!<im(1)>\nThank you as always!",
+   "notes": "Captain Yurika Misumaru greeting the Albion team."
+  },
+  {
+   "ref": "brief63114#3",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(5)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>ネルガル重工のドックは現在、\n<im(5)>敵の襲撃を受けています！",
+   "en": "<op(32,1)><sp(2)>The Nergal Heavy Industries dock\nis currently <im(5)>under enemy attack!",
+   "notes": "Yurika briefing current situation."
+  },
+  {
+   "ref": "brief63114#4",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(7)>",
+    "<im(9)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>だけど今は、<im(7)>シャクヤクのＹユニットを\n取り付けるための作業中で、\n<im(9)>#c[5E8FD8]ナデシコ#cは動けません！",
+   "en": "<op(32,1)><sp(2)>However, we are <im(7)>installing the Shakuyaku's\nY-Unit, so the <im(9)>#c[5E8FD8]Nadesico#c cannot move!",
+   "notes": "Yurika explaining Y-Unit installation."
+  },
+  {
+   "ref": "brief63114#5",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(11)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)><im(11)>これを付ければ相転移砲っていう\nすごい武器が使えるようになるんですけど…",
+   "en": "<op(32,1)><sp(2)><im(11)>With this, we can fire an incredible weapon\ncalled the Phase Transition Cannon, but...",
+   "notes": "Yurika talking about the Phase Transition Cannon."
+  },
+  {
+   "ref": "brief63114#6",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "<tr(1)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>とにかく、<im(2)>取り付け作業が終わるまで、\n<tr(1)>#c[F07141]時間を稼いで#cください！",
+   "en": "<op(32,1)><sp(2)>In any case, <im(2)>until the work is finished,\nplease <tr(1)>#c[F07141]buy us enough time#c!",
+   "notes": "Yurika asking to buy time."
+  },
+  {
+   "ref": "brief63114#7",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(13)>",
+    "<of(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>#c[5E8FD8]エステバリス#cも出撃可<im(13)>能です。\n<of(1)>よろしくお願いします！",
+   "en": "<op(32,1)><sp(2)>The #c[5E8FD8]Aestivalis#c units can also <im(13)>sortie.\n<of(1)>We are counting on you!",
+   "notes": "Yurika confirming Aestivalis deployment."
+  },
+  {
+   "ref": "m6182#1",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ダイマジンの撃破",
+   "en": "Destroy the Daimajin",
+   "notes": "Mission objective."
+  },
+  {
+   "ref": "m6182#2",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ダイテツジンの撃破",
+   "en": "Destroy the Daitetsujin",
+   "notes": "Mission objective."
+  },
+  {
+   "ref": "m6182#3",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコ！　状況は！？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Nadesico! What is your status?!<ab(300)><ed()>",
+   "notes": "Pilot asking Nadesico condition."
+  },
+  {
+   "ref": "m6182#4",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今のところ重大な損傷はありません。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>No critical damage at present.<ab(400)><ed()>",
+   "notes": "Ruri responding."
+  },
+  {
+   "ref": "m6182#6",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>おい、艦長！\nまだ終わんねーのか！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Hey, Captain!\nIsn't it done yet?!<ab(200)><ed()>",
+   "notes": "Pilot impatient."
+  },
+  {
+   "ref": "m6182#7",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>も、もう少しです～！\nもう少しだけがんばってくださ～い！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>J-Just a bit more!\nPlease hang on a little longer!<ab(600)><ed()>",
+   "notes": "Yurika pleading for time."
+  },
+  {
+   "ref": "m6182#8",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>３時の方向に熱源を確認！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Heat source at 3 o'clock confirmed!<ab(200)><ed()>",
+   "notes": "Operator reporting contact."
+  },
+  {
+   "ref": "m6182#9",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>識別はポセイダルです！<ab(400)><ed()>",
+   "en": "<sp(20)>Identified as Poseidal!<ab(400)><ed()>",
+   "notes": "Operator identifying Poseidal forces."
+  },
+  {
+   "ref": "m6182#10",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>レーダーに感！　敵機、来ます！<ab(100)>",
+   "en": "<op()><sp(20)>Radar contact! Hostiles incoming!<ab(100)>",
+   "notes": "Operator warning."
+  },
+  {
+   "ref": "m6182#11",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>例の人型タイプです！<ab(300)><ed()>",
+   "en": "<sp(20)>It is that humanoid type!<ab(300)><ed()>",
+   "notes": "Operator recognizing Jovian manned mecha."
+  },
+  {
+   "ref": "m6182#12",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アキト！　どこ行くの！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Akito! Where are you going?!<ab(300)><ed()>",
+   "notes": "Yurika shouting to Akito."
+  },
+  {
+   "ref": "m6182#13",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アキトさんがそちらに行きました。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Akito headed your way.<ab(200)><ed()>",
+   "notes": "Ruri informing the fleet."
+  },
+  {
+   "ref": "m6182#14",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺は…俺は、ナデシコを\n守らなきゃならないんだ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>I have to... I must protect\nthe Nadesico!<ab(600)><ed()>",
+   "notes": "Akito Tenkawa determined to protect Nadesico."
+  },
+  {
+   "ref": "m6182#15",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>すっげ～なぁ～！　あの機体！\nまんまゲキ・ガンガーじゃねーか！<ab(300)>",
+   "en": "<op()><sp(20)>Incredible! That machine!\nIt is just like Gekiganger!<ab(300)>",
+   "notes": "Gai Daigoji / Akito excited about Jovian robot design."
+  },
+  {
+   "ref": "m6182#16",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>まんざら、悪い奴じゃなさそーだ！<ab(400)><ed()>",
+   "en": "<sp(20)>He might not be a bad guy after all!<ab(400)><ed()>",
+   "notes": "Speaker finding kinship in Gekiganger fandom."
+  },
+  {
+   "ref": "m6182#17",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ＵＣＥの方たち！　そこをどいてください！\n我々の標的は、あくまで相転移炉式戦艦！<ab(800)><ed()>",
+   "en": "<op()><sp(20)>People of the UCE! Clear the way!\nOur target is the phase-engine ship!<ab(800)><ed()>",
+   "notes": "Tsukumo Shiratori requesting UCE stay out of battle."
+  },
+  {
+   "ref": "m6182#18",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…今のが、人質をとって脱走した捕虜か？<ab(400)><ed()>",
+   "en": "<op()><sp(20)>...Was that the escaped prisoner?<ab(400)><ed()>",
+   "notes": "Pilot asking about Tsukumo."
+  },
+  {
+   "ref": "m6182#19",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>はい。　木星連合の、白鳥九十九さんです。<ab(400)>",
+   "en": "<op()><sp(20)>Yes. It is Tsukumo Shiratori\nof the Jovian Federation.<ab(400)>",
+   "notes": "Ruri revealing Tsukumo's identity and allegiance."
+  },
+  {
+   "ref": "m6182#20",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ちなみに、人質のミナトさんとメグミちゃんは\n戦闘前に解放されてます。<ab(500)><ed()>",
+   "en": "<sp(20)>By the way, the hostages Minato and\nMegumi were freed before combat.<ab(500)><ed()>",
+   "notes": "Ruri adding that hostages were safely released."
+  },
+  {
+   "ref": "m6182#21",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>へえ…正々堂々と戦おうってわけか！\nやるじゃねえか、木星の連中も。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Heh... Wants a fair fight, huh?\nNot bad for those Jovians.<ab(500)><ed()>",
+   "notes": "Pilot impressed with Tsukumo's chivalry."
+  },
+  {
+   "ref": "m6182#22",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>グラビティブラストを撃ってくるわよ。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>They will fire a Gravity Blast.<ab(400)><ed()>",
+   "notes": "Inez warning of Gravity Blast."
+  },
+  {
+   "ref": "m6182#23",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>あのタイプは小型の相転移エンジンを\n組み込んでいて、<ab(0)>",
+   "en": "<sp(20)>That model houses a compact phase\ntransition engine, allowing...<ab(0)>",
+   "notes": "Inez explaining mecha technology."
+  },
+  {
+   "ref": "m6182#24",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>戦艦並みの装備が可能なの。\n……強敵ね。<ab(500)><ed()>",
+   "en": "<sp(20)>armaments rivaling a battleship.\n...A formidable foe.<ab(500)><ed()>",
+   "notes": "Inez warning."
+  },
+  {
+   "ref": "m6182#25",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ね～、まだ～？\nもうヤバイよ～！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Hey, isn't it ready yet?\nThis is getting really bad!<ab(200)><ed()>",
+   "notes": "Pilot stressed under attack."
+  },
+  {
+   "ref": "m6182#26",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>無理なものは無理です。\nもうちょっと待ってください。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>What is impossible is impossible.\nPlease wait a little longer.<ab(500)><ed()>",
+   "notes": "Ruri responding bluntly."
+  },
+  {
+   "ref": "m6182#27",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵がそちらに行きます。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Enemies heading your way.<ab(500)><ed()>",
+   "notes": "Ruri warning."
+  },
+  {
+   "ref": "m6182#28",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いくぜ、ダイマジン！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Here I go, Daimajin!<ab(300)><ed()>",
+   "notes": "Genichirou Tsukiomi attacking in Daimajin."
+  },
+  {
+   "ref": "m6182#29",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>君たち！　無益な戦いはやめるんだ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Stop this pointless fighting!<ab(300)><ed()>",
+   "notes": "Tsukumo Shiratori pleading for peace."
+  },
+  {
+   "ref": "m6182#30",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これが火星の人たちの分だ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>This is for the people of Mars!<ab(200)><ed()>",
+   "notes": "Akito fighting in anger."
+  },
+  {
+   "ref": "m6182#31",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前らが火星のコロニーを攻撃したから、\nアイちゃんや、みんなが…！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>You attacked the Martian colony!\nAi-chan and everyone else...!!<ab(300)><ed()>",
+   "notes": "Akito recalling Martian tragedy."
+  },
+  {
+   "ref": "m6182#32",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アイちゃんって誰だ？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Who is Ai-chan?<ab(200)><ed()>",
+   "notes": "Pilot asking who Ai-chan is."
+  },
+  {
+   "ref": "m6182#33",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…アキトくんが火星にいた時、\nシェルターで知り合った小さな女の子よ。<ab(500)>",
+   "en": "<op()><sp(20)>...A little girl Akito met in a\nshelter when he lived on Mars.<ab(500)>",
+   "notes": "Yurika explaining."
+  },
+  {
+   "ref": "m6182#34",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>でも、木星蜥蜴の攻撃で…<ab(0)><ed()>",
+   "en": "<sp(20)>But during the Jovian Lizard attack...<ab(0)><ed()>",
+   "notes": "Yurika continuing."
+  },
+  {
+   "ref": "m6182#35",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それがどうした！\n地球人のやったことを見ろ！<ab(300)>",
+   "en": "<op()><sp(20)>What of it?! Look at what\nyou Earthlings did!<ab(300)>",
+   "notes": "Tsukiomi raging against Earth."
+  },
+  {
+   "ref": "m6182#36",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>我々から月を奪っておいて\n内戦を鎮圧しただけと言い逃れた地球人！<ab(300)>",
+   "en": "<sp(20)>You seized the Moon and claimed\nyou only quelled a civil war!<ab(300)>",
+   "notes": "Tsukiomi accusing Earth Federation. fix: line length exceeded 380px -> compacted into two lines"
+  },
+  {
+   "ref": "m6182#37",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>我々はすでに開発の始まっていた\n火星を目指した！<ab(300)>",
+   "en": "<sp(20)>We sought refuge on Mars,\nwhere development had begun!<ab(300)>",
+   "notes": "Tsukiomi describing exile to Mars."
+  },
+  {
+   "ref": "m6182#38",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>しかし地球人は…\n核を撃ち込みやがった！<ab(300)>",
+   "en": "<sp(20)>Yet you Earthlings...\nstruck us with nuclear weapons!<ab(300)>",
+   "notes": "Tsukiomi revealing Earth Federation nuclear bombardment."
+  },
+  {
+   "ref": "m6182#39",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>我々は火星からも…追い出された！\n我々に残されたのは木星とその衛星群。<ab(300)>",
+   "en": "<sp(20)>We were driven out of Mars too!\nLeft with only Jupiter and its moons!<ab(300)>",
+   "notes": "Tsukiomi detailing exile to Jupiter."
+  },
+  {
+   "ref": "m6182#40",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>我々はそこに自分たちの国を築き…\n悪の帝国、地球に復讐を誓ったのだ！<ab(500)><ed()>",
+   "en": "<sp(20)>We built our nation there and swore\nvengeance on the evil empire of Earth!<ab(500)><ed()>",
+   "notes": "Tsukiomi stating the founding purpose of Jovian Federation."
+  },
+  {
+   "ref": "m6182#41",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そんなこと、俺が知るかよぉ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>How could I have known that?!<ab(100)><ed()>",
+   "notes": "Akito reeling."
+  },
+  {
+   "ref": "m6182#42",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お、おい！　今の話は……<ab(100)><ed()>",
+   "en": "<op()><sp(20)>H-Hey! What was that about...?<ab(100)><ed()>",
+   "notes": "Pilot shocked."
+  },
+  {
+   "ref": "m6182#43",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>本当です。　詳しくは、あとで艦長から。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>It is true. Details from\nthe Captain later.<ab(200)><ed()>",
+   "notes": "Ruri confirming."
+  },
+  {
+   "ref": "m6182#44",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…真実にふたをすることはできないか。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>...The truth cannot be\nhidden forever, can it?<ab(500)><ed()>",
+   "notes": "Officer acknowledging truth cannot stay buried."
+  },
+  {
+   "ref": "m6182#45",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>Ｙユニット取り付け完了！\nナデシコ、発進します！<ab(300)>",
+   "en": "<op()><sp(20)>Y-Unit installation complete!\nNadesico, launching!<ab(300)>",
+   "notes": "Yurika announcing refit complete."
+  },
+  {
+   "ref": "m6182#46",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ルリちゃん、相転移砲チャージ開始！<ab(100)><ed()>",
+   "en": "<sp(20)>Ruri, start charging\nthe Phase Transition Cannon!<ab(100)><ed()>",
+   "notes": "Yurika ordering cannon charge."
+  },
+  {
+   "ref": "m6182#47",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>相転移砲、チャージします。<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Charging Phase Transition Cannon.<ab(100)><ed()>",
+   "notes": "Ruri executing command."
+  },
+  {
+   "ref": "m6182#48",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>な、なんて威力だ……<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Wh-What incredible power...<ab(200)><ed()>",
+   "notes": "Pilot amazed by Phase Transition Cannon."
+  },
+  {
+   "ref": "m6182#49",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あんなもの食らったらひとたまりもないぜ…<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Taking a hit from that\nwould wipe out anything...<ab(200)><ed()>",
+   "notes": "Pilot in awe."
+  },
+  {
+   "ref": "m6182#50",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>相転移砲……噂以上の威力ね。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>The Phase Transition Cannon...\nEven stronger than the rumors.<ab(200)><ed()>",
+   "notes": "Inez assessing cannon power."
+  },
+  {
+   "ref": "m6182#51",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くっ、相転移炉が動かん！\n地球人め、卑怯な真似を！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Damn it, phase reactor won't budge!\nCowardly Earthlings!<ab(300)><ed()>",
+   "notes": "Tsukiomi disabled by Phase Transition blast."
+  },
+  {
+   "ref": "m6182#52",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この程度で負ける我々ではない。\n優人部隊の意地を見せるぞ、元一郎！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>We will not fall here!\nShow our Superior Male pride, Genichirou!<ab(300)><ed()>",
+   "notes": "Tsukumo encouraging Genichirou."
+  },
+  {
+   "ref": "m6182#53",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今日のところは…ここまでかっ！\nまた戦場で会おう！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Is this as far as we go today?!\nWe will meet again on the battlefield!<ab(300)><ed()>",
+   "notes": "Tsukumo parting respectfully."
+  },
+  {
+   "ref": "m6182#54",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>地球人め！　覚えていろ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Curse you Earthlings!\nRemember this!<ab(300)><ed()>",
+   "notes": "Tsukiomi retreating in frustration."
+  },
+  {
+   "ref": "m6182#55",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ここまで来ればもう大丈夫！\n皆さん、ホントにありがとう！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>We are safe now!\nThank you so much, everyone!<ab(200)><ed()>",
+   "notes": "Yurika thanking the fleet."
+  },
+  {
+   "ref": "m6182#56",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>作戦終了。　帰還してください。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Operation complete.\nPlease return to base.<ab(500)><ed()>",
+   "notes": "Ruri ending mission."
+  },
+  {
+   "ref": "m6182#59",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>相転移砲、発射！\n目標、そのへんの全部！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Phase Transition Cannon, fire!\nTarget: everything over there!<ab(0)><off()>",
+   "notes": "Yurika firing cannon with chaotic targeting."
+  },
+  {
+   "ref": "m6182#60",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>了解。　相転移砲、発射します。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Roger. Firing Phase Transition Cannon.<ab(0)><off()>",
+   "notes": "Ruri executing firing order deadpan."
+  },
+  {
+   "ref": "m6182#61",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>す、すげぇ…<ab(0)><off()>",
+   "en": "<on()><sp(20)>In-Incredible...<ab(0)><off()>",
+   "notes": "Akito awestruck."
+  },
+  {
+   "ref": "m6182#62",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>うわ～、なんにもいなくなっちゃった…<ab(0)><off()>",
+   "en": "<on()><sp(20)>Whoa, there's nothing left at all...<ab(0)><off()>",
+   "notes": "Yurika surprised by complete annihilation."
+  },
+  {
+   "ref": "m6182#63",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>…フフフ…<ab(0)><off()>",
+   "en": "<on()><sp(20)>...Hehehe...<ab(0)><off()>",
+   "notes": "Izumi Maki chuckling macabrely."
+  },
+  {
+   "ref": "m6182#64",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ミッション説明<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Mission explanation)<ab(2000)><ed()>",
+   "notes": "Developer placeholder text."
+  },
+  {
+   "ref": "m6182#65",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "①",
+    "<ab(2000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>しびれをきらして①<ab(2000)><ed()>",
+   "en": "<op()><sp(20)>(Losing patience) ①<ab(2000)><ed()>",
+   "notes": "Developer placeholder text."
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6182#66",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>しびれをきらして②<ab(2000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#67",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>Sミッション敵出現<ab(2000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#68",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ダイマジンとダイテツジンの出現\nうらやむガイのセリフもここ<ab(2000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#69",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>アキト登場<ab(2000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#70",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>見直すガイ<ab(2000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#71",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>イネスさんの解説<ab(2000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#72",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>復讐を語る月臣との会話<ab(2000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#73",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ナデシコ離陸<ab(2000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#74",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>威力に驚く<ab(2000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#75",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>相転移砲によりダイマジン、\nダイテツジン出力低下<ab(2000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#76",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ダイマジンピンチ１<ab(2000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6182#77",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ダイマジンピンチ２<ab(2000)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Conclusion of Phase 1 with developer scratch lines; tactical briefing for Phase 2 by Captain Yurika Misumaru explaining that the Nadesico is docked at Nergal's lunar dock installing Shakuyaku's Y-Unit for the Phase Transition Cannon; during the defense, Akito sorties in defense of Nadesico and encounters the Daitetsujin (piloted by Tsukumo Shiratori) and Daimajin (Genichirou Tsukiomi); Tsukiomi delivers a bitter history revelation explaining that the Jovians are human refugees exiled from the Moon and nuked on Mars by the Earth Federation; Nadesico finishes mounting the Y-Unit and fires the Phase Transition Cannon, wiping out enemy forces and causing Jovian pilots to retreat.",
+  "rows_examined": "op18_01 (m6181#56-62), op18_02 (m6181#63-74, brief63114#2-7, m6182#1-65), op18_03 (m6182#66-77, brief63185#0-24)",
+  "rows_examined_count": 80,
+  "uncertainties": [
+   "In m6181#63-74 and m6182#64-65, placeholder developer scratch strings translated within parentheses preserving ①-④ tokens.",
+   "In m6182#35-40, Genichirou Tsukiomi's speech details the tragic backstory of the Jovian Federation (exiled from Moon, nuked on Mars by Earth Federation).",
+   "In m6182#59-63, Yurika's comedic Phase Transition Cannon targeting command ('そのへんの全部！') translated naturally as 'everything over there!'."
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {
+   "32": "Yurika Misumaru"
+  }
+ }
+}

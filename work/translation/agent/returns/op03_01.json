@@ -1,0 +1,1758 @@
+{
+ "batch": "op03_01",
+ "operation": 3,
+ "previous_batch": null,
+ "next_batch": "op03_02",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "クインシィ・グランチャー",
+   "en": "Quincy Grand Cher",
+   "kind": "unit",
+   "series": "Brain Powerd",
+   "role": "Quincy Issa's red custom Grand Cher"
+  },
+  {
+   "ja": "アイリーン・キャリアー",
+   "en": "Irene Carrier",
+   "kind": "character",
+   "series": "Brain Powerd",
+   "gender": "female",
+   "role": "Ship's doctor (also an acupuncturist and former top military officer) on Novis Noah; becomes its captain after Captain McCormick disappears",
+   "personality": "Calm, capable and motherly; a steady leader the pilots, especially Hime, look up to.",
+   "en_short": "Irene"
+  },
+  {
+   "ja": "オーガニック・エンジン",
+   "en": "Organic Engine",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Orphan's organic power source/engine."
+  },
+  {
+   "ja": "オーガニック・プレート",
+   "en": "Organic Plate",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "The disc-shaped plates Orphan produces, from which Antibodies are revived."
+  },
+  {
+   "ja": "オペレーション",
+   "en": "Operation",
+   "kind": "term"
+  },
+  {
+   "ja": "ノヴィス・ノア",
+   "en": "Novis Noah",
+   "kind": "ship",
+   "series": "Brain Powerd",
+   "role": "Anti-Orphan battleship (carrier with a pyramid superstructure); base of the Brain Powerd pilots"
+  },
+  {
+   "ja": "ブレンパワード",
+   "en": "Brain Powerd",
+   "kind": "unit",
+   "series": "Brain Powerd",
+   "role": "The type of Antibody that rebels against Orphan; generic Brain Powerd unit (also the series title)"
+  },
+  {
+   "ja": "グランチャー",
+   "en": "Grand Cher",
+   "kind": "unit",
+   "series": "Brain Powerd",
+   "role": "Orphan-loyal Antibody piloted by Reclaimers (generic grunt unit)"
+  },
+  {
+   "ja": "ヒメ・ブレン",
+   "en": "Hime Brain",
+   "kind": "unit",
+   "series": "Brain Powerd",
+   "role": "Hime Utsumiya's Brain Powerd"
+  },
+  {
+   "ja": "ユウ・ブレン",
+   "en": "Yuu Brain",
+   "kind": "unit",
+   "series": "Brain Powerd",
+   "role": "Yuu Isami's Brain Powerd"
+  },
+  {
+   "ja": "リクレイマー",
+   "en": "Reclaimer",
+   "kind": "faction",
+   "series": "Brain Powerd",
+   "role": "The people who serve Orphan and pilot Grand Chers to gather its plates; plural 'Reclaimers'"
+  },
+  {
+   "ja": "アイリーン",
+   "en": "Irene",
+   "kind": "character",
+   "series": "Brain Powerd",
+   "gender": "female",
+   "role": "Ship's doctor (also an acupuncturist and former top military officer) on Novis Noah; becomes its captain after Captain McCormick disappears",
+   "personality": "Calm, capable and motherly; a steady leader the pilots, especially Hime, look up to.",
+   "full_name": "Irene Carrier"
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "オルファン",
+   "en": "Orphan",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Gigantic sentient alien ship buried under the Pacific; its awakening threatens Earth; base of the Reclaimers"
+  },
+  {
+   "ja": "ジオン残党",
+   "en": "Zeon remnants",
+   "kind": "faction"
+  },
+  {
+   "ja": "プレート",
+   "en": "plate",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Orphan's disc plates sought by the Reclaimers; ALSO (crossover) inscribed plates carrying a Zentradi/Protoculture song."
+  },
+  {
+   "ja": "伊佐未勇",
+   "en": "Yuu Isami",
+   "kind": "character",
+   "series": "Brain Powerd",
+   "gender": "male",
+   "role": "Male lead; former Reclaimer who escapes Orphan and pilots Yuu Brain, later Nelly Brain, for Novis Noah",
+   "personality": "Brooding lone wolf who resents his scientist parents. Often acts alone, but values life and comes to fight to save his sister Quincy.",
+   "en_short": "Yuu"
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "ブレン",
+   "en": "Brain",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Short for Brain Powerd units (ブレンたち, ブレンパワード隊)."
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {
+  "31": {
+   "speaker": "Irene Carrier",
+   "gender": "female",
+   "role": "acting captain of the Novis Noa",
+   "confidence": "high",
+   "evidence": "brief: 'ノヴィス・ノアの艦長代理、アイリーン・キャリアーです。'"
+  },
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  },
+  "38": {
+   "speaker": "South Burning",
+   "gender": "male",
+   "role": "Captain, mobile weapons unit commander at Torrington",
+   "confidence": "high",
+   "evidence": "brief63000: 'I'm Captain South Burning.'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [],
+ "rows": [
+  {
+   "ref": "brief63002#0",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "オペレーション　０３",
+   "en": "Operation 03",
+   "notes": ""
+  },
+  {
+   "ref": "brief63002#1",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ノヴィス・ノア",
+   "en": "Novis Noah",
+   "notes": ""
+  },
+  {
+   "ref": "brief63002#2",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ノヴィス・ノアの",
+   "en": "Minimize damage to the",
+   "notes": "Split objective across rows 2 and 3."
+  },
+  {
+   "ref": "brief63002#3",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "損傷を抑える",
+   "en": "Novis Noah",
+   "notes": ""
+  },
+  {
+   "ref": "brief63002#4",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "リクレイマー排除",
+   "en": "Eliminate the Reclaimers",
+   "notes": ""
+  },
+  {
+   "ref": "brief63002#5",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "プレート回収阻止",
+   "en": "Halt Plate Recovery",
+   "notes": ""
+  },
+  {
+   "ref": "brief63002#6",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ヒメ・ブレン援護",
+   "en": "Support Hime Brain",
+   "notes": ""
+  },
+  {
+   "ref": "brief63002#7",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<ac(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><ac(2)>#c[BE5050]ジオン残党#cは<im(1)>依然として逃亡中だが、\n先刻、輸送機を帯同させた部隊が\n東アジア方面で確認された。",
+   "en": "<op(37,1)><sp(2)><ac(2)>The #c[BE5050]Zeon remnants#c are<im(1)> still on the run,\nbut a unit accompanied by transport aircraft\nwas spotted earlier in East Asia.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63002#8",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[E2E258]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>本艦は<im(2)>これより東アジアに針路を取り、\n当該海域展開中の#c[5E8FD8]ＵＣＥ#c所属艦\n#c[E2E258]ノヴィス・ノア#cと合同で奪還作戦を行う。",
+   "en": "<op(37,1)><sp(2)>We will<im(2)> now set course for East Asia\nto join the #c[5E8FD8]UCE#c ship #c[E2E258]Novis Noah#c in those\nwaters for a joint recovery operation.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63002#9",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>#c[5E8FD8]ノヴィス・ノア#cはオーガニック・エンジン\nという新型エンジンを搭載した実験艦だ。",
+   "en": "<op(37,1)><sp(2)>The #c[5E8FD8]Novis Noah#c is an experimental ship\nequipped with a new type of engine called\nan Organic Engine.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63002#10",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>近年、地球全土で多発する地殻変動の\n影響で、深海より発見された遺跡…\nオルファンのことを知ってるかな？",
+   "en": "<op(37,1)><sp(2)>Are you familiar with Orphan... the ruins\ndiscovered in the deep sea after recent\ntectonic activity across the globe?",
+   "notes": ""
+  },
+  {
+   "ref": "brief63002#11",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(8)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>そこを拠点とする#c[BE5050]リクレイマー#cという<im(8)>\n組織に対抗するために、#c[5E8FD8]ノヴィス・ノア#cに\n編成されているのが#c[5E8FD8]ブレンパワード隊#cだ。",
+   "en": "<op(37,1)><sp(2)>To counter the #c[BE5050]Reclaimers#c<im(8)> based there,\nthe #c[5E8FD8]Novis Noah#c formed the\n#c[5E8FD8]Brain Powerd Team#c.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63002#12",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>彼らは現在も#c[BE5050]リクレイマー#cの監視任務を\n続行中だが、その任務を一時中断して\n#c[BE5050]２号機#cの追跡に協力してもらっている。",
+   "en": "<op(37,1)><sp(2)>They are still monitoring the #c[BE5050]Reclaimers#c,\nbut they paused that mission to help us\npursue #c[BE5050]Unit 2#c.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63002#13",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[BE5050]",
+    "#c",
+    "<im(5)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>で、その#c[5E8FD8]ノヴィス・ノア#cだが…\n輸送部隊と交戦中に#c[BE5050]リクレイマー#cから\n襲撃<im(5)>を受けたとの連絡が入っている。",
+   "en": "<op(37,1)><sp(2)>As for the #c[5E8FD8]Novis Noah#c...\nWhile engaging the transports, #c[BE5050]Reclaimers#c\nambushed them<im(5)>, according to reports.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63002#14",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>詳しい状況は#c[5E8FD8]ノヴィス・ノア#cの艦長代理から\n説明がある。",
+   "en": "<op(37,1)><sp(2)>The acting captain of the #c[5E8FD8]Novis Noah#c\nwill explain the situation in detail.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63002#15",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(2)>#c[5E8FD8]ノヴィス・ノア#cの艦長代理、\nアイリーン・キャリアーです。",
+   "en": "<op(31,1)><sp(2)>I am Irene Carrier, acting captain\nof the #c[5E8FD8]Novis Noah#c.",
+   "notes": "Irene Carrier speaks."
+  },
+  {
+   "ref": "brief63002#16",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(2)>行方不明になった前艦長に代わって、\n#c[5E8FD8]ノヴィス・ノア#cの指揮をとっています。\nよろしくお願いします。",
+   "en": "<op(31,1)><sp(2)>With our former captain missing,\nI have taken command of the #c[5E8FD8]Novis Noah#c.\nI look forward to working with you.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63002#17",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "<im(7)>",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(2)>緊急事態なので、あいさつはこのくらいで。\n現在、本艦は#c[BE5050]リクレイマー#cの#c[BE5050]グランチャー\n部隊<im(7)>#cに襲撃を受けて、応戦中です。",
+   "en": "<op(31,1)><sp(2)>Given the emergency, pardon the brevity.\nWe are under attack by a #c[BE5050]Reclaimer#c\n#c[BE5050]Grand Cher unit<im(7)>#c and returning fire.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63002#18",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(2)>目標を追跡中のところ、\nオーガニック・プレートを回収にきた\n#c[BE5050]リクレイマー#cと遭遇した形です。",
+   "en": "<op(31,1)><sp(2)>While pursuing our target, we ran into\n#c[BE5050]Reclaimers#c who had arrived to\nretrieve Organic Plates.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63002#19",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(2)>#c[BE5050]リクレイマー#cの詳しい説明はまた後で。\n今は#c[F07141]援護#cをお願いします。",
+   "en": "<op(31,1)><sp(2)>I will explain the #c[BE5050]Reclaimers#c later.\nRight now, please provide #c[F07141]support#c.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63002#20",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<of(1)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>聞いてのとおりだ。<of(1)>\n#c[5E8FD8]ノヴィス・ノア#cの被害が拡大する前に\nできるだけ早く合流するぞ！",
+   "en": "<op(38,1)><sp(2)>You heard her.<of(1)>\nBefore damage to the #c[5E8FD8]Novis Noah#c worsens,\nrendezvous as quickly as possible!",
+   "notes": "South Burning speaks."
+  },
+  {
+   "ref": "brief63038#0",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ノヴィス・ノアの損傷",
+   "en": "Novis Noah Damage",
+   "notes": ""
+  },
+  {
+   "ref": "brief63038#1",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "tokens": [
+    "%d"
+   ],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "損傷率 %d ％",
+   "en": "Damage Rate %d％",
+   "notes": ""
+  },
+  {
+   "ref": "brief63038#2",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<tr(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(2)>貴艦の進路上で、<im(1)>#c[5E8FD8]こちらのパイロット#cが\nすでに戦闘<tr(1)>に入っています。",
+   "en": "<op(31,1)><sp(2)>Along your ship's route,<im(1)> #c[5E8FD8]one of our pilots#c\nis already engaged in battle.<tr(1)>",
+   "notes": ""
+  },
+  {
+   "ref": "brief63038#3",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(2)>",
+    "#c[F07141]",
+    "<im(9)>",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(2)>本艦に合流する前に、\n#c[F07141]彼<im(9)>を援護#cしてください。",
+   "en": "<op(31,1)><sp(2)>Before rendezvousing with this ship,\nplease #c[F07141]support him<im(9)>#c.",
+   "notes": "'Him' refers to Yuu Isami."
+  },
+  {
+   "ref": "brief63038#4",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<im(4)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)><im(4)>#c[5E8FD8]ノヴィス・ノア#cはすでに攻撃を受けている。",
+   "en": "<op(38,1)><sp(2)><im(4)>The #c[5E8FD8]Novis Noah#c is already under attack.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63038#5",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>迅速に敵を掃討して#c[5E8FD8]アルビオン#cの進路を\n確保するんだ。",
+   "en": "<op(38,1)><sp(2)>Mop up the enemy quickly and clear\na path for the #c[5E8FD8]Albion#c.",
+   "notes": ""
+  },
+  {
+   "ref": "m6031#1",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "制限時間超過",
+   "en": "Time Limit Exceeded",
+   "notes": ""
+  },
+  {
+   "ref": "m6031#2",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "クインシィ･グランチャーの撃破",
+   "en": "Destroy the Quincy Grand Cher",
+   "notes": ""
+  },
+  {
+   "ref": "m6031#3",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "□",
+    "<ab(5000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>近接攻撃の後、□ボタンで\n追い討ち攻撃が発生します。<ab(5000)><ed()>",
+   "en": "<op()><sp(20)>After a melee attack, press the □\nbutton for a follow-up attack.<ab(5000)><ed()>",
+   "notes": "System combat tutorial message."
+  },
+  {
+   "ref": "m6031#4",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ユウ･ブレン　",
+   "en": "Yuu Brain",
+   "notes": ""
+  },
+  {
+   "ref": "m6031#5",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [
+    "%d"
+   ],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "アーマー%d％",
+   "en": "Armor %d％",
+   "notes": ""
+  },
+  {
+   "ref": "m6031#6",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こちらはアルビオン。\n君がノヴィス・ノアのパイロットだな？<ab(400)><ed()>",
+   "en": "<op()><sp(20)>This is the Albion.\nYou're the Novis Noah's pilot, right?<ab(400)><ed()>",
+   "notes": "Albion comms operator."
+  },
+  {
+   "ref": "m6031#7",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ああ、このブレンパワードのパイロット、\n伊佐未　勇だ。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Yeah. I'm Yuu Isami, pilot of\nthis Brain Powerd.<ab(400)><ed()>",
+   "notes": "Yuu Isami responds."
+  },
+  {
+   "ref": "m6031#8",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今から君を援護する。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>We'll back you up now.<ab(200)><ed()>",
+   "notes": "Albion pilot."
+  },
+  {
+   "ref": "m6031#9",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>すまない！\nよし、気合入れていくぞ、ブレン！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Thanks!\nAll right, let's do this, Brain!<ab(700)><ed()>",
+   "notes": "Yuu Isami speaks to his Brain."
+  },
+  {
+   "ref": "m6031#10",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あれがブレンパワード……\n初めて見たけど、ほんとに生物みたいね。<ab(400)>",
+   "en": "<op()><sp(20)>First time seeing a Brain Powerd...\nIt really looks like a living thing.<ab(400)>",
+   "notes": "Female observer (Linda Plato or operator)."
+  },
+  {
+   "ref": "m6031#11",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>自己修復機能があるとか、\nオーガニック・プレートから生まれるとかって<ab(0)>",
+   "en": "<sp(20)>Self-repair capabilities, born\nfrom Organic Plates...<ab(0)>",
+   "notes": "Continuation of speech from row 36."
+  },
+  {
+   "ref": "m6031#12",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ほんとなのかしら……<ab(500)><ed()>",
+   "en": "<sp(20)>I wonder if it's all true...<ab(500)><ed()>",
+   "notes": "Conclusion of speech from rows 36-37."
+  },
+  {
+   "ref": "m6031#13",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>別働隊から連絡がありました。\n目標の輸送船団はもぬけの殻だそうです。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Report from the detached force.\nThe target transport convoy was empty.<ab(400)><ed()>",
+   "notes": "Communications operator."
+  },
+  {
+   "ref": "m6031#14",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どうやらまた外れか……<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Looks like another bust...<ab(100)><ed()>",
+   "notes": "Pilot."
+  },
+  {
+   "ref": "m6031#15",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>というよりは、一杯食わされたな。<ab(200)>",
+   "en": "<op()><sp(20)>More like we've been had.<ab(200)>",
+   "notes": "Tak or Burning."
+  },
+  {
+   "ref": "m6031#16",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>そいつらは、俺たちをリクレイマーに\nぶつけるための囮だよ。<ab(300)><ed()>",
+   "en": "<sp(20)>They were decoys to throw us at\nthe Reclaimers.<ab(300)><ed()>",
+   "notes": "Continuation of row 41."
+  },
+  {
+   "ref": "m6031#17",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>気に病んでもしょうがあるまい。\n今は目の前の任務を優先する。<ab(500)><ed()>",
+   "en": "<op()><sp(20)>No use brooding over it.\nPrioritize the mission before us.<ab(500)><ed()>",
+   "notes": "Senior officer (Amuro or Sinapus)."
+  },
+  {
+   "ref": "m6031#18",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>近接攻撃の後、追い討ちを使えば、\n敵の体勢を崩すことができる。<ab(400)>",
+   "en": "<op()><sp(20)>Follow up after a melee attack\nto break the enemy's stance.<ab(400)>",
+   "notes": "Tactical instruction."
+  },
+  {
+   "ref": "m6031#19",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>その隙にたたみ掛けろ！<ab(500)><ed()>",
+   "en": "<sp(20)>Now strike while they're open!<ab(500)><ed()>",
+   "notes": "Continuation of row 44."
+  },
+  {
+   "ref": "m6031#20",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今だ！　攻撃を叩き込め！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Now! Hammer them with attacks!<ab(100)><ed()>",
+   "notes": "Combat order."
+  },
+  {
+   "ref": "m6031#21",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>敵は距離をとるタイプ…\n射撃戦が有効か？<ab(400)><ed()>",
+   "en": "<sp(20)>The enemy keeps their distance...\nIs ranged combat more effective?<ab(400)><ed()>",
+   "notes": "Tactical assessment."
+  },
+  {
+   "ref": "m6031#22",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>勇！　オルファンの裏切り者！\n黙って私に討たれなさい！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Yuu! Traitor to Orphan!\nShut up and let me strike you down!<ab(300)><ed()>",
+   "notes": "Quincy Issa."
+  },
+  {
+   "ref": "m6031#23",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この感触！　姉さんか！？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>This feeling! Sis?!<ab(200)><ed()>",
+   "notes": "Yuu Isami recognizes Quincy."
+  },
+  {
+   "ref": "m6031#24",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>うるさい！\nあんたなんか、もう弟じゃないんだよ！<ab(300)>",
+   "en": "<op()><sp(20)>Shut up!\nYou're no brother of mine anymore!<ab(300)>",
+   "notes": "Quincy Issa."
+  },
+  {
+   "ref": "m6031#25",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>リクレイマーを裏切って、\nノヴィス・ノアに走った時からね！<ab(500)><ed()>",
+   "en": "<sp(20)>Not since you betrayed the\nReclaimers and ran to Novis Noah!<ab(500)><ed()>",
+   "notes": "Continuation of row 50."
+  },
+  {
+   "ref": "m6031#26",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くっ…覚えておきなさい、勇！\n次は必ずあんたを倒す！<ab(300)>",
+   "en": "<op()><sp(20)>Ugh... Remember this, Yuu!\nNext time I will defeat you!<ab(300)>",
+   "notes": "Quincy retreat line."
+  },
+  {
+   "ref": "m6031#27",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>おまえはオルファンを傷つける！<ab(500)><ed()>",
+   "en": "<sp(20)>You would harm Orphan!<ab(500)><ed()>",
+   "notes": "Continuation of row 52."
+  },
+  {
+   "ref": "m6031#28",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>姉さん…\n完全にオルファンの抗体になりきってる！<ab(1000)><ed()>",
+   "en": "<op()><sp(20)>Sis... She's become a complete\nAntibody to Orphan!<ab(1000)><ed()>",
+   "notes": "Yuu Isami on Quincy."
+  },
+  {
+   "ref": "m6031#29",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>味方がやられた…！　手強い…！\nここは分が悪い…<ab(400)>",
+   "en": "<op()><sp(20)>An ally was taken down...! Tough...!\nThe odds are against us here...<ab(400)>",
+   "notes": "Enemy Reclaimer retreat line."
+  },
+  {
+   "ref": "m6031#30",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>次は必ずあんたを倒す！\nあんたはオルファンを傷つける！<ab(500)><ed()>",
+   "en": "<sp(20)>Next time I will defeat you!\nYou would harm Orphan!<ab(500)><ed()>",
+   "notes": "Continuation of row 55."
+  },
+  {
+   "ref": "m6031#31",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>姉さん…\n完全にオルファンの抗体になりきってる！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Sis... She's become a complete\nAntibody to Orphan!<ab(500)><ed()>",
+   "notes": "Yuu Isami variant."
+  },
+  {
+   "ref": "m6031#32",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>周辺に敵影なし。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>No enemy signatures in the area.<ab(200)><ed()>",
+   "notes": "Radar operator."
+  },
+  {
+   "ref": "m6031#33",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>勇、とりあえずアルビオンに着艦して！\n水先案内をお願い！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Yuu, dock with the Albion for now!\nPlease act as their guide!<ab(400)><ed()>",
+   "notes": "Irene Carrier."
+  },
+  {
+   "ref": "m6031#34",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>わかったよ、アイリーンさん。\n行くぞ、ブレン！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Understood, Irene.\nLet's go, Brain!<ab(500)><ed()>",
+   "notes": "Yuu Isami."
+  },
+  {
+   "ref": "m6031#35",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このままじゃやられる…！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>At this rate, I'm done for...!<ab(200)><ed()>",
+   "notes": "Pilot in distress."
+  },
+  {
+   "ref": "m6031#36",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くそ、こんなところで…！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Damn it, not here...!<ab(100)><ed()>",
+   "notes": "Pilot defeated."
+  },
+  {
+   "ref": "m6031#37",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ブレンパワード、撃墜されました！<ab(800)><ed()>",
+   "en": "<op()><sp(20)>Brain Powerd has been shot down!<ab(800)><ed()>",
+   "notes": "Operator failure alert."
+  },
+  {
+   "ref": "m6031#38",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(900)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>だめだったか…！<ab(900)><ed()>",
+   "en": "<op()><sp(20)>We couldn't make it...!<ab(900)><ed()>",
+   "notes": "Commander reaction."
+  },
+  {
+   "ref": "m6031#39",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ノヴィス・ノアのダメージが拡大しています！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Novis Noah damage is spreading!<ab(300)><ed()>",
+   "notes": "Operator alert."
+  },
+  {
+   "ref": "m6031#40",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>急がないと…！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>We have to hurry...!<ab(500)><ed()>",
+   "notes": "Pilot / commander."
+  },
+  {
+   "ref": "m6031#41",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ノヴィス・ノアのダメージ、さらに拡大！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Novis Noah damage worsening further!<ab(400)><ed()>",
+   "notes": "Operator alert."
+  },
+  {
+   "ref": "m6031#42",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まずい…！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>This is bad...!<ab(300)><ed()>",
+   "notes": "Pilot / commander."
+  },
+  {
+   "ref": "m6031#43",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ノヴィス・ノア、機関部に損傷！\nオーガニックエンジンの出力低下！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Novis Noah engine room damaged!\nOrganic Engine output dropping!<ab(500)><ed()>",
+   "notes": "Operator warning."
+  },
+  {
+   "ref": "m6031#44",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>間に合わなかったか…<ab(500)><ed()>",
+   "en": "<op()><sp(20)>We didn't make it in time...<ab(500)><ed()>",
+   "notes": "Failure reaction."
+  },
+  {
+   "ref": "m6031#45",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵の増援を確認！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemy reinforcements confirmed!<ab(300)><ed()>",
+   "notes": "Radar operator."
+  },
+  {
+   "ref": "m6031#46",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>高速で接近する機影があります！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Target approaching at high speed!<ab(300)><ed()>",
+   "notes": "Radar operator."
+  },
+  {
+   "ref": "m6031#47",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こいつらはちょっと違う…！<ab(200)>",
+   "en": "<op()><sp(20)>These ones are a bit different...!<ab(200)>",
+   "notes": "Pilot."
+  },
+  {
+   "ref": "m6031#48",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>くそっ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Damn it!<ab(0)><off()>",
+   "notes": "Combat shout."
+  },
+  {
+   "ref": "m6031#49",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>これじゃきりがない！<ab(0)><off()>",
+   "en": "<on()><sp(20)>There's no end to this!<ab(0)><off()>",
+   "notes": "Combat line."
+  },
+  {
+   "ref": "m6031#50",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>怖がるな、ブレン！　お前ならやれるさ。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Don't fear, Brain! You can do this.<ab(0)><off()>",
+   "notes": "Yuu Isami encouraging his Brain."
+  },
+  {
+   "ref": "m6031#51",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>あと少しだ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Just a little more!<ab(0)><off()>",
+   "notes": "Combat line."
+  },
+  {
+   "ref": "m6031#52",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>…勇！<ab(0)><off()>",
+   "en": "<on()><sp(20)>...Yuu!<ab(0)><off()>",
+   "notes": "Ally calling out to Yuu (likely Hime Utsumiya)."
+  },
+  {
+   "ref": "brief63039#2",
+   "layer": "tactical briefing",
+   "phase": 2,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(1)>",
+    "<im(4)>",
+    "<im(6)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(2)>#c[BE5050]リクレイマー#cの<im(1)>別の部隊がそちらに\n向かっているのを確認<im(4)><im(6)>しました。",
+   "en": "<op(31,1)><sp(2)>We confirmed another #c[BE5050]Reclaimer#c unit<im(1)>\nheading in your direction.<im(4)><im(6)>",
+   "notes": "Irene Carrier gives tactical briefing for Phase 2."
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "brief63039#3",
+   "layer": "tactical briefing",
+   "jp": "<op(31,1)><sp(2)>最近の大規模な地殻変動の影響で、\nこのあたりではよくプレートが\n出現しています。",
+   "en": ""
+  },
+  {
+   "ref": "brief63039#4",
+   "layer": "tactical briefing",
+   "jp": "<op(31,1)><sp(2)>彼らがここに来たのはそのプレートを\n集めるためですが、だからと言って\n素通りはさせてくれないと思います。",
+   "en": ""
+  },
+  {
+   "ref": "brief63039#5",
+   "layer": "tactical briefing",
+   "jp": "<op(31,1)><sp(2)>貴艦の進路<im(2)><im(5)><im(7)>を確保するためには\n#c[F07141]交戦は避けられない#cでしょう。<tr(1)>\nよろしくお願いします。",
+   "en": ""
+  },
+  {
+   "ref": "brief63039#6",
+   "layer": "tactical briefing",
+   "jp": "<op(31,1)><sp(2)>また、可能な限りでいいのですが、\n彼らのプレート回収の阻止を\n行ってもらえるでしょうか？<im(8)>",
+   "en": ""
+  },
+  {
+   "ref": "brief63039#7",
+   "layer": "tactical briefing",
+   "jp": "<op(31,1)><sp(2)>これが#c[BE5050]リクレイマー#cの手に渡ると、\nグランチャーなどの戦力を<of(1)>\n生み出す原因になってしまいます。",
+   "en": ""
+  },
+  {
+   "ref": "brief63039#8",
+   "layer": "tactical briefing",
+   "jp": "<op(38,1)><sp(2)>#c[5E8FD8]ノヴィス・ノア#cはまだ持ちこたえているが、\nあまりぐずぐずしていられないぞ。",
+   "en": ""
+  },
+  {
+   "ref": "m6032#0",
+   "layer": "mission dialogue",
+   "jp": "ヌートリアの全破壊",
+   "en": ""
+  },
+  {
+   "ref": "m6032#1",
+   "layer": "mission dialogue",
+   "jp": "制限時間超過",
+   "en": ""
+  },
+  {
+   "ref": "m6032#2",
+   "layer": "mission dialogue",
+   "jp": "所属不明機の撃破",
+   "en": ""
+  },
+  {
+   "ref": "m6032#3",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>高速接近する熱源多数！\n敵のアンチボディです！<ab(1000)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6032#4",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>プレートの位置はこちらで指示します。\n回収を阻止してください。<ab(600)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6032#5",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>順調なようですね。\nその調子でお願いします。<ab(500)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Operation 03 begins near East Asia where the Albion establishes contact with the Novis Noah, an experimental carrier operating under acting captain Irene Carrier. Reclaimer forces led by Quincy Issa ambush the area to collect Organic Plates, and Yuu Isami sorties in Yuu Brain to fight off Grand Chers. The Albion mobile weapons unit intervenes to support Yuu and protect the Novis Noah. All lines adhere to the established glossary and technical constraints.",
+  "rows_examined": "op03_01 rows 1-80 + op02_03 rows 1-27 context + op03_02 rows 1-30 forward context",
+  "rows_examined_count": 115,
+  "uncertainties": [
+   "Row 2 (brief63002#2) & Row 3 (brief63002#3): Split objective 'ノヴィス・ノアの' / '損傷を抑える' translated as 'Minimize damage to the' / 'Novis Noah'.",
+   "Rows 36-38 (m6031#10-#12): Continuous sentence across three rows spoken by an uncredited female voice (likely Linda Plato or bridge operator) observing Brain Powerd for the first time; maintained natural feminine tone.",
+   "Rows 55-56 (m6031#29-#30): Spoken either by a generic Reclaimer or Quincy; maintained menacing combat tone consistent with previous lines.",
+   "Row 60 (m6031#34): Rendered 'アイリーンさん' as 'Irene' per BASE_RULES against honorific suffixes.",
+   "Rows 54 & 57 (m6031#28 & #31): Rendered 'オルファンの抗体' as 'Antibody to Orphan', using the series term Antibody for 抗体."
+  ],
+  "glossary_proposals": [
+   {
+    "ja": "抗体",
+    "en": "Antibody",
+    "kind": "term",
+    "series": "Brain Powerd",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Brain_Powerd"
+    ],
+    "note": "Kanji term for Antibody (アンチボディ) in Brain Powerd, appearing in rows 54 and 57."
+   },
+   {
+    "ja": "クインシィ・イッサー",
+    "en": "Quincy Issa",
+    "kind": "character",
+    "gender": "female",
+    "series": "Brain Powerd",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Brain_Powerd"
+    ],
+    "note": "Quincy Issa, female lead antagonist and Yuu's sister; speaker of rows 48, 50, 52."
+   }
+  ],
+  "portrait_speakers": {},
+  "rows_left_untranslated": []
+ }
+}

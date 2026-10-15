@@ -1,0 +1,1762 @@
+{
+ "batch": "op13_01",
+ "operation": 13,
+ "previous_batch": null,
+ "next_batch": "op13_02",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "グラビティ・ブラスト",
+   "en": "Gravity Blast",
+   "kind": "term",
+   "series": "Martian Successor Nadesico",
+   "role": "The Nadesico's main gravity cannon (also used by Jovian ships and the X-Aestivalis)."
+  },
+  {
+   "ja": "グラビティブラスト",
+   "en": "Gravity Blast",
+   "kind": "term",
+   "series": "Martian Successor Nadesico",
+   "role": "Nadesico's main gravity cannon (dotless spelling)."
+  },
+  {
+   "ja": "ダバ・マイロード",
+   "en": "Daba Myroad",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "male",
+   "role": "Protagonist. Heir of the Yaman clan's Kamon dynasty (true name Kamon Myroad), raised on Koam; leads the rebellion against Poseidal. Pilots the L-Gaim, later the L-Gaim Mk-II.",
+   "personality": "Calm, earnest and somewhat reserved, hard to read; indecisive at times but prone to sudden outbursts of anger, and reckless whenever his adopted sister Quwasan is involved. Grows into a capable leader.",
+   "en_short": "Daba"
+  },
+  {
+   "ja": "オペレーション",
+   "en": "Operation",
+   "kind": "term"
+  },
+  {
+   "ja": "オルファン",
+   "en": "Orphan",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Gigantic sentient alien ship buried under the Pacific; its awakening threatens Earth; base of the Reclaimers"
+  },
+  {
+   "ja": "ギャブレー",
+   "en": "Gablae",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "male",
+   "role": "Daba's rival. Ambitious country noble from Koam who joins the Poseidal military (under Chai Char, later one of the Thirteen); commands the Slender Skala, finally sides with Daba to rescue Quwasan. Pilots Ashura Temple, A-Taul, Bat-Shu in ACE2.",
+   "personality": "Pompous and vain but sincere, warm-hearted and quick to fall in love; naive and comically airheaded, a rival with a sense of honor.",
+   "full_name": "Gavlet Gablae"
+  },
+  {
+   "ja": "ポセイダル",
+   "en": "Poseidal",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "female",
+   "role": "Emperor ruling the Pentagona World from Sveto on Gastogal; supreme commander of the Poseidal Army. The Poseidal on the throne is actually Mian Qu Ha Ussher, a puppet of the true Poseidal (Amandara Kamandara). In ACE2 'Poseidal' is the pilot of the Aug.",
+   "personality": "Regal, cold and imperious ruler who controls others (e.g. Quwasan) through the bio-relation system; her memories are themselves manipulated, and she finally turns against Amandara.",
+   "full_name": "Oldna Poseidal"
+  },
+  {
+   "ja": "ロックオン",
+   "en": "lock on",
+   "kind": "generic",
+   "series": "Another Century's Episode series (game system)",
+   "role": "Target lock (verb) / lock-on (noun)."
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "レッシィ",
+   "en": "Leccee",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "female",
+   "role": "Daughter of the noble Gaw house and a rising member of Poseidal's Thirteen; defects to Daba's rebels. Later captains the Whale and pilots the Novel D-Sserd.",
+   "personality": "Bold, headstrong and reckless yet emotionally fragile; competes with Amu for Daba; becomes calmer and more mature later in the series.",
+   "full_name": "Gaw Ha Leccee"
+  },
+  {
+   "ja": "ギワザ",
+   "en": "Giwaza",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "male",
+   "role": "Seat no. 3 and de facto leader of Poseidal's Thirteen, the highest-ranking officer after Poseidal; rebels against Poseidal with his own fleet (the Giwaza fleet) and is killed in the final battle.",
+   "personality": "Capable, cold, calculating and ambitious; uses and discards people, including his lover Nei Mo Han; a political schemer.",
+   "full_name": "Giwaza Lowau"
+  },
+  {
+   "ja": "ユリカ",
+   "en": "Yurika",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "female",
+   "role": "Captain of the ND-001 Nadesico; Akito's childhood friend and later wife; prisoner of the Martian Successors in PoD",
+   "personality": "Cheerful, airheaded and clingy toward Akito, but a genuinely brilliant tactician",
+   "full_name": "Yurika Misumaru"
+  },
+  {
+   "ja": "リリス",
+   "en": "Lilith",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim (NOT Dunbine)",
+   "gender": "female",
+   "role": "Last surviving fairy (Mirauli) of the Pentagona World; companion to Daba Myroad",
+   "personality": "Cheerful, chatty little fairy who loves Daba's group. No use in a fight, but a good cook and a loyal friend. She is a deliberate homage to Cham.",
+   "full_name": "Lilith Fau"
+  },
+  {
+   "ja": "ダバ",
+   "en": "Daba",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "male",
+   "role": "Protagonist. Heir of the Yaman clan's Kamon dynasty (true name Kamon Myroad), raised on Koam; leads the rebellion against Poseidal. Pilots the L-Gaim, later the L-Gaim Mk-II.",
+   "personality": "Calm, earnest and somewhat reserved, hard to read; indecisive at times but prone to sudden outbursts of anger, and reckless whenever his adopted sister Quwasan is involved. Grows into a capable leader.",
+   "full_name": "Daba Myroad"
+  },
+  {
+   "ja": "ルリ",
+   "en": "Ruri",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "female",
+   "role": "TV: operator/science officer of the Nadesico. PoD: Lieutenant Commander, captain of the Nadesico B (\"Electronic Fairy\")",
+   "personality": "Deadpan, cool, blunt child prodigy (catchphrase \"bunch of fools\"); slowly warms to the crew",
+   "full_name": "Ruri Hoshino"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {
+  "34": {
+   "speaker": "Ruri Hoshino",
+   "gender": "female",
+   "role": "Nadesico operator",
+   "confidence": "high",
+   "evidence": "brief: 'こちらはナデシコのホシノ・ルリです。'"
+  },
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  },
+  "38": {
+   "speaker": "South Burning",
+   "gender": "male",
+   "role": "Captain, mobile weapons unit commander at Torrington",
+   "confidence": "high",
+   "evidence": "brief63000: 'I'm Captain South Burning.'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [],
+ "rows": [
+  {
+   "ref": "brief63012#0",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "オペレーション　１３",
+   "en": "Operation 13",
+   "notes": "Mission header."
+  },
+  {
+   "ref": "brief63012#1",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "所属不明勢力 調査",
+   "en": "Unidentified Force Investigation",
+   "notes": "Objective header."
+  },
+  {
+   "ref": "brief63012#2",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "所属不明機の損傷を抑える",
+   "en": "Minimize Damage to Unidentified Units",
+   "notes": "Secondary objective / mission condition."
+  },
+  {
+   "ref": "brief63012#3",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "不明部隊迎撃",
+   "en": "Intercept Unidentified Forces",
+   "notes": "Tactical phase title."
+  },
+  {
+   "ref": "brief63012#4",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<ac(12)>",
+    "<im(1)>",
+    "<im(10)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(7)>",
+    "<im(8)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><ac(12)>先ほど、<im(1)>付近の宙<im(10)>域で#c[BE5050]所属不明機#c同士の\n<im(7)>戦闘<im(8)>を探知したのだが、本部に確認を\nとったところ、#c[F07141]調査命令#cが下った。",
+   "en": "<op(37,1)><sp(2)><ac(12)>We detected <im(1)>combat between <im(10)>#c[BE5050]unidentified#c\n<im(7)>units nearby<im(8)>. After checking with HQ,\nwe were ordered to #c[F07141]investigate#c.",
+   "notes": "Portrait 37 is Captain Sinapus. Exact token sequence maintained: op(37,1), sp(2), ac(12), im(1), im(10), #c[BE5050], #c, im(7), im(8), #c[F07141], #c."
+  },
+  {
+   "ref": "brief63012#5",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>地球への帰還は多少遅れるが、\n<im(2)>本艦はこれより#c[5E8FD8]ナデシコ#cとともに\n#c[F07141]調査に向かう#c。",
+   "en": "<op(37,1)><sp(2)>Our return to Earth will be delayed,\n<im(2)>but this ship and the #c[5E8FD8]Nadesico#c will\nnow #c[F07141]head out to investigate#c.",
+   "notes": "Captain Sinapus updating the crew on mission orders."
+  },
+  {
+   "ref": "brief63012#6",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(4)>",
+    "<im(11)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(4)><im(11)>そういえば伝え忘れていたな。\n今後#c[5E8FD8]ナデシコ#cは、軍属として我々に\n協力してくれることになった。",
+   "en": "<op(37,1)><sp(2)><im(4)><im(11)>I forgot to mention: from now on,\nthe #c[5E8FD8]Nadesico#c will be assisting us\nas part of our military forces.",
+   "notes": "Captain Sinapus explaining Nadesico's new official status."
+  },
+  {
+   "ref": "brief63012#7",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>上層部の意向はわからんが…\n当面は行動をともにすることになる。",
+   "en": "<op(37,1)><sp(2)>I don't know what High Command intends...\nFor now, we will be operating together.",
+   "notes": "Captain Sinapus reflecting on command decisions."
+  },
+  {
+   "ref": "brief63012#8",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>それでは、現場に向かうぞ。",
+   "en": "<op(37,1)><sp(2)>Now then, let's head to the site.",
+   "notes": "Sinapus closing the strategic briefing."
+  },
+  {
+   "ref": "brief63012#9",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 34,
+   "tokens": [
+    "<op(34,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "<im(9)>",
+    "#c",
+    "<of(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(34,1)><sp(2)>#c[BE5050]所属不<im(9)>明機#cは、<of(1)>敵じゃない限りは\n攻撃しないでくださいね。",
+   "en": "<op(34,1)><sp(2)>Please do not attack #c[BE5050]unidentified<im(9)> units#c\n<of(1)>unless they are hostile.",
+   "notes": "Portrait 34 is Ruri Hoshino. Exact token sequence maintained: op(34,1), sp(2), #c[BE5050], im(9), #c, of(1)."
+  },
+  {
+   "ref": "brief63088#0",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "護衛対象の損傷",
+   "en": "Escort Target Damage",
+   "notes": "Tactical condition header."
+  },
+  {
+   "ref": "brief63088#2",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(1)>",
+    "<im(10)>",
+    "<im(2)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)>戦闘中の#c[BE5050]未確認勢力#cから<im(1)>攻撃を<im(10)>受けた。\n<im(2)>#c[F07141]迎撃#cに出るぞ。",
+   "en": "<op(38,1)><sp(2)>An #c[BE5050]unidentified force#c in battle\n<im(1)>has attacked<im(10)> us. <im(2)>Sortie to #c[F07141]intercept#c!",
+   "notes": "Portrait 38 is Captain South Burning. Exact token sequence maintained: op(38,1), sp(2), #c[BE5050], #c, im(1), im(10), im(2), #c[F07141], #c."
+  },
+  {
+   "ref": "brief63088#3",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<im(4)>",
+    "<im(6)>",
+    "<tr(1)>",
+    "<im(8)>",
+    "<im(9)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)><im(4)>今の<im(6)>ところ、本艦を標的に<tr(1)>しているのは\n一方だけだが、もう片方も<im(8)>味方とは<im(9)>限らん。\n警戒は怠るな！",
+   "en": "<op(38,1)><sp(2)><im(4)>So far, only one <im(6)>side is targeting this ship,\n<tr(1)>but the other side may not be <im(8)>friendly<im(9)>.\nStay on high alert!",
+   "notes": "Captain Burning warning pilots about the two unknown factions."
+  },
+  {
+   "ref": "m6131#1",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "護衛対象機の撃墜",
+   "en": "Escort Target Destroyed",
+   "notes": "Failure condition header."
+  },
+  {
+   "ref": "m6131#2",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>一体どこの機体だ！？\n見たこともないぞ。<ab(400)><ed()>",
+   "en": "<on()><sp(20)>Just whose units are those!?\nI've never seen anything like them.<ab(400)><ed()>",
+   "notes": "Allied pilot or bridge officer reacting to unfamiliar Heavy Metals."
+  },
+  {
+   "ref": "m6131#3",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>オモイカネで検索してみましたが\n照合ありませんでした。<ab(500)><ed()>",
+   "en": "<on()><sp(20)>I searched with Omoikane,\nbut found no match.<ab(500)><ed()>",
+   "notes": "Ruri Hoshino reporting that Nadesico's computer found no record."
+  },
+  {
+   "ref": "m6131#4",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>攻撃してくる目標には応戦しろ。\nナデシコ！　準備はどうか！<ab(200)><ed()>",
+   "en": "<on()><sp(20)>Return fire against hostile targets.\nNadesico! What is your status!?<ab(200)><ed()>",
+   "notes": "Captain Sinapus ordering engagement and checking with Nadesico."
+  },
+  {
+   "ref": "m6131#5",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>戦闘準備は問題なしです！<ab(500)><ed()>",
+   "en": "<on()><sp(20)>Battle preparations are all set!<ab(500)><ed()>",
+   "notes": "Captain Yurika Misumaru responding cheerfully."
+  },
+  {
+   "ref": "m6131#6",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>こいつら…光学兵器が効きにくい。\n特殊な装甲なのか？<ab(200)>",
+   "en": "<on()><sp(20)>Optical weapons barely hurt them...\nIs it some special armor?<ab(200)>",
+   "notes": "Pilot noting Heavy Metal beam-reflective coating."
+  },
+  {
+   "ref": "m6131#7",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>……教則書はもうあてにならないな。<ab(500)><ed()>",
+   "en": "<sp(20)>...The combat manual is useless now.<ab(500)><ed()>",
+   "notes": "Same pilot continuing, doctrinal tactical manual does not cover this."
+  },
+  {
+   "ref": "m6131#8",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>あれは地球圏の戦艦か？\nでは奴らを捕らえて、<ab(0)>",
+   "en": "<on()><sp(20)>Is that an Earth Sphere battleship?\nThen we'll capture them and...<ab(0)>",
+   "notes": "Gavlet Gablae spotting Albion."
+  },
+  {
+   "ref": "m6131#9",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>「オルファン」とやらのことを\n聞き出すとしようか！<ab(400)><ed()>",
+   "en": "<sp(20)>make them tell us about\nthis 'Orphan' of theirs!<ab(400)><ed()>",
+   "notes": "Gablae continuing. The Poseidal fleet seeks Orphan."
+  },
+  {
+   "ref": "m6131#10",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>はっ！<ab(200)><ed()>",
+   "en": "<on()><sp(20)>Sir!<ab(200)><ed()>",
+   "notes": "Poseidal soldier acknowledging Gablae."
+  },
+  {
+   "ref": "m6131#11",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ダバ…この星系で散ってもらおう！<ab(500)><ed()>",
+   "en": "<on()><sp(20)>Daba... You shall perish\nin this star system!<ab(500)><ed()>",
+   "notes": "Gavlet Gablae confronting Daba."
+  },
+  {
+   "ref": "m6131#12",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>俺はダバ・マイロード！　\nそこの艦！　俺たちの味方をしてくれるのか？<ab(500)><ed()>",
+   "en": "<on()><sp(20)>I'm Daba Myroad!\nShip over there! Are you on our side?<ab(500)><ed()>",
+   "notes": "Daba Myroad hailing the Albion."
+  },
+  {
+   "ref": "m6131#13",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>見かけない機体だが、所属はどこか？<ab(100)><ed()>",
+   "en": "<on()><sp(20)>Unfamiliar machine.\nWho do you belong to?<ab(100)><ed()>",
+   "notes": "Captain Sinapus inquiring about affiliation."
+  },
+  {
+   "ref": "m6131#14",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>私たち？　反乱軍よ？<ab(300)><ed()>",
+   "en": "<on()><sp(20)>Us? We're the Rebel Army!<ab(300)><ed()>",
+   "notes": "Gaw Ha Leccee answering."
+  },
+  {
+   "ref": "m6131#15",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>反乱？　どこに対して反乱しているの？<ab(300)><ed()>",
+   "en": "<on()><sp(20)>Rebels? Who are you\nrebelling against?<ab(300)><ed()>",
+   "notes": "Captain Yurika Misumaru asking naively."
+  },
+  {
+   "ref": "m6131#16",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ポセイダルに決まってるじゃない！\n何言ってるの？<ab(200)><ed()>",
+   "en": "<on()><sp(20)>Against Poseidal, of course!\nWhat are you talking about?<ab(200)><ed()>",
+   "notes": "Lilith Fau answering incredulously."
+  },
+  {
+   "ref": "m6131#17",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>リリス、ここの人たちが、\nポセイダルなんて知ってるわけないだろう？<ab(200)>",
+   "en": "<on()><sp(20)>Lilith, how would the people here\nknow anything about Poseidal?<ab(200)>",
+   "notes": "Daba Myroad reminding Lilith that they are in an unknown star system."
+  },
+  {
+   "ref": "m6131#18",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>すまない、ちゃんと説明する。<ab(200)>",
+   "en": "<sp(20)>I'm sorry, I'll explain properly.<ab(200)>",
+   "notes": "Daba apologizing."
+  },
+  {
+   "ref": "m6131#19",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>まず、俺たちは、この星系の人間じゃない。\n別の星系から来たんだ！<ab(500)><ed()>",
+   "en": "<sp(20)>First, we aren't from this system.\nWe came from another star system!<ab(500)><ed()>",
+   "notes": "Daba revealing their interstellar origin."
+  },
+  {
+   "ref": "m6131#20",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>別の星系だと！？<ab(100)><ed()>",
+   "en": "<on()><sp(20)>Another star system!?<ab(100)><ed()>",
+   "notes": "Captain Sinapus reacting with shock."
+  },
+  {
+   "ref": "m6131#21",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>説明は後よ！　敵が来る！<ab(300)><ed()>",
+   "en": "<on()><sp(20)>Explain later!\nThe enemy is coming!<ab(300)><ed()>",
+   "notes": "Gaw Ha Leccee cutting short dialogue due to combat."
+  },
+  {
+   "ref": "m6131#22",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>……今は話している暇はない。\n共同戦線を張るぞ。<ab(300)><ed()>",
+   "en": "<on()><sp(20)>...No time to talk now.\nWe're forming a joint front.<ab(300)><ed()>",
+   "notes": "Captain Sinapus agreeing to fight together."
+  },
+  {
+   "ref": "m6131#23",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>了解だ！　援護を頼む！<ab(300)><ed()>",
+   "en": "<on()><sp(20)>Roger! Cover us!<ab(300)><ed()>",
+   "notes": "Daba Myroad accepting support."
+  },
+  {
+   "ref": "m6131#24",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>助かった～！\n地獄に仏ってのはこのことだね！<ab(500)><ed()>",
+   "en": "<on()><sp(20)>We're saved!\nYou guys are a real godsend!<ab(500)><ed()>",
+   "notes": "Lilith Fau relieved. '地獄に仏' translated as 'godsend'. fix: ~ character not allowed -> replaced with !"
+  },
+  {
+   "ref": "m6131#25",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ちょっと！　ダバを撃たないでよね！<ab(500)><ed()>",
+   "en": "<on()><sp(20)>Hey! Don't you dare shoot Daba!<ab(500)><ed()>",
+   "notes": "Gaw Ha Leccee warning the player/allies."
+  },
+  {
+   "ref": "m6131#26",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>友軍として登録されていない機体だから\nロックオン可能か。　注意が必要だな。<ab(700)><ed()>",
+   "en": "<on()><sp(20)>It's not registered as friendly, so we\ncan lock on. Watch your fire.<ab(700)><ed()>",
+   "notes": "Captain Burning or player unit noting the friendly-lock game mechanic."
+  },
+  {
+   "ref": "m6131#27",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>撃たないでくれ！\n俺は敵じゃない！<ab(300)><ed()>",
+   "en": "<on()><sp(20)>Don't shoot!\nI'm not an enemy!<ab(300)><ed()>",
+   "notes": "Daba Myroad when targeted or attacked by friendly fire."
+  },
+  {
+   "ref": "m6131#28",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>うっ！<ab(100)><ed()>",
+   "en": "<on()><sp(20)>Ugh!<ab(100)><ed()>",
+   "notes": "Daba taking damage."
+  },
+  {
+   "ref": "m6131#29",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ちょっと、ダバに何すんのよ！\nよく見なさいよ！<ab(400)><ed()>",
+   "en": "<on()><sp(20)>Hey, what are you doing to Daba!?\nWatch where you're aiming!<ab(400)><ed()>",
+   "notes": "Gaw Ha Leccee scolding allies for shooting Daba."
+  },
+  {
+   "ref": "m6131#30",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>うわーー！！<ab(500)><ed()>",
+   "en": "<on()><sp(20)>Gwaaah!!<ab(500)><ed()>",
+   "notes": "Daba destroyed scream."
+  },
+  {
+   "ref": "m6131#31",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(7000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ダバ？　ダバ！！\nいや、そんなの嘘よ！<ab(7000)><ed()>",
+   "en": "<on()><sp(20)>Daba? Daba!!\nNo, this can't be real!<ab(7000)><ed()>",
+   "notes": "Gaw Ha Leccee despairing upon Daba's death (mission failure)."
+  },
+  {
+   "ref": "m6131#32",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>１時の方向に熱源を確認！<ab(300)><ed()>",
+   "en": "<on()><sp(20)>Heat source detected at 1 o'clock!<ab(300)><ed()>",
+   "notes": "Bridge operator detecting enemy reinforcements."
+  },
+  {
+   "ref": "m6131#33",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>地球圏のパイロット！\nなかなかやるではないか！<ab(400)><ed()>",
+   "en": "<on()><sp(20)>Earth Sphere pilots!\nYou're not half bad!<ab(400)><ed()>",
+   "notes": "Gavlet Gablae acknowledging allied pilot skill."
+  },
+  {
+   "ref": "m6131#34",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ユリカ君！\nグラビティ・ブラストの用意を！<ab(300)><ed()>",
+   "en": "<on()><sp(20)>Yurika!\nPrepare the Gravity Blast!<ab(300)><ed()>",
+   "notes": "Captain Sinapus coordinating with Captain Yurika."
+  },
+  {
+   "ref": "m6131#35",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>え？　いいんですか？<ab(200)><ed()>",
+   "en": "<on()><sp(20)>Huh? Are you sure?<ab(200)><ed()>",
+   "notes": "Captain Yurika surprised."
+  },
+  {
+   "ref": "m6131#36",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>なあに、ハッタリだよ。\n連中にはおとなしく退いて欲しい。<ab(400)><ed()>",
+   "en": "<on()><sp(20)>It's just a bluff.\nI want them to withdraw quietly.<ab(400)><ed()>",
+   "notes": "Sinapus explaining his tactical bluff."
+  },
+  {
+   "ref": "m6131#37",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>わかりました！　ルリちゃん！　\nグラビティブラスト、スタンバイ！<ab(100)><ed()>",
+   "en": "<on()><sp(20)>Understood! Ruri-chan!\nGravity Blast, on standby!<ab(100)><ed()>",
+   "notes": "Yurika giving the order to Ruri."
+  },
+  {
+   "ref": "m6131#38",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>了解。　グラビティブラスト、スタンバイ。<ab(800)><ed()>",
+   "en": "<on()><sp(20)>Understood.\nGravity Blast, on standby.<ab(800)><ed()>",
+   "notes": "Ruri acknowledging with typical flat tone."
+  },
+  {
+   "ref": "m6131#39",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>本艦前方の艦に告ぐ！<ab(500)>",
+   "en": "<on()><sp(20)>To the ship ahead of us!<ab(500)>",
+   "notes": "Captain Sinapus opening communications with the enemy fleet."
+  },
+  {
+   "ref": "m6131#40",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これ以上の戦闘は、\n双方にとってまったくの無益である。<ab(300)>",
+   "en": "<sp(20)>Further combat is completely\npointless for both sides.<ab(300)>",
+   "notes": "Sinapus continuing broadcast."
+  },
+  {
+   "ref": "m6131#41",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>一旦さやを収め、\n艦隊を退いていただきたい！<ab(500)><ed()>",
+   "en": "<sp(20)>Sheathe your weapons\nand withdraw your fleet!<ab(500)><ed()>",
+   "notes": "Sinapus demanding Poseidal forces withdraw."
+  },
+  {
+   "ref": "m6131#42",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>反乱軍を見過ごせと言うのか！\nそちらこそ退かんか！<ab(300)><ed()>",
+   "en": "<on()><sp(20)>You expect us to overlook the rebels!?\nWhy don't you withdraw instead!?<ab(300)><ed()>",
+   "notes": "Gavlet Gablae refusing haughtily."
+  },
+  {
+   "ref": "m6131#43",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ギャブレー！　あきらめの悪い奴ね！<ab(200)><ed()>",
+   "en": "<on()><sp(20)>Gablae! You just never give up!<ab(200)><ed()>",
+   "notes": "Gaw Ha Leccee retorting."
+  },
+  {
+   "ref": "m6131#44",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>彼らは我々の保護下にある、\nいわば亡命者だ。<ab(500)>",
+   "en": "<on()><sp(20)>They are under our protection,\nas political refugees, so to speak.<ab(500)>",
+   "notes": "Sinapus declaring Daba's group protected asylum seekers."
+  },
+  {
+   "ref": "m6131#45",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>どうしても彼らを引き渡せと言われるなら、\nここで一戦交えねばならん。<ab(400)>",
+   "en": "<sp(20)>If you insist that we hand them over,\nwe will have to do battle here.<ab(400)>",
+   "notes": "Sinapus standing his ground. fix: jp field had 言うなら -> restored exact jp from batch (言われるなら)"
+  },
+  {
+   "ref": "m6131#46",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(.300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>なお、僚艦がそちらに砲撃の照準を\n合わせていることを前もってお伝えしておく！<ab(.300)><ed()>",
+   "en": "<sp(20)>Also, be advised that our consort ship\nhas aimed its cannon at you!<ab(.300)><ed()>",
+   "notes": "Sinapus issuing the bluff. Exact token sequence maintained: sp(20), ab(.300), ed()."
+  },
+  {
+   "ref": "m6131#47",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>当たったら痛いですよ！<ab(200)><ed()>",
+   "en": "<on()><sp(20)>It'll hurt if it hits you!<ab(200)><ed()>",
+   "notes": "Yurika Misumaru's theatrical threat over comms."
+  },
+  {
+   "ref": "m6131#48",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(50)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>面白い！　受けて立つぞ！<ab(50)><ed()>",
+   "en": "<on()><sp(20)>How amusing! I accept your challenge!<ab(50)><ed()>",
+   "notes": "Gablae rising to the bait."
+  },
+  {
+   "ref": "m6131#49",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>よせ、ギャブレー。　引き返すのだ。<ab(200)><ed()>",
+   "en": "<on()><sp(20)>Stand down, Gablae. Pull back.<ab(200)><ed()>",
+   "notes": "Giwaza Lowau commanding Gablae to disengage."
+  },
+  {
+   "ref": "m6131#50",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ギワザ様！？<ab(300)><ed()>",
+   "en": "<on()><sp(20)>Lord Giwaza!?<ab(300)><ed()>",
+   "notes": "Gablae surprised by Giwaza's intervention."
+  },
+  {
+   "ref": "m6131#51",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>今、事をかまえるのは得策ではない。<ab(500)>"
+   ,
+   "en": "<on()><sp(20)>Picking a fight right now is unwise.<ab(500)>",
+   "notes": "Giwaza Lowau exercising caution."
+  },
+  {
+   "ref": "m6131#52",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>反乱軍などは、いつでも潰せる。\n今は奴らに花を持たせてやれ。<ab(700)><ed()>",
+   "en": "<sp(20)>We can crush the rebels anytime.\nLet them have their little victory.<ab(700)><ed()>",
+   "notes": "Giwaza ordering tactical withdrawal with haughty composure."
+  },
+  {
+   "ref": "m6131#53",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>……ダバ！　勝負は預けた！<ab(300)><ed()>",
+   "en": "<on()><sp(20)>...Daba! We'll settle this later!<ab(300)><ed()>",
+   "notes": "Gablae postponing their duel."
+  },
+  {
+   "ref": "m6131#54",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>敵艦、撤退していきます。<ab(500)><ed()>",
+   "en": "<on()><sp(20)>The enemy ship is retreating.<ab(500)><ed()>",
+   "notes": "Bridge operator confirming enemy departure."
+  },
+  {
+   "ref": "m6131#55",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>やれやれ……行ったか。<ab(500)><ed()>",
+   "en": "<on()><sp(20)>Good grief... They're gone.<ab(500)><ed()>",
+   "notes": "Captain Sinapus relieved."
+  },
+  {
+   "ref": "m6131#56",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>助かった。\nこの状況でよく見分けられたな。<ab(700)><ed()>",
+   "en": "<on()><sp(20)>That was close.\nGood eye, telling us apart like that.<ab(700)><ed()>",
+   "notes": "Daba expressing relief that the allies distinguished them from enemies."
+  },
+  {
+   "ref": "m6131#57",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>艦長、ありがとうございます。\n助かりました。<ab(500)><ed()>",
+   "en": "<on()><sp(20)>Thank you, Captain.\nYou saved us.<ab(500)><ed()>",
+   "notes": "Daba formally thanking Sinapus."
+  },
+  {
+   "ref": "m6131#58",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>いや、いいんだ。　それよりも……\n君たちに聞きたいことが山ほどある。<ab(300)>",
+   "en": "<on()><sp(20)>Think nothing of it. But...\nWe have a mountain of questions.<ab(300)>",
+   "notes": "Captain Sinapus responding."
+  },
+  {
+   "ref": "m6131#59",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>本艦に移乗してくれるか？<ab(500)><ed()>",
+   "en": "<sp(20)>Could you transfer aboard our ship?<ab(500)><ed()>",
+   "notes": "Sinapus requesting Daba's group come aboard."
+  },
+  {
+   "ref": "m6131#60",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>了解しました！　\nこっちも艦をやられて困ってたんです。<ab(700)><ed()>",
+   "en": "<on()><sp(20)>Understood! Our own ship was hit,\nso we were in a tight spot.<ab(700)><ed()>",
+   "notes": "Daba readily agreeing."
+  },
+  {
+   "ref": "m6131#61",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>そこだ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>There!<ab(0)><off()>",
+   "notes": "Combat shout targeting enemy."
+  },
+  {
+   "ref": "m6131#62",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>レッシィ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Leccee!<ab(0)><off()>",
+   "notes": "Daba Myroad coordinating with Gaw Ha Leccee."
+  },
+  {
+   "ref": "m6131#63",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>任せて！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Leave it to me!<ab(0)><off()>",
+   "notes": "Gaw Ha Leccee responding."
+  },
+  {
+   "ref": "m6131#64",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>数が多ければいいってもんじゃないわよ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Just having numbers\nwon't do you any good!<ab(0)><off()>",
+   "notes": "Leccee taunting enemy squads."
+  },
+  {
+   "ref": "m6131#65",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ダバ、そこ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Daba, over there!<ab(0)><off()>",
+   "notes": "Leccee calling out a target for Daba."
+  },
+  {
+   "ref": "m6131#66",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>俺はこのまま敵陣に突っ込む！　援護を頼む！<ab(0)><off()>",
+   "en": "<on()><sp(20)>I'm charging their lines!\nCover me!<ab(0)><off()>",
+   "notes": "Daba pushing into enemy formation."
+  },
+  {
+   "ref": "m6131#67",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ラジャ！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Roger!<ab(0)><off()>",
+   "notes": "Leccee confirming."
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "brief63180#0",
+   "layer": "debriefing",
+   "jp": "<op(36,1)><sp(2)>彼らが<im(1)>他の星系<im(6)>から来たという話は、\n信じがたいことではあるが…\n詳しくは彼から説明してもらおう。",
+   "en": ""
+  },
+  {
+   "ref": "brief63180#1",
+   "layer": "debriefing",
+   "jp": "<op(45,1)><sp(2)><im(2)>俺は、ダバ・マイロード。\nこの星系の外にある二重太陽系、\n#c[E2E258]ペンタゴナワールド#cから来ました。",
+   "en": ""
+  },
+  {
+   "ref": "brief63180#2",
+   "layer": "debriefing",
+   "jp": "<op(45,1)><sp(2)>ペンタゴナは、#c[E2E258]ポセイダル#cという\n独裁者に支配されています。",
+   "en": ""
+  },
+  {
+   "ref": "brief63180#3",
+   "layer": "debriefing",
+   "jp": "<op(45,1)><sp(2)><im(4)><im(7)>俺は#c[BE5050]ポセイダル#cに滅ぼされた\nヤーマン王族の生き残りで…",
+   "en": ""
+  },
+  {
+   "ref": "brief63180#4",
+   "layer": "debriefing",
+   "jp": "<op(45,1)><sp(2)>#c[BE5050]ポセイダル#cからペンタゴナを\n解放するために#c[5E8FD8]反乱軍#cとして\n戦っています。",
+   "en": ""
+  },
+  {
+   "ref": "brief63180#5",
+   "layer": "debriefing",
+   "jp": "<op(45,1)><sp(2)><im(5)>#c[BE5050]ポセイダル#cは、あなたたちの星にある\n何かを手に入れようと企んでいるらしく…\nギワザという男を送り込みました。",
+   "en": ""
+  },
+  {
+   "ref": "brief63180#6",
+   "layer": "debriefing",
+   "jp": "<op(45,1)><sp(2)>俺たちはこの男を倒し、#c[BE5050]ポセイダル#cの野望を\n阻止するために、ここまで追って来たんです。",
+   "en": ""
+  },
+  {
+   "ref": "brief63180#7",
+   "layer": "debriefing",
+   "jp": "<op(45,1)><sp(2)>ペンタゴナでの争いを、\nここまで持ち込むわけには\nいきませんからね。",
+   "en": ""
+  },
+  {
+   "ref": "brief63180#8",
+   "layer": "debriefing",
+   "jp": "<op(45,1)><sp(2)>おそらく、ギワザは近いうちに\n皆さんにも牙をむいてくるはずです。",
+   "en": ""
+  },
+  {
+   "ref": "brief63180#9",
+   "layer": "debriefing",
+   "jp": "<op(45,1)><sp(2)>#c[5E8FD8]反乱軍#cの仲間には援護要請を\n送ったのですが、彼らが到着するには\nかなりの時間がかかります。",
+   "en": ""
+  },
+  {
+   "ref": "brief63180#10",
+   "layer": "debriefing",
+   "jp": "<op(45,1)><sp(2)>お願いします。\n俺たちを、皆さんに同行させてください！",
+   "en": ""
+  },
+  {
+   "ref": "brief63180#11",
+   "layer": "debriefing",
+   "jp": "<op(36,1)><sp(2)>最終的な決定は、\n本部の判断を待たねばならないが、",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Translated Operation 13 batch 01 (80 rows), covering the strategic briefing (Sinapus and Ruri on investigating unidentified combat in Sector S4), tactical briefing (Captain Burning on intercepting hostile unidentified mecha), and the mission dialogue in m6131 where Daba Myroad, Lilith Fau, and Gaw Ha Leccee are pursued by Gavlet Gablae. Daba establishes communication with the Albion and Nadesico; Sinapus and Yurika pull off a Gravity Blast bluff to force Giwaza Lowau and Gablae to withdraw; Daba and company are invited aboard the Albion.",
+  "rows_examined": "op12_04, op13_01, op13_02; context_after brief63180#0-11",
+  "rows_examined_count": 178,
+  "uncertainties": [
+   "In m6131#26 ('友軍として登録されていない機体だからロックオン可能か。注意が必要だな'), this line warns that Daba's unit is not registered as friendly, allowing target lock-on. Speaker is likely Burning or the player character.",
+   "In m6131#46, the token '<ab(.300)>' has an unusual period before 300, faithfully preserved in identical form."
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {
+   "34": "Ruri Hoshino",
+   "37": "Eyphar Sinapus",
+   "38": "South Burning"
+  }
+ }
+}

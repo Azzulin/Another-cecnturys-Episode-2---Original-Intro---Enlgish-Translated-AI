@@ -1,0 +1,1726 @@
+{
+ "batch": "op28_01",
+ "operation": 28,
+ "previous_batch": null,
+ "next_batch": "op28_02",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "プロトカルチャー",
+   "en": "Protoculture",
+   "kind": "term",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Ancient precursor civilisation; the found song/poem plates are judged to be Protoculture artefacts."
+  },
+  {
+   "ja": "オペレーション",
+   "en": "Operation",
+   "kind": "term"
+  },
+  {
+   "ja": "ゼントラーディ",
+   "en": "Zentradi",
+   "kind": "faction",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Race/faction of giant humanoid warriors; main antagonists."
+  },
+  {
+   "ja": "ボドル基幹艦隊",
+   "en": "Boddole Main Fleet",
+   "kind": "faction",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Boddole Zer's main Zentradi fleet that the Macross and Nadesico attack."
+  },
+  {
+   "ja": "メルトランディ",
+   "en": "Meltrandi",
+   "kind": "faction",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Female Zentradi faction, at war with the male Zentradi in DYRL."
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "オルファン",
+   "en": "Orphan",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Gigantic sentient alien ship buried under the Pacific; its awakening threatens Earth; base of the Reclaimers"
+  },
+  {
+   "ja": "ブリタイ艦",
+   "en": "Vrlitwhai's Ship",
+   "kind": "ship",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Vrlitwhai's fleet command battleship."
+  },
+  {
+   "ja": "ボドルザー",
+   "en": "Boddole Zer",
+   "kind": "character",
+   "series": "The Super Dimension Fortress Macross",
+   "gender": "male",
+   "role": "Supreme commander of the Zentradi main fleet.",
+   "full_name": "Golg Boddole Zer"
+  },
+  {
+   "ja": "ボドル艦隊",
+   "en": "Boddole Fleet",
+   "kind": "faction",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Same fleet, mission titles ボドル艦隊迎撃戦 I-III."
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "プレート",
+   "en": "plate",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Orphan's disc plates sought by the Reclaimers; ALSO (crossover) inscribed plates carrying a Zentradi/Protoculture song."
+  },
+  {
+   "ja": "マクロス",
+   "en": "Macross",
+   "kind": "ship",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "SDF-1 Macross, the U.N. Spacy super-dimensional fortress (human flagship)."
+  },
+  {
+   "ja": "ミンメイ",
+   "en": "Minmay",
+   "kind": "character",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "gender": "female",
+   "role": "Idol singer aboard the Macross; her songs (culture) are the key to defeating the Zentradi.",
+   "personality": "Bright, cheerful and ambitious pop idol, somewhat self-absorbed; infatuated with Hikaru.",
+   "full_name": "Lynn Minmay"
+  },
+  {
+   "ja": "UCE",
+   "en": "UCE",
+   "kind": "faction"
+  },
+  {
+   "ja": "ボドル",
+   "en": "Boddole",
+   "kind": "faction",
+   "series": "Super Dimension Fortress Macross: Do You Remember Love?",
+   "role": "Short for Boddole Zer's fleet: ボドル基幹艦隊 (main fleet), ボドル艦隊 (fleet), ボドル旗艦 (flagship)."
+  },
+  {
+   "ja": "マリナ",
+   "en": "Marina",
+   "kind": "character",
+   "series": "Another Century's Episode 2 (original)",
+   "gender": "female",
+   "role": "ACE2 heroine; Ensign in Tak's squad, pilot of the red Gun Ark; goes missing at Torrington Base, reappears with the Rainen Project in the Buster Ark, later rejoins Tak.",
+   "personality": "Cool and reserved ('defrosting ice queen' in flashbacks); deeply bonded with Tak.",
+   "full_name": "Marina Carson"
+  },
+  {
+   "ja": "大尉",
+   "en": "Captain",
+   "en_short": "Capt.",
+   "kind": "rank",
+   "note": "army/MS rank; a ship's captain (艦長) is also Captain"
+  }
+ ],
+ "known_portraits": {
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  },
+  "38": {
+   "speaker": "South Burning",
+   "gender": "male",
+   "role": "Captain, mobile weapons unit commander at Torrington",
+   "confidence": "high",
+   "evidence": "brief63000: 'I'm Captain South Burning.'"
+  },
+  "40": {
+   "speaker": "Misa Hayase",
+   "gender": "female",
+   "role": "Macross bridge officer (callsign Delta 1)",
+   "confidence": "high",
+   "evidence": "brief: 'こちらデルタ１。' (Delta 1 is Misa's callsign in Macross DYRL); confirmed by brief63124#2"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [],
+ "rows": [
+  {
+   "ref": "brief63027#0",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "オペレーション　２８",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#1",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "地球圏 防衛戦",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#2",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "敵ユニットを掃討する",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#3",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ボドル艦隊迎撃戦",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#4",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ボドル艦隊迎撃戦Ⅱ",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#5",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ボドル艦隊迎撃戦Ⅲ",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#6",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ボドルザー撃破",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#7",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "脱出",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#8",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<ac(27)>",
+    "#c[BE5050]",
+    "<im(11)>",
+    "<im(12)>",
+    "#c",
+    "<im(13)>",
+    "<im(14)>",
+    "<im(22)>",
+    "<im(23)>",
+    "<im(15)>",
+    "#c[BE5050]",
+    "<im(16)>",
+    "<im(17)>",
+    "<im(18)>",
+    "<im(24)>",
+    "#c",
+    "<im(25)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><ac(27)>#c[BE5050]ゼントラ<im(11)>ーデ<im(12)>ィ#c軍<im(13)>は、<im(14)>同じ<im(22)>く軌<im(23)>道上に\n展開した<im(15)>#c[BE5050]メル<im(16)>トラ<im(17)>ンデ<im(18)>ィ艦<im(24)>隊#cと<im(25)>\n交戦状態に入った。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#9",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>#c[BE5050]ゼントラーディ#cは、#c[BE5050]メルトランディ#cともども\n地球を壊滅させるつもりのようだ。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#10",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "<im(1)>",
+    "<im(3)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(2)>これが最<im(1)>後の戦い<im(3)>になるだろう。\nどのような結果になろうとも。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#11",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(4)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>これより#c[5E8FD8]アルビオン#c、#c[5E8FD8]ナデシコ#c、#c[5E8FD8]マクロス#cは\n<im(4)>#c[F07141]ボドル基幹艦隊への進撃#cに向かう。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#12",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>なお、この作戦に当たって、\n#c[5E8FD8]マクロス#cの早瀬大尉に策があるとのことだ。\n大尉から詳しく説明してもらおう。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#13",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 40,
+   "tokens": [
+    "<op(40,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(40,1)><sp(2)>作戦に参加される皆さんに、\n取り急ぎ、お伝えしておきたいことが\nあります。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#14",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 40,
+   "tokens": [
+    "<op(40,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(40,1)><sp(2)>先日、オルファンから発見された２つ目の\nプレートの解読がようやく終わりました。\nその内容は……詩のような物でした。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#15",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 40,
+   "tokens": [
+    "<op(40,1)>",
+    "<sp(2)>",
+    "#c[E2E258]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(40,1)><sp(2)>発見された状況から、\nこの詩は#c[E2E258]プロトカルチャー#cの\n産物であると考えられます。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#16",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 40,
+   "tokens": [
+    "<op(40,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(40,1)><sp(2)>そして、#c[BE5050]ブリタイ艦#cからミンメイさんが\n持ち帰ったプレートには、\n曲が記録されていました。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#17",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 40,
+   "tokens": [
+    "<op(40,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(40,1)><sp(2)>この曲と、先ほど解読に成功した詩は…\nぴったりと符合していました。\nつまり、オルファンで見つかった詩は、",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#18",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 40,
+   "tokens": [
+    "<op(40,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(40,1)><sp(2)>かつてプロトカルチャーたちが\nこの地球に辿りついた際に残していった\n歌の歌詞だったのです。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#19",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 40,
+   "tokens": [
+    "<op(40,1)>",
+    "<sp(2)>",
+    "<im(21)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(40,1)><sp(2)><im(21)>彼ら#c[BE5050]ゼントラーディ#cは\n作られた戦闘種族ですが、\n我々と共通の遺伝子を持っています。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#20",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 40,
+   "tokens": [
+    "<op(40,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(40,1)><sp(2)>つまり、彼らの遺伝子提供者は\n……我々の先祖でもあるのです。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#21",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 40,
+   "tokens": [
+    "<op(40,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(40,1)><sp(2)>#c[BE5050]ゼントラーディ#cの遺伝子情報の中には\n文化も刷り込まれています。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#22",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 40,
+   "tokens": [
+    "<op(40,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(40,1)><sp(2)>おそらくそれが、彼らが歌などの\n文化的なものに触れた時に\n戦意を喪失する理由です。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#23",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 40,
+   "tokens": [
+    "<op(40,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(40,1)><sp(2)>だからこそ、彼らはミンメイさんに\nプレートを渡し、地球人に歌を\n解析させようとしたのでしょう。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#24",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 40,
+   "tokens": [
+    "<op(40,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(40,1)><sp(2)>そこで我々は、彼らの計画を\n利用させてもらうことにしました。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#25",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 40,
+   "tokens": [
+    "<op(40,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(40,1)><sp(2)>現在、#c[5E8FD8]マクロス#c艦内では、ミンメイさんに\nこの歌を歌ってもらう準備を進めています。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#26",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 40,
+   "tokens": [
+    "<op(40,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(40,1)><sp(2)>彼女の歌を戦闘宙域に一斉に流すことで\n敵軍の戦意を喪失させる。\nつまり、歌を武器として利用するのです。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#27",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>というわけだ。\n今考えられる限りでは、これが唯一の策だ。\n状況は絶望的だと思っていたが…",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#28",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>我々は、これに託そう。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#29",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>歌の完成までの時間を稼ぐため、\nこれより#c[F07141]全機にて、総攻撃#cを行う。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#30",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>いずれにせよ勝ち目は薄い戦いだが……",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#31",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>人類･･･いや全宇宙、全ての生ある者の\n存亡がかかったこの戦いを、\n最後まであきらめてはならない。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63027#32",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(19)>",
+    "<im(20)>",
+    "<of(1)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>我々が勝利をつか<im(19)>むその瞬<im(20)>間まで、\n<of(1)>ともに戦い抜こう！",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63163#2",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<im(2)>",
+    "<im(1)>",
+    "<im(3)>",
+    "<im(8)>",
+    "#c[BE5050]",
+    "<im(10)>",
+    "#c",
+    "<im(12)>",
+    "#c[BE5050]",
+    "<im(14)>",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)><im(2)>すぐ目と<im(1)>鼻の先で<im(3)><im(8)>#c[BE5050]ゼン<im(10)>トラーディ#cと\n<im(12)>#c[BE5050]メル<im(14)>トランディ#cの戦いが始まっている。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63163#3",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 38,
+   "tokens": [
+    "<op(38,1)>",
+    "<sp(2)>",
+    "<im(4)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(6)>",
+    "<im(7)>",
+    "<tr(1)>",
+    "<im(16)>",
+    "<im(17)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(38,1)><sp(2)><im(4)>#c[5E8FD8]マクロス#cの準備が終わ<im(6)>るま<im(7)>で時間を<tr(1)>稼ぐぞ。\nこれ<im(16)>が最後の<im(17)>戦いだ！\n#c[F07141]派手に暴れて来い#c！",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#1",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よし！　アルビオン隊発進だ！<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#2",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>敵を片っ端から掃討しろ！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#3",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>了解！　出る！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#4",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ラプラミズ、アルマズガーラ！<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#5",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>デフォールド！ <ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#6",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>歌が未完成ではメルトランを\n屈服させることはできん。<ab(700)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#7",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>となれば、全滅させるのみ！<ab(700)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#8",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>目標、ラプラミズ艦隊ならびに地球人艦隊！<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#9",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>アルマゼントラン、ホルトガドラ！<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#10",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>もう接敵したぞ。　歌の準備はどうした！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#11",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>現在準備中です。<ab(100)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#12",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>もうしばらくお待ちください。<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#13",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>大丈夫だ！　俺たちが時間を稼ぐ！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#14",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前らの腕を見せてやれ！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#15",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>負けるとは思ってませんから、よろしく。<ab(600)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#16",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>無事に帰ってきてくれると信じてるわ。<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#17",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>マリナ……大丈夫か？<ab(600)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#18",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>もう大丈夫よ！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#19",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>絶対に無理はするな。<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#20",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今無理しなくて、いつするの？<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#21",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>心配するだけ無駄か。<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#22",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>フフ……私の足を引っ張らないでよ？<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#23",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(50)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>マリナ……<ab(50)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#24",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何？<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#25",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>必ず生きて帰るぞ。<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#26",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>すごい数だ…本当に勝てるのか。<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#27",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(900)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>奴らは勝つためならば、\nいくらでも犠牲を払うはずだ。<ab(900)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#28",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(900)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それが、戦闘種族の\n戦闘種族たるゆえん……ってやつか。<ab(900)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#29",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>戦いに勝つこと、\nそれが彼らにとっての正義なんですね……<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#30",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(50)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あんなものが正義であるはずがない！<ab(50)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#31",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ＵＣＥが、そしてお前たちが、\n常に正しい側にいるとは思わない。<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#32",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>しかし、大勢の人たちが、\nお互いを守るために立ち上がる。<ab(400)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#33",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>それは疑いなく正しいことだ。<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#34",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>俺が戦いを捨てる前の、\nこれが最後の戦いだ。<ab(800)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#37",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ゴルグガング砲、安定サーキットに損傷。<ab(700)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#38",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>発射は一回が限度です。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#39",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>エスケスト！<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#40",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ただちにガンツホルドガドラ。<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#41",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>しかし、ラプラミズ艦との軸線上には\n友軍艦数万隻がおります。<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#42",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>かまわん。　ガドラス！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#43",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>メ、メルトランディの旗艦が墜ちた！？<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#44",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>うそ！？<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#45",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>仲間を巻き込んだって言うのか！？<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#46",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>敵艦を倒すために、仲間の艦を！？<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6281#47",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>仲間じゃない。<ab(300)>",
+   "en": "",
+   "notes": ""
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6281#48",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>ボドルザーには、\n友軍艦などただの手ごまに過ぎない。<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6281#49",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>デルタ１より全軍へ。<ab(200)>",
+   "en": ""
+  },
+  {
+   "ref": "m6281#50",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>歌の準備が完了しました。<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6281#51",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>本作戦はフェイズ１に移行します。<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6281#52",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>フェイズ１ということは、\nいよいよ突入ですね。<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6281#53",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>よし、みんな聞いたな！<ab(200)>",
+   "en": ""
+  },
+  {
+   "ref": "m6281#54",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>これよりボドル旗艦への一点突破を決行する！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6281#55",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ミノフスキー粒子の散布！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Minovsky particles being dispersed!<ab(100)><ed()>"
+  },
+  {
+   "ref": "m6281#56",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>徹底的にやっちゃいます！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6281#57",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>回避運動をとれ！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6281#58",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>もう、こてんぱんにしちゃって！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6281#59",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>左舷前方に新たな機影！<ab(100)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "",
+  "rows_examined": "",
+  "rows_examined_count": 0,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

@@ -1,0 +1,1551 @@
+﻿{
+    "batch":  "xb_01",
+    "operation":  null,
+    "group":  "xb",
+    "group_label":  "In-game tutorial / manual",
+    "previous_batch":  null,
+    "next_batch":  "xb_02",
+    "rows_in_slice":  80,
+    "do_not_touch_names":  [
+                               "Amuro Ray",
+                               "Barkholz",
+                               "Capt. Burning",
+                               "Captain Burning",
+                               "Captain South Burning",
+                               "Cowen",
+                               "Giganos",
+                               "Lieutenant",
+                               "Lt.",
+                               "Major Anavel Gato",
+                               "Sinapus",
+                               "Tak"
+                           ],
+    "glossary":  [
+                     {
+                         "ja":  "ローラーダッシュ",
+                         "en":  "Roller Dash",
+                         "kind":  "generic",
+                         "series":  "Another Century\u0027s Episode series (game system)",
+                         "role":  "Ground skating ability (Aestivalis etc.)."
+                     },
+                     {
+                         "ja":  "マルチロック",
+                         "en":  "Multi-Lock",
+                         "kind":  "generic",
+                         "series":  "Another Century\u0027s Episode series (game system)",
+                         "role":  "Lock several targets at once."
+                     },
+                     {
+                         "ja":  "ダッシュ",
+                         "en":  "Dash",
+                         "kind":  "generic",
+                         "series":  "Another Century\u0027s Episode series (game system)",
+                         "role":  "Boost dash."
+                     },
+                     {
+                         "ja":  "チャージ",
+                         "en":  "charge",
+                         "kind":  "generic",
+                         "series":  "Another Century\u0027s Episode series (game system)",
+                         "role":  "Charging a shot; in weapon names (チャージ) suffix."
+                     },
+                     {
+                         "ja":  "バーニア",
+                         "en":  "vernier",
+                         "kind":  "generic",
+                         "series":  "Another Century\u0027s Episode series (game system)",
+                         "role":  "Boost thrust resource (バーニア消費)."
+                     },
+                     {
+                         "ja":  "パージ",
+                         "en":  "Purge",
+                         "kind":  "generic",
+                         "series":  "Another Century\u0027s Episode series (game system)",
+                         "role":  "Detach extra armor/equipment command."
+                     },
+                     {
+                         "ja":  "機体",
+                         "en":  "unit / machine",
+                         "kind":  "term",
+                         "note":  "Op 01 uses \u0027unit\u0027 for mecha in general, \u0027machine\u0027 when the speaker is the developer"
+                     }
+                 ],
+    "known_portraits":  {
+
+                        },
+    "unknown_portraits":  [
+
+                          ],
+    "context_before":  [
+
+                       ],
+    "rows":  [
+                 {
+                     "ref":  "m6302#0",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e演習プログラム起動。\u003cab(1000)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eStarting training program.\u003cab(1000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#1",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e搭乗ユニットに搭載されている\n特殊機能の説明を行います。\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eExplaining the special functions equipped\non your currently piloted unit.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#2",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e以上で説明を終了します。\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThis concludes the explanation.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#3",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e演習プログラム起動。\u003cab(1000)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eStarting training program.\u003cab(1000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#4",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e現在の搭乗ユニットには、\nスラスター機能が搭載されています。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eYour currently piloted unit\nis equipped with a Thruster function.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#5",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eスラスターは、ロック対象を機体の正面に\n捉えたままダッシュが行える機能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eThe Thruster lets you Dash while keeping\nyour locked target in front of your unit.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#6",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e操作はダッシュと同様、ダッシュボタンで\nＯＮ／ＯＦＦを切り替えて使用します。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eLike Dash, toggle it on and off\nusing the Dash button.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#7",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eスラスター中は対象を正面に捕捉しながら\n高速移動することが可能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eDuring Thruster use, you can move at high speed\nwhile keeping your target locked forward.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#8",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eその特性を有効に利用すれば、\n戦闘を有利に進めることができるでしょう。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eMaking effective use of this feature will give you\nan advantage in combat.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#9",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e現在の搭乗ユニットには、\nグライダー機能が搭載されています。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eYour currently piloted unit\nis equipped with a Glider function.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#10",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eグライダーは、一定の速度でユニットが\n自動前進する機能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eThe Glider makes the unit advance forward\nautomatically at a fixed speed.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#11",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e特徴としては、ダッシュ中に高速の\n上昇・下降が可能なことが挙げられます。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eA key feature is the ability to rapidly climb\nor dive at high speed while dashing.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#12",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e着地しない限りは停止できないので、\n注意してください。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eNote that you cannot stop moving\nunless you touch down on the ground.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#13",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e現在の搭乗ユニットには、\nローラーダッシュ機能が搭載されています。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eYour currently piloted unit\nis equipped with a Roller Dash function.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#14",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eローラーダッシュは、バーニアを消費せずに\n地上を高速移動できる機能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eRoller Dash allows high-speed ground travel\nwithout consuming vernier gauge.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#15",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e地面のある地形では、有効に活用して\n戦闘を有利に進めましょう。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eOn solid ground, use it effectively\nto gain the upper hand in battle.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#16",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e現在の搭乗ユニットには、\n変形機能が搭載されています。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eYour currently piloted unit\nis equipped with a Transformation function.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#17",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e変形操作を行うことで、戦闘機形態に\n変形することが可能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eBy performing the transform action, you can\ntransform into Fighter mode.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#18",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e戦闘機形態は、ダッシュよりも高速に\n移動できるのが特徴です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eFighter mode features even faster movement\nthan standard Dash.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#19",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e長距離を移動する時、遠距離にいる敵を\n強襲する時、敵との距離をとりたい時など、\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003eWhen traveling long distances, assaulting distant\nenemies, or opening distance from foes,\u003cab(1000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#20",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e状況に応じて有効に活用してください。\n\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003emake effective use of it depending on\nthe situation.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#21",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e戦闘機形態の時にもう一度変形操作を行うと\n通常形態に戻ることができます。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003ePerforming the transform action again while in\nFighter mode returns you to Normal mode.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#22",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eまた、地面や障害物に接触すると、強制的に\n通常形態に戻るので注意してください。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eNote that colliding with terrain or obstacles\nforces you back into Normal mode.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#23",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e戦闘機形態の時は、ユニットの操作方法も\n変化します。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eControl methods for your unit also change\nwhile in Fighter mode.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#24",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eオプションで２パターンの操作タイプを\n選択することが可能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eYou can select between 2 control type patterns\nunder Options.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#25",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eプレイスタイルに適した\n操作タイプを選択しましょう。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eChoose the control type that best fits\nyour personal playstyle.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#26",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e現在の搭乗ユニットは、追加装甲を装備して\n出撃することが可能なユニットです。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eYour currently piloted unit can sortie\nwith additional armor equipped.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#27",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e追加装甲は、パージ操作によって\nパージ（切り離し）することが可能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eAdditional armor can be purged (detached)\nvia the Purge command.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#28",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eまた、アーマーが一定量まで低下した場合も\n追加装甲は強制的にパージされます。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eAdditional armor is also forcibly purged\nif your Armor drops below a certain level.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#29",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eパージ後は、武装や装甲などの機体性能が\n変化するので、注意しましょう。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eBe aware that unit specs such as weapons and\narmor change after purging.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#30",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eなお、一度パージを行うと、再出撃するまで\n追加装甲の装備はできません。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eOnce purged, additional armor cannot be re-equipped\nuntil your next sortie.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#31",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e現在の搭乗ユニットは、追加装甲による\n戦闘機形態で出撃することが可能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eYour currently piloted unit can sortie in\nFighter mode with additional armor.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#32",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eまた、アーマーが一定量まで低下した場合や\n地面や障害物に接触した場合でも、\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003eIf Armor drops below a certain level or upon\ncolliding with terrain or obstacles,\u003cab(1000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#33",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e強制的に追加装甲がパージされます。\n\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eadditional armor is forcibly purged.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#34",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eパージ後は、操作方法が戦闘機形態から\n通常形態に変化するとともに、\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003eAfter purging, controls change from Fighter mode\nto Normal mode, and\u003cab(1000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#35",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e武装や装甲などの機体性能が変化します。\n注意してください。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eunit specs such as weapons and armor will change.\nPlease take note.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#36",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eまた、アーマーが一定まで低下した場合や\n地面や障害物に接触した場合でも、\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003eAlso, if Armor drops below a threshold or upon\ncolliding with terrain or obstacles,\u003cab(1000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#37",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e現在の搭乗ユニットは、追加装甲を\n二重に装備しているため、\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003eBecause your currently piloted unit is equipped\nwith double layers of additional armor,\u003cab(1000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#38",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e一度パージを行った後も追加装甲を\n装備している状態です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eit remains in an armored state even after\npurging once.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#39",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e二つ目の追加装甲は、パージ操作と\nアーマーの低下によってパージされます。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eThe second additional armor is purged via\nthe Purge command or armor reduction.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#40",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこのウェポンには、チャージ攻撃機能が\n搭載されています。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eThis weapon is equipped with a\nCharge Attack function.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#41",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eチャージ攻撃は、発射前に出力を\n上げることができる機能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eCharge Attack allows you to boost output\nprior to firing.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#42",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e攻撃ボタンを押した際、そのままボタンを\n押し続けることで出力が増加していき、\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003eHolding down the attack button upon pressing it\ncharges up power,\u003cab(1000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#43",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e攻撃ボタンを離すと、チャージ量に応じた\n出力の攻撃が発動します。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eand releasing the attack button unleashes\nan attack scaled to the charge amount.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#44",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eチャージするほど強力な攻撃となる反面、\nチャージ中には隙が生じるので、\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003eWhile charging delivers higher attack power,\nit leaves you vulnerable while charging,\u003cab(1000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#45",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e使用する適切なタイミングを判断して、\n有効に活用してください。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eso gauge the proper timing and use it\neffectively.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#46",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこのウェポンには、マルチロック機能が\n搭載されています。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eThis weapon is equipped with a\nMulti-Lock function.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#47",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eマルチロックは、複数の対象を同時に\n攻撃することができる機能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eMulti-Lock allows you to attack multiple targets\nsimultaneously.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#48",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e攻撃ボタンを押し続けることで\nロック対象が増加していき、\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003eHolding the attack button increases the number\nof locked targets,\u003cab(1000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#49",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e攻撃ボタンを離すと、全てのロック対象に\n対して攻撃が発動します。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eand releasing the button fires at all\nlocked targets.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#50",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eまた、ウェポンによっては、一つの対象に\n対するマルチロックも可能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eDepending on the weapon, multi-locking onto\na single target is also possible.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#51",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e複数の敵との戦闘には特に有効なので、\n積極的に使用しましょう。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eThis is particularly effective against multiple enemies,\nso make active use of it.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#52",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこのウェポンからは、連続攻撃を\n派生させることが可能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eYou can branch into a combo attack from\nthis weapon.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#53",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e攻撃がヒットした時に、同じボタンを\nタイミングよく再入力してください。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eWhen the attack hits, press the same button again\nwith precise timing.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#54",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e入力がうまくいけば、高威力の\n連続攻撃が発動します。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eSuccessful timing will trigger a high-damage\ncombo attack sequence.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#55",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eボタンを連打した場合は無効となるので、\nタイミングを見極めて使用してください。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eButton mashing will fail, so watch the timing\ncarefully when executing.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#56",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこのウェポンには、マルチショット機能が\n搭載されています。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eThis weapon is equipped with a\nMulti-Shot function.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#57",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eマルチショットは、１回の攻撃で\n複数の対象に攻撃ができる機能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eMulti-Shot strikes multiple targets with\na single attack.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#58",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e攻撃した際、ロック対象付近の対象にも\n自動的に攻撃が分散します。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eWhen fired, attacks automatically spread to targets\nnear your locked target.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#59",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e複数の敵が密集している状況などで\n利用してください。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eUse it in situations where multiple enemies\nare clustered together.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#60",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこのウェポンには、ミサイルを迎撃する\n機能が搭載されています。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eThis weapon is equipped with a function to\nintercept incoming missiles.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#61",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eミサイルが機体正面に接近してきた時に\n使用すると、\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003eUsing it when missiles approach from the front\nof your craft\u003cab(1000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#62",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eミサイルを撃ち落とすことができます。\n\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eallows you to shoot down the missiles.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#63",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eミサイルを多用する敵に対して\n積極的に使用しましょう。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eMake proactive use of this against enemies\nrelying heavily on missiles.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#64",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこのウェポンは、敵の近接攻撃を\n跳ね返すことが可能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eThis weapon can parry and deflect enemy\nmelee attacks.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#65",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e使用すると、ユニットが近接攻撃を\n斬り返すための体勢を取り、\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003eWhen used, the unit assumes a counter stance\nto parry melee attacks,\u003cab(1000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#66",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eその間に敵の近接攻撃を受けると、\n斬り返しが成功します。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eand taking an enemy melee hit during this window\nsuccessfully triggers a counter-slash.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#67",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e成功すると敵に対して高いダメージを\n与えることが可能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eUpon success, it inflicts heavy damage\non the enemy.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#68",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e敵の近接攻撃に合わせて\nタイミングよく使用しましょう。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eTime its activation to match incoming enemy\nmelee attacks.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#69",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eワイヤー攻撃は、対象をワイヤーで捕獲して\n様々な追加攻撃を繰り出せる機能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eWire Attack ensnares a target with wire to\nunleash various follow-up attacks.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#70",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e射出したワイヤーが対象にヒットすると、\n対象を捕えることができます。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eHitting a target with the launched wire\nensnares and captures the target.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#71",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eその時、タイミングよくメインウェポンボタンか\n近接攻撃を入力することで、\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003eAt that moment, pressing the Main Weapon button\nor Melee button with good timing\u003cab(1000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#72",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e様々な攻撃に派生させることが可能です。\n\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eallows you to branch into various attacks.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#73",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eまた、対象のサイズによって\n攻撃の内容が変化します。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eAttack effects also vary depending on\nthe size of the target.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#74",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e対象が著しく巨大な場合は、\nワイヤー攻撃が跳ね返されることもあります。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eIf a target is extremely massive, Wire Attacks\nmay be deflected.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#75",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eホールド攻撃は、対象をホールドすることで\n様々な追加攻撃を繰り出せる機能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eHold Attack pins down a target to unleash\nvarious follow-up attacks.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#76",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e射出した攻撃が対象にヒットすると、\n対象をホールドすることができます。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eWhen the launched attack hits a target,\nyou can hold them in place.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#77",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e対象が著しく巨大な場合、ホールド攻撃が\n跳ね返されることもあります。\u003cab(4000)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003eIf a target is extremely massive, Hold Attacks\nmay be deflected.\u003cab(4000)\u003e\u003ced()\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#78",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(4000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003eこのウェポンは、近接攻撃用の武器を\n投げて攻撃することが可能です。\u003cab(4000)\u003e",
+                     "en":  "\u003csp(20)\u003eThis weapon allows you to throw a melee weapon\nto attack targets.\u003cab(4000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 },
+                 {
+                     "ref":  "m6302#79",
+                     "layer":  "mission dialogue",
+                     "phase":  null,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(1000)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e投げた武器は特定の軌道を描いて\n対象に向かい、\u003cab(1000)\u003e",
+                     "en":  "\u003csp(20)\u003eThe thrown weapon traces a specific trajectory\ntoward the target,\u003cab(1000)\u003e",
+                     "notes":  "Tutorial guide explanation in clear didactic system register."
+                 }
+             ],
+    "context_after":  [
+                          {
+                              "ref":  "m6302#80",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e武器の軌道上にいる敵にもダメージを\n与えることが可能です。\u003cab(4000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#81",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e投げた武器は対象にヒットすると\n手元に戻ってきますが、\u003cab(1000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#82",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003eそれまでは、その武器を使うウェポンは\n使用できません。注意してください。\u003cab(4000)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#83",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003eブレンパワードは出撃時の機嫌によって\n性能が大幅に変化します。\u003cab(4000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#84",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e出撃時のアーマーが多い場合は、\n機嫌が良くなる確率が上がりますが、\u003cab(1000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#85",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003eアーマーが低い場合は、機嫌が悪くなる\n確率が上がります。\u003cab(4000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#86",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e機嫌の良い状態でいてもらうため、\n可能な限り休ませることを心がけてください。\u003cab(4000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#87",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e機嫌は出撃前のメニュー画面で\n確認することができます。\u003cab(4000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#88",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e機嫌はミッションの度に変化するので、\n確認は怠らないようにしましょう。\u003cab(4000)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#89",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003eＶ－ＭＡＸは、ユニットの各性能を\n大幅に上昇させる機能です。\u003cab(4000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#90",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003eアーマーが一定以下になると\n発動が可能になります。\u003cab(4000)\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6302#91",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003csp(20)\u003e発動中は、体当たりによる強襲攻撃が\n使用できます。\u003cab(4000)\u003e",
+                              "en":  ""
+                          }
+                      ],
+    "report":  {
+                   "translator_summary":  "Tutorial batch xb_01 translated. Covers unit special functions: Thruster, Glider, Roller Dash, Transformation, Armor Purge, Charge Attack, Multi-Lock, combo branching, Multi-Shot, missile interception, melee parry/counter, Wire Attack, and Hold Attack.",
+                   "rows_examined":  "All 80 rows translated and checked.",
+                   "rows_examined_count":  80,
+                   "uncertainties":  [
+
+                                     ],
+                   "glossary_proposals":  [
+
+                                          ],
+                   "portrait_speakers":  {
+
+                                         }
+               }
+}

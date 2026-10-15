@@ -1,0 +1,1762 @@
+{
+ "batch": "op25_05",
+ "operation": 25,
+ "previous_batch": "op25_04",
+ "next_batch": "op25_06",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "バロン・マクシミリアン",
+   "en": "Baron Maximilian",
+   "kind": "character",
+   "series": "Brain Powerd",
+   "gender": "female",
+   "role": "Masked figure who seizes control of Orphan in Jonathan's name and gives him the Baronz; secretly Anoa McCormick, the missing captain of Novis Noah",
+   "personality": "Mysterious, theatrical and manipulative. Acts as a mentor to Jonathan, driven by a twisted longing for her estranged son.",
+   "en_short": "Baron"
+  },
+  {
+   "ja": "ウィル・ウィプス",
+   "en": "Will Wipps",
+   "kind": "ship",
+   "series": "Aura Battler Dunbine",
+   "role": "Drake Luft's flagship aura battleship; an enemy ship in Operation 25."
+  },
+  {
+   "ja": "バロン・ズゥ",
+   "en": "Baronz",
+   "kind": "unit",
+   "series": "Brain Powerd",
+   "role": "Evolved Antibody created by reviving a Grand Cher (e.g. Jonathan Baronz, Quincy Baronz)."
+  },
+  {
+   "ja": "オルファン",
+   "en": "Orphan",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Gigantic sentient alien ship buried under the Pacific; its awakening threatens Earth; base of the Reclaimers"
+  },
+  {
+   "ja": "ジョナサン",
+   "en": "Jonathan",
+   "kind": "character",
+   "series": "Brain Powerd",
+   "gender": "male",
+   "role": "Reclaimer ace of Orphan; pilots Jonathan Grand Cher, later Jonathan Baronz; Yuu's rival and the son of Novis Noah's captain Anoa McCormick",
+   "personality": "Arrogant, aggressive and taunting, full of resentment toward Yuu and his own mother. Loyal to Baron Maximilian.",
+   "full_name": "Jonathan Glenn"
+  },
+  {
+   "ja": "リバイバル",
+   "en": "revival",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Brain Powerd term for an Antibody being 'born' from an Orphan plate."
+  },
+  {
+   "ja": "ドレイク",
+   "en": "Drake",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Main antagonist; Lord of House Luft in the Kingdom of Ah (アの国), who summons Holy Warriors and wages war to unite Byston Well; commands the Will Wipps",
+   "personality": "Ambitious, scheming warlord who believes his conquest is justified. Loves his daughter Riml but is blind to the plots around him.",
+   "full_name": "Drake Luft"
+  },
+  {
+   "ja": "伊佐未勇",
+   "en": "Yuu Isami",
+   "kind": "character",
+   "series": "Brain Powerd",
+   "gender": "male",
+   "role": "Male lead; former Reclaimer who escapes Orphan and pilots Yuu Brain, later Nelly Brain, for Novis Noah",
+   "personality": "Brooding lone wolf who resents his scientist parents. Often acts alone, but values life and comes to fight to save his sister Quincy.",
+   "en_short": "Yuu"
+  },
+  {
+   "ja": "バロン",
+   "en": "Baron",
+   "kind": "character",
+   "series": "Brain Powerd",
+   "gender": "female",
+   "role": "Masked figure who seizes control of Orphan in Jonathan's name and gives him the Baronz; secretly Anoa McCormick, the missing captain of Novis Noah",
+   "personality": "Mysterious, theatrical and manipulative. Acts as a mentor to Jonathan, driven by a twisted longing for her estranged son.",
+   "full_name": "Baron Maximilian"
+  },
+  {
+   "ja": "ブレン",
+   "en": "Brain",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Short for Brain Powerd units (ブレンたち, ブレンパワード隊)."
+  },
+  {
+   "ja": "比瑪",
+   "en": "Hime",
+   "kind": "character",
+   "series": "Brain Powerd",
+   "gender": "female",
+   "role": "Female lead; 17-year-old Brain Powerd pilot (Hime Brain) aboard the Novis Noah",
+   "personality": "Cheerful, warm and motherly toward the children and her Brain. Optimistic and brave, and believes in talking to people and Antibodies alike.",
+   "full_name": "Hime Utsumiya"
+  }
+ ],
+ "known_portraits": {
+  "31": {
+   "speaker": "Irene Carrier",
+   "gender": "female",
+   "role": "acting captain of the Novis Noa",
+   "confidence": "high",
+   "evidence": "brief: 'ノヴィス・ノアの艦長代理、アイリーン・キャリアーです。'"
+  },
+  "54": {
+   "speaker": "Ciela Lapana",
+   "gender": "female",
+   "role": "Queen of Na",
+   "confidence": "high",
+   "evidence": "brief: '私は、ナの国の女王、シーラ・ラパーナです。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6253#86",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>いけー！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6253#87",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>もう遅い！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6253#88",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>おまえじゃない！　勇はどこだ！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6253#89",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>なんでそんなに勇にこだわるの！？<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6253#90",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>縁を切ったんじゃないの！？<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6253#91",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ちょっと、大丈夫？<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6253#92",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>あまり無茶しないで！<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6253#93",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>どうしたの、しっかりしなさい！<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "brief63151#0",
+   "layer": "tactical briefing",
+   "jp": "<op(31,1)><sp(2)>これから比瑪と勇がオルファンの\n説得に向かいます。",
+   "en": ""
+  },
+  {
+   "ref": "brief63151#1",
+   "layer": "tactical briefing",
+   "jp": "<op(31,1)><sp(2)>残った私たちは、できるだけの援護を\n行いましょう。",
+   "en": ""
+  },
+  {
+   "ref": "brief63151#2",
+   "layer": "tactical briefing",
+   "jp": "<op(31,1)><sp(2)>オルファンは私たちと同じで心がある…\n比瑪ちゃんはそう言っていました。",
+   "en": ""
+  },
+  {
+   "ref": "brief63151#3",
+   "layer": "tactical briefing",
+   "jp": "<op(31,1)><sp(2)>途方もない話だと思われるでしょうが、\n長い間オルファンを見てきた私は\nそれが間違いとも思えないんです。",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "brief63151#4",
+   "layer": "tactical briefing",
+   "phase": 4,
+   "portrait": 54,
+   "tokens": [
+    "<op(54,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(54,1)><sp(2)>私はそれを信じましょう。\n私たちは、オルファンを取り囲むドレイクを\n必ず食い止めます。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63151#5",
+   "layer": "tactical briefing",
+   "phase": 4,
+   "portrait": 54,
+   "tokens": [
+    "<op(54,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(54,1)><sp(2)>ドレイクとの最後の戦いです。\nそれでは皆さん、行きましょう。\nドレイクの野望を打ち砕くのです！",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#1",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前の力は無限だ。<ab(400)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#2",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>さもなければ、お前が私の思いに応えて\nリバイバルはしなかった！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#3",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前を倒す！<ab(100)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#4",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ジョナサンの望みだーー！！<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#5",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>喜べジョナサン！<ab(100)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#6",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>おまえの願いは私が叶えてやる！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#7",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>バロン・マクシミリアン！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#8",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>バローン！！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#9",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こんなことではーーー！！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#10",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>私の思いを受けて生まれたバロン・ズゥは\n無敵である！<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#11",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>見ていなさい、ジョナサン！<ab(200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#12",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>あなたの敵は、私が排除してあげる！<ab(500)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#13",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>息子のために死ねぇ！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#14",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>うぁぁぁぁぁ！！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#15",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>我が力を使えーー！！<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#16",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ジョナサン…<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#17",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>は……ははは……はは！\nなんでアンタがバロンなんだ！<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#18",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>お前のそばに……いたかった。<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#19",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>今度こそお前のために……\n何かをしてあげ……<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#20",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>起きろよ！　あんたにはまだ、\n言いたいことがいっぱいあるんだ！<ab(0)><off()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#21",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ここは……？<ab(1200)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#22",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これも……オルファンの意思なのか？<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#23",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これも、オルファンの意思だと言うの……？<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#24",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これも、オルファンの意思なのか？<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#25",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これも……オルファンの意思なの？<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#26",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これもまた、オルファンの意思なのか？<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#27",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これも、オルファンの意思って奴か！<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#28",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これも、オルファンの意思って奴かねぇ！<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#29",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>こいつも、オルファンの意思って奴か？<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#30",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これも……オルファンの意思だと言うのか？<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#31",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これもオルファンの意思だって言うのかい？<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#32",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>オルファンさんが見せてくれているの……？<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#33",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これも、オルファンの意思だって言うのか？<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#34",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>こいつも、オルファンの意思なのかよ！？<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#35",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これも、オルファンの意思なの～？<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#36",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これも、オルファンの意思、か……<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#37",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>こいつも、オルファンの意思って奴かよォ！<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#38",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これも……オルファンの意思なのか……？<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#39",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>こいつも、オルファンの意思って奴かよ！<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#40",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これも、オルファンの意思なのか。<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#41",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これもオルファンの意思なんでしょうか…。<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#42",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これも、オルファンの意思なんですか？<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#43",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>こいつも、オルファンの意思なのか？<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#44",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>これも、オルファンの意思なのか！？<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#45",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あいつ！<ab(100)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#46",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>誰だ！　この感じ…\nジョナサンじゃない！<ab(400)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#47",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>やめろ！　その者！　…バロン！？<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#48",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>バロン！<ab(100)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#49",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>伊佐未勇、死ねよや！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#50",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>オルファンを邪魔する者、死ねよや！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#51",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>オルファンの前で、かくもブレンを\n潰そうとする、俺も殺そうとする！<ab(600)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#52",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>かくも殺そうとすること、\nお前がそれをさせるのだよ。<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#53",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前がそれをさせるのだよ。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#54",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ジョナサンに累を及ぼさないために\n罪も罰も一身に受ける！<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#55",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なぜ罪を重ねるんだ！<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#56",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ジョナサンに累を及ぼさないために\n罪も罰も一身に受ける！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6254#57",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ジョナサン？<ab(200)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63152#2",
+   "layer": "tactical briefing",
+   "phase": 5,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "<im(2)>",
+    "<im(3)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(2)>これから<im(1)>比瑪と勇<im(2)>がオルフ<im(3)>ァンの\n説得に向かいます。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63152#3",
+   "layer": "tactical briefing",
+   "phase": 5,
+   "portrait": 31,
+   "tokens": [
+    "<op(31,1)>",
+    "<sp(2)>",
+    "<im(4)>",
+    "<im(12)>",
+    "<im(13)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(31,1)><sp(2)>残った私たちは、<im(4)>でき<im(12)>るだ<im(13)>けの援護を\n行いましょう。",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63152#6",
+   "layer": "tactical briefing",
+   "phase": 5,
+   "portrait": 54,
+   "tokens": [
+    "<op(54,1)>",
+    "<sp(2)>",
+    "<im(9)>",
+    "<im(14)>",
+    "<im(16)>",
+    "#c[F07141]",
+    "<im(6)>",
+    "<im(7)>",
+    "<im(8)>",
+    "#c",
+    "<tr(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(54,1)><sp(2)>私はそれを信じましょう。\n私たちは、<im(9)>オル<im(14)>ファ<im(16)>ンを取り囲む#c[F07141]ドレイクを\n必<im(6)>ず食<im(7)>い止<im(8)>めます#c。<tr(1)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "brief63152#7",
+   "layer": "tactical briefing",
+   "phase": 5,
+   "portrait": 54,
+   "tokens": [
+    "<op(54,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(11)>",
+    "#c[BE5050]",
+    "<of(1)>",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(54,1)><sp(2)>#c[BE5050]ドレイク#cとの最後の戦いです。\nそれでは皆さん、行きましょう。\n<im(11)>#c[BE5050]ドレイク<of(1)>#cの野望を打ち砕くのです！",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6255#1",
+   "layer": "mission dialogue",
+   "phase": 5,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "友軍艦の撃沈",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6255#2",
+   "layer": "mission dialogue",
+   "phase": 5,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ウィル・ウィプスの撃破",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6255#12",
+   "layer": "mission dialogue",
+   "phase": 5,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>全力出撃です！　行きますよ！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6255#13",
+   "layer": "mission dialogue",
+   "phase": 5,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦隊、接近してきます！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6255#14",
+   "layer": "mission dialogue",
+   "phase": 5,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>決着をつけぬわけにはいくまいな。<ab(300)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6255#15",
+   "layer": "mission dialogue",
+   "phase": 5,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>全軍、１８０度転針せよ。<ab(1000)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6255#16",
+   "layer": "mission dialogue",
+   "phase": 5,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>全ての敵を蹴散らすのです。<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6255#17",
+   "layer": "mission dialogue",
+   "phase": 5,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>勇、比瑪ちゃん！　そろそろお願い！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6255#18",
+   "layer": "mission dialogue",
+   "phase": 5,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……勇、行こう。<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6255#19",
+   "layer": "mission dialogue",
+   "phase": 5,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>わかった！<ab(400)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6255#20",
+   "layer": "mission dialogue",
+   "phase": 5,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ちゃんと姉さんを取り戻して来いよ！<ab(700)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6255#21",
+   "layer": "mission dialogue",
+   "phase": 5,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(800)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>我が方には、命かけて悔いのない\n大義があるのです。<ab(800)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6255#22",
+   "layer": "mission dialogue",
+   "phase": 5,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(800)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>欲だけの敵に対し、我が方の心を\n結集すれば、行けます！<ab(800)>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6255#23",
+   "layer": "mission dialogue",
+   "phase": 5,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>私たちの手で、\n全てを終わらせなくてはならないのです。<ab(800)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6255#24",
+   "layer": "mission dialogue",
+   "phase": 5,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ここで決着をつけます！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6255#25",
+   "layer": "mission dialogue",
+   "phase": 5,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どーんと決めちゃってください！<ab(300)><ed()>",
+   "en": "",
+   "notes": ""
+  },
+  {
+   "ref": "m6255#26",
+   "layer": "mission dialogue",
+   "phase": 5,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>全機、前へ出ろ！　ここが正念場だ！<ab(500)><ed()>",
+   "en": "",
+   "notes": ""
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6255#27",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>お前らの腕を見せてやれ！<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6255#28",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>もう、こてんぱんにしちゃって！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6255#29",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>みんな、がんばって！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6255#30",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵艦がバリアを展開。<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6255#31",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ゴラオン、発射準備を。<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6255#32",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ゴラオンが囲まれています。　援護を！<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6255#33",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>オーラノヴァ砲、撃て！<ab(700)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6255#34",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ナデシコ、囲まれてます。<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6255#35",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>援護お願いします。<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6255#36",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>相転移砲スタンバイ、発射！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6255#37",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵艦のバリア、消滅。<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6255#38",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>今が攻撃のチャンスです！<ab(700)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "",
+  "rows_examined": "",
+  "rows_examined_count": 0,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}

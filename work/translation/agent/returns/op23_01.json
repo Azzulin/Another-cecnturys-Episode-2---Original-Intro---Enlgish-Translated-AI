@@ -1,0 +1,1793 @@
+﻿{
+    "batch":  "op23_01",
+    "operation":  23,
+    "previous_batch":  null,
+    "next_batch":  "op23_02",
+    "rows_in_slice":  80,
+    "do_not_touch_names":  [
+                               "Barkholz",
+                               "Capt. Burning",
+                               "Captain Burning",
+                               "Captain South Burning",
+                               "Cowen",
+                               "Giganos",
+                               "Lieutenant",
+                               "Lt.",
+                               "Major Anavel Gato",
+                               "Sinapus",
+                               "Tak"
+                           ],
+    "glossary":  [
+                     {
+                         "ja":  "オペレーション・ライトニング",
+                         "en":  "Operation Lightning",
+                         "kind":  "term",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "role":  "Name of the operation that covers Operations 22 and 23 (22: Defeat Death Demon Corps; 23: Escort Friendly Detachment)."
+                     },
+                     {
+                         "ja":  "クワサン・オリビー",
+                         "en":  "Quwasan Olibee",
+                         "kind":  "character",
+                         "series":  "Heavy Metal L-Gaim",
+                         "gender":  "female",
+                         "role":  "Daba\u0027s adopted younger sister and fiancee. Kidnapped and brainwashed by Poseidal via bio-relation; reappears as commander of Poseidal\u0027s Imperial Guard. Pilots a copper-yellow Calvary Temple.",
+                         "personality":  "Under mind control she is cold and obedient, acting on Poseidal\u0027s orders; underneath she is fragile, and her mind breaks down by the end of the series.",
+                         "en_short":  "Quwasan"
+                     },
+                     {
+                         "ja":  "オペレーション",
+                         "en":  "Operation",
+                         "kind":  "term"
+                     },
+                     {
+                         "ja":  "デビルガンダム",
+                         "en":  "Devil Gundam",
+                         "kind":  "unit",
+                         "series":  "Mobile Fighter G Gundam",
+                         "role":  "Self-evolving, self-repairing, self-replicating rogue Gundam (JDG-00X); main antagonist machine of G Gundam"
+                     },
+                     {
+                         "ja":  "バスターアーク",
+                         "en":  "Buster Ark",
+                         "kind":  "unit",
+                         "series":  "Another Century\u0027s Episode 2 (original)",
+                         "role":  "Modified Gun Ark with an evolving Guardian System and fallen-angel styling; Marina\u0027s unit while with the Rainen side."
+                     },
+                     {
+                         "ja":  "ポセイダル軍",
+                         "en":  "Poseidal Army",
+                         "kind":  "faction",
+                         "series":  "Heavy Metal L-Gaim",
+                         "role":  "The military of Emperor Poseidal that rules the Pentagona World; the main antagonist force of L-Gaim."
+                     },
+                     {
+                         "ja":  "アルビオン",
+                         "en":  "Albion",
+                         "kind":  "ship",
+                         "series":  "Mobile Suit Gundam 0083: Stardust Memory",
+                         "role":  "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+                     },
+                     {
+                         "ja":  "ギャブレー",
+                         "en":  "Gablae",
+                         "kind":  "character",
+                         "series":  "Heavy Metal L-Gaim",
+                         "gender":  "male",
+                         "role":  "Daba\u0027s rival. Ambitious country noble from Koam who joins the Poseidal military (under Chai Char, later one of the Thirteen); commands the Slender Skala, finally sides with Daba to rescue Quwasan. Pilots Ashura Temple, A-Taul, Bat-Shu in ACE2.",
+                         "personality":  "Pompous and vain but sincere, warm-hearted and quick to fall in love; naive and comically airheaded, a rival with a sense of honor.",
+                         "full_name":  "Gavlet Gablae"
+                     },
+                     {
+                         "ja":  "クワサン",
+                         "en":  "Quwasan",
+                         "kind":  "character",
+                         "series":  "Heavy Metal L-Gaim",
+                         "gender":  "female",
+                         "role":  "Daba\u0027s adopted younger sister and fiancee. Kidnapped and brainwashed by Poseidal via bio-relation; reappears as commander of Poseidal\u0027s Imperial Guard. Pilots a copper-yellow Calvary Temple.",
+                         "personality":  "Under mind control she is cold and obedient, acting on Poseidal\u0027s orders; underneath she is fragile, and her mind breaks down by the end of the series.",
+                         "full_name":  "Quwasan Olibee"
+                     },
+                     {
+                         "ja":  "ゴステロ",
+                         "en":  "Gosterro",
+                         "kind":  "character",
+                         "series":  "Blue Comet SPT Layzner",
+                         "gender":  "male",
+                         "role":  "Grados lieutenant sent after Eiji (pilots the Bullgrenn). Rebuilt as a cyborg after his apparent death, he joins Le Cain\u0027s \u0027Shikitai\u0027 (Death Demon Squad) and pilots the MF Daljuan.",
+                         "personality":  "Sly, cruel sadist who enjoys killing; kills his own subordinates and frames others; vengeful and obsessive.",
+                         "en_short":  "Gosterro"
+                     },
+                     {
+                         "ja":  "ナデシコ",
+                         "en":  "Nadesico",
+                         "kind":  "ship",
+                         "series":  "Martian Successor Nadesico (TV) / Prince of Darkness",
+                         "role":  "ND-001 Nadesico, Nergal\u0027s battleship"
+                     },
+                     {
+                         "ja":  "キャオ",
+                         "en":  "Kyao",
+                         "kind":  "character",
+                         "series":  "Heavy Metal L-Gaim",
+                         "gender":  "male",
+                         "role":  "Daba\u0027s childhood friend and travelling companion; the group\u0027s mechanic (rebuilt the stolen AD Stack into the L-Gaim Mk-II with Mesh Maker) and an occasional D-Sserd pilot.",
+                         "personality":  "Goofy, girl-crazy, carefree joker; a big eater who is surprisingly strong; loyal friend and a skilled mechanic.",
+                         "full_name":  "Mirao Kyao"
+                     },
+                     {
+                         "ja":  "ギワザ",
+                         "en":  "Giwaza",
+                         "kind":  "character",
+                         "series":  "Heavy Metal L-Gaim",
+                         "gender":  "male",
+                         "role":  "Seat no. 3 and de facto leader of Poseidal\u0027s Thirteen, the highest-ranking officer after Poseidal; rebels against Poseidal with his own fleet (the Giwaza fleet) and is killed in the final battle.",
+                         "personality":  "Capable, cold, calculating and ambitious; uses and discards people, including his lover Nei Mo Han; a political schemer.",
+                         "full_name":  "Giwaza Lowau"
+                     },
+                     {
+                         "ja":  "ダバ",
+                         "en":  "Daba",
+                         "kind":  "character",
+                         "series":  "Heavy Metal L-Gaim",
+                         "gender":  "male",
+                         "role":  "Protagonist. Heir of the Yaman clan\u0027s Kamon dynasty (true name Kamon Myroad), raised on Koam; leads the rebellion against Poseidal. Pilots the L-Gaim, later the L-Gaim Mk-II.",
+                         "personality":  "Calm, earnest and somewhat reserved, hard to read; indecisive at times but prone to sudden outbursts of anger, and reckless whenever his adopted sister Quwasan is involved. Grows into a capable leader.",
+                         "full_name":  "Daba Myroad"
+                     },
+                     {
+                         "ja":  "機体",
+                         "en":  "unit / machine",
+                         "kind":  "term",
+                         "note":  "Op 01 uses \u0027unit\u0027 for mecha in general, \u0027machine\u0027 when the speaker is the developer"
+                     }
+                 ],
+    "known_portraits":  {
+                            "33":  {
+                                       "speaker":  "Kouichiro Misumaru",
+                                       "gender":  "male",
+                                       "role":  "UCE Space Force admiral (Yurika\u0027s father)",
+                                       "confidence":  "high",
+                                       "evidence":  "brief: \u0027私はＵＣＥ宇宙軍提督のミスマルだ。\u0027"
+                                   },
+                            "34":  {
+                                       "speaker":  "Ruri Hoshino",
+                                       "gender":  "female",
+                                       "role":  "Nadesico operator",
+                                       "confidence":  "high",
+                                       "evidence":  "brief: \u0027こちらはナデシコのホシノ・ルリです。\u0027"
+                                   },
+                            "38":  {
+                                       "speaker":  "South Burning",
+                                       "gender":  "male",
+                                       "role":  "Captain, mobile weapons unit commander at Torrington",
+                                       "confidence":  "high",
+                                       "evidence":  "brief63000: \u0027I\u0027m Captain South Burning.\u0027"
+                                   },
+                            "45":  {
+                                       "speaker":  "Daba Myroad",
+                                       "gender":  "male",
+                                       "role":  "rebel leader, L-Gaim pilot",
+                                       "confidence":  "high",
+                                       "evidence":  "brief: \u0027俺は、ダバ・マイロード。\u0027"
+                                   }
+                        },
+    "unknown_portraits":  [
+
+                          ],
+    "context_before":  [
+
+                       ],
+    "rows":  [
+                 {
+                     "ref":  "brief63022#0",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "オペレーション　２３",
+                     "en":  "Operation 23",
+                     "notes":  "Operation header"
+                 },
+                 {
+                     "ref":  "brief63022#3",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "別働艦隊援護",
+                     "en":  "Escort Detached Fleet",
+                     "notes":  "Objective header"
+                 },
+                 {
+                     "ref":  "brief63022#4",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "艦隊戦支援",
+                     "en":  "Fleet Battle Support",
+                     "notes":  "Objective header"
+                 },
+                 {
+                     "ref":  "brief63022#5",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "デビルガンダム撃滅",
+                     "en":  "Destroy Devil Gundam",
+                     "notes":  "Objective header"
+                 },
+                 {
+                     "ref":  "brief63022#6",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  33,
+                     "tokens":  [
+                                    "\u003cop(33,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cac(22)\u003e",
+                                    "\u003cim(11)\u003e",
+                                    "#c[BE5050]",
+                                    "\u003cim(12)\u003e",
+                                    "#c",
+                                    "\u003cim(16)\u003e",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cac(22)\u003e衛星軌道上の\u003cim(11)\u003e#c[BE5050]ギワ\u003cim(12)\u003eザ艦隊#cが、\n逆襲に転じてきた。\u003cim(16)\u003e#c[BE5050]工業衛星#cを地表に\n落とそうと画策しているようだ。",
+                     "en":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cac(22)\u003eIn satellite orbit, \u003cim(11)\u003e#c[BE5050]the Giwaza\u003cim(12)\u003e Fleet#c\nhas launched a counterattack. They seem\u003cim(16)\u003e\nplanning to drop an #c[BE5050]industrial satellite#c.",
+                     "notes":  "Speaker: Kouichiro Misumaru (portrait 33). Exact token sequence preserved."
+                 },
+                 {
+                     "ref":  "brief63022#7",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  33,
+                     "tokens":  [
+                                    "\u003cop(33,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(1)\u003e",
+                                    "\u003cim(2)\u003e",
+                                    "\u003cim(10)\u003e",
+                                    "#c[5E8FD8]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cim(1)\u003e想定外の\u003cim(2)\u003e状況ではあるが……\nこちらも、ダバ君が救援として呼んだ\n\u003cim(10)\u003e#c[5E8FD8]反乱軍#cの仲間がようやく到着した。",
+                     "en":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cim(1)\u003eIt is an unexpected \u003cim(2)\u003esituation, but...\nOur allies in the \u003cim(10)\u003e#c[5E8FD8]rebel army#c, called by\nDaba for backup, have finally arrived.",
+                     "notes":  "Speaker: Kouichiro Misumaru (portrait 33). Exact token sequence preserved."
+                 },
+                 {
+                     "ref":  "brief63022#8",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  33,
+                     "tokens":  [
+                                    "\u003cop(33,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(9)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cim(9)\u003e我々にも十分な戦力が整ったということだ。\nここを逃せば、他に機会はない！",
+                     "en":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cim(9)\u003eThis means we now have enough forces.\nIf we miss this, there is no other chance!",
+                     "notes":  "Speaker: Kouichiro Misumaru (portrait 33)."
+                 },
+                 {
+                     "ref":  "brief63022#9",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  33,
+                     "tokens":  [
+                                    "\u003cop(33,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[F07141]",
+                                    "#c",
+                                    "\u003cim(3)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(33,1)\u003e\u003csp(2)\u003e#c[F07141]オペレーション・ライトニング#cの最終段階は\n\u003cim(3)\u003e計画どおり実行する。",
+                     "en":  "\u003cop(33,1)\u003e\u003csp(2)\u003eThe final phase of #c[F07141]Operation Lightning#c\nwill be executed \u003cim(3)\u003eas planned.",
+                     "notes":  "Speaker: Kouichiro Misumaru (portrait 33)."
+                 },
+                 {
+                     "ref":  "brief63022#10",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  33,
+                     "tokens":  [
+                                    "\u003cop(33,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[5E8FD8]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(33,1)\u003e\u003csp(2)\u003e現在、ダバ君たち#c[5E8FD8]反乱軍#cの戦力は\n衛星軌道上で待機しており、\n諸君らの到着を待っている。",
+                     "en":  "\u003cop(33,1)\u003e\u003csp(2)\u003eCurrently, Daba and the #c[5E8FD8]rebel army#c forces\nare on standby in satellite orbit,\nwaiting for your arrival.",
+                     "notes":  "Speaker: Kouichiro Misumaru (portrait 33)."
+                 },
+                 {
+                     "ref":  "brief63022#11",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  33,
+                     "tokens":  [
+                                    "\u003cop(33,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(5)\u003e",
+                                    "\u003cim(6)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cim(5)\u003e\u003cim(6)\u003e彼らと合流し、一気に勝負をかけるのだ！",
+                     "en":  "\u003cop(33,1)\u003e\u003csp(2)\u003e\u003cim(5)\u003e\u003cim(6)\u003eRendezvous with them and strike all at once!",
+                     "notes":  "Speaker: Kouichiro Misumaru (portrait 33)."
+                 },
+                 {
+                     "ref":  "brief63022#12",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  33,
+                     "tokens":  [
+                                    "\u003cop(33,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(33,1)\u003e\u003csp(2)\u003e#c[BE5050]工業衛星#cが落下した時の被害は、\nすさまじいものになるだろう。",
+                     "en":  "\u003cop(33,1)\u003e\u003csp(2)\u003eShould the #c[BE5050]industrial satellite#c fall,\nthe damage will be catastrophic.",
+                     "notes":  "Speaker: Kouichiro Misumaru (portrait 33)."
+                 },
+                 {
+                     "ref":  "brief63022#13",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  33,
+                     "tokens":  [
+                                    "\u003cop(33,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[BE5050]",
+                                    "#c",
+                                    "#c[F07141]",
+                                    "#c"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(33,1)\u003e\u003csp(2)\u003e必ず#c[BE5050]衛星#c落下を阻止し、\n#c[F07141]ポセイダル軍を倒す#cのだ！",
+                     "en":  "\u003cop(33,1)\u003e\u003csp(2)\u003eWe must stop the #c[BE5050]satellite#c drop and\n#c[F07141]defeat the Poseidal Army#c!",
+                     "notes":  "Speaker: Kouichiro Misumaru (portrait 33)."
+                 },
+                 {
+                     "ref":  "brief63022#14",
+                     "layer":  "strategic briefing",
+                     "phase":  null,
+                     "portrait":  34,
+                     "tokens":  [
+                                    "\u003cop(34,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(13)\u003e",
+                                    "\u003cim(14)\u003e",
+                                    "\u003cim(15)\u003e",
+                                    "#c[5E8FD8]",
+                                    "#c",
+                                    "\u003cof(1)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(34,1)\u003e\u003csp(2)\u003e状況的には結構やばめですけど、\n何\u003cim(13)\u003eとかダ\u003cim(14)\u003eバさんたちの\u003cim(15)\u003e#c[5E8FD8]友軍艦#cも\n\u003cof(1)\u003e助けてあげてください。",
+                     "en":  "\u003cop(34,1)\u003e\u003csp(2)\u003eThe situation looks pretty bad, but\nplease manage to \u003cim(13)\u003esave \u003cim(14)\u003eDaba\u0027s \u003cim(15)\u003e#c[5E8FD8]allied ships#c\nas well.\u003cof(1)\u003e",
+                     "notes":  "Speaker: Ruri Hoshino (portrait 34). Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "brief63138#2",
+                     "layer":  "tactical briefing",
+                     "phase":  1,
+                     "portrait":  45,
+                     "tokens":  [
+                                    "\u003cop(45,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(16)\u003e",
+                                    "\u003cim(18)\u003e",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(45,1)\u003e\u003csp(2)\u003e合流を\u003cim(16)\u003e待っ\u003cim(18)\u003eていた仲間が、\n#c[BE5050]ギワザ#cたちに発見されたようです。",
+                     "en":  "\u003cop(45,1)\u003e\u003csp(2)\u003eThe allies who were \u003cim(16)\u003ewaiting \u003cim(18)\u003eto meet us\nseem to have been found by #c[BE5050]Giwaza#c\u0027s forces.",
+                     "notes":  "Speaker: Daba Myroad (portrait 45)."
+                 },
+                 {
+                     "ref":  "brief63138#3",
+                     "layer":  "tactical briefing",
+                     "phase":  1,
+                     "portrait":  45,
+                     "tokens":  [
+                                    "\u003cop(45,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(11)\u003e",
+                                    "#c[BE5050]",
+                                    "\u003cim(7)\u003e",
+                                    "#c",
+                                    "\u003cim(9)\u003e",
+                                    "#c[5E8FD8]",
+                                    "#c"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(45,1)\u003e\u003csp(2)\u003e彼らは\u003cim(11)\u003e#c[BE5050]ギワ\u003cim(7)\u003eザ#cと\u003cim(9)\u003eの戦いのために\n駆けつけてくれた#c[5E8FD8]反乱軍#cの仲間です。\nきっと戦力になると思います。",
+                     "en":  "\u003cop(45,1)\u003e\u003csp(2)\u003eThey rushed to fight \u003cim(11)\u003e#c[BE5050]Giwa\u003cim(7)\u003eza#c alongside \u003cim(9)\u003eus,\nas fellow members of the #c[5E8FD8]rebel army#c.\nI know they will be a valuable asset.",
+                     "notes":  "Speaker: Daba Myroad (portrait 45). Exact token sequence preserved."
+                 },
+                 {
+                     "ref":  "brief63138#4",
+                     "layer":  "tactical briefing",
+                     "phase":  1,
+                     "portrait":  45,
+                     "tokens":  [
+                                    "\u003cop(45,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(1)\u003e",
+                                    "\u003cim(2)\u003e",
+                                    "#c[BE5050]",
+                                    "#c",
+                                    "\u003cim(3)\u003e",
+                                    "\u003cim(15)\u003e",
+                                    "\u003ctr(1)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(45,1)\u003e\u003csp(2)\u003e\u003cim(1)\u003eこれから\u003cim(2)\u003e#c[BE5050]ギワザ#cとの戦闘に入りますが、\n\u003cim(3)\u003eどうか彼らを守ってやってく\u003cim(15)\u003eださい。\u003ctr(1)\u003e",
+                     "en":  "\u003cop(45,1)\u003e\u003csp(2)\u003e\u003cim(1)\u003eWe will now \u003cim(2)\u003eengage #c[BE5050]Giwaza#c in battle,\n\u003cim(3)\u003eso please do what you can to pro\u003cim(15)\u003etect them.\u003ctr(1)\u003e",
+                     "notes":  "Speaker: Daba Myroad (portrait 45). Exact token sequence preserved."
+                 },
+                 {
+                     "ref":  "brief63138#5",
+                     "layer":  "tactical briefing",
+                     "phase":  1,
+                     "portrait":  45,
+                     "tokens":  [
+                                    "\u003cop(45,1)\u003e",
+                                    "\u003csp(2)\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(45,1)\u003e\u003csp(2)\u003eこの大事な時に申し訳ないですが、\n俺とキャオは一旦、艦を離れます。",
+                     "en":  "\u003cop(45,1)\u003e\u003csp(2)\u003eI am sorry at such a critical time, but\nKyao and I must leave the ship for now.",
+                     "notes":  "Speaker: Daba Myroad (portrait 45)."
+                 },
+                 {
+                     "ref":  "brief63138#6",
+                     "layer":  "tactical briefing",
+                     "phase":  1,
+                     "portrait":  45,
+                     "tokens":  [
+                                    "\u003cop(45,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "#c[BE5050]",
+                                    "#c"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(45,1)\u003e\u003csp(2)\u003e#c[BE5050]ギワザ#cの艦に乗り込んで、義妹を、\nクワサン・オリビーを助けたいんです！",
+                     "en":  "\u003cop(45,1)\u003e\u003csp(2)\u003eI want to board #c[BE5050]Giwaza#c\u0027s ship and rescue\nmy adopted sister, Quwasan Olibee!",
+                     "notes":  "Speaker: Daba Myroad (portrait 45)."
+                 },
+                 {
+                     "ref":  "brief63138#7",
+                     "layer":  "tactical briefing",
+                     "phase":  1,
+                     "portrait":  45,
+                     "tokens":  [
+                                    "\u003cop(45,1)\u003e",
+                                    "\u003csp(2)\u003e"
+                                ],
+                     "jp_lines":  3,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(45,1)\u003e\u003csp(2)\u003e勝手なのはわかってます。ですが……\nどうしてもやらなきゃならないんです。\n行かせてください！",
+                     "en":  "\u003cop(45,1)\u003e\u003csp(2)\u003eI know it is selfish. But...\nthis is something I simply must do.\nPlease let us go!",
+                     "notes":  "Speaker: Daba Myroad (portrait 45)."
+                 },
+                 {
+                     "ref":  "brief63138#8",
+                     "layer":  "tactical briefing",
+                     "phase":  1,
+                     "portrait":  38,
+                     "tokens":  [
+                                    "\u003cop(38,1)\u003e",
+                                    "\u003csp(2)\u003e",
+                                    "\u003cim(13)\u003e",
+                                    "\u003cim(14)\u003e",
+                                    "#c[F07141]",
+                                    "#c"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  3,
+                     "max_line_px":  430,
+                     "max_line_chars_approx":  43,
+                     "jp":  "\u003cop(38,1)\u003e\u003csp(2)\u003eダバは今回、\u003cim(13)\u003e単独行動\u003cim(14)\u003eを取る。\n残った俺たちで、#c[F07141]反乱軍を援護#cするぞ。",
+                     "en":  "\u003cop(38,1)\u003e\u003csp(2)\u003eDaba is acting on \u003cim(13)\u003ehis own \u003cim(14)\u003ethis time.\nThe rest of us will #c[F07141]support the rebel army#c.",
+                     "notes":  "Speaker: South Burning (portrait 38). Exact tokens preserved."
+                 },
+                 {
+                     "ref":  "m6231#4",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "友軍艦撃沈数",
+                     "en":  "Allied Ships Sunk",
+                     "notes":  "Mission UI header"
+                 },
+                 {
+                     "ref":  "m6231#7",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eおい！　あれは…ナデシコとアルビオンだ！\nこの戦い、勝てるぞ！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eHey! Look, it\u0027s the Nadesico and Albion!\nWe can win this battle!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Rebel pilot."
+                 },
+                 {
+                     "ref":  "m6231#8",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eお待たせしました！\n勝利の女神、ただいま参上です！\u003cab(0)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eSorry to keep you waiting! The goddess\nof victory has arrived!\u003cab(0)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Yurika Misumaru."
+                 },
+                 {
+                     "ref":  "m6231#9",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e味方艦隊の左右両翼に分かれましょう。\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eLet\u0027s split up on both flanks of the allied fleet.\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Bridge coordination."
+                 },
+                 {
+                     "ref":  "m6231#10",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eナデシコは右側、\nアルビオンは左側ということで。\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eNadesico on the right,\nand Albion on the left, then.\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Bridge coordination."
+                 },
+                 {
+                     "ref":  "m6231#11",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e了解だ！　迎撃隊は艦隊９時方向に展開しろ！\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eUnderstood! Interceptors, deploy to 9 o\u0027clock!\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Allied squad leader."
+                 },
+                 {
+                     "ref":  "m6231#12",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e了解です！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eRoger that!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Allied pilot."
+                 },
+                 {
+                     "ref":  "m6231#13",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(900)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e味方の艦が狙われている時は、\nこちらから伝えるわ。　頼むわね！\u003cab(900)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWe will notify you when allied ships\nare targeted. We\u0027re counting on you!\u003cab(900)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Operator."
+                 },
+                 {
+                     "ref":  "m6231#14",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(400)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eターゲットの位置を送るわよ！\u003cab(400)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eSending target coordinates now!\u003cab(400)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Operator."
+                 },
+                 {
+                     "ref":  "m6231#15",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(400)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e俺たちはクワサンを助けに行きます！\nあとを頼みます！\u003cab(400)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWe are going to rescue Quwasan!\nWe leave the rest to you!\u003cab(400)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Daba Myroad."
+                 },
+                 {
+                     "ref":  "m6231#16",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eダバ！　急いで！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eDaba! Hurry!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Leccee or Amu."
+                 },
+                 {
+                     "ref":  "m6231#17",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eポセイダル軍の注意をそらしてやる！\n必ず義妹さんを助け出せよ！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWe\u0027ll distract the Poseidal Army!\nMake sure you save your sister!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Allied pilot."
+                 },
+                 {
+                     "ref":  "m6231#18",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eすぐ戻ります！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWe\u0027ll be right back!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Daba Myroad."
+                 },
+                 {
+                     "ref":  "m6231#19",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(400)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eこちらダバ。　ギワザ艦に入り込んだ。\nこれからギワザのいるブリッジに向かう！\u003cab(400)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThis is Daba. We infiltrated Giwaza\u0027s ship.\nHeading to the bridge where Giwaza is!\u003cab(400)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Daba Myroad."
+                 },
+                 {
+                     "ref":  "m6231#20",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e気づかれないように、そーっとね！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eQuietly now, don\u0027t let them notice!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Kyao."
+                 },
+                 {
+                     "ref":  "m6231#21",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(400)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eこちら救出部隊！\n敵艦のブリッジに入り込んだ！\u003cab(400)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eRescue squad here! We made it into\nthe enemy bridge!\u003cab(400)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Rescue team (Kyao)."
+                 },
+                 {
+                     "ref":  "m6231#22",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(50)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e今、ダバとギワザがチャンバラやってるよ！\u003cab(50)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eDaba and Giwaza are sword fighting right now!\u003cab(50)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Kyao."
+                 },
+                 {
+                     "ref":  "m6231#23",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eこりゃすげえ！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThis is incredible!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Kyao."
+                 },
+                 {
+                     "ref":  "m6231#24",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eダバ！　負けるなー！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eDaba! Don\u0027t lose!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Kyao / Lilith."
+                 },
+                 {
+                     "ref":  "m6231#25",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eクワサンの部屋を見つけたよ！\n今、ダバがクワサンと話してる！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWe found Quwasan\u0027s room!\nDaba is talking to Quwasan now!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Kyao."
+                 },
+                 {
+                     "ref":  "m6231#26",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(800)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eなんか、もめてるみたい……\u003cab(800)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eSeems like they are arguing...\u003cab(800)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Kyao."
+                 },
+                 {
+                     "ref":  "m6231#27",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eあれ？　あっちからくるのは……\nギャブレーじゃない！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eHuh? The guy coming from over there...\nIt\u0027s Gablae!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Kyao."
+                 },
+                 {
+                     "ref":  "m6231#28",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(700)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eこらー！　こっち来るなー！\u003cab(700)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eHey! Don\u0027t come over here!\u003cab(700)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Kyao / Lilith."
+                 },
+                 {
+                     "ref":  "m6231#29",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e悪魔の使いのミラリィだぞ！\n怖いぞー！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI am a Miraly, servant of the devil!\nBe afraid!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Lilith."
+                 },
+                 {
+                     "ref":  "m6231#30",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eあ、あ、無視すんなー！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eH-Hey, don\u0027t ignore me!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Lilith."
+                 },
+                 {
+                     "ref":  "m6231#31",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eこちらダバ！　オリビーは救出した！\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThis is Daba! I\u0027ve rescued Olibee!\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Daba Myroad."
+                 },
+                 {
+                     "ref":  "m6231#32",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e……妙な成り行きで、\nギャブレーと手を組むことになった。\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003e...Through strange circumstances,\nI ended up joining hands with Gablae.\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Daba Myroad."
+                 },
+                 {
+                     "ref":  "m6231#33",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e一緒に帰還する！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWe are returning together!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Daba Myroad."
+                 },
+                 {
+                     "ref":  "m6231#34",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eクワサンを回復させられるのは、\n私だけだ！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThe only one who can restore Quwasan is me!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Gavlet Gablae."
+                 },
+                 {
+                     "ref":  "m6231#35",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eだってさ。　じゃ、今から脱出するぜ！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThat\u0027s what he says. We\u0027re escaping now!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Kyao."
+                 },
+                 {
+                     "ref":  "m6231#36",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e何をしている！　たかが地球の戦艦に\n何を手間取っているのだ！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWhat are you doing?! Why take so long\nagainst mere Earth battleships?!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Giwaza Lowau."
+                 },
+                 {
+                     "ref":  "m6231#37",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eも、申し訳ありません！　ギワザ様！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eF-Forgive us, Lord Giwaza!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Poseidal soldier."
+                 },
+                 {
+                     "ref":  "m6231#38",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e左舷前方に新たな機影！\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eNew contact off the port bow!\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Operator."
+                 },
+                 {
+                     "ref":  "m6231#39",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eあいつは…ゴステロ！\nまだ生きていたか！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eThat machine is... Gosterro!\nYou\u0027re still alive?!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Eiji Asuka."
+                 },
+                 {
+                     "ref":  "m6231#40",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e貴様らを殺すまではなぁ！\n死にきれるかっつーの！！　死ねぇ！\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eUntil I kill you all, I can\u0027t die!\nDieee!!\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Gosterro."
+                 },
+                 {
+                     "ref":  "m6231#41",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eエイジィィィ！　死ねぇぇぇ！\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eEijiiii! Dieeee!\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Gosterro."
+                 },
+                 {
+                     "ref":  "m6231#42",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eゴステロ！\nここで決着を付ける！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eGosterro! We settle this here and now!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Eiji Asuka."
+                 },
+                 {
+                     "ref":  "m6231#43",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(50)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eお、俺は不死身だぁぁ！\u003cab(50)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eI-I am immortaaaal!\u003cab(50)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Gosterro."
+                 },
+                 {
+                     "ref":  "m6231#44",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(50)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eぐわあああああっ！！\u003cab(50)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eGwaaaaaaargh!!\u003cab(50)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Gosterro dying."
+                 },
+                 {
+                     "ref":  "m6231#45",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eアルビオン、こちら反乱軍！\n当艦隊は、全て戦域を離脱した。\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAlbion, this is the rebel army!\nOur fleet has completely cleared the airspace.\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Rebel commander."
+                 },
+                 {
+                     "ref":  "m6231#46",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e援護に感謝する！\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWe thank you for the cover!\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Rebel commander."
+                 },
+                 {
+                     "ref":  "m6231#47",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e今の通信が聞こえて？\n友軍艦は全て戦域を離脱したわ。\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eDid you hear that transmission?\nAll allied ships have cleared the airspace.\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Operator / ally."
+                 },
+                 {
+                     "ref":  "m6231#48",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eあとは残った敵を片づけるだけね。\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAll that is left is cleaning up remaining enemies.\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Operator / ally."
+                 },
+                 {
+                     "ref":  "m6231#49",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e全員、無事だったみたいよ。\nさすが！\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eLooks like everyone made it out safely.\nImpressive!\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Operator / ally."
+                 },
+                 {
+                     "ref":  "m6231#50",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eちょっと！　敵に攻撃されてるわよ！\nもっとしっかり護衛してよ！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eHey! We are under enemy attack!\nProtect us properly!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Rebel ship captain."
+                 },
+                 {
+                     "ref":  "m6231#51",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e勝手なこと言わないで！\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eDon\u0027t talk so selfishly!\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Allied pilot."
+                 },
+                 {
+                     "ref":  "m6231#52",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e友軍艦が撃沈されました！\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAn allied ship has been sunk!\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Operator."
+                 },
+                 {
+                     "ref":  "m6231#53",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e友軍艦、撃沈！\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eAllied ship sunk!\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Operator."
+                 },
+                 {
+                     "ref":  "m6231#54",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "tokens":  [
+
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  1,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "なんとかしてくれ！　もうもたない！",
+                     "en":  "Do something! We can\u0027t hold out any longer!",
+                     "notes":  "Speaker: Rebel ship captain."
+                 },
+                 {
+                     "ref":  "m6231#55",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eもう限界だ！　我々は撤退する！\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eWe\u0027re at our limit! We are retreating!\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Rebel ship captain."
+                 },
+                 {
+                     "ref":  "m6231#57",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eた、助かった！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eW-We made it!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Rebel ship captain."
+                 },
+                 {
+                     "ref":  "m6231#58",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eこれで先に進める！\nアルビオン、感謝する！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eNow we can proceed ahead!\nAlbion, we thank you!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Rebel ship captain."
+                 },
+                 {
+                     "ref":  "m6231#59",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e高速で接近する機体あり！\u003cab(300)\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eUnit approaching at high speed!\u003cab(300)\u003e",
+                     "notes":  "Speaker: Operator."
+                 },
+                 {
+                     "ref":  "m6231#60",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  false,
+                     "tokens":  [
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(200)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003csp(20)\u003e……バスターアークです！\u003cab(200)\u003e\u003ced()\u003e",
+                     "en":  "\u003csp(20)\u003e...It is the Buster Ark!\u003cab(200)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Operator."
+                 },
+                 {
+                     "ref":  "m6231#61",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eあれがバスターアークか！？\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eIs that the Buster Ark?!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Allied pilot."
+                 },
+                 {
+                     "ref":  "m6231#62",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(300)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e出てきたのか！\u003cab(300)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eIt showed up?!\u003cab(300)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Allied pilot."
+                 },
+                 {
+                     "ref":  "m6231#63",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(100)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eなんとしてもその機体を捕らえろ！\u003cab(100)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eCapture that unit at all costs!\u003cab(100)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Giwaza Lowau."
+                 },
+                 {
+                     "ref":  "m6231#64",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(0)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  1,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eし、しかし今は交戦中…\u003cab(0)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eB-But we are currently in combat...\u003cab(0)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Poseidal subordinate."
+                 },
+                 {
+                     "ref":  "m6231#65",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(500)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003e構わん！　これは我々が得たチャンスだ！\nなんとしても捕らえるのだ！\u003cab(500)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eNo matter! This is our great opportunity!\nCapture it no matter what!\u003cab(500)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Giwaza Lowau."
+                 },
+                 {
+                     "ref":  "m6231#67",
+                     "layer":  "mission dialogue",
+                     "phase":  1,
+                     "opens_new_window":  true,
+                     "tokens":  [
+                                    "\u003cop()\u003e",
+                                    "\u003csp(20)\u003e",
+                                    "\u003cab(400)\u003e",
+                                    "\u003ced()\u003e"
+                                ],
+                     "jp_lines":  2,
+                     "max_lines":  2,
+                     "max_line_px":  380,
+                     "max_line_chars_approx":  38,
+                     "jp":  "\u003cop()\u003e\u003csp(20)\u003eギワザは奴に気をとられている？\nチャンスだ！　反撃に出よう！\u003cab(400)\u003e\u003ced()\u003e",
+                     "en":  "\u003cop()\u003e\u003csp(20)\u003eGiwaza is distracted by it?\nThis is our chance! Counterattack!\u003cab(400)\u003e\u003ced()\u003e",
+                     "notes":  "Speaker: Allied pilot."
+                 }
+             ],
+    "context_after":  [
+                          {
+                              "ref":  "m6231#68",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eか、艦長！\nケプフォード中尉が！\u003cab(300)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6231#69",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003e出撃命令は出していないぞ！\n……馬鹿者が！\u003cab(300)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6231#70",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eマリナ…何故ここにいる？\u003cab(700)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6231#71",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003e誰がなんと言おうが、お前は存在している。\n今日こそは捕まえてやる！\u003cab(900)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6231#72",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003e……？　モニターの様子がおかしい。\nな、なんだ…？\u003cab(100)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6231#73",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eあれは……ガーディアン！？\u003cab(200)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6231#74",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eバスターアーク、戦場より離脱します！\u003cab(300)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6231#75",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003e逃がすな！　逃がすんじゃないぞ！\u003cab(300)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6231#76",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003e周辺宙域を確保。　艦隊は安全です。\u003cab(400)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6231#77",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eど、どうしてこの機体が…\u003cab(300)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6231#78",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eケプフォード中尉。　詳しい話は後だ。\n今は目の前の任務を全うしよう。\u003cab(500)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          },
+                          {
+                              "ref":  "m6231#79",
+                              "layer":  "mission dialogue",
+                              "jp":  "\u003cop()\u003e\u003csp(20)\u003eさあ！　いよいよギワザとの決戦よ！\u003cab(400)\u003e\u003ced()\u003e",
+                              "en":  ""
+                          }
+                      ],
+    "report":  {
+                   "translator_summary":  "Translated all 80 rows of op23_01, covering Operation 23 strategic briefings (Misumaru, Ruri), tactical briefings (Daba, Burning), and Phase 1 space battle dialogue (rebel fleet escort, Daba and Kyao infiltrating Giwaza\u0027s ship to rescue Quwasan, Gablae joining forces, Gosterro\u0027s final attack, and Buster Ark\u0027s sudden arrival).",
+                   "rows_examined":  "brief63022#0..m6231#67",
+                   "rows_examined_count":  80,
+                   "uncertainties":  [
+                                         "m6231#16, m6231#47-51: female voice lines in rebel fleet escort context assigned to Leccee/Amu or bridge operator without explicit name tag."
+                                     ],
+                   "glossary_proposals":  [
+
+                                          ],
+                   "portrait_speakers":  {
+                                             "38":  "South Burning",
+                                             "33":  "Kouichiro Misumaru",
+                                             "34":  "Ruri Hoshino",
+                                             "45":  "Daba Myroad"
+                                         }
+               }
+}

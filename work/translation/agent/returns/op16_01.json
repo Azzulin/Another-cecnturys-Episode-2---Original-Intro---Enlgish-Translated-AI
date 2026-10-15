@@ -1,0 +1,1811 @@
+{
+ "batch": "op16_01",
+ "operation": 16,
+ "previous_batch": null,
+ "next_batch": "op16_02",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "ジョナサン・グレーン",
+   "en": "Jonathan Glenn",
+   "kind": "character",
+   "series": "Brain Powerd",
+   "gender": "male",
+   "role": "Reclaimer ace of Orphan; pilots Jonathan Grand Cher, later Jonathan Baronz; Yuu's rival and the son of Novis Noah's captain Anoa McCormick",
+   "personality": "Arrogant, aggressive and taunting, full of resentment toward Yuu and his own mother. Loyal to Baron Maximilian.",
+   "en_short": "Jonathan"
+  },
+  {
+   "ja": "グラビティブラスト",
+   "en": "Gravity Blast",
+   "kind": "term",
+   "series": "Martian Successor Nadesico",
+   "role": "Nadesico's main gravity cannon (dotless spelling)."
+  },
+  {
+   "ja": "ミスマル・ユリカ",
+   "en": "Yurika Misumaru",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "female",
+   "role": "Captain of the ND-001 Nadesico; Akito's childhood friend and later wife; prisoner of the Martian Successors in PoD",
+   "personality": "Cheerful, airheaded and clingy toward Akito, but a genuinely brilliant tactician",
+   "en_short": "Yurika"
+  },
+  {
+   "ja": "オペレーション",
+   "en": "Operation",
+   "kind": "term"
+  },
+  {
+   "ja": "オーラバトラー",
+   "en": "Aura Battler",
+   "kind": "term",
+   "series": "Aura Battler Dunbine",
+   "role": "Class of insect-like Byston Well mecha fielded by the Drake Army and Show's side."
+  },
+  {
+   "ja": "アンチボディ",
+   "en": "Antibody",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Organic mecha born from Orphan plates (Grand Chers and Brains)."
+  },
+  {
+   "ja": "オーラバリア",
+   "en": "Aura Barrier",
+   "kind": "term",
+   "series": "Aura Battler Dunbine",
+   "role": "Defensive field of aura machines and aura ships; Weapon 4 of the Dunbine-family units (reduces damage for a time)."
+  },
+  {
+   "ja": "リクレイマー",
+   "en": "Reclaimer",
+   "kind": "faction",
+   "series": "Brain Powerd",
+   "role": "The people who serve Orphan and pilot Grand Chers to gather its plates; plural 'Reclaimers'"
+  },
+  {
+   "ja": "アルビオン",
+   "en": "Albion",
+   "kind": "ship",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "role": "MSC-07 Pegasus-class Federation assault carrier commanded by Sinapus."
+  },
+  {
+   "ja": "オルファン",
+   "en": "Orphan",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Gigantic sentient alien ship buried under the Pacific; its awakening threatens Earth; base of the Reclaimers"
+  },
+  {
+   "ja": "ジョナサン",
+   "en": "Jonathan",
+   "kind": "character",
+   "series": "Brain Powerd",
+   "gender": "male",
+   "role": "Reclaimer ace of Orphan; pilots Jonathan Grand Cher, later Jonathan Baronz; Yuu's rival and the son of Novis Noah's captain Anoa McCormick",
+   "personality": "Arrogant, aggressive and taunting, full of resentment toward Yuu and his own mother. Loyal to Baron Maximilian.",
+   "full_name": "Jonathan Glenn"
+  },
+  {
+   "ja": "ライネック",
+   "en": "Wryneck",
+   "kind": "unit",
+   "series": "Aura Battler Dunbine",
+   "role": "Late-war Aura Battler of the Drake and Kingdom of Kuh side (Bishot Hate); Todd's unit in ACE2"
+  },
+  {
+   "ja": "オーラ力",
+   "en": "Aura Power",
+   "kind": "term",
+   "series": "Aura Battler Dunbine",
+   "role": "The aura energy of a pilot; also the name of a Dunbine-family ability that multiplies attack power for a while (Weapon 6)."
+  },
+  {
+   "ja": "ドレイク",
+   "en": "Drake",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Main antagonist; Lord of House Luft in the Kingdom of Ah (アの国), who summons Holy Warriors and wages war to unite Byston Well; commands the Will Wipps",
+   "personality": "Ambitious, scheming warlord who believes his conquest is justified. Loves his daughter Riml but is blind to the plots around him.",
+   "full_name": "Drake Luft"
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "ナナフシ",
+   "en": "Nanafushi",
+   "kind": "unit",
+   "series": "Martian Successor Nadesico",
+   "role": "Jovian 'new weapon' (micro black hole railgun) that the player must destroy (mission 新型兵器ナナフシ)."
+  },
+  {
+   "ja": "木星蜥蜴",
+   "en": "Jovian Lizards",
+   "kind": "faction",
+   "series": "Martian Successor Nadesico",
+   "role": "Earth's name for the unknown Jovian enemy (actually the Jovian Federation, 木連)."
+  },
+  {
+   "ja": "オーラ",
+   "en": "aura",
+   "kind": "term",
+   "series": "Aura Battler Dunbine",
+   "role": "Life energy of Byston Well that powers aura machines; used alone in lines like オーラの力 / 悪しきオーラ / オーラ光."
+  },
+  {
+   "ja": "ショウ",
+   "en": "Show",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Protagonist; Holy Warrior (Seisenshi) from Tokyo summoned to Byston Well; defects from Drake Luft to the resistance; pilots Dunbine, later Billbine",
+   "personality": "Hot-blooded, stubborn young motocross racer who grows into a serious, driven warrior. Has huge Aura Power but struggles to control it. Has unspoken feelings for Marvel.",
+   "full_name": "Sho Zama"
+  },
+  {
+   "ja": "トッド",
+   "en": "Todd",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "American Holy Warrior summoned with Sho; fights for Drake and later Bishot Hate; pilots Wryneck in ACE2",
+   "personality": "Brash and proud. At first he treats Byston Well as a game, then becomes obsessed with beating Sho to save his pride. Makes poor choices.",
+   "full_name": "Todd Guinness"
+  },
+  {
+   "ja": "バロン",
+   "en": "Baron",
+   "kind": "character",
+   "series": "Brain Powerd",
+   "gender": "female",
+   "role": "Masked figure who seizes control of Orphan in Jonathan's name and gives him the Baronz; secretly Anoa McCormick, the missing captain of Novis Noah",
+   "personality": "Mysterious, theatrical and manipulative. Acts as a mentor to Jonathan, driven by a twisted longing for her estranged son.",
+   "full_name": "Baron Maximilian"
+  },
+  {
+   "ja": "新兵",
+   "en": "Recruit",
+   "kind": "generic",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Generic new soldier."
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {
+  "32": {
+   "speaker": "Yurika Misumaru",
+   "gender": "female",
+   "role": "captain of the Nadesico",
+   "confidence": "high",
+   "evidence": "brief: 'ナデシコ艦長、ミスマル・ユリカです。'"
+  },
+  "36": {
+   "speaker": "Lucrezia Noin",
+   "gender": "female",
+   "role": "tactical staff officer (特尉, Special Lieutenant) from the Preventer",
+   "confidence": "high",
+   "evidence": "m6112#36 Sinapus: 'ノイン特尉、後で詳しく聞かせてくれ' then p36 explains Domon in brief63178#4-9; commanding but female, do not masculinize"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [],
+ "rows": [
+  {
+   "ref": "brief63015#0",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "オペレーション　１６",
+   "en": "Operation 16",
+   "notes": ""
+  },
+  {
+   "ref": "brief63015#1",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "新型兵器ナナフシ",
+   "en": "New Weapon Nanafushi",
+   "notes": ""
+  },
+  {
+   "ref": "brief63015#3",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ドレイク軍艦隊迎撃",
+   "en": "Intercept Drake Fleet",
+   "notes": ""
+  },
+  {
+   "ref": "brief63015#4",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ナナフシ接近",
+   "en": "Approach Nanafushi",
+   "notes": ""
+  },
+  {
+   "ref": "brief63015#5",
+   "layer": "strategic briefing",
+   "phase": null,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "ナナフシ破壊",
+   "en": "Destroy Nanafushi",
+   "notes": ""
+  },
+  {
+   "ref": "brief63015#6",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<ac(15)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)><ac(15)>#c[5E8FD8]アルビオン#cの皆さん、こんにちは！\n#c[5E8FD8]ナデシコ#c艦長、ミスマル・ユリカです。",
+   "en": "<op(32,1)><sp(2)><ac(15)>Hello, everyone on the #c[5E8FD8]Albion#c!\nI'm #c[5E8FD8]Nadesico#c Captain Yurika Misumaru.",
+   "notes": "p32 is Yurika Misumaru, cheerful greeting"
+  },
+  {
+   "ref": "brief63015#7",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "<im(13)>",
+    "<im(2)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>司令部からの<im(1)>連絡によ<im(13)>りますと、\nここ、<im(2)>クルスク工業地帯に#c[BE5050]木星蜥蜴#cの\n#c[BE5050]新型兵器#cが落ちてきたそうです。",
+   "en": "<op(32,1)><sp(2)>According to word <im(1)>from <im(13)>HQ,\na <im(2)>#c[BE5050]Jovian Lizard#c #c[BE5050]new weapon#c\nhas landed here in the Kursk industrial zone.",
+   "notes": "Token sequence matched exactly"
+  },
+  {
+   "ref": "brief63015#8",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(12)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>司令部ではこの新兵器のことを、\n<im(12)>#c[BE5050]ナナフシ#cと呼んでいます。",
+   "en": "<op(32,1)><sp(2)>HQ has dubbed this new weapon\n<im(12)>the #c[BE5050]Nanafushi#c.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63015#9",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(10)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>この<im(10)>#c[BE5050]ナナフシ#cはマイクロブラックホール弾\nとかいう強力な弾を撃ち出してくるので、\nそこらの部隊では手も足も出ません。",
+   "en": "<op(32,1)><sp(2)>This <im(10)>#c[BE5050]Nanafushi#c fires something called\na micro black hole round, so ordinary\nforces don't stand a chance against it.",
+   "notes": "Yurika's somewhat casual tone describing advanced tech"
+  },
+  {
+   "ref": "brief63015#10",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(5)>",
+    "<im(14)>",
+    "#c[F07141]",
+    "#c",
+    "<im(8)>",
+    "<im(15)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)><im(5)><im(14)>そういうわけで、私たちの任務は、\nこの#c[F07141]ナナフシを排除#c！\n周辺地域の<im(8)><im(15)>安全を確保することです！",
+   "en": "<op(32,1)><sp(2)><im(5)><im(14)>And so, our mission is to\n#c[F07141]eliminate this Nanafushi#c and secure\nthe safety <im(8)><im(15)>of the surrounding area!",
+   "notes": ""
+  },
+  {
+   "ref": "brief63015#11",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>それでは、がんばっていきましょう！",
+   "en": "<op(32,1)><sp(2)>All right, let's do our best!",
+   "notes": ""
+  },
+  {
+   "ref": "brief63015#12",
+   "layer": "strategic briefing",
+   "phase": null,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "<im(11)>",
+    "<of(1)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>付近には多数の敵が確認され<im(11)>ている。\n<of(1)>#c[5E8FD8]アルビオン#cがなるべく損傷を受けないよう\n心がけてくれ。",
+   "en": "<op(36,1)><sp(2)>Many enemies have been spotted <im(11)>nearby.\n<of(1)>Please ensure the #c[5E8FD8]Albion#c takes as little\ndamage as possible.",
+   "notes": "p36 is Lucrezia Noin, calm tactical officer tone"
+  },
+  {
+   "ref": "brief63103#2",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "#c[BE5050]",
+    "#c",
+    "<im(1)>",
+    "#c[BE5050]",
+    "#c",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>目標の#c[BE5050]ナナフシ#cを捕捉したが…\n<im(1)>付近に#c[BE5050]ドレイク軍#cと#c[BE5050]リクレイマー#cが\n確認されている。",
+   "en": "<op(36,1)><sp(2)>We've acquired target #c[BE5050]Nanafushi#c...\n<im(1)>However, the #c[BE5050]Drake Army#c and #c[BE5050]Reclaimers#c\nhave been spotted nearby.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63103#3",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "<im(3)>",
+    "<im(5)>",
+    "<im(2)>",
+    "<tr(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>彼らが、なぜここに出現したのかは\nわからないが、<im(3)>この<im(5)>ままでは任務<im(2)>に\n支障が<tr(1)>出るので応戦する。",
+   "en": "<op(36,1)><sp(2)>We don't know why they've appeared here,\n<im(3)>but <im(5)>as they'll interfere <im(2)>with the mission,\nwe will engage <tr(1)>and return fire.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63103#4",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "<im(7)>",
+    "#c[5E8FD8]",
+    "#c",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)><im(7)>#c[5E8FD8]ナデシコ#cは後衛でグラビティブラストの\n発射準備を行う。その間、#c[5E8FD8]アルビオン#cは\n前に出て主砲で敵艦を迎撃する。",
+   "en": "<op(36,1)><sp(2)><im(7)>The #c[5E8FD8]Nadesico#c will ready its Gravity Blast\nfrom the rear. Meanwhile, the #c[5E8FD8]Albion#c will\nmove forward to engage enemy ships.",
+   "notes": ""
+  },
+  {
+   "ref": "brief63103#5",
+   "layer": "tactical briefing",
+   "phase": 1,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "#c[F07141]",
+    "<im(9)>",
+    "#c",
+    "<im(10)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>各機は#c[F07141]アルビオン<im(9)>を護衛#cし<im(10)>てくれ。\n頼んだぞ。",
+   "en": "<op(36,1)><sp(2)>All units, #c[F07141]protect the Albion<im(9)>#c.\nWe're counting <im(10)>on you.",
+   "notes": ""
+  },
+  {
+   "ref": "m6161#3",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ライネックの撃破",
+   "en": "Destroy the Wryneck",
+   "notes": "Objective"
+  },
+  {
+   "ref": "m6161#6",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>前方に敵艦、多数！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Multiple enemy ships ahead!<ab(300)><ed()>",
+   "notes": "Albion crew / operator"
+  },
+  {
+   "ref": "m6161#7",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あれはドレイクの戦艦！\nオーラバリアを張っているわ。<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Those are Drake's battleships!\nThey've raised their Aura Barriers.<ab(700)><ed()>",
+   "notes": "Female pilot or operator (likely Marvel Frozen, '〜わ')"
+  },
+  {
+   "ref": "m6161#8",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>相手が誰であろうと全力を尽くすだけだ。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>No matter who the enemy is,\nwe just give it everything we've got.<ab(200)><ed()>",
+   "notes": "Burning or senior pilot"
+  },
+  {
+   "ref": "m6161#9",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>主砲、発射準備！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Ready main guns to fire!<ab(400)><ed()>",
+   "notes": "Albion bridge"
+  },
+  {
+   "ref": "m6161#10",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>新たな敵の反応！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>New enemy signatures detected!<ab(300)><ed()>",
+   "notes": "Operator"
+  },
+  {
+   "ref": "m6161#11",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵オーラバトラー、本艦に向かってきます！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Enemy Aura Battlers heading\nstraight for our ship!<ab(700)><ed()>",
+   "notes": "Operator"
+  },
+  {
+   "ref": "m6161#12",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こちらから落とすつもりか！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>They're trying to take us down first?!<ab(300)><ed()>",
+   "notes": "Sinapus or Burning"
+  },
+  {
+   "ref": "m6161#13",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…なぜ、あいつらが一緒に？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>...Why are they working together?<ab(200)><ed()>",
+   "notes": "Show or Yuu wondering why Drake and Reclaimers are allied"
+  },
+  {
+   "ref": "m6161#14",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>わからないけど…アンチボディには\nオーラバトラーに近い力を感じるわ。<ab(800)><ed()>",
+   "en": "<op()><sp(20)>I don't know, but... in Antibodies\nI feel a power close to Aura Battlers.<ab(800)><ed()>",
+   "notes": "Hime or Marvel ('〜わ')"
+  },
+  {
+   "ref": "m6161#15",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それがお互いに影響を与え合っているのか？<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Are they affecting each other, then?<ab(700)><ed()>",
+   "notes": "Yuu or Show"
+  },
+  {
+   "ref": "m6161#16",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…まったく理解できない話ね。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>...That makes no sense at all.<ab(200)><ed()>",
+   "notes": "Marvel or Leccee"
+  },
+  {
+   "ref": "m6161#17",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ママ……この任務が終わったら、\n会いに行くぜ。　待っててくれよ。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Mom... Once this mission is over,\nI'll see you. Just wait for me.<ab(400)><ed()>",
+   "notes": "Kaine Wakaba thinking about his rescued mother"
+  },
+  {
+   "ref": "m6161#18",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さっきから黙って聞いてりゃ\nママ、ママ、ママと！<ab(400)>",
+   "en": "<op()><sp(20)>I've been listening quietly, but\nit's Mom, Mom, Mom with you!<ab(400)>",
+   "notes": "Yuu Isami reacting with irritation (complex about his own mother Kant Kanga)"
+  },
+  {
+   "ref": "m6161#19",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>お前は他に言うことがないのかよ！<ab(200)><ed()>",
+   "en": "<sp(20)>Don't you have anything else to say?!<ab(200)><ed()>",
+   "notes": "Yuu continues"
+  },
+  {
+   "ref": "m6161#20",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんだよ？　お前はママに\n会いたくなることはないってのか？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>What's your deal? You never feel\nlike seeing your own mom?!<ab(500)><ed()>",
+   "notes": "Kaine responds"
+  },
+  {
+   "ref": "m6161#21",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……あんな身勝手な女、知るもんか！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>...Why would I care about\na selfish woman like that?!<ab(400)><ed()>",
+   "notes": "Yuu rejecting his mother"
+  },
+  {
+   "ref": "m6161#22",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>素直じゃねえなぁ……<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You sure aren't honest with yourself...<ab(0)><ed()>",
+   "notes": "Kaine"
+  },
+  {
+   "ref": "m6161#23",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんだとぉ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>What did you say?!<ab(100)><ed()>",
+   "notes": "Yuu"
+  },
+  {
+   "ref": "m6161#24",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>おいおい、ほんのジョークだぜ。\nそうムキになるなっての。<ab(300)>",
+   "en": "<op()><sp(20)>Whoa, hey, it was just a joke.\nDon't get so worked up.<ab(300)>",
+   "notes": "Kaine calming Yuu down"
+  },
+  {
+   "ref": "m6161#25",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>こんなとこで仲間割れしちゃつまんねえぜ？<ab(500)><ed()>",
+   "en": "<sp(20)>No point in fighting amongst\nourselves here, right?<ab(500)><ed()>",
+   "notes": "Kaine continues"
+  },
+  {
+   "ref": "m6161#26",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>直撃！　左舷、ＭＳカタパルト！<ab(200)>",
+   "en": "<op()><sp(20)>Direct hit! Port MS catapult!<ab(200)>",
+   "notes": "Albion crew / operator"
+  },
+  {
+   "ref": "m6161#27",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>本艦の損傷が拡大しています！<ab(200)><ed()>",
+   "en": "<sp(20)>Damage to the ship is spreading!<ab(200)><ed()>",
+   "notes": "Operator continues"
+  },
+  {
+   "ref": "m6161#28",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>機関出力低下！<ab(200)>",
+   "en": "<op()><sp(20)>Engine output dropping!<ab(200)>",
+   "notes": "Operator"
+  },
+  {
+   "ref": "m6161#29",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>第二推進剤供給弁が開きません！<ab(200)><ed()>",
+   "en": "<sp(20)>Secondary propellant valve won't open!<ab(200)><ed()>",
+   "notes": "Operator continues"
+  },
+  {
+   "ref": "m6161#31",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>本艦は戦闘継続不能！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Our ship can no longer fight!<ab(600)><ed()>",
+   "notes": "Operator"
+  },
+  {
+   "ref": "m6161#32",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やむをえん…一旦後退する！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>It can't be helped...\nFall back for now!<ab(600)><ed()>",
+   "notes": "Captain Sinapus ordering withdrawal"
+  },
+  {
+   "ref": "m6161#33",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>主砲、発射準備！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Main guns, prepare to fire!<ab(300)><ed()>",
+   "notes": "Albion bridge"
+  },
+  {
+   "ref": "m6161#34",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>全機、射線上から退避してください！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>All units, clear the line of fire!<ab(600)><ed()>",
+   "notes": "Operator warning friendly mobile suits"
+  },
+  {
+   "ref": "m6161#35",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>主砲、発射します！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Main guns, firing!<ab(600)><ed()>",
+   "notes": "Operator"
+  },
+  {
+   "ref": "m6161#36",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>オーラの力が弱くなった！　チャンスだ！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Their Aura Power weakened!\nNow's our chance!<ab(700)><ed()>",
+   "notes": "Show or friendly pilot"
+  },
+  {
+   "ref": "m6161#37",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今のうちに敵艦を叩くんだ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Strike the enemy ships while we can!<ab(500)><ed()>",
+   "notes": "Pilot"
+  },
+  {
+   "ref": "m6161#38",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦はバリアを展開！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemy ship deployed a barrier!<ab(300)><ed()>",
+   "notes": "Operator"
+  },
+  {
+   "ref": "m6161#39",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦の破壊を確認！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Enemy ship destruction confirmed!<ab(300)><ed()>",
+   "notes": "Operator"
+  },
+  {
+   "ref": "m6161#40",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よし、その調子だ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>All right, keep it up!<ab(300)><ed()>",
+   "notes": "Burning or pilot"
+  },
+  {
+   "ref": "m6161#41",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あいつは…トッド！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>That's... Todd!<ab(500)><ed()>",
+   "notes": "Show recognizing Todd Guinness"
+  },
+  {
+   "ref": "m6161#42",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ジョナサンもいるのか？<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Jonathan's here too?!<ab(500)><ed()>",
+   "notes": "Yuu spotting Jonathan Glenn"
+  },
+  {
+   "ref": "m6161#43",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ショウ！　お前は邪魔なんだよ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Show! You're in my way!<ab(400)><ed()>",
+   "notes": "Todd attacking Show"
+  },
+  {
+   "ref": "m6161#44",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>トッド！　まだわからないのか！\n悪しきオーラ力が！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Todd! Don't you see it yet?!\nThat evil aura!<ab(600)><ed()>",
+   "notes": "Show trying to reason with Todd"
+  },
+  {
+   "ref": "m6161#45",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>しつこい！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Persistent bastard!<ab(100)><ed()>",
+   "notes": "Todd"
+  },
+  {
+   "ref": "m6161#46",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前こそ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Right back at you!<ab(100)><ed()>",
+   "notes": "Show"
+  },
+  {
+   "ref": "m6161#47",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ハーイ！　これでさよならだ！　勇！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Hi there! Time to say goodbye, Yuu!<ab(400)><ed()>",
+   "notes": "Jonathan taunting Yuu ('ハーイ！')"
+  },
+  {
+   "ref": "m6161#48",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それはこっちのセリフだ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>That's my line!<ab(300)><ed()>",
+   "notes": "Yuu"
+  },
+  {
+   "ref": "m6161#49",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前はうっとおしいんだよ！！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>You're a total pain in the neck!!<ab(300)><ed()>",
+   "notes": "Jonathan"
+  },
+  {
+   "ref": "m6161#50",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それはこっちが言いたいよ！\nヒメブレンも、あんたが嫌いだって！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>That's what I want to say!\nHime Brain hates you too!<ab(400)><ed()>",
+   "notes": "Hime Utsumiya speaking on behalf of Hime Brain"
+  },
+  {
+   "ref": "m6161#51",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ジョナサン！\nなぜドレイクなんかと！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Jonathan! Why are you teaming\nup with someone like Drake?!<ab(300)><ed()>",
+   "notes": "Yuu"
+  },
+  {
+   "ref": "m6161#52",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>オルファンの力が増幅するからさ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Because it amplifies Orphan's power!<ab(400)><ed()>",
+   "notes": "Jonathan"
+  },
+  {
+   "ref": "m6161#53",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>みえみえなんだよ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>You're so transparent!<ab(300)><ed()>",
+   "notes": "Yuu"
+  },
+  {
+   "ref": "m6161#54",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ジョナサン！　どうした！\n正義はお前にあるのだ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Jonathan! What is the matter?!\nJustice is on your side!<ab(600)><ed()>",
+   "notes": "Baron Maximilian encouraging Jonathan"
+  },
+  {
+   "ref": "m6161#55",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前にも地獄を見せてやるぜ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>I'll show you hell too!<ab(400)><ed()>",
+   "notes": "Jonathan or Todd"
+  },
+  {
+   "ref": "m6161#56",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>はっはっは！　そうだ！　行け！\n戦うのだ！　ジョナサン・グレーン！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Hahaha! Yes! Go!\nFight, Jonathan Glenn!<ab(600)><ed()>",
+   "notes": "Baron Maximilian theatrical laughter"
+  },
+  {
+   "ref": "m6161#57",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>見くびるなよ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Don't underestimate me!<ab(200)><ed()>",
+   "notes": "Todd or Yuu"
+  },
+  {
+   "ref": "m6161#58",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>並の甲羅を使ってんじゃないよ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>This isn't some ordinary carapace!<ab(300)><ed()>",
+   "notes": "Todd boasting of Wryneck's monster carapace armor"
+  },
+  {
+   "ref": "m6161#59",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>く、しまった！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Damn it, no!<ab(200)><ed()>",
+   "notes": "Todd taking damage"
+  },
+  {
+   "ref": "m6161#60",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺のオーラ力では、かなわないと言うのかよ！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Are you saying my Aura Power\nisn't enough to beat you?!<ab(500)><ed()>",
+   "notes": "Todd in disbelief"
+  },
+  {
+   "ref": "m6161#61",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>邪魔をするな！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Stay out of my way!<ab(100)><ed()>",
+   "notes": "Jonathan or Todd"
+  },
+  {
+   "ref": "m6161#62",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>押されているだと！？<ab(100)><ed()>",
+   "en": "<op()><sp(20)>We're being pushed back?!<ab(100)><ed()>",
+   "notes": "Jonathan or Todd"
+  },
+  {
+   "ref": "m6161#63",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ぬううう！　なんて事だ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Nrrgh! How can this be?!<ab(100)><ed()>",
+   "notes": "Todd"
+  },
+  {
+   "ref": "m6161#64",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>二人とも、退くがいい。<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Both of you, fall back.<ab(600)><ed()>",
+   "notes": "Baron Maximilian ordering retreat"
+  },
+  {
+   "ref": "m6161#65",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>了解！　…あんたに指図されるのは、\nあんまり気にいらんがね。<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Understood! ...Not that I like\ntaking orders from you, though.<ab(200)><ed()>",
+   "notes": "Todd reluctantly accepting Baron's order"
+  },
+  {
+   "ref": "m6161#66",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>貴様！　バロンに対して！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>How dare you speak to the Baron\nlike that!<ab(500)><ed()>",
+   "notes": "Jonathan defending Baron Maximilian"
+  },
+  {
+   "ref": "m6161#67",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>わかってる、わかってる！\nちゃんと命令は聞く！<ab(400)>",
+   "en": "<op()><sp(20)>I know, I know!\nI'll follow the orders!<ab(400)>",
+   "notes": "Todd replying to Jonathan"
+  },
+  {
+   "ref": "m6161#68",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>なんせドレイク様の同盟者だからな！<ab(500)><ed()>",
+   "en": "<sp(20)>Since you're Lord Drake's ally and all!<ab(500)><ed()>",
+   "notes": "Todd continues"
+  },
+  {
+   "ref": "m6161#69",
+   "layer": "mission dialogue",
+   "phase": 1,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よし、追い払ったぞ。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>All right, we drove them off.<ab(300)><ed()>",
+   "notes": "Show or Yuu"
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6161#70",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>それではグラビティブラスト行きます！\nどーんと決めちゃってください！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6161#71",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵弾発射。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6161#72",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>へ？<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6161#73",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>本艦は敵の攻撃を受けています！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6161#74",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>バロンのご命令でなければ、\n貴様らなどと！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6161#75",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>……ふん。　行くぞ！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6161#76",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>何！？<ab(0)><off()>",
+   "en": "<on()><sp(20)>What?!<ab(0)><off()>"
+  },
+  {
+   "ref": "m6161#77",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>何か当たった！？<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6161#78",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>相転移エンジン停止。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6161#79",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>い、今までの迎撃部隊はこれに！？<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6161#80",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>重力波レールガンね。<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6161#81",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>強力な重力制御で作り出した\nマイクロブラックホールを、<ab(0)><off()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Translated strategic and tactical briefings by Yurika Misumaru and Lucrezia Noin, followed by mission phase 1 combat against the allied Drake fleet and Reclaimers (Todd Guinness, Jonathan Glenn, Baron Maximilian).",
+  "rows_examined": "brief63015#0-12, brief63103#2-5, m6161#3-69; context after m6161#70-81 and op16_02",
+  "rows_examined_count": 80,
+  "uncertainties": [
+   "m6161#7: Speaker could be Marvel Frozen or an operator; translated with female nuance reflecting '〜わ'.",
+   "m6161#14-16: Interaction between Antibodies and Aura Battlers discussed by Hime/Marvel and Yuu/Show.",
+   "m6161#18-25: Comedic bickering between Kaine Wakaba (talking about his mother) and Yuu Isami (who resents his mother Kant Kanga).",
+   "m6161#58: '並の甲羅' refers to the monster carapace armor used in Aura Battlers (Wryneck).",
+   "m6161#64-68: Baron Maximilian commands Todd and Jonathan to retreat; Todd obeys because Baron is an ally of Drake Luft."
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {
+   "32": "Yurika Misumaru",
+   "36": "Lucrezia Noin"
+  }
+ }
+}

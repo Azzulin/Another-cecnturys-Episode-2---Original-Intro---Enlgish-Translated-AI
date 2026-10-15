@@ -1,0 +1,1837 @@
+{
+ "batch": "op17_03",
+ "operation": 17,
+ "previous_batch": "op17_02",
+ "next_batch": "op17_04",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "バスターアーク",
+   "en": "Buster Ark",
+   "kind": "unit",
+   "series": "Another Century's Episode 2 (original)",
+   "role": "Modified Gun Ark with an evolving Guardian System and fallen-angel styling; Marina's unit while with the Rainen side."
+  },
+  {
+   "ja": "ボソンジャンプ",
+   "en": "Boson Jump",
+   "kind": "term",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "Teleportation/time-displacement technology of the setting"
+  },
+  {
+   "ja": "エステバリス",
+   "en": "Aestivalis",
+   "kind": "unit",
+   "series": "Martian Successor Nadesico",
+   "role": "Nergal mass-produced mecha; used alone and in エステバリス隊 (Aestivalis squad/team)."
+  },
+  {
+   "ja": "ポセイダル軍",
+   "en": "Poseidal Army",
+   "kind": "faction",
+   "series": "Heavy Metal L-Gaim",
+   "role": "The military of Emperor Poseidal that rules the Pentagona World; the main antagonist force of L-Gaim."
+  },
+  {
+   "ja": "ギャブレー",
+   "en": "Gablae",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "role": "Daba's rival. Ambitious country noble from Koam who joins the Poseidal military (under Chai Char, later one of the Thirteen); commands the Slender Skala, finally sides with Daba to rescue Quwasan. Pilots Ashura Temple, A-Taul, Bat-Shu in ACE2.",
+   "personality": "Pompous and vain but sincere, warm-hearted and quick to fall in love; naive and comically airheaded, a rival with a sense of honor.",
+   "full_name": "Gavlet Gablae"
+  },
+  {
+   "ja": "シナプス",
+   "en": "Sinapus",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Earth Federation captain (Captain, 大佐) of the assault carrier Albion; leads the pursuit of the stolen GP02.",
+   "personality": "Grizzled veteran with a commanding presence and keen tactical mind; relies on his own judgement and sense of right and wrong.",
+   "full_name": "Eyphar Sinapus"
+  },
+  {
+   "ja": "テンカワ",
+   "en": "Tenkawa",
+   "kind": "character",
+   "series": "Martian Successor Nadesico",
+   "gender": "male",
+   "role": "Surname of Akito Tenkawa; used alone (テンカワ君, テンカワ機 = Tenkawa's unit)."
+  },
+  {
+   "ja": "ナデシコ",
+   "en": "Nadesico",
+   "kind": "ship",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "ND-001 Nadesico, Nergal's battleship"
+  },
+  {
+   "ja": "木星蜥蜴",
+   "en": "Jovian Lizards",
+   "kind": "faction",
+   "series": "Martian Successor Nadesico",
+   "role": "Earth's name for the unknown Jovian enemy (actually the Jovian Federation, 木連)."
+  },
+  {
+   "ja": "アキト",
+   "en": "Akito",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "male",
+   "role": "TV: cook and Aestivalis pilot of the Nadesico, a Class-A Boson Jumper. PoD: the \"Prince of Darkness\", Black Sarena pilot hunting the Martian Successors",
+   "personality": "TV: kind, reluctant and insecure Gekiganger fan who wants to be a cook. PoD: cold, grim and vengeful after experiments destroyed his senses",
+   "full_name": "Akito Tenkawa"
+  },
+  {
+   "ja": "ギワザ",
+   "en": "Giwaza",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "male",
+   "role": "Seat no. 3 and de facto leader of Poseidal's Thirteen, the highest-ranking officer after Poseidal; rebels against Poseidal with his own fleet (the Giwaza fleet) and is killed in the final battle.",
+   "personality": "Capable, cold, calculating and ambitious; uses and discards people, including his lover Nei Mo Han; a political schemer.",
+   "full_name": "Giwaza Lowau"
+  },
+  {
+   "ja": "ショウ",
+   "en": "Show",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Protagonist; Holy Warrior (Seisenshi) from Tokyo summoned to Byston Well; defects from Drake Luft to the resistance; pilots Dunbine, later Billbine",
+   "personality": "Hot-blooded, stubborn young motocross racer who grows into a serious, driven warrior. Has huge Aura Power but struggles to control it. Has unspoken feelings for Marvel.",
+   "full_name": "Sho Zama"
+  },
+  {
+   "ja": "ブレン",
+   "en": "Brain",
+   "kind": "term",
+   "series": "Brain Powerd",
+   "role": "Short for Brain Powerd units (ブレンたち, ブレンパワード隊)."
+  },
+  {
+   "ja": "マリナ",
+   "en": "Marina",
+   "kind": "character",
+   "series": "Another Century's Episode 2 (original)",
+   "gender": "female",
+   "role": "ACE2 heroine; Ensign in Tak's squad, pilot of the red Gun Ark; goes missing at Torrington Base, reappears with the Rainen Project in the Buster Ark, later rejoins Tak.",
+   "personality": "Cool and reserved ('defrosting ice queen' in flashbacks); deeply bonded with Tak.",
+   "full_name": "Marina Carson"
+  },
+  {
+   "ja": "ユリカ",
+   "en": "Yurika",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "female",
+   "role": "Captain of the ND-001 Nadesico; Akito's childhood friend and later wife; prisoner of the Martian Successors in PoD",
+   "personality": "Cheerful, airheaded and clingy toward Akito, but a genuinely brilliant tactician",
+   "full_name": "Yurika Misumaru"
+  },
+  {
+   "ja": "ダバ",
+   "en": "Daba",
+   "kind": "character",
+   "series": "Heavy Metal L-Gaim",
+   "gender": "male",
+   "role": "Protagonist. Heir of the Yaman clan's Kamon dynasty (true name Kamon Myroad), raised on Koam; leads the rebellion against Poseidal. Pilots the L-Gaim, later the L-Gaim Mk-II.",
+   "personality": "Calm, earnest and somewhat reserved, hard to read; indecisive at times but prone to sudden outbursts of anger, and reckless whenever his adopted sister Quwasan is involved. Grows into a capable leader.",
+   "full_name": "Daba Myroad"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {
+  "36": {
+   "speaker": "Lucrezia Noin",
+   "gender": "female",
+   "role": "tactical staff officer (特尉, Special Lieutenant) from the Preventer",
+   "confidence": "high",
+   "evidence": "m6112#36 Sinapus: 'ノイン特尉、後で詳しく聞かせてくれ' then p36 explains Domon in brief63178#4-9; commanding but female, do not masculinize"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6172#67",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>アキト！？　アキトはどこ？<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#68",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>敵と一緒にボソンジャンプしたようね。<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#69",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>！？　って言うことは……<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#70",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ボソンジャンプに巻き込まれた人間は\n助からないわ。　普通は。<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#71",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>そんなぁ……アキト！　アキト――っ！<ab(800)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#72",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>海上に出てきたところを叩け！<ab(100)>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#73",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>深追いするな！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#74",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>何あれ！？　ゲキ・ガンガー？<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#75",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>うおおおお！！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#76",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>俺にできること、俺にしかできないこと\nホントにあるのか？<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#77",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>俺は何かになれるのか！？<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6172#78",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>何考えてんだ、テンカワ！　逃げろ！<ab(0)><off()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6172#79",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺の戦友が……<ab(100)>",
+   "en": "<op()><sp(20)>My comrade-in-arms...<ab(100)>",
+   "notes": "Ally lamenting Akito's sacrifice."
+  },
+  {
+   "ref": "m6172#80",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ねえ……アキト君、どうなったのよ？<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Hey... What happened to Akito?<ab(100)><ed()>",
+   "notes": "Megumi / female pilot in shock."
+  },
+  {
+   "ref": "m6172#81",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…テンカワ……どうして！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>...Tenkawa... Why?!<ab(100)><ed()>",
+   "notes": "Ryoko Subaru or ally crying out."
+  },
+  {
+   "ref": "m6172#82",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺たちが……もっとしっかりしていれば！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>If only we had been stronger!<ab(100)><ed()>",
+   "notes": "Pilot regretting weakness."
+  },
+  {
+   "ref": "m6172#83",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんでこんなこと……っ！！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Why did this have to happen...?!<ab(100)><ed()>",
+   "notes": "Squadmate grieving."
+  },
+  {
+   "ref": "m6172#84",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やりすぎだよ……いくらなんでも、\nやりすぎだよぉっ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>You went too far... No matter what,\nthat was going way too far!<ab(100)><ed()>",
+   "notes": "Ally complaining about Akito's extreme recklessness."
+  },
+  {
+   "ref": "m6172#85",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>？　……ブレン、どうしたんだ？<ab(100)>",
+   "en": "<op()><sp(20)>? ...Brain, what is wrong?<ab(100)>",
+   "notes": "Yuu Isami reacting to Brain Powerd's emotional reaction."
+  },
+  {
+   "ref": "m6172#86",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>仲間を助けたいのはわかるけど……<ab(100)>",
+   "en": "<op()><sp(20)>I know you want to help him, but...<ab(100)>",
+   "notes": "Yuu continuing to Brain."
+  },
+  {
+   "ref": "m6172#87",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>テンカワ……最後の最後に\n戦士として目覚めたか……<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Tenkawa... At the very end,\nyou awakened as a warrior...<ab(100)><ed()>",
+   "notes": "Veteran warrior paying respect to Akito."
+  },
+  {
+   "ref": "m6172#88",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>うおおおおっ！　テンカワァ――――！<ab(100)><ed()>",
+   "en": "<sp(20)>Uooohhh! Tenkawaaa!<ab(100)><ed()>",
+   "notes": "Speaker screaming in anguish."
+  },
+  {
+   "ref": "m6172#89",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>たぶん……もう……だめ。<ab(100)><ed()>",
+   "en": "<op()><sp(20)>It is probably... hopeless.<ab(100)><ed()>",
+   "notes": "Ruri Hoshino delivering blunt assessment."
+  },
+  {
+   "ref": "m6172#90",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ショウ……<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Show...<ab(100)><ed()>",
+   "notes": "Marvel Frozen calling Show."
+  },
+  {
+   "ref": "m6172#91",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>お前……何を感じてるんだ？<ab(100)>",
+   "en": "<sp(20)>What are you sensing...?<ab(100)>",
+   "notes": "Show Zama sensing Aura / psychic resonance."
+  },
+  {
+   "ref": "m6172#92",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>わかるけどさあっ！！<ab(100)><ed()>",
+   "en": "<sp(20)>I understand, but still!!<ab(100)><ed()>",
+   "notes": "Show / Cham crying out."
+  },
+  {
+   "ref": "m6172#93",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ウソだろ……ウソだよな？<ab(100)>",
+   "en": "<op()><sp(20)>No way... It is a lie, right?<ab(100)>",
+   "notes": "Young pilot denying the loss."
+  },
+  {
+   "ref": "m6172#94",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>……もしかして……彼は……？<ab(100)><ed()>",
+   "en": "<sp(20)>...Could he really be...?<ab(100)><ed()>",
+   "notes": "Pilot trailing off."
+  },
+  {
+   "ref": "m6172#95",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ダバ……泣いてるの？<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Daba... Are you crying?<ab(100)><ed()>",
+   "notes": "Lillith Fau asking Daba Myroad."
+  },
+  {
+   "ref": "m6172#96",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ウソって言えよ！　<ab(100)>",
+   "en": "<sp(20)>Tell me it is a lie!<ab(100)>",
+   "notes": "Kaine yelling."
+  },
+  {
+   "ref": "m6172#97",
+   "layer": "mission dialogue",
+   "phase": 2,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>アキトぉ―――――っ！！<ab(100)><ed()>",
+   "en": "<sp(20)>Akitooo!!<ab(100)><ed()>",
+   "notes": "Kaine screaming Akito's name."
+  },
+  {
+   "ref": "brief63110#2",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>#c[5E8FD8]ナデシコ#cからの通信によると、\n消失したテンカワは、２週間前の月に\nボソンジャンプしていたらしい。",
+   "en": "<op(36,1)><sp(2)>According to the #c[5E8FD8]Nadesico#c's transmission,\nTenkawa Boson Jumped to the Moon\ntwo weeks in the past.",
+   "notes": "Lucrezia Noin briefing the situation."
+  },
+  {
+   "ref": "brief63110#3",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "#c[E2E258]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>#c[E2E258]ボソンジャンプ#cは本来、生体は運べない\nはずだが…\nなぜ彼が耐えられたのかはわからない。",
+   "en": "<op(36,1)><sp(2)>A #c[E2E258]Boson Jump#c is not supposed to carry\nliving tissue...\nWe do not know how he survived it.",
+   "notes": "Noin explaining anomaly of organic Boson Jump."
+  },
+  {
+   "ref": "brief63110#4",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "<im(3)>",
+    "#c[5E8FD8]",
+    "<im(1)>",
+    "#c",
+    "<im(2)>",
+    "<im(5)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>ともかく、<im(3)>#c[5E8FD8]ナデシコ<im(1)>#cは彼を回<im(2)>収するために\n月に向かうことになったのだが、<im(5)>周辺は\n依然として#c[BE5050]木星蜥蜴#cに包囲されている。",
+   "en": "<op(36,1)><sp(2)>At any rate, the <im(3)>#c[5E8FD8]Nadesico<im(1)>#c <im(2)>is heading for the\nMoon to recover him, but <im(5)>the area remains\nsurrounded by #c[BE5050]Jovian Lizards#c.",
+   "notes": "Noin stating Nadesico mission to Moon."
+  },
+  {
+   "ref": "brief63110#5",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "<im(7)>",
+    "<im(9)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(4)>",
+    "<tr(1)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 2,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)><im(7)>我々<im(9)>は#c[5E8FD8]ナデシコ#cの出<im(4)>港を援護<tr(1)>するため、\n引き続き#c[F07141]敵の迎撃#cに出る。",
+   "en": "<op(36,1)><sp(2)><im(7)>We will <im(9)>cover the #c[5E8FD8]Nadesico#c's <im(4)>departure\nby continuing to <tr(1)>#c[F07141]intercept the enemy#c.",
+   "notes": "Noin explaining mission objective."
+  },
+  {
+   "ref": "brief63110#6",
+   "layer": "tactical briefing",
+   "phase": 3,
+   "portrait": 36,
+   "tokens": [
+    "<op(36,1)>",
+    "<sp(2)>",
+    "#c[5E8FD8]",
+    "#c",
+    "<im(11)>",
+    "<of(1)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(36,1)><sp(2)>なお、#c[5E8FD8]ナデシコ#cが別行動となるため、\nエステバリスは一時的に離れること<im(11)>になる。\n<of(1)>では、ただちに出撃してくれ。",
+   "en": "<op(36,1)><sp(2)>As the #c[5E8FD8]Nadesico#c is acting separately,\nthe Aestivalis units will leave us for now.<im(11)>\n<of(1)>Now, sortie immediately.",
+   "notes": "Noin noting Aestivalis departure and ordering sortie."
+  },
+  {
+   "ref": "m6173#1",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "ナデシコの撃沈",
+   "en": "Nadesico sunk",
+   "notes": "Mission failure condition."
+  },
+  {
+   "ref": "m6173#6",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(10)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>レーダーに反応多数！<ab(10)>",
+   "en": "<op()><sp(20)>Multiple radar contacts!<ab(10)>",
+   "notes": "Operator reporting radar contacts."
+  },
+  {
+   "ref": "m6173#7",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ポセイダル軍です！<ab(300)><ed()>",
+   "en": "<sp(20)>It is the Poseidal Army!<ab(300)><ed()>",
+   "notes": "Operator identifying Poseidal Army."
+  },
+  {
+   "ref": "m6173#8",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵さんのお出ましですね。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Here comes the enemy.<ab(300)><ed()>",
+   "notes": "Pilot acknowledging arrival."
+  },
+  {
+   "ref": "m6173#9",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>全機、散開して攻撃するぞ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>All units, scatter and attack!<ab(200)><ed()>",
+   "notes": "Combat order."
+  },
+  {
+   "ref": "m6173#10",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>了解！　行くぜ！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Roger! Let's go!<ab(300)><ed()>",
+   "notes": "Pilot acknowledging order."
+  },
+  {
+   "ref": "m6173#11",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>シナプス艦長！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Captain Sinapus!<ab(100)><ed()>",
+   "notes": "Yurika addressing Sinapus."
+  },
+  {
+   "ref": "m6173#12",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>わかっている。<ab(200)>",
+   "en": "<op()><sp(20)>I know.<ab(200)>",
+   "notes": "Captain Sinapus responding."
+  },
+  {
+   "ref": "m6173#13",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>我々が責任を持って君たちを月に送り出す。<ab(200)>",
+   "en": "<sp(20)>We will see you safely to the Moon.<ab(200)>",
+   "notes": "Sinapus assuring Yurika."
+  },
+  {
+   "ref": "m6173#14",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>早くテンカワ君を連れ戻してきたまえ！<ab(600)><ed()>",
+   "en": "<sp(20)>Bring Tenkawa back quickly!<ab(600)><ed()>",
+   "notes": "Sinapus giving warm encouragement."
+  },
+  {
+   "ref": "m6173#15",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ありがとうございます！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Thank you very much!<ab(500)><ed()>",
+   "notes": "Yurika grateful."
+  },
+  {
+   "ref": "m6173#16",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>かなり遠距離から狙われている…\n早めに倒さないとまずいな。<ab(700)><ed()>",
+   "en": "<op()><sp(20)>Targeted from extreme long range...\nWe must take them out quickly.<ab(700)><ed()>",
+   "notes": "Pilot warning about sniper fire."
+  },
+  {
+   "ref": "m6173#17",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵艦、さらに複数！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>More enemy ships detected!<ab(200)><ed()>",
+   "notes": "Operator warning."
+  },
+  {
+   "ref": "m6173#18",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どれだけ来ても、同じことです！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>No matter how many come,\nit makes no difference!<ab(400)><ed()>",
+   "notes": "Pilot resolute."
+  },
+  {
+   "ref": "m6173#19",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵機多数、ナデシコに接近。<ab(300)>",
+   "en": "<op()><sp(20)>Numerous hostiles closing on Nadesico.<ab(300)>",
+   "notes": "Ruri Hoshino reporting."
+  },
+  {
+   "ref": "m6173#20",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>なんとかしてください。<ab(200)><ed()>",
+   "en": "<sp(20)>Please do something.<ab(200)><ed()>",
+   "notes": "Ruri asking in dry tone."
+  },
+  {
+   "ref": "m6173#21",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>はいよ。　任せときな！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Right. Leave it to me!<ab(300)><ed()>",
+   "notes": "Pilot responding."
+  },
+  {
+   "ref": "m6173#22",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコ、被弾しました！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>The Nadesico was hit!<ab(300)><ed()>",
+   "notes": "Operator reporting damage."
+  },
+  {
+   "ref": "m6173#23",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>被弾しました。　損害は軽微。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>Hit confirmed. Damage is minor.<ab(300)><ed()>",
+   "notes": "Ruri assessing damage."
+  },
+  {
+   "ref": "m6173#24",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このくらいへっちゃらです！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>We can handle this easily!<ab(300)><ed()>",
+   "notes": "Yurika staying upbeat."
+  },
+  {
+   "ref": "m6173#25",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>メインユニットに被弾。<ab(300)>",
+   "en": "<op()><sp(20)>Main unit took a hit.<ab(300)>",
+   "notes": "Ruri reporting."
+  },
+  {
+   "ref": "m6173#26",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>被害は１８ブロックに及んでいます。<ab(300)><ed()>",
+   "en": "<sp(20)>Damage covers 18 blocks.<ab(300)><ed()>",
+   "notes": "Ruri continuing."
+  },
+  {
+   "ref": "m6173#27",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ナデシコのダメージ拡大。<ab(300)>",
+   "en": "<op()><sp(20)>Damage to Nadesico is mounting.<ab(300)>",
+   "notes": "Ruri warning."
+  },
+  {
+   "ref": "m6173#31",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>各自、対ショック準備。<ab(100)><ed()>",
+   "en": "<op()><sp(20)>All hands, brace for impact.<ab(100)><ed()>",
+   "notes": "Bridge officer command."
+  },
+  {
+   "ref": "m6173#32",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このまま前進！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Push forward!<ab(100)><ed()>",
+   "notes": "Captain ordering advance."
+  },
+  {
+   "ref": "m6173#33",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>エンジンはフィールドの安定を最優先。<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Engine priority:\nstabilize the field.<ab(100)><ed()>",
+   "notes": "Engineering instruction."
+  },
+  {
+   "ref": "m6173#34",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>相転移エンジン、スタンバイＯＫです。<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Phase transition engine\nis ready on standby.<ab(100)><ed()>",
+   "notes": "Operator confirming engine status."
+  },
+  {
+   "ref": "m6173#35",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ユリカ君！　あとはこちらで引き受ける！<ab(100)>",
+   "en": "<op()><sp(20)>Yurika! We will handle the rest!<ab(100)>",
+   "notes": "Captain Sinapus covering Nadesico."
+  },
+  {
+   "ref": "m6173#36",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>今のうちに離脱しろ！<ab(100)><ed()>",
+   "en": "<sp(20)>Break away while you can!<ab(100)><ed()>",
+   "notes": "Sinapus ordering Nadesico to disengage."
+  },
+  {
+   "ref": "m6173#37",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>は、はい！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Y-Yes, sir!<ab(100)><ed()>",
+   "notes": "Yurika acknowledging."
+  },
+  {
+   "ref": "m6173#38",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>行ったか。　いいねえ、若いってのは！<ab(300)><ed()>",
+   "en": "<op()><sp(20)>They got away. Ah,\nyouth is a fine thing!<ab(300)><ed()>",
+   "notes": "Capt. Burning smiling upon their departure."
+  },
+  {
+   "ref": "m6173#39",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>隊長もそれほどの歳じゃないでしょうに……<ab(500)><ed()>",
+   "en": "<op()><sp(20)>Captain, you are not that old\nyourself...<ab(500)><ed()>",
+   "notes": "Monsha teasing Burning."
+  },
+  {
+   "ref": "m6173#40",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(1000)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>新たな機影を確認！<ab(1000)>",
+   "en": "<op()><sp(20)>New contact confirmed!<ab(1000)>",
+   "notes": "Operator detecting new machine."
+  },
+  {
+   "ref": "m6173#41",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>…バスターアークです！<ab(200)><ed()>",
+   "en": "<sp(20)>...It is the Buster Ark!<ab(200)><ed()>",
+   "notes": "Operator identifying Buster Ark."
+  },
+  {
+   "ref": "m6173#42",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>マリナ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Marina!<ab(400)><ed()>",
+   "notes": "Tak calling out to Marina Carson."
+  },
+  {
+   "ref": "m6173#43",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ほう…ギワザ様のおっしゃるとおりだな…<ab(200)>",
+   "en": "<op()><sp(20)>Ho... Just as Lord Giwaza said...<ab(200)>",
+   "notes": "Gavlet Gablae observing."
+  },
+  {
+   "ref": "m6173#44",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>あの艦には、常にあの機体の影が…<ab(400)>",
+   "en": "<sp(20)>Around that ship lurks\nthat unit's shadow...<ab(400)>",
+   "notes": "Gablae noting the connection between the ship and Buster Ark."
+  },
+  {
+   "ref": "m6173#45",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>その力をじっくりと見せてもらうとしようか。<ab(500)>",
+   "en": "<sp(20)>Let us see what power it possesses.<ab(500)>",
+   "notes": "Gablae wanting to observe."
+  },
+  {
+   "ref": "m6173#46",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ものども！　撤退するぞ！<ab(100)><ed()>",
+   "en": "<sp(20)>Men! We withdraw!<ab(100)><ed()>",
+   "notes": "Gablae suddenly ordering retreat."
+  },
+  {
+   "ref": "m6173#47",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ギャ、ギャブレー様！？<ab(100)><ed()>",
+   "en": "<op()><sp(20)>L-Lord Gablae?!<ab(100)><ed()>",
+   "notes": "Poseidal subordinate confused."
+  },
+  {
+   "ref": "m6173#48",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ギャブレーが逃げる！？<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Gablae is running away?!<ab(100)><ed()>",
+   "notes": "Daba surprised by Gablae fleeing."
+  },
+  {
+   "ref": "m6173#49",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>逃げる奴はほっとけ！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Leave whoever runs alone!<ab(400)><ed()>",
+   "notes": "Pilot dismissing retreaters."
+  },
+  {
+   "ref": "m6173#50",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なぜ黙ってるんだ！　マリナ！<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Why do you stay silent, Marina?!<ab(600)><ed()>",
+   "notes": "Tak demanding answers."
+  },
+  {
+   "ref": "m6173#51",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…もう、以前のお前じゃないのか…！<ab(700)><ed()>",
+   "en": "<op()><sp(20)>...Are you not who you once were...?!<ab(700)><ed()>",
+   "notes": "Tak heart-broken over Marina's coldness."
+  },
+  {
+   "ref": "m6173#52",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くそっ！！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Damn it!!<ab(100)><ed()>",
+   "notes": "Tak frustrated."
+  },
+  {
+   "ref": "m6173#53",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>きゃっ！！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Kyaaah!!<ab(100)><ed()>",
+   "notes": "Operator scream as ship is struck."
+  },
+  {
+   "ref": "m6173#54",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>上空より砲撃！！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Bombardment from above!!<ab(100)><ed()>",
+   "notes": "Operator reporting orbital/aerial bombardment."
+  },
+  {
+   "ref": "m6173#55",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>く、またか…！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Ugh, again...?!<ab(100)><ed()>",
+   "notes": "Pilot reacting to satellite bombardment."
+  },
+  {
+   "ref": "m6173#56",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さ、さらに来ます！！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>M-More incoming!!<ab(100)><ed()>",
+   "notes": "Operator alerting incoming shots."
+  },
+  {
+   "ref": "m6173#57",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>完全に照準を合わせられている…！<ab(500)><ed()>",
+   "en": "<op()><sp(20)>They have a complete lock on us...!<ab(500)><ed()>",
+   "notes": "Bridge reporting satellite targeting."
+  },
+  {
+   "ref": "m6173#58",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……引き上げていく。<ab(300)>",
+   "en": "<op()><sp(20)>...They are pulling back.<ab(300)>",
+   "notes": "Sinapus noting Buster Ark / enemy withdrawal."
+  },
+  {
+   "ref": "m6173#59",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>一体、我々を狙う目的は何なんだ？<ab(500)><ed()>",
+   "en": "<sp(20)>Just what is their objective\nin targeting us?<ab(500)><ed()>",
+   "notes": "Sinapus questioning enemy's true intention."
+  },
+  {
+   "ref": "m6173#60",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>マリナ……あえて見逃したのか。<ab(600)><ed()>",
+   "en": "<op()><sp(20)>Marina... Did you let us go\non purpose...?<ab(600)><ed()>",
+   "notes": "Tak realizing Marina deliberately spared the Albion."
+  },
+  {
+   "ref": "m6173#61",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……ギワザ様、いかがでしょうか？<ab(300)><ed()>",
+   "en": "<op()><sp(20)>...Lord Giwaza, what do you think?<ab(300)><ed()>",
+   "notes": "Gablae consulting Giwaza Lowau."
+  },
+  {
+   "ref": "m6173#62",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(600)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>使える。　…あの機体は使えるぞ。<ab(600)><ed()>",
+   "en": "<op()><sp(20)>It will serve... That machine\nwill serve us well.<ab(600)><ed()>",
+   "notes": "Giwaza admiring and coveting the Buster Ark's combat capability."
+  },
+  {
+   "ref": "m6173#63",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こっちに来ます！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>Incoming this way!<ab(200)><ed()>",
+   "notes": "Operator alerting incoming threat."
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6173#64",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>なんということだ…<ab(900)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#65",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>相転移エンジン、出力全開！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#66",
+   "layer": "mission dialogue",
+   "jp": "<on()><sp(20)>ナデシコ、発進！<ab(0)><off()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#67",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>アルビオンをやるなら、俺をやれ！<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#68",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>どうした！　やってみろ！<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#69",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>今からそっちに行く！<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6173#70",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>俺を倒してすむなら…好きにしろ。<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "brief63184#0",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)>ご苦労だったな。\n<im(1)>諸君らの活躍で、<im(15)>#c[5E8FD8]ナデシコ#cは無事に\n<im(16)>月へ向かっている。",
+   "en": ""
+  },
+  {
+   "ref": "brief63184#1",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)><im(2)>今後の任務だが、このまま#c[5E8FD8]ナデシコ#cを\n<im(4)>追って月へ向かって欲しい。\nよろしく頼んだぞ。",
+   "en": ""
+  },
+  {
+   "ref": "brief63184#2",
+   "layer": "debriefing",
+   "jp": "<op(33,1)><sp(2)><im(5)>そうそう、#c[5E8FD8]スカル小隊#cは#c[5E8FD8]アルビオン#c隊を離れ、\n本来所属すべき部隊へと配属になる。\nそのつもりでいてくれ。",
+   "en": ""
+  },
+  {
+   "ref": "brief63184#3",
+   "layer": "debriefing",
+   "jp": "<op(37,1)><sp(2)><im(12)>先の戦闘で回収した#c[BE5050]木星蜥蜴#cの機体は\n#c[5E8FD8]ナデシコ#cに運び込まれた。\n近々分析結果が出るだろう。",
+   "en": ""
+  },
+  {
+   "ref": "brief63184#4",
+   "layer": "debriefing",
+   "jp": "<op(37,1)><sp(2)>正体不明の#c[BE5050]木星蜥蜴#cの実態を知るための\n手がかりになるのではと、期待している。",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Phase 2 aftermath showing squad reactions to Akito's apparent demise; tactical briefing by Lucrezia Noin revealing that Nadesico detected Akito Boson Jumped two weeks in the past to the Moon; Nadesico launches for the Moon while Albion and preventer forces hold off Poseidal Army forces led by Gavlet Gablae; Buster Ark arrives; Tak confronts Marina, who remains silent; Marina deliberately spares Albion and withdraws; Giwaza observes and expresses desire to exploit the Buster Ark's power.",
+  "rows_examined": "op17_02 (m6172#74-78), op17_03 (m6172#79-97, brief63110#2-6, m6173#1, m6173#6-63), op17_04 (m6173#64-70, brief63184#0-4)",
+  "rows_examined_count": 80,
+  "uncertainties": [
+   "In m6172#79-84 and m6172#93-97, grief and disbelief reactions to Akito's Boson Jump are divided among the Dragonar trio (Kaine/Light/Tap), Gundam pilots, and Nadesico crew.",
+   "In m6172#85-86, Yuu Isami speaks to his Brain Powerd mecha ('ブレン').",
+   "In m6173#43-46, Gavlet Gablae refers to Lord Giwaza ('ギワザ様') and observes the Buster Ark before ordering a withdrawal, prompting Daba's astonishment.",
+   "In m6173#60-62, Tak realizes Marina intentionally let the Albion escape ('あえて見逃したのか'), while Giwaza expresses interest in using the Buster Ark ('使える。…あの機体は使えるぞ')."
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {
+   "36": "Lucrezia Noin"
+  }
+ }
+}

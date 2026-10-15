@@ -1,0 +1,1742 @@
+{
+ "batch": "op19_04",
+ "operation": 19,
+ "previous_batch": "op19_03",
+ "next_batch": "op19_05",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "アルバトロ・ナル・エイジ・アスカ",
+   "en": "Albatro Null Eiji Asuka",
+   "kind": "character",
+   "series": "Blue Comet SPT Layzner",
+   "gender": "male",
+   "role": "Full Gradosian name of Eiji Asuka (Albatro Null is his Grados name, Eiji his human name).",
+   "personality": "See Eiji Asuka.",
+   "en_short": "Eiji"
+  },
+  {
+   "ja": "ゲキ・ガンガー",
+   "en": "Gekiganger",
+   "kind": "term",
+   "series": "Martian Successor Nadesico",
+   "role": "The in-universe 1970s-style super robot anime (full title ゲキ・ガンガー3) loved by Gai Daigoji and Akito; also the name of its robot."
+  },
+  {
+   "ja": "シナプス",
+   "en": "Sinapus",
+   "kind": "character",
+   "series": "Mobile Suit Gundam 0083: Stardust Memory",
+   "gender": "male",
+   "role": "Earth Federation captain (Captain, 大佐) of the assault carrier Albion; leads the pursuit of the stolen GP02.",
+   "personality": "Grizzled veteran with a commanding presence and keen tactical mind; relies on his own judgement and sense of right and wrong.",
+   "full_name": "Eyphar Sinapus"
+  },
+  {
+   "ja": "アキト",
+   "en": "Akito",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "male",
+   "role": "TV: cook and Aestivalis pilot of the Nadesico, a Class-A Boson Jumper. PoD: the \"Prince of Darkness\", Black Sarena pilot hunting the Martian Successors",
+   "personality": "TV: kind, reluctant and insecure Gekiganger fan who wants to be a cook. PoD: cold, grim and vengeful after experiments destroyed his senses",
+   "full_name": "Akito Tenkawa"
+  },
+  {
+   "ja": "ユリカ",
+   "en": "Yurika",
+   "kind": "character",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "gender": "female",
+   "role": "Captain of the ND-001 Nadesico; Akito's childhood friend and later wife; prisoner of the Martian Successors in PoD",
+   "personality": "Cheerful, airheaded and clingy toward Akito, but a genuinely brilliant tactician",
+   "full_name": "Yurika Misumaru"
+  },
+  {
+   "ja": "木連",
+   "en": "Jovian Federation",
+   "kind": "faction",
+   "series": "Martian Successor Nadesico (TV) / Prince of Darkness",
+   "role": "Jupiter-based anti-Earth state, main enemy faction of the TV series (romaji Mokuren)",
+   "en_short": "Jovians"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  },
+  {
+   "ja": "艦長",
+   "en": "Captain",
+   "kind": "title"
+  }
+ ],
+ "known_portraits": {
+  "32": {
+   "speaker": "Yurika Misumaru",
+   "gender": "female",
+   "role": "captain of the Nadesico",
+   "confidence": "high",
+   "evidence": "brief: 'ナデシコ艦長、ミスマル・ユリカです。'"
+  },
+  "37": {
+   "speaker": "Eyphar Sinapus",
+   "gender": "male",
+   "role": "captain of the Albion",
+   "confidence": "high",
+   "evidence": "brief: '私が本艦の艦長、エイパー・シナプスだ。'"
+  }
+ },
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "m6193#74",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>あっちってどっちだ！？<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#75",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>アキトのバカぁ～！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#76",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>なんだ、アレは！？<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#77",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>通信から、痴話ゲンカらしきものが\n聞こえましたが……<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#78",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>はぁ！？<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#79",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ルリちゃん……これは？<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#80",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>はぁ。　イネスさんが、\n遺跡のコアをジャンプさせるには<ab(0)>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#81",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>艦長とアキトさんの粘膜同士の接触、\nつまりキスが必要だと言い出しまして。<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#82",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>それで…こんなんなったのか？<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#83",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>はい。<ab(100)>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#84",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>ちなみに、木星の艦隊にも\nテンカワ機の通信送っちゃってます。<ab(400)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6193#85",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>まさに宇宙分け目の大ゲンカってとこね。<ab(300)><ed()>",
+   "en": ""
+  }
+ ],
+ "rows": [
+  {
+   "ref": "m6193#86",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>はい。<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Yes.<ab(100)><ed()>",
+   "notes": "Ruri responding deadpan to the comment about the lovers' quarrel."
+  },
+  {
+   "ref": "m6193#87",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>！？　人がせっかく\n壮大な話をしようとしてたのに！<ab(500)>",
+   "en": "<op()><sp(20)>!? And here I was,\ntrying to say something profound!<ab(500)>",
+   "notes": "Akito Tenkawa complaining that Yurika ruined his big romantic speech."
+  },
+  {
+   "ref": "m6193#88",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>……そうだよ。　悪いかよ。<ab(100)><ed()>",
+   "en": "<sp(20)>...Yeah, that's right. Got a problem?<ab(100)><ed()>",
+   "notes": "Akito continuing defensively."
+  },
+  {
+   "ref": "m6193#89",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ううん。<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Nope.<ab(100)><ed()>",
+   "notes": "Yurika responding gently."
+  },
+  {
+   "ref": "m6193#90",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お、お前は、どうなんだよ！？<ab(100)><ed()>",
+   "en": "<op()><sp(20)>W-Well, what about you, huh!?<ab(100)><ed()>",
+   "notes": "Akito flustered."
+  },
+  {
+   "ref": "m6193#91",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あたし？　あたしは…<ab(0)>",
+   "en": "<op()><sp(20)>Me? As for me...<ab(0)>",
+   "notes": "Yurika pausing before confessing."
+  },
+  {
+   "ref": "m6193#92",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>あたしはアキトが大好き！<ab(100)><ed()>",
+   "en": "<sp(20)>I love you, Akito!<ab(100)><ed()>",
+   "notes": "Yurika's direct confession (famous TV anime scene)."
+  },
+  {
+   "ref": "m6193#93",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>初めて聞いた……<ab(100)><ed()>",
+   "en": "<op()><sp(20)>That's the first time I've heard that...<ab(100)><ed()>",
+   "notes": "Akito stunned."
+  },
+  {
+   "ref": "m6193#94",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>うそぉ？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Really?<ab(0)><ed()>",
+   "notes": "Yurika teasing."
+  },
+  {
+   "ref": "m6193#95",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ホントだよ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Really.<ab(0)><ed()>",
+   "notes": "Akito answering."
+  },
+  {
+   "ref": "m6193#96",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>うそぉ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Really?!<ab(0)><ed()>",
+   "notes": "Yurika teasing."
+  },
+  {
+   "ref": "m6193#97",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ホント！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Really!<ab(0)><ed()>",
+   "notes": "Akito asserting."
+  },
+  {
+   "ref": "m6193#98",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>うそぉ！！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Really!?!<ab(0)><ed()>",
+   "notes": "Yurika teasing further."
+  },
+  {
+   "ref": "m6193#99",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ホント！！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Really!!<ab(0)><ed()>",
+   "notes": "Akito shouting."
+  },
+  {
+   "ref": "m6193#100",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>うそぉ～！！！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Reaaally!?<ab(0)><ed()>",
+   "notes": "Yurika playfully stretching it."
+  },
+  {
+   "ref": "m6193#101",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ホント……<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Really...<ab(0)><ed()>",
+   "notes": "Akito softening."
+  },
+  {
+   "ref": "m6193#102",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……ん。<ab(100)>",
+   "en": "<op()><sp(20)>...Mmm.<ab(100)>",
+   "notes": "Yurika kissing Akito."
+  },
+  {
+   "ref": "m6193#103",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(1000)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>アキト…大好き…<ab(1000)><ed()>",
+   "en": "<sp(20)>Akito... I love you...<ab(1000)><ed()>",
+   "notes": "Yurika whispering softly."
+  },
+  {
+   "ref": "m6193#104",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>……木連の指揮官を呼び出してくれ。<ab(200)>",
+   "en": "<op()><sp(20)>...Call up the Jovian commander.<ab(200)>",
+   "notes": "Captain Sinapus ordering communication with the Jovian Federation commander."
+  },
+  {
+   "ref": "m6193#105",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>邪魔者は消えたほうがよさそうだ。<ab(400)><ed()>",
+   "en": "<sp(20)>We interlopers had best clear out.<ab(400)><ed()>",
+   "notes": "Sinapus dryly deciding not to intrude on the romantic scene."
+  },
+  {
+   "ref": "m6193#106",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>同感ですな。　向こうさんも、\n馬に蹴られて死にたかぁないでしょう。<ab(400)><ed()>",
+   "en": "<op()><sp(20)>Agreed, sir. I doubt they want to get\nkicked by a horse either.<ab(400)><ed()>",
+   "notes": "Veteran subordinate agreeing with Sinapus, referencing the Japanese proverb about getting between lovers."
+  },
+  {
+   "ref": "m6193#107",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(800)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ま、そういうことで……<ab(800)><ed()>",
+   "en": "<op()><sp(20)>Well, with that sorted out...<ab(800)><ed()>",
+   "notes": "Akito or Yurika wrapping up awkwardness."
+  },
+  {
+   "ref": "m6193#108",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>前方にボソン反応。<ab(100)>",
+   "en": "<op()><sp(20)>Boson reaction ahead.<ab(100)>",
+   "notes": "Ruri Hoshino detecting Boson jump."
+  },
+  {
+   "ref": "m6193#109",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>気をつけてください。<ab(200)><ed()>",
+   "en": "<sp(20)>Please be careful.<ab(200)><ed()>",
+   "notes": "Ruri warning the pilots."
+  },
+  {
+   "ref": "m6193#110",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>相転移砲、いきます。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Phase transition cannon, ready.<ab(0)><off()>",
+   "notes": "Ruri preparing the phase transition cannon."
+  },
+  {
+   "ref": "m6193#111",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>了解。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Acknowledged.<ab(0)><off()>",
+   "notes": "Bridge response."
+  },
+  {
+   "ref": "m6193#112",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>相転移砲、発射！<ab(0)><off()>",
+   "en": "<on()><sp(20)>Phase transition cannon, fire!<ab(0)><off()>",
+   "notes": "Yurika commanding the firing."
+  },
+  {
+   "ref": "m6193#113",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ユリカ、俺、ゲキ・ガンガー３の\n最終回見たよ。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Yurika, I watched the final episode\nof Gekiganger 3.<ab(0)><off()>",
+   "notes": "Akito quoting his famous anime scene."
+  },
+  {
+   "ref": "m6193#114",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>そりゃもう、ひどい話だった。<ab(0)><off()>",
+   "en": "<on()><sp(20)>Man, it was a terrible story.<ab(0)><off()>",
+   "notes": "Akito continuing."
+  },
+  {
+   "ref": "m6193#115",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ひどい話だった……<ab(0)><off()>",
+   "en": "<on()><sp(20)>Just terrible...<ab(0)><off()>",
+   "notes": "Akito continuing."
+  },
+  {
+   "ref": "m6193#116",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ひどい話だったけど、ゾクゾクした。<ab(0)><off()>",
+   "en": "<on()><sp(20)>It was terrible, but gave me chills.<ab(0)><off()>",
+   "notes": "Akito continuing."
+  },
+  {
+   "ref": "m6193#117",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>ゲキガンガー３と、ゲキガンガーＶが\n一緒になって戦うところ……<ab(0)><off()>",
+   "en": "<on()><sp(20)>The part where Gekiganger 3 and\nGekiganger V fought side by side...<ab(0)><off()>",
+   "notes": "Akito reminiscing about the climax."
+  },
+  {
+   "ref": "m6193#118",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>それってやっぱり、好きだってこと？<ab(0)><off()>",
+   "en": "<on()><sp(20)>Doesn't that mean you liked it then?<ab(0)><off()>",
+   "notes": "Yurika replying."
+  },
+  {
+   "ref": "m6193#119",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>俺は、ゲキガンガーを好きだった\n俺の気持ち…<ab(0)><off()>",
+   "en": "<on()><sp(20)>I want to believe in how I felt\nloving Gekiganger...<ab(0)><off()>",
+   "notes": "Akito explaining his true feelings."
+  },
+  {
+   "ref": "m6193#120",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>熱血を信じた、俺の気持ちを信じたい。<ab(0)><off()>",
+   "en": "<on()><sp(20)>In how I believed in fiery passion.<ab(0)><off()>",
+   "notes": "Akito continuing."
+  },
+  {
+   "ref": "m6193#121",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>だから…<ab(0)><off()>",
+   "en": "<on()><sp(20)>So...<ab(0)><off()>",
+   "notes": "Akito hesitating."
+  },
+  {
+   "ref": "m6193#122",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<on()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<off()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<on()><sp(20)>だからアキトはあたしが好き！<ab(0)><off()>",
+   "en": "<on()><sp(20)>So Akito loves me!<ab(0)><off()>",
+   "notes": "Yurika finishing his sentence cheerfully."
+  },
+  {
+   "ref": "m6193#123",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>テメェ！<ab(100)>",
+   "en": "<op()><sp(20)>Why, you...!<ab(100)>",
+   "notes": "Akito yelling in exasperation."
+  },
+  {
+   "ref": "m6193#124",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ね～、もうやめようよ～！<ab(100)>",
+   "en": "<op()><sp(20)>Come on, let's stop fighting already!<ab(100)>",
+   "notes": "Yurika whining playfully."
+  },
+  {
+   "ref": "m6193#125",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ククク……死に急ぐタイプね……<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Heheh... You really love rushing to your death...<ab(100)><ed()>",
+   "notes": "Combat banter."
+  },
+  {
+   "ref": "m6193#126",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺は悲しいぜ！<ab(100)>",
+   "en": "<op()><sp(20)>It breaks my heart!<ab(100)>",
+   "notes": "Combat banter."
+  },
+  {
+   "ref": "m6193#127",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どんな人間にも立場があるように、\nそれぞれの正義を持ってるもんさ。<ab(300)>",
+   "en": "<op()><sp(20)>Just as every person has their place,\neveryone has their own justice.<ab(300)>",
+   "notes": "Combat banter reflecting on justice."
+  },
+  {
+   "ref": "m6193#128",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>貴様があの地球人のエースか！<ab(100)>",
+   "en": "<op()><sp(20)>So you're that Terran ace!<ab(100)>",
+   "notes": "Jovian pilot shouting at player / Akito."
+  },
+  {
+   "ref": "m6193#129",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>貴様は正しいのか！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Are you truly in the right!?<ab(100)><ed()>",
+   "notes": "Jovian pilot questioning justice."
+  },
+  {
+   "ref": "m6193#130",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>正義だ、悪だと……<ab(100)>",
+   "en": "<op()><sp(20)>Justice, evil...<ab(100)>",
+   "notes": "Akito shouting in disgust."
+  },
+  {
+   "ref": "m6193#131",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ゲキ・ガンガーごっこもいい加減にしやがれ！<ab(100)><ed()>",
+   "en": "<sp(20)>Stop playing Gekiganger already!<ab(100)><ed()>",
+   "notes": "Akito shouting at the Jovians."
+  },
+  {
+   "ref": "m6193#132",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>一緒にゲキ・ガンガーの\nコスプレしたっていいじゃん！<ab(100)><ed()>",
+   "en": "<sp(20)>Why couldn't we just cosplay\nGekiganger together!?<ab(100)><ed()>",
+   "notes": "Akito's famous plea from episode 26."
+  },
+  {
+   "ref": "m6193#133",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(400)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>な……何と面妖な！<ab(400)><ed()>",
+   "en": "<op()><sp(20)>H-How bizarre!<ab(400)><ed()>",
+   "notes": "Jovian pilot flabbergasted by Akito's cosplay comment."
+  },
+  {
+   "ref": "m6193#134",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>ゲキ・ガンガーを愛する者同士、\nこんな風に戦うなんてよぉ！<ab(300)><ed()>",
+   "en": "<sp(20)>For people who love Gekiganger\nto fight each other like this!<ab(300)><ed()>",
+   "notes": "Akito continuing his passionate outburst."
+  },
+  {
+   "ref": "m6193#135",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>僕の好きだったアニメでは\nちゃ～んと敵にも味方にも正義があった！<ab(300)><ed()>",
+   "en": "<sp(20)>In the anime I loved, both friend\nand foe had their own justice!<ab(300)><ed()>",
+   "notes": "Akito continuing."
+  },
+  {
+   "ref": "m6193#136",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>正義の力、思い知れ！<ab(100)><ed()>",
+   "en": "<sp(20)>Feel the power of justice!<ab(100)><ed()>",
+   "notes": "Akito channeling a classic hero line."
+  },
+  {
+   "ref": "m6193#137",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何を言う、地球人め！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>What nonsense, you Terran scum!<ab(100)><ed()>",
+   "notes": "Jovian pilot retaliating."
+  },
+  {
+   "ref": "m6193#138",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>どうして、そういう考え方しかできない！<ab(100)><ed()>",
+   "en": "<sp(20)>Why can you only think that way!?<ab(100)><ed()>",
+   "notes": "Akito arguing back."
+  },
+  {
+   "ref": "m6193#139",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>貴様に何がわかる！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>What would you know!?<ab(100)><ed()>",
+   "notes": "Jovian pilot angry."
+  },
+  {
+   "ref": "m6193#140",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>な、何を言う！<ab(100)>",
+   "en": "<op()><sp(20)>W-What did you say!?<ab(100)>",
+   "notes": "Jovian pilot offended."
+  },
+  {
+   "ref": "m6193#141",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>貴様に、ゲキ・ガンガーを語る資格はない！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>You have no right to speak of Gekiganger!<ab(100)><ed()>",
+   "notes": "Jovian pilot treating Gekiganger as sacred."
+  },
+  {
+   "ref": "m6193#142",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>貴様、ゲキ・ガンガーを愚弄するか！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Do you dare mock Gekiganger!?<ab(100)><ed()>",
+   "notes": "Jovian pilot outraged."
+  },
+  {
+   "ref": "m6193#143",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>正義だ悪だと！<ab(100)>",
+   "en": "<op()><sp(20)>Justice and evil, you say!?<ab(100)>",
+   "notes": "Jovian pilot."
+  },
+  {
+   "ref": "m6193#144",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>我々こそ正義だ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>We are justice!<ab(100)><ed()>",
+   "notes": "Jovian pilot asserting righteous cause."
+  },
+  {
+   "ref": "m6193#145",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>貴様らには、わからなくて当然！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Naturally, you fools wouldn't understand!<ab(100)><ed()>",
+   "notes": "Jovian pilot dismissive."
+  },
+  {
+   "ref": "m6193#146",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>そんなことができるか！<ab(100)><ed()>",
+   "en": "<sp(20)>As if I could do that!<ab(100)><ed()>",
+   "notes": "Akito refusing."
+  },
+  {
+   "ref": "m6193#147",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>そういうことは問題じゃない！<ab(100)><ed()>",
+   "en": "<sp(20)>That is not the issue here!<ab(100)><ed()>",
+   "notes": "Akito arguing back."
+  },
+  {
+   "ref": "m6193#148",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ならば、俺に勝ってみせろ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Then defeat me and prove it!<ab(100)><ed()>",
+   "notes": "Jovian pilot challenging Akito / player."
+  },
+  {
+   "ref": "m6193#149",
+   "layer": "mission dialogue",
+   "phase": 3,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ケチ～！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Cheapskates!<ab(100)><ed()>",
+   "notes": "Yurika complaining childishly."
+  },
+  {
+   "ref": "brief63121#2",
+   "layer": "tactical briefing",
+   "phase": 4,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)>お疲れ様です！　シナプス艦長！",
+   "en": "<op(32,1)><sp(2)>Good work out there, Captain Sinapus!",
+   "notes": "Yurika Misumaru addressing Sinapus in tactical briefing."
+  },
+  {
+   "ref": "brief63121#3",
+   "layer": "tactical briefing",
+   "phase": 4,
+   "portrait": 32,
+   "tokens": [
+    "<op(32,1)>",
+    "<sp(2)>",
+    "<im(1)>",
+    "<im(2)>",
+    "#c[BE5050]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(32,1)><sp(2)><im(1)>とりあえ<im(2)>ず、遺跡は宇宙の果てに\nバビューンと飛ばしちゃいました！　\nこれで#c[BE5050]木連#cと和平ができますね！　ぶいっ！",
+   "en": "<op(32,1)><sp(2)><im(1)>For now, we<im(2)> zoomed the ruins off\nto the far edge of the universe!\nNow we can make peace with the #c[BE5050]Jovians#c! V!",
+   "notes": "Yurika reporting cheerfully, flashing a V-sign. '木連' translated as Jovians per glossary short form."
+  },
+  {
+   "ref": "brief63121#4",
+   "layer": "tactical briefing",
+   "phase": 4,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>ご苦労だった、ユリカ君。\nあとは地球に帰るだけ、と\n言いたいところだが…",
+   "en": "<op(37,1)><sp(2)>Well done, Yurika.\nI would like to say that all that's left\nis to return to Earth, but...",
+   "notes": "Captain Sinapus praising Yurika before raising a concern."
+  },
+  {
+   "ref": "brief63121#5",
+   "layer": "tactical briefing",
+   "phase": 4,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(3)>",
+    "<tr(1)>",
+    "#c[BE5050]",
+    "<im(5)>",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)><im(3)>本艦の針路上で交戦を確認した。<tr(1)>\nそれが、#c[BE5050]データベースにも登録されていない\n<im(5)>機体#cだということだ。",
+   "en": "<op(37,1)><sp(2)><im(3)>Combat has been confirmed along our course.<tr(1)>\nFurthermore, they are #c[BE5050]units not even registered\n<im(5)>in our database#c.",
+   "notes": "Sinapus briefing. Preserves <im(5)> within the #c color tags as in jp. '機体' = units."
+  },
+  {
+   "ref": "brief63121#6",
+   "layer": "tactical briefing",
+   "phase": 4,
+   "portrait": 37,
+   "tokens": [
+    "<op(37,1)>",
+    "<sp(2)>",
+    "<im(6)>",
+    "<of(1)>",
+    "#c[F07141]",
+    "#c"
+   ],
+   "jp_lines": 3,
+   "max_lines": 3,
+   "max_line_px": 430,
+   "max_line_chars_approx": 43,
+   "jp": "<op(37,1)><sp(2)>一つ争いが終ったところで、\n嫌なことが起きなければいい<im(6)>のだが…\n<of(1)>とにかく、#c[F07141]出撃準備を進めて#cくれ。",
+   "en": "<op(37,1)><sp(2)>Just as one conflict has ended, I hope\nnothing untoward happens...<im(6)>\n<of(1)>At any rate, please #c[F07141]prepare to sortie#c.",
+   "notes": "Sinapus ordering sortie preparations."
+  },
+  {
+   "ref": "m6194#1",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "護衛対象機の援護",
+   "en": "Support the Escort Target Unit",
+   "notes": "Objective text: escort target."
+  },
+  {
+   "ref": "m6194#3",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "tokens": [],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "所属不明機",
+   "en": "Unidentified Unit",
+   "notes": "HUD target label for unidentified mecha."
+  },
+  {
+   "ref": "m6194#4",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "tokens": [
+    "%d"
+   ],
+   "jp_lines": 1,
+   "max_lines": 1,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "アーマー %d ％",
+   "en": "Armor %d％",
+   "notes": "HUD gauge text. Preserves fullwidth percentage sign '％' per PLANO section 3."
+  },
+  {
+   "ref": "m6194#5",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>各機、分散して迎撃に当たれ！<ab(200)><ed()>",
+   "en": "<op()><sp(20)>All units, disperse and intercept!<ab(200)><ed()>",
+   "notes": "Commander ordering units to scatter and intercept."
+  },
+  {
+   "ref": "m6194#6",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵を全滅させろ！<ab(100)><ed()>",
+   "en": "<op()><sp(20)>Annihilate the enemy!<ab(100)><ed()>",
+   "notes": "Enemy commander order."
+  },
+  {
+   "ref": "m6194#7",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>待って！　僕の話を聞いてください！<ab(200)>",
+   "en": "<op()><sp(20)>Wait! Please listen to me!<ab(200)>",
+   "notes": "Eiji Asuka pleading with the pilots."
+  },
+  {
+   "ref": "m6194#8",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(500)>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>僕の名は\nアルバトロ・ナル・エイジ・アスカ。<ab(500)>",
+   "en": "<sp(20)>My name is\nAlbatro Null Eiji Asuka.<ab(500)>",
+   "notes": "Eiji introducing himself. Follows glossary spelling 'Albatro Null Eiji Asuka'."
+  },
+  {
+   "ref": "m6194#9",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": false,
+   "tokens": [
+    "<sp(20)>",
+    "<ab(700)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<sp(20)>地球は、狙われている！！<ab(700)><ed()>",
+   "en": "<sp(20)>Earth is being targeted!!<ab(700)><ed()>",
+   "notes": "Eiji's iconic warning from SPT Layzner."
+  },
+  {
+   "ref": "m6194#10",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(200)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…何を言っている？<ab(200)><ed()>",
+   "en": "<op()><sp(20)>...What are you talking about?<ab(200)><ed()>",
+   "notes": "Pilot responding with skepticism."
+  },
+  {
+   "ref": "m6194#11",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(300)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…にわかに信じられぬ話だな。<ab(300)><ed()>",
+   "en": "<op()><sp(20)>...Hardly something I can believe at once.<ab(300)><ed()>",
+   "notes": "Pilot expressing doubt."
+  },
+  {
+   "ref": "m6194#12",
+   "layer": "mission dialogue",
+   "phase": 4,
+   "opens_new_window": true,
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(100)>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>後で説明します！<ab(100)>",
+   "en": "<op()><sp(20)>I'll explain later!<ab(100)>",
+   "notes": "Eiji promising an explanation."
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "m6194#13",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>今は早くここから逃げてください！<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6194#14",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>高速接近する熱源多数！<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6194#15",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ここは僕が！　早く撤退を！<ab(500)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6194#16",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>……あのエイジというパイロット、\n少なくとも敵ではなさそうだな。<ab(500)>",
+   "en": ""
+  },
+  {
+   "ref": "m6194#17",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>彼を援護する！　いいな？<ab(200)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6194#18",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>了解だ！　各機、敵を迎撃しろ！<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6194#19",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>また見たことのないタイプか……<ab(300)>",
+   "en": ""
+  },
+  {
+   "ref": "m6194#20",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>敏しょう性に特徴があるようだが…<ab(50)>",
+   "en": ""
+  },
+  {
+   "ref": "m6194#21",
+   "layer": "mission dialogue",
+   "jp": "<sp(20)>それだけなのか？<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6194#22",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>周辺に敵影なし。<ab(300)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6194#23",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ひとまずは安心だな。<ab(100)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "m6194#24",
+   "layer": "mission dialogue",
+   "jp": "<op()><sp(20)>ま、待ってください！<ab(300)>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "This slice covers the aftermath of the Mars ruins incident in Phase 3 and the briefing and opening of Phase 4. It starts with the comical, live-broadcast lover's quarrel between Akito and Yurika, followed by Akito's passionate confrontation with the Jovian pilots over Gekiganger 3 and the meaning of justice. In the Phase 4 briefing, Yurika and Captain Sinapus report the successful disposal of the ruins and detect an unregistered battle, where Eiji Asuka (Layzner) arrives to deliver his urgent warning that Earth is targeted.",
+  "rows_examined": "m6193#74-85 (context_before), m6193#86-149, brief63121#2-6, m6194#1-12 (slice rows), m6194#13-24 (context_after), op19_05 (next_batch)",
+  "rows_examined_count": 97,
+  "uncertainties": [
+   "In m6193#104-106, the dialogue following the lovers' quarrel ('Call up the Jovian commander...') is delivered without speaker tags; given the tone and context, it was attributed to Captain Sinapus and a veteran subordinate stepping back from the awkward scene.",
+   "In m6193#133-136, Akito's monologue about Gekiganger and justice follows an exclamation from a Jovian pilot ('How bizarre!'). Akito's lines draw from his episode 26 TV anime dialogue."
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ }
+}
