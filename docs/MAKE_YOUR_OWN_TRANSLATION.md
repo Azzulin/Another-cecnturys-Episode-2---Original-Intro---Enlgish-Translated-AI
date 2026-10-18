@@ -15,7 +15,7 @@ project uses. Set up the environment first: [BUILD_FROM_SOURCE.md](BUILD_FROM_SO
 ```
 
 Then test in PCSX2 with a normal boot. Add `--svv-opening` to steps 4 and 5 if you do not have the 2006 disc. To
-share your version, publish an xdelta patch as the project does ([RELEASING.md](RELEASING.md)), never the ISO.
+share your version, make an xdelta patch of it, never share the ISO: [MAKE_YOUR_OWN_PATCH.md](MAKE_YOUR_OWN_PATCH.md).
 
 Remember `$env:PYTHONIOENCODING = 'utf-8'` in every new terminal.
 

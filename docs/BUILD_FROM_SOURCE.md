@@ -1,8 +1,10 @@
 # Building the English ISO from source
 
 This rebuilds the English disc from your own Special Vocal Version ISO and the translation files in this repository,
-exactly as the maintainers do. It is the way to play the **current** version (0.0.16): the only published patch is
-the older 0.0.10 ([STATUS.md](STATUS.md)). No programming is needed, only copying a few commands.
+exactly as the maintainers do. Players who only want the current version (0.0.16) can apply its published patch
+instead ([INSTALL_PATCH.md](INSTALL_PATCH.md)); building is for those who change the text, test the newest sources
+or want to check the release. No programming is needed, only copying a few commands. To share what you built, make
+an xdelta patch of it: [MAKE_YOUR_OWN_PATCH.md](MAKE_YOUR_OWN_PATCH.md).
 
 Time: 5 to 10 minutes per build (planning takes 2 to 8 minutes depending on the machine and Python version, writing
 3.6 GB another 2 or 3). Disk: 3.7 GB per build plus the source ISOs.

@@ -1,7 +1,8 @@
 # Publishing a release (maintainers)
 
 A release is an **xdelta patch from the untouched Special Vocal Version** plus a checksum file and the movie-swap
-script. No ISO, no movie and no game file is ever uploaded.
+script. No ISO, no movie and no game file is ever uploaded. (Contributors who want to share a build of their own:
+[MAKE_YOUR_OWN_PATCH.md](MAKE_YOUR_OWN_PATCH.md).)
 
 ## Versions
 
@@ -43,7 +44,8 @@ build SHA-256 from `work/output/ACE2-EN-0.1.0.json`. Update [STATUS.md](STATUS.m
 .venv\Scripts\python.exe tools\ace2\make_patch.py --version 0.1.0
 ```
 
-(`--xdelta3 C:\path\to\xdelta3.exe` if it is not on `PATH`.) It:
+(`--xdelta3 C:\path\to\xdelta3.exe` if it is not on `PATH`; `--svv-opening` for a build made with that option,
+on a machine without the 2006 disc.) It:
 
 1. copies the build and puts the **Special Vocal** opening back (`swap_movie.py`), so the patch carries no 2006
    movie;
@@ -122,7 +124,7 @@ difference:
 
 ```markdown
 English fan translation of **Another Century's Episode 2 – Special Vocal Version** (PS2, SLPS-25829).
-AI translation (Google AI agent) with automatic validation and line-by-line AI review (Claude); see the README.
+AI translation with automatic validation and line-by-line AI review (Claude); see the README.
 
 ## Files
 - `ACE2-EN-<version>.xdelta` – apply to your untouched Special Vocal Version ISO

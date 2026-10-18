@@ -1,5 +1,29 @@
 # Changelog
 
+## Patch 0.0.16 publicado — 2026-10-17 (sem build nova)
+
+- `make_patch.py --version 0.0.16` com o xdelta3 3.0.11 oficial (nesta máquina em
+  `C:\Users\gabri\AceTools\xdelta3\xdelta3.exe`), 3 min 23 s: `ACE2-EN-0.0.16.xdelta` com 38.906.005 bytes
+  (SHA-256 `c558e76839cb8e3c8d6f7b5a4f87ca16396713e2424a9a0fc3a00b7cbe4ea9c3`). A decodificação de conferência passou.
+  A saída com a abertura da SVV dá `1608ce46…f40890`, igual à build `--svv-opening` feita à parte no clone. Com o
+  `swap_movie.py` e o disco de 2006, dá `888f11d1…4ac79e`, a 0.0.16 auditada.
+- O patch é ~85 vezes maior que o da 0.0.10 (454.701 bytes). Causa provável, não medida recurso a recurso: desde a
+  0.0.14 a build regrava os 108 pacotes de parceiro comprimidos (36xxx, 57,7 MB de recursos LZSS), e o fluxo
+  comprimido muda inteiro a partir do primeiro byte alterado. Cabe com folga no limite do GitHub (2 GiB por arquivo).
+- Publicado como pre-release `v0.0.16` no GitHub, com `.xdelta`, `-SHA256.txt` e `swap_movie.py`, e a tag no commit
+  que traz este registro.
+- `make_patch.py --svv-opening`, para quem não tem o disco de 2006: usa `ACE2-EN-<v>-svv-opening.iso` e confere a
+  saída contra o SHA do próprio relatório; sem o disco de 2006, o arquivo de SHA sai sem as linhas do Glorious.
+  - Testado simulando a ausência do disco de 2006 (a cópia de conferência `1608ce46…` no papel da build
+    `--svv-opening`). Sem a opção, recusa. Com ela, gera um patch cuja saída é a mesma `1608ce46…`; o `.xdelta` só
+    difere em 7 bytes, o nome do arquivo de destino que o xdelta3 grava no cabeçalho.
+- Guia novo `docs/MAKE_YOUR_OWN_PATCH.md` (inglês): como qualquer pessoa gera e publica o próprio patch. Cobre nome
+  de versão próprio, build, auditoria, xdelta3, `make_patch.py`, aplicar e conferir, e release no próprio fork
+  (web ou `gh`). README, INSTALL_PATCH, STATUS, BUILD_FROM_SOURCE, MAKE_YOUR_OWN_TRANSLATION, GLORIOUS_OPENING e
+  RELEASING apontam o patch 0.0.16 e o guia.
+- README: a edição feita direto no GitHub em 17/10 (crédito do tradutor externo sem nomear o agente) foi trazida
+  para esta pasta. O modelo de notas do RELEASING e as notas da release seguem o mesmo critério.
+
 ## Repositório público atualizado — 2026-10-17 (sem build nova)
 
 - O GitHub estava na 0.0.10 (montado a partir de uma cópia antiga), com ferramentas que esta pasta não tinha. Agora

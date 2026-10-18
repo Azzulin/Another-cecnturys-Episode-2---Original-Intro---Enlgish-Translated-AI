@@ -101,7 +101,7 @@ byte-identical to what it was before (tested).
 |---|---|
 | Special Vocal Version, untouched | `efd791e7c50af2ec476f4026c6bda57fcf6d64babf20c12174db642b54941741` |
 | Special Vocal Version, untouched, with "Glorious" | `8030b61bd616a817be29e87315f5c41d326c166705bd306d0c5cecca766e48fb` |
-| English build 0.0.16 with "Glorious" (what `build.py --version 0.0.16 --write` writes) | `888f11d1e518cd45a7b71002cd041ee087e537e592d8e6d68cb8825f5b4ac79e` |
+| English build 0.0.16 with "Glorious" (what `build.py --version 0.0.16 --write` writes, and the published 0.0.16 patch + this tool) | `888f11d1e518cd45a7b71002cd041ee087e537e592d8e6d68cb8825f5b4ac79e` |
 | English build 0.0.10 with "Glorious" (the published 0.0.10 patch + this tool) | `3e8c61433aab58bafa3fb0ff6c0f55d95c63d8eefde1be441d8737be5d578c12` |
 | English releases | listed in each release's `ACE2-EN-<version>-SHA256.txt` |
 

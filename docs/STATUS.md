@@ -2,10 +2,10 @@
 
 Updated 2026-10-17.
 
-- **Latest build: 0.0.16** (2026-10-16). Passed the audit and is **being tested in game**. Build it from source:
-  [BUILD_FROM_SOURCE.md](BUILD_FROM_SOURCE.md).
-- **Latest published patch: 0.0.10** (pre-release, 2026-10-15). It is **outdated**: it freezes in Operation 12-1 and
-  its partners still speak Japanese. Use it only to look around ([INSTALL_PATCH.md](INSTALL_PATCH.md)).
+- **Latest build: 0.0.16** (2026-10-16). Passed the audit and is **being tested in game**.
+- **Latest published patch: 0.0.16** (pre-release, 2026-10-17): [INSTALL_PATCH.md](INSTALL_PATCH.md). Or build it
+  from source: [BUILD_FROM_SOURCE.md](BUILD_FROM_SOURCE.md). The older 0.0.10 patch freezes in Operation 12-1 and its
+  partners speak Japanese: do not use it.
 
 ## Summary
 
@@ -126,5 +126,5 @@ must not change original pixels outside the replaced area (same rule as the font
 5. The textures and the save title.
 6. Glossary gaps (Mirauli, Sally Po, Peacemillion, Titans, Mobile Doll, Sanc Kingdom…) and the open decisions.
 7. Validator: check full names, not only one word of them.
-8. Publish the next patch as a pre-release; the first regular release (0.1.0) comes once a build passes the in-game
-   test ([RELEASING.md](RELEASING.md)).
+8. Publish each new build as a pre-release patch; the first regular release (0.1.0) comes once a build passes the
+   in-game test ([RELEASING.md](RELEASING.md)).

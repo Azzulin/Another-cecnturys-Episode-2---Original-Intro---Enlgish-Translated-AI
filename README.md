@@ -5,9 +5,8 @@ plus a tool that puts the **original 2006 opening movie with the song "Glorious"
 
 > **Status: test builds (0.0.x).** Every text table of the game is in English: the campaign (6,822 lines), the
 > partners' battle chatter (6,138), menus (2,171), extra missions, tutorial, HUD and names. The latest build,
-> **0.0.16**, fixes the freezes found so far and is being tested in game. The only published patch is the older
-> 0.0.10, which freezes in Operation 12-1: to play the current version, build it from source. Read
-> [docs/STATUS.md](docs/STATUS.md) before playing.
+> **0.0.16**, fixes the freezes found so far, is being tested in game and is published as an xdelta patch
+> (pre-release) under [Releases](../../releases). Read [docs/STATUS.md](docs/STATUS.md) before playing.
 
 This repository contains **no game data**. You need your own copy of the game. Patches are published under
 [Releases](../../releases); the tools here rebuild everything from your own discs.
@@ -16,10 +15,11 @@ This repository contains **no game data**. You need your own copy of the game. P
 
 | I want to… | Read |
 |---|---|
-| Play the **current** English version (0.0.16): build the ISO from my own disc | [docs/BUILD_FROM_SOURCE.md](docs/BUILD_FROM_SOURCE.md) |
-| Apply a published patch to my ISO (no programming; the newest patch is the outdated 0.0.10) | [docs/INSTALL_PATCH.md](docs/INSTALL_PATCH.md) |
+| Play the English version (0.0.16): apply the patch to my ISO (no programming) | [docs/INSTALL_PATCH.md](docs/INSTALL_PATCH.md) |
+| Build the ISO myself from my own disc and this repository | [docs/BUILD_FROM_SOURCE.md](docs/BUILD_FROM_SOURCE.md) |
 | Get the "Glorious" opening on my Special Vocal Version (English **or** untouched Japanese) | [docs/GLORIOUS_OPENING.md](docs/GLORIOUS_OPENING.md) |
 | Fix or change the English text, or make my own translation (and my own ISO) | [docs/MAKE_YOUR_OWN_TRANSLATION.md](docs/MAKE_YOUR_OWN_TRANSLATION.md) |
+| Make an xdelta patch of my own build and share it (my own GitHub release) | [docs/MAKE_YOUR_OWN_PATCH.md](docs/MAKE_YOUR_OWN_PATCH.md) |
 | Understand how the AI translation was produced and reviewed | [docs/AI_TRANSLATION_WORKFLOW.md](docs/AI_TRANSLATION_WORKFLOW.md) |
 | Know the file formats, the memory limits and how the disc is rebuilt | [docs/TECHNICAL_REFERENCE.md](docs/TECHNICAL_REFERENCE.md) |
 | Publish a release or update this repository (maintainers) | [docs/RELEASING.md](docs/RELEASING.md) |
@@ -83,6 +83,7 @@ work/output/                build reports (JSON); the ISOs themselves are not co
 
 - **Players with a patch:** the Special Vocal Version ISO, an xdelta patcher, and (for "Glorious") the 2006 ISO plus
   Python 3.8+.
+- **Making your own patch:** everything for building, plus xdelta3 3.0.11 and about 11 GB free while the patch is made.
 - **Building the ISO / translators:** Windows (the font generator uses Windows' TrueType fonts; see
   [BUILD_FROM_SOURCE](docs/BUILD_FROM_SOURCE.md#4-fonts) for other systems), Python 3.12 or newer (3.12 and 3.14
   tested), about 8 GB free disk space.

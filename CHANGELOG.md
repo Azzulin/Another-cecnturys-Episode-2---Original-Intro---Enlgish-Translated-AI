@@ -4,6 +4,20 @@ All builds so far are internal test builds (0.0.x). The detailed working log, in
 [docs/CHANGELOG.md](docs/CHANGELOG.md). SHA-256 values are of the full image with the "Glorious" opening, as written
 by `tools/ace2/build.py`.
 
+## Patch 0.0.16 published — 2026-10-17 (no new build)
+
+- **0.0.16 patch (pre-release `v0.0.16`):** `ACE2-EN-0.0.16.xdelta` (38,906,005 bytes, xdelta3 3.0.11) turns the
+  untouched Special Vocal Version into the English disc with the Special Vocal opening
+  (`1608ce46831834437f53d427c8441b6c7ad9aeff0f4ebb5ae8b5caf9f8f40890`, the same image as `build.py --svv-opening`);
+  `swap_movie.py` with the 2006 disc then gives exactly the audited 0.0.16 build (`888f11d1…4ac79e`). It is larger
+  than the 0.0.10 patch (454,701 bytes) because builds since 0.0.14 rewrite the 108 compressed partner packages.
+- New guide [docs/MAKE_YOUR_OWN_PATCH.md](docs/MAKE_YOUR_OWN_PATCH.md): build from this repository, make an xdelta
+  patch with `make_patch.py`, check it, and share it (a release on your own fork, anywhere else, or fixes sent back
+  to the project).
+- `make_patch.py --svv-opening`: makes the patch from a build made with `--svv-opening`, on a machine without the
+  2006 disc (checked against the build's own SHA-256; the "Glorious" checksum is added when the 2006 disc is there).
+- README, INSTALL_PATCH, STATUS and BUILD_FROM_SOURCE now point players to the 0.0.16 patch.
+
 ## Repository update — 2026-10-17 (no new build)
 
 - The repository now holds the 0.0.16 state: tools, all translations (including the partner chatter), working notes
