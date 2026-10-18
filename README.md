@@ -41,7 +41,7 @@ The Special Vocal Version replaced the opening song. Both discs store the openin
 
 - The game's text was extracted from scratch from the Special Vocal Version: 432 text tables (1,394 locations on
   the disc), 16,884 lines, including the partners' battle chatter stored inside their 3D model packages.
-- An **external AI translator (a Google AI agent)** translated 150 batches of 80 lines in play order, with a
+- An external AI translator translated 150 batches of 80 lines in play order, with a
   glossary, per-series voice notes and the surrounding lines as context. It only ever wrote its answers to one
   folder.
 - **Claude (Anthropic), working in Claude Code**, did everything else: the tools, the font work, automatic
@@ -91,7 +91,7 @@ work/output/                build reports (JSON); the ISOs themselves are not co
 ## Credits and legal
 
 - Translation pipeline, review and builds: Claude (Anthropic) with the project owner
-  ([Azzulin](https://github.com/Azzulin)). Machine translation: Google AI agent; partner chatter: Claude.
+  ([Azzulin](https://github.com/Azzulin)).  partner chatter: Claude.
 - Format codecs (DATA.BIN binders, LZSS, text tables) were first written for the Another Century's Episode 3
   English patch (MIT) and adapted through the ACE1 project.
 - Another Century's Episode 2 © BANPRESTO / FromSoftware; the robots and characters belong to their respective
