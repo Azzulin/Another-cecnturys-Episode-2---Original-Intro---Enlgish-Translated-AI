@@ -179,6 +179,25 @@ EXTRA_GROUPS = [
                                          'm6905', 'm6998']),
 ]
 EXTRA_LABELS = {k: label for k, label, _ in EXTRA_GROUPS}
+EXTRA_LABELS['xp'] = ('Partner battle chatter: the lines of the partner unit the player picks, said during any mission. '
+                      'The speaker of each row is in "phase".')
+
+
+def partner_tables():
+    """[(partnerNNN, 'partner chatter', 'speaker: ... | unit: ...')] from work/translation/partners.json (export_text.py)."""
+    p = TR / 'partners.json'
+    if not p.exists():
+        return []
+    gl = glossary()
+
+    def en(jp):
+        e = gl.get(norm(jp))
+        return '%s (%s)' % (e['en'], jp) if e else jp
+    out = []
+    for name, v in sorted(json.loads(p.read_text(encoding='utf-8')).items()):
+        if (EN / (name + '.json')).exists():
+            out.append((name, 'partner chatter', 'speaker: %s | unit: %s' % (' + '.join(en(x) for x in v['pilot']), en(v['unit']))))
+    return out
 
 
 def units(ops, extras):
@@ -188,6 +207,7 @@ def units(ops, extras):
     if extras:
         for key, label, tables in EXTRA_GROUPS:
             out.append((key, None, [(t, 'mission dialogue', None) for t in tables if (EN / (t + '.json')).exists()]))
+        out.append(('xp', None, partner_tables()))
         for p in sorted(EN.glob('menu*.json')):
             doc = table(p.stem)
             fill = fill_of(p.stem)

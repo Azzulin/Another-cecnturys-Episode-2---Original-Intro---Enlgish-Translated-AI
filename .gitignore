@@ -5,6 +5,14 @@
 *.pss
 *.bin
 *.BIN
+*.7z
+*.chd
+*.cso
+*.url
+
+# PCSX2 captures (save states and RAM dumps hold game data): kept on the maintainer's machine only
+*.p2s
+work/crash/
 
 # Release patches go to GitHub Releases, not to the repository
 *.xdelta
@@ -12,6 +20,7 @@ work/release/
 
 # Build outputs (the JSON build reports in work/output are kept)
 work/output/*.iso
+work/output/_test/
 
 # Local environment
 .venv/

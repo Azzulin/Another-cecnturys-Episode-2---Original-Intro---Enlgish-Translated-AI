@@ -1,13 +1,13 @@
 """Disc writer tests (each writes a full 3.6 GB image to work/output/_test and deletes it afterwards).
 
   1. identity   no edits                          -> output SHA-256 == base SHA-256
-  2. growth     every mission container rebuilt with its table appended (+DATA.BIN growth) and MOVIE001 swapped
+  2. growth     every mission container rebuilt with a longer dialogue table (+DATA.BIN growth) and MOVIE001 swapped
                 -> files after DATA.BIN move, ISO9660 and UDF agree on every extent, every other file is untouched
 """
 import hashlib, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
-from ace2lib import ROOT, BASE, ORIGINAL_RELEASE, Disc, iso_files, mission_table, mission_rebuild, require
+from ace2lib import ROOT, BASE, ORIGINAL_RELEASE, Disc, iso_files, mission_table, mission_relayout, require
 from disc import write_disc, plan, file_digest
 
 TEST = ROOT / 'work' / 'output' / '_test'
@@ -49,8 +49,10 @@ def main():
         if disc.index.by_id[rid][2] > 4 << 20:
             continue
         data = disc.get(rid)
-        if mission_table(data):
-            grown[rid] = mission_rebuild(data, {})
+        mt = mission_table(data)
+        if mt:
+            at, table = mt
+            grown[rid] = mission_relayout(data, {at: table.rebuild({t: s + 'W' * 16 for t, s in table.rows.items()})})
     swaps = {MOVIE: (ORIGINAL_RELEASE, MOVIE)}
     print('plan:', {k: v for k, v in plan(BASE, grown, swaps).items() if k != 'changed_resources'}, flush=True)
     out = TEST / 'growth.iso'
@@ -72,7 +74,7 @@ def main():
         if rid not in grown:
             require(disc.index.by_id[rid][2] == new.index.by_id[rid][2], 'Size changed for %d' % rid)
     for rid in list(grown)[:20]:
-        require(mission_table(new.get(rid))[1].rows == mission_table(disc.get(rid))[1].rows, 'Rows differ in %d' % rid)
+        require(mission_table(new.get(rid))[1].rows == mission_table(grown[rid])[1].rows, 'Rows differ in %d' % rid)
     new.close()
     out.unlink()
     print('PASS growth rebuild: %d containers grown, files shifted %d bytes, MOVIE001 swapped, ISO9660 = UDF'

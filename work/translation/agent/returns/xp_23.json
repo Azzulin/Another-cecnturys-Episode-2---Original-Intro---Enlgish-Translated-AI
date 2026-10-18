@@ -1,0 +1,1632 @@
+{
+ "batch": "xp_23",
+ "operation": null,
+ "group": "xp",
+ "group_label": "Partner battle chatter: the lines of the partner unit the player picks, said during any mission. The speaker of each row is in \"phase\".",
+ "previous_batch": "xp_22",
+ "next_batch": "xp_24",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Amuro Ray",
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "バロンズゥ",
+   "en": "Baronz",
+   "kind": "unit",
+   "series": "Brain Powerd",
+   "role": "Dotless form of バロン・ズゥ: Jonathan's/Quincy's powerful Antibody (also 巨大バロンズゥ)."
+  }
+ ],
+ "known_portraits": {},
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "partner124#51",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>みんな、母艦に戻るぞ。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner124#52",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>お疲れさん、ブレン。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner124#53",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>みんな、大丈夫か？<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner124#54",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>油断は禁物だな。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner124#55",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>頼んだぞ、ブレン！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner124#56",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>何が起こるかわからないな。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner124#57",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>増援？　あんなにか！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner124#58",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>あと少しだ、行くぞブレン！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner124#59",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>よし、戻るぞブレン。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner124#60",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>たいした奴だよ、ブレン。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner126#0",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>こんなところにのこのこ出てくるからさ。\n力の無い者が！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner126#1",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>一挙に殲滅する！<ab(0)><ed()>",
+   "en": ""
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "partner127#25",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>ボヤボヤしてるな！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#26",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>浮かれてるぞ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#27",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>動きが甘いぞ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#28",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>何を手こずっているんだ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#29",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>それ位、当たり前だ。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#30",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>お前、なかなかやるな。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#31",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>やるようだね。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#32",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>助けてくれてありがとうよ。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#33",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>その腕、認めてやろう。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#34",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>これ以上は無駄だねえ。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#35",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>援軍だと！？<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#36",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>まあノコノコと来てくれて…<ab(0)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Translated by Claude (not the external agent) at the user's request, 2026-10-10. Partner battle chatter, Jonathan (ジョナサン), Quincy (クインシィ).",
+  "rows_examined": "partner126#2..partner127#24",
+  "rows_examined_count": 80,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ },
+ "rows": [
+  {
+   "ref": "partner126#2",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>はははは、こんな奴らなんか！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Hahaha, these guys are nothing!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#3",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>おめおめ逃がすかよ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Like I'd just let you get away!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#4",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ハッハッハ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Hahaha!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#5",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>オレのバロンズゥに勝てるわけがない！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>There's no way you can beat my Baronz!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#6",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>急げ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Hurry!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#7",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺の足を引っ張るなよ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't hold me back.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#8",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>しっかりやってもらおう。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Do your job properly.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#9",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>邪魔する奴は全て排除する！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Anyone in my way gets eliminated!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#10",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>生意気な奴らだな！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Cheeky bunch!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#11",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こんな奴らなど、すぐに倒してみせる。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll take this lot down in no time.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#12",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こんな連中と遊んでいる暇はない！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I've got no time to play with these guys!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#13",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵がいるんだ、気をつけろよ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>There are enemies around, be careful!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#14",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>邪魔をするな！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Stay out of my way!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#15",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>余計なことしたろ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You butted in, didn't you!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#17",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>押されているだと！？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We're being pushed back!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#18",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ぬううう！　何てことだ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Nnngh! What is this!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#19",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こっちが不利だと！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We're at a disadvantage!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#20",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こんな状況じゃあ、\n戦い方を考えねばならん！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>In a situation like this, I need to rethink how I fight!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#21",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ふふっ、やってみなよ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Heh, go ahead and try.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#22",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さっさと終わらせるか。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Let's wrap this up.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#23",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>面白くなりそうだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>This should be fun.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#25",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>警戒を怠るなよ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Stay alert.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#26",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>しっかりとコントロールしろ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Get it under control!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#27",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>むやみに撃つんじゃない。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't fire wildly.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#28",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>甘いぞ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Naive!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#29",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何弄ばれてんだ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Why are you letting them toy with you!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#30",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何してる、ふざけてるのか！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>What are you doing? Are you messing around!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#31",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>面白い！　もっとやってみろ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Interesting! Show me more!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#32",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前が強いことは、この俺が保証してやる。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll vouch for your strength myself.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#33",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前の力、歓迎してやろう。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Your strength is welcome here.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#34",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>尊敬に値するな、ふふっ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Worthy of respect. Heh.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#35",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ハッハッハ！　やるなぁ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Hahaha! Not bad!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#36",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前らの相手は俺がしてやるー！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll be your opponent!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#37",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>力の無い者がいくら出てこようと同じだ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>No matter how many weaklings show up, it's all the same!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#38",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>雑魚はいい！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Forget the small fry!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#39",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前らに興味はないんだよ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'm not interested in you!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#40",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>おっ、出てきたな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Oh, here they come.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#41",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>雑魚が来たか、殲滅する！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Small fry? I'll wipe them out!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#42",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>雑魚どもが、邪魔なんだよ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You small fry are in my way!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#43",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あれはいったい何なんだ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>What on earth is that!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#44",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やっと来たか。\n逃げ出したかと心配したぜ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Finally here. I was worried you'd run away.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#45",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今はお前に任せる、やれよ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll leave it to you for now. Do it!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#46",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そのくらいの敵のほうが、\n倒しがいがあるってものだろ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>An enemy like that is more worth beating, right?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#47",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>な、なんだ？　この、げっそりする感覚は！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Wh-what? This sickening feeling!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#48",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ありゃあ一体何なんだ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>What the hell is that thing!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#49",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何なんだ！　こいつは！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>What is this thing!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#50",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>はい、これで終了だ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>And that's the end of that.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#51",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今日はこれで引き上げるぞ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We're pulling out for today.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#52",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ふん、たわいもない。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Hmph, too easy.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#53",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺だって、引き上げ時ぐらい\n知ってるつもりだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Even I know when it's time to pull out.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#54",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>本当の力を見せてやるぅ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll show you my true power!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#55",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>任せてもらおう。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Leave it to me.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#56",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>面白い、お前たちに落とせるか！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Interesting. Think you can shoot me down!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#57",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前らと遊んでる暇はない！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I've got no time to play with you!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#58",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何だぁ？　こいつは！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Huh? What's this!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#59",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このくらい力があった方が、\n倒しがいがあるってものだ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>With this much power, it's all the more worth beating!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner126#60",
+   "layer": "partner chatter",
+   "phase": "speaker: Jonathan (ジョナサン) | unit: Jonathan Baronz (ジョナサン・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あっけないものだな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>That was anticlimactic.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#0",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵は引きずり出して潰させる！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Drag the enemy out so they can be crushed!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#1",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>見つけた！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Found you!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#2",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>大人しく帰るなら攻撃はしない。\n見逃してやろう。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>If you go home quietly, I won't attack. I'll let you go.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#3",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あたしは家族を守りたいだけだ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I just want to protect my family!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#4",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あいつらを撃破してもいいのだな？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I can destroy them, right?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#5",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵は排除しなくてはならない。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>The enemy must be eliminated.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#6",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>遊んでいる暇はないぞ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>There's no time to play around.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#7",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さっさと勝負をつけてみせろ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Settle this quickly!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#8",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そっちは無事だね？\n油断するんじゃないぞ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You're all right over there? Don't let your guard down.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#9",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こっちはあたしがやる！　任せておけ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll handle this side! Leave it to me!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#10",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>その程度のことでやられるものか！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>As if I'd go down to something like that!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#11",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>連携を取るんだ、忘れるな！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Work together, don't forget!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#12",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こんなこと…うかつではないのか！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>This... isn't this careless!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#14",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こんなものなのか、情けない！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Is this all? Pathetic!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#15",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これほど押されるなんて……！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>To be pushed back this much...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#16",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>戦闘に集中しろ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Focus on the fight!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#17",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くっ、油断していたのか！？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Ngh, was I careless!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#18",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ここまで追いつめられるとは……情けない！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>To be driven into a corner like this... pathetic!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#20",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>全体の足を引っ張るなよ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't drag the whole team down.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#21",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>行くぞ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Let's go!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#22",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>わかっているな、やってみせろ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You understand? Show me.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#23",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>警戒を怠るな！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Stay alert!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#24",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そんなこと予定どおりだろう！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>That's all part of the plan, isn't it!<ab(0)><ed()>",
+   "notes": ""
+  }
+ ]
+}

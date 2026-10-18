@@ -10,8 +10,12 @@ example for another language). The original, more detailed notes are in Portugue
 | Role | Who | Allowed to |
 |---|---|---|
 | Translator | an external **Google AI agent** | read `work/translation/agent/batches/<BATCH>.json` and the reference files; write **only** `work/translation/agent/returns/<BATCH>.json` |
-| Reviewer, toolsmith, builder | **Claude (Anthropic)** in Claude Code | everything else: tools, glossary, batches, validation, meaning review, corrections, application, fonts, builds, audits, changelog |
+| Reviewer, toolsmith, builder | **Claude (Anthropic)** in Claude Code | everything else: tools, glossary, batches, validation, meaning review, corrections, application, fonts, builds, audits, crash investigations, changelog |
 | Owner | the project maintainer | decisions (names, terms, style), in-game testing, releases |
+
+One exception to the split: the partners' battle chatter (34 batches `xp_01`–`xp_34`, found after the main
+translation was done) was translated by Claude, at the owner's request. Those deliveries are in the same
+`returns/` folder, marked "Translated by Claude" in their `translator_summary`, and went through the same validator.
 
 The separation is strict. In one incident the translator applied its own work, edited a tool, generated an ISO and
 rewrote the changelog; all of it was moved to a quarantine folder (not published) and redone by the pipeline. Since
@@ -41,9 +45,11 @@ independent delivery.
 
 ## 2. Batches
 
-`tools/ace2/batches.py make` (operations) and `make --extras` (text outside the operations) write 150 batches of up
+`tools/ace2/batches.py make` (operations) and `make --extras` (text outside the operations) write 184 batches of up
 to **80 consecutive rows** in play order: `op02_01` … `op28_04`, `xa_*` (extra missions), `xb_*` (tutorial),
-`xc_*` (flashbacks), `xd_*` (short missions), `xm_menuNNNN_*` (menus, encyclopedia, messages).
+`xc_*` (flashbacks), `xd_*` (short missions), `xm_menuNNNN_*` (menus, encyclopedia, messages), `xp_*` (partner
+chatter: one partner after another, with the speaker and unit in the `phase` field, e.g.
+`"speaker: Kou | unit: GP01"`, from `work/translation/partners.json`).
 
 Each row carries what the translator needs and what the validator will check:
 
@@ -76,7 +82,9 @@ batch is handed over (`batches.py hand <BATCH>`), its group is frozen: later `ma
   (`jp`, `ref`, `phase`…), invalid JSON, Japanese that no longer matches the table.
 - **Content errors** can be fixed by the reviewer: control codes missing or out of order; non-ASCII or forbidden
   characters (curly quotes, em dash, `;`, `~`, a lone `%`); double or trailing spaces; too many lines; a line too
-  wide for the box that an automatic re-wrap cannot fix; a glossary name missing; an old spelling.
+  wide for the box that an automatic re-wrap cannot fix; a line over the capacity of its widget (127 bytes in the
+  message window, 32 characters for objectives, HUD lines and counters: the in-game freezes came from these); a
+  glossary name missing; an old spelling.
 - Warnings: lines re-wrapped automatically, glossary terms (ranks, titles) missing, translator notes, empty report.
 
 ## 4. Meaning review (every line)
@@ -90,7 +98,9 @@ stripped, with the translator's notes and suspicion flags. The reviewer reads **
   refused before being merged.
 - Corrections are stored in `work/translation/agent/reviewer_fixes.json` as `{batch: {"<table>#<id>": "English"}}`
   and applied on top of the return. **The translator's file is never edited**, so every change is traceable.
-- Total: **1,486 corrections** in 144 batches. The Encyclopedia (69 entries) and the private messages (19 letters)
+- Total: about **1,500 corrections** in 144 batches: 1,486 from the meaning review, and later the lines shortened
+  when the in-game tests revealed the widget capacities (7 briefing lines over 127 bytes, 27 objectives and help
+  lines over 32 characters, 3 HUD counters). The Encyclopedia (69 entries) and the private messages (19 letters)
   were retranslated entirely, because the translator summarized them and invented content.
 
 Typical translator errors the review looked for:
@@ -121,8 +131,8 @@ enter through `glossary.py --write`.
 
 | Path | Content |
 |---|---|
-| `work/translation/agent/batches/` | the 150 batches as handed over |
-| `work/translation/agent/returns/` | the translator's deliveries, unedited |
+| `work/translation/agent/batches/` | the 184 batches as handed over |
+| `work/translation/agent/returns/` | the deliveries, unedited (150 from the Google agent, 34 `xp_*` from Claude) |
 | `work/translation/agent/validation/`, `review/` | validator report and review page of every batch; reviewer notes and doubts in `review/revisores_*` |
 | `work/translation/agent/reviewer_fixes.json` | every correction |
 | `work/translation/agent/handed.json`, `applied.json` | what was handed over and applied |

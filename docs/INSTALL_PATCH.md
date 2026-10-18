@@ -2,6 +2,11 @@
 
 This guide is for players. It takes about 10 minutes and needs no programming.
 
+> **Which version?** The newest patch on the [Releases](../../../releases) page is **0.0.10** (pre-release). It is
+> outdated: it freezes in Operation 12-1 after the cutscene, and the partners still speak Japanese. The current
+> version is **0.0.16** (see [STATUS.md](STATUS.md)); until its patch is published, the way to get it is to build it
+> from your own disc: [BUILD_FROM_SOURCE.md](BUILD_FROM_SOURCE.md). The steps below are the same for every patch.
+
 You will end up with one of two discs:
 
 - **English, Special Vocal opening:** the patch alone (steps 1–4).
@@ -74,6 +79,9 @@ Compute the SHA-256 of `ACE2-EN-<version>.iso` (same commands as step 1). It mus
 
 - **PCSX2:** add the ISO to the game list and boot it. Do not load save states made with an older build or with the
   Japanese disc: a save state stores the old font in memory, so text appears garbled. Memory card saves are fine.
+  From 0.0.12 on, the patch also changes two small things in the game executable (more memory, a longer message
+  window), so PCSX2 reports a different CRC: save states and `.pnach` files (widescreen, cheats) made for the
+  original CRC do not apply. PCSX2's own per-game settings (by serial) still do.
 - **Real PS2:** the image is a normal single-layer DVD-5 image of the same size as the original; use it with whatever
   loader you already use for PS2 backups (OPL, etc.).
 
@@ -102,4 +110,6 @@ More about the movie swap, including doing it on the untouched Japanese disc: [G
 | `swap_movie.py`: "Movie sizes differ" | The source is not the 2006 Japanese release (or is a damaged dump). |
 | `swap_movie.py`: "Not an ISO9660 image" | The file is `.bin`, `.chd`, `.cso`, `.gz`…; convert it to a plain `.iso` first. |
 | Garbled text right after booting | You loaded an old save state. Boot the game normally. |
-| Blank menu labels, crash on pause | Known issues of the test builds: [STATUS.md](STATUS.md). Please report where it happened. |
+| Freeze in Op 12-1 after the cutscene (0.0.10) | Fixed since 0.0.13: build the current version ([BUILD_FROM_SOURCE.md](BUILD_FROM_SOURCE.md)). |
+| Partners speak Japanese (0.0.10) | Translated since 0.0.14: build the current version. |
+| Blank menu labels, other freezes | Known issues of the test builds: [STATUS.md](STATUS.md). Please report where it happened. |

@@ -12,7 +12,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from ace2lib import ROOT, BASE, Disc, inner_get
 from fonts import complete, FontMap, cp
-from validate import check_row
+from validate import check_row, check_counters
 from build import RARE
 
 EN = ROOT / 'work' / 'translation' / 'en'
@@ -72,12 +72,14 @@ def main():
             if not 0 <= i < len(doc['rows']):
                 print('INDEX %s[%s] out of range (%d rows)' % (name, key, len(doc['rows']))); problems += 1; continue
             row = doc['rows'][i]
-            for p in check_row(row['jp'], en):
+            for p in check_row(row['jp'], en, name):
                 print('ERROR %s[%d]: %s' % (name, i, p)); problems += 1
             ew, jw = max(widths(fm, en)), max(widths(fm, row['jp']))
             if ew > max(limit, jw):
                 print('WIDE  %s[%d] %dpx (limit %d, row JP %d): %r' % (name, i, ew, limit, jw, en)); wide += 1
             row['en'] = en
+        for p in check_counters(name, [(r['jp'], r.get('en')) for r in doc['rows']]):
+            print('ERROR %s: %s' % (name, p)); problems += 1
         if not args.check and not problems:
             doc_path.write_text(json.dumps(doc, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
         print('%s %s: %d rows, %d wide; width limit %dpx' % ('checked' if args.check else 'merged', name, len(values), wide, limit))

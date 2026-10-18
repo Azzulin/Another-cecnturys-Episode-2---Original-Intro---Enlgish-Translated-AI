@@ -6,12 +6,13 @@ recursively). A location is a path string:
   '6012:s219'         enemy-name sub-table 219 of mission container 6012
   '62050/3004'        text table 3004 inside inner binder 62050
   '1234:lz/5'         entry 5 of the binder packed inside resource 1234
+  '2070:vPMS'         text table of chunk PMS of the VMD model package 2070 (partner chatter; also vPPN1, vPPN2)
 Locations are grouped into logical tables (one JSON file each); rows are keyed by the Japanese source, so one
 translation reaches every copy and every slot that carries the same text.
 """
 import re, struct
 from ace2lib import u32, align, Disc, inner_entries, inner_rebuild, try_unpack, pack, unpack, TextTable, mission_table, \
-    mission_rebuild, small_tables, require
+    mission_relayout, small_tables, require, vmd_chunks, vmd_replace, VMD_TEXT
 
 JPC = re.compile(r'[぀-ヿ一-鿿]')
 # control tokens that must survive translation in the same order
@@ -32,6 +33,12 @@ def _walk(data, path, depth, out):
             return
         except (ValueError, UnicodeError):
             pass
+    chunks = vmd_chunks(data)
+    if chunks:
+        for at, magic, size in chunks:
+            if magic in VMD_TEXT:
+                out.append(('%s:v%s' % (path, magic.rstrip(b'\0').decode()), TextTable(data[at + 16:at + size])))
+        return
     plain = try_unpack(data) if depth < 4 else None
     if plain is not None:
         _walk(plain, path + ':lz', depth + 1, out)
@@ -54,6 +61,11 @@ def discover(disc):
 def family(location):
     """Logical table name of one location (before identical-content merging)."""
     top = int(re.match(r'\d+', location).group())
+    if location.endswith(':vPMS'):
+        # partner package pNNN is resource 2NNN, and 36300+NNN packed
+        return 'partner%03d' % (top - 36300 if top >= 36000 else top - 2000)
+    if ':vPPN' in location:
+        return 'partner_names'
     if ':s' in location:
         return 'unit_names'
     if location.endswith(':m'):
@@ -92,7 +104,7 @@ def _split(location):
     """'62050/3004' -> (62050, ['3004']); '6012:m' -> (6012, [':m']); '1:lz/5' -> (1, [':lz', '5'])."""
     m = re.match(r'(\d+)(.*)$', location)
     rest, parts = m.group(2), []
-    for token in re.findall(r':lz|:m|:s\d+|/\d+', rest):
+    for token in re.findall(r':lz|:m|:s\d+|:v[A-Z0-9]+|/\d+', rest):
         parts.append(token.lstrip('/'))
     return int(m.group(1)), parts
 
@@ -104,6 +116,8 @@ def apply(data, parts, fn):
     head, rest = parts[0], parts[1:]
     if head == ':lz':
         return pack(apply(unpack(data), rest, fn))
+    if head.startswith(':v'):
+        return vmd_replace(data, head[2:].encode().ljust(4, b'\0'), lambda table: apply(table, rest, fn))
     eid = int(head)
     sub = next(data[a:b] for e, a, b in inner_entries(data) if e == eid)
     return inner_rebuild(data, {eid: apply(sub, rest, fn)})
@@ -117,35 +131,28 @@ def rebuild_table(data, texts):
 
 
 def patch_mission(container, sub_texts, main_texts):
-    """Mission container with translated sub-tables and dialogue table. Nothing is squeezed:
-    a sub-table that outgrows its slot is appended (32-aligned) and its header record repointed; the dialogue table is
-    always appended and +20 repointed (ACE3 method). Bytes that are not text stay identical."""
-    out = bytearray(container)
+    """Mission container with translated sub-tables and dialogue table. Nothing is squeezed: each table is rebuilt at
+    its full new size where the Japanese one was, and the sections after it move (ace2lib.mission_relayout). Appending
+    the tables instead (ACE3 method) leaves the Japanese ones as dead weight in the game's memory arena, which made
+    Op 12-1 run out of memory after its cutscene (0.0.10). Bytes that are not text stay identical."""
+    replace = {}
     first, end = u32(container, 8), u32(container, 12)
-    done = {}
     for rec in range(first, end, 16):
-        sid, off = struct.unpack_from('<II', out, rec)
-        if sid not in sub_texts:
+        sid, off = struct.unpack_from('<II', container, rec)
+        if sid not in sub_texts or off in replace:
             continue
-        if off in done:
-            struct.pack_into('<I', out, rec + 4, done[off]); continue
         try:
-            t = TextTable(bytes(out[off:]))
+            t = TextTable(container[off:])
         except (ValueError, UnicodeError, struct.error):
             continue
-        new = bytearray(rebuild_table(bytes(out[off:off + t.size]), sub_texts[sid]))
-        if bytes(new) == bytes(out[off:off + t.size]):
-            done[off] = off; continue
-        if len(new) <= t.size:
-            new.extend(bytes(t.size - len(new))); struct.pack_into('<I', new, 4, t.size)
-            out[off:off + t.size] = new; done[off] = off
-        else:
-            at = align(len(out), 32)
-            out.extend(bytes(at - len(out))); out.extend(new)
-            struct.pack_into('<I', out, rec + 4, at); done[off] = at
-    at, t = mission_table(bytes(out))
+        new = rebuild_table(container[off:off + t.size], sub_texts[sid])
+        if new != container[off:off + t.size]:
+            replace[off] = new
+    at, t = mission_table(container)
     rows = {tid: main_texts[jp] for tid, jp in t.rows.items() if jp in main_texts}
-    return mission_rebuild(bytes(out), rows) if rows else bytes(out)
+    if rows:
+        replace[at] = t.rebuild(rows)
+    return mission_relayout(container, replace) if replace else container
 
 
 def patch_resource(data, locations, texts_for):

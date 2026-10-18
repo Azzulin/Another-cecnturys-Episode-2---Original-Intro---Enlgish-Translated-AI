@@ -117,9 +117,9 @@ O que não muda: nenhum glifo, registro ou pixel original é alterado (verificad
 |---|---|
 | `ace2lib.py` | Formatos: ISO9660, índice do `DATA.BIN`, BND interno, LZSS, tabela de texto, missão |
 | `disc.py` | Gravador de disco: crescimento do `DATA.BIN`, deslocamento, ISO9660 + UDF, troca de arquivo inteiro, verificação |
-| `textdb.py` | Descobre **todas** as tabelas do disco (sem lista fixa), agrupa cópias e grava de volta. Nada é espremido: a tabela de diálogo é anexada e o +20 reapontado; a subtabela que cresce é anexada e o registro reapontado. |
+| `textdb.py` | Descobre **todas** as tabelas do disco (sem lista fixa), agrupa cópias e grava de volta. Nada é espremido: nos contêineres de missão, cada tabela é reconstruída com o tamanho que precisar no lugar da japonesa, e as seções seguintes andam (`ace2lib.mission_relayout`; até a 0.0.10 a tabela era anexada no fim, ver 8.6 item 0). |
 | `export_text.py` | Exporta o japonês para `work/translation/en/<tabela>.json` (chave = texto japonês; preserva o `en` existente) |
-| `validate.py` | Regras por linha: tokens, CP932, sem fullwidth, sem japonês, quebras de linha |
+| `validate.py` | Regras por linha: tokens, CP932, sem fullwidth, sem japonês, quebras de linha, janela de mensagem (127 bytes visíveis), widget de 32 letras; `check_counters` (contador do HUD: rótulo + 1 + valor ≤ 32) |
 | `merge_fill.py` | Mescla `_fill/<tabela>.json` (`{índice: inglês}`), valida e mede a largura em px com a fonte completada |
 | `batches.py` | Lotes de 80 linhas para o tradutor externo em `work/translation/agent/`: `make` (operações; `--extras` = texto fora delas), `hand` (registra a entrega e congela o grupo), `status` |
 | `check_fixes.py` | Testa propostas de correção do revisor (`{lote: {ref: inglês}}`) com as regras do validador, sem gravar nada |
@@ -128,13 +128,14 @@ O que não muda: nenhum glifo, registro ou pixel original é alterado (verificad
 | `review_returns.py` | Revisão de sentido: JP/EN lado a lado com sinais de suspeita (`review/<LOTE>.md`) |
 | `rewrap.py` | Requebra linhas para caber numa largura (só layout; nunca troca palavras) |
 | `fonts.py`, `font_proof.py` | Completa as fontes e gera provas visuais |
+| `exe.py` | Os únicos patches do executável `SLPS_258.29` (fronteira pilha/heap +256 KB; janela de mensagem 60 → 128 letras); sozinho, lista os patches conferidos contra o disco base |
 | `build.py` | `--version X` (ensaio) / `--write` → `work/output/ACE2-EN-X.iso` + relatório JSON; `--svv-opening` mantém a abertura da SVV |
+| `audit_iso.py` | Auditoria independente de uma ISO pronta (é o que reprova o patch anterior); confere também o executável e a memória das missões; `--svv-opening` para a build feita assim |
 | `swap_movie.py` | Troca o `MOVIE001.PSS` de uma imagem pelo de outra, no mesmo lugar (só biblioteca padrão; é a ferramenta dos jogadores para o "Glorious") |
 | `make_patch.py` | Patch de release: xdelta da SVV intacta → build com a abertura da SVV recolocada, conferência e `work/release/ACE2-EN-X-SHA256.txt` |
-| `audit_iso.py` | Auditoria independente de uma ISO pronta (é o que reprova o patch anterior) |
-| `test_identity.py` | Toda reconstrução sem edição reproduz os bytes (índice, 528 binders, 754 LZSS, 934 tabelas) |
+| `test_identity.py` | Toda reconstrução sem edição reproduz os bytes (índice, 528 binders, 754 LZSS, as tabelas, inclusive as 460 dos pacotes de parceiro, e os 201 contêineres pelo relayout) |
 | `test_disc.py` | Disco idêntico sem edições (SHA igual) + disco com crescimento e troca do filme |
-| `test_textdb.py` | Estresse: tradução sintética 1,5x em todas as 934 tabelas; `DATA.BIN` +893 KB, cabe |
+| `test_textdb.py` | Estresse: tradução sintética 1,5x nos 1.394 locais de texto, sem bytes mortos nos contêineres; cabe no disco |
 
 **Fluxo:** `export_text.py` → tradução em `_fill/` → `merge_fill.py` → `build.py --write` → `audit_iso.py` → PCSX2.
 
@@ -207,7 +208,8 @@ nova, monte o ambiente antes com `docs/RETOMADA.md`.
 
 | Item | Estado |
 |---|---|
-| Builds | 0.0.1 e 0.0.9 testadas no PCSX2. **0.0.9** = todo o texto das tabelas; no teste (09/10) rótulos de menu sumiram e o jogo travou ao pausar na missão. **0.0.10** = correção desses rótulos e do menu de pausa, ainda não testada. |
+| Builds | 0.0.1 e 0.0.9 testadas no PCSX2. **0.0.9** = todo o texto das tabelas; no teste (09/10) rótulos de menu sumiram e o jogo travou ao pausar na missão. **0.0.10** = correção desses rótulos e do menu de pausa; no teste (10/10) travou na Op 12-1 por falta de memória. **0.0.11** = contêineres sem tabela morta (8.6 item 0). **0.0.13** = janela de mensagem 60 → 128 letras; no teste (10/10) as cutscenes não travaram e o gameplay ficou estável. **0.0.14** = falas dos parceiros em inglês (8.6 item 0c); no teste (16/10) travou na Op 11-1. **0.0.15** = 27 linhas em até 32 letras + regra `widget` no validador; travou no mesmo ponto (16/10). A captura mostrou que o contador do HUD junta rótulo + "：" + valor num widget de 32 (39 letras). **0.0.16** = contadores e `menu3056` dentro de 32 + `check_counters`, ainda não testada. |
+| Parceiros (`xp`) | **6.138/6.138** linhas (2.657 frases únicas) traduzidas pelo Claude, validadas e aplicadas na 0.0.14. |
 | Campanha (Ops 01–28) | **6.822/6.822** linhas traduzidas, validadas, revisadas linha a linha e aplicadas. Correções do revisor: Op 02 30; Ops 03–08 56; Ops 09–22 350; Ops 23–24 67; Op 25 204; Ops 26–28 94. |
 | Fora das operações | **Aplicados** os 57 lotes: `xa` 457 linhas (76 correções), `xb` 628 e `xd` 142 (107), `xc` 122 + menus 3000–3018 (92), enciclopédia/menus 3019–3029 (121, enciclopédia e cartas retraduzidas), menus 3032–3057 (110), 3061–3077 (121). Menus 2.171/2.171. |
 | HUD, nomes, `common` | Completos (HUD 256/256, `unit_names` 89/89, rótulos de quem fala 118/118, nomes completos 83/83). |
@@ -294,16 +296,83 @@ Rode tudo com `.venv\Scripts\python.exe tools\ace2\<script>`.
   "Quincy Isser", "Wingel Binder" passaram. A revisão de sentido tem de conferir a grafia inteira.
 - **Botões nos menus:** `決定` = "OK"; separadores com o espaço largo `　` onde o japonês tem; rótulo seguido de valor
   (`難易度：　`) termina em `:　`.
+- **Memória das missões:** o jogo carrega tudo de uma missão numa única arena (`0x003afe00..0x01cfff00`) sem folga.
+  Pedido que não cabe volta NULL e o jogo não confere. Nenhum recurso residente na missão pode carregar bytes mortos.
+  Contêiner de missão cresce só o que as suas tabelas crescem (`audit_iso.py` confere) e toda mudança de tamanho em
+  recurso de missão (contêineres, pacotes de HUD 38000–38006) entra no CHANGELOG com o número.
+- **Letras por widget de texto:** cada widget reserva espaço para um número fixo de letras e o jogo não confere
+  (texto maior escreve por cima do vizinho e trava depois). Espaços contam, quebras de linha não.
+  - Janela de mensagem: 128 a partir da 0.0.13 (era 60), e no máximo 127 bytes visíveis por linha (`validate.py`).
+  - **Capacidade padrão: 32** (init `0x289dfc`) para todo widget cujo dono não define outra, nas duas classes
+    (buffer (7n + 11) × 16 e (11n + 12) × 16 + 32). Isso inclui objetivos, contadores, rótulos, nomes, condições da
+    MISSION INFORMATION e a linha de ajuda da pausa. Está no `validate.py` (regra `widget`, para as tabelas `m6###` e
+    `hud*`, e para a `menu3056` desde a 0.0.16) desde a 0.0.15.
+  - **Contador do HUD:** rótulo + "：" + valor formatado num único widget de 32. Foi a causa do travamento da
+    Op 11-1 ("Solar Facilities Destroyed：1 facilities", 39 letras). Está no `validate.check_counters` desde a
+    0.0.16.
+  - Pausa: itens 16, títulos 20, e mais 30 widgets de 20 e 22 de 24 ainda sem uso conhecido. Esses ainda não têm
+    regra.
+  - Menus definem capacidades próprias (`0x28aa20`: 42, 50, 64, 80, 120, 255). Falta mapear tela por tela.
+  - `crash_watch.py` mostra a capacidade de cada texto em jogo, nas duas classes.
 
 ### 8.6 Fila de trabalho
 
-0. **Teste da 0.0.10:** pausar no meio da missão (crash da 0.0.9) e anotar a operação/missão; telas Intermission,
+0. **Travamento da Op 12-1: causa real achada na 0.0.13 (texto maior que o widget); falta o teste no jogo.**
+   - **Sintoma:** ao voltar da cutscene antes da luta com Kaine (D-1 Custom), o jogo congela. Igual na 0.0.10 e na
+     0.0.12.
+   - **Captura** (`work/crash/20261010-110851-travamento-12-1/`: savestate, 3 dumps, `emulog`): "TLB Miss" do
+     código de sprites 2D do HUD (`0x288480`–`0x28998c`), seguido de "sceGsSyncPath: DMA Ch.1 does not terminate".
+     O descritor (`+0x98`) do sprite `0x016e9670` foi sobrescrito por glifos de texto.
+   - **Causa:** a janela de mensagem reserva espaço para 60 letras (`0x292704`; buffer de (7·60 + 11) × 16 =
+     `0x1af0` bytes) e o desenhista de glifos `0x1a1050` não confere o tamanho.
+     - Linhas inglesas acima de 60 caracteres (m6121 #72/77/123: 65–67) escreveram além do fim do buffer, que é
+       exatamente o descritor do sprite seguinte.
+     - O sprite só é desenhado na fase do chefe.
+     - O japonês nunca passa de 60 (briefings e HUD: exatamente 60); o inglês passava em ~1.960 linhas.
+     - Detalhes e números no CHANGELOG 0.0.13.
+   - **Diagnóstico errado registrado na 0.0.11 (falta de memória na arena):** a 0.0.12, com 256 KB a mais, travou do
+     mesmo jeito. O que segue (arena, contêineres sem tabela morta) continua correto como melhoria, mas não era a
+     causa.
+     - Arena: `0x00345040` (capacidade, base, cursor, bloco do topo; marcas por nível em `0x00345084`), alocação de
+       baixo para cima, um bloco tirado do topo, NULL quando não cabe.
+   - **Correção (0.0.13):** capacidade da janela de mensagem 60 → 128 (`exe.py`), mais o limite de 127 bytes
+     visíveis por linha de mensagem no `validate.py`, porque o texto é copiado para um campo de 128 bytes.
+   - **Falta:**
+     - jogar a 12-1 e uma pausa com `crash_watch.bat`: o recenseamento de widgets mostra a capacidade de cada texto
+       e alerta no instante de qualquer transbordo;
+     - mapear os widgets de 16/20/24 letras (itens de pausa, títulos) e pôr esses limites no validador.
+   - **Melhoria da 0.0.11 (memória, continua valendo):**
+     - `ace2lib.mission_relayout` reconstrói cada tabela no lugar da japonesa e move as seções seguintes;
+     - os 1.531 pares de seções dos gêmeos 6###/42### são idênticos byte a byte em offsets diferentes, ou seja, as
+       seções não guardam posições;
+     - crescimento: 42121 de +6.480 para **+256**; maior contêiner de +24.800 para +800; total de +920 KB para
+       −12 KB. Tabela por missão em `work/ui/memoria_missoes_0.0.11.txt`;
+     - `audit_iso.py` agora reprova contêiner com bytes mortos.
+   - **Achado à parte (não corrigido):** em 82 contêineres a lista A não tem lista B depois (+12 = 0), e
+     `ace2lib.small_tables` (que vai de +8 até +12) não lê os nomes de inimigo deles, que ficaram em japonês (por
+     exemplo, 6012, 6031). Corrigir para usar o contador de +28 e traduzir os nomes que faltarem, de olho no
+     crescimento de memória.
+0b. **Memória +256 KB na 0.0.12** (`tools/ace2/exe.py`, decisão do usuário): a fronteira pilha/heap sobe de
+   `0x01f00000` para `0x01f40000`. Uso máximo medido da pilha: 161 KB, agora de 768 KB. Conferido no PCSX2: arena
+   `0x1990100`, jogo inicia. `crash_watch.py` vigia arena e pilha durante o jogo.
+0c. **Falas dos parceiros (grupo `xp`, 34 lotes, 2.657 frases):**
+   - estavam em japonês no jogo inteiro porque moram no pedaço `PMS` dos pacotes de modelo `VMD` (2NNN e 36300+NNN),
+     que o `textdb` não lia;
+   - pipeline pronto: descoberta, exportação para `partnerNNN.json`, lotes com a voz em `phase`, regravação
+     testada;
+   - **traduzidas pelo Claude e aplicadas na 0.0.14** (6.138/6.138 linhas; detalhes no CHANGELOG). Falta o teste
+     no jogo: falas inteiras na janela e o lixo de planilha `C68`/`C183` (mantido como no japonês);
+   - correção de uma fala: editar a linha em `returns/xp_NN.json` não vale (a entrega fica como registro); use
+     `reviewer_fixes.json` e `validate_return.py xp_NN --apply`, como nos outros lotes;
+   - nomes de piloto (`partner_names`) já preenchidos pelo glossário;
+   - `FNM` (nome do modelo) ainda fora: conferir se aparece na tela antes de traduzir.
+1. **Teste da 0.0.10:** pausar no meio da missão (crash da 0.0.9) e anotar a operação/missão; telas Intermission,
    Options > Game e Options > Controller sem rótulo em branco. Se a pausa ainda travar, a causa não é largura de
    texto: próximos suspeitos são os contêineres de missão que cresceram e o atlas da fonte 38000/2501. Depois,
    conferir os outros 300 e poucos rótulos de menu que passam de 141 px (o script do levantamento mede
    `jp ≤ 141 < en` em linhas de uma linha): nomes de unidade, região, objetivo e telas de save/versus, cujas caixas
    ainda não foram medidas.
-1. **Teste no PCSX2 da 0.0.9** (feito em parte em 09/10). Roteiro:
+2. **Teste no PCSX2 da 0.0.9** (feito em parte em 09/10). Roteiro:
    - briefings de 3 linhas inteiras dentro da caixa;
    - fala de missão longa perto de 380 px, para confirmar o limite provisório;
    - assinaturas de relatório alinhadas com espaços largos; créditos finais (`m6285`, recuo com espaços largos);
@@ -314,15 +383,15 @@ Rode tudo com `.venv\Scripts\python.exe tools\ace2\<script>`.
    - "No. 00" do save (`menu3041#13`): o jogo pode gravar o número numa posição fixa;
    - menus: as linhas de `work/ui/wide_0.0.9.txt` e `width_waivers.json`;
    - nenhum travamento nas missões, cujos contêineres cresceram.
-2. **Menus:** capturar as telas (`work/ui`), medir as caixas, gravar em `limits.json` e então desfazer as
+3. **Menus:** capturar as telas (`work/ui`), medir as caixas, gravar em `limits.json` e então desfazer as
    abreviações forçadas pelo limite provisório (listadas nos relatórios dos revisores: "Unid. Units in Tokyo Bay",
    "B. Rifle", "Sub Cann. 01", objetivos de `menu3057`...). A enciclopédia rola: se a caixa permitir mais linhas, os
    parágrafos (linhas em branco) podem voltar.
-3. **Fora das tabelas** (8.8): texturas, título do save, filmes.
-4. **Glossário:** entradas que faltam (Mirauli, Sally Po, Peacemillion, Ahmos Gale, Titans, Mobile
+4. **Fora das tabelas** (8.8): texturas, título do save, filmes.
+5. **Glossário:** entradas que faltam (Mirauli, Sally Po, Peacemillion, Ahmos Gale, Titans, Mobile
    Doll, Sanc Kingdom, Laplamiz, Adoclass, Golg Gang, Sekiha Tenkyoken, ハイパー化, スカル小隊, 地上人) e conferir as
    variantes Jovian Federation (木連/木星連合) e Mobile Battleship × Martian Successor Nadesico (`menu3018` × `3022`).
-5. **Validador:** checar o nome inteiro, não só uma palavra dele (ver 8.5).
+6. **Validador:** checar o nome inteiro, não só uma palavra dele (ver 8.5).
 
 ### 8.7 Decisões pendentes e riscos
 

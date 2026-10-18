@@ -154,3 +154,37 @@ Ordem de trabalho: um lote por vez, nesta ordem.
 | `xm_menu3073_01` | xm_menu3073 | 4 | menu | `menu3073#3` ... `menu3073#7` |
 | `xm_menu3076_01` | xm_menu3076 | 31 | menu | `menu3076#3` ... `menu3076#56` |
 | `xm_menu3077_01` | xm_menu3077 | 14 | menu | `menu3077#0` ... `menu3077#66` |
+| `xp_01` | xp | 80 | partner chatter | `partner020#0` ... `partner022#20` |
+| `xp_02` | xp | 80 | partner chatter | `partner022#21` ... `partner031#44` |
+| `xp_03` | xp | 80 | partner chatter | `partner031#45` ... `partner035#11` |
+| `xp_04` | xp | 80 | partner chatter | `partner035#12` ... `partner037#37` |
+| `xp_05` | xp | 80 | partner chatter | `partner037#38` ... `partner039#45` |
+| `xp_06` | xp | 80 | partner chatter | `partner039#46` ... `partner050#9` |
+| `xp_07` | xp | 80 | partner chatter | `partner050#10` ... `partner060#7` |
+| `xp_08` | xp | 80 | partner chatter | `partner060#8` ... `partner062#38` |
+| `xp_09` | xp | 80 | partner chatter | `partner062#39` ... `partner065#7` |
+| `xp_10` | xp | 80 | partner chatter | `partner065#8` ... `partner070#41` |
+| `xp_11` | xp | 80 | partner chatter | `partner070#42` ... `partner073#44` |
+| `xp_12` | xp | 80 | partner chatter | `partner073#45` ... `partner078#47` |
+| `xp_13` | xp | 80 | partner chatter | `partner078#48` ... `partner098#0` |
+| `xp_14` | xp | 80 | partner chatter | `partner098#1` ... `partner099#26` |
+| `xp_15` | xp | 80 | partner chatter | `partner099#27` ... `partner106#41` |
+| `xp_16` | xp | 80 | partner chatter | `partner106#42` ... `partner107#56` |
+| `xp_17` | xp | 80 | partner chatter | `partner107#57` ... `partner110#0` |
+| `xp_18` | xp | 80 | partner chatter | `partner110#1` ... `partner112#35` |
+| `xp_19` | xp | 80 | partner chatter | `partner112#36` ... `partner113#51` |
+| `xp_20` | xp | 80 | partner chatter | `partner113#52` ... `partner115#26` |
+| `xp_21` | xp | 80 | partner chatter | `partner115#27` ... `partner120#38` |
+| `xp_22` | xp | 80 | partner chatter | `partner120#39` ... `partner126#1` |
+| `xp_23` | xp | 80 | partner chatter | `partner126#2` ... `partner127#24` |
+| `xp_24` | xp | 80 | partner chatter | `partner127#25` ... `partner130#45` |
+| `xp_25` | xp | 80 | partner chatter | `partner130#46` ... `partner138#9` |
+| `xp_26` | xp | 80 | partner chatter | `partner138#10` ... `partner146#36` |
+| `xp_27` | xp | 80 | partner chatter | `partner146#37` ... `partner166#5` |
+| `xp_28` | xp | 80 | partner chatter | `partner166#6` ... `partner170#32` |
+| `xp_29` | xp | 80 | partner chatter | `partner170#33` ... `partner174#3` |
+| `xp_30` | xp | 80 | partner chatter | `partner174#4` ... `partner178#21` |
+| `xp_31` | xp | 80 | partner chatter | `partner178#22` ... `partner190#54` |
+| `xp_32` | xp | 80 | partner chatter | `partner200#0` ... `partner201#33` |
+| `xp_33` | xp | 80 | partner chatter | `partner201#34` ... `partner221#9` |
+| `xp_34` | xp | 17 | partner chatter | `partner221#10` ... `partner221#26` |

@@ -1,0 +1,1631 @@
+{
+ "batch": "xp_04",
+ "operation": null,
+ "group": "xp",
+ "group_label": "Partner battle chatter: the lines of the partner unit the player picks, said during any mission. The speaker of each row is in \"phase\".",
+ "previous_batch": "xp_03",
+ "next_batch": "xp_05",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Amuro Ray",
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  }
+ ],
+ "known_portraits": {},
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "partner035#0",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>こいつらはオレが仕留める。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner035#1",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>余裕で撃墜できるな。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner035#2",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>密集しているからだ。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner035#3",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>見せてもらおう。　その力を。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner035#4",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>後方から援護する。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner035#5",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>そちらは任せる。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner035#6",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>ついているな。　ギリギリだが叩ける。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner035#7",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>こちらが優勢だ。　だが油断は禁物だ。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner035#8",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>俺のほうは心配いらない、戦闘に集中しろ。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner035#9",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>敵は全てせん滅する。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner035#10",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>飛び出しすぎるな。\n援護が追いつかなくなる。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner035#11",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>厳しい戦いになるな。<ab(0)><ed()>",
+   "en": ""
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "partner037#38",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>さすがですね。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner037#39",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>その腕前、尊敬します。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner037#40",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>一緒にいると頼もしいですね。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner037#41",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>敵はまだいます！　気をつけて！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner037#42",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>そう簡単に終わらせてはくれませんね。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner037#43",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>そちらに行きました、気をつけて！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner037#44",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>まだ来ますよ！　気をつけて！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner037#45",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>新手が来たか！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner037#46",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>どうして、まだ戦いを続けようとするんだ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner037#47",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>増援部隊を確認しました。　迎撃します！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner037#48",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>手強い相手です。　気をつけて！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner037#49",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>その敵は強いです、\nでもあなたならやれる！<ab(0)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Translated by Claude (not the external agent) at the user's request, 2026-10-10. Partner battle chatter, Trowa (トロワ), Quatre (カトル).",
+  "rows_examined": "partner035#12..partner037#37",
+  "rows_examined_count": 80,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ },
+ "rows": [
+  {
+   "ref": "partner035#12",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>無茶をするな！\nここで犬死してもどうにもなるまい。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't be reckless! Dying for nothing here won't change anything.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#13",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>たいした損害を与えられていない。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We're not doing much damage.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#14",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>殺すつもりならそれでも構わない。\n少々抵抗するかもしれないが。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>If you mean to kill me, that's fine. Though I may resist a little.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#15",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この状況では、各々に撃破される\n可能性も出てくる。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>In this situation, we could be picked off one by one.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#16",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>覚悟がなければもう戦えない。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Without resolve, you can't fight anymore.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#17",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>遅かったな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You're late.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#18",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>始めるか…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Shall we begin...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#19",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どうにかなるだろう。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We'll manage somehow.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#20",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>十分に気をつけてくれ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Be very careful.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#21",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>頼んだぞ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'm counting on you.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#22",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前のパイロットとしての才能は\n知っている。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I know your talent as a pilot.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#23",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前ならできるだろう。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You can do it.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#24",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どうした、そんなものではないだろう。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>What's wrong? You're better than that.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#25",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>しっかりしろ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Pull yourself together.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#26",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前はまだやれるはずだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You can still keep going.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#27",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前の強さには敬服する。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I admire your strength.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#28",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>その腕なら俺は援護で十分だな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>With your skills, I only need to provide cover.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#29",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前の判断は正しい。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Your judgment is sound.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#30",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前のやることは徹底しているな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You're thorough in everything you do.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#31",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前を頼りにする。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'm relying on you.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#32",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>増援部隊を確認…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Reinforcements confirmed...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#33",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そっちへ行ったぞ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Heading your way.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#34",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>次から次へと、よく来るものだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>They just keep coming, one after another.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#35",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>新手が来たようだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>It seems new enemies have arrived.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#36",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>援軍が来たか。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Reinforcements have arrived.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#37",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>出てくるならば、全て撃破する。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>If they show themselves, I'll destroy them all.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#38",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これまでとは違うということか。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>So this one's different from the others.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#39",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>相手は敵の切り札か。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>So this is the enemy's trump card.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#40",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この機体、ただ者じゃない。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>This unit is no ordinary opponent.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#41",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>他の奴とは違う、気をつけろ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>This one's different from the rest. Be careful.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#42",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>奴を倒す。　援護は任せろ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Let's take that one down. I'll cover you.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#43",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>終わったな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>It's over.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#44",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これより帰還する。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Returning to base.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#45",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>任務完了した。　これから戻る。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Mission complete. Heading back now.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#46",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>また自爆装置が無駄になったな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>The self-destruct device went to waste again.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#47",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>任務完了。\n残弾２６％、自己評価７５ポイント。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Mission complete. Ammo remaining 26％, self-evaluation 75 points.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#48",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どうかな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I wonder.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#49",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>できるだけやってみるか。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll do what I can.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#50",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>行かせてもらう。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'm going in.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#51",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>主力を叩けば勝ちだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Strike their main force and we win.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#52",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やはり黙っていないか。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>So they won't stay quiet after all.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner035#53",
+   "layer": "partner chatter",
+   "phase": "speaker: Trowa (トロワ) | unit: Gundam Heavyarms (ガンダムヘビーアームズ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…俺には帰る場所があるんだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>...I have a place to return to.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#0",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>無駄なことはさせないでくれ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't make me do something pointless!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#1",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>おとなしく降伏するんだ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Surrender quietly!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#2",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>僕に構わないで。　援護に回ります。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't worry about me. I'll move to support you.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#3",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>戦っちゃいけないんだ僕たちは！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We shouldn't be fighting!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#4",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>僕に構わないで。　こちらは大丈夫です。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't worry about me. I'm fine over here.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#5",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>一気に敵を崩すんだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Let's break the enemy in one go.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#6",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>大丈夫、何とかやれます！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>It's okay, I can manage!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#7",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いったい、どうするんですか？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>What on earth are we going to do?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#8",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>だめだ、このままじゃだめなんだ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>No, this won't do! Not like this!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#9",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>戦いは悲しい…だが、愛する者を\n悲しませない為には闘うしかない。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Fighting is sad... but to spare those I love from sorrow, I must fight.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#10",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>武器を捨ててください！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Please drop your weapons!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#11",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これ以上、無駄な戦いをすることないんだ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>There's no need for any more pointless fighting!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#12",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>投降してください！\n命まで奪おうとは思いません！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Please surrender! I don't intend to take your life!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#13",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>気をつけて！\nあなたをやらせるわけにはいかない！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Be careful! I won't let them get you!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#14",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そっちを優先してください！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Please prioritize that one!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#15",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>僕たちも作戦行動を取らないと。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We need to carry out the operation too.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#16",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>気をつけて！　敵に狙われています。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Be careful! You're being targeted.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#17",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>僕たちだけじゃ手に負えない。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We can't handle this on our own.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#18",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お願い！　もうそんなにもちません。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Please! I can't hold out much longer.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#19",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>気をつけて！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Be careful!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#20",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>元はと言えば、僕が悪いんだ…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>When it comes down to it, this is my fault...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#21",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>話してはいられない、\n僕のほうが不利だから！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I can't stop to talk, I'm at a disadvantage!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#22",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今度もまた、負ける戦争だな…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>This is another losing war...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#23",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ここで退いたら、僕たちの来た意味が\nないじゃないですか！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>If we retreat here, there's no point in us having come!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#24",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これじゃ、敵のほうが有利だ…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>At this rate, the enemy has the advantage...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#25",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このままじゃ危険すぎます！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>It's too dangerous like this!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#26",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何とか、間に合いましたね。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We made it in time, somehow.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#27",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>みんな、どうか無事で！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Everyone, please be safe!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#28",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さあ、行きましょう！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Come on, let's go!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#29",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>油断しないで。　何が来るかわかりません。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Stay alert. We don't know what's coming.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#30",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>僕らならやれます。　幸運を！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We can do this. Good luck!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#31",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まだだ！　僕らならやれる！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Not yet! We can do this!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#32",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あなたならやれます。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You can do it.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#33",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>僕たちでやりましょう。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Let's do this together.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#34",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あなたがやられたら終わりです！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>If you go down, it's all over!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#35",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まだやれるはずです！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You can still keep going!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#36",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>すごい…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Amazing...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner037#37",
+   "layer": "partner chatter",
+   "phase": "speaker: Quatre (カトル) | unit: Gundam Sandrock (ガンダムサンドロック)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>僕の予想以上です。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Even better than I expected.<ab(0)><ed()>",
+   "notes": ""
+  }
+ ]
+}

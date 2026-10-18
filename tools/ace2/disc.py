@@ -2,7 +2,8 @@
 
 write_disc(base, out, resources, files):
   resources  {DATA.BIN id: new payload bytes}
-  files      {'/MOVIE0/MOVIE001.PSS': (source image path, ISO path)} - whole-file swaps from another disc image
+  files      {'/MOVIE0/MOVIE001.PSS': (source image path, ISO path)} - whole-file swaps from another disc image,
+             or {'/SLPS_258.29': bytes} - new content for a file (exe.py)
 Layout: DATA.BIN is rebuilt with every payload 2048-aligned in its original order; the files after it on the disc
 move by DATA.BIN's growth (absorbed by the empty disc tail, so the image size never changes); ISO9660 records (both
 endians) and UDF file entries are rewritten. The output is re-read and every extent, file payload and changed
@@ -87,7 +88,10 @@ def plan(base, resources, files):
         sizes = {e[0]: len(resources[e[0]]) if e[0] in resources else e[2] for e in idx.entries}
         offsets, total = idx.layout(sizes)
         swap_sizes = {}
-        for name, (image, path) in files.items():
+        for name, source in files.items():
+            if isinstance(source, bytes):
+                swap_sizes[name] = len(source); continue
+            image, path = source
             with Path(image).open('rb') as other:
                 swap_sizes[name] = iso_files(other)[path]['size']
         order, wanted, shift = plan_layout(iso, dict(swap_sizes, **{'/DATA.BIN': total}))
@@ -111,12 +115,16 @@ def write_disc(base, out, resources, files):
         require(set(resources) <= set(idx.by_id), 'Unknown resource ids')
         sizes = {e[0]: len(resources[e[0]]) if e[0] in resources else e[2] for e in idx.entries}
         offsets, total = idx.layout(sizes)
-        swaps = {}
-        for name, (image, path) in files.items():
+        swaps, contents = {}, {}
+        for name, source in files.items():
             require(name in iso, 'No such file on the base disc: ' + name)
+            if isinstance(source, bytes):
+                contents[name] = source; continue
+            image, path = source
             other = Path(image).open('rb')
             swaps[name] = (other, iso_files(other)[path])
-        order, wanted, shift = plan_layout(iso, dict({k: v[1]['size'] for k, v in swaps.items()}, **{'/DATA.BIN': total}))
+        sizes_now = dict({k: v[1]['size'] for k, v in swaps.items()}, **{k: len(v) for k, v in contents.items()})
+        order, wanted, shift = plan_layout(iso, dict(sizes_now, **{'/DATA.BIN': total}))
         image_size = base.stat().st_size
         prefix = metadata(base, src, iso, wanted)
         header = idx.header_for(offsets, total)
@@ -128,7 +136,9 @@ def write_disc(base, out, resources, files):
                 require(dst.tell() <= w['offset'], 'Extent overlap at ' + name)
                 dst.write(bytes(w['offset'] - dst.tell()))
                 d = hashlib.sha256()
-                if name in swaps:
+                if name in contents:
+                    dst.write(contents[name]); d.update(contents[name])
+                elif name in swaps:
                     other, rec = swaps[name]
                     copy(other, dst, rec['offset'], rec['size'], d)
                 elif name != '/DATA.BIN':

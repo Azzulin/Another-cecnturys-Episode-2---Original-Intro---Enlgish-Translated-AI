@@ -1,0 +1,1656 @@
+{
+ "batch": "xp_24",
+ "operation": null,
+ "group": "xp",
+ "group_label": "Partner battle chatter: the lines of the partner unit the player picks, said during any mission. The speaker of each row is in \"phase\".",
+ "previous_batch": "xp_23",
+ "next_batch": "xp_25",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Amuro Ray",
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "クインシィ・バロンズゥ",
+   "en": "Quincy Baronz",
+   "kind": "unit",
+   "series": "Brain Powerd",
+   "role": "Baronz that evolved from Quincy's Grand Cher; Quincy's playable unit in ACE2"
+  },
+  {
+   "ja": "アラームメッセージ",
+   "en": "Alarm message",
+   "kind": "generic",
+   "series": "Another Century's Episode series (game system)",
+   "role": "Computer voice prefix (alarm messages in katakana-robot speech)."
+  },
+  {
+   "ja": "バロンズゥ",
+   "en": "Baronz",
+   "kind": "unit",
+   "series": "Brain Powerd",
+   "role": "Dotless form of バロン・ズゥ: Jonathan's/Quincy's powerful Antibody (also 巨大バロンズゥ)."
+  },
+  {
+   "ja": "レイ",
+   "en": "Rei"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  }
+ ],
+ "known_portraits": {},
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "partner127#13",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>何て戦力なんだ……！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#14",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>こんなものなのか、情けない！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#15",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>これほど押されるなんて……！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#16",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>戦闘に集中しろ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#17",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>くっ、油断していたのか！？<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#18",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>ここまで追いつめられるとは……情けない！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#19",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>油断するな。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#20",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>全体の足を引っ張るなよ。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#21",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>行くぞ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#22",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>わかっているな、やってみせろ。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#23",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>警戒を怠るな！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner127#24",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>そんなこと予定どおりだろう！<ab(0)><ed()>",
+   "en": ""
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "partner130#46",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>そいつは手強いぞ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner130#47",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>何だ、この不安な気持ちは！？<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner130#48",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>受けて立つ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner130#49",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>アラーム！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner130#50",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>即時撃破セヨ、繰り返ス、即時撃破セヨ。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner130#51",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>高熱源体接近、注意セヨ。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner130#52",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>みんな…無事か！？<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner130#53",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>レイ、生命反応を測定しろ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner130#54",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>よし！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner130#55",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>無事みたいだな、よかった。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner130#56",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>みんな、ありがとう。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner130#57",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>危機、回避。<ab(0)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Translated by Claude (not the external agent) at the user's request, 2026-10-10. Partner battle chatter, Quincy (クインシィ), Eiji (エイジ) + Rei (レイ).",
+  "rows_examined": "partner127#25..partner130#45",
+  "rows_examined_count": 80,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ },
+ "rows": [
+  {
+   "ref": "partner127#25",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ボヤボヤしてるな！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't just stand there!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#26",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>浮かれてるぞ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You're getting carried away!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#27",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>動きが甘いぞ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Your movements are sloppy!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#28",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何を手こずっているんだ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>What's taking you so long!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#29",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それ位、当たり前だ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>That much is a given.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#30",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前、なかなかやるな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You're pretty good.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#31",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やるようだね。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Seems you're capable.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#32",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>助けてくれてありがとうよ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Thanks for the help.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#33",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>その腕、認めてやろう。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll acknowledge your skill.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#34",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これ以上は無駄だねえ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Anything more is pointless.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#35",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>援軍だと！？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Reinforcements!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#36",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まあノコノコと来てくれて…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>My, look at them waltzing right in...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#37",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何をしている、早く撃破しろ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>What are you doing? Destroy them, quickly!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#38",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>行ったぞ！　もたもたするな！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>One's headed your way! Don't dawdle!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#39",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>増援が来るぞ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Reinforcements incoming!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#40",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これは！？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>What's this!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#41",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何かが来るぞ！　気をつけろ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Something's coming! Be careful!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#42",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こいつは注意しないと…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I need to be careful with this one...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#43",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あれは…！　何っ？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>That's...! What!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#44",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何て奴が来たんだ……！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>What is that thing that's shown up...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#45",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ご苦労様。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Good work.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#46",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ようし！　戻ろう！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>All right! Let's go back!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#47",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>帰らなきゃ…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I have to go home...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#48",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ふん…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Hmph...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#49",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>戻るぞ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We're going back!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#50",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>行くぞ、あたしのバロンズゥ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Let's go, my Baronz!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#51",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>すぐに終わらせてみせる！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll end this right away!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#52",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あたしに任せておけ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Leave it to me!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#53",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>邪魔する奴は消えてもらう！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Anyone in my way will disappear!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#54",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こんな任務……！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>A mission like this...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#55",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どれだけ来ても、撃破するのみだ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>No matter how many come, I'll just destroy them!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#56",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>全て撃破してやる！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll destroy them all!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#57",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>立ちふさがるつもりなら、すべて撃破する！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>If you mean to stand in my way, I'll destroy you all!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#58",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よし、帰還する！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>All right, returning!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner127#59",
+   "layer": "partner chatter",
+   "phase": "speaker: Quincy (クインシィ) | unit: Quincy Baronz (クインシィ・バロンズゥ)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>戻るぞ！　クインシィ・バロンズゥ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We're going back! Quincy Baronz!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#0",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>バイパス回路に切り替えろ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Switch to the bypass circuit!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#1",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ＤＯＶの伝達係数を、３０％落とせ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Lower the DOV transmission coefficient by 30％.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#2",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>レイ、まっすぐ敵陣に向かう！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Rei, heading straight for the enemy lines!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#3",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>戦闘モード、反撃準備！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Combat mode, prepare to counterattack!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#4",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>状況報告！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Status report!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#5",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>左２０ポイント注意<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Caution: left, 20 points.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#6",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>レイ！　その機体を破壊する！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Rei! We're destroying that unit!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#7",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>レイ、あのタイプの機構データを\n調べてくれ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Rei, look up the mechanical data on that type.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#8",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よぉし、見ていろ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>All right, watch this!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#9",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>戦いから、手を引け！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Withdraw from this fight!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#10",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あまり飛び出しすぎてはだめだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't rush out too far.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#11",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>深追いは駄目だ、無理するな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't pursue too deep. Don't push yourself.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#12",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>戦闘に集中するんだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Focus on the fight.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#13",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>危なくなったら下がってくれ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>If it gets dangerous, fall back.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#14",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こっちは何とかなる、心配しないでくれ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I can manage here, don't worry.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#15",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵には近づくな！　巻き込まれる！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't get close to the enemy! You'll get caught up in it!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#16",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このままやられてしまうのか！？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Are we just going to get beaten like this!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#17",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ここで負けるわけにはいかない！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We can't lose here!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#18",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>大事な仲間だ、殺させないぞ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You're a precious comrade. I won't let them kill you.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#19",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>必ず生きて帰るぞ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We're definitely making it back alive!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#20",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そっちは無事か！気をつけてくれ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Are you safe over there!? Be careful!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#21",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このままではこっちが不利だ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>At this rate, we're at a disadvantage.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#22",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>バトリングメッセージ、\nターゲットノ変更ヲ要ス。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Battling message: target change required.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#23",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵ノ戦力ハ当方ノ１２５％。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Enemy strength at 125％ of ours.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#24",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>戦況ハ圧倒的ニ不利、\n戦術変更勧告。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Situation overwhelmingly unfavorable. Recommend change of tactics.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#25",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>レイ、突入する！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Rei, we're going in!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#26",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>始動チェック！　パワー全開！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Startup check! Full power!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#28",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>レイ、状況報告を頼む！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Rei, give me a status report!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#29",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>レイ、頼んだぞ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Rei, I'm counting on you!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#30",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まだやれる！　あきらめるな！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You can still do it! Don't give up!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#31",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>無事なんだな！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You're safe!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#32",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>奴らを倒すんだ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Let's take them down!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#33",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>実力は知っている、がんばるんだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I know what you can do. Hang in there.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#34",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>気をつけろ、無茶をして死なないでくれ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Be careful. Don't get yourself killed doing something reckless!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#35",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それでいい、その調子だ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>That's it, keep it up.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#36",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺の助けはいらなそうだな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Looks like you don't need my help.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#37",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よし！　その調子だ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>All right! Keep it up.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#38",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>一緒に組んでて、頼もしいな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You're reliable to team up with.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#39",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さすがだな、感心するよ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Impressive. I'm amazed.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#40",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>来たな…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Here they come...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#41",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まだ戦いを続けるのか！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You still want to keep fighting!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#42",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>増援が来るぞ！　注意するんだ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Reinforcements incoming! Watch out!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#43",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>増援か！　レイ、反撃準備！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Reinforcements! Rei, prepare to counterattack!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#44",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アラームメッセージ。\n敵増援部隊、レンジ３ニ進入。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Alarm message. Enemy reinforcements entering range 3.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner130#45",
+   "layer": "partner chatter",
+   "phase": "speaker: Eiji (エイジ) + Rei (レイ) | unit: Layzner (レイズナー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>アラームメッセージ、後方ニ追撃。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Alarm message: pursuit from the rear.<ab(0)><ed()>",
+   "notes": ""
+  }
+ ]
+}

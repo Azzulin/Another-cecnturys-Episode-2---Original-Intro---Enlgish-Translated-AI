@@ -1,0 +1,1643 @@
+{
+ "batch": "xp_07",
+ "operation": null,
+ "group": "xp",
+ "group_label": "Partner battle chatter: the lines of the partner unit the player picks, said during any mission. The speaker of each row is in \"phase\".",
+ "previous_batch": "xp_06",
+ "next_batch": "xp_08",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Amuro Ray",
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "νガンダム",
+   "en": "Nu Gundam"
+  },
+  {
+   "ja": "オーラ力",
+   "en": "Aura Power",
+   "kind": "term",
+   "series": "Aura Battler Dunbine",
+   "role": "The aura energy of a pilot; also the name of a Dunbine-family ability that multiplies attack power for a while (Weapon 6)."
+  },
+  {
+   "ja": "サザビー",
+   "en": "Sazabi",
+   "kind": "unit",
+   "series": "Mobile Suit Gundam: Char's Counterattack",
+   "role": "MSN-04, Char's Neo Zeon Newtype mobile suit."
+  }
+ ],
+ "known_portraits": {},
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "partner041#61",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>面白い！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner041#62",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>この勝負、受けざるを得まい！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner050#0",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>最後まで油断するんじゃないぞ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner050#1",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>そっちは大丈夫か！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner050#2",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>常に周囲に気を配るんだ。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner050#3",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>やばくなったら下がるんだ。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner050#4",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>固まりすぎるな、同士討ちするぞ。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner050#5",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>どこから来ても対応できるようにな。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner050#6",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>この程度、どうということはない！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner050#7",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>突っ込むばかりではダメだ。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner050#8",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>味方との位置関係を常に意識するんだ。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner050#9",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>そっちにもいる！<ab(0)><ed()>",
+   "en": ""
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "partner060#8",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>やらせるわけには！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner060#9",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>このダンバインなら！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner060#10",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>ごめん…どうしたっていうの！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner060#11",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>すこし危険ね…<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner060#12",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>まだ戦えるわ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner060#13",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>ダンバインでも苦戦するなんて…！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner060#14",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>さあ、行きましょう！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner060#15",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>やるわよ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner060#16",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>私に任せて！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner060#17",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>援護するわ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner060#18",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>邪念があっては駄目よ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner060#19",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>ここで持ちこたえないと！<ab(0)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Translated by Claude (not the external agent) at the user's request, 2026-10-10. Partner battle chatter, Amuro (アムロ), Char (シャア), Marvel (マーベル).",
+  "rows_examined": "partner050#10..partner060#7",
+  "rows_examined_count": 80,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ },
+ "rows": [
+  {
+   "ref": "partner050#10",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この戦い方では不利になるだけだ…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Fighting like this will only put us at a disadvantage...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#11",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>阻止しきれない！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I can't stop them all!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#12",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まずいな、このままでは…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>This is bad. At this rate...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#13",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>押されている…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We're being pushed back...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#14",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>見ていられない！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I can't just watch!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#15",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このままだとやられるだけだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>At this rate, we'll just get taken out.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#16",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>みんな、気をつけるんだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Everyone, be careful.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#17",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>油断はするな！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't get careless!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#18",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ここは突破させはしない！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I won't let them break through here!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#19",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いい感じだ。\n反応速度が上がってきている！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Feels good. My reactions are getting faster!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#20",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何が起こるわからない、注意しろ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Anything could happen. Stay alert.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#21",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>油断だぞ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You're getting careless.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#22",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>持ちこたえてくれ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Hold on!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#23",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まだやれるはずだ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You can still do it!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#24",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やってみなければわからん！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You won't know until you try!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#25",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵は俺がひきつける！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll draw the enemy's attention!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#26",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>その調子でがんばってくれ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Keep up the good work.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#27",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やるじゃないか。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Not bad at all.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#28",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いい腕をしているな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You've got good skills.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#29",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>頼もしいな、負ける気がしない。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You're reliable. I don't feel like we can lose.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#30",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺の出る幕がないな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Looks like I'm not needed here.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#31",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まだ援護がいた？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>They still had backup?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#32",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まだ来るのか！？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>More are coming!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#33",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>増援！？　気をつけろ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Reinforcements!? Be careful.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#34",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>新手か…！？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>New enemies...!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#35",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵もまだ諦めていないようだな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Seems the enemy hasn't given up yet.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#36",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>プレッシャー！！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>This pressure!!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#37",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>すごいプレッシャーだ、気をつけろ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Incredible pressure. Be careful.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#38",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>手強いぞ、注意しろ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>This one's tough. Watch out!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#39",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この動き…ただ者ではないな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>These movements... this is no ordinary pilot.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#40",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>気をつけろ！　この敵は違う！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Be careful! This enemy is different!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#41",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…終わったか。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>...Is it over?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#42",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>無事なようで何よりだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Glad to see you're safe.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#43",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よし、帰艦するぞ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>All right, returning to the ship.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#44",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よくやってくれた。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Good work.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#45",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これで状況がよくなればいいが…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I hope this improves the situation...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#46",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>相手がどう出るか…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>How will they respond...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#47",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やれるか？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Can you do it?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#48",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>うまくいけばいいが…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I hope it goes well...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#50",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やってみるさ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll give it a shot.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#51",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>増援か！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Reinforcements!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#52",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんだこいつは？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>What is this thing?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#53",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>来たか！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Here they come!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#54",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こいつ…動きが違うぞ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>This one... moves differently!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#55",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>νガンダム、帰還する！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Nu Gundam, returning!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#56",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何とか終わったか。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Somehow, it's over.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner050#57",
+   "layer": "partner chatter",
+   "phase": "speaker: Amuro (アムロ) | unit: Nu Gundam (νガンダム)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これより帰投する。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Returning to base.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#0",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この程度か…たいしたことはない。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Is this all...? Nothing to speak of.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#1",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この私もなめられたものだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>It seems I'm being taken lightly.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#2",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>直撃させる！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll score a direct hit!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#3",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やらせはせん！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I won't let you!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#4",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>遅い！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Too slow!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#5",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これ以上はやらせん！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I won't allow any more!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#6",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よし、サザビー戦闘に入る！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Right. Sazabi, engaging!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#7",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>足を引っ張らないでくれたまえ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Kindly don't hold me back.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#8",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こちらは任せてもらおうか。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Leave this side to me.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#9",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>その程度でやられるなよ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't go down to something like that.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#10",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>その程度で満足してもらっては困る。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't be satisfied with just that much.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#11",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>切り抜けてみせろ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Show me you can fight your way out.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#12",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どうした、そんなものなのか貴様の実力は！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>What's wrong? Is that the extent of your ability!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#13",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まったく、頼もしい限りだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Truly, you're most reliable.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#14",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>君は才能があるようだな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You seem to have talent.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#15",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>それでこそエースというものだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>That's what makes an ace.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#16",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…やるな！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>...Not bad!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#17",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>来るぞ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Here they come!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#18",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>陽動を頼む。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Create a diversion.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#19",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そいつには注意しろ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Watch out for that one.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#20",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…何だ、このプレッシャーは！？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>...What is this pressure!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#21",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>気をつけたまえ、ただの敵ではない。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Be careful. That's no ordinary enemy.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#22",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>サザビー、これより帰還する。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Sazabi, returning to base.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#23",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これ以上の長居は無用だ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>There's no need to linger here any longer.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner052#24",
+   "layer": "partner chatter",
+   "phase": "speaker: Char (シャア) | unit: Sazabi (サザビー)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何ということもなかったな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>That was nothing at all.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#0",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>後ろに回りこむ？\nいいえ、焦ったら負け！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Get around behind them? No, if I rush, I lose!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#1",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どうしてもやらせないというのなら…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>If you insist on stopping me...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#2",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵のパワーも上がっている…\n気をつけて！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>The enemy's power is rising too... Be careful!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#3",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>落ちなさいっ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Go down!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#4",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ここで止めなくては…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I have to stop them here...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#5",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>善悪の見境もなしに、\n悪人に手を貸す馬鹿な人！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You fool, helping villains without telling right from wrong!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#6",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>オーラ力さえ出せれば！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>If only I could draw out my Aura Power!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#7",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どきなさい！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Get out of the way!<ab(0)><ed()>",
+   "notes": ""
+  }
+ ]
+}

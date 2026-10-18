@@ -1,9 +1,11 @@
 # Building the English ISO from source
 
 This rebuilds the English disc from your own Special Vocal Version ISO and the translation files in this repository,
-exactly as the maintainers do. If you only want to play, the patch is simpler: [INSTALL_PATCH.md](INSTALL_PATCH.md).
+exactly as the maintainers do. It is the way to play the **current** version (0.0.16): the only published patch is
+the older 0.0.10 ([STATUS.md](STATUS.md)). No programming is needed, only copying a few commands.
 
-Time: about 5 minutes (2 to plan, 2–3 to write 3.6 GB). Disk: 3.7 GB per build plus the source ISOs.
+Time: 5 to 10 minutes per build (planning takes 2 to 8 minutes depending on the machine and Python version, writing
+3.6 GB another 2 or 3). Disk: 3.7 GB per build plus the source ISOs.
 
 ## 1. Get the repository
 
@@ -12,7 +14,7 @@ git clone https://github.com/Azzulin/Another-cecnturys-Episode-2---Original-Intr
 cd "Ace 2"
 ```
 
-(Or download the ZIP from GitHub and extract it.)
+(Or **Code → Download ZIP** on GitHub and extract it. To update later: `git pull`, or download the ZIP again.)
 
 ## 2. Put the ISOs in the repository root
 
@@ -24,24 +26,27 @@ The tools look for these **exact file names** in the repository root (next to `R
 | `Another Century's Episode 2 (Japan).iso` | Only for the "Glorious" opening (default) | `c9dcaeda5e466120c777d771639e4b247a787c84f3cc7131322f8e6dd390eef5` |
 
 They are ignored by git (`.gitignore`), so they never get committed. Without the 2006 disc, build with
-`--svv-opening` (step 6).
+`--svv-opening` (step 6). How to check a SHA-256: [INSTALL_PATCH.md, step 1](INSTALL_PATCH.md#step-1--check-your-iso).
 
 ## 3. Python environment (Windows)
 
-Install **Python 3.14** from [python.org](https://www.python.org/downloads/) (3.12+ should work; 3.14.7 is the
-tested one). In the repository root, in PowerShell:
+Install **Python 3.12 or newer** from [python.org](https://www.python.org/downloads/) (3.12 and 3.14 both reproduce
+the published builds). In the repository root, in PowerShell:
 
 ```
-py -3.14 -m venv .venv
+py -3.12 -m venv .venv
 .venv\Scripts\python.exe -m pip install -r requirements.txt
 $env:PYTHONIOENCODING = 'utf-8'
 ```
+
+(`py -3.14` if that is the version you installed; `py --list` shows them.)
 
 - `requirements.txt` pins numpy 2.5.3, pillow 12.3.0 and pycdlib 1.21.0.
 - Always call `.venv\Scripts\python.exe` (on some Windows installs a bare `python` opens the Microsoft Store).
 - **`PYTHONIOENCODING=utf-8` is required** in every new terminal: the tools print game text (①, ○, Japanese), and
   the Windows console code page breaks on it. `merge_fill.py` stops half-way without it, leaving tables unmerged.
   Git Bash: `export PYTHONIOENCODING=utf-8`.
+- The `.venv` folder belongs to one machine. If you copy the project to another computer, create it again there.
 
 The commands below use Windows paths. On Linux/macOS use `.venv/bin/python` and forward slashes.
 
@@ -76,79 +81,136 @@ The build report (`work/output/ACE2-EN-<version>.json`, key `fonts`) records the
 .venv\Scripts\python.exe tools\ace2\test_disc.py
 ```
 
-- `test_identity.py`: rebuilding every container without edits reproduces the original bytes (index, 528 binders,
-  754 LZSS blocks, 934 text tables).
-- `test_textdb.py`: a synthetic translation 1.5× longer than the Japanese fits in every table.
+Run them one at a time.
+
+- `test_identity.py`: rebuilding every container without edits reproduces the original bytes: the index, the
+  binders, the LZSS blocks, every text table (including the 460 tables inside partner model packages) and the 201
+  mission files rebuilt in place.
+- `test_textdb.py`: a synthetic translation 1.5× longer than the Japanese fits in all 1,394 text locations, with no
+  dead bytes left in mission files, and the disc still has room.
 - `test_disc.py`: a disc rebuilt without edits is byte-identical to the original; a grown disc with the movie swap
-  verifies. Writes two temporary images (needs ~8 GB).
+  verifies. Writes two temporary images in `work/output/_test` and deletes them (needs ~8 GB; slow).
 
 ## 6. Build
 
-Dry run first (plans every change, writes nothing, prints sizes and the fonts chosen):
+Dry run first (plans every change, validates every line, writes nothing, prints sizes and the fonts chosen; it
+prints nothing for the first minutes while it plans):
 
 ```
-.venv\Scripts\python.exe tools\ace2\build.py --version 0.0.10
+.venv\Scripts\python.exe tools\ace2\build.py --version 0.0.16
 ```
 
 Then write the image:
 
 ```
-.venv\Scripts\python.exe tools\ace2\build.py --version 0.0.10 --write
+.venv\Scripts\python.exe tools\ace2\build.py --version 0.0.16 --write
 ```
 
-Output: `work/output/ACE2-EN-0.0.10.iso` and `work/output/ACE2-EN-0.0.10.json` (report: tables, fonts, sizes,
+Output: `work/output/ACE2-EN-0.0.16.iso` and `work/output/ACE2-EN-0.0.16.json` (report: tables, fonts, sizes,
 SHA-256). The last line is `PASS: extents, every file payload and every changed resource verified. SHA-256 …`.
+
+The version is only a name for the output files; it does not change the image. If you edit the text, use a name of
+your own (`0.0.16-mine`) so you never confuse your image with a published one.
 
 Without the 2006 disc:
 
 ```
-.venv\Scripts\python.exe tools\ace2\build.py --version 0.0.10 --svv-opening --write
+.venv\Scripts\python.exe tools\ace2\build.py --version 0.0.16 --svv-opening --write
 ```
 
-writes `work/output/ACE2-EN-0.0.10-svv-opening.iso`. Adding the 2006 movie to it later with
-[swap_movie.py](GLORIOUS_OPENING.md) gives the same bytes as the normal build.
+writes `work/output/ACE2-EN-0.0.16-svv-opening.iso`, with the Special Vocal opening. Adding the 2006 movie to it
+later with [swap_movie.py](GLORIOUS_OPENING.md) gives the same bytes as the normal build.
 
 What the build does (details in [TECHNICAL_REFERENCE.md](TECHNICAL_REFERENCE.md)):
 
-1. reads every `work/translation/en/<table>.json` row that has an `"en"` value and validates it (control codes,
-   encoding, line count); any failure stops the build;
+1. reads every `work/translation/en/<table>.json` row that has an `"en"` value and validates it: control codes,
+   encoding, line count, and the capacity of the widget that draws it (message lines within 127 bytes, objectives,
+   HUD lines and counters within 32 characters). Any failure stops the build;
 2. writes the English into every copy of each table on the disc, growing and relocating tables instead of squeezing
-   text into the Japanese byte budget;
+   text into the Japanese byte budget; mission files and partner model packages are rebuilt with each table in the
+   place of the Japanese one, so they carry no dead data into the game's memory;
 3. completes the ASCII glyphs of the 4 fonts in all 13 font bundles, never touching an original glyph;
-4. rebuilds `DATA.BIN` (it grows by a few hundred KB), moves the files after it into the empty tail of the disc,
-   rewrites the ISO9660 and UDF records, and swaps in the 2006 `MOVIE001.PSS`;
-5. re-reads the new image and verifies every file extent, every file's content and every changed resource.
+4. patches the executable `SLPS_258.29` (4 words, `tools/ace2/exe.py`): 256 KB more memory for the arena where
+   missions load, and a message window of 128 characters instead of 60;
+5. rebuilds `DATA.BIN` (it grows by about 760 KB), moves the files after it into the empty tail of the disc,
+   rewrites the ISO9660 and UDF records, and swaps in the 2006 `MOVIE001.PSS` (unless `--svv-opening`);
+6. re-reads the new image and verifies every file extent, every file's content and every changed resource.
 
 The image size never changes (3,677,028,352 bytes).
 
 ## 7. Audit and compare
 
 ```
-.venv\Scripts\python.exe tools\ace2\audit_iso.py work\output\ACE2-EN-0.0.10.iso
+.venv\Scripts\python.exe tools\ace2\audit_iso.py work\output\ACE2-EN-0.0.16.iso
 ```
 
 (Add `--svv-opening` for an image built with that option.) It independently re-reads the image and checks: no
-overlapping files or resources; every file other than `DATA.BIN` and the movie byte-identical to the original disc;
-the movie identical to the expected opening; every text table still parses with all control codes in the Japanese
-order; every resource without text or font byte-identical. It ends with `PASS: layout, files, opening movie, text
-integrity and control tokens`.
+overlapping files or resources; every file other than `DATA.BIN`, the movie and the executable byte-identical to the
+original disc; the movie identical to the expected opening; the executable equal to the original plus exactly the
+`exe.py` patches; every text table still parses with all control codes in the Japanese order; every resource
+without text or font byte-identical; every mission file grown only by the growth of its text. It prints the largest
+growth of the mission files and partner packages and ends with
+`PASS: layout, files, opening movie, text integrity, control tokens and mission memory`.
 
-For 0.0.10 the build SHA-256 must be `3e8c61433aab58bafa3fb0ff6c0f55d95c63d8eefde1be441d8737be5d578c12`. A
-different SHA with `PASS` almost always means different fonts (step 4): compare the `fonts` key of your report with
-the one in the repository's `work/output/ACE2-EN-0.0.10.json`.
+Expected SHA-256 of the build (printed by `build.py` and stored in the JSON report):
 
-## 8. Test in PCSX2
+| Image | SHA-256 |
+|---|---|
+| `ACE2-EN-0.0.16.iso` ("Glorious" opening) | `888f11d1e518cd45a7b71002cd041ee087e537e592d8e6d68cb8825f5b4ac79e` |
+| `ACE2-EN-0.0.16-svv-opening.iso` (built with `--svv-opening`) | `1608ce46831834437f53d427c8441b6c7ad9aeff0f4ebb5ae8b5caf9f8f40890` |
+| the `--svv-opening` image after `swap_movie.py` with the 2006 disc | `888f11d1e518cd45a7b71002cd041ee087e537e592d8e6d68cb8825f5b4ac79e` (same as the normal build) |
 
-Boot the image normally (not from a save state made with another build: save states keep the old font in memory).
-What to look at is listed in [STATUS.md](STATUS.md#what-to-test).
+A different SHA with `PASS` almost always means different fonts (step 4): compare the `fonts` key of your report with
+the one in the repository's `work/output/ACE2-EN-0.0.16.json`. The image still works; it just is not byte-identical.
+
+## 8. Play / test in PCSX2
+
+- Boot the image normally. **Do not load save states** made with another build or with the Japanese disc: a save
+  state keeps the old font and text in memory, so text appears garbled. Since 0.0.12 the executable differs from the
+  original, so PCSX2 also sees a different CRC: old save states and `.pnach` patch files named after the original
+  CRC (widescreen, cheats) do not apply. Memory card saves are fine, and PCSX2's own per-game settings (GameDB, by
+  serial) still apply.
+- What to look at: [STATUS.md](STATUS.md#what-to-test).
+- Real PS2: the image is a normal single-layer DVD-5 image of the same size as the original; use it with whatever
+  loader you already use for PS2 backups (OPL, etc.).
+
+## 9. If the game freezes: crash_watch
+
+`tools/research/crash_watch.py` watches the game running in PCSX2 through PINE (PCSX2's remote interface) and only
+reads its memory. It lists every text on screen with the capacity of its widget, logs the memory arena and the
+resources the game loads, and saves a save state and a RAM dump the moment a text overflows its widget or memory
+runs out. It found the causes of the 0.0.10 and 0.0.15 freezes.
+
+1. PCSX2 2.x: **Settings → Advanced → Enable PINE** (slot 28011). Optional: Tools → Show Advanced Settings, then
+   Settings → Advanced → Logging → "EE Console", so the game's own messages go to `logs/emulog.txt`.
+2. Boot the image in PCSX2, then in the repository root:
+
+   ```
+   .venv\Scripts\python.exe tools\research\crash_watch.py watch --iso work\output\ACE2-EN-0.0.16.iso
+   ```
+
+   (`tools\research\crash_watch.bat` does both steps with a double click; edit the ISO name and the PCSX2 path at
+   its top first.)
+3. Play. Typing a line and Enter adds a note to the log; `d` saves a save state and a RAM dump now (use it when the
+   game freezes); `q` quits.
+
+Everything goes to `work/crash/<date-time>/`: `log.txt`, RAM dumps, save states (slot 10 is overwritten) and a copy
+of PCSX2's log. `crash_watch.py check <ram.bin | state.p2s>` reads a dump or a save state again later. Lines like
+`TEXTO TRANSBORDA! capacidade 32, 39 letras: '…'` (the log is in Portuguese: "TEXT OVERFLOWS! capacity 32, 39
+characters") name the culprit. Share `log.txt` in a report; keep the dumps and save states to yourself (they contain
+game data; `work/crash/` is ignored by git).
 
 ## Troubleshooting
 
 | Message | Fix |
 |---|---|
-| `Output exists: work\output\ACE2-EN-….iso` | The build never overwrites. Delete the old image or use a new version number. |
+| `Output exists: work\output\ACE2-EN-….iso` | The build never overwrites. Delete the old image or use a new version name. |
 | `Expected the Special Vocal Version disc (/SLPS_258.29)` | The base ISO in the root is not the Special Vocal Version. |
+| `Unexpected word at 0x…` | The executable is not the expected one: the base ISO is modified or a different dump. Check its SHA-256. |
 | `FileNotFoundError: ...Another Century's Episode 2 (Japan).iso` | No 2006 disc in the root: add it or use `--svv-opening`. |
-| `Validation failed: ... tokens [...] != [...]` | A translated row lost or reordered a control code. Fix that row (see [MAKE_YOUR_OWN_TRANSLATION.md](MAKE_YOUR_OWN_TRANSLATION.md#control-codes)). |
+| `Validation failed: <table> ids [..]: tokens [...] != [...]` | A translated row lost or reordered a control code. Fix that row (see [MAKE_YOUR_OWN_TRANSLATION.md](MAKE_YOUR_OWN_TRANSLATION.md#control-codes)). |
+| `... message window holds 127 visible bytes, this row has N` | A message line is too long for the window: shorten it. |
+| `... text widget holds 32 characters, this row has N` / `HUD counter ... draws N characters` | An objective, HUD line or counter is too long: shorten it ([why](MAKE_YOUR_OWN_TRANSLATION.md#widget-capacity-what-freezes-the-game)). |
 | `UnicodeEncodeError` in the console | Set `PYTHONIOENCODING=utf-8` (step 3). |
 | `OSError: cannot open resource` (fonts) | A candidate TrueType file is missing; see step 4. |
+| `crash_watch`: waits forever for PCSX2 | PINE is off, or on another slot (`--port`). |

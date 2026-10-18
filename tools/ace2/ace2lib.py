@@ -8,7 +8,12 @@ Containers
   inner binder             'BND\\0' | +4 size | +8 count | (id, offset) pairs @16, payloads 32-aligned
   packed                   ACE3 LZSS: 00 01 00 00 | unpacked size BE | 0 | body
   text table               magic 0x10000, size, 0, ranges, count, pointer array, 0 | ranges | pointers | CP932 pool
-  mission container        00 01 00 00 ... | +8..+12 sub-table records (id, offset) x16 | +20 pointer to the dialogue table
+  mission container        00 01 00 00 | +4 list C (or total size) | +8 list A | +12 list B | +16 list D | +20 dialogue
+                           table | +24 second table | +28 counts A, B, D, C (bytes) | +32 last section (48-byte header)
+                           lists A, B, D: 16-byte records (id, offset, 0, 0); list A = enemy-name sub-tables
+                           list C: (id, name table, 256x128 portrait image, 0)
+                           Sections hold no container offsets (twins 6### / 42### carry them byte-identical at other
+                           offsets), so a table can grow in place while the sections after it move (mission_relayout).
 """
 import hashlib
 import struct
@@ -312,15 +317,124 @@ def mission_table(data):
         return None
 
 
-def mission_rebuild(data, texts):
-    """ACE3 method: append the rebuilt table (32-aligned) and repoint +20; everything else stays byte-identical."""
-    at, table = mission_table(data)
-    new_table = table.rebuild(texts)
-    start = align(len(data), 32)
-    out = bytearray(data + bytes(start - len(data)) + new_table)
-    struct.pack_into('<I', out, 20, start)
-    require(out[:20] == data[:20] and out[24:len(data)] == data[24:], 'Mission container modified outside +20')
+def mission_fields(data):
+    """Positions of the words of a mission container that hold an offset ('off') or its total size ('size').
+    Two header layouts: lists from 0x20 (+4 = total size when there is no list C) or from 0x30 (+32 = last section)."""
+    h = struct.unpack_from('<9I', data)
+    counts = data[28:32]
+    require(h[2] in (0x20, 0x30), 'Unknown mission container header')
+    short = h[2] == 0x20
+    fields = [(4, 'size' if short and not counts[3] else 'off')] + [(at, 'off') for at in (8, 12, 16, 20, 24)]
+    if not short:
+        fields.append((32, 'off'))
+    lists = [(h[2], counts[0], (4,)), (h[3], counts[1], (4,)), (h[4], counts[2], (4,))]
+    if counts[3]:
+        lists.append((h[1], counts[3], (4, 8)))
+    for start, n, words in lists:
+        if start:
+            fields.extend((start + 16 * i + w, 'off') for i in range(n) for w in words)
+    return fields
+
+
+def mission_relayout(data, replace):
+    """Mission container with text tables replaced where they are: replace = {table offset: new table bytes}.
+    Each new table takes the place of the old one, whatever its size; every byte after it moves by the difference and
+    every offset field follows (mission_fields). The Japanese table does not stay behind as dead weight: the
+    container is loaded whole into the game's single memory arena, which has no room to spare (ESTUDO 8.6)."""
+    fields = mission_fields(data)
+    regions = []
+    for off, new in sorted(replace.items()):
+        old = TextTable(data[off:]).size
+        require((len(new) - old) % 16 == 0, 'Table size change breaks the 16-byte alignment of later sections')
+        require(not regions or regions[-1][1] <= off, 'Overlapping tables in mission container')
+        regions.append((off, off + old, new))
+
+    def move(v):
+        shift = 0
+        for a, b, new in regions:
+            if v >= b:
+                shift += len(new) - (b - a)
+            else:
+                require(v <= a, 'Offset 0x%x points inside a replaced table' % v)
+        return v + shift
+
+    out = bytearray()
+    pos = 0
+    for a, b, new in regions:
+        out += data[pos:a] + new
+        pos = b
+    out += data[pos:]
+    patched = set()
+    for at, kind in fields:
+        v = u32(data, at)
+        if kind == 'size':
+            require(v == len(data), 'Mission container size field mismatch')
+            struct.pack_into('<I', out, move(at), len(out))
+        elif v:
+            struct.pack_into('<I', out, move(at), move(v))
+        patched.add(move(at))
+    # everything but the replaced tables and the offset fields is the original, moved
+    pos = 0
+    for a, b, new in regions + [(len(data), len(data), b'')]:
+        seg_old, seg_new = bytearray(data[pos:a]), bytearray(out[move(pos):move(pos) + a - pos])
+        for p in patched:
+            if move(pos) <= p < move(pos) + a - pos:
+                seg_old[p - move(pos):p - move(pos) + 4] = seg_new[p - move(pos):p - move(pos) + 4] = b'\0\0\0\0'
+        require(seg_old == seg_new, 'Mission container bytes changed outside the replaced tables')
+        pos = b
     return bytes(out)
+
+
+# ---------------------------------------------------------------- VMD model packages
+
+# Text chunks of a partner model package (O:\sr\model\partner\pNNN): PMS = the partner's battle chatter, PPN1/PPN2 =
+# pilot names. Each holds a 16-byte chunk header and a text table; the bytes after the table are leftover strings
+# no pointer reaches (kept as they are). FNM (model name, in every model) is not included.
+VMD_TEXT = (b'PMS\0', b'PPN1', b'PPN2')
+
+
+def vmd_chunks(data):
+    """[(offset, magic, size)] of the top-level chunks of a VMD package ('VMD\\0' ... 'END\\0'), or None. The game walks
+    the chain by sizes (no chunk offset is stored anywhere), chunks start 16-aligned."""
+    if data[:4] != b'VMD\0':
+        return None
+    out, at = [], 0
+    while at < len(data):
+        if at + 16 > len(data):
+            return None
+        magic, size = data[at:at + 4], u32(data, at + 4)
+        if size < 16 or at + size > len(data):
+            return None
+        out.append((at, magic, size))
+        at = align(at + size, 16)
+    return out if at == len(data) else None
+
+
+def vmd_replace(data, magic, fn):
+    """VMD package with the text table of chunk `magic` replaced by fn(table bytes); the chunk grows or shrinks with
+    it and every later chunk moves (nothing else changes)."""
+    chunks = vmd_chunks(data)
+    require(chunks is not None, 'Not a VMD package')
+    at, _, size = next(c for c in chunks if c[1] == magic)
+    table = TextTable(data[at + 16:at + size])
+    new = fn(data[at + 16:at + 16 + table.size])
+    require((len(new) - table.size) % 16 == 0, 'VMD text table size change breaks chunk alignment')
+    chunk = bytearray(data[at:at + 16] + new + data[at + 16 + table.size:at + size])
+    struct.pack_into('<I', chunk, 4, len(chunk))
+    out = data[:at] + bytes(chunk) + data[at + size:]
+    after = vmd_chunks(out)
+    require(after is not None and [(m, s) for _, m, s in after if m != magic] == [(m, s) for _, m, s in chunks if m != magic],
+            'VMD chunk chain changed')
+    return out
+
+
+def mission_text_bytes(data):
+    """Bytes taken by the dialogue table and the enemy-name sub-tables of a mission container. A rebuilt container
+    must grow exactly by the growth of this number (no dead tables left in the game's memory arena)."""
+    at, t = mission_table(data)
+    sizes = {at: t.size}
+    sizes.update((off, st.size) for sid, off, st in small_tables(data))
+    return sum(sizes.values())
 
 
 def small_tables(data):

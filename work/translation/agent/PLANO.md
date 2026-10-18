@@ -172,7 +172,7 @@ O revisor roda o validador e grava `validation/<LOTE>.md`.
   à parte (`reviewer_fixes.json`). Sua entrega não é editada.
 - **REJEITADO:** corrija só as linhas citadas, no próprio `returns/<LOTE>.json`, e entregue de novo.
 
-## 7. Lotes fora das operações (`xa`, `xb`, `xc`, `xd`, `xm_*`)
+## 7. Lotes fora das operações (`xa`, `xb`, `xc`, `xd`, `xp`, `xm_*`)
 
 Mesmo formato, mesmas regras técnicas e mesmo checklist. O campo `group_label` diz o que é cada grupo.
 
@@ -182,6 +182,7 @@ Mesmo formato, mesmas regras técnicas e mesmo checklist. O campo `group_label` 
 | `xb` | Tutorial / manual em jogo | Tom instrutivo e claro. Vocabulário de sistema conforme o GLOSSARIO (Ace Points, Module, Free Mission, Combo, Sub Combo, Lock-on, Dash, vernier...). Ícones de botão com "button" ("Press the △ button"). |
 | `xc` | Flashbacks Tak × Marina (054–057) | Spoiler: traduza exatamente o que o texto diz. Tak e Marina mais jovens, ainda em treinamento. |
 | `xd` | Missões curtas e de sistema | Muitas são linhas soltas; leia o contexto antes. |
+| `xp` | Falas de combate do parceiro que o jogador escolhe (107 parceiros, `partnerNNN`), ditas em qualquer missão | Quem fala está em `phase` ("speaker: Kou \| unit: GP01"; com "+" quando há duas vozes, como Daba + Lilith). Falas curtas de batalha: voz e tratamento do personagem (Gato formal, Duo informal...), contrações onde o personagem fala solto. Sem contexto de missão: não invente alvo nem situação. Nomes chamados na fala ("ダバ、あっちにもいる！") pelo GLOSSARIO. Mesma janela do diálogo de missão (2 linhas, 380 px). |
 | `xm_menuNNNN` | Uma tela de menu cada (inclui a enciclopédia, `menu3019`, e as mensagens privadas, `menu3029`) | Rótulos curtos e consistentes entre telas. Textos de enciclopédia em tom enciclopédico, terceira pessoa, sem contrações. As mensagens privadas são cartas pessoais (Barkholz, Nina, Inez...): tom de cada um, e spoilers como no texto. |
 
 **Largura nos menus:** as caixas dos menus ainda não foram medidas. `max_line_px` é provisório (a maior linha

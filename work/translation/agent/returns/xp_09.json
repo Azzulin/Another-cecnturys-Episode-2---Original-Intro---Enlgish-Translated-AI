@@ -1,0 +1,1668 @@
+{
+ "batch": "xp_09",
+ "operation": null,
+ "group": "xp",
+ "group_label": "Partner battle chatter: the lines of the partner unit the player picks, said during any mission. The speaker of each row is in \"phase\".",
+ "previous_batch": "xp_08",
+ "next_batch": "xp_10",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Amuro Ray",
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "ズワァース",
+   "en": "Zwarth",
+   "kind": "unit",
+   "series": "Aura Battler Dunbine",
+   "role": "Most powerful late-war Drake Aura Battler; the Black Knight's unit"
+  },
+  {
+   "ja": "オーラ力",
+   "en": "Aura Power",
+   "kind": "term",
+   "series": "Aura Battler Dunbine",
+   "role": "The aura energy of a pilot; also the name of a Dunbine-family ability that multiplies attack power for a while (Weapon 6)."
+  },
+  {
+   "ja": "ショウ",
+   "en": "Show",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Protagonist; Holy Warrior (Seisenshi) from Tokyo summoned to Byston Well; defects from Drake Luft to the resistance; pilots Dunbine, later Billbine",
+   "personality": "Hot-blooded, stubborn young motocross racer who grows into a serious, driven warrior. Has huge Aura Power but struggles to control it. Has unspoken feelings for Marvel.",
+   "full_name": "Sho Zama"
+  },
+  {
+   "ja": "チャム",
+   "en": "Cham",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "female",
+   "role": "Mi Ferario (fairy) companion of Sho",
+   "personality": "Tiny, noisy and emotional; Sho's cheerleader. She sides with him loudly against enemies and critics and senses tension before anyone else.",
+   "full_name": "Cham Huau"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  }
+ ],
+ "known_portraits": {},
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "partner062#27",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>落ち着けよ！　あんたならやれる！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#28",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>死に急ぐなよ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#29",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>こんなことなら私が引っ張ったほうが\n良いんじゃない？<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#30",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>その腕なら一人でも十分だね。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#31",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>俺の出る幕がないな。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#32",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>ともに戦う仲間として頼もしいな。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#33",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>なかなかやるじゃないか！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#34",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>あんた、さすがだな。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#35",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>あんたといれば安心だ。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#36",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>敵が来たぞ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#37",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>敵はいつまでもつんだ…！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#38",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>行った行った行った！<ab(0)><ed()>",
+   "en": ""
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "partner065#8",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>何機やれるか、勝負だね！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner065#9",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>地上人だからってなめるんじゃないよ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner065#10",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>私の分をとったら承知しないよ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner065#11",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>レプラカーンのほうが、力が上のはずだ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner065#12",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>うっとうしい連中だ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner065#13",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>くそ！　調子に乗るな！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner065#14",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>割に合わない仕事だね！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner065#15",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>ちょっと！\n下がったほうがよくないかい！？<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner065#16",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>冗談じゃないよ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner065#17",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>このレプラカーンで落としてみせる！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner065#18",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>さあて、何機落としてやろうか！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner065#19",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>あたしは大物狙いがいいのさ！<ab(0)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Translated by Claude (not the external agent) at the user's request, 2026-10-10. Partner battle chatter, Show (ショウ) + Cham (チャム), Black Knight (黒騎士), Jeryll (ジェリル).",
+  "rows_examined": "partner062#39..partner065#7",
+  "rows_examined_count": 80,
+  "uncertainties": [
+   "partner064#46 ヤルフの神: no glossary entry; rendered \"the god Yarf\".",
+   "蚊トンボ (Black Knight) rendered \"gnats\"."
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ },
+ "rows": [
+  {
+   "ref": "partner062#39",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>来たっ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Here it comes!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#40",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ショウ、来るよ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Show, here they come!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#41",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ショウー！　援軍が近づいてくるわー！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Shooow! Reinforcements are coming!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#42",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あんなのは知らないぞ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I've never seen anything like that.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#43",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あの敵、他のとは違う。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>That enemy is different from the others.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#44",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何だ、この力は…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>What is this power...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#45",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こいつは…違う！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>This one's... different!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#46",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今までの敵とは違うわ…\n何かひどく悪い敵よ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>It's not like the enemies so far... It's something really evil.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#47",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>きゃあ！　ショウ、早くやっつけてー！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Eek! Show, hurry and beat it!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#48",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>みんな無事か？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Is everyone okay?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#49",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>終わったのか。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Is it over?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#50",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何とかなったようだな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Looks like we pulled through.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#51",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…やれたのか？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>...Did we get them?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#52",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>大丈夫！？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Are you okay!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#53",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>無事でよかった…帰ろう！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Glad you're safe... let's go home!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#54",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>うまくやってやるさ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll pull it off.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#55",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>チャム、しっかりつかまってろ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Cham, hold on tight!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#56",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>怪我してない？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You're not hurt?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#0",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>己の力の無さを知るがいい。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Learn how powerless you are.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#1",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前にばかりいい格好はさせん！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I won't let you hog all the glory!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#2",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>私は勝ちたい！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I want to win!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#3",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>買いかぶられたものだな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You overestimate me.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#4",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>もらった！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You're mine!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#5",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いちいち小賢しい……<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Impudent at every turn...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#6",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>落ちろ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Fall!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#7",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>逃がさんぞ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You won't escape!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#8",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やらせん！！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I won't let you!!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#9",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>天は我に味方をしてくれた！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Heaven is on my side!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#10",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>蚊トンボなどにやられはせん！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I won't be beaten by mere gnats!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#11",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>私に続け！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Follow me!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#12",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>うろたえるな。\n無駄なエネルギーを消耗するだけだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't panic. You'll only waste energy.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#13",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なぜ、落ちない！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Why won't you fall!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#14",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くっ…このままでは負けるか！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Ngh... will I lose at this rate!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#15",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>結果さえ良ければ、一時の屈辱など！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>As long as the result is good, a moment of humiliation is nothing!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#16",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ここで終わるわけにはいかん！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I can't end here!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#17",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>行くぞ。　向こうは用意万全らしい。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Let's go. It seems they're fully prepared.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#18",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このズワァースの性能なら、\n何とでもなる！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>With the Zwarth's performance, I can handle anything!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#19",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>行くぞっ！！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Here I go!!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#20",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>我々の力をもってすれば！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>With our power...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#21",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>勝負だっ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Let's settle this!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#22",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>私の邪魔にはなるなよ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't get in my way.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#23",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どうした？　何をしている！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>What's wrong? What are you doing!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#24",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵を侮るな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't underestimate the enemy.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#25",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>所詮、貴様には無理なのか。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>So it's beyond you after all.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#26",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>つまらん戦い方だ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>A dull way to fight.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#27",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>もう少しやれると思ったが。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I thought you could do a bit better.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#28",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今は耐えるのだ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Endure for now!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#29",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>その腕なら私とも対等に戦えるかもな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>With those skills, you might even be my equal.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#30",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>見事な腕前だな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Splendid skill.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#31",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前には力がある。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You have power.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#32",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さすがだ。　認めよう。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Impressive. I'll grant you that.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#33",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前の力には敬服する。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I admire your strength.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#34",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>援軍か！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Reinforcements!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#35",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>蚊トンボめ、落としてやる。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Gnats. I'll shoot you down.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#36",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>新たな敵か！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>A new enemy!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#37",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>小賢しい！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Impudent!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#38",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>蚊トンボがまだ来るか！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>More gnats!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#39",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お前の力、とくと見せてもらう。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Show me your power in full.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#40",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>感じる…強敵か！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I sense it... a strong foe!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#41",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>勝負だ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Let's settle this!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#42",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>相手に不足はなさそうだ、行くぞ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Seems a worthy opponent. Here I come!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#43",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>そいつは侮れんぞ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't underestimate that one.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#44",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>働きは見事と言っておこう。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll grant that you did splendid work.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#45",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>頃合いだな、これより戻る。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>It's about time. Returning now.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#46",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ヤルフの神のさい配か…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Is this the will of the god Yarf...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#47",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>終わったな、戻るぞ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>It's over. We're going back.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#48",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>私にもまだ運はあるようだな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>It seems I still have some luck.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#49",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今は勝ち続けるしかないのだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>For now, I can only keep winning.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#50",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ええい！　何ということだ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Blast! What is this!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#51",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やってみせる！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll do it!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#52",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>私にも運がめぐってきた！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Luck has finally come my way!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#53",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>結果さえ見せれば！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>If I can just show results!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner064#54",
+   "layer": "partner chatter",
+   "phase": "speaker: Black Knight (黒騎士) | unit: Zwarth (ズワァース)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この機体で、負けるはずはない！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>With this unit, there's no way I can lose!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner065#0",
+   "layer": "partner chatter",
+   "phase": "speaker: Jeryll (ジェリル) | unit: Leprechaun (レプラカーン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ヒロインは私一人でいいのさ！！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>There only needs to be one heroine, and that's me!!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner065#1",
+   "layer": "partner chatter",
+   "phase": "speaker: Jeryll (ジェリル) | unit: Leprechaun (レプラカーン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このあたしのオーラ力にかなうもんか！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Nobody can match my Aura Power!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner065#2",
+   "layer": "partner chatter",
+   "phase": "speaker: Jeryll (ジェリル) | unit: Leprechaun (レプラカーン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>運が出てきたようだね、あたしにも！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Looks like my luck's turning too!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner065#3",
+   "layer": "partner chatter",
+   "phase": "speaker: Jeryll (ジェリル) | unit: Leprechaun (レプラカーン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なめるな！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't underestimate me!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner065#4",
+   "layer": "partner chatter",
+   "phase": "speaker: Jeryll (ジェリル) | unit: Leprechaun (レプラカーン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…快感ね。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>...This feels good.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner065#6",
+   "layer": "partner chatter",
+   "phase": "speaker: Jeryll (ジェリル) | unit: Leprechaun (レプラカーン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どんどんかかってきな！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Come at me, all of you!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner065#7",
+   "layer": "partner chatter",
+   "phase": "speaker: Jeryll (ジェリル) | unit: Leprechaun (レプラカーン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ハハハハハハッ！！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Hahahahaha!!<ab(0)><ed()>",
+   "notes": ""
+  }
+ ]
+}

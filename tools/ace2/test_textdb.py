@@ -3,13 +3,15 @@
 Every exported row gets a synthetic ASCII translation about 1.5x the bytes of its Japanese source, keeping the control
 tokens in order. Every touched resource is rebuilt with textdb.patch_resource and then checked:
   - each copy's table parses and carries exactly the synthetic rows (untouched rows unchanged)
-  - mission containers keep every byte outside +20, the sub-table records and the appended tail
+  - mission containers grow exactly by the growth of their text tables (no dead Japanese table left behind; the
+    non-text bytes themselves are checked by ace2lib.mission_relayout)
   - the disc plan still fits the image (DATA.BIN growth absorbed by the empty tail)
 """
 import collections, struct, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
-from ace2lib import BASE, Disc, TextTable, mission_table, small_tables, inner_entries, unpack, require, u32
+from ace2lib import BASE, Disc, TextTable, mission_table, mission_text_bytes, small_tables, inner_entries, unpack, require, \
+    vmd_chunks
 from textdb import discover, group, patch_resource, _split, TOKEN, JPC
 from export_text import wanted
 from disc import plan
@@ -63,15 +65,18 @@ def main():
         if parts and parts[-1] == ':m':
             got = mission_table(data)[1].rows
             src = locate(disc.get(rid), parts)
-            require(data[:20] == src[:20] and data[24:u32(src, 8)] == src[24:u32(src, 8)], 'Header bytes changed in ' + loc)
-            first, end = u32(src, 8), u32(src, 12)
-            for rec in range(first, end, 16):
-                require(data[rec:rec + 4] == src[rec:rec + 4] and data[rec + 8:rec + 16] == src[rec + 8:rec + 16], 'Record changed in ' + loc)
+            require(len(data) - len(src) == mission_text_bytes(data) - mission_text_bytes(src),
+                    'Mission container carries dead bytes: ' + loc)
             checked['mission tables'] += 1
         elif parts and parts[-1].startswith(':s'):
             sid = int(parts[-1][2:])
             got = next(t.rows for s, off, t in small_tables(data) if s == sid)
             checked['unit-name sub-tables'] += 1
+        elif parts and parts[-1].startswith(':v'):
+            magic = parts[-1][2:].encode().ljust(4, b'\0')
+            at, _, size = next(c for c in vmd_chunks(data) if c[1] == magic)
+            got = TextTable(data[at + 16:at + size]).rows
+            checked['partner package tables'] += 1
         else:
             got = TextTable(data).rows
             checked['tables'] += 1

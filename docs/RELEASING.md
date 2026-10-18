@@ -21,7 +21,8 @@ $env:PYTHONIOENCODING = 'utf-8'
 .venv\Scripts\python.exe tools\ace2\audit_iso.py work\output\ACE2-EN-0.1.0.iso
 ```
 
-The audit must end in `PASS`. Then test the image in PCSX2.
+The audit must end in `PASS`. Then test the image in PCSX2 (with `tools/research/crash_watch.py` running, if you can:
+it catches text overflows the moment they happen).
 
 ### 2. Changelogs
 
@@ -59,7 +60,7 @@ ignored by git.
 
 ```
 git add -A
-git status            # no .iso, .xdelta or .PSS must appear
+git status            # no .iso, .xdelta, .PSS, .p2s, .7z or work/crash/ must appear
 git commit -m "Release 0.1.0"
 git tag -a v0.1.0 -m "English patch 0.1.0"
 git push origin main --tags
@@ -83,6 +84,39 @@ gh release create v0.1.0 work/release/ACE2-EN-0.1.0.xdelta work/release/ACE2-EN-
 ```
 
 GitHub accepts assets up to 2 GiB each; the patch is far smaller.
+
+## Updating the repository from the working folder
+
+The maintainers work in a synced folder that is **not** a git repository (it also holds the ISOs, PCSX2 captures
+and the translator's quarantined files). To publish its state, copy it over a clone and let git show the
+difference:
+
+1. A clone outside the working folder, with line endings normalized the way the repository stores them (LF):
+
+   ```
+   git clone https://github.com/Azzulin/Another-cecnturys-Episode-2---Original-Intro---Enlgish-Translated-AI.git ace2-repo
+   cd ace2-repo
+   git config core.autocrlf input
+   ```
+
+2. Replace `tools/` and `work/` of the clone with the working folder's, and copy `docs/`, `README.md`,
+   `CHANGELOG.md`, `AGENTS.md`, `requirements.txt` and `.gitignore` over. Leave out the ISOs, `.venv/`,
+   `__pycache__/`, `work/crash/`, `work/output/_test/`, `work/output/*.iso` and
+   `work/translation/agent/_quarentena_*/` (most are in `.gitignore`, but copying them wastes gigabytes). For example,
+   from Git Bash:
+
+   ```
+   rm -rf tools work
+   tar -C "<working folder>" --exclude='__pycache__' --exclude='*.iso' --exclude='work/crash' \
+       --exclude='work/output/_test' --exclude='work/translation/agent/_quarentena_*' \
+       -cf - tools work docs README.md CHANGELOG.md AGENTS.md requirements.txt .gitignore | tar -xf -
+   ```
+
+3. `git status`: nothing unexpected deleted (a file that exists only in the repository means the working folder is
+   missing it: copy it back there first), and no game data (`.iso`, `.PSS`, `.p2s`, `.7z`, RAM dumps).
+4. Recommended: build from the clone (with the ISOs in its root) and check the SHA-256 equals the one in the latest
+   `work/output/ACE2-EN-<version>.json`: then the repository reproduces the audited build.
+5. Commit and push (step 5 above, without the tag when there is no release).
 
 ## Release notes template
 

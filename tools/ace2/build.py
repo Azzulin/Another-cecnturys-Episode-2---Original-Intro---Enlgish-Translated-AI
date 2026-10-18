@@ -10,6 +10,8 @@ Applies:
           bundles 38000-38006 and the menu bundles 62050-62057
   movie   /MOVIE0/MOVIE001.PSS taken whole from the original 2006 disc (opening with "Glorious");
           --svv-opening keeps the Special Vocal opening (for those without the 2006 disc; swap_movie.py adds it later)
+  exe     /SLPS_258.29 with the stack/heap boundary 256 KB higher, so the game's memory arena has room for the
+          translation (exe.py; the only change to the executable)
 Layout: see disc.py (DATA.BIN may grow; later files move into the empty disc tail; ISO9660 + UDF rewritten).
 """
 import argparse, collections, hashlib, json, sys, time
@@ -18,8 +20,9 @@ sys.path.insert(0, str(Path(__file__).parent))
 from ace2lib import ROOT, BASE, ORIGINAL_RELEASE, BASE_EXE, Disc, inner_entries, inner_rebuild, require
 from textdb import discover, group, patch_resource, _split
 from fonts import complete
-from validate import check_row
+from validate import check_row, check_counters
 from disc import plan, write_disc
+import exe
 
 EN = ROOT / 'work' / 'translation' / 'en'
 OUT = ROOT / 'work' / 'output'
@@ -40,9 +43,11 @@ def load_translations():
         for r in doc['rows']:
             if not r.get('en'):
                 continue
-            for p in check_row(r['jp'], r['en']):
+            for p in check_row(r['jp'], r['en'], doc['table']):
                 problems.append('%s ids %s: %s' % (doc['table'], r['ids'], p))
             rows[r['jp']] = r['en']
+        for p in check_counters(doc['table'], [(r['jp'], r.get('en')) for r in doc['rows']]):
+            problems.append('%s: %s' % (doc['table'], p))
         if rows:
             out[doc['table']] = rows
     if problems:
@@ -121,6 +126,7 @@ def main():
     t = time.time()
     new = b.fonts(b.text())
     swaps = {} if args.svv_opening else {MOVIE: (ORIGINAL_RELEASE, MOVIE)}
+    swaps[BASE_EXE] = exe.patch(exe.read_exe(disc))
     summary = dict(version=args.version, **plan(BASE, new, swaps))
     summary['tables'] = b.report['tables']
     summary['fonts'] = b.report['fonts']

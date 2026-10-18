@@ -7,7 +7,7 @@ import argparse, collections, sys, time
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from ace2lib import BASE, BASE_EXE, Disc, inner_entries, inner_rebuild, try_unpack, unpack, pack, TextTable, \
-    mission_table, mission_rebuild, small_tables, require, u32
+    mission_table, mission_relayout, small_tables, require, u32, vmd_chunks, vmd_replace, VMD_TEXT
 
 
 def walk(data, path, depth, visit):
@@ -47,11 +47,23 @@ def main():
         if try_unpack(data) is not None:
             packed.append((path, len(data)))
             stats['packed'] += 1
+        chunks = vmd_chunks(data)
+        if chunks:
+            for at, magic, size in chunks:
+                if magic in VMD_TEXT:
+                    require(vmd_replace(data, magic, lambda table: table) == data, 'VMD identity at %s %r' % (path, magic))
+                    t = TextTable(data[at + 16:at + size])
+                    new = vmd_replace(data, magic, lambda table: TextTable(table).rebuild({}))
+                    require(vmd_chunks(new) is not None, 'VMD chain after rebuild at ' + path)
+                    stats['partner package tables'] += 1
+                    stats['rows'] += len(t.rows)
+            return
         mt = mission_table(data)
         if mt:
             at, table = mt
-            new = mission_rebuild(data, {})
-            require(TextTable(new[u32(new, 20):]).rows == table.rows, 'mission rebuild rows at ' + path)
+            require(mission_relayout(data, {at: data[at:at + table.size]}) == data, 'mission relayout identity at ' + path)
+            new = mission_relayout(data, {at: table.rebuild({})})
+            require(TextTable(new[u32(new, 20):]).rows == table.rows, 'mission relayout rows at ' + path)
             for sid, off, t in small_tables(data):
                 require(TextTable(t.rebuild({})).rows == t.rows, 'sub-table rebuild at %s/%d' % (path, sid))
                 stats['mission sub-tables'] += 1

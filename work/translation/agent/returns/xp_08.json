@@ -1,0 +1,1658 @@
+{
+ "batch": "xp_08",
+ "operation": null,
+ "group": "xp",
+ "group_label": "Partner battle chatter: the lines of the partner unit the player picks, said during any mission. The speaker of each row is in \"phase\".",
+ "previous_batch": "xp_07",
+ "next_batch": "xp_09",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Amuro Ray",
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "ダンバイン",
+   "en": "Dunbine",
+   "kind": "unit",
+   "series": "Aura Battler Dunbine",
+   "role": "Title Aura Battler; Sho's first unit; Marvel's playable unit in ACE2"
+  },
+  {
+   "ja": "オーラ力",
+   "en": "Aura Power",
+   "kind": "term",
+   "series": "Aura Battler Dunbine",
+   "role": "The aura energy of a pilot; also the name of a Dunbine-family ability that multiplies attack power for a while (Weapon 6)."
+  },
+  {
+   "ja": "ショウ",
+   "en": "Show",
+   "kind": "character",
+   "series": "Aura Battler Dunbine",
+   "gender": "male",
+   "role": "Protagonist; Holy Warrior (Seisenshi) from Tokyo summoned to Byston Well; defects from Drake Luft to the resistance; pilots Dunbine, later Billbine",
+   "personality": "Hot-blooded, stubborn young motocross racer who grows into a serious, driven warrior. Has huge Aura Power but struggles to control it. Has unspoken feelings for Marvel.",
+   "full_name": "Sho Zama"
+  },
+  {
+   "ja": "機体",
+   "en": "unit / machine",
+   "kind": "term",
+   "note": "Op 01 uses 'unit' for mecha in general, 'machine' when the speaker is the developer"
+  }
+ ],
+ "known_portraits": {},
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "partner052#21",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>気をつけたまえ、ただの敵ではない。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner052#22",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>サザビー、これより帰還する。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner052#23",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>これ以上の長居は無用だ。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner052#24",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>何ということもなかったな。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner060#0",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>後ろに回りこむ？\nいいえ、焦ったら負け！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner060#1",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>どうしてもやらせないというのなら…！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner060#2",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>敵のパワーも上がっている…\n気をつけて！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner060#3",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>落ちなさいっ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner060#4",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>ここで止めなくては…！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner060#5",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>善悪の見境もなしに、\n悪人に手を貸す馬鹿な人！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner060#6",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>オーラ力さえ出せれば！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner060#7",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>どきなさい！<ab(0)><ed()>",
+   "en": ""
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "partner062#39",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>来たっ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#40",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>ショウ、来るよ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#41",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>ショウー！　援軍が近づいてくるわー！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#42",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>あんなのは知らないぞ。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#43",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>あの敵、他のとは違う。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#44",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>何だ、この力は…！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#45",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>こいつは…違う！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#46",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>今までの敵とは違うわ…\n何かひどく悪い敵よ。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#47",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>きゃあ！　ショウ、早くやっつけてー！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#48",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>みんな無事か？<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#49",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>終わったのか。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner062#50",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>何とかなったようだな。<ab(0)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Translated by Claude (not the external agent) at the user's request, 2026-10-10. Partner battle chatter, Marvel (マーベル), Show (ショウ) + Cham (チャム).",
+  "rows_examined": "partner060#8..partner062#38",
+  "rows_examined_count": 80,
+  "uncertainties": [
+   "The Japanese row carries a stray spreadsheet cell reference (C235 after <ed()> in partner060#48); kept verbatim, as in the original.",
+   "The Japanese row carries a stray spreadsheet cell reference (C68 at the start of partner060#51); kept verbatim, as in the original."
+  ],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ },
+ "rows": [
+  {
+   "ref": "partner060#8",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やらせるわけには！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I can't let them!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#9",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このダンバインなら！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>With this Dunbine...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#10",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ごめん…どうしたっていうの！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Sorry... what's happening!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#11",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>すこし危険ね…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>This is a bit dangerous...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#12",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まだ戦えるわ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I can still fight!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#13",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ダンバインでも苦戦するなんて…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Even the Dunbine is struggling...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#15",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>やるわよ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Let's do this!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#16",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>私に任せて！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Leave it to me!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#17",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>援護するわ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll cover you!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#18",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>邪念があっては駄目よ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't let impure thoughts cloud you!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#19",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ここで持ちこたえないと！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We have to hold out here!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#20",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まだ負けていないわ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We haven't lost yet!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#21",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まだ大丈夫、戦えるわ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'm still fine. I can fight!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#22",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あきらめてはだめ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't give up!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#23",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さすがね。　これからは、あてにしていい？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Impressive. Can I count on you from now on?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#24",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さすがね、よくやるわ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Impressive. You're doing well.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#25",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>凄い力…頼もしいわね。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Incredible power... you're reliable.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#26",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>見直したわ、やるわね。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I underestimated you. Nice work.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#27",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あなたと一緒なら負ける気がしないわ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>With you, I don't feel like we can lose.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#28",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>援軍！　何機いるの？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Reinforcements! How many are there?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#29",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>また来る！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>More are coming!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#30",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この反応…援軍か！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>This reading... reinforcements!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#31",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この反応…援軍なの！？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>This reading... are those reinforcements!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#32",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵軍が来るわ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Enemy forces incoming!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#33",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>気をつけて！　手強いわ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Be careful! This one's tough!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#34",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>警戒して！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Stay on guard!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#35",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この敵は違う…気をつけて！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>This enemy is different... be careful!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#36",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この敵は…他のと違う！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>This enemy is... different from the others!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#37",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こんな奴には…負けない！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I won't... lose to the likes of this!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#38",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>みんな、怪我はなくって？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Is everyone unhurt?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#39",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>みんな…やったの…？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Everyone... did we do it...?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#40",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>無事で何よりだわ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'm glad you're safe.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#41",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>戻りましょう。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Let's go back.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#42",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何とか終わったわね…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We somehow made it through...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#43",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こんなに押されるなんて…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>To be pushed back this much...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#44",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何という敵なの…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>What an enemy...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#45",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よくも次々と繰り出して！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>How dare they keep sending more!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#46",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何て相手！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>What an opponent!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#47",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あの敵は違う…普通じゃない！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>That enemy is different... it's not normal!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#48",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵も本気なら、こちらだって！<ab(0)><ed()>C235",
+   "en": "<op()><sp(20)>If the enemy's serious, then so are we!<ab(0)><ed()>C235",
+   "notes": "Stray spreadsheet reference in the Japanese, kept verbatim."
+  },
+  {
+   "ref": "partner060#49",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ダンバイン、戻ります。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Dunbine, returning.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#50",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これでしばらくは休めるわ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Now we can rest for a while.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner060#51",
+   "layer": "partner chatter",
+   "phase": "speaker: Marvel (マーベル) | unit: Dunbine (ダンバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>C68オーラ力が、守ってくれた…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>C68The Aura Power protected me...<ab(0)><ed()>",
+   "notes": "Stray spreadsheet reference in the Japanese, kept verbatim."
+  },
+  {
+   "ref": "partner062#0",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あの機体を落とす！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll shoot that unit down!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#1",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>気の毒だが運が無かったな！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Sorry, but your luck just ran out!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#2",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>たいしたことはない！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>That's nothing!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#3",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なぜその力を良い側に使おうとしないんだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Why won't you use that power for good?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#4",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ショウ、右っ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Show, on the right!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#5",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ショウ、ショウっ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Show, Show!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#6",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>逃げるっ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>It's getting away!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#7",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あまり調子に乗るなよ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't get cocky!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#8",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>良いわ！　そこよそこよ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Good! Right there, right there!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#9",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>力押しなら、負けはしない！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>If it's a contest of strength, I won't lose!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#10",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>一撃で仕留めてみせる！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll take it down in one hit!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#12",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>力を合わせればこのくらいは！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>If we work together, this is nothing!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#13",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>当たれー！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Hit them!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#14",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>何でこんなことが起こるんだよ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Why is this happening!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#15",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まったく！　どいつもこいつも勝手だから！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Honestly! Every one of them does whatever they want!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#16",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くそっ！\n俺たちの力ではどうにもならないのか！？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Damn! Is there nothing our power can do!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#17",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>負けはしない…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I won't lose...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#18",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>劣勢だな…でもやられるか！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We're losing ground... but I won't go down!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#19",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あんたの手並み、\n見せてもらおうじゃないか。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Let's see what you can do.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#20",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>援護する！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll cover you!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#21",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>よし、行くぞ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>All right, let's go!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#22",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ショウ！　やっちゃえー！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Show! Get 'em!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#23",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今は戦うしかないんだな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>For now, all we can do is fight.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#24",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺たちなら行ける！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We can do this!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#25",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まだ負けたわけじゃないぞ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We haven't lost yet!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#26",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>大丈夫か！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Are you okay!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#27",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>落ち着けよ！　あんたならやれる！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Calm down! You can do this!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#28",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>死に急ぐなよ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't rush to your death!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#29",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こんなことなら私が引っ張ったほうが\n良いんじゃない？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>At this rate, wouldn't it be better if I took the lead?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#30",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>その腕なら一人でも十分だね。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>With skills like that, you're fine on your own.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#32",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ともに戦う仲間として頼もしいな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You're a reliable comrade to fight alongside.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#33",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なかなかやるじゃないか！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You're pretty good!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#34",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あんた、さすがだな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You're really something.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#35",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あんたといれば安心だ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I feel safe with you around.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#36",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵が来たぞ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Enemies incoming!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#37",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵はいつまでもつんだ…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>How long are they gonna keep this up...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner062#38",
+   "layer": "partner chatter",
+   "phase": "speaker: Show (ショウ) + Cham (チャム) | unit: Billbine (ビルバイン)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>行った行った行った！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Go, go, go!<ab(0)><ed()>",
+   "notes": ""
+  }
+ ]
+}

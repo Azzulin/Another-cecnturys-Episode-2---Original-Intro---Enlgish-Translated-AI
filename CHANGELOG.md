@@ -4,6 +4,43 @@ All builds so far are internal test builds (0.0.x). The detailed working log, in
 [docs/CHANGELOG.md](docs/CHANGELOG.md). SHA-256 values are of the full image with the "Glorious" opening, as written
 by `tools/ace2/build.py`.
 
+## Repository update — 2026-10-17 (no new build)
+
+- The repository now holds the 0.0.16 state: tools, all translations (including the partner chatter), working notes
+  and build reports 0.0.15/0.0.16. Building from this repository reproduces the audited 0.0.16 image byte for byte
+  (`888f11d1…4ac79e`); the `--svv-opening` build (`1608ce46…f40890`) plus `swap_movie.py` gives the same image.
+- `swap_movie.py`, `make_patch.py`, `build.py --svv-opening`, `audit_iso.py --svv-opening` and `ACE2_FONTS` carried
+  over to the new tools; the executable patch is now part of every build, with either opening.
+- Guides rewritten for 0.0.16: status and freezes, widget limits for translators, partner tables, PCSX2 notes (save
+  states and CRC), `crash_watch.py`, Python 3.12 or newer.
+- `.gitignore`: PCSX2 captures (`work/crash/`, `*.p2s`) and archives (`*.7z`) are never committed.
+
+## 0.0.16 — 2026-10-16
+
+- 0.0.15 froze at the same point of Op 11-1 (destroying the first solar facility). This time `crash_watch.py`
+  caught it: the HUD counter draws **label + "：" + value in one 32-character widget**, and
+  "Solar Facilities Destroyed：1 facilities" has 39 characters.
+- Counters shortened: Op 11-1 "Solar Facilities Destroyed：12"; Op 21-1 "Heavy Attackers Passed：7 units"; Op 22-2
+  "Resistance Facility：HP 100％".
+- `menu3056` (objectives on the mission data screens and Free Mission) uses the same 32-character widget: its 12
+  automatic copies now take the new objective text.
+- Validator: `check_counters` (label + 1 + value within 32, in the build and in `merge_fill.py`); the `widget` rule
+  also covers `menu3056`.
+- Mission files at most +800 bytes (6010), −12,176 bytes in total; partner packages at most +512.
+- 605 resources changed; audit PASS. SHA-256 `888f11d1e518cd45a7b71002cd041ee087e537e592d8e6d68cb8825f5b4ac79e`.
+
+## 0.0.15 — 2026-10-16
+
+- 0.0.14 froze in Op 11-1. Text widgets whose owner sets no capacity hold **32 characters** (both widget
+  classes): objectives, counters, labels, names, the conditions of MISSION INFORMATION and the pause help line.
+  The Op 11-1 objective "Destroy 12 or more solar facilities" had 35.
+- 27 lines rewritten within 32 characters ("Destroy 12+ solar facilities", "View abilities and commands."…): 20 in
+  `reviewer_fixes.json`, one automatic row in `auto/overrides.json`, the pause help in `_fill/hud3013.json`.
+- Validator rule `widget`: a plain one-line row of a mission or HUD table whose Japanese fits in 32 characters has at
+  most 32 in English (spaces count; `%d` counts as 3).
+- `crash_watch.py` lists both widget classes (79 widgets in the Op 12-1 capture).
+- 605 resources changed; audit PASS. SHA-256 `4281f242ee08eafeeeeded3aec95cff1482b53994e7cb11dec370fdeab9f5d1e`.
+
 ## Public repository and first patch — 2026-10-15
 
 - English documentation for players, builders, translators and maintainers (`README.md`, `docs/*.md`).
@@ -20,6 +57,51 @@ by `tools/ace2/build.py`.
   untouched Special Vocal Version into the English disc with the Special Vocal opening
   (`60227c82247a6954b2003cbbe142c7fc0e318604862f0f9984340213a9cec2aa`); `swap_movie.py` with the 2006 disc then gives
   exactly the audited 0.0.10 build (`3e8c6143…8c12`).
+- Note: the repository was published from the 0.0.10 state; builds 0.0.11–0.0.14 below were made before that date
+  and reached the repository on 2026-10-17.
+
+## 0.0.14 — 2026-10-10
+
+- Test of 0.0.13: cutscenes no longer freeze and gameplay was stable.
+- **Partners' battle chatter in English:** 107 partners, 6,138 lines (2,657 unique), 34 batches `xp_01`–`xp_34`
+  translated by Claude at the owner's request and validated like the other batches. One voice per character
+  (Gato and Zechs formal, Duo and Kaine loose, Rei in short machine phrases); Izumi's puns turned into English puns.
+- Partner packages stay in memory during a mission: they grow at most +512 bytes (2022, Gato).
+- 605 resources changed; audit PASS. SHA-256 `ee93ee69969950b22f1e076e9913cda6530b0c815a554a79591e7dce0ae9e74d`.
+
+## 0.0.13 — 2026-10-10
+
+- **Real cause of the Op 12-1 freeze: text longer than its widget.** Each text widget reserves a buffer for a fixed
+  number of characters, and the glyph builder never checks it. The message window asked for 60; the Japanese never
+  goes past 60, the English did in about 1,960 lines. Lines of 65–67 characters before the cutscene overwrote a HUD
+  sprite that is only drawn in the boss phase.
+- **Executable patch:** message window capacity 60 → 128 (`exe.py`). Validator: a message line shows at most 127
+  bytes. Seven briefing lines rewritten to fit.
+- Probably also the cause of the 0.0.9 pause freeze (pause confirmations of 89–96 characters).
+- **Partner chatter found:** it lives in the `PMS` chunk of each partner's model package (`VMD` format), which the
+  extractor did not read. 1,394 text locations now (was 934); new tables `partnerNNN` and `partner_names`
+  (pilot names, filled from the glossary). Lines not yet translated in this build.
+- `tools/research/crash_watch.py` lists every text widget in RAM (capacity, characters, text) and dumps the moment
+  one overflows.
+
+## 0.0.12 — 2026-10-10
+
+- **Game memory +256 KB** (owner's decision): `exe.py` moves the stack/heap boundary up, so the arena where every
+  mission is loaded grows from 0x1950100 to 0x1990100 bytes. The stack keeps 768 KB (161 KB used at most).
+- The executable change makes PCSX2 see a different CRC: save states of older builds do not load; memory card saves
+  are fine.
+- `audit_iso.py` requires the executable to be the original plus exactly these patches.
+- SHA-256 `feada09f94d4275077415193b9d3c7d7da0b7fe75d599084b37ba655e461f14b`.
+
+## 0.0.11 — 2026-10-10
+
+- 0.0.10 froze in Op 12-1 after the cutscene before the fight with Kaine. First diagnosis: memory. Mission files
+  kept their Japanese table as dead weight when the English one was appended.
+- `ace2lib.mission_relayout` rebuilds each table where the Japanese one was and moves the sections after it: the
+  largest mission file now grows +800 bytes (was +24,800), −12 KB in total (was +920 KB).
+- `audit_iso.py` fails a mission file that carries dead bytes ("mission memory").
+- Not the cause of the freeze (0.0.12 froze the same way), but kept.
+- 389 resources changed; audit PASS. SHA-256 `374a798d8c6bd0877cb648b77f319f991fc2f4f9423807aeec9d0952f7025a77`.
 
 ## 0.0.10 — 2026-10-09
 

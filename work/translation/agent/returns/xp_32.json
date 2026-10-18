@@ -1,0 +1,1645 @@
+{
+ "batch": "xp_32",
+ "operation": null,
+ "group": "xp",
+ "group_label": "Partner battle chatter: the lines of the partner unit the player picks, said during any mission. The speaker of each row is in \"phase\".",
+ "previous_batch": "xp_31",
+ "next_batch": "xp_33",
+ "rows_in_slice": 80,
+ "do_not_touch_names": [
+  "Amuro Ray",
+  "Barkholz",
+  "Capt. Burning",
+  "Captain Burning",
+  "Captain South Burning",
+  "Cowen",
+  "Giganos",
+  "Lieutenant",
+  "Lt.",
+  "Major Anavel Gato",
+  "Sinapus",
+  "Tak"
+ ],
+ "glossary": [
+  {
+   "ja": "タック・ケプフォード",
+   "en": "Tak Kepford",
+   "kind": "character",
+   "series": "Another Century's Episode 2 (original)",
+   "gender": "male",
+   "role": "ACE2 protagonist; UCE squad leader (First Lieutenant) and Gun Ark test pilot, joins the Albion unit.",
+   "personality": "Skilled ace and natural leader, but clumsy with machines (mechanically inept); grows suspicious of the Rainen Project and fights to bring Marina back.",
+   "en_short": "Tak"
+  },
+  {
+   "ja": "マリナ",
+   "en": "Marina",
+   "kind": "character",
+   "series": "Another Century's Episode 2 (original)",
+   "gender": "female",
+   "role": "ACE2 heroine; Ensign in Tak's squad, pilot of the red Gun Ark; goes missing at Torrington Base, reappears with the Rainen Project in the Buster Ark, later rejoins Tak.",
+   "personality": "Cool and reserved ('defrosting ice queen' in flashbacks); deeply bonded with Tak.",
+   "full_name": "Marina Carson"
+  }
+ ],
+ "known_portraits": {},
+ "unknown_portraits": [],
+ "context_before": [
+  {
+   "ref": "partner190#43",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>こいつは……強い！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner190#44",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>ようやく俺も本気を出せる…！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner190#45",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>拳を交える価値のある相手だ！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner190#46",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>レディィィーーーーーーーーーー\nゴォーーーーーーーーーーーーー！！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner190#47",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>こいつは何者！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner190#48",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>いいファイトだった。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner190#49",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>ありがとう、お前の助けが無かったら、\n俺は負けていた。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner190#50",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>これで邪魔はいなくなった。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner190#51",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>ふっ、ちょっと来るのが早すぎたかな。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner190#52",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>俺は先に帰るぜ…<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner190#53",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>ふっ…おもしろい…<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner190#54",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>俺の勝ちだ！<ab(0)><ed()>",
+   "en": ""
+  }
+ ],
+ "context_after": [
+  {
+   "ref": "partner201#34",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>敵部隊を確認…まだ、やる気なのね。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner201#35",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>まだ来る…気をつけて。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner201#36",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>こちらも増援を確認。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner201#37",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>大丈夫、誰も死なせない。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner201#38",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>違うタイプ…注意して。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner201#39",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>簡単に倒せる相手ではなさそうね。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner201#40",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>これを倒せば終わる…<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner201#41",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>言ってもどうにもならないけど…\nやられないで。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner201#42",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>弱点さえつけば…！<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner201#43",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>マリナ・カーソン、帰還します。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner201#44",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>出力正常…問題なし。<ab(0)><ed()>",
+   "en": ""
+  },
+  {
+   "ref": "partner201#45",
+   "layer": "partner chatter",
+   "jp": "<op()><sp(20)>終わった…帰還します。<ab(0)><ed()>",
+   "en": ""
+  }
+ ],
+ "report": {
+  "translator_summary": "Translated by Claude (not the external agent) at the user's request, 2026-10-10. Partner battle chatter, Tak (タック), Marina (マリナ).",
+  "rows_examined": "partner200#0..partner201#33",
+  "rows_examined_count": 80,
+  "uncertainties": [],
+  "glossary_proposals": [],
+  "portrait_speakers": {}
+ },
+ "rows": [
+  {
+   "ref": "partner200#0",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>全員無事だな！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Everyone's safe!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#1",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>囲まれないように注意して隊形を保つんだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Keep formation and watch out you don't get surrounded.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#2",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺はこんなところでやられるわけには\nいかない！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I can't go down in a place like this!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#3",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>生き残るのが最優先だ、無茶はするな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Survival is the top priority. Don't do anything reckless.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#4",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>無駄な戦いは終わらせる！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll put an end to this pointless fight!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#6",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この調子ならまだ行けそうだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>At this pace, we can still keep going.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#7",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>もういいだろう、帰ってくれ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>That's enough, just go home!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#8",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この戦いで事態が好転すれば\nいいんだが…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I hope this battle turns things around...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#9",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 2,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>死んでいった仲間のためにも…\n俺は生き残る！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>For the comrades who died... I'll survive!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#10",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>負けてやるわけにはいかなくてな！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I just can't afford to lose!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#11",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このままだとまずいな…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>This is bad at this rate...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#12",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>くそっ、完全に劣勢だ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Damn, we're completely outmatched!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#13",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>簡単に覚悟は決められないな！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I can't just resign myself that easily!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#14",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>せめて仲間だけでも…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>At least my comrades...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#15",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>マリナ……！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Marina...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#16",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これより戦闘態勢に入ります！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Entering combat mode!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#17",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>始まるな…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Here it begins...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#18",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>生還が最優先だ！　忘れないでくれ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Getting back alive is the top priority! Don't forget that!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#19",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>誰一人として死なせないぞ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I won't let a single one of us die.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#20",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>恐れはない！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'm not afraid!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#21",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>頼む！　もう少しもってくれ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Please! Hold on a little longer!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#22",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>諦めるな！　絶対生きて帰るんだ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't give up! We're getting back alive, no matter what!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#23",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>俺たちならまだやれるはずだ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We can still do this!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#25",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>絶対に生きて帰るんだ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We're definitely getting back alive!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#26",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>さすが！　いい腕をしている！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Impressive! You're skilled!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#27",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ハッ、俺の出る幕はないみたいだ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Ha, looks like I'm not needed.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#28",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>一緒にいると、負ける気がしないな。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>With you around, I don't feel like we can lose.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#29",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>一緒に戦えて光栄だな！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>It's an honor to fight alongside you!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#30",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どれだけ戦えば気が済むっていうんだ…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>How much fighting will it take to satisfy them...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#31",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まだいるのか！？　…ったく！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>There's more!? ...Geez!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#32",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>増援！　どっちだ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Reinforcements! Where!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#33",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>これぐらい、何でもないさ…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>This is nothing...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#34",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>数を出せば勝てると思ってるのか…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Do they think numbers alone will win...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#35",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こいつ…手強い！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>This one... is tough!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#36",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今までとは違うタイプ…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>A different type from before...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#37",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵の大将か！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>The enemy commander!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#38",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こいつさえ倒せば…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>If I can just beat this one...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#39",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵は強い…でも俺は死なない！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>The enemy is strong... but I won't die!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#40",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>タック・ケプフォード、帰還します。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Tak Kepford, returning.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#41",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今回も生き延びることができた…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I survived again this time...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#42",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>みんな、帰ろう！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Everyone, let's go home!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#43",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>任務完了、これより帰投する！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Mission complete. Returning to base!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#44",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あとどれだけ戦うんだ……？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>How much longer do we have to fight...?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#45",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>無事に帰るさ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll make it back safe!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#46",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>いよいよか…やってやるさ！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Here it comes at last... I'll do it!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner200#47",
+   "layer": "partner chatter",
+   "phase": "speaker: Tak (タック) | unit: Gun Ark (ガンアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>なんとか、無事に終わったな…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>We made it through safely, somehow...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#0",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こんなところで死ぬわけにはいかない。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I can't die in a place like this.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#1",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>この編成なら大丈夫！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>With this formation, we'll be fine!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#2",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>助けが必要なら、言ってね。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>If you need help, just say so.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#3",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>絶対に、生きて帰る…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll make it back alive... no matter what!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#4",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>敵も必死だけど…私は負けない！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>The enemy is desperate too... but I won't lose!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#5",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今は戦うしかない…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>For now, I can only fight...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#6",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…次は誰！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>...Who's next!?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#7",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>損傷は軽微…まだいける！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Damage is minor... I can still go!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#8",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>つらいようだったらサポートするわ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>If it's getting rough, I'll support you.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#9",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>お願い…もう来ないで！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Please... no more!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#10",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>ダメージが大きくなったら、一旦下がって！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>If you take heavy damage, fall back for a while!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#11",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>連携を崩さないで！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Don't break formation!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#12",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>今はやれるだけのことを…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>For now, I'll do all I can...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#13",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>こんなところで…私は…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>In a place like this... I...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#14",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>まだ行ける…負けない！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I can still go... I won't lose!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#15",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>負けるわけには、いかない…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I can't lose...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#16",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>みんなを死なせたくない…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I don't want anyone to die...!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#17",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>このままだと…負ける！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>At this rate... we'll lose!<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#18",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>作戦行動を開始します。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Commencing operation.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#19",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>約束して…無理はしないで。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Promise me... don't push yourself.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#20",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>私がやらなくては…<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I have to do this...<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#21",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>出力レベル、調整完了。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Output level adjusted.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#22",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>制御システムオールグリーン…いける。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Control systems all green... ready.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#23",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…しっかりして。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>...Pull yourself together.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#24",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>どうしたの？　まだ大丈夫なはずよ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>What's wrong? You should still be fine.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#25",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>セオリーどおりじゃ生き残れないわよ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You won't survive by going by the book.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#26",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>私が助ける。　だからもう少しがんばって。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>I'll help you. So hang in there a bit longer.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#27",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…あなたなら、できると思ってるわ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>...I think you can do it.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#28",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>…いい腕ね。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>...Good skills.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#29",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>助けられたわね。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>You saved me.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#30",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あなたのおかげね。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>It's thanks to you.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#31",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>少し過信してない？<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Aren't you a little overconfident?<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#32",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>あなたとなら不安はないわ。<ab(0)><ed()>",
+   "en": "<op()><sp(20)>With you, I have no worries.<ab(0)><ed()>",
+   "notes": ""
+  },
+  {
+   "ref": "partner201#33",
+   "layer": "partner chatter",
+   "phase": "speaker: Marina (マリナ) | unit: Buster Ark (バスターアーク)",
+   "tokens": [
+    "<op()>",
+    "<sp(20)>",
+    "<ab(0)>",
+    "<ed()>"
+   ],
+   "jp_lines": 1,
+   "max_lines": 2,
+   "max_line_px": 380,
+   "max_line_chars_approx": 38,
+   "jp": "<op()><sp(20)>増援を確認…！<ab(0)><ed()>",
+   "en": "<op()><sp(20)>Reinforcements confirmed...!<ab(0)><ed()>",
+   "notes": ""
+  }
+ ]
+}

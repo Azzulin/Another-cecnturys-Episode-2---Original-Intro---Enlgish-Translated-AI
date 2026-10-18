@@ -90,7 +90,7 @@ def check_row(rr, rb, ctx, neighbors='', fixed=False):
     if not isinstance(en, str) or not en.strip():
         return errors + ['tradução vazia'], warns
     jp = rb['jp']
-    errors += check_tokens(jp, en)
+    errors += check_tokens(jp, en, name)
     visible = STRIP.sub('', en)
     bad = sorted({c for c in visible if not (c == '\n' or 32 <= ord(c) < 127 or (c in ICONS and c in jp))})
     if bad:
